@@ -175,6 +175,16 @@ def leg_text(l):
     pt = f" {l['point']}" if l.get("point") not in ("", None) else ""
     return f"{l['player']} {l['side']}{pt} {m}"
 
+def checked_stats():
+    """Total near-main props actually checked (>=3 books) across every tracked book, and the
+    clearance rate against that denominator — the number that answers 'is 8 out of how many?'"""
+    lines = latest_per_line(read_rows("lines"))
+    checked = [r for r in lines if fnum(r["fair_prob"]) is not None and NEAR[0] <= fnum(r["fair_prob"]) <= NEAR[1] and int(r["n_books"]) >= 3]
+    cands = read_rows("candidates")
+    distinct_c = {(c["event_id"], c["market"], c["player"], c["point"], c["side"], c["book"]) for c in cands}
+    return dict(checked=len(checked), cleared=len(distinct_c),
+                rate=100 * len(distinct_c) / len(checked) if checked else None)
+
 def public_build():
     slips = read_rows("slips")
     settled = [s for s in slips if s["resolution"] != "open" and s["settled_ts"]]
@@ -197,6 +207,7 @@ def public_build():
         live.append(dict(sl, legs_parsed=legs, kickoff=min(ks) if ks else "", started=bool(ks) and parse_iso(min(ks)) <= utcnow()))
     live.sort(key=lambda x: (x["kickoff"] or "9", x["ts"]))
     return dict(generated=iso(), ledger=_slips.ledger_summary(), settled=settled[::-1][:40], series=series, live=live,
+                checked=checked_stats(),
                 weeks=sorted(weeks.values(), key=lambda w: w["week"], reverse=True),
                 first_settled=settled[0]["settled_ts"][:10] if settled else None)
 
@@ -280,6 +291,15 @@ def public_page(p):
         f'<tr><td>{kick_label(x["kickoff"], x["started"])}</td><td>{x["kind"]}</td><td>{BOOK_LABEL.get(x["book"], x["book"])}</td>'
         f'<td>{html.escape("  +  ".join(leg_text(l) for l in x["legs_parsed"]))}</td><td>{int(x["price"]):+d}</td></tr>' for x in p["live"])
     n_live = len(p["live"])
+    ck = p.get("checked", {})
+    howworks = f"""<h2>How it works</h2><div class="card">
+<p>Every few hours, the system checks player-prop lines across ~15 sportsbooks and exchanges (DraftKings, FanDuel, Hard Rock, Kalshi, Polymarket, and others). For each prop it strips out the house's cut to get a no-vig "fair" probability, then averages that across every book pricing it — that's the market consensus.</p>
+<p>A prop only becomes a candidate if it clears three checks: <b>at least 3 books</b> are pricing the exact same line, the fair probability sits in a <b>normal 30–70% range</b> (extreme longshot lines produce math artifacts, not real edges, so they're excluded entirely), and the gap between one book's price and the consensus is <b>at least 3%</b> — big enough to not be rounding noise.</p>
+<div class="row" style="margin:10px 0"><b>{ck.get('checked',0):,}</b><span class="mut">near-main props checked this way</span><b>{ck.get('cleared',0)}</b><span class="mut">cleared all three checks</span><b>{f"{ck['rate']:.2f}%" if ck.get('rate') is not None else "—"}</b><span class="mut">clearance rate</span></div>
+<p class="mut">One cleared prop can become more than one slip below — a straight bet, and it may also feed a cross-game parlay or a same-game parlay — so the slip counts above are not a count of distinct edges found. The clearance rate is the number that actually says how rare a real disagreement is. A low, stable rate over the season is the expected, honest outcome — it would mean these markets are efficient, which is more likely true than not.</p>
+<p class="mut">Passing these checks doesn't prove a bet is right — it just means it's worth tracking. The real test is <b>closing line value</b>: does the market move toward our number before kickoff? That's measured separately and isn't shown on this page, but it's what ultimately decides whether any of this is signal.</p>
+</div>
+"""
     return f"""<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Eevee · paper prop ledger</title><style>
 :root{{--bg:#fff;--fg:#1a1a1a;--mut:#6b6b6b;--card:#f5f5f4;--line:#e5e5e3}}
@@ -299,6 +319,7 @@ details>summary::before{{content:"▸";color:var(--mut);font-size:14px}}details[
 <h1>Eevee · paper prop ledger</h1>
 <div class="mut">Every slip here is built by a fixed rule set and settled against the box score. $5 flat, paper only, nothing is placed. Updated {p['generated'][:16]}Z{f" · tracking since {p['first_settled']}" if p['first_settled'] else ""}.</div>
 <div class="hero">{hero}</div>
+{howworks}
 <h2>By slip type</h2><div class="g">{kinds}</div>
 <h2>Cumulative P&amp;L</h2><div class="card">{svg_cum(p['series'])}</div>
 <h2>Live slips <span class="mut" style="font-weight:400;font-size:14px">· {n_live} pending</span></h2>
