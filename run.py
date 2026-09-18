@@ -6,7 +6,7 @@
 """
 import traceback, datetime as dt
 from common import *
-import snapshot, close, report
+import snapshot, close, report, slips
 
 def main():
     api = Api()
@@ -16,6 +16,8 @@ def main():
         for sport in SPORTS:
             snaps.append(snapshot.run(api, sport=sport))
         cl = close.run(api)
+        n_auto = dict(straight=slips.auto_log(), parlay=slips.auto_parlays(), sgp=slips.auto_sgps(api))
+        slips.settle()
         s = report.build()
         open(os.path.join(DOCS, "index.html"), "w").write(report.html_page(s))
         events_seen = sum(x["events"] for x in snaps)
@@ -25,7 +27,7 @@ def main():
             telegram(report.text_summary(s, "weekly")); state_set("summary_week", week)
         if events_seen == 0 and now.weekday() in (3, 4, 5, 6):                                 # Thu–Sun with nothing captured
             telegram(f"Eevee — warning: snapshot found 0 events on {now:%a %H:%M}Z. API remaining={api.remaining}")
-        print("tick ok", dict(events=events_seen, api_calls=api.calls, remaining=api.remaining))
+        print("tick ok", dict(events=events_seen, auto_slips=n_auto, api_calls=api.calls, remaining=api.remaining))
     except Exception as e:
         telegram(f"Eevee — FAILED {now:%a %Y-%m-%d %H:%M}Z\n{type(e).__name__}: {e}"[:3500])
         traceback.print_exc(); raise

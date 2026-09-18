@@ -7,6 +7,7 @@
 import argparse, html, json, statistics as st
 from collections import defaultdict
 from common import *
+import slips as _slips
 
 NEAR = (0.35, 0.65)
 
@@ -76,10 +77,15 @@ def build():
     return dict(generated=iso(), events=len(events), weeks=weeks, lines=len(lines), candidates=len(distinct_c),
                 bettable_candidates=len({k for k in distinct_c if k[5] in BETTABLE}), hr=hr, ud=ud, h2=h2, h4=h4,
                 verdicts=verdicts(hr, ud, h2, h4, weeks), last_snapshot=state_get("last_snapshot"),
-                recent_candidates=sorted(cands, key=lambda c: c["ts"])[-15:][::-1])
+                recent_candidates=sorted(cands, key=lambda c: c["ts"])[-15:][::-1],
+                ledger=_slips.ledger_summary(),
+                recent_slips=read_rows("slips")[-15:][::-1])
 
 def fmt(x, d=1, suf=""):
     return "—" if x is None else f"{x:+.{d}f}{suf}" if isinstance(x, float) else str(x)
+
+def pct(x):
+    return "—" if x is None else f"{x:.0f}%"
 
 def text_summary(s, kind="weekly"):
     if kind == "board":
@@ -94,6 +100,14 @@ def text_summary(s, kind="weekly"):
     L.append(f"Paper: {h2.get('graded',0)} graded · {fmt(h2.get('pnl_units'),2)}u · ROI {fmt(h2.get('roi'))}%")
     h4 = s["h4"]
     L.append(f"H4 SGP: {h4.get('n',0)} probes · median factor {fmt(h4.get('median'),3) if h4.get('median') else '—'} → {s['verdicts']['H4 correlation']}")
+    lg = s.get("ledger", {})
+    if lg.get("n"):
+        L.append(f"Slip ledger (${lg['stake_usd']:.0f} each): {lg['n']} logged · {lg['open']} open · "
+                 f"{lg['won']}-{lg['lost']} ({pct(lg.get('win_pct'))} W/L) · ${lg.get('pnl_units',0):+.2f} · ROI {fmt(lg.get('roi'))}%")
+        for k in ("straight", "parlay", "sgp"):
+            b = lg["by_kind"][k]
+            if b["n"]:
+                L.append(f"  {k:8} {b['n']:>3} · {b['won']}-{b['lost']} ({pct(b.get('win_pct'))}) · ${b['pnl']:+.2f} · ROI {fmt(b.get('roi'))}%")
     return "\n".join(L)
 
 def svg_hist(h, title):
@@ -105,8 +119,17 @@ def svg_hist(h, title):
     return f'<h3>{title}</h3><svg viewBox="0 0 {W} {H}" width="100%" style="max-width:640px">{bars}{ticks}<line x1="{30+15*w}" y1="0" x2="{30+15*w}" y2="102" stroke="#999" stroke-dasharray="3"/></svg>'
 
 def html_page(s):
-    hr, ud, h2, h4 = s["hr"], s["ud"], s["h2"], s["h4"]
+    hr, ud, h2, h4, lg = s["hr"], s["ud"], s["h2"], s["h4"], s.get("ledger", {})
     vrows = "".join(f"<tr><td>{k}</td><td><b>{v}</b></td></tr>" for k, v in s["verdicts"].items())
+    srow = "".join(f"<tr><td>{r['ts'][:16]}</td><td>{r['kind']}</td><td>{r['book']}</td><td>{r['price']}</td>"
+                   f"<td>{html.escape(' + '.join(l['player'] for l in json.loads(r['legs'])))}</td>"
+                   f"<td>{r['resolution']}</td><td>{('$'+format(float(r['pnl_units']),'+.2f')) if r['pnl_units'] not in ('', None) else ''}</td></tr>" for r in s.get("recent_slips", []))
+    def kind_row(k):
+        b = lg.get("by_kind", {}).get(k)
+        if not b or not b["n"]: return f"<tr><td>{k}</td><td colspan=5><small>none yet</small></td></tr>"
+        return (f"<tr><td>{k}</td><td>{b['n']}</td><td>{b['open']}</td><td>{b['won']}-{b['lost']}</td>"
+                f"<td>{pct(b.get('win_pct'))}</td><td>${b['pnl']:+.2f} · ROI {fmt(b.get('roi'))}%</td></tr>")
+    krows = "".join(kind_row(k) for k in ("straight", "parlay", "sgp"))
     crow = "".join(f"<tr><td>{c['ts'][:16]}</td><td>{html.escape(c['away'])} @ {html.escape(c['home'])}</td><td>{html.escape(c['player'])}</td>"
                    f"<td>{c['market'].replace('player_','')} {c['side']} {c['point']}</td><td>{c['book']}</td><td>{c['price']}</td>"
                    f"<td>{fmt(fnum(c['ev_pct']))}%</td><td>{c['fair_source']}/{c['n_books']}b</td></tr>" for c in s["recent_candidates"])
@@ -126,6 +149,12 @@ td,th{{padding:4px 6px;text-align:left;border-bottom:1px solid #8883}}small{{col
 <div class="card"><h3>H4 · SGP correlation</h3>{h4.get('n',0)} quoted probes<br>median factor {fmt(h4.get('median'),3) if h4.get('median') else '—'} · &lt;1: {h4.get('under1',0)} · &gt;1: {h4.get('over1',0)}<br><small>factor = book SGP price ÷ independent product; ≈1.0 means correlation is priced</small></div>
 </div>
 <div class="card">{svg_hist(hr.get('hist'), 'Hard Rock EV% distribution (near-main, ≥3 books)')}{svg_hist(ud.get('hist'), 'Underdog EV% distribution (near-main, ≥3 books)')}</div>
+<div class="card"><h2>Slip ledger</h2>
+{f"{lg['n']} logged · {lg['open']} open · {lg['won']}-{lg['lost']} <b>({pct(lg.get('win_pct'))} W/L)</b> · staked ${lg.get('staked_usd',0):.0f} · <b>{'$'+format(lg.get('pnl_units',0),'+.2f')}</b> · ROI {fmt(lg.get('roi'))}%" if lg.get('n') else "none logged yet — auto-builds every tick from gated candidates"}
+<table><tr><th>kind</th><th>logged</th><th>open</th><th>W-L</th><th>W/L%</th><th>P&amp;L</th></tr>{krows}</table>
+<small>${lg.get('stake_usd', 5):.0f} flat per slip, paper only. <b>straight</b> = every gated candidate. <b>parlay</b> = same-book, cross-game, EV-ranked pairs + one 3-leg, priced as the independent product. <b>sgp</b> = per game, two best legs, at FanDuel/DraftKings' own correlated price (logged only if the book quotes it). Settles each tick once every leg is graded. W/L% excludes pushes.</small>
+<h3>Recent slips</h3>
+<table><tr><th>ts</th><th>kind</th><th>book</th><th>price</th><th>legs</th><th>result</th><th>pnl</th></tr>{srow or '<tr><td colspan=7>none yet</td></tr>'}</table></div>
 <div class="card"><h2>Recent candidates</h2><table><tr><th>ts</th><th>game</th><th>player</th><th>leg</th><th>book</th><th>price</th><th>EV</th><th>anchor</th></tr>{crow or '<tr><td colspan=8>none yet</td></tr>'}</table>
 <small>{s['candidates']} distinct candidates so far · {s['bettable_candidates']} at a bettable book</small></div>
 <div class="card"><small>Gates: fair 30–70% · ≥3 books · EV ≥ +3% · exchange anchors need ≥4 books. Sources: PropLine /ev, /clv/grade, /results, /sgp.</small></div>

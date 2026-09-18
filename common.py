@@ -25,6 +25,9 @@ GATE = dict(
 )
 SGP_BOOKS = ["fanduel", "draftkings"]
 SGP_PROBES_PER_EVENT = 3                       # H4 sampling; keep API calls modest
+STAKE_USD = 5.0                                 # paper stake per auto-logged slip
+MAX_PARLAYS_PER_BOOK = 3                        # auto cross-game parlays per book per tick (plus one 3-leg)
+SGP_RETRY_HOURS = 24                            # don't re-ask a book to quote the same SGP within this window
 
 # ---------------------------------------------------------------- time
 def utcnow():
@@ -120,3 +123,6 @@ def am_to_p(a):
 
 def am_to_dec(a):
     a = int(a); return 1 + (a / 100 if a > 0 else 100 / -a)
+
+def dec_to_am(d):
+    return int(round((d - 1) * 100)) if d >= 2 else int(round(-100 / (d - 1)))
