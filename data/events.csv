@@ -1,0 +1,16 @@
+event_id,sport,home,away,commence_time,first_seen
+32634,football_nfl,TEN Titans,PHI Eagles,2026-09-20T17:00:00Z,2026-09-18T18:04:00Z
+32633,football_nfl,ATL Falcons,CAR Panthers,2026-09-20T17:00:00Z,2026-09-18T18:04:00Z
+32635,football_nfl,TB Buccaneers,CLE Browns,2026-09-20T17:00:00Z,2026-09-18T18:04:00Z
+32637,football_nfl,CHI Bears,MIN Vikings,2026-09-20T17:00:00Z,2026-09-18T18:04:00Z
+32638,football_nfl,NE Patriots,PIT Steelers,2026-09-20T17:00:00Z,2026-09-18T18:04:00Z
+32640,football_nfl,HOU Texans,CIN Bengals,2026-09-20T17:00:00Z,2026-09-18T18:04:00Z
+32639,football_nfl,BAL Ravens,NO Saints,2026-09-20T17:00:00Z,2026-09-18T18:04:00Z
+32636,football_nfl,NY Jets,GB Packers,2026-09-20T17:00:00Z,2026-09-18T18:04:00Z
+32641,football_nfl,DEN Broncos,JAX Jaguars,2026-09-20T20:05:00Z,2026-09-18T18:04:00Z
+32642,football_nfl,LA Chargers,LV Raiders,2026-09-20T20:05:00Z,2026-09-18T18:04:00Z
+32645,football_nfl,ARI Cardinals,SEA Seahawks,2026-09-20T20:25:00Z,2026-09-18T18:04:00Z
+32644,football_nfl,DAL Cowboys,WAS Commanders,2026-09-20T20:25:00Z,2026-09-18T18:04:00Z
+32643,football_nfl,SF 49ers,MIA Dolphins,2026-09-20T20:25:00Z,2026-09-18T18:04:00Z
+32646,football_nfl,KC Chiefs,IND Colts,2026-09-21T00:20:00Z,2026-09-18T18:04:00Z
+32647,football_nfl,LA Rams,NY Giants,2026-09-22T00:15:00Z,2026-09-18T18:04:00Z

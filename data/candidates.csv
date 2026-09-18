@@ -1,0 +1,24 @@
+ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev_pct,fair_prob,fair_source,n_books,hours_to_kick,bettable,gate_note
+2026-09-18T18:04:00Z,football_nfl,32637,2026-09-20T17:00:00Z,CHI Bears,MIN Vikings,player_pass_completions,Caleb Williams,19.5,Under,bovada,100,3.42,0.5171,pinnacle,5,46.9,False,ev +3.4 fair 0.517 pinnacle 5b
+2026-09-18T18:04:00Z,football_nfl,32637,2026-09-20T17:00:00Z,CHI Bears,MIN Vikings,player_pass_completions,Caleb Williams,19.5,Under,draftkings,100,3.42,0.5171,pinnacle,5,46.9,False,ev +3.4 fair 0.517 pinnacle 5b
+2026-09-18T18:04:00Z,football_nfl,32637,2026-09-20T17:00:00Z,CHI Bears,MIN Vikings,player_receptions,Justin Jefferson,6.5,Over,kalshi,133,5.83,0.4542,pinnacle,8,46.9,False,ev +5.8 fair 0.454 pinnacle 8b
+2026-09-18T18:04:00Z,football_nfl,32637,2026-09-20T17:00:00Z,CHI Bears,MIN Vikings,player_receptions,T.J. Hockenson,3.5,Over,kalshi,108,4.0,0.5,pinnacle,10,46.9,False,ev +4.0 fair 0.500 pinnacle 10b
+2026-09-18T18:04:00Z,football_nfl,32640,2026-09-20T17:00:00Z,HOU Texans,CIN Bengals,player_reception_yds,Dalton Schultz,41.5,Under,bovada,115,7.5,0.5,pinnacle,4,46.9,False,ev +7.5 fair 0.500 pinnacle 4b
+2026-09-18T18:04:00Z,football_nfl,32640,2026-09-20T17:00:00Z,HOU Texans,CIN Bengals,player_receptions,Chase Brown,3.5,Under,bovada,105,5.41,0.5142,pinnacle,10,46.9,False,ev +5.4 fair 0.514 pinnacle 10b
+2026-09-18T18:04:00Z,football_nfl,32640,2026-09-20T17:00:00Z,HOU Texans,CIN Bengals,player_receptions,Chase Brown,3.5,Under,draftkings,103,4.38,0.5142,pinnacle,10,46.9,False,ev +4.4 fair 0.514 pinnacle 10b
+2026-09-18T18:04:00Z,football_nfl,32640,2026-09-20T17:00:00Z,HOU Texans,CIN Bengals,player_receptions,David Montgomery,1.5,Under,kalshi,156,4.44,0.408,pinnacle,8,46.9,False,ev +4.4 fair 0.408 pinnacle 8b
+2026-09-18T18:04:00Z,football_nfl,32640,2026-09-20T17:00:00Z,HOU Texans,CIN Bengals,player_receptions,Xavier Hutchinson,2.5,Under,kalshi,122,3.84,0.4677,pinnacle,8,46.9,False,ev +3.8 fair 0.468 pinnacle 8b
+2026-09-18T18:04:00Z,football_nfl,32640,2026-09-20T17:00:00Z,HOU Texans,CIN Bengals,player_rush_attempts,Chase Brown,14.5,Over,underdog,100,8.38,0.5419,pinnacle,3,46.9,False,ev +8.4 fair 0.542 pinnacle 3b
+2026-09-18T18:04:00Z,football_nfl,32636,2026-09-20T17:00:00Z,NY Jets,GB Packers,player_receptions,Chris Brooks,1.5,Over,kalshi,144,7.11,0.439,pinnacle,8,46.9,False,ev +7.1 fair 0.439 pinnacle 8b
+2026-09-18T18:04:00Z,football_nfl,32636,2026-09-20T17:00:00Z,NY Jets,GB Packers,player_receptions,Chris Brooks,1.5,Over,bovada,135,3.16,0.439,pinnacle,8,46.9,False,ev +3.2 fair 0.439 pinnacle 8b
+2026-09-18T18:04:00Z,football_nfl,32636,2026-09-20T17:00:00Z,NY Jets,GB Packers,player_receptions,Chris Brooks,1.5,Over,draftkings,135,3.16,0.439,pinnacle,8,46.9,False,ev +3.2 fair 0.439 pinnacle 8b
+2026-09-18T18:04:00Z,football_nfl,32642,2026-09-20T20:05:00Z,LA Chargers,LV Raiders,player_receptions,Omarion Hampton,2.5,Over,kalshi,170,4.2,0.3859,pinnacle,8,50.0,False,ev +4.2 fair 0.386 pinnacle 8b
+2026-09-18T18:04:00Z,football_nfl,32645,2026-09-20T20:25:00Z,ARI Cardinals,SEA Seahawks,player_receptions,AJ Barner,2.5,Under,underdog,-105,3.12,0.5282,pinnacle,8,50.4,False,ev +3.1 fair 0.528 pinnacle 8b
+2026-09-18T18:04:00Z,football_nfl,32644,2026-09-20T20:25:00Z,DAL Cowboys,WAS Commanders,player_pass_attempts,Jayden Daniels,29.5,Over,underdog,-102,4.6,0.5282,pinnacle,5,50.4,False,ev +4.6 fair 0.528 pinnacle 5b
+2026-09-18T18:04:00Z,football_nfl,32644,2026-09-20T20:25:00Z,DAL Cowboys,WAS Commanders,player_pass_completions,Jayden Daniels,19.5,Over,underdog,-112,5.85,0.5592,pinnacle,7,50.4,False,ev +5.8 fair 0.559 pinnacle 7b
+2026-09-18T18:04:00Z,football_nfl,32644,2026-09-20T20:25:00Z,DAL Cowboys,WAS Commanders,player_pass_completions,Jayden Daniels,19.5,Over,draftkings,-114,4.97,0.5592,pinnacle,7,50.4,False,ev +5.0 fair 0.559 pinnacle 7b
+2026-09-18T18:04:00Z,football_nfl,32644,2026-09-20T20:25:00Z,DAL Cowboys,WAS Commanders,player_pass_completions,Jayden Daniels,19.5,Over,hardrock,-115,4.55,0.5592,pinnacle,7,50.4,True,ev +4.5 fair 0.559 pinnacle 7b
+2026-09-18T18:04:00Z,football_nfl,32644,2026-09-20T20:25:00Z,DAL Cowboys,WAS Commanders,player_pass_completions,Jayden Daniels,19.5,Over,bovada,-115,4.55,0.5592,pinnacle,7,50.4,False,ev +4.5 fair 0.559 pinnacle 7b
+2026-09-18T18:04:00Z,football_nfl,32644,2026-09-20T20:25:00Z,DAL Cowboys,WAS Commanders,player_receptions,Rachaad White,2.5,Under,hardrock,-150,5.59,0.6335,kalshi,5,50.4,True,ev +5.6 fair 0.633 kalshi 5b
+2026-09-18T18:04:00Z,football_nfl,32643,2026-09-20T20:25:00Z,SF 49ers,MIA Dolphins,player_receptions,De'Von Achane,4.5,Over,kalshi,144,5.07,0.4306,pinnacle,6,50.4,False,ev +5.1 fair 0.431 pinnacle 6b
+2026-09-18T18:04:00Z,football_nfl,32646,2026-09-21T00:20:00Z,KC Chiefs,IND Colts,player_receptions,Tyquan Thornton,1.5,Over,kalshi,170,3.45,0.3831,pinnacle,9,54.3,False,ev +3.5 fair 0.383 pinnacle 9b
