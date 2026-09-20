@@ -501,3 +501,23 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-09-20T14:59:11Z,football_nfl,32646,2026-09-21T00:20:00Z,KC Chiefs,IND Colts,player_receptions,Alec Pierce,2.5,Over,kalshi,-133,3.41,0.5903,pinnacle,11,9.3,False,ev +3.4 fair 0.590 pinnacle 11b
 2026-09-20T14:59:11Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_reception_yds,Odell Beckham Jr.,6.5,Over,fanduel,112,3.85,0.4899,bovada,4,33.3,False,ev +3.9 fair 0.490 bovada 4b
 2026-09-20T14:59:11Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_receptions,Davante Adams,3.5,Over,kalshi,-163,4.81,0.6496,pinnacle,5,33.3,False,ev +4.8 fair 0.650 pinnacle 5b
+2026-09-20T19:53:56Z,football_nfl,32641,2026-09-20T20:05:00Z,DEN Broncos,JAX Jaguars,player_receptions,Pat Bryant,3.5,Under,bovada,-135,3.13,0.5924,pinnacle,10,0.2,False,ev +3.1 fair 0.592 pinnacle 10b
+2026-09-20T19:53:56Z,football_nfl,32641,2026-09-20T20:05:00Z,DEN Broncos,JAX Jaguars,player_rush_attempts,J.K. Dobbins,13.5,Over,underdog,-102,5.38,0.5321,pinnacle,5,0.2,False,ev +5.4 fair 0.532 pinnacle 5b
+2026-09-20T19:53:56Z,football_nfl,32642,2026-09-20T20:05:00Z,LA Chargers,LV Raiders,player_receptions,David Njoku,2.5,Under,draftkings,111,4.59,0.4957,pinnacle,10,0.2,False,ev +4.6 fair 0.496 pinnacle 10b
+2026-09-20T19:53:56Z,football_nfl,32642,2026-09-20T20:05:00Z,LA Chargers,LV Raiders,player_receptions,David Njoku,2.5,Under,bovada,110,4.09,0.4957,pinnacle,10,0.2,False,ev +4.1 fair 0.496 pinnacle 10b
+2026-09-20T19:53:56Z,football_nfl,32642,2026-09-20T20:05:00Z,LA Chargers,LV Raiders,player_receptions,Ladd McConkey,3.5,Under,hardrock,125,4.15,0.4629,pinnacle,6,0.2,True,ev +4.2 fair 0.463 pinnacle 6b
+2026-09-20T19:53:56Z,football_nfl,32642,2026-09-20T20:05:00Z,LA Chargers,LV Raiders,player_receptions,Omarion Hampton,1.5,Under,hardrock,160,5.52,0.4058,kalshi,4,0.2,True,ev +5.5 fair 0.406 kalshi 4b
+2026-09-20T19:53:56Z,football_nfl,32642,2026-09-20T20:05:00Z,LA Chargers,LV Raiders,player_rush_yds,Ashton Jeanty,62.5,Over,underdog,-112,4.45,0.5518,pinnacle,3,0.2,False,ev +4.5 fair 0.552 pinnacle 3b
+2026-09-20T19:53:56Z,football_nfl,32645,2026-09-20T20:25:00Z,ARI Cardinals,SEA Seahawks,player_reception_yds,Trey McBride,60.5,Under,bovada,110,3.64,0.4935,pinnacle,7,0.5,False,ev +3.6 fair 0.493 pinnacle 7b
+2026-09-20T19:53:56Z,football_nfl,32645,2026-09-20T20:25:00Z,ARI Cardinals,SEA Seahawks,player_receptions,Marvin Harrison Jr.,3.5,Under,bovada,-135,3.43,0.5942,kalshi,8,0.5,False,ev +3.4 fair 0.594 kalshi 8b
+2026-09-20T19:53:56Z,football_nfl,32645,2026-09-20T20:25:00Z,ARI Cardinals,SEA Seahawks,player_receptions,Rashid Shaheed,2.5,Over,kalshi,186,6.21,0.3714,pinnacle,7,0.5,False,ev +6.2 fair 0.371 pinnacle 7b
+2026-09-20T19:53:56Z,football_nfl,32644,2026-09-20T20:25:00Z,DAL Cowboys,WAS Commanders,player_receptions,Terry McLaurin,4.5,Under,bovada,-130,3.35,0.5841,kalshi,7,0.5,False,ev +3.4 fair 0.584 kalshi 7b
+2026-09-20T19:53:56Z,football_nfl,32643,2026-09-20T20:25:00Z,SF 49ers,MIA Dolphins,player_receptions,Chris Bell,1.5,Over,kalshi,-117,3.4,0.5575,pinnacle,10,0.5,False,ev +3.4 fair 0.557 pinnacle 10b
+2026-09-20T19:53:56Z,football_nfl,32643,2026-09-20T20:25:00Z,SF 49ers,MIA Dolphins,player_receptions,De'Von Achane,4.5,Over,kalshi,144,4.1,0.4266,pinnacle,8,0.5,False,ev +4.1 fair 0.427 pinnacle 8b
+2026-09-20T19:53:56Z,football_nfl,32643,2026-09-20T20:25:00Z,SF 49ers,MIA Dolphins,player_rush_attempts,De'Von Achane,14.5,Under,draftkings,-117,5.24,0.5674,pinnacle,5,0.5,False,ev +5.2 fair 0.567 pinnacle 5b
+2026-09-20T19:53:56Z,football_nfl,32643,2026-09-20T20:25:00Z,SF 49ers,MIA Dolphins,player_rush_attempts,De'Von Achane,14.5,Under,underdog,-120,4.02,0.5674,pinnacle,5,0.5,False,ev +4.0 fair 0.567 pinnacle 5b
+2026-09-20T19:53:56Z,football_nfl,32646,2026-09-21T00:20:00Z,KC Chiefs,IND Colts,player_receptions,Alec Pierce,2.5,Over,kalshi,-133,3.41,0.5903,pinnacle,11,4.4,False,ev +3.4 fair 0.590 pinnacle 11b
+2026-09-20T19:53:56Z,football_nfl,32646,2026-09-21T00:20:00Z,KC Chiefs,IND Colts,player_receptions,Rashee Rice,4.5,Under,bovada,110,4.09,0.4957,pinnacle,12,4.4,False,ev +4.1 fair 0.496 pinnacle 12b
+2026-09-20T19:53:56Z,football_nfl,32646,2026-09-21T00:20:00Z,KC Chiefs,IND Colts,player_receptions,Rashee Rice,4.5,Under,draftkings,108,3.1,0.4957,pinnacle,12,4.4,False,ev +3.1 fair 0.496 pinnacle 12b
+2026-09-20T19:53:56Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_receptions,Davante Adams,3.5,Under,hardrock,260,26.27,0.3508,pinnacle,3,28.4,True,ev +26.3 fair 0.351 pinnacle 3b
+2026-09-20T19:53:56Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_receptions,Davante Adams,3.5,Under,kalshi,233,16.8,0.3508,pinnacle,3,28.4,False,ev +16.8 fair 0.351 pinnacle 3b
