@@ -521,3 +521,6 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-09-20T19:53:56Z,football_nfl,32646,2026-09-21T00:20:00Z,KC Chiefs,IND Colts,player_receptions,Rashee Rice,4.5,Under,draftkings,108,3.1,0.4957,pinnacle,12,4.4,False,ev +3.1 fair 0.496 pinnacle 12b
 2026-09-20T19:53:56Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_receptions,Davante Adams,3.5,Under,hardrock,260,26.27,0.3508,pinnacle,3,28.4,True,ev +26.3 fair 0.351 pinnacle 3b
 2026-09-20T19:53:56Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_receptions,Davante Adams,3.5,Under,kalshi,233,16.8,0.3508,pinnacle,3,28.4,False,ev +16.8 fair 0.351 pinnacle 3b
+2026-09-21T01:59:48Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_pass_tds,Matthew Stafford,1.5,Over,kalshi,-163,3.48,0.6414,pinnacle,9,22.3,False,ev +3.5 fair 0.641 pinnacle 9b
+2026-09-21T01:59:48Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_receptions,Terrance Ferguson,2.5,Over,kalshi,127,3.1,0.4542,pinnacle,7,22.3,False,ev +3.1 fair 0.454 pinnacle 7b
+2026-09-21T01:59:48Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_receptions,Tyler Higbee,1.5,Over,kalshi,-104,3.6,0.5282,pinnacle,7,22.3,False,ev +3.6 fair 0.528 pinnacle 7b
