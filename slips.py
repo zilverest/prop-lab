@@ -69,17 +69,16 @@ def auto_log():
         new.append(_row("straight", c["book"], [c], c["price"], "auto")); existing.add(k)
     return append_rows("slips", new, SLIP_FIELDS)
 
-def auto_parlays():
-    """Cross-game parlays, one book per ticket, legs from distinct events, ranked by EV.
-    Pairs (1,2),(3,4),... up to MAX_PARLAYS_PER_BOOK, plus one 3-leg from the top three.
-    Priced as the independent product of the legs' decimal odds. Idempotent."""
-    existing = logged_sets("parlay"); new = []
-    by_book = {}
-    for c in open_candidates(): by_book.setdefault(c["book"], []).append(c)
+def _build_parlays(cands, construct, existing):
+    """Shared parlay builder. `construct` is a label written to the note so report.py can compare rules.
+    One book per ticket, one leg per game, pairs (1,2),(3,4),... up to MAX_PARLAYS_PER_BOOK plus one 3-leg.
+    Priced as the independent product of the legs' decimal odds."""
+    new = []; by_book = {}
+    for c in cands: by_book.setdefault(c["book"], []).append(c)
     for book, legs in by_book.items():
         legs.sort(key=lambda c: -float(c["ev_pct"]))
         pool, seen_ev = [], set()
-        for c in legs:                                     # one leg per game
+        for c in legs:
             if c["event_id"] in seen_ev: continue
             seen_ev.add(c["event_id"]); pool.append(c)
         combos = [pool[i:i + 2] for i in range(0, min(len(pool) - 1, 2 * MAX_PARLAYS_PER_BOOK), 2)]
@@ -90,13 +89,47 @@ def auto_parlays():
             if k in existing: continue
             dec = 1.0
             for c in combo: dec *= am_to_dec(c["price"])
-            new.append(_row("parlay", book, combo, dec_to_am(dec), f"auto {len(combo)}-leg independent product"))
+            new.append(_row("parlay", book, combo, dec_to_am(dec), f"auto construct={construct} legs={len(combo)} independent product"))
             existing.add(k)
+    return new
+
+def auto_parlays():
+    """Two constructions run side by side so report.py can compare them:
+      ev-ranked   — every gated candidate, ranked by EV (the original rule)
+      anchor-pure — only legs with a trusted anchor (Pinnacle/Bovada) AND >= PARLAY_PURE_MIN_BOOKS quoting.
+                    Theory: estimation error compounds in a parlay, so build from the least-noisy legs, not the biggest EV.
+    A combo already logged under one construction is not re-logged under the other. Idempotent."""
+    existing = logged_sets("parlay")
+    cands = open_candidates()
+    pure = [c for c in cands if c["fair_source"] in GATE["trusted_anchors"] and int(c["n_books"]) >= PARLAY_PURE_MIN_BOOKS]
+    new = _build_parlays(pure, "anchor-pure", existing)          # pure first so shared combos get the stricter label
+    new += _build_parlays(cands, "ev-ranked", existing)
     return append_rows("slips", new, SLIP_FIELDS)
 
+def is_stack(a, b):
+    """Heuristic: a passer leg + a pass-catcher leg, same game, same direction. The feed has no team field,
+    so this can occasionally pair a QB with the opposing team's receiver — labelled 'stack' but audit it."""
+    mk = {a["market"], b["market"]}
+    return bool(mk & PASSER_MARKETS) and bool(mk & CATCHER_MARKETS) and a["side"] == b["side"]
+
+def _pick_sgp_pairs(legs):
+    """From one game's candidates (EV-sorted) return {'stack': pair or None, 'stranger': pair or None}."""
+    pairs = {"stack": None, "stranger": None}
+    best = {"stack": -1e9, "stranger": -1e9}
+    for i in range(len(legs)):
+        for j in range(i + 1, len(legs)):
+            a, b = legs[i], legs[j]
+            if a["player"] == b["player"]: continue
+            kind = "stack" if is_stack(a, b) else "stranger"
+            score = float(a["ev_pct"]) + float(b["ev_pct"])
+            if score > best[kind]: best[kind] = score; pairs[kind] = [a, b]
+    return pairs
+
 def auto_sgps(api):
-    """Per game: our two best candidate legs on different players -> ask each SGP book for its own
-    correlated price. Log only if quoted. One attempt per (book, legs) per SGP_RETRY_HOURS."""
+    """Per game, two deliberate constructions, each sent to every SGP book for its own correlated price:
+      stack    — passer + pass-catcher, same direction (positively correlated; tests whether books discount it enough)
+      stranger — two unrelated legs (control: correlation_factor should sit near 1.0)
+    Log only if quoted. One attempt per (book, legs) per SGP_RETRY_HOURS. Idempotent."""
     existing = logged_sets("sgp"); new = []
     attempted = state_get("sgp_attempted", {}); now = utcnow()
     by_event = {}
@@ -105,27 +138,24 @@ def auto_sgps(api):
         by_event.setdefault(c["event_id"], []).append(c)
     for eid, legs in by_event.items():
         legs.sort(key=lambda c: -float(c["ev_pct"]))
-        combo, players = [], set()
-        for c in legs:
-            if c["player"] in players: continue
-            players.add(c["player"]); combo.append(c)
-            if len(combo) == 2: break
-        if len(combo) < 2: continue
+        pairs = _pick_sgp_pairs(legs)
         sport = next((e["sport"] for e in read_rows("events") if e["event_id"] == eid), SPORTS[0])
-        body_legs = [{"market": c["market"], "name": c["side"], "description": c["player"], "point": float(c["point"])} for c in combo]
-        for book in SGP_BOOKS:
-            k = (book, frozenset(leg_key(c) for c in combo))
-            if k in existing: continue
-            ak = f"{book}|{eid}|" + "|".join(sorted("/".join(x) for x in k[1]))
-            last = attempted.get(ak)
-            if last and (now - parse_iso(last)).total_seconds() < SGP_RETRY_HOURS * 3600: continue
-            attempted[ak] = iso(now)
-            res = api.post(f"/sports/{sport}/events/{eid}/sgp", {"bookmaker": book, "legs": body_legs})
-            if not isinstance(res, dict) or res.get("quoted") is not True: continue
-            new.append(_row("sgp", book, combo, res["sgp_price"],
-                            f"auto independent_price={res.get('independent_price')}",
-                            correlation_factor=res.get("correlation_factor", ""), quoted=True))
-            existing.add(k)
+        for construct, combo in pairs.items():
+            if not combo: continue
+            body_legs = [{"market": c["market"], "name": c["side"], "description": c["player"], "point": float(c["point"])} for c in combo]
+            for book in SGP_BOOKS:
+                k = (book, frozenset(leg_key(c) for c in combo))
+                if k in existing: continue
+                ak = f"{book}|{eid}|" + "|".join(sorted("/".join(x) for x in k[1]))
+                last = attempted.get(ak)
+                if last and (now - parse_iso(last)).total_seconds() < SGP_RETRY_HOURS * 3600: continue
+                attempted[ak] = iso(now)
+                res = api.post(f"/sports/{sport}/events/{eid}/sgp", {"bookmaker": book, "legs": body_legs})
+                if not isinstance(res, dict) or res.get("quoted") is not True: continue
+                new.append(_row("sgp", book, combo, res["sgp_price"],
+                                f"auto construct={construct} independent_price={res.get('independent_price')}",
+                                correlation_factor=res.get("correlation_factor", ""), quoted=True))
+                existing.add(k)
     state_set("sgp_attempted", attempted)
     return append_rows("slips", new, SLIP_FIELDS)
 

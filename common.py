@@ -26,8 +26,11 @@ GATE = dict(
 SGP_BOOKS = ["fanduel", "draftkings"]
 SGP_PROBES_PER_EVENT = 3                       # H4 sampling; keep API calls modest
 STAKE_USD = 5.0                                 # paper stake per auto-logged slip
-MAX_PARLAYS_PER_BOOK = 3                        # auto cross-game parlays per book per tick (plus one 3-leg)
+MAX_PARLAYS_PER_BOOK = 3                        # auto cross-game parlays per book per tick (plus one 3-leg), per construction
 SGP_RETRY_HOURS = 24                            # don't re-ask a book to quote the same SGP within this window
+PARLAY_PURE_MIN_BOOKS = 5                       # "anchor-pure" parlays: trusted anchor AND at least this many books per leg
+PASSER_MARKETS = {"player_pass_yds", "player_pass_attempts", "player_pass_completions", "player_pass_tds"}
+CATCHER_MARKETS = {"player_reception_yds", "player_receptions", "player_reception_longest"}
 
 # ---------------------------------------------------------------- time
 def utcnow():

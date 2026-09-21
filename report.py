@@ -4,7 +4,7 @@
   python3 report.py --telegram    -> also sends the summary to Telegram
   python3 report.py --kind board  -> short "board captured" message (Thursday)
 """
-import argparse, html, json, statistics as st, datetime as dt
+import argparse, html, json, re, statistics as st, datetime as dt
 from collections import defaultdict
 from common import *
 import slips as _slips
@@ -67,6 +67,79 @@ def verdicts(hr, ud, h2, h4, weeks):
     else: v["H4 correlation"] = f"open ({h4.get('n', 0)}/60 probes)"
     return v
 
+def universe(lines):
+    """The same near-main, >=3-books denominator used everywhere else — every book pooled together."""
+    return [r for r in lines if fnum(r["fair_prob"]) is not None and NEAR[0] <= fnum(r["fair_prob"]) <= NEAR[1] and int(r["n_books"]) >= 3]
+
+def extremity_bucket(fp):
+    d = abs(fp - 0.5)
+    if d < 0.05: return "near-coin (45-55%)"
+    if d < 0.10: return "slight lean (40-45 / 55-60%)"
+    return "moderate lean (35-40 / 60-65%)"
+
+EXTREMITY_ORDER = ["near-coin (45-55%)", "slight lean (40-45 / 55-60%)", "moderate lean (35-40 / 60-65%)"]
+
+def timing_bucket(h):
+    if h >= 72: return "early week (72h+)"
+    if h >= 24: return "midweek (24-72h)"
+    return "close to kickoff (<24h)"
+
+TIMING_ORDER = ["early week (72h+)", "midweek (24-72h)", "close to kickoff (<24h)"]
+
+def slice_stats(rows, bucketer, order):
+    out = []
+    for label in order:
+        sub = [r for r in rows if bucketer(r) == label]
+        ev = [fnum(r["ev_pct"]) for r in sub]
+        if not ev: out.append(dict(label=label, n=0)); continue
+        out.append(dict(label=label, n=len(ev), mean=st.mean(ev), plus=sum(e > 0 for e in ev), plus3=sum(e >= 3 for e in ev)))
+    return out
+
+def bucket_slices(lines):
+    u = universe(lines)
+    by_extremity = slice_stats(u, lambda r: extremity_bucket(fnum(r["fair_prob"])), EXTREMITY_ORDER)
+    by_timing = slice_stats(u, lambda r: timing_bucket(fnum(r["hours_to_kick"], 999)), TIMING_ORDER)
+    return dict(n=len(u), by_extremity=by_extremity, by_timing=by_timing)
+
+# ---------------------------------------------------------------- construction theories
+def _construct(note):
+    m = re.search(r"construct=([a-z\-]+)", note or "")
+    return m.group(1) if m else "unlabelled"
+
+def _slip_stats(rows):
+    settled = [r for r in rows if r["resolution"] != "open"]
+    won = sum(r["resolution"] == "won" for r in settled); lost = sum(r["resolution"] == "lost" for r in settled)
+    pnl = sum(fnum(r["pnl_units"], 0.0) for r in settled)
+    staked = sum(fnum(r["stake"], 0.0) for r in settled if r["resolution"] in ("won", "lost"))
+    return dict(n=len(rows), open=len(rows) - len(settled), won=won, lost=lost,
+                win_pct=100 * won / (won + lost) if (won + lost) else None,
+                pnl=pnl, roi=100 * pnl / staked if staked else None)
+
+def construction_report():
+    slips = read_rows("slips")
+    straights = _slip_stats([r for r in slips if r["kind"] == "straight"])
+    r_s = (straights["roi"] or 0.0) / 100.0
+    parlays = [r for r in slips if r["kind"] == "parlay"]
+    by_construct = {}
+    for c in ("anchor-pure", "ev-ranked", "unlabelled"):
+        sub = [r for r in parlays if _construct(r["note"]) == c]
+        if sub: by_construct[c] = _slip_stats(sub)
+    by_legs = {}
+    for n in (2, 3):
+        sub = [r for r in parlays if len(json.loads(r["legs"])) == n]
+        st_ = _slip_stats(sub); st_["predicted_roi"] = 100 * ((1 + r_s) ** n - 1)   # if legs carry the straights' ROI independently
+        by_legs[n] = st_
+    sgps = [r for r in slips if r["kind"] == "sgp"]
+    sgp_by = {}
+    for c in ("stack", "stranger", "unlabelled"):
+        sub = [r for r in sgps if _construct(r["note"]) == c]
+        if not sub: continue
+        f = [fnum(r["correlation_factor"]) for r in sub if fnum(r["correlation_factor"]) is not None]
+        d = _slip_stats(sub); d["median_factor"] = st.median(f) if f else None; d["n_factor"] = len(f)
+        sgp_by[c] = d
+    return dict(straights_roi=straights["roi"], parlay_by_construct=by_construct, parlay_by_legs=by_legs, sgp_by_construct=sgp_by)
+
+
 def build():
     lines = latest_per_line(read_rows("lines")); cands = read_rows("candidates"); clv = read_rows("clv")
     sgp = read_rows("sgp"); events = read_rows("events")
@@ -79,6 +152,9 @@ def build():
                 verdicts=verdicts(hr, ud, h2, h4, weeks), last_snapshot=state_get("last_snapshot"),
                 recent_candidates=sorted(cands, key=lambda c: c["ts"])[-15:][::-1],
                 ledger=_slips.ledger_summary(),
+                slices=bucket_slices(lines),
+                constructions=construction_report(),
+                top_conviction=ranked_live(public_build()["live"])[:15],
                 recent_slips=read_rows("slips")[-15:][::-1])
 
 def fmt(x, d=1, suf=""):
@@ -100,6 +176,13 @@ def text_summary(s, kind="weekly"):
     L.append(f"Paper: {h2.get('graded',0)} graded · {fmt(h2.get('pnl_units'),2)}u · ROI {fmt(h2.get('roi'))}%")
     h4 = s["h4"]
     L.append(f"H4 SGP: {h4.get('n',0)} probes · median factor {fmt(h4.get('median'),3) if h4.get('median') else '—'} → {s['verdicts']['H4 correlation']}")
+    cn = s.get("constructions", {})
+    sb = cn.get("sgp_by_construct", {})
+    if sb:
+        L.append("SGP factor: " + " · ".join(f"{k} {fmt(v.get('median_factor'),3)} (n={v['n']})" for k, v in sb.items() if v.get('median_factor') is not None))
+    pb = cn.get("parlay_by_construct", {})
+    if pb:
+        L.append("Parlay ROI: " + " · ".join(f"{k} {fmt(v.get('roi'))}% (n={v['n']})" for k, v in pb.items()))
     lg = s.get("ledger", {})
     if lg.get("n"):
         L.append(f"Slip ledger (${lg['stake_usd']:.0f} each): {lg['n']} logged · {lg['open']} open · "
@@ -149,12 +232,36 @@ td,th{{padding:4px 6px;text-align:left;border-bottom:1px solid #8883}}small{{col
 <div class="card"><h3>H4 · SGP correlation</h3>{h4.get('n',0)} quoted probes<br>median factor {fmt(h4.get('median'),3) if h4.get('median') else '—'} · &lt;1: {h4.get('under1',0)} · &gt;1: {h4.get('over1',0)}<br><small>factor = book SGP price ÷ independent product; ≈1.0 means correlation is priced</small></div>
 </div>
 <div class="card">{svg_hist(hr.get('hist'), 'Hard Rock EV% distribution (near-main, ≥3 books)')}{svg_hist(ud.get('hist'), 'Underdog EV% distribution (near-main, ≥3 books)')}</div>
+<div class="g">
+<div class="card"><h3>By odds extremity</h3><small>near-main universe, all books pooled, n={s['slices']['n']}</small>
+<table><tr><th>bucket</th><th>n</th><th>mean EV</th><th>+EV</th><th>≥+3%</th></tr>{"".join(f"<tr><td>{b['label']}</td><td>{b['n']}</td><td>{fmt(b.get('mean'))}%</td><td>{b.get('plus','—')}</td><td>{b.get('plus3','—')}</td></tr>" for b in s['slices']['by_extremity'])}</table>
+<small>Tests the favorite-longshot bias: literature says slight leans hold up best, extreme edges are usually devig artifacts.</small></div>
+<div class="card"><h3>By time to kickoff</h3><small>same universe, n={s['slices']['n']}</small>
+<table><tr><th>bucket</th><th>n</th><th>mean EV</th><th>+EV</th><th>≥+3%</th></tr>{"".join(f"<tr><td>{b['label']}</td><td>{b['n']}</td><td>{fmt(b.get('mean'))}%</td><td>{b.get('plus','—')}</td><td>{b.get('plus3','—')}</td></tr>" for b in s['slices']['by_timing'])}</table>
+<small>Tests whether early lines lag real-world news more than lines set close to kickoff.</small></div>
+</div>
 <div class="card"><h2>Slip ledger</h2>
 {f"{lg['n']} logged · {lg['open']} open · {lg['won']}-{lg['lost']} <b>({pct(lg.get('win_pct'))} W/L)</b> · staked ${lg.get('staked_usd',0):.0f} · <b>{'$'+format(lg.get('pnl_units',0),'+.2f')}</b> · ROI {fmt(lg.get('roi'))}%" if lg.get('n') else "none logged yet — auto-builds every tick from gated candidates"}
 <table><tr><th>kind</th><th>logged</th><th>open</th><th>W-L</th><th>W/L%</th><th>P&amp;L</th></tr>{krows}</table>
 <small>${lg.get('stake_usd', 5):.0f} flat per slip, paper only. <b>straight</b> = every gated candidate. <b>parlay</b> = same-book, cross-game, EV-ranked pairs + one 3-leg, priced as the independent product. <b>sgp</b> = per game, two best legs, at FanDuel/DraftKings' own correlated price (logged only if the book quotes it). Settles each tick once every leg is graded. W/L% excludes pushes.</small>
 <h3>Recent slips</h3>
 <table><tr><th>ts</th><th>kind</th><th>book</th><th>price</th><th>legs</th><th>result</th><th>pnl</th></tr>{srow or '<tr><td colspan=7>none yet</td></tr>'}</table></div>
+<div class="card"><h2>Construction theories</h2>
+<div class="g">
+<div><h3>Parlays by rule</h3><table><tr><th>rule</th><th>n</th><th>W-L</th><th>W/L%</th><th>ROI</th></tr>
+{"".join(f"<tr><td>{k}</td><td>{v['n']}</td><td>{v['won']}-{v['lost']}</td><td>{pct(v.get('win_pct'))}</td><td>{fmt(v.get('roi'))}%</td></tr>" for k, v in s['constructions']['parlay_by_construct'].items()) or '<tr><td colspan=5><small>none yet</small></td></tr>'}</table>
+<small>anchor-pure = Pinnacle/Bovada anchor and ≥{PARLAY_PURE_MIN_BOOKS} books per leg; ev-ranked = original rule. Theory: less-noisy legs compound less error.</small></div>
+<div><h3>Parlays by leg count</h3><table><tr><th>legs</th><th>n</th><th>W-L</th><th>realized ROI</th><th>predicted*</th></tr>
+{"".join(f"<tr><td>{k}</td><td>{v['n']}</td><td>{v['won']}-{v['lost']}</td><td>{fmt(v.get('roi'))}%</td><td>{fmt(v.get('predicted_roi'))}%</td></tr>" for k, v in s['constructions']['parlay_by_legs'].items())}</table>
+<small>*if each leg carried the straights' realized ROI ({fmt(s['constructions']['straights_roi'])}%) independently: (1+r)^n − 1. Realized well below predicted ⇒ extra parlay hold.</small></div>
+<div><h3>SGP by construction</h3><table><tr><th>type</th><th>n</th><th>median factor</th><th>W-L</th><th>ROI</th></tr>
+{"".join(f"<tr><td>{k}</td><td>{v['n']}</td><td>{fmt(v.get('median_factor'),3) if v.get('median_factor') is not None else '—'}</td><td>{v['won']}-{v['lost']}</td><td>{fmt(v.get('roi'))}%</td></tr>" for k, v in s['constructions']['sgp_by_construct'].items()) or '<tr><td colspan=5><small>none yet</small></td></tr>'}</table>
+<small>stack = passer + pass-catcher, same direction (heuristic, no team data); stranger = unrelated legs. factor = book SGP price ÷ independent product. Stack factor well below stranger factor ⇒ the book is discounting correlation.</small></div>
+</div></div>
+<div class="card"><h2>Top conviction (open straights)</h2>
+<table><tr><th>score</th><th>leg</th><th>book</th><th>price</th><th>kickoff</th><th>ev</th><th>anchor</th><th>depth</th><th>seen</th><th>coin</th><th>combo</th></tr>
+{"".join(f"<tr><td><b>{y['score']:.1f}</b></td><td>{html.escape(leg_text(y['legs_parsed'][0]))}</td><td>{y['book']}{' <b>HR</b>' if y['book'] in BETTABLE else ''}</td><td>{int(y['price']):+d}</td><td>{y['kickoff'][:16] if y['kickoff'] else '—'}</td><td>{y['parts']['ev']:+.1f}</td><td>{y['parts']['anchor']:+.0f}</td><td>{y['parts']['depth']:+.2f}</td><td>×{int(y['parts']['persist']/0.5)+1}</td><td>{y['parts']['coin']:+.1f}</td><td>{y['parts']['combo']:+.0f}</td></tr>" for y in s.get('top_conviction', []))}</table>
+<small>score = ev% + anchor(+1 Pinnacle/Bovada) + depth(+0.25/book over 3, cap 1) + persistence(+0.5/extra snapshot, cap 1.5) + near-coin(+0.5 if 45–55%) − combo(1). Game-day Telegram sends the top {TOP_N} in the 12h window.</small></div>
 <div class="card"><h2>Recent candidates</h2><table><tr><th>ts</th><th>game</th><th>player</th><th>leg</th><th>book</th><th>price</th><th>EV</th><th>anchor</th></tr>{crow or '<tr><td colspan=8>none yet</td></tr>'}</table>
 <small>{s['candidates']} distinct candidates so far · {s['bettable_candidates']} at a bettable book</small></div>
 <div class="card"><small>Gates: fair 30–70% · ≥3 books · EV ≥ +3% · exchange anchors need ≥4 books. Sources: PropLine /ev, /clv/grade, /results, /sgp.</small></div>
@@ -211,19 +318,63 @@ def public_build():
                 weeks=sorted(weeks.values(), key=lambda w: w["week"], reverse=True),
                 first_settled=settled[0]["settled_ts"][:10] if settled else None)
 
+COMBO_MARKETS = {"player_pass_rush_yds", "player_rush_reception_yds", "player_pass_rush_reception_yds", "player_pass_rush_reception_tds"}
+TOP_N = 8
+
+def conviction(slip, cand_counts, cands_by_key):
+    """Additive, transparent score for a straight slip. Returns (score, parts) or None for non-straights."""
+    if slip["kind"] != "straight": return None
+    leg = slip["legs_parsed"][0]
+    key = (leg.get("event_id", slip["event_id"]), leg["market"], leg["player"], str(leg["point"]), leg["side"], slip["book"])
+    c = cands_by_key.get(key, {})
+    ev = fnum(slip.get("ev_pct_at_bet")) or fnum(c.get("ev_pct")) or 0.0
+    fp = fnum(slip.get("fair_prob_at_bet")) or fnum(c.get("fair_prob"))
+    nb = int(c.get("n_books", 3) or 3); src = c.get("fair_source", "")
+    parts = {"ev": round(ev, 2)}
+    score = ev
+    parts["anchor"] = 1.0 if src in GATE["trusted_anchors"] else 0.0; score += parts["anchor"]
+    parts["depth"] = min(1.0, 0.25 * max(0, nb - 3)); score += parts["depth"]
+    seen = cand_counts.get(key, 1)
+    parts["persist"] = min(1.5, 0.5 * max(0, seen - 1)); score += parts["persist"]
+    parts["coin"] = 0.5 if fp is not None and 0.45 <= fp <= 0.55 else 0.0; score += parts["coin"]
+    parts["combo"] = -1.0 if leg["market"] in COMBO_MARKETS else 0.0; score += parts["combo"]
+    return round(score, 2), parts
+
+def ranked_live(live):
+    """Attach conviction to every open straight; returns list sorted best-first."""
+    cands = read_rows("candidates")
+    counts, by_key = {}, {}
+    for c in cands:
+        k = (c["event_id"], c["market"], c["player"], str(c["point"]), c["side"], c["book"])
+        counts[k] = counts.get(k, 0) + 1; by_key[k] = c        # last observation wins for fields
+    out = []
+    for x in live:
+        r = conviction(x, counts, by_key)
+        if r is None: continue
+        y = dict(x); y["score"], y["parts"] = r; out.append(y)
+    return sorted(out, key=lambda y: -y["score"])
+
 def live_text(hours=12):
-    """Telegram text: open slips kicking off within the next `hours`. Returns None if none."""
+    """Game-day Telegram: the TOP_N highest-conviction straights kicking off within `hours`.
+    Everything else stays on the dashboard. Returns None if nothing is in the window."""
     p = public_build(); now = utcnow()
     soon = [x for x in p["live"] if x["kickoff"] and 0 <= (parse_iso(x["kickoff"]) - now).total_seconds() <= hours * 3600]
     if not soon: return None
+    ranked = ranked_live(soon)
+    top = ranked[:TOP_N]
     lg = p["ledger"]
-    L = [f"Eevee — game day · {len(soon)} live slip{'s' if len(soon) != 1 else ''} ($5 each)"]
-    cur = None
-    for x in soon:
-        t = parse_iso(x["kickoff"]).astimezone(dt.timezone(dt.timedelta(hours=-4))).strftime("%a %-I:%M %p ET")
-        if t != cur: L.append(f"\n{t}"); cur = t
-        L.append(f"  {x['kind'][:3].upper()} {BOOK_LABEL.get(x['book'], x['book'])} {int(x['price']):+d} · " + " + ".join(leg_text(l) for l in x["legs_parsed"]))
-    L.append(f"\nRecord {lg.get('won',0)}–{lg.get('lost',0)} · ${lg.get('pnl_units',0):+.2f} · ROI {fmt(lg.get('roi'))}%")
+    L = [f"Eevee — game day · top {len(top)} of {len(soon)} live ($5 paper each)"]
+    L.append("ranked by edge + anchor + depth + persistence; not a win prediction")
+    for i, x in enumerate(top, 1):
+        t = parse_iso(x["kickoff"]).astimezone(dt.timezone(dt.timedelta(hours=-4))).strftime("%a %-I:%M%p")
+        hr = " · HR" if x["book"] in BETTABLE else ""
+        pr = x["parts"]
+        L.append(f"\n{i}. [{x['score']:.1f}] {leg_text(x['legs_parsed'][0])}")
+        L.append(f"   {BOOK_LABEL.get(x['book'], x['book'])} {int(x['price']):+d}{hr} · {t}")
+        L.append(f"   ev {pr['ev']:+.1f} · anchor {pr['anchor']:+.0f} · depth {pr['depth']:+.2f} · seen×{int(pr['persist']/0.5)+1} · coin {pr['coin']:+.1f}{' · combo -1' if pr['combo'] else ''}")
+    rest = len(soon) - len(top)
+    if rest > 0: L.append(f"\n+{rest} more (incl. parlays/SGPs) on the dashboard")
+    L.append(f"Record {lg.get('won',0)}–{lg.get('lost',0)} · ${lg.get('pnl_units',0):+.2f} · ROI {fmt(lg.get('roi'))}%")
     return "\n".join(L)
 
 def record_text():
