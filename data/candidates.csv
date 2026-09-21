@@ -531,3 +531,6 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-09-21T11:15:41Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_receptions,Kyren Williams,2.5,Over,kalshi,133,3.4,0.4438,pinnacle,10,13.0,False,ev +3.4 fair 0.444 pinnacle 10b
 2026-09-21T11:15:41Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_receptions,Malachi Fields,2.5,Over,kalshi,138,3.7,0.4357,pinnacle,10,13.0,False,ev +3.7 fair 0.436 pinnacle 10b
 2026-09-21T11:15:41Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Kyle Pitts,3.5,Over,underdog,-114,4.02,0.5541,bovada,4,85.0,False,ev +4.0 fair 0.554 bovada 4b
+2026-09-21T17:17:25Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_receptions,Darnell Mooney,1.5,Over,bovada,150,13.7,0.4548,pinnacle,9,7.0,False,ev +13.7 fair 0.455 pinnacle 9b
+2026-09-21T17:17:25Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_receptions,Terrance Ferguson,2.5,Under,draftkings,-114,3.95,0.5537,pinnacle,12,7.0,False,ev +4.0 fair 0.554 pinnacle 12b
+2026-09-21T17:17:25Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Kyle Pitts,3.5,Over,underdog,-114,4.02,0.5541,bovada,4,79.0,False,ev +4.0 fair 0.554 bovada 4b
