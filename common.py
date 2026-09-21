@@ -31,10 +31,6 @@ SGP_RETRY_HOURS = 24                            # don't re-ask a book to quote t
 PARLAY_PURE_MIN_BOOKS = 5                       # "anchor-pure" parlays: trusted anchor AND at least this many books per leg
 PASSER_MARKETS = {"player_pass_yds", "player_pass_attempts", "player_pass_completions", "player_pass_tds"}
 CATCHER_MARKETS = {"player_reception_yds", "player_receptions", "player_reception_longest"}
-COMBO_MARKETS = {"player_pass_rush_yds", "player_rush_reception_yds", "player_pass_rush_reception_yds", "player_pass_rush_reception_tds"}
-TOP_N = 8                                       # how many top-scored picks the game-day Telegram message shows
-AUTO_LOG_MIN_SCORE = 3.0                        # quality floor for auto-logging (straights, and the pool parlays/SGPs draw from).
-                                                 # Raise this over time to log fewer, higher-quality slips without touching the pipeline.
 
 # ---------------------------------------------------------------- time
 def utcnow():

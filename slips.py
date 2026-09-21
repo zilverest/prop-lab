@@ -42,39 +42,6 @@ def open_candidates():
     now = utcnow()
     return [c for c in distinct_candidates() if parse_iso(c["commence_time"]) > now]
 
-def candidate_seen_counts():
-    """How many times each distinct leg has been observed in candidates.csv — the persistence signal."""
-    counts = {}
-    for c in read_rows("candidates"):
-        counts[leg_key(c)] = counts.get(leg_key(c), 0) + 1
-    return counts
-
-def candidate_score(c, seen_count):
-    """Canonical quality score for one gated candidate leg. Additive and fully transparent — every
-    part is shown wherever the score is displayed. Used both to rank picks (Telegram, dashboard) and,
-    via AUTO_LOG_MIN_SCORE, to decide what gets auto-logged at all — the quality-over-quantity lever."""
-    ev = float(c["ev_pct"]); fp = float(c["fair_prob"]); nb = int(c["n_books"]); src = c["fair_source"]
-    parts = {"ev": round(ev, 2)}
-    score = ev
-    parts["anchor"] = 1.0 if src in GATE["trusted_anchors"] else 0.0; score += parts["anchor"]
-    parts["depth"] = min(1.0, 0.25 * max(0, nb - 3)); score += parts["depth"]
-    parts["persist"] = min(1.5, 0.5 * max(0, seen_count - 1)); score += parts["persist"]
-    parts["coin"] = 0.5 if 0.45 <= fp <= 0.55 else 0.0; score += parts["coin"]
-    parts["combo"] = -1.0 if c["market"] in COMBO_MARKETS else 0.0; score += parts["combo"]
-    return round(score, 2), parts
-
-def quality_candidates():
-    """open_candidates() filtered to AUTO_LOG_MIN_SCORE. This is the single lever for 'more quality,
-    less quantity' over time — raise the constant in common.py and every slip type tightens together,
-    with no other code change."""
-    counts = candidate_seen_counts()
-    out = []
-    for c in open_candidates():
-        score, parts = candidate_score(c, counts.get(leg_key(c), 1))
-        if score >= AUTO_LOG_MIN_SCORE:
-            d = dict(c); d["_score"] = score; d["_parts"] = parts; out.append(d)
-    return out
-
 def logged_sets(kind):
     """{(book, frozenset(leg_keys))} for every slip of this kind already in the ledger."""
     out = set()
@@ -94,12 +61,12 @@ def _row(kind, book, combo, price, note, **extra):
     r.update(extra); return r
 
 def auto_log():
-    """Every gated candidate that clears AUTO_LOG_MIN_SCORE -> $STAKE_USD straight. Idempotent."""
+    """Every distinct gated candidate -> $STAKE_USD straight. Idempotent."""
     existing = logged_sets("straight"); new = []
-    for c in quality_candidates():
+    for c in distinct_candidates():
         k = (c["book"], frozenset([leg_key(c)]))
         if k in existing: continue
-        new.append(_row("straight", c["book"], [c], c["price"], f"auto score={c['_score']}")); existing.add(k)
+        new.append(_row("straight", c["book"], [c], c["price"], "auto")); existing.add(k)
     return append_rows("slips", new, SLIP_FIELDS)
 
 def _build_parlays(cands, construct, existing):
@@ -133,7 +100,7 @@ def auto_parlays():
                     Theory: estimation error compounds in a parlay, so build from the least-noisy legs, not the biggest EV.
     A combo already logged under one construction is not re-logged under the other. Idempotent."""
     existing = logged_sets("parlay")
-    cands = quality_candidates()
+    cands = open_candidates()
     pure = [c for c in cands if c["fair_source"] in GATE["trusted_anchors"] and int(c["n_books"]) >= PARLAY_PURE_MIN_BOOKS]
     new = _build_parlays(pure, "anchor-pure", existing)          # pure first so shared combos get the stricter label
     new += _build_parlays(cands, "ev-ranked", existing)
@@ -166,7 +133,7 @@ def auto_sgps(api):
     existing = logged_sets("sgp"); new = []
     attempted = state_get("sgp_attempted", {}); now = utcnow()
     by_event = {}
-    for c in quality_candidates():
+    for c in open_candidates():
         if c["point"] in ("", None) or c["side"] not in ("Over", "Under"): continue
         by_event.setdefault(c["event_id"], []).append(c)
     for eid, legs in by_event.items():
