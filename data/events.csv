@@ -24,3 +24,7 @@ event_id,sport,home,away,commence_time,first_seen
 32653,football_nfl,NY Giants,TEN Titans,2026-09-27T17:00:00Z,2026-09-21T17:17:25Z
 32652,football_nfl,WAS Commanders,SEA Seahawks,2026-09-27T17:00:00Z,2026-09-21T17:17:25Z
 32657,football_nfl,CLE Browns,CAR Panthers,2026-09-27T17:00:00Z,2026-09-21T17:17:25Z
+32659,football_nfl,SF 49ers,ARI Cardinals,2026-09-27T20:05:00Z,2026-09-21T21:17:59Z
+32658,football_nfl,TB Buccaneers,MIN Vikings,2026-09-27T20:05:00Z,2026-09-21T21:17:59Z
+23215,football_nfl,Dallas Cowboys,Baltimore Ravens,2026-09-27T20:25:00Z,2026-09-21T21:17:59Z
+32660,football_nfl,NO Saints,LV Raiders,2026-09-27T20:25:00Z,2026-09-21T21:17:59Z

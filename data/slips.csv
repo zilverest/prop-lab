@@ -448,3 +448,5 @@ ts,kind,event_id,book,legs,price,stake,ev_pct_at_bet,fair_prob_at_bet,correlatio
 2026-09-21T17:17:52Z,straight,32647,bovada,"[{""event_id"": ""32647"", ""market"": ""player_receptions"", ""player"": ""Darnell Mooney"", ""point"": ""1.5"", ""side"": ""Over""}]",150,5.0,13.7,0.4548,,,open,,,auto
 2026-09-21T17:17:52Z,straight,32647,draftkings,"[{""event_id"": ""32647"", ""market"": ""player_receptions"", ""player"": ""Terrance Ferguson"", ""point"": ""2.5"", ""side"": ""Under""}]",-114,5.0,3.95,0.5537,,,open,,,auto
 2026-09-21T17:23:23Z,straight,32647,bovada,"[{""event_id"": ""32647"", ""market"": ""player_receptions"", ""player"": ""Terrance Ferguson"", ""point"": ""2.5"", ""side"": ""Under""}]",-115,5.0,3.53,0.5537,,,open,,,auto
+2026-09-21T21:18:35Z,straight,32647,kalshi,"[{""event_id"": ""32647"", ""market"": ""player_receptions"", ""player"": ""Devin Singletary"", ""point"": ""1.5"", ""side"": ""Over""}]",127,5.0,3.24,0.4548,,,open,,,auto
+2026-09-21T21:18:35Z,straight,32647,kalshi,"[{""event_id"": ""32647"", ""market"": ""player_rush_yds"", ""player"": ""Blake Corum"", ""point"": ""49.5"", ""side"": ""Over""}]",113,5.0,6.5,0.5,,,open,,,auto
