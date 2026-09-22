@@ -545,3 +545,4 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-09-21T17:57:22Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Kyle Pitts,3.5,Over,underdog,-114,4.02,0.5541,bovada,5,78.3,False,ev +4.0 fair 0.554 bovada 5b
 2026-09-21T21:17:59Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_receptions,Devin Singletary,1.5,Over,kalshi,127,3.24,0.4548,pinnacle,8,3.0,False,ev +3.2 fair 0.455 pinnacle 8b
 2026-09-21T21:17:59Z,football_nfl,32647,2026-09-22T00:15:00Z,LA Rams,NY Giants,player_rush_yds,Blake Corum,49.5,Over,kalshi,113,6.5,0.5,pinnacle,4,3.0,False,ev +6.5 fair 0.500 pinnacle 4b
+2026-09-22T15:50:39Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,MarShawn Lloyd,1.5,Over,kalshi,194,4.95,0.357,pinnacle,7,56.4,False,ev +5.0 fair 0.357 pinnacle 7b
