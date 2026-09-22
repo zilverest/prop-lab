@@ -222,3 +222,25 @@ graded_ts,event_id,market,player,point,side,book,price,ev_pct_at_bet,fair_prob_a
 2026-09-21T02:00:04Z,32646,player_receptions,Alec Pierce,2.5,Over,kalshi,-133,3.41,0.5903,True,,-138,2.5,0.558252,pinnacle,1.5796,-2.201,True,,,True
 2026-09-21T02:00:04Z,32646,player_receptions,Rashee Rice,4.5,Under,bovada,110,4.09,0.4957,True,,-105,4.5,0.479695,bovada,7.561,0.736,True,,,True
 2026-09-21T02:00:04Z,32646,player_receptions,Rashee Rice,4.5,Under,draftkings,108,3.1,0.4957,True,,-110,4.5,0.491336,pinnacle,8.9524,2.1979,True,,,True
+2026-09-22T02:06:35Z,32647,player_receptions,Isaiah Likely,4.5,Over,kalshi,122,6.57,0.4801,True,,138,4.5,0.418519,pinnacle,-6.7227,-7.0887,False,,,True
+2026-09-22T02:06:35Z,32647,player_pass_attempts,Matthew Stafford,32.5,Over,bovada,100,4.24,0.5212,False,no_outcome_for_selection,,,,,,,,,,False
+2026-09-22T02:06:35Z,32647,player_receptions,Davante Adams,3.5,Under,fanduel,162,5.12,0.4012,False,no_outcome_for_selection,,,,,,,,,,False
+2026-09-22T02:06:35Z,32647,player_rush_attempts,Kyren Williams,14.5,Under,draftkings,-126,3.06,0.5746,False,no_outcome_for_selection,,,,,,,,,,False
+2026-09-22T02:06:35Z,32647,player_pass_attempts,Jaxson Dart,30.5,Under,bovada,100,4.64,0.5232,True,,-120,30.5,0.510121,bovada,9.0909,2.0243,True,,,True
+2026-09-22T02:06:35Z,32647,player_pass_attempts,Jaxson Dart,30.5,Under,draftkings,-101,4.13,0.5232,False,no_outcome_for_selection,,,,,,,,,,False
+2026-09-22T02:06:35Z,32647,player_receptions,Davante Adams,3.5,Under,kalshi,233,16.8,0.3508,True,,245,3.5,0.270874,kalshi,-3.4783,-9.7991,False,,,True
+2026-09-22T02:06:35Z,32647,player_reception_yds,Odell Beckham Jr.,6.5,Over,fanduel,112,3.85,0.4899,False,no_outcome_for_selection,,,,,,,,,,False
+2026-09-22T02:06:35Z,32647,player_receptions,Davante Adams,3.5,Over,kalshi,-163,4.81,0.6496,True,,-355,3.5,0.729126,kalshi,25.8882,17.6443,True,,,True
+2026-09-22T02:06:35Z,32647,player_receptions,Davante Adams,3.5,Under,hardrock,260,26.27,0.3508,True,,275,3.5,0.270874,kalshi,-4.0,-2.4855,False,,,True
+2026-09-22T02:06:35Z,32647,player_pass_tds,Matthew Stafford,1.5,Over,kalshi,-163,3.09,0.6389,True,,-170,1.5,0.615005,pinnacle,1.5905,-0.7691,True,,,True
+2026-09-22T02:06:35Z,32647,player_receptions,Terrance Ferguson,2.5,Over,kalshi,127,3.1,0.4542,True,,104,2.5,0.486993,pinnacle,11.2745,10.5473,True,,,True
+2026-09-22T02:06:35Z,32647,player_receptions,Tyler Higbee,1.5,Over,kalshi,-104,3.6,0.5282,True,,122,1.5,0.421899,pinnacle,-11.6424,-17.2429,False,,,True
+2026-09-22T02:06:35Z,32647,player_reception_yds,Tyler Higbee,14.5,Over,kalshi,104,4.89,0.5142,True,,138,14.5,0.400237,kalshi,-14.2857,-18.3516,False,,,True
+2026-09-22T02:06:35Z,32647,player_receptions,Cam Skattebo,1.5,Over,kalshi,-122,3.21,0.5672,True,,104,1.5,0.516161,pinnacle,-10.8004,-6.0756,False,,,True
+2026-09-22T02:06:35Z,32647,player_receptions,Kyren Williams,2.5,Over,kalshi,133,3.4,0.4438,True,,104,2.5,0.459632,pinnacle,14.2157,7.0943,True,,,True
+2026-09-22T02:06:35Z,32647,player_receptions,Malachi Fields,2.5,Over,kalshi,138,3.7,0.4357,True,,138,2.5,0.397711,pinnacle,0.0,-5.3449,False,,,True
+2026-09-22T02:06:35Z,32647,player_receptions,Darnell Mooney,1.5,Over,bovada,150,13.7,0.4548,True,,-125,1.5,0.520305,bovada,38.8889,30.0761,True,,,True
+2026-09-22T02:06:35Z,32647,player_receptions,Terrance Ferguson,2.5,Under,draftkings,-114,3.23,0.5499,False,no_outcome_for_selection,,,,,,,,,,False
+2026-09-22T02:06:35Z,32647,player_receptions,Terrance Ferguson,2.5,Under,bovada,-115,3.53,0.5537,False,no_outcome_for_selection,,,,,,,,,,False
+2026-09-22T02:06:35Z,32647,player_receptions,Devin Singletary,1.5,Over,kalshi,127,3.24,0.4548,True,,127,1.5,0.431916,pinnacle,0.0,-1.955,False,,,True
+2026-09-22T02:06:35Z,32647,player_rush_yds,Blake Corum,49.5,Over,kalshi,113,6.5,0.5,True,,108,49.5,0.492472,pinnacle,2.4038,4.8966,True,,,True
