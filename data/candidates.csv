@@ -555,3 +555,10 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-09-23T15:40:11Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Skyy Moore,1.5,Over,kalshi,156,4.04,0.4064,pinnacle,8,32.6,False,ev +4.0 fair 0.406 pinnacle 8b
 2026-09-23T15:40:11Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_rush_yds,MarShawn Lloyd,29.5,Over,kalshi,113,6.5,0.5,pinnacle,3,32.6,False,ev +6.5 fair 0.500 pinnacle 3b
 2026-09-23T15:40:11Z,football_nfl,32656,2026-09-27T17:00:00Z,DET Lions,NY Jets,player_receptions,Adonai Mitchell,3.5,Over,draftkings,-111,3.01,0.5419,pinnacle,7,97.3,False,ev +3.0 fair 0.542 pinnacle 7b
+2026-09-23T20:45:42Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_field_goals_made,Nick Folk,1.5,Under,hardrock,-110,3.17,0.5404,pinnacle,3,27.5,True,ev +3.2 fair 0.540 pinnacle 3b
+2026-09-23T20:45:42Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_field_goals_made,Trey Smack,1.5,Under,hardrock,120,4.48,0.4749,pinnacle,3,27.5,True,ev +4.5 fair 0.475 pinnacle 3b
+2026-09-23T20:45:42Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_pass_tds,Jordan Love,1.5,Over,kalshi,-104,3.41,0.5272,pinnacle,10,27.5,False,ev +3.4 fair 0.527 pinnacle 10b
+2026-09-23T20:45:42Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_reception_yds,Christian Watson,69.5,Over,kalshi,108,4.0,0.5,pinnacle,5,27.5,False,ev +4.0 fair 0.500 pinnacle 5b
+2026-09-23T20:45:42Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Jahan Dotson,1.5,Over,kalshi,-127,3.27,0.5778,pinnacle,9,27.5,False,ev +3.3 fair 0.578 pinnacle 9b
+2026-09-23T20:45:42Z,football_nfl,32651,2026-09-27T17:00:00Z,JAX Jaguars,NE Patriots,player_reception_yds,Jakobi Meyers,34.5,Over,kalshi,108,4.0,0.5,pinnacle,6,92.2,False,ev +4.0 fair 0.500 pinnacle 6b
+2026-09-23T20:45:42Z,football_nfl,23215,2026-09-27T20:25:00Z,Dallas Cowboys,Baltimore Ravens,player_reception_yds,George Pickens,59.5,Under,kalshi,108,4.42,0.502,pinnacle,6,95.7,False,ev +4.4 fair 0.502 pinnacle 6b
