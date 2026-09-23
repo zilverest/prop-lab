@@ -548,3 +548,5 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-09-22T15:50:39Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,MarShawn Lloyd,1.5,Over,kalshi,194,4.95,0.357,pinnacle,7,56.4,False,ev +5.0 fair 0.357 pinnacle 7b
 2026-09-22T20:34:36Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,MarShawn Lloyd,1.5,Over,kalshi,194,9.52,0.3725,pinnacle,7,51.7,False,ev +9.5 fair 0.372 pinnacle 7b
 2026-09-23T02:05:21Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,MarShawn Lloyd,1.5,Over,kalshi,194,8.17,0.3679,pinnacle,8,46.2,False,ev +8.2 fair 0.368 pinnacle 8b
+2026-09-23T10:22:25Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Jahan Dotson,1.5,Over,kalshi,-127,3.41,0.5785,pinnacle,9,37.9,False,ev +3.4 fair 0.579 pinnacle 9b
+2026-09-23T10:22:25Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,MarShawn Lloyd,1.5,Over,kalshi,186,5.22,0.3679,pinnacle,8,37.9,False,ev +5.2 fair 0.368 pinnacle 8b
