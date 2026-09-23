@@ -550,3 +550,8 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-09-23T02:05:21Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,MarShawn Lloyd,1.5,Over,kalshi,194,8.17,0.3679,pinnacle,8,46.2,False,ev +8.2 fair 0.368 pinnacle 8b
 2026-09-23T10:22:25Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Jahan Dotson,1.5,Over,kalshi,-127,3.41,0.5785,pinnacle,9,37.9,False,ev +3.4 fair 0.579 pinnacle 9b
 2026-09-23T10:22:25Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,MarShawn Lloyd,1.5,Over,kalshi,186,5.22,0.3679,pinnacle,8,37.9,False,ev +5.2 fair 0.368 pinnacle 8b
+2026-09-23T15:40:11Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Jahan Dotson,1.5,Over,kalshi,-127,3.47,0.5789,pinnacle,11,32.6,False,ev +3.5 fair 0.579 pinnacle 11b
+2026-09-23T15:40:11Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Jonnu Smith,1.5,Over,kalshi,163,6.88,0.4064,pinnacle,7,32.6,False,ev +6.9 fair 0.406 pinnacle 7b
+2026-09-23T15:40:11Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Skyy Moore,1.5,Over,kalshi,156,4.04,0.4064,pinnacle,8,32.6,False,ev +4.0 fair 0.406 pinnacle 8b
+2026-09-23T15:40:11Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_rush_yds,MarShawn Lloyd,29.5,Over,kalshi,113,6.5,0.5,pinnacle,3,32.6,False,ev +6.5 fair 0.500 pinnacle 3b
+2026-09-23T15:40:11Z,football_nfl,32656,2026-09-27T17:00:00Z,DET Lions,NY Jets,player_receptions,Adonai Mitchell,3.5,Over,draftkings,-111,3.01,0.5419,pinnacle,7,97.3,False,ev +3.0 fair 0.542 pinnacle 7b
