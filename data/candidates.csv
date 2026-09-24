@@ -562,3 +562,13 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-09-23T20:45:42Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Jahan Dotson,1.5,Over,kalshi,-127,3.27,0.5778,pinnacle,9,27.5,False,ev +3.3 fair 0.578 pinnacle 9b
 2026-09-23T20:45:42Z,football_nfl,32651,2026-09-27T17:00:00Z,JAX Jaguars,NE Patriots,player_reception_yds,Jakobi Meyers,34.5,Over,kalshi,108,4.0,0.5,pinnacle,6,92.2,False,ev +4.0 fair 0.500 pinnacle 6b
 2026-09-23T20:45:42Z,football_nfl,23215,2026-09-27T20:25:00Z,Dallas Cowboys,Baltimore Ravens,player_reception_yds,George Pickens,59.5,Under,kalshi,108,4.42,0.502,pinnacle,6,95.7,False,ev +4.4 fair 0.502 pinnacle 6b
+2026-09-24T01:53:27Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_field_goals_made,Nick Folk,1.5,Under,hardrock,-110,3.17,0.5404,pinnacle,3,22.4,True,ev +3.2 fair 0.540 pinnacle 3b
+2026-09-24T01:53:27Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_field_goals_made,Trey Smack,1.5,Under,hardrock,120,4.48,0.4749,pinnacle,3,22.4,True,ev +4.5 fair 0.475 pinnacle 3b
+2026-09-24T01:53:27Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_pass_tds,Jordan Love,1.5,Over,kalshi,-104,3.41,0.5272,pinnacle,12,22.4,False,ev +3.4 fair 0.527 pinnacle 12b
+2026-09-24T01:53:27Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_reception_yds,Christian Watson,69.5,Over,kalshi,108,4.0,0.5,pinnacle,7,22.4,False,ev +4.0 fair 0.500 pinnacle 7b
+2026-09-24T01:53:27Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Chris Brooks,1.5,Over,kalshi,144,5.01,0.4304,pinnacle,7,22.4,False,ev +5.0 fair 0.430 pinnacle 7b
+2026-09-24T01:53:27Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Christian Watson,4.5,Under,kalshi,133,4.89,0.4502,pinnacle,11,22.4,False,ev +4.9 fair 0.450 pinnacle 11b
+2026-09-24T01:53:27Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Jonnu Smith,1.5,Over,kalshi,170,3.97,0.3851,pinnacle,9,22.4,False,ev +4.0 fair 0.385 pinnacle 9b
+2026-09-24T01:53:27Z,football_nfl,32648,2026-09-25T00:15:00Z,GB Packers,ATL Falcons,player_receptions,Tucker Kraft,3.5,Over,kalshi,-127,4.17,0.5828,pinnacle,11,22.4,False,ev +4.2 fair 0.583 pinnacle 11b
+2026-09-24T01:53:27Z,football_nfl,23215,2026-09-27T20:25:00Z,Dallas Cowboys,Baltimore Ravens,player_reception_yds,George Pickens,59.5,Under,kalshi,108,4.42,0.502,pinnacle,6,90.5,False,ev +4.4 fair 0.502 pinnacle 6b
+2026-09-24T01:53:27Z,football_nfl,32662,2026-09-29T00:15:00Z,CHI Bears,PHI Eagles,player_reception_yds,Dontayvion Wicks,39.5,Under,hardrock,-105,4.06,0.533,kalshi,4,118.4,True,ev +4.1 fair 0.533 kalshi 4b
