@@ -35,12 +35,46 @@ def leg_key(c):
     return (c["event_id"], c["market"], c["player"], str(c["point"]), c["side"])
 
 def leg_dict(c):
-    return {"event_id": c["event_id"], "market": c["market"], "player": c["player"], "point": c["point"], "side": c["side"]}
+    return {"event_id": c["event_id"], "market": c["market"], "player": c["player"], "point": c["point"], "side": c["side"],
+            "book": c.get("book", ""), "price": c.get("price", "")}
 
 def open_candidates():
     """Distinct gated candidates whose game hasn't kicked off."""
     now = utcnow()
     return [c for c in distinct_candidates() if parse_iso(c["commence_time"]) > now]
+
+def candidate_seen_counts():
+    """How many times each distinct leg has been observed in candidates.csv — the persistence signal."""
+    counts = {}
+    for c in read_rows("candidates"):
+        counts[leg_key(c)] = counts.get(leg_key(c), 0) + 1
+    return counts
+
+def candidate_score(c, seen_count):
+    """Canonical quality score for one gated candidate leg. Additive and fully transparent — every
+    part is shown wherever the score is displayed. Used both to rank picks (Telegram, dashboard) and,
+    via AUTO_LOG_MIN_SCORE, to decide what gets auto-logged at all — the quality-over-quantity lever."""
+    ev = float(c["ev_pct"]); fp = float(c["fair_prob"]); nb = int(c["n_books"]); src = c["fair_source"]
+    parts = {"ev": round(ev, 2)}
+    score = ev
+    parts["anchor"] = 1.0 if src in GATE["trusted_anchors"] else 0.0; score += parts["anchor"]
+    parts["depth"] = min(1.0, 0.25 * max(0, nb - 3)); score += parts["depth"]
+    parts["persist"] = min(1.5, 0.5 * max(0, seen_count - 1)); score += parts["persist"]
+    parts["coin"] = 0.5 if 0.45 <= fp <= 0.55 else 0.0; score += parts["coin"]
+    parts["combo"] = -1.0 if c["market"] in COMBO_MARKETS else 0.0; score += parts["combo"]
+    return round(score, 2), parts
+
+def quality_candidates():
+    """open_candidates() filtered to AUTO_LOG_MIN_SCORE. This is the single lever for 'more quality,
+    less quantity' over time — raise the constant in common.py and every slip type tightens together,
+    with no other code change."""
+    counts = candidate_seen_counts()
+    out = []
+    for c in open_candidates():
+        score, parts = candidate_score(c, counts.get(leg_key(c), 1))
+        if score >= AUTO_LOG_MIN_SCORE:
+            d = dict(c); d["_score"] = score; d["_parts"] = parts; out.append(d)
+    return out
 
 def logged_sets(kind):
     """{(book, frozenset(leg_keys))} for every slip of this kind already in the ledger."""
@@ -52,21 +86,30 @@ def logged_sets(kind):
         out.add((s["book"], frozenset((l.get("event_id", s["event_id"]), l["market"], l["player"], str(l["point"]), l["side"]) for l in legs)))
     return out
 
+def _fnum(x, d=None):
+    try: return float(x)
+    except (TypeError, ValueError): return d
+
 def _row(kind, book, combo, price, note, **extra):
+    """combo items are candidate dicts (have ev_pct/fair_prob/n_books/fair_source). For a single-leg
+    straight these are stored as-is; for multi-leg parlays/SGPs we store the average edge and fair
+    probability across legs so the combo can be scored later, same as a straight."""
+    evs = [_fnum(c.get("ev_pct")) for c in combo if _fnum(c.get("ev_pct")) is not None]
+    fps = [_fnum(c.get("fair_prob")) for c in combo if _fnum(c.get("fair_prob")) is not None]
     r = dict(ts=iso(), kind=kind, event_id=",".join(sorted({c["event_id"] for c in combo})), book=book,
              legs=json.dumps([leg_dict(c) for c in combo]), price=price, stake=STAKE_USD,
-             ev_pct_at_bet=combo[0]["ev_pct"] if len(combo) == 1 else "",
-             fair_prob_at_bet=combo[0]["fair_prob"] if len(combo) == 1 else "",
+             ev_pct_at_bet=round(sum(evs) / len(evs), 2) if evs else "",
+             fair_prob_at_bet=round(sum(fps) / len(fps), 4) if fps else "",
              correlation_factor="", quoted="", resolution="open", pnl_units="", settled_ts="", note=note)
     r.update(extra); return r
 
 def auto_log():
-    """Every distinct gated candidate -> $STAKE_USD straight. Idempotent."""
+    """Every gated candidate that clears AUTO_LOG_MIN_SCORE -> $STAKE_USD straight. Idempotent."""
     existing = logged_sets("straight"); new = []
-    for c in distinct_candidates():
+    for c in quality_candidates():
         k = (c["book"], frozenset([leg_key(c)]))
         if k in existing: continue
-        new.append(_row("straight", c["book"], [c], c["price"], "auto")); existing.add(k)
+        new.append(_row("straight", c["book"], [c], c["price"], f"auto score={c['_score']}")); existing.add(k)
     return append_rows("slips", new, SLIP_FIELDS)
 
 def _build_parlays(cands, construct, existing):
@@ -100,7 +143,7 @@ def auto_parlays():
                     Theory: estimation error compounds in a parlay, so build from the least-noisy legs, not the biggest EV.
     A combo already logged under one construction is not re-logged under the other. Idempotent."""
     existing = logged_sets("parlay")
-    cands = open_candidates()
+    cands = quality_candidates()
     pure = [c for c in cands if c["fair_source"] in GATE["trusted_anchors"] and int(c["n_books"]) >= PARLAY_PURE_MIN_BOOKS]
     new = _build_parlays(pure, "anchor-pure", existing)          # pure first so shared combos get the stricter label
     new += _build_parlays(cands, "ev-ranked", existing)
@@ -133,7 +176,7 @@ def auto_sgps(api):
     existing = logged_sets("sgp"); new = []
     attempted = state_get("sgp_attempted", {}); now = utcnow()
     by_event = {}
-    for c in open_candidates():
+    for c in quality_candidates():
         if c["point"] in ("", None) or c["side"] not in ("Over", "Under"): continue
         by_event.setdefault(c["event_id"], []).append(c)
     for eid, legs in by_event.items():
@@ -202,46 +245,97 @@ def cmd_sgp(a):
     for c in picked: print("  leg:", label(c))
 
 # ---------------------------------------------------------------- settle
-def leg_resolution(results_index, event_id, market, player, point, side, book):
-    key = (event_id, market, player, str(point), side, book)
-    r = results_index.get(key)
-    if r: return r["resolution"]
-    # fall back to any book's grading of the same leg if our slip's book never resolved it
-    for k, r in results_index.items():
-        if k[:5] == key[:5]: return r["resolution"]
-    return None
+UNGRADEABLE_AFTER_HOURS = 72     # a leg still unresolvable this long after kickoff is voided so nothing sits open forever
+
+class Grader:
+    """Resolves one slip leg against results.csv, in order of preference:
+      1. exact grading row at the slip's own book (same event, market, player, point, side)
+      2. exact grading row at any book
+      3. the player's actual stat value vs our point (Over/Under legs only) — needed because when a
+         line moves before kickoff, books stop listing the number we logged, so no exact row exists
+    Returns 'won' | 'lost' | 'push' | 'void' | None (not graded yet)."""
+    def __init__(self, results):
+        self.exact_book, self.exact_any, self.actual = {}, {}, {}
+        for r in results:
+            k = (r["event_id"], r["market"], r["player"], str(r["point"]), r["side"])
+            self.exact_book[k + (r["book"],)] = r["resolution"]
+            if r["resolution"] in ("won", "lost", "push") or k not in self.exact_any:
+                self.exact_any[k] = r["resolution"]                    # prefer a decided grade over a void
+            if r.get("actual_value") not in ("", None):
+                try: self.actual[k[:3]] = float(r["actual_value"])
+                except ValueError: pass
+
+    def leg(self, l, event_id, book):
+        k = (event_id, l["market"], l["player"], str(l["point"]), l["side"])
+        rb, ra = self.exact_book.get(k + (book,)), self.exact_any.get(k)
+        for r in (rb, ra):
+            if r in ("won", "lost", "push"): return r
+        r = rb or ra
+        a = self.actual.get(k[:3])
+        if a is not None and l["point"] not in ("", None) and l["side"] in ("Over", "Under"):
+            pt = float(l["point"])
+            if a == pt: return "push"
+            return "won" if (a > pt) == (l["side"] == "Over") else "lost"
+        if r == "void": return "void"                                  # graded void and no stat recorded: player didn't play
+        return None
+
+def _leg_decimal(l, slip_book, cand_price):
+    """Decimal odds for one leg: stored on the leg (new slips), else the candidates.csv price, else None."""
+    if l.get("price") not in ("", None):
+        try: return am_to_dec(int(float(l["price"])))
+        except ValueError: pass
+    p = cand_price.get((l.get("event_id"), l["market"], l["player"], str(l["point"]), l["side"], l.get("book") or slip_book))
+    return am_to_dec(int(float(p))) if p not in ("", None) else None
 
 def settle():
-    results = read_rows("results")
-    idx = {(r["event_id"], r["market"], r["player"], str(r["point"]), r["side"], r["book"]): r for r in results}
+    """Resolve open slips. Multi-leg rules match how books settle:
+       any leg lost -> lost; void/push legs are dropped and the rest pays at the reduced price;
+       every leg void/push -> stake returned. Legs still ungradeable UNGRADEABLE_AFTER_HOURS after
+       kickoff are treated as void so nothing stays open forever. Returns number of slips settled."""
     slips = read_rows("slips")
     if not slips: return 0
-    changed = False
+    g = Grader(read_rows("results"))
+    kick = {e["event_id"]: e["commence_time"] for e in read_rows("events")}
+    cand_price = {}
+    for c in read_rows("candidates"):
+        cand_price[(c["event_id"], c["market"], c["player"], str(c["point"]), c["side"], c["book"])] = c["price"]
+    now = utcnow(); n = 0
     for s in slips:
         if s["resolution"] != "open": continue
         legs = json.loads(s["legs"])
-        resols = [leg_resolution(idx, l.get("event_id", s["event_id"]), l["market"], l["player"], l["point"], l["side"], s["book"]) for l in legs]
-        if any(r is None for r in resols): continue                     # not all graded yet
-        if any(r == "lost" for r in resols):
+        eids = [l.get("event_id") or s["event_id"].split(",")[0] for l in legs]
+        res = []
+        for l, e in zip(legs, eids):
+            r = g.leg(l, e, s["book"])
+            if r is None and e in kick and (now - parse_iso(kick[e])).total_seconds() > UNGRADEABLE_AFTER_HOURS * 3600:
+                r = "void"
+            res.append(r)
+        if "lost" in res:                                               # decided even if other legs are pending
             s["resolution"], s["pnl_units"] = "lost", -float(s["stake"])
-        elif all(r in ("won", "push") for r in resols) and any(r == "won" for r in resols) and all(r != "lost" for r in resols):
-            wins = sum(r == "won" for r in resols)
-            s["resolution"] = "won" if wins == len(resols) else "push_adj"
-            s["pnl_units"] = (am_to_dec(s["price"]) - 1) * float(s["stake"]) if wins == len(resols) else 0.0
-        elif all(r == "push" for r in resols):
-            s["resolution"], s["pnl_units"] = "push", 0.0
-        else:
+        elif any(r is None for r in res):
             continue
-        s["settled_ts"] = iso(); changed = True
-    if changed:
-        # rewrite whole file (small; simplest correct way to update in place)
-        import os
-        p = csv_path("slips")
-        with open(p, "w", newline="") as f:
-            import csv as _csv
-            w = _csv.DictWriter(f, fieldnames=SLIP_FIELDS); w.writeheader()
+        else:
+            live = [l for l, r in zip(legs, res) if r == "won"]
+            stake = float(s["stake"])
+            if not live:
+                s["resolution"] = "void" if all(r == "void" for r in res) else "push"; s["pnl_units"] = 0.0
+            elif len(live) == len(legs):
+                s["resolution"], s["pnl_units"] = "won", (am_to_dec(s["price"]) - 1) * stake
+            else:
+                decs = [_leg_decimal(l, s["book"], cand_price) for l in live]
+                if any(d is None for d in decs):                         # no per-leg price: split the ticket price evenly
+                    decs = [am_to_dec(s["price"]) ** (1 / len(legs))] * len(live)
+                d = 1.0
+                for x in decs: d *= x
+                s["resolution"], s["pnl_units"] = "won", (d - 1) * stake
+                s["note"] = (s["note"] + f" reduced={len(live)}/{len(legs)} legs").strip()
+        s["settled_ts"] = iso(); n += 1
+    if n:
+        import csv as _csv
+        with open(csv_path("slips"), "w", newline="") as f:
+            w = _csv.DictWriter(f, fieldnames=SLIP_FIELDS, extrasaction="ignore"); w.writeheader()
             for s in slips: w.writerow(s)
-    return sum(1 for s in slips if s["settled_ts"] == slips[0].get("settled_ts", "__never__")) if changed else 0
+    return n
 
 def _kind_stats(slips, kind):
     ks = [s for s in slips if s["kind"] == kind]
