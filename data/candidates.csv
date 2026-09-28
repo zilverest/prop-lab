@@ -1053,3 +1053,5 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-09-27T15:54:20Z,football_nfl,32661,2026-09-28T00:20:00Z,Denver Broncos,Los Angeles Rams,player_pass_yds,Matthew Stafford,199.5,Under,hardrock,240,7.8,0.3171,kalshi,4,8.4,True,ev +7.8 fair 0.317 kalshi 4b
 2026-09-27T15:54:20Z,football_nfl,32661,2026-09-28T00:20:00Z,Denver Broncos,Los Angeles Rams,player_receptions,Adam Trautman,0.5,Under,bovada,180,3.61,0.37,pinnacle,8,8.4,False,ev +3.6 fair 0.370 pinnacle 8b
 2026-09-27T15:54:20Z,football_nfl,32662,2026-09-29T00:15:00Z,Chicago Bears,Philadelphia Eagles,player_rush_yds,D'Andre Swift,59.5,Over,kalshi,-100,4.11,0.5206,pinnacle,6,32.3,False,ev +4.1 fair 0.521 pinnacle 6b
+2026-09-28T02:14:11Z,football_nfl,32662,2026-09-29T00:15:00Z,Chicago Bears,Philadelphia Eagles,player_pass_interceptions,Jalen Hurts,0.5,Over,draftkings,134,3.57,0.4426,pinnacle,7,22.0,False,ev +3.6 fair 0.443 pinnacle 7b
+2026-09-28T02:14:11Z,football_nfl,32662,2026-09-29T00:15:00Z,Chicago Bears,Philadelphia Eagles,player_rush_attempts,Jalen Hurts,6.5,Over,draftkings,103,3.64,0.5105,pinnacle,6,22.0,False,ev +3.6 fair 0.510 pinnacle 6b
