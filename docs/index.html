@@ -1,38 +1,646 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Eevee · paper prop ledger</title><style>
-:root{--bg:#fff;--fg:#1a1a1a;--mut:#6b6b6b;--card:#f5f5f4;--line:#e5e5e3}
-@media(prefers-color-scheme:dark){:root{--bg:#101010;--fg:#ececec;--mut:#9a9a9a;--card:#1a1a1a;--line:#2a2a2a}}
-body{font:16px/1.55 system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--fg);max-width:880px;margin:0 auto;padding:20px 16px 48px}
-h1{font-size:26px;margin:8px 0 4px}h2{font-size:18px;margin:28px 0 10px}h3{font-size:15px;margin:0 0 4px}
-.mut{color:var(--mut);font-size:13.5px}.card{background:var(--card);border-radius:12px;padding:14px 16px}
-.hero{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:14px 0}
-.stat{background:var(--card);border-radius:12px;padding:14px}.stat .v{font-size:26px;font-weight:650;letter-spacing:-.01em}.stat .l{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--mut)}
-.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}.row{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px;align-items:baseline}
-table{width:100%;border-collapse:collapse;font-size:13.5px}td,th{padding:7px 6px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--mut);font-weight:500;font-size:12px;text-transform:uppercase;letter-spacing:.05em}
-td.won{color:#3d8b5a;font-weight:600}td.lost{color:#b5453f;font-weight:600}.wrap{overflow-x:auto}
-footer{margin-top:36px;padding-top:14px;border-top:1px solid var(--line)}
-details>summary{cursor:pointer;list-style:none;display:flex;gap:8px;align-items:baseline}details>summary::-webkit-details-marker{display:none}
-details>summary::before{content:"▸";color:var(--mut);font-size:14px}details[open]>summary::before{content:"▾"}
-</style></head><body>
-<h1>Eevee · paper prop ledger</h1>
-<div class="mut">Every slip here is built by a fixed rule set and settled against the box score. $5 flat, paper only, nothing is placed. Updated 2026-09-29T19:45Z · tracking since 2026-09-21.</div>
-<div class="hero"><div class="stat"><div class="v">366–587</div><div class="l">record</div><div class=mut>38% win rate</div></div><div class="stat"><div class="v">$+538.42</div><div class="l">paper P&L</div><div class=mut>on $4765 staked</div></div><div class="stat"><div class="v">+11.3%</div><div class="l">ROI</div><div class=mut>$5 flat per slip</div></div><div class="stat"><div class="v">984</div><div class="l">slips settled</div><div class=mut>9 pending</div></div></div>
-<h2>How it works</h2><div class="card">
-<p>Every few hours, the system checks player-prop lines across ~15 sportsbooks and exchanges (DraftKings, FanDuel, Hard Rock, Kalshi, Polymarket, and others). For each prop it strips out the house's cut to get a no-vig "fair" probability, then averages that across every book pricing it — that's the market consensus.</p>
-<p>A prop only becomes a candidate if it clears three checks: <b>at least 3 books</b> are pricing the exact same line, the fair probability sits in a <b>normal 30–70% range</b> (extreme longshot lines produce math artifacts, not real edges, so they're excluded entirely), and the gap between one book's price and the consensus is <b>at least 3%</b> — big enough to not be rounding noise.</p>
-<div class="row" style="margin:10px 0"><b>30,351</b><span class="mut">near-main props checked this way</span><b>514</b><span class="mut">cleared all three checks</span><b>1.69%</b><span class="mut">clearance rate</span></div>
-<p class="mut">One cleared prop can become more than one slip below — a straight bet, and it may also feed a cross-game parlay or a same-game parlay — so the slip counts above are not a count of distinct edges found. The clearance rate is the number that actually says how rare a real disagreement is. A low, stable rate over the season is the expected, honest outcome — it would mean these markets are efficient, which is more likely true than not.</p>
-<p class="mut">Passing these checks doesn't prove a bet is right — it just means it's worth tracking. The real test is <b>closing line value</b>: does the market move toward our number before kickoff? That's measured separately and isn't shown on this page, but it's what ultimately decides whether any of this is signal.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Parlay Lab — Research Cockpit V5</title>
+<style>
+:root{
+  --bg:#f5f5f7; --surface:#fff; --ink:#1d1d1f; --muted:#6e6e73;
+  --line:rgba(0,0,0,.08); --blue:#0071e3; --green:#1f8f4e; --red:#d92d20;
+  --shadow:0 18px 60px rgba(0,0,0,.07);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.shell{max-width:1220px;margin:0 auto;padding:0 24px}
+.nav{
+  position:sticky;top:0;z-index:20;background:rgba(245,245,247,.82);
+  backdrop-filter:saturate(180%) blur(18px);border-bottom:1px solid rgba(0,0,0,.05)
+}
+.navin{height:52px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.topnav{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.topnav a{color:var(--muted);text-decoration:none;font-size:10px;font-weight:700;padding:6px 8px;border-radius:8px}
+.topnav a:hover{background:#fff;color:var(--ink)}
+.brand{font-weight:750;letter-spacing:-.025em}.brand span{font-weight:500;color:var(--muted)}
+.badge{font-size:11px;padding:6px 9px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--muted)}
+.hero{padding:68px 0 28px}.hero h1{font-size:54px;line-height:.98;letter-spacing:-.055em;margin:0 0 12px}
+.hero p{margin:0;max-width:720px;color:var(--muted);font-size:18px;line-height:1.5}
+.section{padding:22px 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow)}
+.head{display:flex;justify-content:space-between;gap:18px;align-items:flex-end;margin-bottom:18px}
+.head h2{font-size:30px;letter-spacing:-.04em;margin:0}.head p{max-width:590px;margin:0;color:var(--muted);font-size:13px;line-height:1.45}
+
+/* merged performance card */
+.performance{padding:24px}
+.perf-head{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;margin-bottom:18px}
+.perf-head small{display:block;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.09em;font-weight:750}
+.perf-head h3{font-size:30px;letter-spacing:-.04em;margin:6px 0 0}
+.perf-layout{display:grid;grid-template-columns:1.45fr .75fr;gap:18px}
+.chart-wrap{min-width:0}
+.chart{
+  height:310px;border:1px solid var(--line);border-radius:18px;overflow:hidden;
+  background:
+    linear-gradient(#eee 1px,transparent 1px),
+    linear-gradient(90deg,#eee 1px,transparent 1px),
+    #fff;
+  background-size:100% 25%,25% 100%;
+}
+.chart svg{width:100%;height:100%;display:block}
+.legend{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;color:var(--muted);font-size:10px}
+.dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:5px}
+.model-list{display:grid;gap:8px}
+.model{
+  width:100%;border:1px solid #eee;background:#fafafa;border-radius:15px;padding:12px;
+  text-align:left;cursor:pointer;transition:.18s ease
+}
+.model:hover{background:#f5f5f7}
+.model.active{background:#eef6ff;border-color:#bad9fb}
+.model-top{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.model-name{font-size:11px;font-weight:750}
+.tag{font-size:8px;text-transform:uppercase;letter-spacing:.08em;padding:4px 6px;border-radius:999px;background:#ececf0;color:var(--muted);font-weight:750}
+.model-main{display:flex;justify-content:space-between;align-items:flex-end;margin-top:10px;gap:10px}
+.record{font-size:27px;font-weight:760;letter-spacing:-.04em}
+.model-meta{text-align:right;font-size:9px;color:var(--muted);line-height:1.4}
+.model-foot{display:flex;justify-content:space-between;margin-top:9px;font-size:9px;color:var(--muted)}
+.note{margin-top:12px;padding:11px 13px;border-radius:13px;background:#fff8e8;border:1px solid #f0dfb6;color:#665d4b;font-size:11px;line-height:1.45}
+
+/* today */
+.decision{padding:24px;color:#fff;background:linear-gradient(145deg,#101114,#20252e 62%,#075fae 145%)}
+.decision-top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}
+.decision .k{font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:rgba(255,255,255,.55);font-weight:750}
+.decision h3{font-size:34px;letter-spacing:-.04em;margin:8px 0 0}
+.pill{padding:7px 10px;border-radius:999px;background:rgba(255,255,255,.1);font-size:11px;font-weight:700}
+.lineup{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
+.leg{padding:16px;border-radius:16px;background:rgba(255,255,255,.08)}
+.leg small{display:block;color:rgba(255,255,255,.55);font-size:9px;text-transform:uppercase;letter-spacing:.08em}
+.leg strong{display:block;margin-top:6px;font-size:17px}.leg span{display:block;margin-top:8px;color:#b9d8ff;font-size:12px;font-weight:700}
+.dst{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:12px}
+.dst div{padding:11px;border-radius:13px;background:rgba(255,255,255,.075)}
+.dst small{display:block;color:rgba(255,255,255,.5);font-size:9px}.dst b{display:block;margin-top:4px;font-size:15px}
+.checks{display:flex;gap:6px;flex-wrap:wrap;margin-top:13px}.check{font-size:10px;padding:5px 7px;border-radius:999px;background:rgba(255,255,255,.08);color:rgba(255,255,255,.75)}
+
+/* compact diagnostics */
+.tabs{padding:0}.tabbar{display:flex;gap:6px;padding:10px;border-bottom:1px solid var(--line);overflow:auto}
+.tabbar button{border:0;background:transparent;padding:8px 10px;border-radius:9px;color:var(--muted);font-size:11px;font-weight:700;cursor:pointer;white-space:nowrap}
+.tabbar button.active{background:#f0f0f3;color:var(--ink)}
+.tabbody{padding:20px}.tabpane{display:none}.tabpane.active{display:block}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.panel{padding:18px;border-radius:18px;background:#fafafa;border:1px solid #eee}
+.panel h4{margin:0 0 5px;font-size:16px}.panel p{margin:0 0 14px;color:var(--muted);font-size:11px;line-height:1.45}
+.funnel{display:grid;gap:8px}.frow{display:grid;grid-template-columns:90px 1fr 42px;gap:10px;align-items:center;font-size:11px}
+.track{height:9px;border-radius:999px;background:#e7e7ea;overflow:hidden}.fill{height:100%;background:linear-gradient(90deg,#2997ff,#0071e3);border-radius:999px}
+table{width:100%;border-collapse:collapse;font-size:11px}th,td{padding:10px 8px;text-align:left;border-bottom:1px solid #eee}
+th{font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}tr:last-child td{border-bottom:0}
+.star{color:var(--blue);font-weight:800}.good{color:var(--green);font-weight:700}
+.roles{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.role{padding:14px;border-radius:16px;background:#fafafa;border:1px solid #eee}
+.role h5{font-size:13px;margin:0 0 3px}.role p{font-size:10px;color:var(--muted);margin:0}.role b{display:block;margin-top:12px;font-size:19px}
+.log{display:grid;gap:8px}.logitem{padding:12px 13px;border-radius:13px;background:#f7f7f9;font-size:11px;line-height:1.45}
+.footer{padding:54px 0 38px;color:var(--muted);font-size:10px}.footin{border-top:1px solid var(--line);padding-top:14px;display:flex;justify-content:space-between}
+
+
+.pair-workspace{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(280px,.65fr);gap:14px}
+.pair-ranking{min-width:0}
+.pair-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:12px}
+.pair-head h4{margin:0 0 4px;font-size:18px}
+.pair-head p{margin:0;color:var(--muted);font-size:11px;line-height:1.45;max-width:560px}
+.mini-badge{font-size:9px;padding:5px 7px;border-radius:999px;background:#f0f0f3;color:var(--muted);white-space:nowrap;font-weight:700}
+.pair-detail{border:1px solid #ececef;border-radius:15px;background:#fff;margin-bottom:8px;overflow:hidden}
+.pair-detail summary{list-style:none;display:grid;grid-template-columns:32px minmax(0,1fr) 76px 76px;gap:10px;align-items:center;padding:12px;cursor:pointer}
+.pair-detail summary::-webkit-details-marker{display:none}
+.pair-detail[open]{border-color:#cfe3fa;box-shadow:0 8px 24px rgba(0,113,227,.06)}
+.rank-num{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#f1f1f4;font-size:11px;font-weight:800}
+.pair-detail[open] .rank-num{background:#eaf4ff;color:var(--blue)}
+.pair-name strong{display:block;font-size:12px}
+.pair-name span{display:block;margin-top:3px;color:var(--muted);font-size:9px}
+.pair-metric{text-align:right}
+.pair-metric small{display:block;color:var(--muted);font-size:8px;text-transform:uppercase;letter-spacing:.06em}
+.pair-metric b{display:block;margin-top:2px;font-size:12px}
+.pair-expanded{border-top:1px solid #eee;padding:12px;background:#fafcff}
+.expanded-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.expanded-grid>div{padding:9px;border-radius:11px;background:#fff;border:1px solid #eef1f5}
+.expanded-grid small{display:block;color:var(--muted);font-size:8px}
+.expanded-grid b{display:block;margin-top:3px;font-size:11px}
+.confirm-row{display:flex;gap:5px;flex-wrap:wrap;margin-top:9px}
+.confirm-row span{font-size:8px;padding:4px 6px;border-radius:999px;background:#eef6ff;color:#46637d;font-weight:650}
+.pair-note{margin-top:8px;color:var(--muted);font-size:9px;line-height:1.4}
+
+.copy-column{
+  position:sticky;top:68px;align-self:start;
+  padding:18px;border-radius:20px;color:#fff;
+  background:linear-gradient(145deg,#101114,#20252e 62%,#075fae 145%);
+}
+.copy-kicker{font-size:9px;text-transform:uppercase;letter-spacing:.09em;color:rgba(255,255,255,.55);font-weight:750}
+.copy-column h4{font-size:26px;letter-spacing:-.04em;margin:6px 0 2px}
+.copy-sub{margin:0 0 14px;color:rgba(255,255,255,.58);font-size:10px}
+.copy-leg{padding:13px;border-radius:14px;background:rgba(255,255,255,.08)}
+.copy-leg small{display:block;color:rgba(255,255,255,.5);font-size:8px;text-transform:uppercase;letter-spacing:.08em}
+.copy-leg strong{display:block;margin-top:5px;font-size:14px;line-height:1.25}
+.copy-leg span{display:block;margin-top:7px;color:#b9d8ff;font-size:10px;font-weight:700}
+.copy-plus{text-align:center;color:rgba(255,255,255,.38);font-size:18px;padding:5px}
+.copy-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:7px;margin-top:12px}
+.copy-stats>div{padding:9px;border-radius:11px;background:rgba(255,255,255,.075)}
+.copy-stats small{display:block;color:rgba(255,255,255,.5);font-size:8px}
+.copy-stats b{display:block;margin-top:3px;font-size:13px}
+.copy-win{color:#79e39b}
+.copy-footer{margin-top:12px;color:rgba(255,255,255,.46);font-size:8px;line-height:1.45}
+
+
+.money-strip{
+  display:grid;grid-template-columns:repeat(8,1fr);gap:8px;margin-bottom:16px;
+}
+.money-strip>div{padding:11px 12px;border-radius:14px;background:#f7f7f9;border:1px solid #eee;min-width:0}
+.money-strip small{display:block;color:var(--muted);font-size:8px;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
+.money-strip b{display:block;margin-top:4px;font-size:16px;letter-spacing:-.025em;white-space:nowrap}
+.money-strip .pos{color:var(--green)}.money-strip .neg{color:var(--red)}
+.actual-chart{height:320px}
+.pair-workspace{display:block}
+.pair-ranking{width:100%}
+.pair-detail summary{grid-template-columns:32px minmax(0,1fr) 76px 76px 82px}
+.platform-trigger{
+  border:1px solid #d8e7f7;background:#eef6ff;color:#1769aa;border-radius:10px;
+  padding:7px 9px;font-size:9px;font-weight:750;cursor:pointer
+}
+.platform-trigger:hover{background:#e4f1ff}
+.drawer-backdrop{
+  position:fixed;inset:0;background:rgba(0,0,0,.18);backdrop-filter:blur(2px);
+  opacity:0;pointer-events:none;transition:.2s ease;z-index:90
+}
+.drawer-backdrop.open{opacity:1;pointer-events:auto}
+.platform-drawer{
+  position:fixed;top:0;right:0;height:100vh;width:min(390px,92vw);z-index:100;
+  background:#fff;border-left:1px solid var(--line);box-shadow:-24px 0 70px rgba(0,0,0,.12);
+  transform:translateX(105%);transition:.25s ease;padding:22px;overflow:auto
+}
+.platform-drawer.open{transform:translateX(0)}
+.drawer-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.drawer-top small{display:block;color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.08em;font-weight:750}
+.drawer-top h4{font-size:23px;letter-spacing:-.035em;margin:6px 0 0}
+.drawer-close{border:0;background:#f1f1f4;border-radius:50%;width:30px;height:30px;cursor:pointer;font-size:17px}
+.drawer-pair{margin-top:18px;padding:14px;border-radius:15px;background:#f7f7f9;border:1px solid #eee}
+.drawer-pair strong{display:block;font-size:13px;line-height:1.35}
+.drawer-pair span{display:block;margin-top:5px;color:var(--muted);font-size:10px}
+.platform-list{display:grid;gap:8px;margin-top:18px}
+.platform-option{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  padding:13px;border-radius:14px;border:1px solid #eee;background:#fff
+}
+.platform-option strong{font-size:12px}.platform-option span{font-size:9px;color:var(--muted)}
+.platform-option button{
+  border:0;border-radius:9px;background:#f0f0f3;color:#9a9aa0;padding:7px 9px;
+  font-size:9px;font-weight:750;cursor:not-allowed
+}
+.drawer-note{margin-top:16px;padding:12px;border-radius:13px;background:#fff8e8;border:1px solid #f0dfb6;color:#665d4b;font-size:10px;line-height:1.45}
+
+@media(max-width:900px){
+  .pair-workspace{grid-template-columns:1fr}
+  .copy-column{position:static}
+}
+@media(max-width:650px){.money-strip{grid-template-columns:repeat(2,1fr)}.pair-detail summary{grid-template-columns:28px minmax(0,1fr) 76px}.pair-metric{display:none}.platform-trigger{grid-column:3}}
+@media(max-width:650px){
+  .pair-detail summary{grid-template-columns:28px minmax(0,1fr)}
+  .pair-metric{display:none}
+  .expanded-grid{grid-template-columns:repeat(2,1fr)}
+}
+
+@media(max-width:1100px){.money-strip{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:930px){
+  .perf-layout{grid-template-columns:1fr}.model-list{grid-template-columns:repeat(2,1fr)}
+  .two,.roles{grid-template-columns:1fr}.dst{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:650px){
+  .shell{padding:0 14px}.hero h1{font-size:43px}
+  .model-list,.lineup{grid-template-columns:1fr}.dst{grid-template-columns:1fr 1fr}
+}
+</style>
+</head>
+<body>
+<div class="nav">
+  <div class="shell navin">
+    <div class="brand">Parlay Lab <span>/ Cockpit V5</span></div>
+    <div class="topnav">
+      <a href="./">Dashboard</a>
+      <a href="ledger.html">Paper Ledger</a>
+      <a href="internal.html">H1–H4 Lab</a>
+      <div class="badge">Research mode · historical model snapshot</div>
+    </div>
+  </div>
 </div>
 
-<h2>Top picks <span class="mut" style="font-weight:400;font-size:14px">· highest-scored open straights</span></h2><div class="card wrap"><table><tr><th>score</th><th>leg</th><th>book</th><th>price</th><th>kickoff</th></tr><tr><td><b>7.1</b></td><td>Aaron Rodgers Over 0.5 INTs</td><td>Bovada</td><td>+105</td><td>Thu 8:15 PM ET</td></tr><tr><td><b>7.0</b></td><td>Deshaun Watson Under 0.5 pass TD</td><td>DraftKings</td><td>+194</td><td>Thu 8:15 PM ET</td></tr><tr><td><b>6.5</b></td><td>Aaron Rodgers Over 0.5 INTs</td><td>DraftKings</td><td>-101</td><td>Thu 8:15 PM ET</td></tr><tr><td><b>6.5</b></td><td>Harold Fannin Jr. Over 4.5 receptions</td><td>Kalshi</td><td>+108</td><td>Thu 8:15 PM ET</td></tr><tr><td><b>6.2</b></td><td>KC Concepcion Under 3.5 receptions</td><td>DraftKings</td><td>+123</td><td>Thu 8:15 PM ET</td></tr></table><div class="mut" style="margin-top:8px">Score = edge size + trusted-book bonus + coverage depth + how many snapshots it survived + near-coinflip bonus, minus a penalty for combo stat lines. Ranks confidence in the <i>finding</i>, not a prediction it wins. Everything below is the full, unfiltered log.</div></div>
-<h2>By slip type</h2><div class="g"><div class="card"><h3>Straights</h3><div class="mut">one player prop, one book</div><div class="row"><b>244–234</b><span>51%</span><span>$+209.91</span><span>ROI +8.8%</span><span class="mut">5 pending</span></div><details style="margin-top:8px"><summary><span class="mut">show slips (30)</span></summary><div class="wrap" style="margin-top:8px"><table><tr><th>when</th><th>book</th><th>legs</th><th>price</th><th>result</th><th>P&amp;L</th></tr><tr><td>Thu 8:15 PM ET</td><td>DraftKings</td><td>Deshaun Watson Under 0.5 pass TD</td><td>+194</td><td class="mut">pending</td><td></td></tr><tr><td>Thu 8:15 PM ET</td><td>DraftKings</td><td>Aaron Rodgers Over 0.5 INTs</td><td>-101</td><td class="mut">pending</td><td></td></tr><tr><td>Thu 8:15 PM ET</td><td>Bovada</td><td>Aaron Rodgers Over 0.5 INTs</td><td>+105</td><td class="mut">pending</td><td></td></tr><tr><td>Thu 8:15 PM ET</td><td>Kalshi</td><td>Harold Fannin Jr. Over 4.5 receptions</td><td>+108</td><td class="mut">pending</td><td></td></tr><tr><td>Thu 8:15 PM ET</td><td>DraftKings</td><td>KC Concepcion Under 3.5 receptions</td><td>+123</td><td class="mut">pending</td><td></td></tr><tr><td>2026-09-29</td><td>Kalshi</td><td>Rome Odunze Over 2.5 receptions</td><td>+133</td><td class="won">won</td><td>$+6.65</td></tr><tr><td>2026-09-29</td><td>Kalshi</td><td>DeVonta Smith Over 5.5 receptions</td><td>+104</td><td class="won">won</td><td>$+5.20</td></tr><tr><td>2026-09-29</td><td>Underdog</td><td>Cole Kmet Under 7.5 longest rec</td><td>-102</td><td class="won">won</td><td>$+4.90</td></tr><tr><td>2026-09-29</td><td>Bovada</td><td>Case Keenum Under 0.5 INTs</td><td>+115</td><td class="won">won</td><td>$+5.75</td></tr><tr><td>2026-09-29</td><td>DraftKings</td><td>Case Keenum Under 0.5 INTs</td><td>+116</td><td class="won">won</td><td>$+5.80</td></tr><tr><td>2026-09-29</td><td>Bovada</td><td>Kyle Monangai Under 29.5 rush yds</td><td>+190</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>Kalshi</td><td>Makai Lemon Under 2.5 receptions</td><td>+117</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>Kalshi</td><td>D&#x27;Andre Swift Over 2.5 receptions</td><td>+178</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>Hard Rock</td><td>D&#x27;Andre Swift Under 1.5 receptions</td><td>+155</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>DraftKings</td><td>Johnny Mundt Over 8.5 rec yds</td><td>-106</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>DraftKings</td><td>D&#x27;Andre Swift Under 14.5 rec yds</td><td>-116</td><td class="won">won</td><td>$+4.31</td></tr><tr><td>2026-09-29</td><td>Bovada</td><td>Jalen Hurts Under 199.5 pass yds</td><td>+165</td><td class="won">won</td><td>$+8.25</td></tr><tr><td>2026-09-29</td><td>Kalshi</td><td>Saquon Barkley Over 2.5 receptions</td><td>+144</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>Kalshi</td><td>Dontayvion Wicks Over 3.5 receptions</td><td>+144</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>DraftKings</td><td>DeVonta Smith Under 5.5 receptions</td><td>+103</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>FanDuel</td><td>DeVonta Smith Under 5.5 receptions</td><td>+104</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>FanDuel</td><td>Cole Kmet Over 1.5 receptions</td><td>+124</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>Bovada</td><td>Jalen Hurts Over 0.5 INTs</td><td>+135</td><td class="won">won</td><td>$+6.75</td></tr><tr><td>2026-09-29</td><td>Hard Rock</td><td>Jalen Hurts Over 0.5 INTs</td><td>+135</td><td class="won">won</td><td>$+6.75</td></tr><tr><td>2026-09-29</td><td>Kalshi</td><td>D&#x27;Andre Swift Over 59.5 rush yds</td><td>-100</td><td class="won">won</td><td>$+5.00</td></tr><tr><td>2026-09-29</td><td>Kalshi</td><td>Colston Loveland Under 3.5 receptions</td><td>-100</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>Kalshi</td><td>Cole Kmet Over 1.5 receptions</td><td>+104</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>DraftKings</td><td>Jalen Hurts Over 6.5 rush att</td><td>+101</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>Hard Rock</td><td>Makai Lemon Under 1.5 receptions</td><td>+250</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>Kalshi</td><td>Colston Loveland Over 3.5 receptions</td><td>+138</td><td class="won">won</td><td>$+6.90</td></tr></table></div></details></div><div class="card"><h3>Parlays</h3><div class="mut">2–3 legs across different games, same book</div><div class="row"><b>76–263</b><span>22%</span><span>$+203.39</span><span>ROI +12.0%</span><span class="mut">1 pending</span></div><details style="margin-top:8px"><summary><span class="mut">show slips (26)</span></summary><div class="wrap" style="margin-top:8px"><table><tr><th>when</th><th>book</th><th>legs</th><th>price</th><th>result</th><th>P&amp;L</th></tr><tr><td>Mon 8:15 PM ET <span class="mut">(in progress)</span></td><td>DraftKings</td><td>Jalen Hurts Over 0.5 INTs  +  Deshaun Watson Under 0.5 pass TD</td><td>+603</td><td class="mut">pending</td><td></td></tr><tr><td>2026-09-29</td><td>Underdog</td><td>Jeremy Ruckert Over 8.5 rec yds  +  Rome Odunze Under 2.5 receptions</td><td>+274</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>Underdog</td><td>Colston Loveland Under 39.5 rec yds  +  Dominic Zvada Over 1.5 FGs made</td><td>+268</td><td class="won">won</td><td>$+13.40</td></tr><tr><td>2026-09-29</td><td>Underdog</td><td>Rome Odunze Under 2.5 receptions  +  Garrett Wilson Over 5.5 receptions</td><td>+279</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>Hard Rock</td><td>Dontayvion Wicks Under 39.5 rec yds  +  De&#x27;Von Achane Under 2.5 receptions</td><td>+525</td><td class="won">won</td><td>$+26.25</td></tr><tr><td>2026-09-29</td><td>Hard Rock</td><td>Dontayvion Wicks Under 39.5 rec yds  +  Javonte Williams Under 2.5 receptions</td><td>+330</td><td class="won">won</td><td>$+16.50</td></tr><tr><td>2026-09-29</td><td>Hard Rock</td><td>Trey Smack Under 1.5 FGs made  +  Dontayvion Wicks Under 39.5 rec yds</td><td>+330</td><td class="won">won</td><td>$+16.50</td></tr><tr><td>2026-09-28</td><td>Kalshi</td><td>Darius Slayton Over 1.5 receptions  +  Trey McBride Over 7.5 receptions</td><td>+617</td><td class="won">won</td><td>$+7.20</td></tr><tr><td>2026-09-28</td><td>Underdog</td><td>Colston Loveland Under 39.5 rec yds  +  Dominic Zvada Over 1.5 FGs made  +  Will Reichard Under 1.5 FGs made</td><td>+628</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>Hard Rock</td><td>Ashton Jeanty Under 2.5 receptions  +  Makai Lemon Under 1.5 receptions  +  Matthew Stafford Under 199.5 pass yds</td><td>+4065</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>Underdog</td><td>Dominic Zvada Over 1.5 FGs made  +  Tetairoa McMillan Over 4.5 receptions  +  Rome Odunze Under 2.5 receptions</td><td>+635</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>Bovada</td><td>Emmett Johnson Over 1.5 receptions  +  T.J. Hockenson Under 3.5 receptions</td><td>+330</td><td class="won">won</td><td>$+5.25</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Darnell Mooney Over 1.5 receptions  +  Adonai Mitchell Under 3.5 receptions  +  Dalton Schultz Under 5.5 receptions</td><td>+769</td><td class="won">won</td><td>$+16.08</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Ladd McConkey Under 4.5 receptions  +  Emmett Johnson Over 1.5 receptions</td><td>+349</td><td class="won">won</td><td>$+5.80</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Darnell Mooney Over 1.5 receptions  +  Adonai Mitchell Under 3.5 receptions</td><td>+374</td><td class="won">won</td><td>$+6.50</td></tr><tr><td>2026-09-28</td><td>Kalshi</td><td>Cooper Kupp Over 2.5 receptions  +  Emmett Johnson Over 1.5 receptions</td><td>+445</td><td class="won">won</td><td>$+7.80</td></tr><tr><td>2026-09-28</td><td>Underdog</td><td>Colston Loveland Under 39.5 rec yds  +  Tetairoa McMillan Over 4.5 receptions  +  Noah Fant Under 1.5 receptions</td><td>+638</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>Underdog</td><td>Isaiah Williams Over 2.5 receptions  +  Cam Ward Under 187.5 pass yds</td><td>+270</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>Underdog</td><td>Colston Loveland Under 39.5 rec yds  +  Tetairoa McMillan Over 4.5 receptions  +  Omarion Hampton Over 0.5 anytime TD</td><td>+652</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>Underdog</td><td>Cam Ward Under 187.5 pass yds  +  Jacoby Brissett Over 21.5 completions</td><td>+273</td><td class="won">won</td><td>$+13.65</td></tr><tr><td>2026-09-28</td><td>Hard Rock</td><td>Emeka Egbuka Under 3.5 receptions  +  Makai Lemon Under 1.5 receptions</td><td>+682</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>Underdog</td><td>Garrett Wilson Over 5.5 receptions  +  Cam Ward Under 187.5 pass yds</td><td>+270</td><td class="won">won</td><td>$+13.50</td></tr><tr><td>2026-09-28</td><td>Kalshi</td><td>Isaiah Williams Over 24.5 rec yds  +  Colston Loveland Over 3.5 receptions</td><td>+386</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>Hard Rock</td><td>Ashton Jeanty Under 2.5 receptions  +  Makai Lemon Under 1.5 receptions  +  Breece Hall Under 39.5 rush yds</td><td>+3881</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>Hard Rock</td><td>Ashton Jeanty Under 2.5 receptions  +  Makai Lemon Under 1.5 receptions</td><td>+1125</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Javonte Williams Under 2.5 receptions  +  Adonai Mitchell Under 3.5 receptions</td><td>+364</td><td class="won">won</td><td>$+5.95</td></tr></table></div></details></div><div class="card"><h3>Same-game parlays</h3><div class="mut">2 legs, one game, at the book's own correlated price</div><div class="row"><b>46–90</b><span>34%</span><span>$+125.12</span><span>ROI +18.4%</span><span class="mut">3 pending</span></div><details style="margin-top:8px"><summary><span class="mut">show slips (28)</span></summary><div class="wrap" style="margin-top:8px"><table><tr><th>when</th><th>book</th><th>legs</th><th>price</th><th>result</th><th>P&amp;L</th></tr><tr><td>Thu 8:15 PM ET</td><td>DraftKings</td><td>Aaron Rodgers Over 0.5 INTs  +  Deshaun Watson Under 0.5 pass TD</td><td>+435</td><td class="mut">pending</td><td></td></tr><tr><td>Thu 8:15 PM ET</td><td>FanDuel</td><td>Deshaun Watson Under 0.5 pass TD  +  KC Concepcion Under 3.5 receptions</td><td>+338</td><td class="mut">pending</td><td></td></tr><tr><td>Thu 8:15 PM ET</td><td>DraftKings</td><td>Deshaun Watson Under 0.5 pass TD  +  KC Concepcion Under 3.5 receptions</td><td>+425</td><td class="mut">pending</td><td></td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Darius Slayton Over 1.5 receptions  +  Dalton Schultz Under 5.5 receptions</td><td>+293</td><td class="won">won</td><td>$+4.91</td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Cam Ward Under 187.5 pass yds  +  Darnell Mooney Under 1.5 receptions</td><td>+209</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Emmett Johnson Over 1.5 receptions  +  Chris Bell Over 1.5 receptions</td><td>+266</td><td class="won">won</td><td>$+4.59</td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Emmett Johnson Over 1.5 receptions  +  Chris Bell Over 1.5 receptions</td><td>+236</td><td class="won">won</td><td>$+4.17</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Amon-Ra St. Brown Under 7.5 receptions  +  Adonai Mitchell Over 3.5 receptions</td><td>+196</td><td class="won">won</td><td>$+3.68</td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Amon-Ra St. Brown Under 7.5 receptions  +  Adonai Mitchell Over 3.5 receptions</td><td>+169</td><td class="won">won</td><td>$+3.20</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Jalen McMillan Over 2.5 receptions  +  Bucky Irving Over 2.5 receptions</td><td>+415</td><td class="won">won</td><td>$+6.35</td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Jalen McMillan Over 2.5 receptions  +  Bucky Irving Over 2.5 receptions</td><td>+462</td><td class="won">won</td><td>$+5.80</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Pat Freiermuth Over 3.5 receptions  +  TreVeyon Henderson Over 1.5 receptions</td><td>+298</td><td class="won">won</td><td>$+5.85</td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Pat Freiermuth Over 3.5 receptions  +  TreVeyon Henderson Over 1.5 receptions</td><td>+282</td><td class="won">won</td><td>$+6.10</td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Pat Bryant Under 30.5 rec yds  +  J.K. Dobbins Over 59.5 rush yds</td><td>+226</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Harold Fannin Jr. Over 4.5 receptions  +  Jalen McMillan Under 2.5 receptions</td><td>+230</td><td class="won">won</td><td>$+4.08</td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Rashod Bateman Under 35.5 rec yds  +  Alvin Kamara Over 2.5 receptions</td><td>+276</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Kyren Williams Over 2.5 receptions  +  RJ Harvey Under 2.5 receptions</td><td>+345</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Kyren Williams Over 2.5 receptions  +  RJ Harvey Under 2.5 receptions</td><td>+305</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Trey McBride Over 7.5 receptions  +  Kendrick Bourne Under 2.5 receptions</td><td>+270</td><td class="won">won</td><td>$+13.50</td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Trey McBride Over 7.5 receptions  +  Kendrick Bourne Under 2.5 receptions</td><td>+263</td><td class="won">won</td><td>$+13.15</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Trey McBride Over 7.5 receptions  +  Jacoby Brissett Over 21.5 completions</td><td>+156</td><td class="won">won</td><td>$+7.80</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Raheim Sanders Under 0.5 receptions  +  Tetairoa McMillan Over 4.5 receptions</td><td>+288</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Raheim Sanders Under 0.5 receptions  +  Tetairoa McMillan Over 4.5 receptions</td><td>+259</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Michael Mayer Over 2.5 receptions  +  Tyler Shough Over 1.5 pass TD</td><td>+305</td><td class="won">won</td><td>$+15.25</td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Michael Mayer Over 2.5 receptions  +  Tyler Shough Over 1.5 pass TD</td><td>+261</td><td class="won">won</td><td>$+13.05</td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Bhayshul Tuten Over 9.5 rec yds  +  Drake Maye Over 1.5 pass TD</td><td>+287</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>FanDuel</td><td>Samaje Perine Over 1.5 receptions  +  Aaron Rodgers Over 224.5 pass yds</td><td>+258</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-28</td><td>DraftKings</td><td>Emmett Johnson Over 1.5 receptions  +  Xavier Worthy Over 3.5 receptions</td><td>+252</td><td class="lost">lost</td><td>$-5.00</td></tr></table></div></details></div></div>
-<h2>Cumulative P&amp;L</h2><div class="card"><svg viewBox="0 0 640 160" width="100%" style="max-width:640px"><line x1="28" y1="110.4" x2="612" y2="110.4" stroke="#8886" stroke-dasharray="4"/><path d="M28.0,109.8 L28.6,109.2 L29.2,109.8 L29.8,110.4 L30.4,109.8 L31.0,109.1 L31.6,109.8 L32.2,110.4 L32.8,109.8 L33.3,110.4 L33.9,111.0 L34.5,111.6 L35.1,112.2 L35.7,111.6 L36.3,112.3 L36.9,112.9 L37.5,113.5 L38.1,114.1 L38.7,114.7 L39.3,115.4 L39.9,116.0 L40.5,116.6 L41.1,117.2 L41.7,117.8 L42.3,118.5 L42.9,119.1 L43.4,118.1 L44.0,118.7 L44.6,119.3 L45.2,120.0 L45.8,120.6 L46.4,121.2 L47.0,121.8 L47.6,122.4 L48.2,123.1 L48.8,123.7 L49.4,124.3 L50.0,124.9 L50.6,125.5 L51.2,126.1 L51.8,126.8 L52.4,127.4 L53.0,126.6 L53.5,127.3 L54.1,127.9 L54.7,128.5 L55.3,127.7 L55.9,126.7 L56.5,125.8 L57.1,126.4 L57.7,127.1 L58.3,126.5 L58.9,125.9 L59.5,126.5 L60.1,125.9 L60.7,125.4 L61.3,126.0 L61.9,125.3 L62.5,124.6 L63.1,125.2 L63.6,123.8 L64.2,124.5 L64.8,125.1 L65.4,125.7 L66.0,126.3 L66.6,123.2 L67.2,123.9 L67.8,124.5 L68.4,125.1 L69.0,125.7 L69.6,126.3 L70.2,126.9 L70.8,127.6 L71.4,128.2 L72.0,128.8 L72.6,129.4 L73.2,130.0 L73.7,129.2 L74.3,128.3 L74.9,127.4 L75.5,128.0 L76.1,128.7 L76.7,129.3 L77.3,129.9 L77.9,128.9 L78.5,129.5 L79.1,130.2 L79.7,129.5 L80.3,128.9 L80.9,128.1 L81.5,128.8 L82.1,128.3 L82.7,128.9 L83.3,129.5 L83.8,130.1 L84.4,130.8 L85.0,131.4 L85.6,132.0 L86.2,129.1 L86.8,129.8 L87.4,130.4 L88.0,131.0 L88.6,131.6 L89.2,130.1 L89.8,128.3 L90.4,128.9 L91.0,126.9 L91.6,127.5 L92.2,126.6 L92.8,125.9 L93.4,125.4 L93.9,124.8 L94.5,124.2 L95.1,124.8 L95.7,125.5 L96.3,126.1 L96.9,125.4 L97.5,124.7 L98.1,125.3 L98.7,124.8 L99.3,122.8 L99.9,121.0 L100.5,121.6 L101.1,122.3 L101.7,122.9 L102.3,123.5 L102.9,119.1 L103.5,119.7 L104.0,120.4 L104.6,114.3 L105.2,115.0 L105.8,115.6 L106.4,116.2 L107.0,115.5 L107.6,116.2 L108.2,116.8 L108.8,116.2 L109.4,115.2 L110.0,115.8 L110.6,116.5 L111.2,117.1 L111.8,114.0 L112.4,114.6 L113.0,115.2 L113.6,115.9 L114.1,116.5 L114.7,117.1 L115.3,117.7 L115.9,115.8 L116.5,113.5 L117.1,112.7 L117.7,111.9 L118.3,111.2 L118.9,110.5 L119.5,109.8 L120.1,109.2 L120.7,108.6 L121.3,108.0 L121.9,108.6 L122.5,109.2 L123.1,108.6 L123.7,108.0 L124.2,107.5 L124.8,106.8 L125.4,106.2 L126.0,105.4 L126.6,104.6 L127.2,103.9 L127.8,104.5 L128.4,105.1 L129.0,105.8 L129.6,106.4 L130.2,107.0 L130.8,107.6 L131.4,108.2 L132.0,107.7 L132.6,107.1 L133.2,106.6 L133.7,106.0 L134.3,105.5 L134.9,105.1 L135.5,104.6 L136.1,104.1 L136.7,103.6 L137.3,103.1 L137.9,102.6 L138.5,103.2 L139.1,103.8 L139.7,104.4 L140.3,103.7 L140.9,103.1 L141.5,102.4 L142.1,103.0 L142.7,101.1 L143.3,98.2 L143.8,98.9 L144.4,99.5 L145.0,97.9 L145.6,95.3 L146.2,93.4 L146.8,91.1 L147.4,85.8 L148.0,83.8 L148.6,81.3 L149.2,79.0 L149.8,76.9 L150.4,77.5 L151.0,78.2 L151.6,78.8 L152.2,77.1 L152.8,75.2 L153.4,75.8 L153.9,76.4 L154.5,75.7 L155.1,76.3 L155.7,76.9 L156.3,76.2 L156.9,75.7 L157.5,74.7 L158.1,74.1 L158.7,74.7 L159.3,75.4 L159.9,76.0 L160.5,76.6 L161.1,77.2 L161.7,76.7 L162.3,76.2 L162.9,76.8 L163.5,77.4 L164.0,78.0 L164.6,78.7 L165.2,79.3 L165.8,78.7 L166.4,79.3 L167.0,79.9 L167.6,78.3 L168.2,78.9 L168.8,79.5 L169.4,80.1 L170.0,80.7 L170.6,81.4 L171.2,82.0 L171.8,82.6 L172.4,83.2 L173.0,81.5 L173.6,82.1 L174.1,82.8 L174.7,83.4 L175.3,81.8 L175.9,80.2 L176.5,79.5 L177.1,80.1 L177.7,80.7 L178.3,81.4 L178.9,80.8 L179.5,80.1 L180.1,79.5 L180.7,80.1 L181.3,79.5 L181.9,79.0 L182.5,79.6 L183.1,80.2 L183.7,80.8 L184.2,81.4 L184.8,82.1 L185.4,82.7 L186.0,83.3 L186.6,83.9 L187.2,84.5 L187.8,85.1 L188.4,84.4 L189.0,83.8 L189.6,84.4 L190.2,85.1 L190.8,82.5 L191.4,83.1 L192.0,83.7 L192.6,84.4 L193.2,85.0 L193.8,85.6 L194.3,86.2 L194.9,86.8 L195.5,84.2 L196.1,82.5 L196.7,83.1 L197.3,83.8 L197.9,84.4 L198.5,85.0 L199.1,85.6 L199.7,85.3 L200.3,84.7 L200.9,85.3 L201.5,85.9 L202.1,86.6 L202.7,86.0 L203.3,85.5 L203.9,86.1 L204.4,86.7 L205.0,87.3 L205.6,86.7 L206.2,86.0 L206.8,85.4 L207.4,86.0 L208.0,86.6 L208.6,87.2 L209.2,87.8 L209.8,88.5 L210.4,89.1 L211.0,89.7 L211.6,90.3 L212.2,88.5 L212.8,86.5 L213.4,84.6 L214.0,82.4 L214.5,83.0 L215.1,83.6 L215.7,84.2 L216.3,84.8 L216.9,85.5 L217.5,85.0 L218.1,84.3 L218.7,83.6 L219.3,82.9 L219.9,83.5 L220.5,82.8 L221.1,82.3 L221.7,81.2 L222.3,80.7 L222.9,81.3 L223.5,81.9 L224.1,76.9 L224.6,77.5 L225.2,78.1 L225.8,78.7 L226.4,76.9 L227.0,77.6 L227.6,78.2 L228.2,78.8 L228.8,79.4 L229.4,80.0 L230.0,79.0 L230.6,79.6 L231.2,80.2 L231.8,80.8 L232.4,81.5 L233.0,80.7 L233.6,81.3 L234.2,81.9 L234.7,82.5 L235.3,83.1 L235.9,83.8 L236.5,84.4 L237.1,83.7 L237.7,83.0 L238.3,80.9 L238.9,80.3 L239.5,80.9 L240.1,81.5 L240.7,82.1 L241.3,81.5 L241.9,80.9 L242.5,81.5 L243.1,79.6 L243.7,77.7 L244.3,78.3 L244.8,77.9 L245.4,78.5 L246.0,79.1 L246.6,79.8 L247.2,80.4 L247.8,81.0 L248.4,81.6 L249.0,82.2 L249.6,80.3 L250.2,80.9 L250.8,81.5 L251.4,81.2 L252.0,80.4 L252.6,79.9 L253.2,80.5 L253.8,81.1 L254.4,80.2 L254.9,80.8 L255.5,81.4 L256.1,82.0 L256.7,81.3 L257.3,81.9 L257.9,80.7 L258.5,81.4 L259.1,82.0 L259.7,81.0 L260.3,80.0 L260.9,80.6 L261.5,81.2 L262.1,81.9 L262.7,82.5 L263.3,81.7 L263.9,81.1 L264.5,80.5 L265.0,78.8 L265.6,79.4 L266.2,80.0 L266.8,79.5 L267.4,77.6 L268.0,75.4 L268.6,76.0 L269.2,76.6 L269.8,77.2 L270.4,77.8 L271.0,78.4 L271.6,78.1 L272.2,78.7 L272.8,79.3 L273.4,79.9 L274.0,79.2 L274.6,79.8 L275.1,80.5 L275.7,81.1 L276.3,81.7 L276.9,81.2 L277.5,80.3 L278.1,79.5 L278.7,78.0 L279.3,76.2 L279.9,76.8 L280.5,77.4 L281.1,76.8 L281.7,77.4 L282.3,78.0 L282.9,78.6 L283.5,79.3 L284.1,79.9 L284.7,80.5 L285.2,81.1 L285.8,80.3 L286.4,79.8 L287.0,79.3 L287.6,78.7 L288.2,79.3 L288.8,76.9 L289.4,77.5 L290.0,78.1 L290.6,78.7 L291.2,79.4 L291.8,80.0 L292.4,79.5 L293.0,80.1 L293.6,79.3 L294.2,78.5 L294.8,77.7 L295.3,76.9 L295.9,77.6 L296.5,77.0 L297.1,77.6 L297.7,78.2 L298.3,78.8 L298.9,76.8 L299.5,77.4 L300.1,75.4 L300.7,76.1 L301.3,76.7 L301.9,77.3 L302.5,77.9 L303.1,78.5 L303.7,76.7 L304.3,74.3 L304.9,74.9 L305.4,74.0 L306.0,74.6 L306.6,75.2 L307.2,75.8 L307.8,76.4 L308.4,77.1 L309.0,77.7 L309.6,77.1 L310.2,77.7 L310.8,78.4 L311.4,77.6 L312.0,78.2 L312.6,78.8 L313.2,79.5 L313.8,78.8 L314.4,79.4 L315.0,80.0 L315.5,80.7 L316.1,79.9 L316.7,79.2 L317.3,78.4 L317.9,75.3 L318.5,75.9 L319.1,76.5 L319.7,77.1 L320.3,77.7 L320.9,78.4 L321.5,79.0 L322.1,79.6 L322.7,77.5 L323.3,72.0 L323.9,72.6 L324.5,73.3 L325.0,73.9 L325.6,71.8 L326.2,72.4 L326.8,73.1 L327.4,73.7 L328.0,74.3 L328.6,74.9 L329.2,75.5 L329.8,76.2 L330.4,76.8 L331.0,77.4 L331.6,78.0 L332.2,76.4 L332.8,77.0 L333.4,77.6 L334.0,78.3 L334.6,78.9 L335.1,79.5 L335.7,80.1 L336.3,78.7 L336.9,77.9 L337.5,78.5 L338.1,77.6 L338.7,78.2 L339.3,77.4 L339.9,78.1 L340.5,78.7 L341.1,76.1 L341.7,76.7 L342.3,77.3 L342.9,77.9 L343.5,78.6 L344.1,79.2 L344.7,79.8 L345.2,74.5 L345.8,75.2 L346.4,75.8 L347.0,73.9 L347.6,74.5 L348.2,75.1 L348.8,75.7 L349.4,76.3 L350.0,76.9 L350.6,77.6 L351.2,76.7 L351.8,75.9 L352.4,75.0 L353.0,75.6 L353.6,75.0 L354.2,75.6 L354.8,76.2 L355.3,76.8 L355.9,74.3 L356.5,72.5 L357.1,73.1 L357.7,71.8 L358.3,72.4 L358.9,73.0 L359.5,72.5 L360.1,73.1 L360.7,70.9 L361.3,65.6 L361.9,66.2 L362.5,66.8 L363.1,67.4 L363.7,68.1 L364.3,68.7 L364.9,69.3 L365.4,69.9 L366.0,69.3 L366.6,68.6 L367.2,67.2 L367.8,66.6 L368.4,66.1 L369.0,65.1 L369.6,64.2 L370.2,63.5 L370.8,63.1 L371.4,63.7 L372.0,63.0 L372.6,62.3 L373.2,61.7 L373.8,61.0 L374.4,61.7 L375.0,62.3 L375.5,62.9 L376.1,63.5 L376.7,64.1 L377.3,64.7 L377.9,65.4 L378.5,66.0 L379.1,66.6 L379.7,67.2 L380.3,67.8 L380.9,66.1 L381.5,66.7 L382.1,64.9 L382.7,65.5 L383.3,66.1 L383.9,66.7 L384.5,65.1 L385.1,65.8 L385.6,63.9 L386.2,64.5 L386.8,65.1 L387.4,65.8 L388.0,64.7 L388.6,65.3 L389.2,65.9 L389.8,66.5 L390.4,65.7 L391.0,66.3 L391.6,66.9 L392.2,67.5 L392.8,68.1 L393.4,68.7 L394.0,67.9 L394.6,68.6 L395.2,67.8 L395.7,67.2 L396.3,66.5 L396.9,67.1 L397.5,67.7 L398.1,68.3 L398.7,69.0 L399.3,69.6 L399.9,67.3 L400.5,68.0 L401.1,65.5 L401.7,66.1 L402.3,66.7 L402.9,62.2 L403.5,62.8 L404.1,63.5 L404.7,64.1 L405.3,64.7 L405.8,65.3 L406.4,64.8 L407.0,64.3 L407.6,64.9 L408.2,65.5 L408.8,66.2 L409.4,64.8 L410.0,64.3 L410.6,64.9 L411.2,65.5 L411.8,66.1 L412.4,66.7 L413.0,67.4 L413.6,68.0 L414.2,68.6 L414.8,69.2 L415.4,69.8 L415.9,70.4 L416.5,69.6 L417.1,68.9 L417.7,68.4 L418.3,67.8 L418.9,68.4 L419.5,69.1 L420.1,65.0 L420.7,65.6 L421.3,66.2 L421.9,66.8 L422.5,67.4 L423.1,66.6 L423.7,66.1 L424.3,65.5 L424.9,65.0 L425.5,64.3 L426.0,63.8 L426.6,63.2 L427.2,63.8 L427.8,62.3 L428.4,61.5 L429.0,62.2 L429.6,61.4 L430.2,62.0 L430.8,62.6 L431.4,63.2 L432.0,63.8 L432.6,64.5 L433.2,65.1 L433.8,63.3 L434.4,63.9 L435.0,64.5 L435.6,61.9 L436.1,62.5 L436.7,63.1 L437.3,58.8 L437.9,56.8 L438.5,55.0 L439.1,55.6 L439.7,56.3 L440.3,56.9 L440.9,57.5 L441.5,58.1 L442.1,57.4 L442.7,58.1 L443.3,57.5 L443.9,56.9 L444.5,57.6 L445.1,58.2 L445.7,57.5 L446.2,56.7 L446.8,56.2 L447.4,55.7 L448.0,55.0 L448.6,54.3 L449.2,53.6 L449.8,52.4 L450.4,53.0 L451.0,53.6 L451.6,54.3 L452.2,53.5 L452.8,52.6 L453.4,53.2 L454.0,53.8 L454.6,54.5 L455.2,55.1 L455.8,50.4 L456.3,51.0 L456.9,48.3 L457.5,41.7 L458.1,40.0 L458.7,40.6 L459.3,41.3 L459.9,41.9 L460.5,40.6 L461.1,39.1 L461.7,36.8 L462.3,34.8 L462.9,33.0 L463.5,30.9 L464.1,31.6 L464.7,31.0 L465.3,30.4 L465.9,29.9 L466.4,30.5 L467.0,29.8 L467.6,30.4 L468.2,31.0 L468.8,30.4 L469.4,31.0 L470.0,29.6 L470.6,28.7 L471.2,29.3 L471.8,29.0 L472.4,28.0 L473.0,28.6 L473.6,29.2 L474.2,28.5 L474.8,29.2 L475.4,28.6 L476.0,29.2 L476.5,29.8 L477.1,30.4 L477.7,29.8 L478.3,29.2 L478.9,29.8 L479.5,30.4 L480.1,31.1 L480.7,31.7 L481.3,30.8 L481.9,31.4 L482.5,30.0 L483.1,29.4 L483.7,30.1 L484.3,30.7 L484.9,31.3 L485.5,31.9 L486.1,31.2 L486.6,31.8 L487.2,31.1 L487.8,30.4 L488.4,29.7 L489.0,30.3 L489.6,30.9 L490.2,31.5 L490.8,32.1 L491.4,32.8 L492.0,33.4 L492.6,34.0 L493.2,34.6 L493.8,35.2 L494.4,35.8 L495.0,36.5 L495.6,37.1 L496.2,33.1 L496.7,33.7 L497.3,34.3 L497.9,34.9 L498.5,35.5 L499.1,36.2 L499.7,36.8 L500.3,37.4 L500.9,38.0 L501.5,38.6 L502.1,39.3 L502.7,39.9 L503.3,40.5 L503.9,41.1 L504.5,41.7 L505.1,42.4 L505.7,40.7 L506.3,38.9 L506.8,39.5 L507.4,40.1 L508.0,39.1 L508.6,37.5 L509.2,35.8 L509.8,36.4 L510.4,37.1 L511.0,37.7 L511.6,38.3 L512.2,38.9 L512.8,38.0 L513.4,37.1 L514.0,37.7 L514.6,38.3 L515.2,38.9 L515.8,39.5 L516.3,40.2 L516.9,40.8 L517.5,41.4 L518.1,42.0 L518.7,42.6 L519.3,43.3 L519.9,43.9 L520.5,44.5 L521.1,45.1 L521.7,45.7 L522.3,46.3 L522.9,47.0 L523.5,47.6 L524.1,48.2 L524.7,48.8 L525.3,49.4 L525.9,50.1 L526.4,50.7 L527.0,50.7 L527.6,50.1 L528.2,49.5 L528.8,50.2 L529.4,50.8 L530.0,49.0 L530.6,49.6 L531.2,49.6 L531.8,49.1 L532.4,49.7 L533.0,50.3 L533.6,49.7 L534.2,50.3 L534.8,49.8 L535.4,50.4 L536.0,51.0 L536.5,51.7 L537.1,51.7 L537.7,51.7 L538.3,51.7 L538.9,51.7 L539.5,51.2 L540.1,51.8 L540.7,52.4 L541.3,53.0 L541.9,53.6 L542.5,54.3 L543.1,54.9 L543.7,55.5 L544.3,56.1 L544.9,56.1 L545.5,56.7 L546.1,57.4 L546.6,58.0 L547.2,58.6 L547.8,57.8 L548.4,57.1 L549.0,57.1 L549.6,57.7 L550.2,58.4 L550.8,58.4 L551.4,58.4 L552.0,59.0 L552.6,59.6 L553.2,58.9 L553.8,58.1 L554.4,58.1 L555.0,58.1 L555.6,58.1 L556.2,58.7 L556.7,59.3 L557.3,58.9 L557.9,58.5 L558.5,59.1 L559.1,59.7 L559.7,60.3 L560.3,60.9 L560.9,61.6 L561.5,61.6 L562.1,61.6 L562.7,61.6 L563.3,61.6 L563.9,61.6 L564.5,61.0 L565.1,61.6 L565.7,62.2 L566.3,61.7 L566.8,61.1 L567.4,61.1 L568.0,61.1 L568.6,60.5 L569.2,61.2 L569.8,60.7 L570.4,58.2 L571.0,57.4 L571.6,58.0 L572.2,58.7 L572.8,58.7 L573.4,58.7 L574.0,58.7 L574.6,59.3 L575.2,58.7 L575.8,58.2 L576.4,56.5 L576.9,57.1 L577.5,55.4 L578.1,56.1 L578.7,56.7 L579.3,56.7 L579.9,56.1 L580.5,56.7 L581.1,57.3 L581.7,57.3 L582.3,57.3 L582.9,57.3 L583.5,57.3 L584.1,56.3 L584.7,55.5 L585.3,54.8 L585.9,52.8 L586.5,52.2 L587.0,52.8 L587.6,53.4 L588.2,54.0 L588.8,54.0 L589.4,54.0 L590.0,54.0 L590.6,53.1 L591.2,52.6 L591.8,50.5 L592.4,49.8 L593.0,47.8 L593.6,47.2 L594.2,47.8 L594.8,44.6 L595.4,43.8 L596.0,42.9 L596.6,43.5 L597.1,44.2 L597.7,44.8 L598.3,45.4 L598.9,46.0 L599.5,44.4 L600.1,43.7 L600.7,44.4 L601.3,43.5 L601.9,42.7 L602.5,43.3 L603.1,43.9 L603.7,44.5 L604.3,45.2 L604.9,45.8 L605.5,44.8 L606.1,44.2 L606.7,44.8 L607.2,45.5 L607.8,46.1 L608.4,46.7 L609.0,47.3 L609.6,46.6 L610.2,45.9 L610.8,45.3 L611.4,44.6 L612.0,43.8" fill="none" stroke="#4f9d69" stroke-width="2.5"/><text x="28" y="14" font-size="11" fill="#888">2026-09-21</text><text x="612" y="14" font-size="11" fill="#888" text-anchor="end">2026-09-29 · $+538.42</text></svg></div>
-<details class="card" style="margin-top:14px" open><summary><h2 style="display:inline;margin:0">Live slips</h2> <span class="mut">· 9 pending · tap to collapse</span></summary>
-<div class="wrap" style="margin-top:12px"><table><tr><th>kickoff</th><th>type</th><th>book</th><th>legs</th><th>price</th></tr><tr><td>Mon 8:15 PM ET <span class="mut">(in progress)</span></td><td>parlay</td><td>DraftKings</td><td>Jalen Hurts Over 0.5 INTs  +  Deshaun Watson Under 0.5 pass TD</td><td>+603</td></tr><tr><td>Thu 8:15 PM ET</td><td>straight</td><td>DraftKings</td><td>Deshaun Watson Under 0.5 pass TD</td><td>+194</td></tr><tr><td>Thu 8:15 PM ET</td><td>straight</td><td>DraftKings</td><td>Aaron Rodgers Over 0.5 INTs</td><td>-101</td></tr><tr><td>Thu 8:15 PM ET</td><td>sgp</td><td>DraftKings</td><td>Aaron Rodgers Over 0.5 INTs  +  Deshaun Watson Under 0.5 pass TD</td><td>+435</td></tr><tr><td>Thu 8:15 PM ET</td><td>straight</td><td>Bovada</td><td>Aaron Rodgers Over 0.5 INTs</td><td>+105</td></tr><tr><td>Thu 8:15 PM ET</td><td>straight</td><td>Kalshi</td><td>Harold Fannin Jr. Over 4.5 receptions</td><td>+108</td></tr><tr><td>Thu 8:15 PM ET</td><td>straight</td><td>DraftKings</td><td>KC Concepcion Under 3.5 receptions</td><td>+123</td></tr><tr><td>Thu 8:15 PM ET</td><td>sgp</td><td>FanDuel</td><td>Deshaun Watson Under 0.5 pass TD  +  KC Concepcion Under 3.5 receptions</td><td>+338</td></tr><tr><td>Thu 8:15 PM ET</td><td>sgp</td><td>DraftKings</td><td>Deshaun Watson Under 0.5 pass TD  +  KC Concepcion Under 3.5 receptions</td><td>+425</td></tr></table>
-<div class="mut" style="margin-top:8px">Auto-generated by the rule set, $5 paper each. Settles into the table below when the game ends.</div></div></details>
-<details class="card" style="margin-top:14px"><summary><h2 style="display:inline;margin:0">Settled slips</h2> <span class="mut">· last 40 · tap to expand</span></summary>
-<div class="wrap" style="margin-top:12px"><table><tr><th>settled</th><th>type</th><th>book</th><th>legs</th><th>price</th><th>result</th><th>P&amp;L</th></tr><tr><td>2026-09-29</td><td>straight</td><td>Kalshi</td><td>Rome Odunze Over 2.5 receptions</td><td>+133</td><td class="won">won</td><td>$+6.65</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Kalshi</td><td>DeVonta Smith Over 5.5 receptions</td><td>+104</td><td class="won">won</td><td>$+5.20</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Underdog</td><td>Cole Kmet Under 7.5 longest rec</td><td>-102</td><td class="won">won</td><td>$+4.90</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Bovada</td><td>Case Keenum Under 0.5 INTs</td><td>+115</td><td class="won">won</td><td>$+5.75</td></tr><tr><td>2026-09-29</td><td>straight</td><td>DraftKings</td><td>Case Keenum Under 0.5 INTs</td><td>+116</td><td class="won">won</td><td>$+5.80</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Bovada</td><td>Kyle Monangai Under 29.5 rush yds</td><td>+190</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Kalshi</td><td>Makai Lemon Under 2.5 receptions</td><td>+117</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Kalshi</td><td>D&#x27;Andre Swift Over 2.5 receptions</td><td>+178</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Hard Rock</td><td>D&#x27;Andre Swift Under 1.5 receptions</td><td>+155</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>DraftKings</td><td>Johnny Mundt Over 8.5 rec yds</td><td>-106</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>DraftKings</td><td>D&#x27;Andre Swift Under 14.5 rec yds</td><td>-116</td><td class="won">won</td><td>$+4.31</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Bovada</td><td>Jalen Hurts Under 199.5 pass yds</td><td>+165</td><td class="won">won</td><td>$+8.25</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Kalshi</td><td>Saquon Barkley Over 2.5 receptions</td><td>+144</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Kalshi</td><td>Dontayvion Wicks Over 3.5 receptions</td><td>+144</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>DraftKings</td><td>DeVonta Smith Under 5.5 receptions</td><td>+103</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>FanDuel</td><td>DeVonta Smith Under 5.5 receptions</td><td>+104</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>FanDuel</td><td>Cole Kmet Over 1.5 receptions</td><td>+124</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Bovada</td><td>Jalen Hurts Over 0.5 INTs</td><td>+135</td><td class="won">won</td><td>$+6.75</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Hard Rock</td><td>Jalen Hurts Over 0.5 INTs</td><td>+135</td><td class="won">won</td><td>$+6.75</td></tr><tr><td>2026-09-29</td><td>parlay</td><td>Underdog</td><td>Jeremy Ruckert Over 8.5 rec yds  +  Rome Odunze Under 2.5 receptions</td><td>+274</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Kalshi</td><td>D&#x27;Andre Swift Over 59.5 rush yds</td><td>-100</td><td class="won">won</td><td>$+5.00</td></tr><tr><td>2026-09-29</td><td>parlay</td><td>Underdog</td><td>Colston Loveland Under 39.5 rec yds  +  Dominic Zvada Over 1.5 FGs made</td><td>+268</td><td class="won">won</td><td>$+13.40</td></tr><tr><td>2026-09-29</td><td>parlay</td><td>Underdog</td><td>Rome Odunze Under 2.5 receptions  +  Garrett Wilson Over 5.5 receptions</td><td>+279</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Kalshi</td><td>Colston Loveland Under 3.5 receptions</td><td>-100</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Kalshi</td><td>Cole Kmet Over 1.5 receptions</td><td>+104</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>DraftKings</td><td>Jalen Hurts Over 6.5 rush att</td><td>+101</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Hard Rock</td><td>Makai Lemon Under 1.5 receptions</td><td>+250</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Kalshi</td><td>Colston Loveland Over 3.5 receptions</td><td>+138</td><td class="won">won</td><td>$+6.90</td></tr><tr><td>2026-09-29</td><td>straight</td><td>DraftKings</td><td>Jalen Hurts Over 0.5 INTs</td><td>+134</td><td class="won">won</td><td>$+6.70</td></tr><tr><td>2026-09-29</td><td>parlay</td><td>Hard Rock</td><td>Dontayvion Wicks Under 39.5 rec yds  +  De&#x27;Von Achane Under 2.5 receptions</td><td>+525</td><td class="won">won</td><td>$+26.25</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Underdog</td><td>Rome Odunze Under 2.5 receptions</td><td>-106</td><td class="lost">lost</td><td>$-5.00</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Underdog</td><td>Colston Loveland Under 39.5 rec yds</td><td>-108</td><td class="won">won</td><td>$+4.63</td></tr><tr><td>2026-09-29</td><td>parlay</td><td>Hard Rock</td><td>Dontayvion Wicks Under 39.5 rec yds  +  Javonte Williams Under 2.5 receptions</td><td>+330</td><td class="won">won</td><td>$+16.50</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Kalshi</td><td>Jalen Hurts Over 24.5 rush yds</td><td>+108</td><td class="won">won</td><td>$+5.40</td></tr><tr><td>2026-09-29</td><td>parlay</td><td>Hard Rock</td><td>Trey Smack Under 1.5 FGs made  +  Dontayvion Wicks Under 39.5 rec yds</td><td>+330</td><td class="won">won</td><td>$+16.50</td></tr><tr><td>2026-09-29</td><td>straight</td><td>Hard Rock</td><td>Dontayvion Wicks Under 39.5 rec yds</td><td>-105</td><td class="won">won</td><td>$+4.76</td></tr><tr><td>2026-09-28</td><td>parlay</td><td>Kalshi</td><td>Darius Slayton Over 1.5 receptions  +  Trey McBride Over 7.5 receptions</td><td>+617</td><td class="won">won</td><td>$+7.20</td></tr><tr><td>2026-09-28</td><td>straight</td><td>Bovada</td><td>Adam Trautman Under 0.5 receptions</td><td>+180</td><td class="void">void</td><td>$+0.00</td></tr><tr><td>2026-09-28</td><td>straight</td><td>Kalshi</td><td>Elijah Arroyo Over 4.5 rec yds</td><td>-100</td><td class="void">void</td><td>$+0.00</td></tr><tr><td>2026-09-28</td><td>straight</td><td>Kalshi</td><td>Devin Singletary Over 1.5 receptions</td><td>+127</td><td class="void">void</td><td>$+0.00</td></tr></table></div></details>
-<h2>Week by week</h2><div class="card wrap"><table><tr><th>week</th><th>settled</th><th>W–L</th><th>P&amp;L</th></tr><tr><td>2026-W40</td><td>558</td><td>196–331</td><td>$+271.83</td></tr><tr><td>2026-W39</td><td>426</td><td>170–256</td><td>$+266.60</td></tr></table></div>
-<footer class="mut">What this is: a season-long paper experiment on NFL player props. Slips are generated automatically from a pre-committed rule set — the rules don't change mid-season, and every slip is logged whether it wins or loses. Prices are from PropLine. This page is a record, not advice; nothing here is a recommendation to bet. Code version 2026-09-28.</footer>
-</body></html>
+<header class="hero shell">
+  <h1>History and leaderboard.<br>One view.</h1>
+  <p>Historical performance now includes real reconstructed dollars, while pair ranking stays clean. Platform copying is tucked behind a placeholder action drawer until live execution is ready.</p>
+</header>
+
+<main class="shell">
+
+<section class="section">
+  <div class="card performance">
+    <div class="perf-head">
+      <div>
+        <small>Historical model performance</small>
+        <h3>Equity curve + model leaderboard</h3>
+      </div>
+      <div class="badge">2-week exploratory sample</div>
+    </div>
+
+    <div class="money-strip" id="moneyStrip">
+      <div><small>Amount staked</small><b id="mStake">$10.00</b></div>
+      <div><small>Gross return</small><b id="mGross">$43.29</b></div>
+      <div><small>Net profit</small><b id="mNet" class="pos">+$33.29</b></div>
+      <div><small>ROI</small><b id="mRoi" class="pos">+332.9%</b></div>
+      <div><small>Slips</small><b id="mSlips">2</b></div>
+      <div><small>Hit rate</small><b id="mHit">100%</b></div>
+      <div><small>Avg joint P</small><b id="mJoint">25.5%</b></div>
+      <div><small>Avg model edge</small><b id="mEdge">+9.3%</b></div>
+    </div>
+
+    <div class="perf-layout">
+      <div class="chart-wrap">
+        <div class="chart actual-chart">
+          <svg id="equityChart" viewBox="0 0 1000 320" preserveAspectRatio="none" aria-label="Historical reconstructed net profit by model"></svg>
+        </div>
+        <div class="legend">
+          <span><i class="dot" style="background:#0071e3"></i>V2 Depth</span>
+          <span><i class="dot" style="background:#6e6e73"></i>V1 Strict</span>
+          <span><i class="dot" style="background:#9b9ba1"></i>C1 Score</span>
+          <span><i class="dot" style="background:#d92d20"></i>C0 Raw EV</span>
+        </div>
+        <div class="note">Dollar figures use a fixed $5 research stake per selected ticket. Cross-game prices are reconstructed from archived leg odds because historical parlay-builder quotes were not saved.</div>
+      </div>
+
+      <div class="model-list">
+        <button class="model" data-model="c0">
+          <div class="model-top"><span class="model-name">C0 · Raw EV</span><span class="tag">Control</span></div>
+          <div class="model-main"><span class="record">1–8</span><span class="model-meta">−$30.75 net<br>−68.3% ROI</span></div>
+          <div class="model-foot"><span>9 slips</span><span>Underperforming</span></div>
+        </button>
+
+        <button class="model" data-model="c1">
+          <div class="model-top"><span class="model-name">C1 · Existing score</span><span class="tag">Control</span></div>
+          <div class="model-main"><span class="record">3–6</span><span class="model-meta">+$9.88 net<br>+22.0% ROI</span></div>
+          <div class="model-foot"><span>9 slips</span><span>Baseline</span></div>
+        </button>
+
+        <button class="model" data-model="v1">
+          <div class="model-top"><span class="model-name">V1 · Strict</span><span class="tag">Frozen</span></div>
+          <div class="model-main"><span class="record">1–0</span><span class="model-meta">+$14.64 net<br>+292.8% ROI</span></div>
+          <div class="model-foot"><span>1 slip</span><span>Rec &gt;2.5</span></div>
+        </button>
+
+        <button class="model active" data-model="v2">
+          <div class="model-top"><span class="model-name">V2 · Depth</span><span class="tag">Lead</span></div>
+          <div class="model-main"><span class="record">2–0</span><span class="model-meta">+$33.29 net<br>+332.9% ROI</span></div>
+          <div class="model-foot"><span>2 slips</span><span>Rec &gt;1.5</span></div>
+        </button>
+
+        <button class="model" data-model="future">
+          <div class="model-top"><span class="model-name">V3–V8</span><span class="tag">Tracking</span></div>
+          <div class="model-main"><span class="record">6</span><span class="model-meta">forward variants<br>no settled $ yet</span></div>
+          <div class="model-foot"><span>Confirmation</span><span>Execution</span></div>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="card tabs">
+    <div class="tabbar">
+      <button class="active" data-tab="why">Why this pair</button>
+      <button data-tab="books">Book roles</button>
+      <button data-tab="variants">Variants</button>
+      <button data-tab="notes">Research notes</button>
+    </div>
+    <div class="tabbody">
+
+      <div class="tabpane active" id="why">
+        <div class="pair-workspace">
+          <div class="pair-ranking">
+            <div class="pair-head">
+              <div>
+                <h4>Pair ranking</h4>
+                <p>Ranked by joint fair probability after quality filters. Expand any pair to inspect its historical evidence.</p>
+              </div>
+              <span class="mini-badge">Sep 20 example</span>
+            </div>
+
+            <details class="pair-detail" open>
+              <summary>
+                <div class="rank-num">1</div>
+                <div class="pair-name">
+                  <strong>Jefferson U6.5 REC + Shough U0.5 INT</strong>
+                  <span>DraftKings · reconstructed +293</span>
+                </div>
+                <div class="pair-metric"><small>Joint P</small><b>28.14%</b></div>
+                <div class="pair-metric"><small>Edge</small><b class="good">+10.6%</b></div><button class="platform-trigger" data-pair="pair1" type="button">Platforms</button>
+              </summary>
+              <div class="pair-expanded">
+                <div class="expanded-grid">
+                  <div><small>Fair probability</small><b>28.14%</b></div>
+                  <div><small>Break-even</small><b>25.45%</b></div>
+                  <div><small>Model edge</small><b class="good">+10.56%</b></div>
+                  <div><small>Historical result</small><b class="good">WIN</b></div>
+                </div>
+                <div class="confirm-row">
+                  <span>✓ Pinnacle fair</span>
+                  <span>✓ Bovada confirmed</span>
+                  <span>✓ DraftKings confirmed</span>
+                  <span>✓ 5+ books</span>
+                  <span>✓ Separate games</span>
+                </div>
+                <div class="pair-note">Historical cross-game price is reconstructed from individual leg odds; an actual archived parlay quote was not available.</div>
+              </div>
+            </details>
+
+            <details class="pair-detail">
+              <summary>
+                <div class="rank-num">2</div>
+                <div class="pair-name">
+                  <strong>Caleb U19.5 COMP + Shough U0.5 INT</strong>
+                  <span>DraftKings · reconstructed +293</span>
+                </div>
+                <div class="pair-metric"><small>Joint P</small><b>28.04%</b></div>
+                <div class="pair-metric"><small>Edge</small><b class="good">+10.2%</b></div><button class="platform-trigger" data-pair="pair2" type="button">Platforms</button>
+              </summary>
+              <div class="pair-expanded">
+                <div class="expanded-grid">
+                  <div><small>Historical result</small><b class="good">WIN</b></div>
+                  <div><small>Pair rank</small><b>#2</b></div>
+                  <div><small>Selection reason</small><b>Lower joint P</b></div>
+                  <div><small>Execution</small><b>DK</b></div>
+                </div>
+              </div>
+            </details>
+
+            <details class="pair-detail">
+              <summary>
+                <div class="rank-num">3</div>
+                <div class="pair-name">
+                  <strong>Rush O0.5 RUSH + Jefferson U6.5 REC</strong>
+                  <span>DraftKings · reconstructed +345</span>
+                </div>
+                <div class="pair-metric"><small>Joint P</small><b>24.44%</b></div>
+                <div class="pair-metric"><small>Edge</small><b class="good">+8.8%</b></div><button class="platform-trigger" data-pair="pair3" type="button">Platforms</button>
+              </summary>
+              <div class="pair-expanded">
+                <div class="expanded-grid">
+                  <div><small>Historical result</small><b class="good">WIN</b></div>
+                  <div><small>Pair rank</small><b>#3</b></div>
+                  <div><small>Tradeoff</small><b>More payout</b></div>
+                  <div><small>Execution</small><b>DK</b></div>
+                </div>
+              </div>
+            </details>
+
+            <details class="pair-detail">
+              <summary>
+                <div class="rank-num">4</div>
+                <div class="pair-name">
+                  <strong>Rush O0.5 RUSH + Caleb U19.5 COMP</strong>
+                  <span>DraftKings · reconstructed +345</span>
+                </div>
+                <div class="pair-metric"><small>Joint P</small><b>24.35%</b></div>
+                <div class="pair-metric"><small>Edge</small><b class="good">+8.4%</b></div><button class="platform-trigger" data-pair="pair4" type="button">Platforms</button>
+              </summary>
+              <div class="pair-expanded">
+                <div class="expanded-grid">
+                  <div><small>Historical result</small><b class="good">WIN</b></div>
+                  <div><small>Pair rank</small><b>#4</b></div>
+                  <div><small>Tradeoff</small><b>More payout</b></div>
+                  <div><small>Execution</small><b>DK</b></div>
+                </div>
+              </div>
+            </details>
+
+            <details class="pair-detail">
+              <summary>
+                <div class="rank-num">5</div>
+                <div class="pair-name">
+                  <strong>Rush O0.5 RUSH + Shough U0.5 INT</strong>
+                  <span>Bovada · reconstructed +371</span>
+                </div>
+                <div class="pair-metric"><small>Joint P</small><b>23.21%</b></div>
+                <div class="pair-metric"><small>Edge</small><b class="good">+9.4%</b></div><button class="platform-trigger" data-pair="pair5" type="button">Platforms</button>
+              </summary>
+              <div class="pair-expanded">
+                <div class="expanded-grid">
+                  <div><small>Historical result</small><b class="good">WIN</b></div>
+                  <div><small>Pair rank</small><b>#5</b></div>
+                  <div><small>Tradeoff</small><b>Highest payout</b></div>
+                  <div><small>Execution</small><b>BOV</b></div>
+                </div>
+              </div>
+            </details>
+          </div>
+</div>
+      </div>
+
+
+      <div class="tabpane" id="books">
+        <div class="roles">
+          <div class="role"><h5>Pinnacle</h5><p>Fair reference</p><b>Primary</b></div>
+          <div class="role"><h5>Bovada</h5><p>Confirmation</p><b>Strong</b></div>
+          <div class="role"><h5>DraftKings</h5><p>Confirmation + execution</p><b>Strong</b></div>
+          <div class="role"><h5>FanDuel</h5><p>Execution candidate</p><b>Track</b></div>
+          <div class="role"><h5>Hard Rock</h5><p>Local execution</p><b>Track</b></div>
+        </div>
+      </div>
+
+      <div class="tabpane" id="variants">
+        <div class="log">
+          <div class="logitem"><strong>V3:</strong> Pinnacle fair + Bovada confirmation.</div>
+          <div class="logitem"><strong>V4:</strong> Pinnacle fair + DraftKings confirmation.</div>
+          <div class="logitem"><strong>V5/V6:</strong> any 2 / any 3 confirming books.</div>
+          <div class="logitem"><strong>V7:</strong> actual-price floor. <strong>V8:</strong> up to two non-overlapping slips.</div>
+        </div>
+      </div>
+
+      <div class="tabpane" id="notes">
+        <div class="log">
+          <div class="logitem"><strong>Historical sample:</strong> only two main Sunday slates; results are highly clustered.</div>
+          <div class="logitem"><strong>Execution limitation:</strong> cross-game prices shown are reconstructed from leg odds.</div>
+          <div class="logitem"><strong>Production requirement:</strong> capture actual platform quote before Telegram can send “copy lineup on X.”</div>
+          <div class="logitem"><strong>Version discipline:</strong> every future logic change becomes a new version; old model history remains frozen.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+
+<div class="drawer-backdrop" id="drawerBackdrop"></div>
+<aside class="platform-drawer" id="platformDrawer" aria-hidden="true">
+  <div class="drawer-top">
+    <div>
+      <small>Future execution layer</small>
+      <h4>Copy to platform</h4>
+    </div>
+    <button class="drawer-close" id="drawerClose" aria-label="Close">×</button>
+  </div>
+
+  <div class="drawer-pair">
+    <strong id="drawerPairName">Selected pair</strong>
+    <span id="drawerPairMeta">Historical research placeholder</span>
+  </div>
+
+  <div class="platform-list">
+    <div class="platform-option"><div><strong>DraftKings</strong><span>Actual quote + deep link later</span></div><button disabled>Coming later</button></div>
+    <div class="platform-option"><div><strong>FanDuel</strong><span>Actual quote + deep link later</span></div><button disabled>Coming later</button></div>
+    <div class="platform-option"><div><strong>Underdog</strong><span>Lineup handoff later</span></div><button disabled>Coming later</button></div>
+    <div class="platform-option"><div><strong>Hard Rock</strong><span>Local execution tracking later</span></div><button disabled>Coming later</button></div>
+    <div class="platform-option"><div><strong>Bovada</strong><span>Research confirmation / execution later</span></div><button disabled>Coming later</button></div>
+  </div>
+
+  <div class="drawer-note">
+    Placeholder only. The production version should first capture the exact live ticket price at each supported platform, compare it with fair joint probability, then expose only eligible execution actions.
+  </div>
+</aside>
+
+<footer class="footer shell">
+  <div class="footin"><span>Parlay Lab · Cockpit V5</span><span>Historical prototype · Sep 2026</span></div>
+</footer>
+
+<script>
+const MODEL_DATA = {
+  c0:{
+    name:"C0 · Raw EV", record:"1–8", stake:45.00, gross:14.25, net:-30.75, roi:-68.33,
+    slips:9, hit:11.11, joint:21.38, edge:12.84, curve:[0,-25.00,-30.75,-30.75], color:"#d92d20"
+  },
+  c1:{
+    name:"C1 · Existing score", record:"3–6", stake:45.00, gross:54.88, net:9.88, roi:21.95,
+    slips:9, hit:33.33, joint:24.12, edge:12.37, curve:[0,18.88,9.88,9.88], color:"#9b9ba1"
+  },
+  v1:{
+    name:"V1 · Strict", record:"1–0", stake:5.00, gross:19.64, net:14.64, roi:292.8,
+    slips:1, hit:100, joint:28.14, edge:10.56, curve:[0,14.64,14.64,14.64], color:"#6e6e73"
+  },
+  v2:{
+    name:"V2 · Depth", record:"2–0", stake:10.00, gross:43.29, net:33.29, roi:332.9,
+    slips:2, hit:100, joint:25.49, edge:9.30, curve:[0,14.64,33.29,33.29], color:"#0071e3"
+  }
+};
+
+const PAIRS = {
+  pair1:["Jefferson U6.5 REC + Shough U0.5 INT","DraftKings · reconstructed +293"],
+  pair2:["Caleb U19.5 COMP + Shough U0.5 INT","DraftKings · reconstructed +293"],
+  pair3:["Rush O0.5 RUSH + Jefferson U6.5 REC","DraftKings · reconstructed +345"],
+  pair4:["Rush O0.5 RUSH + Caleb U19.5 COMP","DraftKings · reconstructed +345"],
+  pair5:["Rush O0.5 RUSH + Shough U0.5 INT","Bovada · reconstructed +371"]
+};
+
+const fmtMoney = v => `${v>=0?"+":""}$${Math.abs(v).toFixed(2)}`.replace("+$0.00","$0.00");
+const fmtPct = v => `${v>=0?"+":""}${v.toFixed(1)}%`;
+const metricEls = {
+  stake:document.getElementById("mStake"), gross:document.getElementById("mGross"),
+  net:document.getElementById("mNet"), roi:document.getElementById("mRoi"),
+  slips:document.getElementById("mSlips"), hit:document.getElementById("mHit"),
+  joint:document.getElementById("mJoint"), edge:document.getElementById("mEdge")
+};
+
+function setMetrics(id){
+  const d=MODEL_DATA[id];
+  if(!d){
+    Object.values(metricEls).forEach(el=>{el.textContent="—";el.classList.remove("pos","neg")});
+    return;
+  }
+  metricEls.stake.textContent=`$${d.stake.toFixed(2)}`;
+  metricEls.gross.textContent=`$${d.gross.toFixed(2)}`;
+  metricEls.net.textContent=fmtMoney(d.net);
+  metricEls.roi.textContent=fmtPct(d.roi);
+  metricEls.slips.textContent=d.slips;
+  metricEls.hit.textContent=`${d.hit.toFixed(d.hit%1?1:0)}%`;
+  metricEls.joint.textContent=`${d.joint.toFixed(1)}%`;
+  metricEls.edge.textContent=`+${d.edge.toFixed(1)}%`;
+  metricEls.net.classList.toggle("pos",d.net>=0); metricEls.net.classList.toggle("neg",d.net<0);
+  metricEls.roi.classList.toggle("pos",d.roi>=0); metricEls.roi.classList.toggle("neg",d.roi<0);
+}
+
+function drawChart(active="v2"){
+  const svg=document.getElementById("equityChart");
+  const ns="http://www.w3.org/2000/svg";
+  svg.innerHTML="";
+  const xmin=90,xmax=930,ymin=32,ymax=265;
+  const minVal=-35,maxVal=35;
+  const xs=[110,380,650,900];
+  const y=v=>ymax-(v-minVal)/(maxVal-minVal)*(ymax-ymin);
+
+  [-30,-15,0,15,30].forEach(v=>{
+    const line=document.createElementNS(ns,"line");
+    line.setAttribute("x1",xmin);line.setAttribute("x2",xmax);
+    line.setAttribute("y1",y(v));line.setAttribute("y2",y(v));
+    line.setAttribute("stroke",v===0?"#cfcfd4":"#ececf0");
+    line.setAttribute("stroke-width","1");svg.appendChild(line);
+    const t=document.createElementNS(ns,"text");
+    t.setAttribute("x","18");t.setAttribute("y",y(v)+4);t.setAttribute("font-size","10");t.setAttribute("fill","#8a8a90");
+    t.textContent=v===0?"$0":`${v>0?"+":""}$${v}`;svg.appendChild(t);
+  });
+
+  ["Start","Sep 20","Sep 27","Current"].forEach((lab,i)=>{
+    const t=document.createElementNS(ns,"text");
+    t.setAttribute("x",xs[i]-22);t.setAttribute("y","296");t.setAttribute("font-size","10");t.setAttribute("fill","#8a8a90");
+    t.textContent=lab;svg.appendChild(t);
+  });
+
+  Object.entries(MODEL_DATA).forEach(([id,d])=>{
+    const pl=document.createElementNS(ns,"polyline");
+    pl.setAttribute("points",d.curve.map((v,i)=>`${xs[i]},${y(v)}`).join(" "));
+    pl.setAttribute("fill","none");pl.setAttribute("stroke",d.color);
+    pl.setAttribute("stroke-width",id===active?"4":"2");
+    pl.setAttribute("opacity",id===active?"1":".20");
+    pl.setAttribute("stroke-linecap","round");pl.setAttribute("stroke-linejoin","round");
+    if(id==="c0")pl.setAttribute("stroke-dasharray","6 6");
+    svg.appendChild(pl);
+    d.curve.forEach((v,i)=>{
+      const c=document.createElementNS(ns,"circle");
+      c.setAttribute("cx",xs[i]);c.setAttribute("cy",y(v));c.setAttribute("r",id===active?"4":"2.5");
+      c.setAttribute("fill",d.color);c.setAttribute("opacity",id===active?"1":".28");svg.appendChild(c);
+    });
+  });
+}
+
+function selectModel(id){
+  document.querySelectorAll(".model").forEach(b=>b.classList.toggle("active",b.dataset.model===id));
+  setMetrics(id); drawChart(MODEL_DATA[id]?id:"v2");
+}
+
+document.querySelectorAll(".model").forEach(btn=>{
+  btn.addEventListener("click",()=>selectModel(btn.dataset.model));
+});
+
+document.querySelectorAll(".tabbar button").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    document.querySelectorAll(".tabbar button").forEach(b=>b.classList.remove("active"));
+    document.querySelectorAll(".tabpane").forEach(p=>p.classList.remove("active"));
+    btn.classList.add("active");
+    document.getElementById(btn.dataset.tab).classList.add("active");
+  });
+});
+
+const drawer=document.getElementById("platformDrawer");
+const backdrop=document.getElementById("drawerBackdrop");
+const closeDrawer=()=>{
+  drawer.classList.remove("open");backdrop.classList.remove("open");drawer.setAttribute("aria-hidden","true");
+};
+document.querySelectorAll(".platform-trigger").forEach(btn=>{
+  btn.addEventListener("click",e=>{
+    e.preventDefault();e.stopPropagation();
+    const p=PAIRS[btn.dataset.pair]||["Selected pair","Research placeholder"];
+    document.getElementById("drawerPairName").textContent=p[0];
+    document.getElementById("drawerPairMeta").textContent=p[1];
+    drawer.classList.add("open");backdrop.classList.add("open");drawer.setAttribute("aria-hidden","false");
+  });
+});
+document.getElementById("drawerClose").addEventListener("click",closeDrawer);
+backdrop.addEventListener("click",closeDrawer);
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeDrawer();});
+
+selectModel("v2");
+</script>
+</body>
+</html>
