@@ -1085,3 +1085,4 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-09-28T22:41:28Z,football_nfl,32662,2026-09-29T00:15:00Z,Chicago Bears,Philadelphia Eagles,player_receptions,Rome Odunze,2.5,Over,kalshi,133,3.98,0.4463,pinnacle,14,1.6,False,ev +4.0 fair 0.446 pinnacle 14b
 2026-09-28T22:41:28Z,football_nfl,32662,2026-09-29T00:15:00Z,Chicago Bears,Philadelphia Eagles,player_receptions,Saquon Barkley,2.5,Over,kalshi,163,6.92,0.4065,pinnacle,14,1.6,False,ev +6.9 fair 0.406 pinnacle 14b
 2026-09-28T22:41:28Z,football_nfl,32663,2026-10-02T00:15:00Z,Cleveland Browns,Pittsburgh Steelers,player_pass_tds,Deshaun Watson,0.5,Under,draftkings,194,4.95,0.357,pinnacle,10,73.6,False,ev +5.0 fair 0.357 pinnacle 10b
+2026-09-29T03:00:12Z,football_nfl,32663,2026-10-02T00:15:00Z,Cleveland Browns,Pittsburgh Steelers,player_pass_interceptions,Aaron Rodgers,0.5,Over,draftkings,-101,5.09,0.5281,pinnacle,4,69.2,False,ev +5.1 fair 0.528 pinnacle 4b
