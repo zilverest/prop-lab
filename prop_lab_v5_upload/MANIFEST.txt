@@ -1,0 +1,19 @@
+PARLAY LAB V5 — FILES TO UPLOAD
+
+Replace/add these paths in the GitHub repo:
+  common.py
+  report.py
+  run.py
+  README.md
+  UPLOAD_V5.md
+  docs/index.html
+  docs/ledger.html
+  docs/internal.html
+
+Do NOT replace data/ or .github/workflows/lab.yml.
+
+Verified locally:
+  - python3 -m py_compile common.py report.py run.py: PASS
+  - snapshot.py --from-file ev_sample.json --event-id 32646 --no-sgp: PASS
+  - run.main() with empty/404 API stub: PASS
+  - report.py regenerates ledger/internal but does not change docs/index.html: PASS
