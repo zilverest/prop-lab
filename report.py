@@ -1,6 +1,6 @@
 """report.py — turn the CSVs into verdicts.
 
-  python3 report.py               -> writes docs/index.html, prints summary
+  python3 report.py               -> writes docs/ledger.html + docs/internal.html, prints summary
   python3 report.py --telegram    -> also sends the summary to Telegram
   python3 report.py --kind board  -> short "board captured" message (Thursday)
 """
@@ -227,6 +227,7 @@ body{{font:15px/1.5 system-ui,sans-serif;background:var(--bg);color:var(--fg);ma
 .card{{background:var(--card);border-radius:10px;padding:14px 16px;margin:12px 0}}table{{width:100%;border-collapse:collapse;font-size:13px}}
 td,th{{padding:4px 6px;text-align:left;border-bottom:1px solid #8883}}small{{color:var(--mut)}}.g{{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}}
 </style></head><body>
+<div style="margin-bottom:14px;font-size:12px"><a href="index.html">Parlay Lab</a> · <a href="ledger.html">Paper Ledger</a> · <strong>H1–H4 Lab</strong></div>
 <h1>Eevee — prop lab</h1><small>code {LAB_VERSION} · generated {s['generated']} · last snapshot {s['last_snapshot']} · {s['weeks']} weeks · {s['events']} events · {s['lines']} live lines</small>
 <div class="card"><h2>Verdicts</h2><table>{vrows}</table><small>Rules fixed before week 1. Money enters only if H2 accepts and one of H1/H3/H4 accepts.</small></div>
 <div class="g">
@@ -543,6 +544,7 @@ footer{{margin-top:36px;padding-top:14px;border-top:1px solid var(--line)}}
 details>summary{{cursor:pointer;list-style:none;display:flex;gap:8px;align-items:baseline}}details>summary::-webkit-details-marker{{display:none}}
 details>summary::before{{content:"▸";color:var(--mut);font-size:14px}}details[open]>summary::before{{content:"▾"}}
 </style></head><body>
+<div style="margin-bottom:14px;font-size:12px"><a href="index.html">Parlay Lab</a> · <strong>Paper Ledger</strong> · <a href="internal.html">H1–H4 Lab</a></div>
 <h1>Eevee · paper prop ledger</h1>
 <div class="mut">Every slip here is built by a fixed rule set and settled against the box score. $5 flat, paper only, nothing is placed. Updated {p['generated'][:16]}Z{f" · tracking since {p['first_settled']}" if p['first_settled'] else ""}.</div>
 <div class="hero">{hero}</div>
@@ -561,7 +563,7 @@ details>summary::before{{content:"▸";color:var(--mut);font-size:14px}}details[
 
 def write_pages():
     s = build(); p = public_build()
-    open(os.path.join(DOCS, "index.html"), "w").write(public_page(p))
+    open(os.path.join(DOCS, "ledger.html"), "w").write(public_page(p))
     open(os.path.join(DOCS, "internal.html"), "w").write(html_page(s))
     return s
 

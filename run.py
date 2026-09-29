@@ -18,7 +18,7 @@ def main():
         cl = close.run(api)
         n_auto = dict(straight=slips.auto_log(), parlay=slips.auto_parlays(), sgp=slips.auto_sgps(api))
         slips.settle()
-        s = report.write_pages()                     # docs/index.html = public ledger, docs/internal.html = full lab
+        s = report.write_pages()                     # docs/index.html = Parlay Lab homepage; docs/ledger.html = public ledger; docs/internal.html = full lab
         events_seen = sum(x["events"] for x in snaps)
         if events_seen and state_get("board_msg_week") != week:
             telegram(report.text_summary(s, "board")); state_set("board_msg_week", week)
