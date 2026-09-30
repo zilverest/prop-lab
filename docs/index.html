@@ -1,646 +1,94 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Parlay Lab — Research Cockpit V5</title>
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Parlay Lab · Forward Research</title>
 <style>
-:root{
-  --bg:#f5f5f7; --surface:#fff; --ink:#1d1d1f; --muted:#6e6e73;
-  --line:rgba(0,0,0,.08); --blue:#0071e3; --green:#1f8f4e; --red:#d92d20;
-  --shadow:0 18px 60px rgba(0,0,0,.07);
+:root{--bg:#f5f5f7;--card:#fff;--ink:#1d1d1f;--mut:#6e6e73;--line:#e7e7ea;--blue:#0071e3;--green:#198754;--red:#d83b32}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}.nav{position:sticky;top:0;z-index:20;background:#f5f5f7dd;backdrop-filter:blur(18px);border-bottom:1px solid #0000000c}.navin,.shell{max-width:1220px;margin:auto;padding:0 22px}.navin{height:52px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:750}.links{font-size:12px;color:var(--mut);display:flex;gap:14px}.hero{padding:62px 0 24px}h1{font-size:52px;letter-spacing:-.055em;line-height:.98;margin:0 0 10px}.hero p{color:var(--mut);font-size:17px;max-width:760px;line-height:1.5}.card{background:var(--card);border:1px solid var(--line);border-radius:24px;box-shadow:0 18px 55px #00000010}.performance{padding:22px}.perfhead{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}.perfhead small{color:var(--mut);font-size:10px;text-transform:uppercase;letter-spacing:.08em;font-weight:750}.perfhead h2{margin:5px 0 0;font-size:29px;letter-spacing:-.04em}.stamp{font-size:10px;padding:6px 9px;border-radius:999px;background:#f1f1f3;color:var(--mut)}.metrics{display:grid;grid-template-columns:repeat(8,1fr);gap:7px;margin:15px 0}.metric{padding:10px 11px;border-radius:13px;background:#f7f7f9;border:1px solid #eee}.metric small{display:block;font-size:8px;color:var(--mut);text-transform:uppercase;letter-spacing:.05em}.metric b{display:block;font-size:15px;margin-top:3px;white-space:nowrap}.grid{display:grid;grid-template-columns:1.35fr .75fr;gap:14px}.chart{height:285px;border:1px solid var(--line);border-radius:17px;background:linear-gradient(#eee 1px,transparent 1px),linear-gradient(90deg,#eee 1px,transparent 1px),#fff;background-size:100% 25%,25% 100%}.chart-note{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-top:7px;font-size:8px;color:var(--mut)}.chart-note b{color:var(--ink)}svg{width:100%;height:100%}.models{display:grid;gap:7px}.model-card{border:1px solid #eee;background:#fafafa;border-radius:14px;padding:11px;text-align:left;cursor:pointer}.model-card.active{border-color:#b7d7f9;background:#eef6ff}.mc-top,.mc-main,.mc-foot{display:flex;justify-content:space-between;gap:8px;align-items:center}.mc-top span{font-size:10px;font-weight:750}.mc-top i{font-style:normal;font-size:7px;padding:3px 5px;border-radius:999px;background:#ececf0;color:var(--mut)}.mc-main{margin-top:8px}.mc-main b{font-size:24px}.mc-main span{font-size:9px;color:var(--mut)}.mc-foot{margin-top:5px;font-size:8px;color:var(--mut)}.model-detail{margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}.detail-head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start;margin-bottom:10px}.detail-title small{display:block;font-size:8px;color:var(--mut);text-transform:uppercase;letter-spacing:.08em;font-weight:750}.detail-title h3{margin:4px 0 0;font-size:18px}.theory-chip{text-align:right;max-width:460px}.theory-chip b{display:inline-block;font-size:8px;padding:4px 6px;border-radius:999px;background:#eef6ff;color:#1769aa;margin-bottom:4px}.theory-chip span{display:block;color:var(--mut);font-size:9px;line-height:1.35}.history-pane{display:none}.history-pane.active{display:block}.phase-title{font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:var(--mut);font-weight:750;margin:10px 0 6px}details.week,details.day,details.slip{border:1px solid #eee;border-radius:12px;background:#fff;margin:6px 0;overflow:hidden}summary{cursor:pointer;list-style:none;display:grid;grid-template-columns:1fr auto auto;gap:12px;align-items:center;padding:10px 11px;font-size:10px}summary::-webkit-details-marker{display:none}summary span{font-weight:700}summary b{font-size:9px;color:var(--mut)}summary em{font-style:normal;font-weight:750}.weekbody,.daybody,.slipbody{padding:0 10px 10px}.day{margin-left:8px!important;background:#fafafa!important}.slip{margin-left:8px!important}.slipbody strong{font-size:10px;display:block}.slipbody div{font-size:9px;color:var(--mut);margin-top:5px}.platform-btn{margin-top:8px;border:0;border-radius:8px;padding:6px 8px;font-size:8px;color:#999}.win{color:var(--green)!important}.loss{color:var(--red)!important}.open{color:var(--mut)!important}.nop{padding:10px;border-radius:10px;background:#f5f5f7;font-size:9px;display:flex;justify-content:space-between}.emptyhist{font-size:10px;color:var(--mut);padding:8px}.lower{display:grid;grid-template-columns:1fr;gap:14px;margin-top:14px}.panel{padding:18px}.panel h3{margin:0 0 5px;font-size:18px}.panel p{margin:0 0 12px;font-size:10px;color:var(--mut);line-height:1.45}table{width:100%;border-collapse:collapse;font-size:9px}th,td{padding:8px;border-bottom:1px solid #eee;text-align:left}th{color:var(--mut);text-transform:uppercase;letter-spacing:.05em;font-size:8px}.notice{margin-top:12px;padding:10px;border-radius:12px;background:#fff8e8;border:1px solid #f0dfb6;color:#665d4b;font-size:9px;line-height:1.45}footer{padding:44px 0 36px;color:var(--mut);font-size:9px}
+@media(max-width:1000px){.metrics{grid-template-columns:repeat(4,1fr)}.grid,.lower{grid-template-columns:1fr}}@media(max-width:620px){.navin,.shell{padding:0 14px}h1{font-size:40px}.metrics{grid-template-columns:repeat(2,1fr)}.links{display:none}}
+</style></head><body><div class="nav"><div class="navin"><div class="brand">Parlay Lab</div><div class="links"><a href="ledger.html">Paper Ledger</a><a href="internal.html">H1–H4 Lab</a></div></div></div>
+<main class="shell"><section class="hero"><h1>Frozen models.<br>Forward evidence.</h1><p>V1–V8 run in parallel on the same causal board. Development replays stay labeled separately; forward decisions never rewrite themselves after kickoff.</p></section>
+<section class="card performance"><div class="perfhead"><div><small>Model tournament</small><h2>Equity + leaderboard</h2></div><div class="stamp">No forward board yet</div></div>
+<div class="metrics"><div class="metric"><small>Phase</small><b id="mxPhase">—</b></div><div class="metric"><small>Staked</small><b id="mxStake">—</b></div><div class="metric"><small>Gross</small><b id="mxGross">—</b></div><div class="metric"><small>Net</small><b id="mxNet">—</b></div><div class="metric"><small>ROI</small><b id="mxRoi">—</b></div><div class="metric"><small>Slips</small><b id="mxSlips">—</b></div><div class="metric"><small>Hit rate</small><b id="mxHit">—</b></div><div class="metric"><small>Avg joint P</small><b id="mxJoint">—</b></div></div>
+<div class="grid"><div><div class="chart"><svg id="chart" viewBox="0 0 900 285"></svg></div><div class="chart-note"><span>All model curves remain visible for context.</span><b id="chartSelected">Selected · V2</b></div><div class="notice">Forward results are the judge. Development replays (Sep 20–27) were used to discover the models and are not out-of-sample validation. Ticket prices are reconstructed independent products until live cross-game quote capture is added.</div></div><div class="models"><button class="model-card " data-model="V1">
+          <div class="mc-top"><span>V1 · Strict</span><i>FROZEN</i></div>
+          <div class="mc-main"><b>1–0</b><span>+$14.64 net</span></div>
+          <div class="mc-foot"><span>1 slips</span><span>DEV REPLAY</span></div></button><button class="model-card active" data-model="V2">
+          <div class="mc-top"><span>V2 · Depth</span><i>LEAD</i></div>
+          <div class="mc-main"><b>2–0</b><span>+$33.29 net</span></div>
+          <div class="mc-foot"><span>2 slips</span><span>DEV REPLAY</span></div></button><button class="model-card " data-model="V3">
+          <div class="mc-top"><span>V3 · Bovada</span><i>CHALLENGER</i></div>
+          <div class="mc-main"><b>2–0</b><span>+$33.29 net</span></div>
+          <div class="mc-foot"><span>2 slips</span><span>DEV REPLAY</span></div></button><button class="model-card " data-model="V4">
+          <div class="mc-top"><span>V4 · DraftKings</span><i>TRACKING</i></div>
+          <div class="mc-main"><b>0–0</b><span>$0.00 net</span></div>
+          <div class="mc-foot"><span>0 slips</span><span>DEV REPLAY</span></div></button><button class="model-card " data-model="V5">
+          <div class="mc-top"><span>V5 · Any 2</span><i>TRACKING</i></div>
+          <div class="mc-main"><b>0–0</b><span>$0.00 net</span></div>
+          <div class="mc-foot"><span>0 slips</span><span>DEV REPLAY</span></div></button><button class="model-card " data-model="V6">
+          <div class="mc-top"><span>V6 · Any 3</span><i>TRACKING</i></div>
+          <div class="mc-main"><b>0–0</b><span>$0.00 net</span></div>
+          <div class="mc-foot"><span>0 slips</span><span>DEV REPLAY</span></div></button><button class="model-card " data-model="V7">
+          <div class="mc-top"><span>V7 · Value Floor</span><i>BLOCKED</i></div>
+          <div class="mc-main"><b>—</b><span>$0.00 net</span></div>
+          <div class="mc-foot"><span>0 slips</span><span>DEV REPLAY</span></div></button><button class="model-card " data-model="V8">
+          <div class="mc-top"><span>V8 · Strong Slate</span><i>CHALLENGER</i></div>
+          <div class="mc-main"><b>3–0</b><span>+$52.44 net</span></div>
+          <div class="mc-foot"><span>3 slips</span><span>DEV REPLAY</span></div></button></div></div>
+<div class="model-detail"><div class="detail-head"><div class="detail-title"><small>Selected model</small><h3 id="theoryName">V2 · Depth</h3></div><div class="theory-chip"><b id="theoryStatus">LEAD</b><span id="theoryDetail">BOV + DK · REC &gt;1.5</span></div></div><div class="history-pane" id="hist-V1"><div class="phase dev"><div class="phase-title">Development replay · in-sample</div><details class="week"><summary><span>Week of Sep 14–20</span><b>1–0 · 1 slips</b><em>+$14.64</em></summary><div class="weekbody"><details class="day"><summary><span>Sep 20, 2026</span><b>1 slip</b><em>+$14.64</em></summary><div class="daybody"><details class="slip"><summary><span>Slip 1</span><b class="win">WON</b><em>+$14.64</em></summary>
+                          <div class="slipbody"><strong>Justin Jefferson U6.5 receptions + Tyler Shough U0.5 interceptions</strong><div>DRAFTKINGS · +293 · Fair 28.1% · Edge +10.6%</div>
+                          <button class="platform-btn" type="button" disabled title="Live platform handoff is not implemented yet">Platforms · placeholder</button></div></details></div></details></div></details><details class="week"><summary><span>Week of Sep 21–27</span><b>0–0 · 0 slips</b><em>$0.00</em></summary><div class="weekbody"><details class="day"><summary><span>Sep 27, 2026</span><b>0 slips</b><em>$0.00</em></summary><div class="daybody"><div class="nop"><b>NO PLAY</b><span>1 qualifying legs · 0 valid pairs</span></div></div></details></div></details></div><div class="emptyhist">Forward validation · frozen: no data yet.</div></div><div class="history-pane" id="hist-V2"><div class="phase dev"><div class="phase-title">Development replay · in-sample</div><details class="week"><summary><span>Week of Sep 14–20</span><b>1–0 · 1 slips</b><em>+$14.64</em></summary><div class="weekbody"><details class="day"><summary><span>Sep 20, 2026</span><b>1 slip</b><em>+$14.64</em></summary><div class="daybody"><details class="slip"><summary><span>Slip 1</span><b class="win">WON</b><em>+$14.64</em></summary>
+                          <div class="slipbody"><strong>Justin Jefferson U6.5 receptions + Tyler Shough U0.5 interceptions</strong><div>DRAFTKINGS · +293 · Fair 28.1% · Edge +10.6%</div>
+                          <button class="platform-btn" type="button" disabled title="Live platform handoff is not implemented yet">Platforms · placeholder</button></div></details></div></details></div></details><details class="week"><summary><span>Week of Sep 21–27</span><b>1–0 · 1 slips</b><em>+$18.65</em></summary><div class="weekbody"><details class="day"><summary><span>Sep 27, 2026</span><b>1 slip</b><em>+$18.65</em></summary><div class="daybody"><details class="slip"><summary><span>Slip 1</span><b class="win">WON</b><em>+$18.65</em></summary>
+                          <div class="slipbody"><strong>Javonte Williams U2.5 receptions + Ladd McConkey U4.5 receptions</strong><div>DRAFTKINGS · +373 · Fair 22.8% · Edge +8.0%</div>
+                          <button class="platform-btn" type="button" disabled title="Live platform handoff is not implemented yet">Platforms · placeholder</button></div></details></div></details></div></details></div><div class="emptyhist">Forward validation · frozen: no data yet.</div></div><div class="history-pane" id="hist-V3"><div class="phase dev"><div class="phase-title">Development replay · in-sample</div><details class="week"><summary><span>Week of Sep 14–20</span><b>1–0 · 1 slips</b><em>+$14.64</em></summary><div class="weekbody"><details class="day"><summary><span>Sep 20, 2026</span><b>1 slip</b><em>+$14.64</em></summary><div class="daybody"><details class="slip"><summary><span>Slip 1</span><b class="win">WON</b><em>+$14.64</em></summary>
+                          <div class="slipbody"><strong>Justin Jefferson U6.5 receptions + Tyler Shough U0.5 interceptions</strong><div>DRAFTKINGS · +293 · Fair 28.1% · Edge +10.6%</div>
+                          <button class="platform-btn" type="button" disabled title="Live platform handoff is not implemented yet">Platforms · placeholder</button></div></details></div></details></div></details><details class="week"><summary><span>Week of Sep 21–27</span><b>1–0 · 1 slips</b><em>+$18.65</em></summary><div class="weekbody"><details class="day"><summary><span>Sep 27, 2026</span><b>1 slip</b><em>+$18.65</em></summary><div class="daybody"><details class="slip"><summary><span>Slip 1</span><b class="win">WON</b><em>+$18.65</em></summary>
+                          <div class="slipbody"><strong>Javonte Williams U2.5 receptions + Ladd McConkey U4.5 receptions</strong><div>DRAFTKINGS · +373 · Fair 22.8% · Edge +8.0%</div>
+                          <button class="platform-btn" type="button" disabled title="Live platform handoff is not implemented yet">Platforms · placeholder</button></div></details></div></details></div></details></div><div class="emptyhist">Forward validation · frozen: no data yet.</div></div><div class="history-pane" id="hist-V4"><div class="emptyhist">Development replay · in-sample: no data yet.</div><div class="emptyhist">Forward validation · frozen: no data yet.</div></div><div class="history-pane" id="hist-V5"><div class="emptyhist">Development replay · in-sample: no data yet.</div><div class="emptyhist">Forward validation · frozen: no data yet.</div></div><div class="history-pane" id="hist-V6"><div class="emptyhist">Development replay · in-sample: no data yet.</div><div class="emptyhist">Forward validation · frozen: no data yet.</div></div><div class="history-pane" id="hist-V7"><div class="emptyhist">Development replay · in-sample: no data yet.</div><div class="emptyhist">Forward validation · frozen: no data yet.</div></div><div class="history-pane" id="hist-V8"><div class="phase dev"><div class="phase-title">Development replay · in-sample</div><details class="week"><summary><span>Week of Sep 14–20</span><b>2–0 · 2 slips</b><em>+$33.79</em></summary><div class="weekbody"><details class="day"><summary><span>Sep 20, 2026</span><b>2 slips</b><em>+$33.79</em></summary><div class="daybody"><details class="slip"><summary><span>Slip 1</span><b class="win">WON</b><em>+$14.64</em></summary>
+                          <div class="slipbody"><strong>Justin Jefferson U6.5 receptions + Tyler Shough U0.5 interceptions</strong><div>DRAFTKINGS · +293 · Fair 28.1% · Edge +10.6%</div>
+                          <button class="platform-btn" type="button" disabled title="Live platform handoff is not implemented yet">Platforms · placeholder</button></div></details><details class="slip"><summary><span>Slip 2</span><b class="win">WON</b><em>+$19.15</em></summary>
+                          <div class="slipbody"><strong>Cooper Rush O0.5 rushing yards + Malik Washington O3.5 receptions</strong><div>BOVADA · +383 · Fair 22.1% · Edge +6.6%</div>
+                          <button class="platform-btn" type="button" disabled title="Live platform handoff is not implemented yet">Platforms · placeholder</button></div></details></div></details></div></details><details class="week"><summary><span>Week of Sep 21–27</span><b>1–0 · 1 slips</b><em>+$18.65</em></summary><div class="weekbody"><details class="day"><summary><span>Sep 27, 2026</span><b>1 slip</b><em>+$18.65</em></summary><div class="daybody"><details class="slip"><summary><span>Slip 1</span><b class="win">WON</b><em>+$18.65</em></summary>
+                          <div class="slipbody"><strong>Javonte Williams U2.5 receptions + Ladd McConkey U4.5 receptions</strong><div>DRAFTKINGS · +373 · Fair 22.8% · Edge +8.0%</div>
+                          <button class="platform-btn" type="button" disabled title="Live platform handoff is not implemented yet">Platforms · placeholder</button></div></details></div></details></div></details></div><div class="emptyhist">Forward validation · frozen: no data yet.</div></div></div></section>
+<div class="lower"><section class="card panel"><h3>Latest frozen board</h3><p>Opportunity density and final slip count by model. V3 is intended to widen the candidate pool; V8 tests whether exceptional boards support a second independent slip.</p><table><tr><th>model</th><th>legs</th><th>pairs</th><th>slips</th><th>research execution</th></tr><tr><td colspan="5">No forward board frozen yet.</td></tr></table></section></div>
+<footer>Paper research only · nothing is automatically wagered · code version 2026-09-30-parlay-forward-v2-ui.</footer></main>
+<script>const DATA={"V1":{"meta":{"name":"Strict","status":"FROZEN","detail":"BOV + DK \u00b7 REC >2.5","confirm":"bovada+draftkings","rec_min":2.5,"max_slips":1},"dev":{"slips":1,"settled":1,"wins":1,"losses":0,"stake":5.0,"gross":19.64,"pnl":14.64,"roi":292.8,"hit":100.0,"avg_joint":28.139999999999997,"avg_edge":10.56,"dates":2,"play_days":1,"no_play_days":1},"fwd":{"slips":0,"settled":0,"wins":0,"losses":0,"stake":0,"gross":0,"pnl":0,"roi":null,"hit":null,"avg_joint":null,"avg_edge":null,"dates":0,"play_days":0,"no_play_days":0}},"V2":{"meta":{"name":"Depth","status":"LEAD","detail":"BOV + DK \u00b7 REC >1.5","confirm":"bovada+draftkings","rec_min":1.5,"max_slips":1},"dev":{"slips":2,"settled":2,"wins":2,"losses":0,"stake":10.0,"gross":43.29,"pnl":33.29,"roi":332.9,"hit":100.0,"avg_joint":25.490000000000002,"avg_edge":9.3,"dates":2,"play_days":2,"no_play_days":0},"fwd":{"slips":0,"settled":0,"wins":0,"losses":0,"stake":0,"gross":0,"pnl":0,"roi":null,"hit":null,"avg_joint":null,"avg_edge":null,"dates":0,"play_days":0,"no_play_days":0}},"V3":{"meta":{"name":"Bovada","status":"CHALLENGER","detail":"BOV confirm \u00b7 REC >1.5","confirm":"bovada","rec_min":1.5,"max_slips":1},"dev":{"slips":2,"settled":2,"wins":2,"losses":0,"stake":10.0,"gross":43.29,"pnl":33.29,"roi":332.9,"hit":100.0,"avg_joint":25.490000000000002,"avg_edge":9.3,"dates":2,"play_days":2,"no_play_days":0},"fwd":{"slips":0,"settled":0,"wins":0,"losses":0,"stake":0,"gross":0,"pnl":0,"roi":null,"hit":null,"avg_joint":null,"avg_edge":null,"dates":0,"play_days":0,"no_play_days":0}},"V4":{"meta":{"name":"DraftKings","status":"TRACKING","detail":"DK confirm \u00b7 REC >1.5","confirm":"draftkings","rec_min":1.5,"max_slips":1},"dev":{"slips":0,"settled":0,"wins":0,"losses":0,"stake":0,"gross":0,"pnl":0,"roi":null,"hit":null,"avg_joint":null,"avg_edge":null,"dates":0,"play_days":0,"no_play_days":0},"fwd":{"slips":0,"settled":0,"wins":0,"losses":0,"stake":0,"gross":0,"pnl":0,"roi":null,"hit":null,"avg_joint":null,"avg_edge":null,"dates":0,"play_days":0,"no_play_days":0}},"V5":{"meta":{"name":"Any 2","status":"TRACKING","detail":"Any 2 confirms \u00b7 REC >1.5","confirm":"any2","rec_min":1.5,"max_slips":1},"dev":{"slips":0,"settled":0,"wins":0,"losses":0,"stake":0,"gross":0,"pnl":0,"roi":null,"hit":null,"avg_joint":null,"avg_edge":null,"dates":0,"play_days":0,"no_play_days":0},"fwd":{"slips":0,"settled":0,"wins":0,"losses":0,"stake":0,"gross":0,"pnl":0,"roi":null,"hit":null,"avg_joint":null,"avg_edge":null,"dates":0,"play_days":0,"no_play_days":0}},"V6":{"meta":{"name":"Any 3","status":"TRACKING","detail":"Any 3 confirms \u00b7 REC >1.5","confirm":"any3","rec_min":1.5,"max_slips":1},"dev":{"slips":0,"settled":0,"wins":0,"losses":0,"stake":0,"gross":0,"pnl":0,"roi":null,"hit":null,"avg_joint":null,"avg_edge":null,"dates":0,"play_days":0,"no_play_days":0},"fwd":{"slips":0,"settled":0,"wins":0,"losses":0,"stake":0,"gross":0,"pnl":0,"roi":null,"hit":null,"avg_joint":null,"avg_edge":null,"dates":0,"play_days":0,"no_play_days":0}},"V7":{"meta":{"name":"Value Floor","status":"BLOCKED","detail":"Needs actual parlay quote","confirm":"blocked","rec_min":1.5,"max_slips":0},"dev":{"slips":0,"settled":0,"wins":0,"losses":0,"stake":0,"gross":0,"pnl":0,"roi":null,"hit":null,"avg_joint":null,"avg_edge":null,"dates":0,"play_days":0,"no_play_days":0},"fwd":{"slips":0,"settled":0,"wins":0,"losses":0,"stake":0,"gross":0,"pnl":0,"roi":null,"hit":null,"avg_joint":null,"avg_edge":null,"dates":0,"play_days":0,"no_play_days":0}},"V8":{"meta":{"name":"Strong Slate","status":"CHALLENGER","detail":"V3 pool \u00b7 up to 2 independent","confirm":"bovada","rec_min":1.5,"max_slips":2},"dev":{"slips":3,"settled":3,"wins":3,"losses":0,"stake":15.0,"gross":67.44,"pnl":52.44,"roi":349.6,"hit":100.0,"avg_joint":24.349999999999998,"avg_edge":8.403333333333334,"dates":2,"play_days":2,"no_play_days":0},"fwd":{"slips":0,"settled":0,"wins":0,"losses":0,"stake":0,"gross":0,"pnl":0,"roi":null,"hit":null,"avg_joint":null,"avg_edge":null,"dates":0,"play_days":0,"no_play_days":0}}};let active='V2';const $=id=>document.getElementById(id);
+const COLORS={V1:'#6e6e73',V2:'#0071e3',V3:'#6f8fb3',V4:'#8f7aa8',V5:'#6d9d88',V6:'#a88a68',V7:'#aaaab0',V8:'#566b8c'};
+function money(x){x=Number(x||0);return (x>0?'+':'')+'$'+x.toFixed(2)}
+function pct(x){return x==null?'—':Number(x).toFixed(1)+'%'}
+function primary(m){let d=DATA[m];return (d.fwd.dates||d.fwd.slips)?d.fwd:d.dev}
+function select(m){
+  active=m;
+  document.querySelectorAll('.model-card').forEach(b=>b.classList.toggle('active',b.dataset.model===m));
+  document.querySelectorAll('.history-pane').forEach(p=>p.classList.toggle('active',p.id==='hist-'+m));
+  let d=DATA[m],r=primary(m),phase=(d.fwd.dates||d.fwd.slips)?'FORWARD':'DEV REPLAY';
+  $('mxPhase').textContent=phase;$('mxStake').textContent='$'+Number(r.stake||0).toFixed(2);$('mxGross').textContent='$'+Number(r.gross||0).toFixed(2);
+  $('mxNet').textContent=money(r.pnl);$('mxRoi').textContent=r.roi==null?'—':Number(r.roi).toFixed(1)+'%';$('mxSlips').textContent=r.slips;
+  $('mxHit').textContent=r.hit==null?'—':Number(r.hit).toFixed(1)+'%';$('mxJoint').textContent=r.avg_joint==null?'—':Number(r.avg_joint).toFixed(1)+'%';
+  $('theoryName').textContent=m+' · '+d.meta.name;$('theoryStatus').textContent=d.meta.status;$('theoryDetail').textContent=d.meta.detail;
+  $('chartSelected').textContent='Selected · '+m;
+  draw();
 }
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
-  margin:0;background:var(--bg);color:var(--ink);
-  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text","Helvetica Neue",Arial,sans-serif;
-  -webkit-font-smoothing:antialiased;
-}
-.shell{max-width:1220px;margin:0 auto;padding:0 24px}
-.nav{
-  position:sticky;top:0;z-index:20;background:rgba(245,245,247,.82);
-  backdrop-filter:saturate(180%) blur(18px);border-bottom:1px solid rgba(0,0,0,.05)
-}
-.navin{height:52px;display:flex;align-items:center;justify-content:space-between;gap:18px}
-.topnav{display:flex;align-items:center;gap:8px;flex-wrap:wrap;justify-content:flex-end}
-.topnav a{color:var(--muted);text-decoration:none;font-size:10px;font-weight:700;padding:6px 8px;border-radius:8px}
-.topnav a:hover{background:#fff;color:var(--ink)}
-.brand{font-weight:750;letter-spacing:-.025em}.brand span{font-weight:500;color:var(--muted)}
-.badge{font-size:11px;padding:6px 9px;border-radius:999px;background:#fff;border:1px solid var(--line);color:var(--muted)}
-.hero{padding:68px 0 28px}.hero h1{font-size:54px;line-height:.98;letter-spacing:-.055em;margin:0 0 12px}
-.hero p{margin:0;max-width:720px;color:var(--muted);font-size:18px;line-height:1.5}
-.section{padding:22px 0}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:24px;box-shadow:var(--shadow)}
-.head{display:flex;justify-content:space-between;gap:18px;align-items:flex-end;margin-bottom:18px}
-.head h2{font-size:30px;letter-spacing:-.04em;margin:0}.head p{max-width:590px;margin:0;color:var(--muted);font-size:13px;line-height:1.45}
-
-/* merged performance card */
-.performance{padding:24px}
-.perf-head{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;margin-bottom:18px}
-.perf-head small{display:block;font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.09em;font-weight:750}
-.perf-head h3{font-size:30px;letter-spacing:-.04em;margin:6px 0 0}
-.perf-layout{display:grid;grid-template-columns:1.45fr .75fr;gap:18px}
-.chart-wrap{min-width:0}
-.chart{
-  height:310px;border:1px solid var(--line);border-radius:18px;overflow:hidden;
-  background:
-    linear-gradient(#eee 1px,transparent 1px),
-    linear-gradient(90deg,#eee 1px,transparent 1px),
-    #fff;
-  background-size:100% 25%,25% 100%;
-}
-.chart svg{width:100%;height:100%;display:block}
-.legend{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;color:var(--muted);font-size:10px}
-.dot{width:8px;height:8px;border-radius:50%;display:inline-block;margin-right:5px}
-.model-list{display:grid;gap:8px}
-.model{
-  width:100%;border:1px solid #eee;background:#fafafa;border-radius:15px;padding:12px;
-  text-align:left;cursor:pointer;transition:.18s ease
-}
-.model:hover{background:#f5f5f7}
-.model.active{background:#eef6ff;border-color:#bad9fb}
-.model-top{display:flex;justify-content:space-between;gap:10px;align-items:center}
-.model-name{font-size:11px;font-weight:750}
-.tag{font-size:8px;text-transform:uppercase;letter-spacing:.08em;padding:4px 6px;border-radius:999px;background:#ececf0;color:var(--muted);font-weight:750}
-.model-main{display:flex;justify-content:space-between;align-items:flex-end;margin-top:10px;gap:10px}
-.record{font-size:27px;font-weight:760;letter-spacing:-.04em}
-.model-meta{text-align:right;font-size:9px;color:var(--muted);line-height:1.4}
-.model-foot{display:flex;justify-content:space-between;margin-top:9px;font-size:9px;color:var(--muted)}
-.note{margin-top:12px;padding:11px 13px;border-radius:13px;background:#fff8e8;border:1px solid #f0dfb6;color:#665d4b;font-size:11px;line-height:1.45}
-
-/* today */
-.decision{padding:24px;color:#fff;background:linear-gradient(145deg,#101114,#20252e 62%,#075fae 145%)}
-.decision-top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}
-.decision .k{font-size:10px;text-transform:uppercase;letter-spacing:.09em;color:rgba(255,255,255,.55);font-weight:750}
-.decision h3{font-size:34px;letter-spacing:-.04em;margin:8px 0 0}
-.pill{padding:7px 10px;border-radius:999px;background:rgba(255,255,255,.1);font-size:11px;font-weight:700}
-.lineup{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}
-.leg{padding:16px;border-radius:16px;background:rgba(255,255,255,.08)}
-.leg small{display:block;color:rgba(255,255,255,.55);font-size:9px;text-transform:uppercase;letter-spacing:.08em}
-.leg strong{display:block;margin-top:6px;font-size:17px}.leg span{display:block;margin-top:8px;color:#b9d8ff;font-size:12px;font-weight:700}
-.dst{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-top:12px}
-.dst div{padding:11px;border-radius:13px;background:rgba(255,255,255,.075)}
-.dst small{display:block;color:rgba(255,255,255,.5);font-size:9px}.dst b{display:block;margin-top:4px;font-size:15px}
-.checks{display:flex;gap:6px;flex-wrap:wrap;margin-top:13px}.check{font-size:10px;padding:5px 7px;border-radius:999px;background:rgba(255,255,255,.08);color:rgba(255,255,255,.75)}
-
-/* compact diagnostics */
-.tabs{padding:0}.tabbar{display:flex;gap:6px;padding:10px;border-bottom:1px solid var(--line);overflow:auto}
-.tabbar button{border:0;background:transparent;padding:8px 10px;border-radius:9px;color:var(--muted);font-size:11px;font-weight:700;cursor:pointer;white-space:nowrap}
-.tabbar button.active{background:#f0f0f3;color:var(--ink)}
-.tabbody{padding:20px}.tabpane{display:none}.tabpane.active{display:block}
-.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-.panel{padding:18px;border-radius:18px;background:#fafafa;border:1px solid #eee}
-.panel h4{margin:0 0 5px;font-size:16px}.panel p{margin:0 0 14px;color:var(--muted);font-size:11px;line-height:1.45}
-.funnel{display:grid;gap:8px}.frow{display:grid;grid-template-columns:90px 1fr 42px;gap:10px;align-items:center;font-size:11px}
-.track{height:9px;border-radius:999px;background:#e7e7ea;overflow:hidden}.fill{height:100%;background:linear-gradient(90deg,#2997ff,#0071e3);border-radius:999px}
-table{width:100%;border-collapse:collapse;font-size:11px}th,td{padding:10px 8px;text-align:left;border-bottom:1px solid #eee}
-th{font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}tr:last-child td{border-bottom:0}
-.star{color:var(--blue);font-weight:800}.good{color:var(--green);font-weight:700}
-.roles{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}.role{padding:14px;border-radius:16px;background:#fafafa;border:1px solid #eee}
-.role h5{font-size:13px;margin:0 0 3px}.role p{font-size:10px;color:var(--muted);margin:0}.role b{display:block;margin-top:12px;font-size:19px}
-.log{display:grid;gap:8px}.logitem{padding:12px 13px;border-radius:13px;background:#f7f7f9;font-size:11px;line-height:1.45}
-.footer{padding:54px 0 38px;color:var(--muted);font-size:10px}.footin{border-top:1px solid var(--line);padding-top:14px;display:flex;justify-content:space-between}
-
-
-.pair-workspace{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(280px,.65fr);gap:14px}
-.pair-ranking{min-width:0}
-.pair-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:12px}
-.pair-head h4{margin:0 0 4px;font-size:18px}
-.pair-head p{margin:0;color:var(--muted);font-size:11px;line-height:1.45;max-width:560px}
-.mini-badge{font-size:9px;padding:5px 7px;border-radius:999px;background:#f0f0f3;color:var(--muted);white-space:nowrap;font-weight:700}
-.pair-detail{border:1px solid #ececef;border-radius:15px;background:#fff;margin-bottom:8px;overflow:hidden}
-.pair-detail summary{list-style:none;display:grid;grid-template-columns:32px minmax(0,1fr) 76px 76px;gap:10px;align-items:center;padding:12px;cursor:pointer}
-.pair-detail summary::-webkit-details-marker{display:none}
-.pair-detail[open]{border-color:#cfe3fa;box-shadow:0 8px 24px rgba(0,113,227,.06)}
-.rank-num{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:#f1f1f4;font-size:11px;font-weight:800}
-.pair-detail[open] .rank-num{background:#eaf4ff;color:var(--blue)}
-.pair-name strong{display:block;font-size:12px}
-.pair-name span{display:block;margin-top:3px;color:var(--muted);font-size:9px}
-.pair-metric{text-align:right}
-.pair-metric small{display:block;color:var(--muted);font-size:8px;text-transform:uppercase;letter-spacing:.06em}
-.pair-metric b{display:block;margin-top:2px;font-size:12px}
-.pair-expanded{border-top:1px solid #eee;padding:12px;background:#fafcff}
-.expanded-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
-.expanded-grid>div{padding:9px;border-radius:11px;background:#fff;border:1px solid #eef1f5}
-.expanded-grid small{display:block;color:var(--muted);font-size:8px}
-.expanded-grid b{display:block;margin-top:3px;font-size:11px}
-.confirm-row{display:flex;gap:5px;flex-wrap:wrap;margin-top:9px}
-.confirm-row span{font-size:8px;padding:4px 6px;border-radius:999px;background:#eef6ff;color:#46637d;font-weight:650}
-.pair-note{margin-top:8px;color:var(--muted);font-size:9px;line-height:1.4}
-
-.copy-column{
-  position:sticky;top:68px;align-self:start;
-  padding:18px;border-radius:20px;color:#fff;
-  background:linear-gradient(145deg,#101114,#20252e 62%,#075fae 145%);
-}
-.copy-kicker{font-size:9px;text-transform:uppercase;letter-spacing:.09em;color:rgba(255,255,255,.55);font-weight:750}
-.copy-column h4{font-size:26px;letter-spacing:-.04em;margin:6px 0 2px}
-.copy-sub{margin:0 0 14px;color:rgba(255,255,255,.58);font-size:10px}
-.copy-leg{padding:13px;border-radius:14px;background:rgba(255,255,255,.08)}
-.copy-leg small{display:block;color:rgba(255,255,255,.5);font-size:8px;text-transform:uppercase;letter-spacing:.08em}
-.copy-leg strong{display:block;margin-top:5px;font-size:14px;line-height:1.25}
-.copy-leg span{display:block;margin-top:7px;color:#b9d8ff;font-size:10px;font-weight:700}
-.copy-plus{text-align:center;color:rgba(255,255,255,.38);font-size:18px;padding:5px}
-.copy-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:7px;margin-top:12px}
-.copy-stats>div{padding:9px;border-radius:11px;background:rgba(255,255,255,.075)}
-.copy-stats small{display:block;color:rgba(255,255,255,.5);font-size:8px}
-.copy-stats b{display:block;margin-top:3px;font-size:13px}
-.copy-win{color:#79e39b}
-.copy-footer{margin-top:12px;color:rgba(255,255,255,.46);font-size:8px;line-height:1.45}
-
-
-.money-strip{
-  display:grid;grid-template-columns:repeat(8,1fr);gap:8px;margin-bottom:16px;
-}
-.money-strip>div{padding:11px 12px;border-radius:14px;background:#f7f7f9;border:1px solid #eee;min-width:0}
-.money-strip small{display:block;color:var(--muted);font-size:8px;text-transform:uppercase;letter-spacing:.06em;white-space:nowrap}
-.money-strip b{display:block;margin-top:4px;font-size:16px;letter-spacing:-.025em;white-space:nowrap}
-.money-strip .pos{color:var(--green)}.money-strip .neg{color:var(--red)}
-.actual-chart{height:320px}
-.pair-workspace{display:block}
-.pair-ranking{width:100%}
-.pair-detail summary{grid-template-columns:32px minmax(0,1fr) 76px 76px 82px}
-.platform-trigger{
-  border:1px solid #d8e7f7;background:#eef6ff;color:#1769aa;border-radius:10px;
-  padding:7px 9px;font-size:9px;font-weight:750;cursor:pointer
-}
-.platform-trigger:hover{background:#e4f1ff}
-.drawer-backdrop{
-  position:fixed;inset:0;background:rgba(0,0,0,.18);backdrop-filter:blur(2px);
-  opacity:0;pointer-events:none;transition:.2s ease;z-index:90
-}
-.drawer-backdrop.open{opacity:1;pointer-events:auto}
-.platform-drawer{
-  position:fixed;top:0;right:0;height:100vh;width:min(390px,92vw);z-index:100;
-  background:#fff;border-left:1px solid var(--line);box-shadow:-24px 0 70px rgba(0,0,0,.12);
-  transform:translateX(105%);transition:.25s ease;padding:22px;overflow:auto
-}
-.platform-drawer.open{transform:translateX(0)}
-.drawer-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
-.drawer-top small{display:block;color:var(--muted);font-size:9px;text-transform:uppercase;letter-spacing:.08em;font-weight:750}
-.drawer-top h4{font-size:23px;letter-spacing:-.035em;margin:6px 0 0}
-.drawer-close{border:0;background:#f1f1f4;border-radius:50%;width:30px;height:30px;cursor:pointer;font-size:17px}
-.drawer-pair{margin-top:18px;padding:14px;border-radius:15px;background:#f7f7f9;border:1px solid #eee}
-.drawer-pair strong{display:block;font-size:13px;line-height:1.35}
-.drawer-pair span{display:block;margin-top:5px;color:var(--muted);font-size:10px}
-.platform-list{display:grid;gap:8px;margin-top:18px}
-.platform-option{
-  display:flex;align-items:center;justify-content:space-between;gap:12px;
-  padding:13px;border-radius:14px;border:1px solid #eee;background:#fff
-}
-.platform-option strong{font-size:12px}.platform-option span{font-size:9px;color:var(--muted)}
-.platform-option button{
-  border:0;border-radius:9px;background:#f0f0f3;color:#9a9aa0;padding:7px 9px;
-  font-size:9px;font-weight:750;cursor:not-allowed
-}
-.drawer-note{margin-top:16px;padding:12px;border-radius:13px;background:#fff8e8;border:1px solid #f0dfb6;color:#665d4b;font-size:10px;line-height:1.45}
-
-@media(max-width:900px){
-  .pair-workspace{grid-template-columns:1fr}
-  .copy-column{position:static}
-}
-@media(max-width:650px){.money-strip{grid-template-columns:repeat(2,1fr)}.pair-detail summary{grid-template-columns:28px minmax(0,1fr) 76px}.pair-metric{display:none}.platform-trigger{grid-column:3}}
-@media(max-width:650px){
-  .pair-detail summary{grid-template-columns:28px minmax(0,1fr)}
-  .pair-metric{display:none}
-  .expanded-grid{grid-template-columns:repeat(2,1fr)}
-}
-
-@media(max-width:1100px){.money-strip{grid-template-columns:repeat(4,1fr)}}
-@media(max-width:930px){
-  .perf-layout{grid-template-columns:1fr}.model-list{grid-template-columns:repeat(2,1fr)}
-  .two,.roles{grid-template-columns:1fr}.dst{grid-template-columns:repeat(2,1fr)}
-}
-@media(max-width:650px){
-  .shell{padding:0 14px}.hero h1{font-size:43px}
-  .model-list,.lineup{grid-template-columns:1fr}.dst{grid-template-columns:1fr 1fr}
-}
-</style>
-</head>
-<body>
-<div class="nav">
-  <div class="shell navin">
-    <div class="brand">Parlay Lab <span>/ Cockpit V5</span></div>
-    <div class="topnav">
-      <a href="./">Dashboard</a>
-      <a href="ledger.html">Paper Ledger</a>
-      <a href="internal.html">H1–H4 Lab</a>
-      <div class="badge">Research mode · historical model snapshot</div>
-    </div>
-  </div>
-</div>
-
-<header class="hero shell">
-  <h1>History and leaderboard.<br>One view.</h1>
-  <p>Historical performance now includes real reconstructed dollars, while pair ranking stays clean. Platform copying is tucked behind a placeholder action drawer until live execution is ready.</p>
-</header>
-
-<main class="shell">
-
-<section class="section">
-  <div class="card performance">
-    <div class="perf-head">
-      <div>
-        <small>Historical model performance</small>
-        <h3>Equity curve + model leaderboard</h3>
-      </div>
-      <div class="badge">2-week exploratory sample</div>
-    </div>
-
-    <div class="money-strip" id="moneyStrip">
-      <div><small>Amount staked</small><b id="mStake">$10.00</b></div>
-      <div><small>Gross return</small><b id="mGross">$43.29</b></div>
-      <div><small>Net profit</small><b id="mNet" class="pos">+$33.29</b></div>
-      <div><small>ROI</small><b id="mRoi" class="pos">+332.9%</b></div>
-      <div><small>Slips</small><b id="mSlips">2</b></div>
-      <div><small>Hit rate</small><b id="mHit">100%</b></div>
-      <div><small>Avg joint P</small><b id="mJoint">25.5%</b></div>
-      <div><small>Avg model edge</small><b id="mEdge">+9.3%</b></div>
-    </div>
-
-    <div class="perf-layout">
-      <div class="chart-wrap">
-        <div class="chart actual-chart">
-          <svg id="equityChart" viewBox="0 0 1000 320" preserveAspectRatio="none" aria-label="Historical reconstructed net profit by model"></svg>
-        </div>
-        <div class="legend">
-          <span><i class="dot" style="background:#0071e3"></i>V2 Depth</span>
-          <span><i class="dot" style="background:#6e6e73"></i>V1 Strict</span>
-          <span><i class="dot" style="background:#9b9ba1"></i>C1 Score</span>
-          <span><i class="dot" style="background:#d92d20"></i>C0 Raw EV</span>
-        </div>
-        <div class="note">Dollar figures use a fixed $5 research stake per selected ticket. Cross-game prices are reconstructed from archived leg odds because historical parlay-builder quotes were not saved.</div>
-      </div>
-
-      <div class="model-list">
-        <button class="model" data-model="c0">
-          <div class="model-top"><span class="model-name">C0 · Raw EV</span><span class="tag">Control</span></div>
-          <div class="model-main"><span class="record">1–8</span><span class="model-meta">−$30.75 net<br>−68.3% ROI</span></div>
-          <div class="model-foot"><span>9 slips</span><span>Underperforming</span></div>
-        </button>
-
-        <button class="model" data-model="c1">
-          <div class="model-top"><span class="model-name">C1 · Existing score</span><span class="tag">Control</span></div>
-          <div class="model-main"><span class="record">3–6</span><span class="model-meta">+$9.88 net<br>+22.0% ROI</span></div>
-          <div class="model-foot"><span>9 slips</span><span>Baseline</span></div>
-        </button>
-
-        <button class="model" data-model="v1">
-          <div class="model-top"><span class="model-name">V1 · Strict</span><span class="tag">Frozen</span></div>
-          <div class="model-main"><span class="record">1–0</span><span class="model-meta">+$14.64 net<br>+292.8% ROI</span></div>
-          <div class="model-foot"><span>1 slip</span><span>Rec &gt;2.5</span></div>
-        </button>
-
-        <button class="model active" data-model="v2">
-          <div class="model-top"><span class="model-name">V2 · Depth</span><span class="tag">Lead</span></div>
-          <div class="model-main"><span class="record">2–0</span><span class="model-meta">+$33.29 net<br>+332.9% ROI</span></div>
-          <div class="model-foot"><span>2 slips</span><span>Rec &gt;1.5</span></div>
-        </button>
-
-        <button class="model" data-model="future">
-          <div class="model-top"><span class="model-name">V3–V8</span><span class="tag">Tracking</span></div>
-          <div class="model-main"><span class="record">6</span><span class="model-meta">forward variants<br>no settled $ yet</span></div>
-          <div class="model-foot"><span>Confirmation</span><span>Execution</span></div>
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="card tabs">
-    <div class="tabbar">
-      <button class="active" data-tab="why">Why this pair</button>
-      <button data-tab="books">Book roles</button>
-      <button data-tab="variants">Variants</button>
-      <button data-tab="notes">Research notes</button>
-    </div>
-    <div class="tabbody">
-
-      <div class="tabpane active" id="why">
-        <div class="pair-workspace">
-          <div class="pair-ranking">
-            <div class="pair-head">
-              <div>
-                <h4>Pair ranking</h4>
-                <p>Ranked by joint fair probability after quality filters. Expand any pair to inspect its historical evidence.</p>
-              </div>
-              <span class="mini-badge">Sep 20 example</span>
-            </div>
-
-            <details class="pair-detail" open>
-              <summary>
-                <div class="rank-num">1</div>
-                <div class="pair-name">
-                  <strong>Jefferson U6.5 REC + Shough U0.5 INT</strong>
-                  <span>DraftKings · reconstructed +293</span>
-                </div>
-                <div class="pair-metric"><small>Joint P</small><b>28.14%</b></div>
-                <div class="pair-metric"><small>Edge</small><b class="good">+10.6%</b></div><button class="platform-trigger" data-pair="pair1" type="button">Platforms</button>
-              </summary>
-              <div class="pair-expanded">
-                <div class="expanded-grid">
-                  <div><small>Fair probability</small><b>28.14%</b></div>
-                  <div><small>Break-even</small><b>25.45%</b></div>
-                  <div><small>Model edge</small><b class="good">+10.56%</b></div>
-                  <div><small>Historical result</small><b class="good">WIN</b></div>
-                </div>
-                <div class="confirm-row">
-                  <span>✓ Pinnacle fair</span>
-                  <span>✓ Bovada confirmed</span>
-                  <span>✓ DraftKings confirmed</span>
-                  <span>✓ 5+ books</span>
-                  <span>✓ Separate games</span>
-                </div>
-                <div class="pair-note">Historical cross-game price is reconstructed from individual leg odds; an actual archived parlay quote was not available.</div>
-              </div>
-            </details>
-
-            <details class="pair-detail">
-              <summary>
-                <div class="rank-num">2</div>
-                <div class="pair-name">
-                  <strong>Caleb U19.5 COMP + Shough U0.5 INT</strong>
-                  <span>DraftKings · reconstructed +293</span>
-                </div>
-                <div class="pair-metric"><small>Joint P</small><b>28.04%</b></div>
-                <div class="pair-metric"><small>Edge</small><b class="good">+10.2%</b></div><button class="platform-trigger" data-pair="pair2" type="button">Platforms</button>
-              </summary>
-              <div class="pair-expanded">
-                <div class="expanded-grid">
-                  <div><small>Historical result</small><b class="good">WIN</b></div>
-                  <div><small>Pair rank</small><b>#2</b></div>
-                  <div><small>Selection reason</small><b>Lower joint P</b></div>
-                  <div><small>Execution</small><b>DK</b></div>
-                </div>
-              </div>
-            </details>
-
-            <details class="pair-detail">
-              <summary>
-                <div class="rank-num">3</div>
-                <div class="pair-name">
-                  <strong>Rush O0.5 RUSH + Jefferson U6.5 REC</strong>
-                  <span>DraftKings · reconstructed +345</span>
-                </div>
-                <div class="pair-metric"><small>Joint P</small><b>24.44%</b></div>
-                <div class="pair-metric"><small>Edge</small><b class="good">+8.8%</b></div><button class="platform-trigger" data-pair="pair3" type="button">Platforms</button>
-              </summary>
-              <div class="pair-expanded">
-                <div class="expanded-grid">
-                  <div><small>Historical result</small><b class="good">WIN</b></div>
-                  <div><small>Pair rank</small><b>#3</b></div>
-                  <div><small>Tradeoff</small><b>More payout</b></div>
-                  <div><small>Execution</small><b>DK</b></div>
-                </div>
-              </div>
-            </details>
-
-            <details class="pair-detail">
-              <summary>
-                <div class="rank-num">4</div>
-                <div class="pair-name">
-                  <strong>Rush O0.5 RUSH + Caleb U19.5 COMP</strong>
-                  <span>DraftKings · reconstructed +345</span>
-                </div>
-                <div class="pair-metric"><small>Joint P</small><b>24.35%</b></div>
-                <div class="pair-metric"><small>Edge</small><b class="good">+8.4%</b></div><button class="platform-trigger" data-pair="pair4" type="button">Platforms</button>
-              </summary>
-              <div class="pair-expanded">
-                <div class="expanded-grid">
-                  <div><small>Historical result</small><b class="good">WIN</b></div>
-                  <div><small>Pair rank</small><b>#4</b></div>
-                  <div><small>Tradeoff</small><b>More payout</b></div>
-                  <div><small>Execution</small><b>DK</b></div>
-                </div>
-              </div>
-            </details>
-
-            <details class="pair-detail">
-              <summary>
-                <div class="rank-num">5</div>
-                <div class="pair-name">
-                  <strong>Rush O0.5 RUSH + Shough U0.5 INT</strong>
-                  <span>Bovada · reconstructed +371</span>
-                </div>
-                <div class="pair-metric"><small>Joint P</small><b>23.21%</b></div>
-                <div class="pair-metric"><small>Edge</small><b class="good">+9.4%</b></div><button class="platform-trigger" data-pair="pair5" type="button">Platforms</button>
-              </summary>
-              <div class="pair-expanded">
-                <div class="expanded-grid">
-                  <div><small>Historical result</small><b class="good">WIN</b></div>
-                  <div><small>Pair rank</small><b>#5</b></div>
-                  <div><small>Tradeoff</small><b>Highest payout</b></div>
-                  <div><small>Execution</small><b>BOV</b></div>
-                </div>
-              </div>
-            </details>
-          </div>
-</div>
-      </div>
-
-
-      <div class="tabpane" id="books">
-        <div class="roles">
-          <div class="role"><h5>Pinnacle</h5><p>Fair reference</p><b>Primary</b></div>
-          <div class="role"><h5>Bovada</h5><p>Confirmation</p><b>Strong</b></div>
-          <div class="role"><h5>DraftKings</h5><p>Confirmation + execution</p><b>Strong</b></div>
-          <div class="role"><h5>FanDuel</h5><p>Execution candidate</p><b>Track</b></div>
-          <div class="role"><h5>Hard Rock</h5><p>Local execution</p><b>Track</b></div>
-        </div>
-      </div>
-
-      <div class="tabpane" id="variants">
-        <div class="log">
-          <div class="logitem"><strong>V3:</strong> Pinnacle fair + Bovada confirmation.</div>
-          <div class="logitem"><strong>V4:</strong> Pinnacle fair + DraftKings confirmation.</div>
-          <div class="logitem"><strong>V5/V6:</strong> any 2 / any 3 confirming books.</div>
-          <div class="logitem"><strong>V7:</strong> actual-price floor. <strong>V8:</strong> up to two non-overlapping slips.</div>
-        </div>
-      </div>
-
-      <div class="tabpane" id="notes">
-        <div class="log">
-          <div class="logitem"><strong>Historical sample:</strong> only two main Sunday slates; results are highly clustered.</div>
-          <div class="logitem"><strong>Execution limitation:</strong> cross-game prices shown are reconstructed from leg odds.</div>
-          <div class="logitem"><strong>Production requirement:</strong> capture actual platform quote before Telegram can send “copy lineup on X.”</div>
-          <div class="logitem"><strong>Version discipline:</strong> every future logic change becomes a new version; old model history remains frozen.</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</main>
-
-
-<div class="drawer-backdrop" id="drawerBackdrop"></div>
-<aside class="platform-drawer" id="platformDrawer" aria-hidden="true">
-  <div class="drawer-top">
-    <div>
-      <small>Future execution layer</small>
-      <h4>Copy to platform</h4>
-    </div>
-    <button class="drawer-close" id="drawerClose" aria-label="Close">×</button>
-  </div>
-
-  <div class="drawer-pair">
-    <strong id="drawerPairName">Selected pair</strong>
-    <span id="drawerPairMeta">Historical research placeholder</span>
-  </div>
-
-  <div class="platform-list">
-    <div class="platform-option"><div><strong>DraftKings</strong><span>Actual quote + deep link later</span></div><button disabled>Coming later</button></div>
-    <div class="platform-option"><div><strong>FanDuel</strong><span>Actual quote + deep link later</span></div><button disabled>Coming later</button></div>
-    <div class="platform-option"><div><strong>Underdog</strong><span>Lineup handoff later</span></div><button disabled>Coming later</button></div>
-    <div class="platform-option"><div><strong>Hard Rock</strong><span>Local execution tracking later</span></div><button disabled>Coming later</button></div>
-    <div class="platform-option"><div><strong>Bovada</strong><span>Research confirmation / execution later</span></div><button disabled>Coming later</button></div>
-  </div>
-
-  <div class="drawer-note">
-    Placeholder only. The production version should first capture the exact live ticket price at each supported platform, compare it with fair joint probability, then expose only eligible execution actions.
-  </div>
-</aside>
-
-<footer class="footer shell">
-  <div class="footin"><span>Parlay Lab · Cockpit V5</span><span>Historical prototype · Sep 2026</span></div>
-</footer>
-
-<script>
-const MODEL_DATA = {
-  c0:{
-    name:"C0 · Raw EV", record:"1–8", stake:45.00, gross:14.25, net:-30.75, roi:-68.33,
-    slips:9, hit:11.11, joint:21.38, edge:12.84, curve:[0,-25.00,-30.75,-30.75], color:"#d92d20"
-  },
-  c1:{
-    name:"C1 · Existing score", record:"3–6", stake:45.00, gross:54.88, net:9.88, roi:21.95,
-    slips:9, hit:33.33, joint:24.12, edge:12.37, curve:[0,18.88,9.88,9.88], color:"#9b9ba1"
-  },
-  v1:{
-    name:"V1 · Strict", record:"1–0", stake:5.00, gross:19.64, net:14.64, roi:292.8,
-    slips:1, hit:100, joint:28.14, edge:10.56, curve:[0,14.64,14.64,14.64], color:"#6e6e73"
-  },
-  v2:{
-    name:"V2 · Depth", record:"2–0", stake:10.00, gross:43.29, net:33.29, roi:332.9,
-    slips:2, hit:100, joint:25.49, edge:9.30, curve:[0,14.64,33.29,33.29], color:"#0071e3"
+function draw(){
+  let s=$('chart'),ns='http://www.w3.org/2000/svg';s.innerHTML='';
+  let nets=Object.keys(DATA).map(m=>Number(primary(m).pnl||0));
+  let min=Math.min(-5,0,...nets),max=Math.max(10,0,...nets);if(max-min<10)max=min+10;
+  const y=v=>240-180*(v-min)/(max-min);
+  for(let i=0;i<5;i++){
+    let v=min+(max-min)*i/4,yy=y(v);
+    let l=document.createElementNS(ns,'line');l.setAttribute('x1',70);l.setAttribute('x2',850);l.setAttribute('y1',yy);l.setAttribute('y2',yy);l.setAttribute('stroke',Math.abs(v)<.001?'#cfcfd4':'#e8e8eb');s.appendChild(l);
+    let t=document.createElementNS(ns,'text');t.setAttribute('x',12);t.setAttribute('y',yy+4);t.setAttribute('font-size',10);t.setAttribute('fill','#888');t.textContent=(v>=0?'+':'')+'$'+v.toFixed(0);s.appendChild(t)
   }
-};
-
-const PAIRS = {
-  pair1:["Jefferson U6.5 REC + Shough U0.5 INT","DraftKings · reconstructed +293"],
-  pair2:["Caleb U19.5 COMP + Shough U0.5 INT","DraftKings · reconstructed +293"],
-  pair3:["Rush O0.5 RUSH + Jefferson U6.5 REC","DraftKings · reconstructed +345"],
-  pair4:["Rush O0.5 RUSH + Caleb U19.5 COMP","DraftKings · reconstructed +345"],
-  pair5:["Rush O0.5 RUSH + Shough U0.5 INT","Bovada · reconstructed +371"]
-};
-
-const fmtMoney = v => `${v>=0?"+":""}$${Math.abs(v).toFixed(2)}`.replace("+$0.00","$0.00");
-const fmtPct = v => `${v>=0?"+":""}${v.toFixed(1)}%`;
-const metricEls = {
-  stake:document.getElementById("mStake"), gross:document.getElementById("mGross"),
-  net:document.getElementById("mNet"), roi:document.getElementById("mRoi"),
-  slips:document.getElementById("mSlips"), hit:document.getElementById("mHit"),
-  joint:document.getElementById("mJoint"), edge:document.getElementById("mEdge")
-};
-
-function setMetrics(id){
-  const d=MODEL_DATA[id];
-  if(!d){
-    Object.values(metricEls).forEach(el=>{el.textContent="—";el.classList.remove("pos","neg")});
-    return;
-  }
-  metricEls.stake.textContent=`$${d.stake.toFixed(2)}`;
-  metricEls.gross.textContent=`$${d.gross.toFixed(2)}`;
-  metricEls.net.textContent=fmtMoney(d.net);
-  metricEls.roi.textContent=fmtPct(d.roi);
-  metricEls.slips.textContent=d.slips;
-  metricEls.hit.textContent=`${d.hit.toFixed(d.hit%1?1:0)}%`;
-  metricEls.joint.textContent=`${d.joint.toFixed(1)}%`;
-  metricEls.edge.textContent=`+${d.edge.toFixed(1)}%`;
-  metricEls.net.classList.toggle("pos",d.net>=0); metricEls.net.classList.toggle("neg",d.net<0);
-  metricEls.roi.classList.toggle("pos",d.roi>=0); metricEls.roi.classList.toggle("neg",d.roi<0);
+  Object.keys(DATA).filter(m=>m!==active).forEach(m=>{
+    let net=Number(primary(m).pnl||0),c=COLORS[m]||'#8e8e93';
+    let p=document.createElementNS(ns,'polyline');p.setAttribute('points','110,'+y(0)+' 790,'+y(net));p.setAttribute('fill','none');p.setAttribute('stroke',c);p.setAttribute('stroke-width',2);p.setAttribute('stroke-opacity','.18');p.setAttribute('stroke-linecap','round');s.appendChild(p);
+    let e=document.createElementNS(ns,'circle');e.setAttribute('cx',790);e.setAttribute('cy',y(net));e.setAttribute('r',3);e.setAttribute('fill',c);e.setAttribute('fill-opacity','.22');s.appendChild(e)
+  });
+  let net=Number(primary(active).pnl||0),c=COLORS[active]||'#0071e3';
+  let halo=document.createElementNS(ns,'polyline');halo.setAttribute('points','110,'+y(0)+' 790,'+y(net));halo.setAttribute('fill','none');halo.setAttribute('stroke','#fff');halo.setAttribute('stroke-width',8);halo.setAttribute('stroke-linecap','round');s.appendChild(halo);
+  let p=document.createElementNS(ns,'polyline');p.setAttribute('points','110,'+y(0)+' 790,'+y(net));p.setAttribute('fill','none');p.setAttribute('stroke',c);p.setAttribute('stroke-width',4);p.setAttribute('stroke-linecap','round');s.appendChild(p);
+  [[110,0],[790,net]].forEach(([x,v])=>{let e=document.createElementNS(ns,'circle');e.setAttribute('cx',x);e.setAttribute('cy',y(v));e.setAttribute('r',5);e.setAttribute('fill',c);e.setAttribute('stroke','#fff');e.setAttribute('stroke-width',2);s.appendChild(e)});
+  let label=document.createElementNS(ns,'text');label.setAttribute('x',800);label.setAttribute('y',y(net)+4);label.setAttribute('font-size',10);label.setAttribute('font-weight','700');label.setAttribute('fill',c);label.textContent=active+' '+money(net);s.appendChild(label);
+  [['Start',110],['Current',790]].forEach(([x,a])=>{let t=document.createElementNS(ns,'text');t.setAttribute('x',a-20);t.setAttribute('y',270);t.setAttribute('font-size',10);t.setAttribute('fill','#888');t.textContent=x;s.appendChild(t)})
 }
-
-function drawChart(active="v2"){
-  const svg=document.getElementById("equityChart");
-  const ns="http://www.w3.org/2000/svg";
-  svg.innerHTML="";
-  const xmin=90,xmax=930,ymin=32,ymax=265;
-  const minVal=-35,maxVal=35;
-  const xs=[110,380,650,900];
-  const y=v=>ymax-(v-minVal)/(maxVal-minVal)*(ymax-ymin);
-
-  [-30,-15,0,15,30].forEach(v=>{
-    const line=document.createElementNS(ns,"line");
-    line.setAttribute("x1",xmin);line.setAttribute("x2",xmax);
-    line.setAttribute("y1",y(v));line.setAttribute("y2",y(v));
-    line.setAttribute("stroke",v===0?"#cfcfd4":"#ececf0");
-    line.setAttribute("stroke-width","1");svg.appendChild(line);
-    const t=document.createElementNS(ns,"text");
-    t.setAttribute("x","18");t.setAttribute("y",y(v)+4);t.setAttribute("font-size","10");t.setAttribute("fill","#8a8a90");
-    t.textContent=v===0?"$0":`${v>0?"+":""}$${v}`;svg.appendChild(t);
-  });
-
-  ["Start","Sep 20","Sep 27","Current"].forEach((lab,i)=>{
-    const t=document.createElementNS(ns,"text");
-    t.setAttribute("x",xs[i]-22);t.setAttribute("y","296");t.setAttribute("font-size","10");t.setAttribute("fill","#8a8a90");
-    t.textContent=lab;svg.appendChild(t);
-  });
-
-  Object.entries(MODEL_DATA).forEach(([id,d])=>{
-    const pl=document.createElementNS(ns,"polyline");
-    pl.setAttribute("points",d.curve.map((v,i)=>`${xs[i]},${y(v)}`).join(" "));
-    pl.setAttribute("fill","none");pl.setAttribute("stroke",d.color);
-    pl.setAttribute("stroke-width",id===active?"4":"2");
-    pl.setAttribute("opacity",id===active?"1":".20");
-    pl.setAttribute("stroke-linecap","round");pl.setAttribute("stroke-linejoin","round");
-    if(id==="c0")pl.setAttribute("stroke-dasharray","6 6");
-    svg.appendChild(pl);
-    d.curve.forEach((v,i)=>{
-      const c=document.createElementNS(ns,"circle");
-      c.setAttribute("cx",xs[i]);c.setAttribute("cy",y(v));c.setAttribute("r",id===active?"4":"2.5");
-      c.setAttribute("fill",d.color);c.setAttribute("opacity",id===active?"1":".28");svg.appendChild(c);
-    });
-  });
-}
-
-function selectModel(id){
-  document.querySelectorAll(".model").forEach(b=>b.classList.toggle("active",b.dataset.model===id));
-  setMetrics(id); drawChart(MODEL_DATA[id]?id:"v2");
-}
-
-document.querySelectorAll(".model").forEach(btn=>{
-  btn.addEventListener("click",()=>selectModel(btn.dataset.model));
-});
-
-document.querySelectorAll(".tabbar button").forEach(btn=>{
-  btn.addEventListener("click",()=>{
-    document.querySelectorAll(".tabbar button").forEach(b=>b.classList.remove("active"));
-    document.querySelectorAll(".tabpane").forEach(p=>p.classList.remove("active"));
-    btn.classList.add("active");
-    document.getElementById(btn.dataset.tab).classList.add("active");
-  });
-});
-
-const drawer=document.getElementById("platformDrawer");
-const backdrop=document.getElementById("drawerBackdrop");
-const closeDrawer=()=>{
-  drawer.classList.remove("open");backdrop.classList.remove("open");drawer.setAttribute("aria-hidden","true");
-};
-document.querySelectorAll(".platform-trigger").forEach(btn=>{
-  btn.addEventListener("click",e=>{
-    e.preventDefault();e.stopPropagation();
-    const p=PAIRS[btn.dataset.pair]||["Selected pair","Research placeholder"];
-    document.getElementById("drawerPairName").textContent=p[0];
-    document.getElementById("drawerPairMeta").textContent=p[1];
-    drawer.classList.add("open");backdrop.classList.add("open");drawer.setAttribute("aria-hidden","false");
-  });
-});
-document.getElementById("drawerClose").addEventListener("click",closeDrawer);
-backdrop.addEventListener("click",closeDrawer);
-document.addEventListener("keydown",e=>{if(e.key==="Escape")closeDrawer();});
-
-selectModel("v2");
-</script>
-</body>
-</html>
+document.querySelectorAll('.model-card').forEach(b=>b.addEventListener('click',()=>select(b.dataset.model)));select('V2');</script></body></html>
