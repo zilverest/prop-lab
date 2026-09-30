@@ -1,0 +1,15 @@
+SGP Shadow Runner v1 packaging tests
+2026-09-30
+
+PASS: Python compile of common/snapshot/close/slips/report/parlay_lab/sgp_shadow/run
+PASS: unittest test_sgp_shadow.py — 4 tests
+PASS: offline snapshot.py --from-file ev_sample.json --event-id 32646 --no-sgp
+PASS: full run.main() with empty/404 API stub
+PASS: docs/index.html renders SGP shadow section
+PASS: synthetic S3-A positive-correlation freeze
+PASS: freeze idempotence
+PASS: synthetic SGP settlement
+PASS: legacy V1–V8/H1–H4 files remain separate
+
+Note: outbound nflverse roster download could not be exercised from the sandbox network.
+The runner uses the documented public weekly-roster release URL and fails safely if unavailable.

@@ -1,0 +1,10 @@
+{
+  "qb_market": "player_pass_yds",
+  "qb_point": 249.5,
+  "qb_side": "Over",
+  "qb_fair_prob": 0.54,
+  "catcher_market": "player_reception_yds",
+  "catcher_point": 54.5,
+  "catcher_side": "Over",
+  "catcher_fair_prob": 0.55
+}

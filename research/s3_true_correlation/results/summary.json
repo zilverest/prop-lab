@@ -1,0 +1,13 @@
+{
+  "rows_loaded": 90585,
+  "pair_observations": 21569,
+  "train_seasons": [
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "validation_seasons": [
+    2025
+  ]
+}

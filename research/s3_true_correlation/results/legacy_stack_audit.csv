@@ -1,0 +1,21 @@
+ts,event_id,home,away,book,price,resolution,pnl,leg1_player,leg1_market,leg1_side,leg1_point,leg2_player,leg2_market,leg2_side,leg2_point,team_verification,true_same_team_stack
+2026-09-23T20:46:58Z,32648,GB Packers,ATL Falcons,fanduel,275,won,13.75,Jonnu Smith,player_receptions,Over,1.5,Jordan Love,player_pass_tds,Over,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-24T01:56:41Z,32648,GB Packers,ATL Falcons,fanduel,314,won,15.700000000000003,MarShawn Lloyd,player_receptions,Over,1.5,Jordan Love,player_pass_tds,Over,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-24T01:56:43Z,32648,GB Packers,ATL Falcons,draftkings,360,won,18.0,MarShawn Lloyd,player_receptions,Over,1.5,Jordan Love,player_pass_tds,Over,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-24T10:41:08Z,32648,GB Packers,ATL Falcons,fanduel,261,lost,-5.0,Chris Brooks,player_receptions,Over,1.5,Jordan Love,player_pass_tds,Over,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-24T10:41:11Z,32648,GB Packers,ATL Falcons,draftkings,284,lost,-5.0,Chris Brooks,player_receptions,Over,1.5,Jordan Love,player_pass_tds,Over,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-24T20:56:18Z,32648,GB Packers,ATL Falcons,fanduel,249,won,12.450000000000001,Skyy Moore,player_receptions,Over,1.5,Jordan Love,player_pass_tds,Over,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-24T20:56:23Z,32648,GB Packers,ATL Falcons,draftkings,288,won,14.399999999999999,Skyy Moore,player_receptions,Over,1.5,Jordan Love,player_pass_tds,Over,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-25T16:11:22Z,23215,Dallas Cowboys,Baltimore Ravens,fanduel,284,lost,-5.0,Javonte Williams,player_receptions,Under,2.5,Lamar Jackson,player_pass_tds,Under,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-25T16:11:28Z,23215,Dallas Cowboys,Baltimore Ravens,draftkings,350,lost,-5.0,Javonte Williams,player_receptions,Under,2.5,Lamar Jackson,player_pass_tds,Under,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-25T21:00:17Z,32659,SF 49ers,ARI Cardinals,draftkings,178,won,8.900000000000002,Jacoby Brissett,player_pass_completions,Over,21.5,George Kittle,player_receptions,Over,3.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-26T15:17:35Z,32653,NY Giants,TEN Titans,fanduel,209,lost,-5.0,Cam Ward,player_pass_yds,Under,187.5,Darnell Mooney,player_receptions,Under,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-27T11:00:05Z,32652,WAS Commanders,SEA Seahawks,fanduel,215,won,10.75,Cooper Kupp,player_receptions,Over,2.5,Marcus Mariota,player_pass_tds,Over,0.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-27T11:00:08Z,32652,WAS Commanders,SEA Seahawks,draftkings,236,won,11.799999999999999,Cooper Kupp,player_receptions,Over,2.5,Marcus Mariota,player_pass_tds,Over,0.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-27T11:00:23Z,32655,BUF Bills,LA Chargers,fanduel,283,won,14.15,Ladd McConkey,player_receptions,Under,4.5,Josh Allen,player_pass_tds,Under,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-27T11:00:25Z,32655,BUF Bills,LA Chargers,draftkings,335,won,16.75,Ladd McConkey,player_receptions,Under,4.5,Josh Allen,player_pass_tds,Under,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-27T15:59:20Z,32649,PIT Steelers,CIN Bengals,fanduel,258,lost,-5.0,Samaje Perine,player_receptions,Over,1.5,Aaron Rodgers,player_pass_yds,Over,224.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-27T15:59:30Z,32651,JAX Jaguars,NE Patriots,fanduel,287,lost,-5.0,Bhayshul Tuten,player_reception_yds,Over,9.5,Drake Maye,player_pass_tds,Over,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-27T15:59:41Z,32660,NO Saints,LV Raiders,fanduel,261,won,13.049999999999999,Michael Mayer,player_receptions,Over,2.5,Tyler Shough,player_pass_tds,Over,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-27T15:59:46Z,32660,NO Saints,LV Raiders,draftkings,305,won,15.25,Michael Mayer,player_receptions,Over,2.5,Tyler Shough,player_pass_tds,Over,1.5,NEEDS_TEAM_JOIN,UNKNOWN
+2026-09-27T16:00:18Z,32659,SF 49ers,ARI Cardinals,draftkings,156,won,7.800000000000001,Trey McBride,player_receptions,Over,7.5,Jacoby Brissett,player_pass_completions,Over,21.5,NEEDS_TEAM_JOIN,UNKNOWN

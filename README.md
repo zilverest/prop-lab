@@ -27,21 +27,28 @@ Every candidate is logged whether or not it's at a bettable book, and every one 
 
 | File | Role |
 |------|------|
-| `snapshot.py` | pulls `/ev` per upcoming event → `data/lines.csv` (change-only), `data/candidates.csv`, `data/sgp.csv` |
+| `snapshot.py` | pulls `/ev` per upcoming event → change-only history plus `data/current_lines.csv` (exact current board), candidates, SGP probes |
 | `close.py` | after kickoff: `/clv/grade` → `data/clv.csv`; when final: `/results` → `data/results.csv` |
-| `report.py` | rollups + verdicts → `docs/ledger.html` + `docs/internal.html`, plus Telegram text |
-| `docs/index.html` | Parlay Lab V5 research cockpit — GitHub Pages homepage |
-| `run.py` | one tick: snapshot → close → report → Telegram cadence |
+| `parlay_lab.py` | frozen V1–V8 forward parlay tournament, settlement, Telegram lineup summary, dynamic `docs/index.html` |
+| `sgp_shadow.py` | separate S0/S1/S2/S3-A:E single-game shadow runner: roster verification, actual `/sgp` quotes, frozen decisions, rejection audit, settlement |
+| `report.py` | legacy H1–H4 rollups + verdicts → `docs/ledger.html` + `docs/internal.html` |
+| `docs/index.html` | dynamic Parlay Lab forward-research cockpit — GitHub Pages homepage |
+| `run.py` | one tick: snapshot → close → legacy slips → cross-game V1–V8 → SGP shadow → reports → Telegram |
 | `common.py` | API client, CSV store, gates, Telegram |
+| `SGP_SHADOW.md` | SGP shadow model definitions, generated files, timing, and settlement rules |
 | `.github/workflows/lab.yml` | cron every 6h, commits data + docs back to the repo |
 
 All data is plain CSV — open in pandas or Excel. `data/state.json` holds bookkeeping (change-detection signatures, closed events, message cadence).
 
 ## Telegram
 
-- **Board captured** — once per week, first snapshot with events
-- **Weekly summary** — Tuesdays
-- **FAILED / warning** — immediately on any error or an empty Thu–Sun snapshot
+The older Top-8-straights and weekly “board captured” messages are retired. Telegram is now intentionally compact:
+
+- **Game day** — one Parlay Lab research message when the frozen board is created. Identical lineups selected by several models are deduplicated and tagged `V1 · V2 · V3` rather than repeated.
+- **Tuesday** — compact forward model-tournament summary (V1–V6 + V8).
+- **FAILED / warning** — immediately on an exception or an empty Thu–Sun snapshot.
+
+Cross-game prices are still reconstructed from the two leg prices. Telegram explicitly says `recon` and tells you to verify the live platform ticket; no bet is placed automatically. V7 remains blocked until actual parlay-quote capture exists.
 
 ## Building slips (paper only)
 
@@ -60,6 +67,33 @@ endpoint — if the book won't quote that combination it tells you and logs noth
 `close.py`) once every leg in it has a graded result. The paper ledger (`docs/ledger.html`) shows the
 running count and P&L; `data/slips.csv` is the full record.
 
+## Parlay Lab forward research
+
+The historical Sep. 20–27 results are stored only as a **development replay**. They remain visible for context but are never treated as forward validation. Beginning with the next game-day board, decisions are frozen to `data/parlay_decisions.csv` and never retroactively reshuffled after later prices arrive.
+
+Forward board freeze: the first successful scheduled/manual tick at or after **08:00 America/New_York** on an NFL game day. The exact freeze timestamp is recorded on the dashboard. `snapshot.py` also writes `data/current_lines.csv` each tick so the parlay models use only lines that still exist on the live board; the change-only `lines.csv` is not used as live state when `current_lines.csv` is available.
+
+Frozen variants:
+
+| Model | Rule |
+|---|---|
+| V1 Strict | Pinnacle fair + Bovada & DraftKings confirmation + ≥5 books + receptions >2.5 |
+| V2 Depth | V1, but receptions >1.5 |
+| V3 Bovada | Pinnacle fair + Bovada confirmation + ≥5 books + receptions >1.5 |
+| V4 DraftKings | Pinnacle fair + DraftKings confirmation + ≥5 books + receptions >1.5 |
+| V5 Any 2 | Pinnacle fair + any 2 confirming books + ≥5 books + receptions >1.5 |
+| V6 Any 3 | Pinnacle fair + any 3 confirming books + ≥5 books + receptions >1.5 |
+| V7 Value Floor | blocked until actual cross-game parlay quotes can be captured |
+| V8 Strong Slate | V3 pool; up to two positive-edge pairs, second pair may not share either game with the first |
+
+The dashboard drills down **model → week → date → slip** and shows no-play dates as data, not omissions. The original H1–H4 and legacy paper-slip records remain separate and unchanged.
+
+## Single-game SGP shadow research
+
+The SGP research family runs separately from the cross-game tournament. It observes the current board, verifies true same-team QB/pass-catcher identity from nflverse weekly rosters, requests actual PropLine `/sgp` research quotes near kickoff, freezes S0/S1/S2/S3-A:E decisions, and settles them later. Its data and P&L never alter V1–V8.
+
+SGP decisions freeze event-by-event on the first successful tick within **8 hours of kickoff**. The dashboard exposes the SGP family as **shadow only**; game-day Telegram remains the cross-game lineup message. See `SGP_SHADOW.md` and `research/s3_true_correlation/` for the frozen model definitions and empirical priors.
+
 ## Offline test
 
 ```
@@ -70,7 +104,7 @@ python3 report.py
 ## Known limits
 
 - PropLine's NFL archive starts September 2026 — nothing to backtest; the sample accumulates one week at a time.
-- For NFL props the fair-line anchor is usually Kalshi (Pinnacle posts no NFL props). Exchange anchors are thin; that's why the gates require extra books.
+- Fair-source coverage varies by market and week. The parlay research variants intentionally require `fair_source=pinnacle`; if Pinnacle is absent, those variants simply produce fewer or no plays.
 - Underdog here prices two-way (~-112/-112), not flat pick'em payouts. H1 tests it as a book, because that's what it is in this feed.
 - `lines.csv` grows all season. If the repo gets heavy, move old weeks to a release asset.
 
@@ -89,8 +123,8 @@ After uploading new code and running a tick, check that version on `ledger.html`
 
 ## GitHub Pages
 
-- `/` → Parlay Lab V5 research cockpit (`docs/index.html`)
+- `/` → dynamic Parlay Lab forward-research cockpit (`docs/index.html`, regenerated by `parlay_lab.py`)
 - `/ledger.html` → existing Eevee paper ledger (generated by `report.py`)
 - `/internal.html` → existing H1–H4 research lab (generated by `report.py`)
 
-`docs/index.html` is intentionally static for this migration. The current V1/V2 model metrics are a historical research snapshot; the next phase is to generate those values from dedicated parlay research data rather than hard-code them.
+`docs/index.html` is generated every tick from the frozen development replay plus `data/parlay_decisions.csv`. The forward section begins empty and grows week → date → slip without changing prior decisions.

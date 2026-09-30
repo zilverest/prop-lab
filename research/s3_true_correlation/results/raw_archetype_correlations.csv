@@ -1,0 +1,8 @@
+qb_stat,catcher_stat,train_n,train_pearson,validation_n,validation_pearson
+passing_yards,receiving_yards,17286,0.255425,4283,0.26279
+passing_yards,receptions,17286,0.2047,4283,0.198938
+completions,receptions,17286,0.259927,4283,0.258235
+qb_attempts,receptions,17286,0.2118,4283,0.212395
+passing_tds,receiving_tds,17286,0.31125,4283,0.320502
+passing_tds,receptions,17286,0.090301,4283,0.08572
+passing_tds,receiving_yards,17286,0.133955,4283,0.133388
