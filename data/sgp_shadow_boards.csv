@@ -1,0 +1,2 @@
+ts,snapshot_ts,board_date,week_key,event_id,commence_time,home,away,hours_to_kick,roster_status,raw_legs,quality_legs,legacy_stack_pairs,stranger_pairs,verified_team_pairs,s2_pairs,tier_a_pairs,tier_b_pairs,frozen,note
+2026-09-30T21:04:12Z,2026-09-30T21:04:12Z,2026-09-30,2026-09-28,32663,2026-10-02T00:15:00Z,CLE Browns,PIT Steelers,27.18,refreshed,560,1,0,0,5448,0,20,28,,fresh
