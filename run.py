@@ -1,39 +1,60 @@
 """run.py — one scheduled tick. Called by GitHub Actions every 6 hours.
 
-  snapshot -> close -> report(dashboard)
-  Telegram: 'board captured' once per ISO week (first snapshot with events),
-            weekly summary once per week on Tuesday, and any failure immediately.
+  snapshot -> close -> legacy paper slips -> parlay forward research -> reports
+
+Telegram is now intentionally compact:
+  * game-day: Parlay Lab high-quality research lineups only (deduped across V1–V8)
+  * Tuesday: compact Parlay Lab model-tournament summary
+  * failures / empty-snapshot warnings remain immediate
+
+The older Top-8-straights / board-captured Telegram messages are retired; the full legacy
+ledger and H1–H4 diagnostics remain available on the dashboard pages.
 """
-import traceback, datetime as dt
+import traceback
+import datetime as dt
 from common import *
-import snapshot, close, report, slips
+import snapshot, close, report, slips, parlay_lab
+
 
 def main():
     api = Api()
-    now = utcnow(); week = now.strftime("%G-W%V")
+    now = utcnow(); local = now.astimezone(parlay_lab.NY); week = local.strftime("%G-W%V")
     try:
         snaps = []
         for sport in SPORTS:
             snaps.append(snapshot.run(api, sport=sport))
         cl = close.run(api)
+
+        # Preserve the original experiment exactly; these remain paper-only audit data.
         n_auto = dict(straight=slips.auto_log(), parlay=slips.auto_parlays(), sgp=slips.auto_sgps(api))
         slips.settle()
-        s = report.write_pages()                     # docs/index.html = Parlay Lab homepage; docs/ledger.html = public ledger; docs/internal.html = full lab
+
+        # New additive research layer. A board is frozen once and never rewritten after later prices arrive.
+        pl = parlay_lab.run_tick(now)
+
+        # Original pages survive as ledger.html + internal.html. Parlay Lab owns docs/index.html.
+        s = report.write_pages()
+
+        date_s = local.date().isoformat()
+        if pl.get("frozen_rows") and state_get("parlay_gameday_msg_date") != date_s:
+            msg = parlay_lab.daily_telegram(date_s)
+            if msg:
+                telegram(msg); state_set("parlay_gameday_msg_date", date_s)
+
+        # Tuesday morning/afternoon ET: compact forward model tournament, not the older long H1-H4 message.
+        if local.weekday() == 1 and 8 <= local.hour < 15 and state_get("parlay_summary_week") != week:
+            telegram(parlay_lab.weekly_telegram(now)); state_set("parlay_summary_week", week)
+
         events_seen = sum(x["events"] for x in snaps)
-        if events_seen and state_get("board_msg_week") != week:
-            telegram(report.text_summary(s, "board")); state_set("board_msg_week", week)
-        if now.weekday() == 1 and 12 <= now.hour < 19 and state_get("summary_week") != week:   # Tuesday, ~8am–3pm ET
-            telegram(report.text_summary(s, "weekly")); state_set("summary_week", week)
-        today = now.strftime("%Y-%m-%d")
-        if state_get("gameday_msg_date") != today:
-            gd = report.live_text(hours=12)
-            if gd: telegram(gd); state_set("gameday_msg_date", today)
-        if events_seen == 0 and now.weekday() in (3, 4, 5, 6):                                 # Thu–Sun with nothing captured
-            telegram(f"Eevee — warning: snapshot found 0 events on {now:%a %H:%M}Z. API remaining={api.remaining}")
-        print("tick ok", dict(events=events_seen, auto_slips=n_auto, api_calls=api.calls, remaining=api.remaining))
+        if events_seen == 0 and local.weekday() in (3, 4, 5, 6):
+            telegram(f"Eevee — warning: snapshot found 0 events on {local:%a %H:%M} ET. API remaining={api.remaining}")
+
+        print("tick ok", dict(events=events_seen, auto_slips=n_auto, parlay_lab=pl,
+                              api_calls=api.calls, remaining=api.remaining))
     except Exception as e:
-        telegram(f"Eevee — FAILED {now:%a %Y-%m-%d %H:%M}Z\n{type(e).__name__}: {e}"[:3500])
+        telegram(f"Eevee — FAILED {local:%a %Y-%m-%d %H:%M} ET\n{type(e).__name__}: {e}"[:3500])
         traceback.print_exc(); raise
+
 
 if __name__ == "__main__":
     main()

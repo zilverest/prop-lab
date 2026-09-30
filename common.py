@@ -4,7 +4,7 @@ Data lives in ./data as append-only CSVs (text = git-friendly, pandas-friendly).
 """
 import csv, json, os, sys, time, urllib.request, urllib.parse, urllib.error, datetime as dt
 
-LAB_VERSION = "2026-09-30-parlay-forward-v2-ui"                      # bump on every code drop; shown on both pages so you can confirm what's deployed
+LAB_VERSION = "2026-09-30-parlay-forward-v1"                      # bump on every code drop; shown on both pages so you can confirm what's deployed
 BASE = "https://api.prop-line.com/v1"
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 DOCS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")

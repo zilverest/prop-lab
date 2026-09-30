@@ -17,6 +17,20 @@ CAND_FIELDS = LINE_FIELDS + ["bettable", "gate_note"]
 SGP_FIELDS = ["ts", "sport", "event_id", "book", "legs", "sgp_price", "independent_price",
               "correlation_factor", "quoted", "note"]
 
+
+def _replace_current_lines(sport, rows):
+    """Persist the exact current board for causal downstream models. lines.csv is change-only and
+    cannot tell whether a previously seen line disappeared, so parlay_lab must not use it as live state."""
+    p = csv_path("current_lines")
+    keep = []
+    if os.path.exists(p):
+        with open(p, newline="") as f:
+            keep = [r for r in csv.DictReader(f) if r.get("sport") != sport]
+    with open(p, "w", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=LINE_FIELDS, extrasaction="ignore"); w.writeheader()
+        for r in keep + rows: w.writerow(r)
+
+
 def line_key(r):
     return "|".join(str(r[k]) for k in ("event_id", "market", "player", "point", "side", "book"))
 
@@ -83,7 +97,7 @@ def run(api=None, from_file=None, event_id=None, sport="football_nfl", do_sgp=Tr
     ts = iso()
     seen = state_get("line_sigs", {})          # key -> sig of last written row (change-only)
     n_lines = n_cand = n_sgp = n_events = 0
-    events = []
+    events = []; current_rows = []
     if from_file:
         ev = json.load(open(from_file)); ev["id"] = event_id or ev["id"]; events = [ev]
     else:
@@ -99,6 +113,7 @@ def run(api=None, from_file=None, event_id=None, sport="football_nfl", do_sgp=Tr
     for ev in events:
         n_events += 1
         rows = flatten_ev(ev, sport, ts)
+        current_rows.extend(rows)
         changed = []
         for r in rows:
             k = line_key(r); s = sig(r)
@@ -117,6 +132,8 @@ def run(api=None, from_file=None, event_id=None, sport="football_nfl", do_sgp=Tr
                                     commence_time=ev["commence_time"], first_seen=ts)],
                     ["event_id", "sport", "home", "away", "commence_time", "first_seen"]) \
             if str(ev["id"]) not in {e["event_id"] for e in read_rows("events")} else None
+    if events:
+        _replace_current_lines(sport, current_rows)
     state_set("line_sigs", seen)
     state_set("last_snapshot", ts)
     summary = dict(ts=ts, events=n_events, changed_lines=n_lines, candidates=n_cand, sgp_probes=n_sgp,
