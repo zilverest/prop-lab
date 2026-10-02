@@ -508,3 +508,20 @@ graded_ts,event_id,market,player,point,side,book,price,ev_pct_at_bet,fair_prob_a
 2026-09-29T03:00:31Z,32662,player_reception_longest,Cole Kmet,7.5,Under,underdog,-102,3.04,0.5203,True,,-102,7.5,0.47978,underdog,0.0,-4.9847,False,,,True
 2026-09-29T03:00:31Z,32662,player_receptions,DeVonta Smith,5.5,Over,kalshi,104,5.1,0.5152,True,,104,5.5,0.508664,pinnacle,0.0,3.7675,False,,,True
 2026-09-29T03:00:31Z,32662,player_receptions,Rome Odunze,2.5,Over,kalshi,133,3.98,0.4463,True,,138,2.5,0.422526,pinnacle,-2.1008,-1.5515,False,,,True
+2026-10-02T02:54:58Z,32663,player_pass_tds,Deshaun Watson,0.5,Under,draftkings,194,4.95,0.357,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-02T02:54:58Z,32663,player_pass_interceptions,Aaron Rodgers,0.5,Over,draftkings,103,3.55,0.5101,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-02T02:54:58Z,32663,player_pass_interceptions,Aaron Rodgers,0.5,Over,bovada,105,4.57,0.5101,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-02T02:54:58Z,32663,player_receptions,Harold Fannin Jr.,4.5,Over,kalshi,108,4.0,0.5,True,,108,4.5,0.489166,pinnacle,0.0,1.7465,False,,,True
+2026-10-02T02:54:58Z,32663,player_receptions,KC Concepcion,3.5,Under,draftkings,123,3.67,0.4649,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-02T02:54:58Z,32663,player_receptions,Raheim Sanders,2.5,Under,hardrock,-160,3.67,0.6379,True,,-240,2.5,0.643871,kalshi,14.7059,4.6291,True,,,True
+2026-10-02T02:54:58Z,32663,player_reception_longest,Jaylen Warren,11.5,Under,underdog,-102,3.04,0.5203,True,,-127,11.5,0.531775,underdog,10.7973,5.3124,True,,,True
+2026-10-02T02:54:58Z,32663,player_receptions,Jaylen Warren,3.5,Over,kalshi,122,4.03,0.4686,True,,-100,3.5,0.510834,pinnacle,11.0,13.4052,True,,,True
+2026-10-02T02:54:58Z,32663,player_anytime_td,Jaylen Warren,0.5,Under,underdog,-108,5.0,0.5452,True,,-108,0.5,0.527001,pinnacle,0.0,1.4965,False,,,True
+2026-10-02T02:54:58Z,32663,player_receptions,Roman Wilson,2.5,Over,kalshi,156,3.93,0.406,True,,156,2.5,0.396201,pinnacle,0.0,1.4275,False,,,True
+2026-10-02T02:54:58Z,32663,player_rush_yds,Aaron Rodgers,0.5,Under,fanduel,108,4.0,0.5,True,,110,0.5,0.454016,pinnacle,-0.9524,-5.5646,False,,,True
+2026-10-02T02:54:58Z,32663,player_field_goals_made,Chris Boswell,1.5,Under,hardrock,115,4.32,0.4852,True,,150,1.5,0.389784,pinnacle,-14.0,-16.1964,False,,,True
+2026-10-02T02:54:58Z,32663,player_receptions,DK Metcalf,3.5,Under,kalshi,113,3.15,0.4843,True,,122,3.5,0.452053,pinnacle,-4.0541,-3.7126,False,,,True
+2026-10-02T02:54:58Z,32663,player_receptions,Darnell Washington,1.5,Over,kalshi,-150,3.03,0.6182,True,,-138,1.5,0.580868,pinnacle,-3.3613,-3.1887,False,,,True
+2026-10-02T02:54:58Z,32663,player_receptions,Pat Freiermuth,3.5,Over,kalshi,150,3.8,0.4152,True,,150,3.5,0.415192,pinnacle,0.0,3.7979,False,,,True
+2026-10-02T02:54:58Z,32663,player_receptions,Jaylen Warren,4.5,Over,hardrock,240,4.29,0.3067,False,ambiguous_selection,,,,,,,,,,False
+2026-10-02T02:54:58Z,32663,player_receptions,Jerry Jeudy,1.5,Over,kalshi,127,3.69,0.4568,True,,127,1.5,0.456801,pinnacle,0.0,3.6938,False,,,True
