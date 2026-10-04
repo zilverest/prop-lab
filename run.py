@@ -6,7 +6,8 @@ Telegram is now intentionally compact:
   * game-day: Parlay Lab high-quality research lineups only (deduped across V1–V8)
   * Tuesday: compact cross-game Parlay Lab model-tournament summary
   * SGP shadow research is dashboard-only and never sent as a game-day action message
-  * failures / empty-snapshot warnings remain immediate
+  * fatal pipeline failures / empty-snapshot warnings remain immediate
+  * recoverable CLV outages are logged but do NOT abort the research tick
 
 The older Top-8-straights / board-captured Telegram messages are retired; the full legacy
 ledger and H1–H4 diagnostics remain available on the dashboard pages.
@@ -24,7 +25,15 @@ def main():
         snaps = []
         for sport in SPORTS:
             snaps.append(snapshot.run(api, sport=sport))
-        cl = close.run(api)
+
+        # CLV is evidence, not a dependency of the forward decision engine.
+        # A provider timeout must never cost us a causal board freeze.
+        try:
+            cl = close.run(api)
+        except Exception as e:
+            cl = {"warning": f"{type(e).__name__}: {e}"}
+            print("close warning (continuing tick):", cl["warning"])
+            traceback.print_exc()
 
         # Preserve the original experiment exactly; these remain paper-only audit data.
         n_auto = dict(straight=slips.auto_log(), parlay=slips.auto_parlays(), sgp=slips.auto_sgps(api))
@@ -35,6 +44,7 @@ def main():
 
         # Separate single-game SGP shadow family. This records paper research only; it never alters V1–V8.
         sgp_shadow_tick = sgp_shadow.run_tick(api, now)
+
         # Re-render once after SGP shadow state is written so the homepage shows both research families.
         parlay_lab.write_dashboard()
 
@@ -55,8 +65,8 @@ def main():
         if events_seen == 0 and local.weekday() in (3, 4, 5, 6):
             telegram(f"Eevee — warning: snapshot found 0 events on {local:%a %H:%M} ET. API remaining={api.remaining}")
 
-        print("tick ok", dict(events=events_seen, auto_slips=n_auto, parlay_lab=pl, sgp_shadow=sgp_shadow_tick,
-                              api_calls=api.calls, remaining=api.remaining))
+        print("tick ok", dict(events=events_seen, close=cl, auto_slips=n_auto, parlay_lab=pl,
+                              sgp_shadow=sgp_shadow_tick, api_calls=api.calls, remaining=api.remaining))
     except Exception as e:
         telegram(f"Eevee — FAILED {local:%a %Y-%m-%d %H:%M} ET\n{type(e).__name__}: {e}"[:3500])
         traceback.print_exc(); raise
