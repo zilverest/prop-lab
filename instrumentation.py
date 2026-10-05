@@ -19,6 +19,11 @@ META_FIELDS = [
     "market_last_update","book_updated_at","book_version","suspended_at",
 ]
 CONTEXT_FIELDS = ["ts","sport","event_id","commence_time","hours_to_kick","payload"]
+STEAM_FIELDS = [
+    "ts","sport","event_id","commence_time","hours_to_kick","market","name","team",
+    "open_point","latest_point","books_quoting","books_moved","consensus_direction",
+    "avg_prob_shift","consensus_point_shift","steam_score",
+]
 HEALTH_FIELDS = ["ts","phase","status","events","rows","api_calls","api_remaining","note"]
 
 
@@ -47,6 +52,28 @@ def _current_near_rows(now=None, max_hours=36.0):
         if 0 < h <= max_hours:
             out.append(r)
     return out
+
+
+SGP_CORE_MARKETS = {
+    "player_pass_yds","player_pass_completions","player_pass_attempts","player_pass_tds",
+    "player_reception_yds","player_receptions","player_reception_tds","player_receiving_tds",
+}
+
+
+def _research_markets(erows):
+    """Markets worth instrumenting, without dragging in every deep alternate."""
+    markets=set()
+    for r in erows:
+        try:
+            fp=float(r.get("fair_prob",""));ev=float(r.get("ev_pct",""));nb=int(float(r.get("n_books",0)))
+        except Exception:
+            fp=ev=None;nb=0
+        if r.get("market") in SGP_CORE_MARKETS or (
+            fp is not None and GATE["fair_min"]<=fp<=GATE["fair_max"]
+            and ev is not None and ev>=GATE["min_ev_pct"] and nb>=GATE["min_books"]
+        ):
+            markets.add(r.get("market",""))
+    return sorted(m for m in markets if m)
 
 
 def _flatten_odds(resp, ts):
@@ -84,18 +111,8 @@ def capture_live_meta(api, now=None, max_hours=36.0):
     by_event=defaultdict(list)
     for r in rows: by_event[r["event_id"]].append(r)
     all_meta=[]; failures=[]
-    sgp_core={"player_pass_yds","player_pass_completions","player_pass_attempts","player_pass_tds",
-              "player_reception_yds","player_receptions","player_reception_tds","player_receiving_tds"}
     for eid, erows in by_event.items():
-        markets=set()
-        for r in erows:
-            try:
-                fp=float(r.get("fair_prob",""));ev=float(r.get("ev_pct",""));nb=int(float(r.get("n_books",0)))
-            except Exception:
-                fp=ev=None;nb=0
-            if r.get("market") in sgp_core or (fp is not None and GATE["fair_min"]<=fp<=GATE["fair_max"] and ev is not None and ev>=GATE["min_ev_pct"] and nb>=GATE["min_books"]):
-                markets.add(r.get("market",""))
-        markets=sorted(m for m in markets if m)
+        markets=_research_markets(erows)
         sport=erows[0].get("sport") or SPORTS[0]
         for chunk in _chunks(markets):
             resp=api.get(f"/sports/{sport}/events/{eid}/odds",markets=",".join(chunk),includeBookIds="true")
@@ -145,6 +162,63 @@ def capture_context(api, now=None, max_hours=36.0):
     append_rows("context_snapshots",out,CONTEXT_FIELDS)
     summary=dict(ts=ts,events=len(events),changed=len(out),failures=failures)
     print("instrumentation context",json.dumps(summary,sort_keys=True)); return summary
+
+
+def capture_movement(api, now=None, max_hours=12.0, since="-6h"):
+    """Capture change-only multi-book steam summaries near kickoff.
+
+    This is descriptive shadow evidence only. No official filter uses steam_score.
+    """
+    now=now or utcnow(); ts=iso(now); near=_current_near_rows(now,max_hours)
+    by_event=defaultdict(list)
+    for r in near: by_event[r["event_id"]].append(r)
+
+    old=read_rows("steam_snapshots")
+    last={}
+    for r in old:
+        k=(r.get("event_id"),r.get("market"),r.get("name"),r.get("team"))
+        last[k]="|".join(str(r.get(x,"")) for x in (
+            "open_point","latest_point","books_quoting","books_moved","consensus_direction",
+            "avg_prob_shift","consensus_point_shift","steam_score"
+        ))
+
+    out=[]; failures=[]
+    for eid,erows in by_event.items():
+        markets=_research_markets(erows)
+        if not markets: continue
+        sport=erows[0].get("sport") or SPORTS[0]
+        commence=erows[0].get("commence_time","")
+        try:h=round((parse_iso(commence)-now).total_seconds()/3600,2)
+        except Exception:h=""
+        for chunk in _chunks(markets):
+            resp=api.get(f"/sports/{sport}/events/{eid}/movement",
+                         markets=",".join(chunk),since=since,includeBookIds="true")
+            if isinstance(resp,dict) and "_error" in resp:
+                failures.append(f"{eid}:{resp.get('_error')}"); continue
+            for x in (resp.get("steam",[]) if isinstance(resp,dict) else []):
+                r=dict(
+                    ts=ts,sport=sport,event_id=eid,commence_time=commence,hours_to_kick=h,
+                    market=x.get("market","") or "",name=x.get("name","") or "",
+                    team=x.get("team","") or "",open_point=_point(x.get("open_point")),
+                    latest_point=_point(x.get("latest_point")),
+                    books_quoting=x.get("books_quoting","") if x.get("books_quoting") is not None else "",
+                    books_moved=x.get("books_moved","") if x.get("books_moved") is not None else "",
+                    consensus_direction=x.get("consensus_direction","") or "",
+                    avg_prob_shift=x.get("avg_prob_shift","") if x.get("avg_prob_shift") is not None else "",
+                    consensus_point_shift=x.get("consensus_point_shift","") if x.get("consensus_point_shift") is not None else "",
+                    steam_score=x.get("steam_score","") if x.get("steam_score") is not None else "",
+                )
+                k=(eid,r["market"],r["name"],r["team"])
+                sig="|".join(str(r.get(z,"")) for z in (
+                    "open_point","latest_point","books_quoting","books_moved","consensus_direction",
+                    "avg_prob_shift","consensus_point_shift","steam_score"
+                ))
+                if sig==last.get(k): continue
+                out.append(r);last[k]=sig
+
+    append_rows("steam_snapshots",out,STEAM_FIELDS)
+    summary=dict(ts=ts,events=len(by_event),changed=len(out),failures=failures,since=since)
+    print("instrumentation steam",json.dumps(summary,sort_keys=True));return summary
 
 
 def health(phase,status="ok",events=0,rows=0,api=None,note=""):
