@@ -42,6 +42,8 @@ jobs:
           assert isinstance(movement,dict), movement
           if "_error" in movement:
               assert movement["_error"]==404, movement
+          elif movement.get("steam"):
+              print("STEAM_SAMPLE", movement["steam"][0])
 
           evmap={r["event_id"]:r for r in read_rows("events")}
           done=[e for e in evmap.values() if parse_iso(e["commence_time"])<now]
