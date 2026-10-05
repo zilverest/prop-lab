@@ -84,8 +84,18 @@ def capture_live_meta(api, now=None, max_hours=36.0):
     by_event=defaultdict(list)
     for r in rows: by_event[r["event_id"]].append(r)
     all_meta=[]; failures=[]
+    sgp_core={"player_pass_yds","player_pass_completions","player_pass_attempts","player_pass_tds",
+              "player_reception_yds","player_receptions","player_reception_tds","player_receiving_tds"}
     for eid, erows in by_event.items():
-        markets=sorted({r.get("market","") for r in erows if r.get("market")})
+        markets=set()
+        for r in erows:
+            try:
+                fp=float(r.get("fair_prob",""));ev=float(r.get("ev_pct",""));nb=int(float(r.get("n_books",0)))
+            except Exception:
+                fp=ev=None;nb=0
+            if r.get("market") in sgp_core or (fp is not None and GATE["fair_min"]<=fp<=GATE["fair_max"] and ev is not None and ev>=GATE["min_ev_pct"] and nb>=GATE["min_books"]):
+                markets.add(r.get("market",""))
+        markets=sorted(m for m in markets if m)
         sport=erows[0].get("sport") or SPORTS[0]
         for chunk in _chunks(markets):
             resp=api.get(f"/sports/{sport}/events/{eid}/odds",markets=",".join(chunk),includeBookIds="true")
