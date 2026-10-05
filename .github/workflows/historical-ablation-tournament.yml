@@ -1,0 +1,37 @@
+name: historical-ablation-tournament
+
+on:
+  push:
+    paths:
+      - "research/historical_ablation_tournament.py"
+      - ".github/workflows/historical-ablation-tournament.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  tournament:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile tournament
+        run: python3 -m py_compile research/historical_ablation_tournament.py
+
+      - name: Run complete historical tournament
+        run: python3 research/historical_ablation_tournament.py
+
+      - name: Commit tournament outputs
+        run: |
+          git config user.name "eevee-bot"
+          git config user.email "eevee-bot@users.noreply.github.com"
+          git add research/historical_ablation_tournament/
+          git diff --cached --quiet && echo "nothing new" && exit 0
+          git commit -m "Historical ablation selector tournament"
+          git pull --rebase origin main || true
+          git push
