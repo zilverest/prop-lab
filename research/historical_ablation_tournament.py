@@ -233,6 +233,11 @@ def evaluate_board(ds,cutoff,state,slate,leg_times,exact_candidates,grader,clv_i
         g=grade_pair(grader,p);c=clv_pair(p,clv_idx)
         out["OFF_"+model]=dict(family="official_mirror",rule=parlay_lab.MODEL_META[model]["detail"],selector="official",
                                 qualified_legs=z["qualified_legs"],valid_pairs=z["valid_pairs"],selection=serialize_pair(p),**g,**c)
+        if model=="V8":
+            p2=z["selections"][1] if len(z["selections"])>1 else None
+            g2=grade_pair(grader,p2);c2=clv_pair(p2,clv_idx)
+            out["OFF_V8_2"]=dict(family="official_mirror",rule="V8 second independent slip",selector="official",
+                                  qualified_legs=z["qualified_legs"],valid_pairs=z["valid_pairs"],selection=serialize_pair(p2),**g2,**c2)
     for name,cfg in VARIANTS.items():
         legs,pairs=build_variant(cfg,rows,candidate_rows,persist);sels=choose(pairs,cfg["selector"],ds+"|"+cutoff+"|"+name);p=sels[0] if sels else None
         g=grade_pair(grader,p);c=clv_pair(p,clv_idx)
@@ -302,7 +307,7 @@ def metrics(rows):
 
 def summarize_benchmarks(benchmarks):
     rows_by_date={ds:x["board"]["variants"] for ds,x in benchmarks.items()};summary={}
-    order=["OFF_"+x for x in OFFICIAL]+list(VARIANTS)
+    order=["OFF_"+x for x in OFFICIAL]+["OFF_V8_2"]+list(VARIANTS)
     for v in order:
         rr=[rows_by_date[ds].get(v,{}) for ds in rows_by_date];m=metrics(rr);same=both=0
         for ds,rows in rows_by_date.items():
@@ -353,7 +358,7 @@ def write_outputs(slates,snapshot_times,benchmarks,summary,overall,timing,evals)
                  slates=payload["slates"],benchmark_summary=summary,all_snapshot_summary=overall,timing_summary=timing)
     (OUT/"summary.json").write_text(json.dumps(compact,indent=2,sort_keys=True),encoding="utf-8")
 
-    order=["OFF_"+x for x in OFFICIAL]+list(VARIANTS)
+    order=["OFF_"+x for x in OFFICIAL]+["OFF_V8_2"]+list(VARIANTS)
     lines=["# Complete historical ablation + selector tournament","",
            "**RETROSPECTIVE DEVELOPMENT EVIDENCE ONLY.** Official V1–V8 forward history is unchanged.","",
            f"Usable Sunday slates: **{len(slates)}**. Historical boards evaluated: **{sum(len(x) for x in snapshot_times.values())}**.","",
