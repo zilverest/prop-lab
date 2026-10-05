@@ -349,6 +349,9 @@ def write_outputs(slates,snapshot_times,benchmarks,summary,overall,timing,evals)
                  benchmarks={ds:dict(reason=x["reason"],cutoff=x["board"]["cutoff"],timing_bucket=x["board"]["timing_bucket"],variants=x["board"]["variants"]) for ds,x in benchmarks.items()},
                  benchmark_summary=summary,all_snapshot_summary=overall,timing_summary=timing,all_snapshots=evals)
     (OUT/"results.json").write_text(json.dumps(payload,indent=2,sort_keys=True),encoding="utf-8")
+    compact=dict(generated_at=payload["generated_at"],status=payload["status"],unavailable_historical=UNAVAILABLE,
+                 slates=payload["slates"],benchmark_summary=summary,all_snapshot_summary=overall,timing_summary=timing)
+    (OUT/"summary.json").write_text(json.dumps(compact,indent=2,sort_keys=True),encoding="utf-8")
 
     order=["OFF_"+x for x in OFFICIAL]+list(VARIANTS)
     lines=["# Complete historical ablation + selector tournament","",
