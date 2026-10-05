@@ -87,6 +87,7 @@ def candidate_snapshot_index(slates):
     event_to_date={eid:ds for ds,s in slates.items() for eid in s["event_ids"]}
     times={ds:set() for ds in slates}
     leg_times={ds:defaultdict(set) for ds in slates}
+    exact_rows={ds:defaultdict(list) for ds in slates}
     for r in read_rows("candidates"):
         ds=event_to_date.get(r.get("event_id"))
         if not ds:continue
@@ -94,7 +95,7 @@ def candidate_snapshot_index(slates):
         try:t=parse_iso(ts)
         except Exception:continue
         if t>=slates[ds]["first_kick"]:continue
-        times[ds].add(ts);leg_times[ds][leg_key(r)].add(ts)
+        times[ds].add(ts);leg_times[ds][leg_key(r)].add(ts);exact_rows[ds][ts].append(r)
     for r in read_rows("sgp_shadow_boards"):
         ds=event_to_date.get(r.get("event_id"))
         if not ds:continue
@@ -103,7 +104,8 @@ def candidate_snapshot_index(slates):
         except Exception:continue
         if t<slates[ds]["first_kick"]:times[ds].add(ts)
     return ({ds:sorted(v) for ds,v in times.items()},
-            {ds:{k:sorted(v) for k,v in m.items()} for ds,m in leg_times.items()})
+            {ds:{k:sorted(v) for k,v in m.items()} for ds,m in leg_times.items()},
+            {ds:dict(v) for ds,v in exact_rows.items()})
 
 def persistence_fn(times_map,cutoff):
     return lambda k: bisect.bisect_right(times_map.get(k,[]),cutoff)
@@ -114,11 +116,13 @@ def confirm_ok(books,rule):
     if rule=="none":return True
     return False
 
-def build_variant(cfg,state_rows,persist):
+def build_variant(cfg,state_rows,candidate_rows,persist):
     all_by_leg=defaultdict(dict);gated=defaultdict(dict)
-    lo,hi=cfg.get("fair",(.30,.70))
     for r in state_rows:
-        k=leg_key(r);all_by_leg[k][r["book"]]=r
+        all_by_leg[leg_key(r)][r["book"]]=r
+    lo,hi=cfg.get("fair",(.30,.70))
+    for r in candidate_rows:
+        k=leg_key(r)
         fp=f(r.get("fair_prob"));ev=f(r.get("ev_pct"));nb=i(r.get("n_books"))
         if fp is None or ev is None:continue
         if not(lo<=fp<=hi) or ev<GATE["min_ev_pct"] or nb<cfg.get("min_books",5):continue
@@ -151,10 +155,11 @@ def choose(pairs,selector,seed):
         h=int(hashlib.sha256(seed.encode()).hexdigest()[:16],16);return [pairs[h%len(pairs)]]
     return [max(pairs,key=lambda p:(p["joint"],p["edge"]))]
 
-def official_universe(rows):
+def official_universe(state_rows,candidate_rows):
     all_by_leg=defaultdict(dict);gated=defaultdict(dict)
-    for r in rows:
+    for r in state_rows:
         all_by_leg[leg_key(r)][r["book"]]=r
+    for r in candidate_rows:
         if parlay_lab._passes_gate(r) and r.get("fair_source")=="pinnacle":
             gated[leg_key(r)][r["book"]]=r
     return gated,all_by_leg
@@ -219,32 +224,33 @@ def timing_bucket(cutoff,first_kick):
     if h>1:return "T-2_to_1h"
     return "T-1h"
 
-def evaluate_board(ds,cutoff,state,slate,leg_times,grader,clv_idx):
+def evaluate_board(ds,cutoff,state,slate,leg_times,exact_candidates,grader,clv_idx):
     rows=[r for r in state.values() if r.get("event_id") in slate["event_ids"]]
-    persist=persistence_fn(leg_times,cutoff);gated,all_by_leg=official_universe(rows);out={}
+    candidate_rows=exact_candidates.get(cutoff,[])
+    persist=persistence_fn(leg_times,cutoff);gated,all_by_leg=official_universe(rows,candidate_rows);out={}
     for model in OFFICIAL:
         z=parlay_lab.evaluate_model(model,gated,all_by_leg);p=z["selections"][0] if z["selections"] else None
         g=grade_pair(grader,p);c=clv_pair(p,clv_idx)
         out["OFF_"+model]=dict(family="official_mirror",rule=parlay_lab.MODEL_META[model]["detail"],selector="official",
                                 qualified_legs=z["qualified_legs"],valid_pairs=z["valid_pairs"],selection=serialize_pair(p),**g,**c)
     for name,cfg in VARIANTS.items():
-        legs,pairs=build_variant(cfg,rows,persist);sels=choose(pairs,cfg["selector"],ds+"|"+cutoff+"|"+name);p=sels[0] if sels else None
+        legs,pairs=build_variant(cfg,rows,candidate_rows,persist);sels=choose(pairs,cfg["selector"],ds+"|"+cutoff+"|"+name);p=sels[0] if sels else None
         g=grade_pair(grader,p);c=clv_pair(p,clv_idx)
         out[name]=dict(family=cfg["family"],rule=cfg["rule"],selector=cfg["selector"],qualified_legs=len(legs),valid_pairs=len(pairs),
                        selection=serialize_pair(p),**g,**c)
     return dict(date=ds,cutoff=cutoff,timing_bucket=timing_bucket(cutoff,slate["first_kick"]),variants=out)
 
-def reconstruct(slates,snapshot_times,leg_times,grader,clv_idx):
+def reconstruct(slates,snapshot_times,leg_times,exact_candidates,grader,clv_idx):
     event_to_date={eid:ds for ds,s in slates.items() for eid in s["event_ids"]}
     states={ds:{} for ds in slates};queues={ds:list(times) for ds,times in snapshot_times.items()};pos={ds:0 for ds in slates};evaluated={ds:[] for ds in slates}
     def eval_before(ts):
         for ds in slates:
             while pos[ds]<len(queues[ds]) and queues[ds][pos[ds]]<ts:
-                cutoff=queues[ds][pos[ds]];evaluated[ds].append(evaluate_board(ds,cutoff,states[ds],slates[ds],leg_times[ds],grader,clv_idx));pos[ds]+=1
+                cutoff=queues[ds][pos[ds]];evaluated[ds].append(evaluate_board(ds,cutoff,states[ds],slates[ds],leg_times[ds],exact_candidates[ds],grader,clv_idx));pos[ds]+=1
     def eval_equal(ts):
         for ds in slates:
             while pos[ds]<len(queues[ds]) and queues[ds][pos[ds]]==ts:
-                cutoff=queues[ds][pos[ds]];evaluated[ds].append(evaluate_board(ds,cutoff,states[ds],slates[ds],leg_times[ds],grader,clv_idx));pos[ds]+=1
+                cutoff=queues[ds][pos[ds]];evaluated[ds].append(evaluate_board(ds,cutoff,states[ds],slates[ds],leg_times[ds],exact_candidates[ds],grader,clv_idx));pos[ds]+=1
     current_ts=None;group=[]
     with open(csv_path("lines"),newline="") as fobj:
         for r in csv.DictReader(fobj):
@@ -265,7 +271,7 @@ def reconstruct(slates,snapshot_times,leg_times,grader,clv_idx):
             eval_equal(current_ts)
     for ds in slates:
         while pos[ds]<len(queues[ds]):
-            cutoff=queues[ds][pos[ds]];evaluated[ds].append(evaluate_board(ds,cutoff,states[ds],slates[ds],leg_times[ds],grader,clv_idx));pos[ds]+=1
+            cutoff=queues[ds][pos[ds]];evaluated[ds].append(evaluate_board(ds,cutoff,states[ds],slates[ds],leg_times[ds],exact_candidates[ds],grader,clv_idx));pos[ds]+=1
     return evaluated
 
 def pick_benchmarks(evals):
@@ -376,9 +382,9 @@ def write_outputs(slates,snapshot_times,benchmarks,summary,overall,timing,evals)
     (OUT/"REPORT.md").write_text("\n".join(lines)+"\n",encoding="utf-8")
 
 def main():
-    slates=sunday_slates();snapshot_times,leg_times=candidate_snapshot_index(slates)
+    slates=sunday_slates();snapshot_times,leg_times,exact_candidates=candidate_snapshot_index(slates)
     grader=slips.Grader(read_rows("results"));idx=clv_index()
-    evals=reconstruct(slates,snapshot_times,leg_times,grader,idx);benchmarks=pick_benchmarks(evals)
+    evals=reconstruct(slates,snapshot_times,leg_times,exact_candidates,grader,idx);benchmarks=pick_benchmarks(evals)
     summary=summarize_benchmarks(benchmarks);overall,timing=all_snapshot_summary(evals)
     write_outputs(slates,snapshot_times,benchmarks,summary,overall,timing,evals)
     print(json.dumps(dict(slates=len(slates),snapshots=sum(len(x) for x in snapshot_times.values()),
