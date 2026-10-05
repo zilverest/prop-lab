@@ -23,6 +23,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Compact retained research data
+        run: python3 maintenance.py
+
       - name: Run tick
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
