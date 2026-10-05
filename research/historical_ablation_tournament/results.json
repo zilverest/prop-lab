@@ -192,6 +192,18 @@
       "unique": 21,
       "wins": 10
     },
+    "OFF_V8_2": {
+      "avg_ev_vs_close": 2.854516666666667,
+      "brier": 0.3140365696937489,
+      "expected_wins": 1.395404,
+      "losses": 3,
+      "plays": 6,
+      "pnl": 38.8,
+      "roi": 129.33333333333331,
+      "settled": 6,
+      "unique": 6,
+      "wins": 3
+    },
     "S_MAXEDGE": {
       "avg_ev_vs_close": 1.4257272727272727,
       "brier": 0.28814589610959346,
@@ -1042,6 +1054,20 @@
               ],
               "price": 275
             },
+            "selector": "official",
+            "valid_pairs": 3
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 3,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
             "selector": "official",
             "valid_pairs": 3
           },
@@ -2128,6 +2154,20 @@
             "selector": "official",
             "valid_pairs": 5
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 4,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 5
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": 2.4402,
             "beat_close_pct": 0.0,
@@ -3211,6 +3251,20 @@
             "selector": "official",
             "valid_pairs": 1
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 1
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": 9.1349,
             "beat_close_pct": 100.0,
@@ -4291,6 +4345,20 @@
               ],
               "price": 275
             },
+            "selector": "official",
+            "valid_pairs": 1
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
             "selector": "official",
             "valid_pairs": 1
           },
@@ -5422,6 +5490,20 @@
             "selector": "official",
             "valid_pairs": 1
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 1
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": 9.1349,
             "beat_close_pct": 100.0,
@@ -6007,6 +6089,20 @@
               ],
               "price": 255
             },
+            "selector": "official",
+            "valid_pairs": 2
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 3,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
             "selector": "official",
             "valid_pairs": 2
           },
@@ -6913,6 +7009,20 @@
             "selector": "official",
             "valid_pairs": 3
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 3,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 3
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": 7.3386,
             "beat_close_pct": 100.0,
@@ -7362,6 +7472,20 @@
             "qualified_legs": 1,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 1,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -8355,6 +8479,65 @@
                 ]
               ],
               "price": 278
+            },
+            "selector": "official",
+            "valid_pairs": 9
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": -3.9301,
+            "beat_close_pct": 100.0,
+            "brier": 0.045827831609409585,
+            "clv_n": 1,
+            "family": "official_mirror",
+            "leg_results": [
+              "won",
+              "lost"
+            ],
+            "pnl": -5.0,
+            "qualified_legs": 5,
+            "resolution": "lost",
+            "rule": "V8 second independent slip",
+            "selection": {
+              "book": "bovada",
+              "break_even_prob": 0.197628,
+              "fair_joint_prob": 0.214074,
+              "key": "32633|player_rush_yds|Cooper Rush|0.5|Over||32638|player_receptions|Roman Wilson|2.5|Under",
+              "legs": [
+                {
+                  "event_id": "32633",
+                  "fair_prob": 0.4548,
+                  "market": "player_rush_yds",
+                  "persistence": "",
+                  "player": "Cooper Rush",
+                  "point": "0.5",
+                  "side": "Over"
+                },
+                {
+                  "event_id": "32638",
+                  "fair_prob": 0.4707,
+                  "market": "player_receptions",
+                  "persistence": "",
+                  "player": "Roman Wilson",
+                  "point": "2.5",
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 8.322,
+              "parts": [
+                [
+                  "Cooper Rush",
+                  "player_rush_yds",
+                  "0.5",
+                  "Over"
+                ],
+                [
+                  "Roman Wilson",
+                  "player_receptions",
+                  "2.5",
+                  "Under"
+                ]
+              ],
+              "price": 406
             },
             "selector": "official",
             "valid_pairs": 9
@@ -9487,6 +9670,65 @@
             "selector": "official",
             "valid_pairs": 15
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": 1.3115,
+            "beat_close_pct": 100.0,
+            "brier": 0.5420710274473729,
+            "clv_n": 2,
+            "family": "official_mirror",
+            "leg_results": [
+              "won",
+              "won"
+            ],
+            "pnl": 16.0,
+            "qualified_legs": 6,
+            "resolution": "won",
+            "rule": "V8 second independent slip",
+            "selection": {
+              "book": "bovada",
+              "break_even_prob": 0.238095,
+              "fair_joint_prob": 0.263745,
+              "key": "32639|player_pass_interceptions|Tyler Shough|0.5|Under||32643|player_receptions|Malik Washington|3.5|Over",
+              "legs": [
+                {
+                  "event_id": "32639",
+                  "fair_prob": 0.5199,
+                  "market": "player_pass_interceptions",
+                  "persistence": "",
+                  "player": "Tyler Shough",
+                  "point": "0.5",
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32643",
+                  "fair_prob": 0.5073,
+                  "market": "player_receptions",
+                  "persistence": "",
+                  "player": "Malik Washington",
+                  "point": "3.5",
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 10.773,
+              "parts": [
+                [
+                  "Malik Washington",
+                  "player_receptions",
+                  "3.5",
+                  "Over"
+                ],
+                [
+                  "Tyler Shough",
+                  "player_pass_interceptions",
+                  "0.5",
+                  "Under"
+                ]
+              ],
+              "price": 320
+            },
+            "selector": "official",
+            "valid_pairs": 15
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": 1.3115,
             "beat_close_pct": 100.0,
@@ -10615,6 +10857,65 @@
             "selector": "official",
             "valid_pairs": 9
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": 2.1979,
+            "beat_close_pct": 100.0,
+            "brier": 0.6072642265665599,
+            "clv_n": 1,
+            "family": "official_mirror",
+            "leg_results": [
+              "won",
+              "won"
+            ],
+            "pnl": 19.15,
+            "qualified_legs": 5,
+            "resolution": "won",
+            "rule": "V8 second independent slip",
+            "selection": {
+              "book": "bovada",
+              "break_even_prob": 0.207039,
+              "fair_joint_prob": 0.220728,
+              "key": "32633|player_rush_yds|Cooper Rush|0.5|Over||32643|player_receptions|Malik Washington|3.5|Over",
+              "legs": [
+                {
+                  "event_id": "32633",
+                  "fair_prob": 0.449,
+                  "market": "player_rush_yds",
+                  "persistence": "",
+                  "player": "Cooper Rush",
+                  "point": "0.5",
+                  "side": "Over"
+                },
+                {
+                  "event_id": "32643",
+                  "fair_prob": 0.4916,
+                  "market": "player_receptions",
+                  "persistence": "",
+                  "player": "Malik Washington",
+                  "point": "3.5",
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 6.612,
+              "parts": [
+                [
+                  "Cooper Rush",
+                  "player_rush_yds",
+                  "0.5",
+                  "Over"
+                ],
+                [
+                  "Malik Washington",
+                  "player_receptions",
+                  "3.5",
+                  "Over"
+                ]
+              ],
+              "price": 383
+            },
+            "selector": "official",
+            "valid_pairs": 9
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": 5.5423,
             "beat_close_pct": 100.0,
@@ -11293,6 +11594,20 @@
             "selector": "official",
             "valid_pairs": 1
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 1
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": null,
             "beat_close_pct": null,
@@ -11564,6 +11879,20 @@
             "qualified_legs": 0,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 0,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -11886,6 +12215,20 @@
             "selector": "official",
             "valid_pairs": 0
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 0,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": null,
             "beat_close_pct": null,
@@ -12155,6 +12498,20 @@
             "qualified_legs": 0,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 0,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -12473,6 +12830,20 @@
             "qualified_legs": 1,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 1,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -12836,6 +13207,20 @@
             "qualified_legs": 1,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 1,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -13695,6 +14080,20 @@
               ],
               "price": 339
             },
+            "selector": "official",
+            "valid_pairs": 3
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 3,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
             "selector": "official",
             "valid_pairs": 3
           },
@@ -14691,6 +15090,20 @@
             "selector": "official",
             "valid_pairs": 1
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 1
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": 3.1709,
             "beat_close_pct": 100.0,
@@ -15324,6 +15737,20 @@
             "selector": "official",
             "valid_pairs": 1
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 1
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": null,
             "beat_close_pct": null,
@@ -15819,6 +16246,20 @@
               ],
               "price": 393
             },
+            "selector": "official",
+            "valid_pairs": 1
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
             "selector": "official",
             "valid_pairs": 1
           },
@@ -16362,6 +16803,20 @@
               ],
               "price": 330
             },
+            "selector": "official",
+            "valid_pairs": 5
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 4,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
             "selector": "official",
             "valid_pairs": 5
           },
@@ -17313,6 +17768,65 @@
             "selector": "official",
             "valid_pairs": 9
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": 0.6766500000000001,
+            "beat_close_pct": 50.0,
+            "brier": 0.056532566139008394,
+            "clv_n": 2,
+            "family": "official_mirror",
+            "leg_results": [
+              "lost",
+              "won"
+            ],
+            "pnl": -5.0,
+            "qualified_legs": 5,
+            "resolution": "lost",
+            "rule": "V8 second independent slip",
+            "selection": {
+              "book": "draftkings",
+              "break_even_prob": 0.21575,
+              "fair_joint_prob": 0.237766,
+              "key": "23215|player_receptions|Javonte Williams|2.5|Under||32649|player_receptions|Ja'Marr Chase|6.5|Under",
+              "legs": [
+                {
+                  "event_id": "32649",
+                  "fair_prob": 0.5061,
+                  "market": "player_receptions",
+                  "persistence": "",
+                  "player": "Ja'Marr Chase",
+                  "point": "6.5",
+                  "side": "Under"
+                },
+                {
+                  "event_id": "23215",
+                  "fair_prob": 0.4698,
+                  "market": "player_receptions",
+                  "persistence": "",
+                  "player": "Javonte Williams",
+                  "point": "2.5",
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 10.204,
+              "parts": [
+                [
+                  "Ja'Marr Chase",
+                  "player_receptions",
+                  "6.5",
+                  "Under"
+                ],
+                [
+                  "Javonte Williams",
+                  "player_receptions",
+                  "2.5",
+                  "Under"
+                ]
+              ],
+              "price": 364
+            },
+            "selector": "official",
+            "valid_pairs": 9
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": 6.2406500000000005,
             "beat_close_pct": 100.0,
@@ -18258,6 +18772,20 @@
               ],
               "price": 373
             },
+            "selector": "official",
+            "valid_pairs": 3
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 3,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
             "selector": "official",
             "valid_pairs": 3
           },
@@ -19254,6 +19782,20 @@
             "selector": "official",
             "valid_pairs": 1
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 1
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": 3.4041,
             "beat_close_pct": 100.0,
@@ -19752,6 +20294,20 @@
             "selector": "official",
             "valid_pairs": 0
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 0,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": null,
             "beat_close_pct": null,
@@ -20021,6 +20577,20 @@
             "qualified_legs": 0,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 0,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -20835,6 +21405,20 @@
               ],
               "price": 373
             },
+            "selector": "official",
+            "valid_pairs": 2
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 3,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
             "selector": "official",
             "valid_pairs": 2
           },
@@ -21831,6 +22415,20 @@
             "selector": "official",
             "valid_pairs": 1
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 1
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": -7.0459,
             "beat_close_pct": 50.0,
@@ -22241,6 +22839,20 @@
             "selector": "official",
             "valid_pairs": 0
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 0,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": null,
             "beat_close_pct": null,
@@ -22510,6 +23122,20 @@
             "qualified_legs": 1,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 1,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -22787,6 +23413,20 @@
             "selector": "official",
             "valid_pairs": 0
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 1,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": null,
             "beat_close_pct": null,
@@ -23056,6 +23696,20 @@
             "qualified_legs": 1,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 1,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -23333,6 +23987,20 @@
             "selector": "official",
             "valid_pairs": 0
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 1,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": null,
             "beat_close_pct": null,
@@ -23602,6 +24270,20 @@
             "qualified_legs": 1,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 1,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -23879,6 +24561,20 @@
             "selector": "official",
             "valid_pairs": 0
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 0,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": null,
             "beat_close_pct": null,
@@ -24148,6 +24844,20 @@
             "qualified_legs": 0,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 0,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -24425,6 +25135,20 @@
             "selector": "official",
             "valid_pairs": 0
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 0,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": null,
             "beat_close_pct": null,
@@ -24698,6 +25422,20 @@
             "selector": "official",
             "valid_pairs": 0
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 0,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": null,
             "beat_close_pct": null,
@@ -24967,6 +25705,20 @@
             "qualified_legs": 0,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 0,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -25424,6 +26176,20 @@
             "selector": "official",
             "valid_pairs": 1
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 1
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": null,
             "beat_close_pct": null,
@@ -25783,6 +26549,20 @@
             "qualified_legs": 0,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 0,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -26645,6 +27425,20 @@
             "selector": "official",
             "valid_pairs": 2
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 3,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 2
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": -6.6667,
             "beat_close_pct": 100.0,
@@ -27143,6 +27937,20 @@
             "selector": "official",
             "valid_pairs": 0
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 1,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": null,
             "beat_close_pct": null,
@@ -27547,6 +28355,20 @@
             "qualified_legs": 1,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 1,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -28409,6 +29231,20 @@
             "selector": "official",
             "valid_pairs": 1
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 1
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": -2.61475,
             "beat_close_pct": 100.0,
@@ -28903,6 +29739,20 @@
             "qualified_legs": 2,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -29762,6 +30612,20 @@
               ],
               "price": 320
             },
+            "selector": "official",
+            "valid_pairs": 1
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
             "selector": "official",
             "valid_pairs": 1
           },
@@ -30800,6 +31664,20 @@
               ],
               "price": 320
             },
+            "selector": "official",
+            "valid_pairs": 1
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 2,
+            "resolution": "",
+            "rule": "V8 second independent slip",
+            "selection": null,
             "selector": "official",
             "valid_pairs": 1
           },
@@ -31886,6 +32764,65 @@
             "selector": "official",
             "valid_pairs": 6
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": 18.1868,
+            "beat_close_pct": 100.0,
+            "brier": 0.5829666843585025,
+            "clv_n": 1,
+            "family": "official_mirror",
+            "leg_results": [
+              "won",
+              "won"
+            ],
+            "pnl": 18.65,
+            "qualified_legs": 4,
+            "resolution": "won",
+            "rule": "V8 second independent slip",
+            "selection": {
+              "book": "bovada",
+              "break_even_prob": 0.211416,
+              "fair_joint_prob": 0.236477,
+              "key": "24886|player_receptions|Tyler Warren|5.5|Under||32671|player_receptions|Davante Adams|4.5|Under",
+              "legs": [
+                {
+                  "event_id": "24886",
+                  "fair_prob": 0.4895,
+                  "market": "player_receptions",
+                  "persistence": "",
+                  "player": "Tyler Warren",
+                  "point": "5.5",
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32671",
+                  "fair_prob": 0.4831,
+                  "market": "player_receptions",
+                  "persistence": "",
+                  "player": "Davante Adams",
+                  "point": "4.5",
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 11.854,
+              "parts": [
+                [
+                  "Davante Adams",
+                  "player_receptions",
+                  "4.5",
+                  "Under"
+                ],
+                [
+                  "Tyler Warren",
+                  "player_receptions",
+                  "5.5",
+                  "Under"
+                ]
+              ],
+              "price": 373
+            },
+            "selector": "official",
+            "valid_pairs": 6
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": -1.6624,
             "beat_close_pct": 100.0,
@@ -32290,6 +33227,20 @@
             "qualified_legs": 0,
             "resolution": "",
             "rule": "V3 pool \u00b7 up to 2 independent",
+            "selection": null,
+            "selector": "official",
+            "valid_pairs": 0
+          },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": null,
+            "beat_close_pct": null,
+            "brier": null,
+            "clv_n": 0,
+            "family": "official_mirror",
+            "pnl": 0.0,
+            "qualified_legs": 0,
+            "resolution": "",
+            "rule": "V8 second independent slip",
             "selection": null,
             "selector": "official",
             "valid_pairs": 0
@@ -33287,6 +34238,65 @@
             "selector": "official",
             "valid_pairs": 9
           },
+          "OFF_V8_2": {
+            "avg_ev_vs_close": -1.31565,
+            "beat_close_pct": 100.0,
+            "brier": 0.049557082041640006,
+            "clv_n": 2,
+            "family": "official_mirror",
+            "leg_results": [
+              "won",
+              "lost"
+            ],
+            "pnl": -5.0,
+            "qualified_legs": 5,
+            "resolution": "lost",
+            "rule": "V8 second independent slip",
+            "selection": {
+              "book": "bovada",
+              "break_even_prob": 0.207039,
+              "fair_joint_prob": 0.222614,
+              "key": "32669|player_pass_interceptions|Josh Allen|0.5|Over||32672|player_receptions|Jauan Jennings|2.5|Over",
+              "legs": [
+                {
+                  "event_id": "32669",
+                  "fair_prob": 0.449,
+                  "market": "player_pass_interceptions",
+                  "persistence": "",
+                  "player": "Josh Allen",
+                  "point": "0.5",
+                  "side": "Over"
+                },
+                {
+                  "event_id": "32672",
+                  "fair_prob": 0.4958,
+                  "market": "player_receptions",
+                  "persistence": "",
+                  "player": "Jauan Jennings",
+                  "point": "2.5",
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 7.523,
+              "parts": [
+                [
+                  "Jauan Jennings",
+                  "player_receptions",
+                  "2.5",
+                  "Over"
+                ],
+                [
+                  "Josh Allen",
+                  "player_pass_interceptions",
+                  "0.5",
+                  "Over"
+                ]
+              ],
+              "price": 383
+            },
+            "selector": "official",
+            "valid_pairs": 9
+          },
           "S_MAXEDGE": {
             "avg_ev_vs_close": -0.3437,
             "beat_close_pct": 100.0,
@@ -33708,6 +34718,21 @@
       "settled": 3,
       "unique": 3,
       "wins": 2
+    },
+    "OFF_V8_2": {
+      "avg_ev_vs_close": 0.4411250000000001,
+      "both_play": 2,
+      "brier": 0.32841065430409994,
+      "expected_wins": 0.443342,
+      "losses": 1,
+      "plays": 2,
+      "pnl": 14.15,
+      "roi": 141.49999999999997,
+      "same": 0,
+      "same_pct": 0.0,
+      "settled": 2,
+      "unique": 2,
+      "wins": 1
     },
     "S_MAXEDGE": {
       "avg_ev_vs_close": 2.4018,
@@ -34705,6 +35730,65 @@
           "selector": "official",
           "valid_pairs": 9
         },
+        "OFF_V8_2": {
+          "avg_ev_vs_close": 2.1979,
+          "beat_close_pct": 100.0,
+          "brier": 0.6072642265665599,
+          "clv_n": 1,
+          "family": "official_mirror",
+          "leg_results": [
+            "won",
+            "won"
+          ],
+          "pnl": 19.15,
+          "qualified_legs": 5,
+          "resolution": "won",
+          "rule": "V8 second independent slip",
+          "selection": {
+            "book": "bovada",
+            "break_even_prob": 0.207039,
+            "fair_joint_prob": 0.220728,
+            "key": "32633|player_rush_yds|Cooper Rush|0.5|Over||32643|player_receptions|Malik Washington|3.5|Over",
+            "legs": [
+              {
+                "event_id": "32633",
+                "fair_prob": 0.449,
+                "market": "player_rush_yds",
+                "persistence": "",
+                "player": "Cooper Rush",
+                "point": "0.5",
+                "side": "Over"
+              },
+              {
+                "event_id": "32643",
+                "fair_prob": 0.4916,
+                "market": "player_receptions",
+                "persistence": "",
+                "player": "Malik Washington",
+                "point": "3.5",
+                "side": "Over"
+              }
+            ],
+            "model_edge_pct": 6.612,
+            "parts": [
+              [
+                "Cooper Rush",
+                "player_rush_yds",
+                "0.5",
+                "Over"
+              ],
+              [
+                "Malik Washington",
+                "player_receptions",
+                "3.5",
+                "Over"
+              ]
+            ],
+            "price": 383
+          },
+          "selector": "official",
+          "valid_pairs": 9
+        },
         "S_MAXEDGE": {
           "avg_ev_vs_close": 5.5423,
           "beat_close_pct": 100.0,
@@ -35650,6 +36734,20 @@
             ],
             "price": 373
           },
+          "selector": "official",
+          "valid_pairs": 2
+        },
+        "OFF_V8_2": {
+          "avg_ev_vs_close": null,
+          "beat_close_pct": null,
+          "brier": null,
+          "clv_n": 0,
+          "family": "official_mirror",
+          "pnl": 0.0,
+          "qualified_legs": 3,
+          "resolution": "",
+          "rule": "V8 second independent slip",
+          "selection": null,
           "selector": "official",
           "valid_pairs": 2
         },
@@ -36781,6 +37879,65 @@
           "selector": "official",
           "valid_pairs": 9
         },
+        "OFF_V8_2": {
+          "avg_ev_vs_close": -1.31565,
+          "beat_close_pct": 100.0,
+          "brier": 0.049557082041640006,
+          "clv_n": 2,
+          "family": "official_mirror",
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "pnl": -5.0,
+          "qualified_legs": 5,
+          "resolution": "lost",
+          "rule": "V8 second independent slip",
+          "selection": {
+            "book": "bovada",
+            "break_even_prob": 0.207039,
+            "fair_joint_prob": 0.222614,
+            "key": "32669|player_pass_interceptions|Josh Allen|0.5|Over||32672|player_receptions|Jauan Jennings|2.5|Over",
+            "legs": [
+              {
+                "event_id": "32669",
+                "fair_prob": 0.449,
+                "market": "player_pass_interceptions",
+                "persistence": "",
+                "player": "Josh Allen",
+                "point": "0.5",
+                "side": "Over"
+              },
+              {
+                "event_id": "32672",
+                "fair_prob": 0.4958,
+                "market": "player_receptions",
+                "persistence": "",
+                "player": "Jauan Jennings",
+                "point": "2.5",
+                "side": "Over"
+              }
+            ],
+            "model_edge_pct": 7.523,
+            "parts": [
+              [
+                "Jauan Jennings",
+                "player_receptions",
+                "2.5",
+                "Over"
+              ],
+              [
+                "Josh Allen",
+                "player_pass_interceptions",
+                "0.5",
+                "Over"
+              ]
+            ],
+            "price": 383
+          },
+          "selector": "official",
+          "valid_pairs": 9
+        },
         "S_MAXEDGE": {
           "avg_ev_vs_close": -0.3437,
           "beat_close_pct": 100.0,
@@ -36961,7 +38118,7 @@
       }
     }
   },
-  "generated_at": "2026-10-05T05:08:20Z",
+  "generated_at": "2026-10-05T05:11:00Z",
   "slates": {
     "2026-09-20": {
       "event_ids": [
@@ -38208,6 +39365,80 @@
         "settled": 2,
         "unique": 2,
         "wins": 2
+      }
+    },
+    "OFF_V8_2": {
+      "T-12_to_8h": {
+        "avg_ev_vs_close": -1.31565,
+        "brier": 0.049557082041640006,
+        "expected_wins": 0.222614,
+        "losses": 1,
+        "plays": 1,
+        "pnl": -5.0,
+        "roi": -100.0,
+        "settled": 1,
+        "unique": 1,
+        "wins": 0
+      },
+      "T-24_to_12h": {
+        "avg_ev_vs_close": 5.1894,
+        "brier": 0.39028851447176166,
+        "expected_wins": 0.714296,
+        "losses": 1,
+        "plays": 3,
+        "pnl": 29.65,
+        "roi": 197.66666666666666,
+        "settled": 3,
+        "unique": 3,
+        "wins": 2
+      },
+      "T-24h+": {
+        "avg_ev_vs_close": 0.6766500000000001,
+        "brier": 0.056532566139008394,
+        "expected_wins": 0.237766,
+        "losses": 1,
+        "plays": 1,
+        "pnl": -5.0,
+        "roi": -100.0,
+        "settled": 1,
+        "unique": 1,
+        "wins": 0
+      },
+      "T-2_to_1h": {
+        "avg_ev_vs_close": null,
+        "brier": null,
+        "expected_wins": 0,
+        "losses": 0,
+        "plays": 0,
+        "pnl": 0,
+        "roi": null,
+        "settled": 0,
+        "unique": 0,
+        "wins": 0
+      },
+      "T-4_to_2h": {
+        "avg_ev_vs_close": null,
+        "brier": null,
+        "expected_wins": 0,
+        "losses": 0,
+        "plays": 0,
+        "pnl": 0,
+        "roi": null,
+        "settled": 0,
+        "unique": 0,
+        "wins": 0
+      },
+      "T-8_to_4h": {
+        "avg_ev_vs_close": 2.1979,
+        "brier": 0.6072642265665599,
+        "expected_wins": 0.220728,
+        "losses": 0,
+        "plays": 1,
+        "pnl": 19.15,
+        "roi": 382.99999999999994,
+        "settled": 1,
+        "unique": 1,
+        "wins": 1
       }
     },
     "S_MAXEDGE": {

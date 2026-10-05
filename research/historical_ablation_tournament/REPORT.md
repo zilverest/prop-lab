@@ -25,6 +25,7 @@ Future-only tests excluded rather than fabricated: A_FRESH300, A_MAINLINE, steam
 | OFF_V5 | 3 | 1-2 | USD +5.44 | 36.3% | 0.89 | 0.241 | 2.46% | 0/3 (0%) |
 | OFF_V6 | 2 | 1-1 | USD +9.64 | 96.4% | 0.54 | 0.292 | 3.50% | 0/2 (0%) |
 | OFF_V8 | 3 | 2-1 | USD +28.29 | 188.6% | 0.79 | 0.396 | 3.77% | 3/3 (100%) |
+| OFF_V8_2 | 2 | 1-1 | USD +14.15 | 141.5% | 0.44 | 0.328 | 0.44% | 0/2 (0%) |
 | A_MIN4 | 3 | 2-1 | USD +28.29 | 188.6% | 0.79 | 0.396 | 3.77% | 3/3 (100%) |
 | A_NODEPTH | 3 | 1-1 | USD +15.29 | 101.9% | 0.56 | 0.296 | 6.02% | 2/3 (67%) |
 | A_FAIR3565 | 3 | 2-1 | USD +28.29 | 188.6% | 0.79 | 0.396 | 3.77% | 3/3 (100%) |
@@ -51,6 +52,7 @@ Future-only tests excluded rather than fabricated: A_FRESH300, A_MAINLINE, steam
 | OFF_V5 | 7 | 19 | Chuba Hubbard O13.5 rush attempts + Justin Jefferson U6.5 receptions | lost | USD -5.00 |
 | OFF_V6 | 4 | 6 | Caleb Williams U19.5 pass completions + Tyler Shough U0.5 pass interceptions | won | USD +14.64 |
 | OFF_V8 | 5 | 9 | Justin Jefferson U6.5 receptions + Tyler Shough U0.5 pass interceptions | won | USD +14.64 |
+| OFF_V8_2 | 5 | 9 | Cooper Rush O0.5 rush yds + Malik Washington O3.5 receptions | won | USD +19.15 |
 | A_MIN4 | 4 | 5 | Justin Jefferson U6.5 receptions + Tyler Shough U0.5 pass interceptions | won | USD +14.64 |
 | A_NODEPTH | 4 | 5 | Justin Jefferson U6.5 receptions + Tyler Shough U0.5 pass interceptions | won | USD +14.64 |
 | A_FAIR3565 | 4 | 5 | Justin Jefferson U6.5 receptions + Tyler Shough U0.5 pass interceptions | won | USD +14.64 |
@@ -75,6 +77,7 @@ Future-only tests excluded rather than fabricated: A_FRESH300, A_MAINLINE, steam
 | OFF_V5 | 3 | 3 | Dominic Zvada O1.5 field goals made + Ladd McConkey U4.5 receptions | won | USD +15.44 |
 | OFF_V6 | 0 | 0 | NO PLAY | — | USD +0.00 |
 | OFF_V8 | 3 | 2 | Ladd McConkey U4.5 receptions + Javonte Williams U2.5 receptions | won | USD +18.65 |
+| OFF_V8_2 | 3 | 2 | NO PLAY | — | USD +0.00 |
 | A_MIN4 | 2 | 1 | Ladd McConkey U4.5 receptions + Javonte Williams U2.5 receptions | won | USD +18.65 |
 | A_NODEPTH | 3 | 3 | Emmett Johnson O1.5 receptions + Ladd McConkey U4.5 receptions | won_reduced | USD +5.65 |
 | A_FAIR3565 | 2 | 1 | Ladd McConkey U4.5 receptions + Javonte Williams U2.5 receptions | won | USD +18.65 |
@@ -99,6 +102,7 @@ Future-only tests excluded rather than fabricated: A_FRESH300, A_MAINLINE, steam
 | OFF_V5 | 13 | 73 | Chase McLaughlin U1.5 field goals made + Kenneth Walker III O2.5 receptions | lost | USD -5.00 |
 | OFF_V6 | 3 | 3 | Xavier Hutchinson U2.5 receptions + Jauan Jennings O2.5 receptions | lost | USD -5.00 |
 | OFF_V8 | 5 | 9 | Marcus Mariota O0.5 pass interceptions + Xavier Hutchinson U2.5 receptions | lost | USD -5.00 |
+| OFF_V8_2 | 5 | 9 | Josh Allen O0.5 pass interceptions + Jauan Jennings O2.5 receptions | lost | USD -5.00 |
 | A_MIN4 | 5 | 9 | Marcus Mariota O0.5 pass interceptions + Xavier Hutchinson U2.5 receptions | lost | USD -5.00 |
 | A_NODEPTH | 6 | 14 | Marcus Mariota O0.5 pass interceptions + Xavier Hutchinson U2.5 receptions | lost | USD -5.00 |
 | A_FAIR3565 | 5 | 9 | Marcus Mariota O0.5 pass interceptions + Xavier Hutchinson U2.5 receptions | lost | USD -5.00 |
