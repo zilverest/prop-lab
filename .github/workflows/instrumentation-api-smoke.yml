@@ -38,6 +38,10 @@ jobs:
           assert isinstance(ctx,dict), ctx
           if "_error" in ctx:
               assert ctx["_error"]==404, ctx
+          movement=api.get(f"/sports/{sport}/events/{eid}/movement",markets=",".join(markets),since="-6h",includeBookIds="true")
+          assert isinstance(movement,dict), movement
+          if "_error" in movement:
+              assert movement["_error"]==404, movement
 
           evmap={r["event_id"]:r for r in read_rows("events")}
           done=[e for e in evmap.values() if parse_iso(e["commence_time"])<now]
@@ -49,5 +53,7 @@ jobs:
           assert mk, "no completed-event candidate market"
           closing=api.get(f"/sports/{de['sport']}/events/{deid}/odds/closing",markets=mk,includeBookIds="true")
           assert isinstance(closing,dict) and "_error" not in closing and closing.get("bookmakers"), closing
-          print({"upcoming_event":eid,"markets":markets,"outcomes":len(outcomes),"closing_event":deid,"api_calls":api.calls})
+          print({"upcoming_event":eid,"markets":markets,"outcomes":len(outcomes),
+                 "steam_rows":len(movement.get("steam",[])) if "_error" not in movement else 0,
+                 "closing_event":deid,"api_calls":api.calls})
           PY
