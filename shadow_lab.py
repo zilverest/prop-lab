@@ -252,9 +252,7 @@ def _grade(row,grader):
     return ("void" if all(x=="void" for x in rs) else "push"),rs
 
 
-def _selected_clv(row):
-    try:legs=json.loads(row.get("legs","[]"))
-    except Exception:return []
+def _clv_lookups():
     identities={}
     for x in read_rows("line_identity_history"):
         identities[(x.get("event_id"),x.get("market"),x.get("player"),x.get("point"),x.get("side"),x.get("book"))]=x
@@ -262,6 +260,12 @@ def _selected_clv(row):
     for x in read_rows("closing_lines"):
         if x.get("outcome_id"):by_id[x["outcome_id"]]=x
         exact[(x.get("event_id"),x.get("market"),x.get("player"),x.get("point"),x.get("side"),x.get("book"))]=x
+    return identities,by_id,exact
+
+
+def _selected_clv(row,identities,by_id,exact):
+    try:legs=json.loads(row.get("legs","[]"))
+    except Exception:return []
     vals=[]
     for l in legs:
         k=(l.get("event_id"),l.get("market"),l.get("player"),str(l.get("point","")),l.get("side"),row.get("book",""))
@@ -278,7 +282,7 @@ def _selected_clv(row):
 def settle(now=None):
     now=now or utcnow(); rows=read_rows("shadow_snapshots")
     if not rows:return 0
-    grader=slips.Grader(read_rows("results")); changed=0
+    grader=slips.Grader(read_rows("results")); identities,by_id,clv_exact=_clv_lookups(); changed=0
     for r in rows:
         if r.get("decision")!="play" or r.get("resolution"):continue
         g=_grade(r,grader)
@@ -298,7 +302,7 @@ def settle(now=None):
         r["resolution"]=res;r["pnl"]=round(pnl,2);r["settled_ts"]=iso(now)
         if p is not None and y is not None:
             r["brier"]=round((p-y)**2,6);r["calibration_error"]=round(y-p,6)
-        clv=_selected_clv(r)
+        clv=_selected_clv(r,identities,by_id,clv_exact)
         if clv:
             r["clv_legs"]=len(clv);r["avg_clv_implied_pp"]=round(sum(clv)/len(clv),4);r["beat_close_legs"]=sum(x>0 for x in clv)
         changed+=1
