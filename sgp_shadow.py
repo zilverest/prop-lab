@@ -39,6 +39,9 @@ MAX_QUOTES_PER_EVENT = 30
 ROSTER_MAX_AGE_DAYS = 7
 SHADOW_BOOKS = tuple(SGP_BOOKS)              # PropLine SGP books currently supported by the project
 SHADOW_MODELS = ("S0", "S1", "S2", "S3-A", "S3-B", "S3-C", "S3-D", "S3-E")
+# Only experimental gate rejections belong in the long-form audit. Structural impossibilities
+# (wrong team, failed core quality, unsupported archetype) remain summarized in decision notes.
+AUDIT_RESEARCH_REASONS = {"", "no_dual_confirm_leg", "no_sgp_quote", "tier_b_not_allowed", "nonpositive_pricing_edge"}
 
 MODEL_META = {
     "S0": dict(name="Stranger", status="CONTROL", detail="Legacy unrelated-pair control"),
@@ -573,8 +576,9 @@ def freeze(api,now=None):
             for p in true:
                 qi=quoted.get(p["pair_id"],{}); ok,reason,pred=_model_eval(model,p,qi); best=qi.get("best")
                 base=_pair_record(p,best,pred)
-                all_audit.append(dict(ts=iso(now),board_date=board_date,board_ts=board_ts,week_key=week,event_id=eid,home=u["home"],away=u["away"],model=model,
-                                      approved=str(bool(ok)),rejection_reason=reason,resolution="",pnl_if_played="",settled_ts="",**base))
+                if ok or reason in AUDIT_RESEARCH_REASONS:
+                    all_audit.append(dict(ts=iso(now),board_date=board_date,board_ts=board_ts,week_key=week,event_id=eid,home=u["home"],away=u["away"],model=model,
+                                          approved=str(bool(ok)),rejection_reason=reason,resolution="",pnl_if_played="",settled_ts="",**base))
 
         for model in SHADOW_MODELS:
             approved=[]; reasons=defaultdict(int)
