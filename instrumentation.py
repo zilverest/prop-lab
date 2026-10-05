@@ -24,6 +24,11 @@ STEAM_FIELDS = [
     "open_point","latest_point","books_quoting","books_moved","consensus_direction",
     "avg_prob_shift","consensus_point_shift","steam_score",
 ]
+STEAM_PLAYER_FIELDS = [
+    "ts","sport","event_id","commence_time","hours_to_kick","market","player","side","team",
+    "open_point","latest_point","books_quoting","books_moved","consensus_direction",
+    "avg_prob_shift","consensus_point_shift","steam_score",
+]
 HEALTH_FIELDS = ["ts","phase","status","events","rows","api_calls","api_remaining","note"]
 
 
@@ -173,10 +178,10 @@ def capture_movement(api, now=None, max_hours=12.0, since="-6h"):
     by_event=defaultdict(list)
     for r in near: by_event[r["event_id"]].append(r)
 
-    old=read_rows("steam_snapshots")
+    old=read_rows("steam_player_snapshots")
     last={}
     for r in old:
-        k=(r.get("event_id"),r.get("market"),r.get("name"),r.get("team"))
+        k=(r.get("event_id"),r.get("market"),r.get("player"),r.get("side"),r.get("team"))
         last[k]="|".join(str(r.get(x,"")) for x in (
             "open_point","latest_point","books_quoting","books_moved","consensus_direction",
             "avg_prob_shift","consensus_point_shift","steam_score"
@@ -198,9 +203,9 @@ def capture_movement(api, now=None, max_hours=12.0, since="-6h"):
             for x in (resp.get("steam",[]) if isinstance(resp,dict) else []):
                 r=dict(
                     ts=ts,sport=sport,event_id=eid,commence_time=commence,hours_to_kick=h,
-                    market=x.get("market","") or "",name=x.get("name","") or "",
-                    team=x.get("team","") or "",open_point=_point(x.get("open_point")),
-                    latest_point=_point(x.get("latest_point")),
+                    market=x.get("market","") or "",player=x.get("description","") or "",
+                    side=x.get("name","") or "",team=x.get("team","") or "",
+                    open_point=_point(x.get("open_point")),latest_point=_point(x.get("latest_point")),
                     books_quoting=x.get("books_quoting","") if x.get("books_quoting") is not None else "",
                     books_moved=x.get("books_moved","") if x.get("books_moved") is not None else "",
                     consensus_direction=x.get("consensus_direction","") or "",
@@ -208,7 +213,7 @@ def capture_movement(api, now=None, max_hours=12.0, since="-6h"):
                     consensus_point_shift=x.get("consensus_point_shift","") if x.get("consensus_point_shift") is not None else "",
                     steam_score=x.get("steam_score","") if x.get("steam_score") is not None else "",
                 )
-                k=(eid,r["market"],r["name"],r["team"])
+                k=(eid,r["market"],r["player"],r["side"],r["team"])
                 sig="|".join(str(r.get(z,"")) for z in (
                     "open_point","latest_point","books_quoting","books_moved","consensus_direction",
                     "avg_prob_shift","consensus_point_shift","steam_score"
@@ -216,7 +221,7 @@ def capture_movement(api, now=None, max_hours=12.0, since="-6h"):
                 if sig==last.get(k): continue
                 out.append(r);last[k]=sig
 
-    append_rows("steam_snapshots",out,STEAM_FIELDS)
+    append_rows("steam_player_snapshots",out,STEAM_PLAYER_FIELDS)
     summary=dict(ts=ts,events=len(by_event),changed=len(out),failures=failures,since=since)
     print("instrumentation steam",json.dumps(summary,sort_keys=True));return summary
 
