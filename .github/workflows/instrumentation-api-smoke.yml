@@ -29,7 +29,9 @@ jobs:
           assert current, "no upcoming current_lines rows"
           current.sort(key=lambda r:r["commence_time"])
           eid=current[0]["event_id"]; sport=current[0]["sport"]
-          markets=sorted({r["market"] for r in current if r["event_id"]==eid})[:3]
+          available=sorted({r["market"] for r in current if r["event_id"]==eid})
+          preferred=[m for m in ("player_pass_yds","player_reception_yds","player_receptions","player_rush_yds") if m in available]
+          markets=(preferred or available)[:3]
           odds=api.get(f"/sports/{sport}/events/{eid}/odds",markets=",".join(markets),includeBookIds="true")
           assert isinstance(odds,dict) and "_error" not in odds and odds.get("bookmakers"), odds
           outcomes=[o for b in odds.get("bookmakers",[]) for m in b.get("markets",[]) for o in m.get("outcomes",[])]
