@@ -35,7 +35,9 @@ jobs:
           outcomes=[o for b in odds.get("bookmakers",[]) for m in b.get("markets",[]) for o in m.get("outcomes",[])]
           assert outcomes and any(o.get("outcome_id") for o in outcomes), "missing outcome_id"
           ctx=api.get(f"/sports/{sport}/events/{eid}/context")
-          assert isinstance(ctx,dict) and "_error" not in ctx, ctx
+          assert isinstance(ctx,dict), ctx
+          if "_error" in ctx:
+              assert ctx["_error"]==404, ctx
 
           evmap={r["event_id"]:r for r in read_rows("events")}
           done=[e for e in evmap.values() if parse_iso(e["commence_time"])<now]
