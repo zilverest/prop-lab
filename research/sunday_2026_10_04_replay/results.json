@@ -1,0 +1,2819 @@
+{
+  "event_ids": [
+    "24886",
+    "32664",
+    "32665",
+    "32666",
+    "32667",
+    "32668",
+    "32669",
+    "32670",
+    "32671",
+    "32672",
+    "32673",
+    "32674",
+    "32675",
+    "32676"
+  ],
+  "forward_status": "MISSED_FORWARD_FREEZE",
+  "generated_at": "2026-10-05T04:04:37Z",
+  "latest_cutoff": "2026-10-04T03:07:18Z",
+  "latest_unique_slips": [
+    {
+      "models": [
+        "V1"
+      ],
+      "slip": {
+        "book": "draftkings",
+        "break_even_prob": 0.221729,
+        "clv": [
+          null,
+          {
+            "beat_close": "True",
+            "book": "draftkings",
+            "closing_is_final": "True",
+            "clv_pct": 5.4795,
+            "ev_vs_close_pct": 3.5287,
+            "matched": "True"
+          }
+        ],
+        "fair_joint_prob": 0.237656,
+        "leg_results": [
+          "lost",
+          "won"
+        ],
+        "legs": [
+          {
+            "event_id": "24886",
+            "fair_prob": 0.5293,
+            "market": "player_pass_interceptions",
+            "player": "Marcus Mariota",
+            "point": "0.5",
+            "price": -105,
+            "side": "Over"
+          },
+          {
+            "event_id": "32669",
+            "fair_prob": 0.449,
+            "market": "player_pass_interceptions",
+            "player": "Josh Allen",
+            "point": "0.5",
+            "price": 131,
+            "side": "Over"
+          }
+        ],
+        "model_edge_pct": 7.183,
+        "pnl": -5.0,
+        "price": 351,
+        "resolution": "lost"
+      }
+    },
+    {
+      "models": [
+        "V2",
+        "V3",
+        "V8"
+      ],
+      "slip": {
+        "book": "bovada",
+        "break_even_prob": 0.256098,
+        "clv": [
+          null,
+          {
+            "beat_close": "",
+            "book": "bovada",
+            "closing_is_final": "False",
+            "clv_pct": null,
+            "ev_vs_close_pct": null,
+            "matched": "False"
+          }
+        ],
+        "fair_joint_prob": 0.275183,
+        "leg_results": [
+          "lost",
+          "lost"
+        ],
+        "legs": [
+          {
+            "event_id": "24886",
+            "fair_prob": 0.5293,
+            "market": "player_pass_interceptions",
+            "player": "Marcus Mariota",
+            "point": "0.5",
+            "price": -105,
+            "side": "Over"
+          },
+          {
+            "event_id": "32666",
+            "fair_prob": 0.5199,
+            "market": "player_receptions",
+            "player": "Xavier Hutchinson",
+            "point": "2.5",
+            "price": 100,
+            "side": "Under"
+          }
+        ],
+        "model_edge_pct": 7.452,
+        "pnl": -5.0,
+        "price": 290,
+        "resolution": "lost"
+      }
+    },
+    {
+      "models": [
+        "V4"
+      ],
+      "slip": {
+        "book": "draftkings",
+        "break_even_prob": 0.265982,
+        "clv": [
+          {
+            "beat_close": "",
+            "book": "draftkings",
+            "closing_is_final": "False",
+            "clv_pct": null,
+            "ev_vs_close_pct": null,
+            "matched": "False"
+          },
+          null
+        ],
+        "fair_joint_prob": 0.287236,
+        "leg_results": [
+          "won",
+          "won"
+        ],
+        "legs": [
+          {
+            "event_id": "32672",
+            "fair_prob": 0.5335,
+            "market": "player_receptions",
+            "player": "Chris Bell",
+            "point": "2.5",
+            "price": -107,
+            "side": "Under"
+          },
+          {
+            "event_id": "32664",
+            "fair_prob": 0.5384,
+            "market": "player_field_goals_made",
+            "player": "Chase McLaughlin",
+            "point": "1.5",
+            "price": -106,
+            "side": "Under"
+          }
+        ],
+        "model_edge_pct": 7.991,
+        "pnl": 13.8,
+        "price": 276,
+        "resolution": "won"
+      }
+    },
+    {
+      "models": [
+        "V5"
+      ],
+      "slip": {
+        "book": "hardrock",
+        "break_even_prob": 0.295918,
+        "clv": [
+          {
+            "beat_close": "False",
+            "book": "hardrock",
+            "closing_is_final": "True",
+            "clv_pct": 0.0,
+            "ev_vs_close_pct": 4.1538,
+            "matched": "True"
+          },
+          null
+        ],
+        "fair_joint_prob": 0.328747,
+        "leg_results": [
+          "lost",
+          "won"
+        ],
+        "legs": [
+          {
+            "event_id": "32675",
+            "fair_prob": 0.6106,
+            "market": "player_receptions",
+            "player": "Kenneth Walker III",
+            "point": "2.5",
+            "price": -145,
+            "side": "Over"
+          },
+          {
+            "event_id": "32664",
+            "fair_prob": 0.5384,
+            "market": "player_field_goals_made",
+            "player": "Chase McLaughlin",
+            "point": "1.5",
+            "price": 100,
+            "side": "Under"
+          }
+        ],
+        "model_edge_pct": 11.094,
+        "pnl": -5.0,
+        "price": 238,
+        "resolution": "lost"
+      }
+    },
+    {
+      "models": [
+        "V6"
+      ],
+      "slip": {
+        "book": "bovada",
+        "break_even_prob": 0.238095,
+        "clv": [
+          null,
+          {
+            "beat_close": "",
+            "book": "bovada",
+            "closing_is_final": "False",
+            "clv_pct": null,
+            "ev_vs_close_pct": null,
+            "matched": "False"
+          }
+        ],
+        "fair_joint_prob": 0.26248,
+        "leg_results": [
+          "won",
+          "lost"
+        ],
+        "legs": [
+          {
+            "event_id": "24886",
+            "fair_prob": 0.504867,
+            "market": "player_receptions",
+            "player": "Tyler Warren",
+            "point": "5.5",
+            "price": 110,
+            "side": "Under"
+          },
+          {
+            "event_id": "32666",
+            "fair_prob": 0.5199,
+            "market": "player_receptions",
+            "player": "Xavier Hutchinson",
+            "point": "2.5",
+            "price": 100,
+            "side": "Under"
+          }
+        ],
+        "model_edge_pct": 10.242,
+        "pnl": -5.0,
+        "price": 320,
+        "resolution": "lost"
+      }
+    },
+    {
+      "models": [
+        "V8"
+      ],
+      "slip": {
+        "book": "bovada",
+        "break_even_prob": 0.207039,
+        "clv": [
+          {
+            "beat_close": "True",
+            "book": "bovada",
+            "closing_is_final": "True",
+            "clv_pct": 4.5455,
+            "ev_vs_close_pct": -2.2876,
+            "matched": "True"
+          },
+          {
+            "beat_close": "",
+            "book": "bovada",
+            "closing_is_final": "False",
+            "clv_pct": null,
+            "ev_vs_close_pct": null,
+            "matched": "False"
+          }
+        ],
+        "fair_joint_prob": 0.222614,
+        "leg_results": [
+          "won",
+          "lost"
+        ],
+        "legs": [
+          {
+            "event_id": "32669",
+            "fair_prob": 0.449,
+            "market": "player_pass_interceptions",
+            "player": "Josh Allen",
+            "point": "0.5",
+            "price": 130,
+            "side": "Over"
+          },
+          {
+            "event_id": "32672",
+            "fair_prob": 0.4958,
+            "market": "player_receptions",
+            "player": "Jauan Jennings",
+            "point": "2.5",
+            "price": 110,
+            "side": "Over"
+          }
+        ],
+        "model_edge_pct": 7.523,
+        "pnl": -5.0,
+        "price": 383,
+        "resolution": "lost"
+      }
+    }
+  ],
+  "method": "retrospective replay from committed pregame line history; no postgame prices used",
+  "sgp_prequote": {
+    "events": {
+      "24886": {
+        "s2_prequote": 5,
+        "tier_a": 80,
+        "tier_a_b": 136,
+        "tier_a_dual": 1,
+        "top_S2": {
+          "archetype": "PASS_TD__RECEPTIONS",
+          "catcher": "Tyler Warren",
+          "catcher_market": "player_receptions",
+          "catcher_point": "5.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": true,
+          "independent_prob": 0.2662965,
+          "leg_results": [
+            "won",
+            "won"
+          ],
+          "model_prob": 0.2752002264650426,
+          "pair_id": "Daniel Jones|player_pass_tds|Under|1.5||Tyler Warren|player_receptions|Under|5.5",
+          "position": "TE",
+          "qb": "Daniel Jones",
+          "qb_market": "player_pass_tds",
+          "qb_point": "1.5",
+          "qb_side": "Under",
+          "result": "won",
+          "tier": ""
+        },
+        "top_S3B": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Tyler Warren",
+          "catcher_market": "player_receptions",
+          "catcher_point": "5.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": true,
+          "independent_prob": 0.24864285714285714,
+          "leg_results": [
+            "won",
+            "won"
+          ],
+          "model_prob": 0.28996508385694936,
+          "pair_id": "Daniel Jones|player_pass_completions|Under|20.5||Tyler Warren|player_receptions|Under|5.5",
+          "position": "TE",
+          "qb": "Daniel Jones",
+          "qb_market": "player_pass_completions",
+          "qb_point": "20.5",
+          "qb_side": "Under",
+          "result": "won",
+          "tier": "A"
+        },
+        "top_S3D": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Terry McLaurin",
+          "catcher_market": "player_receptions",
+          "catcher_point": "4.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.2996755892857142,
+          "leg_results": [
+            "won",
+            "void"
+          ],
+          "model_prob": 0.34064648602487674,
+          "pair_id": "Marcus Mariota|player_pass_completions|Under|19.5||Terry McLaurin|player_receptions|Under|4.5",
+          "position": "WR",
+          "qb": "Marcus Mariota",
+          "qb_market": "player_pass_completions",
+          "qb_point": "19.5",
+          "qb_side": "Under",
+          "result": "won_with_void_or_push",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Terry McLaurin",
+          "catcher_market": "player_receptions",
+          "catcher_point": "4.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.2996755892857142,
+          "leg_results": [
+            "won",
+            "void"
+          ],
+          "model_prob": 0.34064648602487674,
+          "pair_id": "Marcus Mariota|player_pass_completions|Under|19.5||Terry McLaurin|player_receptions|Under|4.5",
+          "position": "WR",
+          "qb": "Marcus Mariota",
+          "qb_market": "player_pass_completions",
+          "qb_point": "19.5",
+          "qb_side": "Under",
+          "result": "won_with_void_or_push",
+          "tier": "A"
+        }
+      },
+      "32664": {
+        "s2_prequote": 0,
+        "tier_a": 50,
+        "tier_a_b": 120,
+        "tier_a_dual": 0,
+        "top_S2": null,
+        "top_S3B": null,
+        "top_S3D": {
+          "archetype": "PASS_YDS__REC_YDS",
+          "catcher": "Skyy Moore",
+          "catcher_market": "player_reception_yds",
+          "catcher_point": "20.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.28766712,
+          "leg_results": [
+            "won",
+            "won"
+          ],
+          "model_prob": 0.33651099652190625,
+          "pair_id": "Jordan Love|player_pass_yds|Under|244.5||Skyy Moore|player_reception_yds|Under|20.5",
+          "position": "WR",
+          "qb": "Jordan Love",
+          "qb_market": "player_pass_yds",
+          "qb_point": "244.5",
+          "qb_side": "Under",
+          "result": "won",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "PASS_YDS__REC_YDS",
+          "catcher": "Skyy Moore",
+          "catcher_market": "player_reception_yds",
+          "catcher_point": "20.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.28766712,
+          "leg_results": [
+            "won",
+            "won"
+          ],
+          "model_prob": 0.33651099652190625,
+          "pair_id": "Jordan Love|player_pass_yds|Under|244.5||Skyy Moore|player_reception_yds|Under|20.5",
+          "position": "WR",
+          "qb": "Jordan Love",
+          "qb_market": "player_pass_yds",
+          "qb_point": "244.5",
+          "qb_side": "Under",
+          "result": "won",
+          "tier": "A"
+        }
+      },
+      "32665": {
+        "s2_prequote": 0,
+        "tier_a": 40,
+        "tier_a_b": 100,
+        "tier_a_dual": 0,
+        "top_S2": null,
+        "top_S3B": null,
+        "top_S3D": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Mark Andrews",
+          "catcher_market": "player_receptions",
+          "catcher_point": "4.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.31632024000000003,
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "model_prob": 0.35624971695476026,
+          "pair_id": "Lamar Jackson|player_pass_completions|Under|18.5||Mark Andrews|player_receptions|Under|4.5",
+          "position": "TE",
+          "qb": "Lamar Jackson",
+          "qb_market": "player_pass_completions",
+          "qb_point": "18.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Mark Andrews",
+          "catcher_market": "player_receptions",
+          "catcher_point": "4.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.31632024000000003,
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "model_prob": 0.35624971695476026,
+          "pair_id": "Lamar Jackson|player_pass_completions|Under|18.5||Mark Andrews|player_receptions|Under|4.5",
+          "position": "TE",
+          "qb": "Lamar Jackson",
+          "qb_market": "player_pass_completions",
+          "qb_point": "18.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": "A"
+        }
+      },
+      "32666": {
+        "s2_prequote": 4,
+        "tier_a": 46,
+        "tier_a_b": 112,
+        "tier_a_dual": 1,
+        "top_S2": {
+          "archetype": "PASS_TD__RECEPTIONS",
+          "catcher": "Xavier Hutchinson",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": true,
+          "independent_prob": 0.26905567714285716,
+          "leg_results": [
+            "lost",
+            "lost"
+          ],
+          "model_prob": 0.285606212375516,
+          "pair_id": "C.J. Stroud|player_pass_tds|Under|1.5||Xavier Hutchinson|player_receptions|Under|2.5",
+          "position": "WR",
+          "qb": "C.J. Stroud",
+          "qb_market": "player_pass_tds",
+          "qb_point": "1.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": ""
+        },
+        "top_S3B": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Xavier Hutchinson",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": true,
+          "independent_prob": 0.26540895,
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "model_prob": 0.30688602847802954,
+          "pair_id": "C.J. Stroud|player_pass_completions|Under|21.5||Xavier Hutchinson|player_receptions|Under|2.5",
+          "position": "WR",
+          "qb": "C.J. Stroud",
+          "qb_market": "player_pass_completions",
+          "qb_point": "21.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": "A"
+        },
+        "top_S3D": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Kayshon Boutte",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.32033874999999995,
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "model_prob": 0.3597189772511718,
+          "pair_id": "C.J. Stroud|player_pass_completions|Under|21.5||Kayshon Boutte|player_receptions|Under|2.5",
+          "position": "WR",
+          "qb": "C.J. Stroud",
+          "qb_market": "player_pass_completions",
+          "qb_point": "21.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Kayshon Boutte",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.32033874999999995,
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "model_prob": 0.3597189772511718,
+          "pair_id": "C.J. Stroud|player_pass_completions|Under|21.5||Kayshon Boutte|player_receptions|Under|2.5",
+          "position": "WR",
+          "qb": "C.J. Stroud",
+          "qb_market": "player_pass_completions",
+          "qb_point": "21.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": "A"
+        }
+      },
+      "32667": {
+        "s2_prequote": 0,
+        "tier_a": 24,
+        "tier_a_b": 48,
+        "tier_a_dual": 0,
+        "top_S2": null,
+        "top_S3B": null,
+        "top_S3D": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "D'Andre Swift",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.31488642000000006,
+          "leg_results": [
+            "lost",
+            "won"
+          ],
+          "model_prob": 0.35655898257002144,
+          "pair_id": "D'Andre Swift|player_receptions|Under|2.5||Tyson Bagent|player_pass_completions|Under|19.5",
+          "position": "RB",
+          "qb": "Tyson Bagent",
+          "qb_market": "player_pass_completions",
+          "qb_point": "19.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "D'Andre Swift",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.31488642000000006,
+          "leg_results": [
+            "lost",
+            "won"
+          ],
+          "model_prob": 0.35655898257002144,
+          "pair_id": "D'Andre Swift|player_receptions|Under|2.5||Tyson Bagent|player_pass_completions|Under|19.5",
+          "position": "RB",
+          "qb": "Tyson Bagent",
+          "qb_market": "player_pass_completions",
+          "qb_point": "19.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": "A"
+        }
+      },
+      "32668": {
+        "s2_prequote": 0,
+        "tier_a": 26,
+        "tier_a_b": 62,
+        "tier_a_dual": 0,
+        "top_S2": null,
+        "top_S3B": null,
+        "top_S3D": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Trey McBride",
+          "catcher_market": "player_receptions",
+          "catcher_point": "7.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.3298658416666667,
+          "leg_results": [
+            "won",
+            "won"
+          ],
+          "model_prob": 0.36967806941122405,
+          "pair_id": "Jacoby Brissett|player_pass_completions|Under|23.5||Trey McBride|player_receptions|Under|7.5",
+          "position": "TE",
+          "qb": "Jacoby Brissett",
+          "qb_market": "player_pass_completions",
+          "qb_point": "23.5",
+          "qb_side": "Under",
+          "result": "won",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Trey McBride",
+          "catcher_market": "player_receptions",
+          "catcher_point": "7.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.3298658416666667,
+          "leg_results": [
+            "won",
+            "won"
+          ],
+          "model_prob": 0.36967806941122405,
+          "pair_id": "Jacoby Brissett|player_pass_completions|Under|23.5||Trey McBride|player_receptions|Under|7.5",
+          "position": "TE",
+          "qb": "Jacoby Brissett",
+          "qb_market": "player_pass_completions",
+          "qb_point": "23.5",
+          "qb_side": "Under",
+          "result": "won",
+          "tier": "A"
+        }
+      },
+      "32669": {
+        "s2_prequote": 0,
+        "tier_a": 32,
+        "tier_a_b": 76,
+        "tier_a_dual": 0,
+        "top_S2": null,
+        "top_S3B": null,
+        "top_S3D": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "DeMario Douglas",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Over",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.30769683000000003,
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "model_prob": 0.348403748310024,
+          "pair_id": "DeMario Douglas|player_receptions|Over|2.5||Drake Maye|player_pass_completions|Over|19.5",
+          "position": "WR",
+          "qb": "Drake Maye",
+          "qb_market": "player_pass_completions",
+          "qb_point": "19.5",
+          "qb_side": "Over",
+          "result": "lost",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "DeMario Douglas",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Over",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.30769683000000003,
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "model_prob": 0.348403748310024,
+          "pair_id": "DeMario Douglas|player_receptions|Over|2.5||Drake Maye|player_pass_completions|Over|19.5",
+          "position": "WR",
+          "qb": "Drake Maye",
+          "qb_market": "player_pass_completions",
+          "qb_point": "19.5",
+          "qb_side": "Over",
+          "result": "lost",
+          "tier": "A"
+        }
+      },
+      "32670": {
+        "s2_prequote": 0,
+        "tier_a": 48,
+        "tier_a_b": 94,
+        "tier_a_dual": 0,
+        "top_S2": null,
+        "top_S3B": null,
+        "top_S3D": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Dohnte Meyers",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.30733541,
+          "leg_results": [
+            "lost",
+            "lost"
+          ],
+          "model_prob": 0.34719167300929277,
+          "pair_id": "Dohnte Meyers|player_receptions|Under|2.5||Joe Burrow|player_pass_completions|Under|24.5",
+          "position": "WR",
+          "qb": "Joe Burrow",
+          "qb_market": "player_pass_completions",
+          "qb_point": "24.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Dohnte Meyers",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.30733541,
+          "leg_results": [
+            "lost",
+            "lost"
+          ],
+          "model_prob": 0.34719167300929277,
+          "pair_id": "Dohnte Meyers|player_receptions|Under|2.5||Joe Burrow|player_pass_completions|Under|24.5",
+          "position": "WR",
+          "qb": "Joe Burrow",
+          "qb_market": "player_pass_completions",
+          "qb_point": "24.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": "A"
+        }
+      },
+      "32671": {
+        "s2_prequote": 0,
+        "tier_a": 88,
+        "tier_a_b": 174,
+        "tier_a_dual": 0,
+        "top_S2": null,
+        "top_S3B": null,
+        "top_S3D": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Darius Cooper",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.30614484,
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "model_prob": 0.3452182255511727,
+          "pair_id": "Darius Cooper|player_receptions|Under|2.5||Jalen Hurts|player_pass_completions|Under|18.5",
+          "position": "WR",
+          "qb": "Jalen Hurts",
+          "qb_market": "player_pass_completions",
+          "qb_point": "18.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "PASS_YDS__RECEPTIONS",
+          "catcher": "Darius Cooper",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.3162,
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "model_prob": 0.3524813642482803,
+          "pair_id": "Darius Cooper|player_receptions|Under|2.5||Jalen Hurts|player_pass_yds|Under|204.5",
+          "position": "WR",
+          "qb": "Jalen Hurts",
+          "qb_market": "player_pass_yds",
+          "qb_point": "204.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": "B"
+        }
+      },
+      "32672": {
+        "s2_prequote": 5,
+        "tier_a": 44,
+        "tier_a_b": 92,
+        "tier_a_dual": 1,
+        "top_S2": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Jauan Jennings",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Over",
+          "core_quality": true,
+          "dual_confirm": true,
+          "independent_prob": 0.250339336,
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "model_prob": 0.2918703830639586,
+          "pair_id": "Jauan Jennings|player_receptions|Over|2.5||Kyler Murray|player_pass_completions|Over|19.5",
+          "position": "WR",
+          "qb": "Kyler Murray",
+          "qb_market": "player_pass_completions",
+          "qb_point": "19.5",
+          "qb_side": "Over",
+          "result": "lost",
+          "tier": "A"
+        },
+        "top_S3B": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Jauan Jennings",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Over",
+          "core_quality": true,
+          "dual_confirm": true,
+          "independent_prob": 0.250339336,
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "model_prob": 0.2918703830639586,
+          "pair_id": "Jauan Jennings|player_receptions|Over|2.5||Kyler Murray|player_pass_completions|Over|19.5",
+          "position": "WR",
+          "qb": "Kyler Murray",
+          "qb_market": "player_pass_completions",
+          "qb_point": "19.5",
+          "qb_side": "Over",
+          "result": "lost",
+          "tier": "A"
+        },
+        "top_S3D": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Malik Washington",
+          "catcher_market": "player_receptions",
+          "catcher_point": "3.5",
+          "catcher_side": "Over",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.30769415,
+          "leg_results": [
+            "lost",
+            "won"
+          ],
+          "model_prob": 0.34811206112286713,
+          "pair_id": "Malik Washington|player_receptions|Over|3.5||Malik Willis|player_pass_completions|Over|15.5",
+          "position": "WR",
+          "qb": "Malik Willis",
+          "qb_market": "player_pass_completions",
+          "qb_point": "15.5",
+          "qb_side": "Over",
+          "result": "lost",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Malik Washington",
+          "catcher_market": "player_receptions",
+          "catcher_point": "3.5",
+          "catcher_side": "Over",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.30769415,
+          "leg_results": [
+            "lost",
+            "won"
+          ],
+          "model_prob": 0.34811206112286713,
+          "pair_id": "Malik Washington|player_receptions|Over|3.5||Malik Willis|player_pass_completions|Over|15.5",
+          "position": "WR",
+          "qb": "Malik Willis",
+          "qb_market": "player_pass_completions",
+          "qb_point": "15.5",
+          "qb_side": "Over",
+          "result": "lost",
+          "tier": "A"
+        }
+      },
+      "32673": {
+        "s2_prequote": 0,
+        "tier_a": 70,
+        "tier_a_b": 130,
+        "tier_a_dual": 0,
+        "top_S2": null,
+        "top_S3B": null,
+        "top_S3D": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Quentin Johnston",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Over",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.31022,
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "model_prob": 0.3498063122262629,
+          "pair_id": "Justin Herbert|player_pass_completions|Over|18.5||Quentin Johnston|player_receptions|Over|2.5",
+          "position": "WR",
+          "qb": "Justin Herbert",
+          "qb_market": "player_pass_completions",
+          "qb_point": "18.5",
+          "qb_side": "Over",
+          "result": "lost",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Quentin Johnston",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Over",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.31022,
+          "leg_results": [
+            "won",
+            "lost"
+          ],
+          "model_prob": 0.3498063122262629,
+          "pair_id": "Justin Herbert|player_pass_completions|Over|18.5||Quentin Johnston|player_receptions|Over|2.5",
+          "position": "WR",
+          "qb": "Justin Herbert",
+          "qb_market": "player_pass_completions",
+          "qb_point": "18.5",
+          "qb_side": "Over",
+          "result": "lost",
+          "tier": "A"
+        }
+      },
+      "32674": {
+        "s2_prequote": 0,
+        "tier_a": 22,
+        "tier_a_b": 54,
+        "tier_a_dual": 0,
+        "top_S2": null,
+        "top_S3B": null,
+        "top_S3D": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Pat Bryant",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.27760303999999997,
+          "leg_results": [
+            "lost",
+            "lost"
+          ],
+          "model_prob": 0.3183814904716448,
+          "pair_id": "Bo Nix|player_pass_completions|Under|21.5||Pat Bryant|player_receptions|Under|2.5",
+          "position": "WR",
+          "qb": "Bo Nix",
+          "qb_market": "player_pass_completions",
+          "qb_point": "21.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Pat Bryant",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.27760303999999997,
+          "leg_results": [
+            "lost",
+            "lost"
+          ],
+          "model_prob": 0.3183814904716448,
+          "pair_id": "Bo Nix|player_pass_completions|Under|21.5||Pat Bryant|player_receptions|Under|2.5",
+          "position": "WR",
+          "qb": "Bo Nix",
+          "qb_market": "player_pass_completions",
+          "qb_point": "21.5",
+          "qb_side": "Under",
+          "result": "lost",
+          "tier": "A"
+        }
+      },
+      "32675": {
+        "s2_prequote": 0,
+        "tier_a": 36,
+        "tier_a_b": 72,
+        "tier_a_dual": 0,
+        "top_S2": null,
+        "top_S3B": null,
+        "top_S3D": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Kenneth Walker III",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Over",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.31616868000000004,
+          "leg_results": [
+            "lost",
+            "lost"
+          ],
+          "model_prob": 0.3578404554510393,
+          "pair_id": "Kenneth Walker III|player_receptions|Over|2.5||Patrick Mahomes|player_pass_completions|Over|20.5",
+          "position": "RB",
+          "qb": "Patrick Mahomes",
+          "qb_market": "player_pass_completions",
+          "qb_point": "20.5",
+          "qb_side": "Over",
+          "result": "lost",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Kenneth Walker III",
+          "catcher_market": "player_receptions",
+          "catcher_point": "2.5",
+          "catcher_side": "Over",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.31616868000000004,
+          "leg_results": [
+            "lost",
+            "lost"
+          ],
+          "model_prob": 0.3578404554510393,
+          "pair_id": "Kenneth Walker III|player_receptions|Over|2.5||Patrick Mahomes|player_pass_completions|Over|20.5",
+          "position": "RB",
+          "qb": "Patrick Mahomes",
+          "qb_market": "player_pass_completions",
+          "qb_point": "20.5",
+          "qb_side": "Over",
+          "result": "lost",
+          "tier": "A"
+        }
+      },
+      "32676": {
+        "s2_prequote": 0,
+        "tier_a": 34,
+        "tier_a_b": 80,
+        "tier_a_dual": 0,
+        "top_S2": null,
+        "top_S3B": null,
+        "top_S3D": {
+          "archetype": "COMPLETIONS__RECEPTIONS",
+          "catcher": "Sam LaPorta",
+          "catcher_market": "player_receptions",
+          "catcher_point": "4.5",
+          "catcher_side": "Under",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.29847978857142854,
+          "leg_results": [
+            null,
+            null
+          ],
+          "model_prob": 0.33923378723152875,
+          "pair_id": "Jared Goff|player_pass_completions|Under|23.5||Sam LaPorta|player_receptions|Under|4.5",
+          "position": "TE",
+          "qb": "Jared Goff",
+          "qb_market": "player_pass_completions",
+          "qb_point": "23.5",
+          "qb_side": "Under",
+          "result": "ungraded",
+          "tier": "A"
+        },
+        "top_S3E": {
+          "archetype": "PASS_YDS__RECEPTIONS",
+          "catcher": "Tetairoa McMillan",
+          "catcher_market": "player_receptions",
+          "catcher_point": "4.5",
+          "catcher_side": "Over",
+          "core_quality": true,
+          "dual_confirm": false,
+          "independent_prob": 0.313213376,
+          "leg_results": [
+            null,
+            null
+          ],
+          "model_prob": 0.3501793121315517,
+          "pair_id": "Bryce Young|player_pass_yds|Over|246.5||Tetairoa McMillan|player_receptions|Over|4.5",
+          "position": "WR",
+          "qb": "Bryce Young",
+          "qb_market": "player_pass_yds",
+          "qb_point": "246.5",
+          "qb_side": "Over",
+          "result": "ungraded",
+          "tier": "B"
+        }
+      }
+    },
+    "note": "PRE-QUOTE ONLY. Sunday freeze never reached /sgp quote capture, so price/value models cannot be finalized retrospectively without contaminating the forward test.",
+    "totals": {
+      "s2_prequote": 14,
+      "tier_a": 640,
+      "tier_a_b": 1350,
+      "tier_a_dual": 3,
+      "verified_same_team": 116398
+    }
+  },
+  "snapshots": [
+    {
+      "cross_game": {
+        "V1": {
+          "all_valid_pairs_settled": 1,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 2,
+          "eligible_legs_won": 0,
+          "note": "",
+          "qualified_legs": 2,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.237954,
+              "clv": [
+                null,
+                {
+                  "beat_close": "True",
+                  "book": "bovada",
+                  "closing_is_final": "True",
+                  "clv_pct": 5.0,
+                  "ev_vs_close_pct": -1.6624,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.262805,
+              "leg_results": [
+                "lost",
+                "void"
+              ],
+              "legs": [
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5105,
+                  "market": "player_pass_completions",
+                  "player": "Jordan Love",
+                  "point": "20.5",
+                  "price": 105,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.5148,
+                  "market": "player_rush_yds",
+                  "player": "Kirk Cousins",
+                  "point": "0.5",
+                  "price": 105,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 10.444,
+              "pnl": -5.0,
+              "price": 320,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 1
+        },
+        "V2": {
+          "all_valid_pairs_settled": 1,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 2,
+          "eligible_legs_won": 0,
+          "note": "",
+          "qualified_legs": 2,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.237954,
+              "clv": [
+                null,
+                {
+                  "beat_close": "True",
+                  "book": "bovada",
+                  "closing_is_final": "True",
+                  "clv_pct": 5.0,
+                  "ev_vs_close_pct": -1.6624,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.262805,
+              "leg_results": [
+                "lost",
+                "void"
+              ],
+              "legs": [
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5105,
+                  "market": "player_pass_completions",
+                  "player": "Jordan Love",
+                  "point": "20.5",
+                  "price": 105,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.5148,
+                  "market": "player_rush_yds",
+                  "player": "Kirk Cousins",
+                  "point": "0.5",
+                  "price": 105,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 10.444,
+              "pnl": -5.0,
+              "price": 320,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 1
+        },
+        "V3": {
+          "all_valid_pairs_settled": 1,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 2,
+          "eligible_legs_won": 0,
+          "note": "",
+          "qualified_legs": 2,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.237954,
+              "clv": [
+                null,
+                {
+                  "beat_close": "True",
+                  "book": "bovada",
+                  "closing_is_final": "True",
+                  "clv_pct": 5.0,
+                  "ev_vs_close_pct": -1.6624,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.262805,
+              "leg_results": [
+                "lost",
+                "void"
+              ],
+              "legs": [
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5105,
+                  "market": "player_pass_completions",
+                  "player": "Jordan Love",
+                  "point": "20.5",
+                  "price": 105,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.5148,
+                  "market": "player_rush_yds",
+                  "player": "Kirk Cousins",
+                  "point": "0.5",
+                  "price": 105,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 10.444,
+              "pnl": -5.0,
+              "price": 320,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 1
+        },
+        "V4": {
+          "all_valid_pairs_settled": 5,
+          "all_valid_pairs_won": 3,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 4,
+          "eligible_legs_won": 2,
+          "note": "",
+          "qualified_legs": 4,
+          "selections": [
+            {
+              "book": "draftkings",
+              "break_even_prob": 0.265982,
+              "clv": [
+                {
+                  "beat_close": "",
+                  "book": "draftkings",
+                  "closing_is_final": "False",
+                  "clv_pct": null,
+                  "ev_vs_close_pct": null,
+                  "matched": "False"
+                },
+                null
+              ],
+              "fair_joint_prob": 0.28937,
+              "leg_results": [
+                "won",
+                "won"
+              ],
+              "legs": [
+                {
+                  "event_id": "32672",
+                  "fair_prob": 0.5335,
+                  "market": "player_receptions",
+                  "player": "Chris Bell",
+                  "point": "2.5",
+                  "price": -106,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5424,
+                  "market": "player_field_goals_made",
+                  "player": "Chase McLaughlin",
+                  "point": "1.5",
+                  "price": -107,
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 8.793,
+              "pnl": 13.8,
+              "price": 276,
+              "resolution": "won"
+            }
+          ],
+          "valid_pairs": 5
+        },
+        "V5": {
+          "all_valid_pairs_settled": 13,
+          "all_valid_pairs_won": 3,
+          "eligible_legs_lost": 3,
+          "eligible_legs_settled": 6,
+          "eligible_legs_won": 2,
+          "note": "",
+          "qualified_legs": 6,
+          "selections": [
+            {
+              "book": "hardrock",
+              "break_even_prob": 0.31001,
+              "clv": [
+                {
+                  "beat_close": "False",
+                  "book": "hardrock",
+                  "closing_is_final": "True",
+                  "clv_pct": 0.0,
+                  "ev_vs_close_pct": 4.1538,
+                  "matched": "True"
+                },
+                null
+              ],
+              "fair_joint_prob": 0.332003,
+              "leg_results": [
+                "lost",
+                "won"
+              ],
+              "legs": [
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.6121,
+                  "market": "player_receptions",
+                  "player": "Kenneth Walker III",
+                  "point": "2.5",
+                  "price": -145,
+                  "side": "Over"
+                },
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5424,
+                  "market": "player_field_goals_made",
+                  "player": "Chase McLaughlin",
+                  "point": "1.5",
+                  "price": -110,
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 7.094,
+              "pnl": -5.0,
+              "price": 223,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 13
+        },
+        "V6": {
+          "all_valid_pairs_settled": 0,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 0,
+          "eligible_legs_settled": 0,
+          "eligible_legs_won": 0,
+          "note": "",
+          "qualified_legs": 0,
+          "selections": [],
+          "valid_pairs": 0
+        },
+        "V7": {
+          "all_valid_pairs_settled": 0,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 0,
+          "eligible_legs_settled": 0,
+          "eligible_legs_won": 0,
+          "note": "blocked: actual cross-game parlay quote capture not implemented",
+          "qualified_legs": 0,
+          "selections": [],
+          "valid_pairs": 0
+        },
+        "V8": {
+          "all_valid_pairs_settled": 1,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 2,
+          "eligible_legs_won": 0,
+          "note": "",
+          "qualified_legs": 2,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.237954,
+              "clv": [
+                null,
+                {
+                  "beat_close": "True",
+                  "book": "bovada",
+                  "closing_is_final": "True",
+                  "clv_pct": 5.0,
+                  "ev_vs_close_pct": -1.6624,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.262805,
+              "leg_results": [
+                "lost",
+                "void"
+              ],
+              "legs": [
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5105,
+                  "market": "player_pass_completions",
+                  "player": "Jordan Love",
+                  "point": "20.5",
+                  "price": 105,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.5148,
+                  "market": "player_rush_yds",
+                  "player": "Kirk Cousins",
+                  "point": "0.5",
+                  "price": 105,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 10.444,
+              "pnl": -5.0,
+              "price": 320,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 1
+        }
+      },
+      "cutoff": "2026-10-03T10:43:53Z",
+      "line_rows": 25195
+    },
+    {
+      "cross_game": {
+        "V1": {
+          "all_valid_pairs_settled": 6,
+          "all_valid_pairs_won": 3,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 4,
+          "eligible_legs_won": 2,
+          "note": "",
+          "qualified_legs": 4,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.237954,
+              "clv": [
+                null,
+                {
+                  "beat_close": "True",
+                  "book": "bovada",
+                  "closing_is_final": "True",
+                  "clv_pct": 5.0,
+                  "ev_vs_close_pct": -1.6624,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.261733,
+              "leg_results": [
+                "lost",
+                "void"
+              ],
+              "legs": [
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5105,
+                  "market": "player_pass_completions",
+                  "player": "Jordan Love",
+                  "point": "20.5",
+                  "price": 105,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.5127,
+                  "market": "player_rush_yds",
+                  "player": "Kirk Cousins",
+                  "point": "0.5",
+                  "price": 105,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 9.993,
+              "pnl": -5.0,
+              "price": 320,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 6
+        },
+        "V2": {
+          "all_valid_pairs_settled": 6,
+          "all_valid_pairs_won": 3,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 4,
+          "eligible_legs_won": 2,
+          "note": "",
+          "qualified_legs": 4,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.237954,
+              "clv": [
+                null,
+                {
+                  "beat_close": "True",
+                  "book": "bovada",
+                  "closing_is_final": "True",
+                  "clv_pct": 5.0,
+                  "ev_vs_close_pct": -1.6624,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.261733,
+              "leg_results": [
+                "lost",
+                "void"
+              ],
+              "legs": [
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5105,
+                  "market": "player_pass_completions",
+                  "player": "Jordan Love",
+                  "point": "20.5",
+                  "price": 105,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.5127,
+                  "market": "player_rush_yds",
+                  "player": "Kirk Cousins",
+                  "point": "0.5",
+                  "price": 105,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 9.993,
+              "pnl": -5.0,
+              "price": 320,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 6
+        },
+        "V3": {
+          "all_valid_pairs_settled": 6,
+          "all_valid_pairs_won": 3,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 4,
+          "eligible_legs_won": 2,
+          "note": "",
+          "qualified_legs": 4,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.237954,
+              "clv": [
+                null,
+                {
+                  "beat_close": "True",
+                  "book": "bovada",
+                  "closing_is_final": "True",
+                  "clv_pct": 5.0,
+                  "ev_vs_close_pct": -1.6624,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.261733,
+              "leg_results": [
+                "lost",
+                "void"
+              ],
+              "legs": [
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5105,
+                  "market": "player_pass_completions",
+                  "player": "Jordan Love",
+                  "point": "20.5",
+                  "price": 105,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.5127,
+                  "market": "player_rush_yds",
+                  "player": "Kirk Cousins",
+                  "point": "0.5",
+                  "price": 105,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 9.993,
+              "pnl": -5.0,
+              "price": 320,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 6
+        },
+        "V4": {
+          "all_valid_pairs_settled": 14,
+          "all_valid_pairs_won": 10,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 6,
+          "eligible_legs_won": 4,
+          "note": "",
+          "qualified_legs": 6,
+          "selections": [
+            {
+              "book": "draftkings",
+              "break_even_prob": 0.265982,
+              "clv": [
+                {
+                  "beat_close": "",
+                  "book": "draftkings",
+                  "closing_is_final": "False",
+                  "clv_pct": null,
+                  "ev_vs_close_pct": null,
+                  "matched": "False"
+                },
+                null
+              ],
+              "fair_joint_prob": 0.28937,
+              "leg_results": [
+                "won",
+                "won"
+              ],
+              "legs": [
+                {
+                  "event_id": "32672",
+                  "fair_prob": 0.5335,
+                  "market": "player_receptions",
+                  "player": "Chris Bell",
+                  "point": "2.5",
+                  "price": -106,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5424,
+                  "market": "player_field_goals_made",
+                  "player": "Chase McLaughlin",
+                  "point": "1.5",
+                  "price": -107,
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 8.793,
+              "pnl": 13.8,
+              "price": 276,
+              "resolution": "won"
+            }
+          ],
+          "valid_pairs": 14
+        },
+        "V5": {
+          "all_valid_pairs_settled": 18,
+          "all_valid_pairs_won": 8,
+          "eligible_legs_lost": 2,
+          "eligible_legs_settled": 7,
+          "eligible_legs_won": 3,
+          "note": "",
+          "qualified_legs": 7,
+          "selections": [
+            {
+              "book": "hardrock",
+              "break_even_prob": 0.316564,
+              "clv": [
+                {
+                  "beat_close": "False",
+                  "book": "hardrock",
+                  "closing_is_final": "True",
+                  "clv_pct": 0.0,
+                  "ev_vs_close_pct": 4.1538,
+                  "matched": "True"
+                },
+                null
+              ],
+              "fair_joint_prob": 0.33488,
+              "leg_results": [
+                "lost",
+                "void"
+              ],
+              "legs": [
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.6121,
+                  "market": "player_receptions",
+                  "player": "Kenneth Walker III",
+                  "point": "2.5",
+                  "price": -145,
+                  "side": "Over"
+                },
+                {
+                  "event_id": "24886",
+                  "fair_prob": 0.5471,
+                  "market": "player_reception_yds",
+                  "player": "Darius Slayton",
+                  "point": "13.5",
+                  "price": -115,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 5.786,
+              "pnl": -5.0,
+              "price": 216,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 18
+        },
+        "V6": {
+          "all_valid_pairs_settled": 0,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 0,
+          "eligible_legs_settled": 1,
+          "eligible_legs_won": 1,
+          "note": "",
+          "qualified_legs": 1,
+          "selections": [],
+          "valid_pairs": 0
+        },
+        "V7": {
+          "all_valid_pairs_settled": 0,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 0,
+          "eligible_legs_settled": 0,
+          "eligible_legs_won": 0,
+          "note": "blocked: actual cross-game parlay quote capture not implemented",
+          "qualified_legs": 0,
+          "selections": [],
+          "valid_pairs": 0
+        },
+        "V8": {
+          "all_valid_pairs_settled": 6,
+          "all_valid_pairs_won": 3,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 4,
+          "eligible_legs_won": 2,
+          "note": "",
+          "qualified_legs": 4,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.237954,
+              "clv": [
+                null,
+                {
+                  "beat_close": "True",
+                  "book": "bovada",
+                  "closing_is_final": "True",
+                  "clv_pct": 5.0,
+                  "ev_vs_close_pct": -1.6624,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.261733,
+              "leg_results": [
+                "lost",
+                "void"
+              ],
+              "legs": [
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5105,
+                  "market": "player_pass_completions",
+                  "player": "Jordan Love",
+                  "point": "20.5",
+                  "price": 105,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.5127,
+                  "market": "player_rush_yds",
+                  "player": "Kirk Cousins",
+                  "point": "0.5",
+                  "price": 105,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 9.993,
+              "pnl": -5.0,
+              "price": 320,
+              "resolution": "lost"
+            },
+            {
+              "book": "bovada",
+              "break_even_prob": 0.211416,
+              "clv": [
+                null,
+                {
+                  "beat_close": "False",
+                  "book": "hardrock",
+                  "closing_is_final": "True",
+                  "clv_pct": 0.0,
+                  "ev_vs_close_pct": 23.1112,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.243225,
+              "leg_results": [
+                "won",
+                "won"
+              ],
+              "legs": [
+                {
+                  "event_id": "24886",
+                  "fair_prob": 0.503467,
+                  "market": "player_receptions",
+                  "player": "Tyler Warren",
+                  "point": "5.5",
+                  "price": 120,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32671",
+                  "fair_prob": 0.4831,
+                  "market": "player_receptions",
+                  "player": "Davante Adams",
+                  "point": "4.5",
+                  "price": 115,
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 15.045,
+              "pnl": 18.65,
+              "price": 373,
+              "resolution": "won"
+            }
+          ],
+          "valid_pairs": 6
+        }
+      },
+      "cutoff": "2026-10-03T15:19:05Z",
+      "line_rows": 25615
+    },
+    {
+      "cross_game": {
+        "V1": {
+          "all_valid_pairs_settled": 1,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 2,
+          "eligible_legs_won": 0,
+          "note": "",
+          "qualified_legs": 2,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.237954,
+              "clv": [
+                null,
+                {
+                  "beat_close": "True",
+                  "book": "bovada",
+                  "closing_is_final": "True",
+                  "clv_pct": 5.0,
+                  "ev_vs_close_pct": -1.6624,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.261733,
+              "leg_results": [
+                "lost",
+                "void"
+              ],
+              "legs": [
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5105,
+                  "market": "player_pass_completions",
+                  "player": "Jordan Love",
+                  "point": "20.5",
+                  "price": 105,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.5127,
+                  "market": "player_rush_yds",
+                  "player": "Kirk Cousins",
+                  "point": "0.5",
+                  "price": 105,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 9.993,
+              "pnl": -5.0,
+              "price": 320,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 1
+        },
+        "V2": {
+          "all_valid_pairs_settled": 1,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 2,
+          "eligible_legs_won": 0,
+          "note": "",
+          "qualified_legs": 2,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.237954,
+              "clv": [
+                null,
+                {
+                  "beat_close": "True",
+                  "book": "bovada",
+                  "closing_is_final": "True",
+                  "clv_pct": 5.0,
+                  "ev_vs_close_pct": -1.6624,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.261733,
+              "leg_results": [
+                "lost",
+                "void"
+              ],
+              "legs": [
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5105,
+                  "market": "player_pass_completions",
+                  "player": "Jordan Love",
+                  "point": "20.5",
+                  "price": 105,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.5127,
+                  "market": "player_rush_yds",
+                  "player": "Kirk Cousins",
+                  "point": "0.5",
+                  "price": 105,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 9.993,
+              "pnl": -5.0,
+              "price": 320,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 1
+        },
+        "V3": {
+          "all_valid_pairs_settled": 1,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 2,
+          "eligible_legs_won": 0,
+          "note": "",
+          "qualified_legs": 2,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.237954,
+              "clv": [
+                null,
+                {
+                  "beat_close": "True",
+                  "book": "bovada",
+                  "closing_is_final": "True",
+                  "clv_pct": 5.0,
+                  "ev_vs_close_pct": -1.6624,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.261733,
+              "leg_results": [
+                "lost",
+                "void"
+              ],
+              "legs": [
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5105,
+                  "market": "player_pass_completions",
+                  "player": "Jordan Love",
+                  "point": "20.5",
+                  "price": 105,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.5127,
+                  "market": "player_rush_yds",
+                  "player": "Kirk Cousins",
+                  "point": "0.5",
+                  "price": 105,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 9.993,
+              "pnl": -5.0,
+              "price": 320,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 1
+        },
+        "V4": {
+          "all_valid_pairs_settled": 2,
+          "all_valid_pairs_won": 1,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 3,
+          "eligible_legs_won": 1,
+          "note": "",
+          "qualified_legs": 3,
+          "selections": [
+            {
+              "book": "draftkings",
+              "break_even_prob": 0.250926,
+              "clv": [
+                {
+                  "beat_close": "",
+                  "book": "draftkings",
+                  "closing_is_final": "False",
+                  "clv_pct": null,
+                  "ev_vs_close_pct": null,
+                  "matched": "False"
+                },
+                null
+              ],
+              "fair_joint_prob": 0.278088,
+              "leg_results": [
+                "void",
+                "won"
+              ],
+              "legs": [
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.5127,
+                  "market": "player_rush_yds",
+                  "player": "Kirk Cousins",
+                  "point": "0.5",
+                  "price": 106,
+                  "side": "Over"
+                },
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5424,
+                  "market": "player_field_goals_made",
+                  "player": "Chase McLaughlin",
+                  "point": "1.5",
+                  "price": -107,
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 10.825,
+              "pnl": 4.67,
+              "price": 299,
+              "resolution": "won_reduced"
+            }
+          ],
+          "valid_pairs": 2
+        },
+        "V5": {
+          "all_valid_pairs_settled": 5,
+          "all_valid_pairs_won": 2,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 4,
+          "eligible_legs_won": 1,
+          "note": "",
+          "qualified_legs": 4,
+          "selections": [
+            {
+              "book": "draftkings",
+              "break_even_prob": 0.275362,
+              "clv": [
+                null,
+                null
+              ],
+              "fair_joint_prob": 0.296747,
+              "leg_results": [
+                "void",
+                "won"
+              ],
+              "legs": [
+                {
+                  "event_id": "24886",
+                  "fair_prob": 0.5471,
+                  "market": "player_reception_yds",
+                  "player": "Darius Slayton",
+                  "point": "13.5",
+                  "price": -114,
+                  "side": "Over"
+                },
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5424,
+                  "market": "player_field_goals_made",
+                  "player": "Chase McLaughlin",
+                  "point": "1.5",
+                  "price": -107,
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 7.766,
+              "pnl": 4.67,
+              "price": 263,
+              "resolution": "won_reduced"
+            }
+          ],
+          "valid_pairs": 5
+        },
+        "V6": {
+          "all_valid_pairs_settled": 0,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 0,
+          "eligible_legs_settled": 0,
+          "eligible_legs_won": 0,
+          "note": "",
+          "qualified_legs": 0,
+          "selections": [],
+          "valid_pairs": 0
+        },
+        "V7": {
+          "all_valid_pairs_settled": 0,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 0,
+          "eligible_legs_settled": 0,
+          "eligible_legs_won": 0,
+          "note": "blocked: actual cross-game parlay quote capture not implemented",
+          "qualified_legs": 0,
+          "selections": [],
+          "valid_pairs": 0
+        },
+        "V8": {
+          "all_valid_pairs_settled": 1,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 2,
+          "eligible_legs_won": 0,
+          "note": "",
+          "qualified_legs": 2,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.237954,
+              "clv": [
+                null,
+                {
+                  "beat_close": "True",
+                  "book": "bovada",
+                  "closing_is_final": "True",
+                  "clv_pct": 5.0,
+                  "ev_vs_close_pct": -1.6624,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.261733,
+              "leg_results": [
+                "lost",
+                "void"
+              ],
+              "legs": [
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5105,
+                  "market": "player_pass_completions",
+                  "player": "Jordan Love",
+                  "point": "20.5",
+                  "price": 105,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.5127,
+                  "market": "player_rush_yds",
+                  "player": "Kirk Cousins",
+                  "point": "0.5",
+                  "price": 105,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 9.993,
+              "pnl": -5.0,
+              "price": 320,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 1
+        }
+      },
+      "cutoff": "2026-10-03T20:17:11Z",
+      "line_rows": 25739
+    },
+    {
+      "cross_game": {
+        "V1": {
+          "all_valid_pairs_settled": 2,
+          "all_valid_pairs_won": 1,
+          "eligible_legs_lost": 1,
+          "eligible_legs_settled": 3,
+          "eligible_legs_won": 2,
+          "note": "",
+          "qualified_legs": 3,
+          "selections": [
+            {
+              "book": "draftkings",
+              "break_even_prob": 0.221729,
+              "clv": [
+                null,
+                {
+                  "beat_close": "True",
+                  "book": "draftkings",
+                  "closing_is_final": "True",
+                  "clv_pct": 5.4795,
+                  "ev_vs_close_pct": 3.5287,
+                  "matched": "True"
+                }
+              ],
+              "fair_joint_prob": 0.237656,
+              "leg_results": [
+                "lost",
+                "won"
+              ],
+              "legs": [
+                {
+                  "event_id": "24886",
+                  "fair_prob": 0.5293,
+                  "market": "player_pass_interceptions",
+                  "player": "Marcus Mariota",
+                  "point": "0.5",
+                  "price": -105,
+                  "side": "Over"
+                },
+                {
+                  "event_id": "32669",
+                  "fair_prob": 0.449,
+                  "market": "player_pass_interceptions",
+                  "player": "Josh Allen",
+                  "point": "0.5",
+                  "price": 131,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 7.183,
+              "pnl": -5.0,
+              "price": 351,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 2
+        },
+        "V2": {
+          "all_valid_pairs_settled": 9,
+          "all_valid_pairs_won": 1,
+          "eligible_legs_lost": 3,
+          "eligible_legs_settled": 5,
+          "eligible_legs_won": 2,
+          "note": "",
+          "qualified_legs": 5,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.256098,
+              "clv": [
+                null,
+                {
+                  "beat_close": "",
+                  "book": "bovada",
+                  "closing_is_final": "False",
+                  "clv_pct": null,
+                  "ev_vs_close_pct": null,
+                  "matched": "False"
+                }
+              ],
+              "fair_joint_prob": 0.275183,
+              "leg_results": [
+                "lost",
+                "lost"
+              ],
+              "legs": [
+                {
+                  "event_id": "24886",
+                  "fair_prob": 0.5293,
+                  "market": "player_pass_interceptions",
+                  "player": "Marcus Mariota",
+                  "point": "0.5",
+                  "price": -105,
+                  "side": "Over"
+                },
+                {
+                  "event_id": "32666",
+                  "fair_prob": 0.5199,
+                  "market": "player_receptions",
+                  "player": "Xavier Hutchinson",
+                  "point": "2.5",
+                  "price": 100,
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 7.452,
+              "pnl": -5.0,
+              "price": 290,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 9
+        },
+        "V3": {
+          "all_valid_pairs_settled": 9,
+          "all_valid_pairs_won": 1,
+          "eligible_legs_lost": 3,
+          "eligible_legs_settled": 5,
+          "eligible_legs_won": 2,
+          "note": "",
+          "qualified_legs": 5,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.256098,
+              "clv": [
+                null,
+                {
+                  "beat_close": "",
+                  "book": "bovada",
+                  "closing_is_final": "False",
+                  "clv_pct": null,
+                  "ev_vs_close_pct": null,
+                  "matched": "False"
+                }
+              ],
+              "fair_joint_prob": 0.275183,
+              "leg_results": [
+                "lost",
+                "lost"
+              ],
+              "legs": [
+                {
+                  "event_id": "24886",
+                  "fair_prob": 0.5293,
+                  "market": "player_pass_interceptions",
+                  "player": "Marcus Mariota",
+                  "point": "0.5",
+                  "price": -105,
+                  "side": "Over"
+                },
+                {
+                  "event_id": "32666",
+                  "fair_prob": 0.5199,
+                  "market": "player_receptions",
+                  "player": "Xavier Hutchinson",
+                  "point": "2.5",
+                  "price": 100,
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 7.452,
+              "pnl": -5.0,
+              "price": 290,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 9
+        },
+        "V4": {
+          "all_valid_pairs_settled": 41,
+          "all_valid_pairs_won": 10,
+          "eligible_legs_lost": 5,
+          "eligible_legs_settled": 10,
+          "eligible_legs_won": 5,
+          "note": "",
+          "qualified_legs": 10,
+          "selections": [
+            {
+              "book": "draftkings",
+              "break_even_prob": 0.265982,
+              "clv": [
+                {
+                  "beat_close": "",
+                  "book": "draftkings",
+                  "closing_is_final": "False",
+                  "clv_pct": null,
+                  "ev_vs_close_pct": null,
+                  "matched": "False"
+                },
+                null
+              ],
+              "fair_joint_prob": 0.287236,
+              "leg_results": [
+                "won",
+                "won"
+              ],
+              "legs": [
+                {
+                  "event_id": "32672",
+                  "fair_prob": 0.5335,
+                  "market": "player_receptions",
+                  "player": "Chris Bell",
+                  "point": "2.5",
+                  "price": -107,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5384,
+                  "market": "player_field_goals_made",
+                  "player": "Chase McLaughlin",
+                  "point": "1.5",
+                  "price": -106,
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 7.991,
+              "pnl": 13.8,
+              "price": 276,
+              "resolution": "won"
+            }
+          ],
+          "valid_pairs": 41
+        },
+        "V5": {
+          "all_valid_pairs_settled": 68,
+          "all_valid_pairs_won": 14,
+          "eligible_legs_lost": 6,
+          "eligible_legs_settled": 12,
+          "eligible_legs_won": 6,
+          "note": "",
+          "qualified_legs": 13,
+          "selections": [
+            {
+              "book": "hardrock",
+              "break_even_prob": 0.295918,
+              "clv": [
+                {
+                  "beat_close": "False",
+                  "book": "hardrock",
+                  "closing_is_final": "True",
+                  "clv_pct": 0.0,
+                  "ev_vs_close_pct": 4.1538,
+                  "matched": "True"
+                },
+                null
+              ],
+              "fair_joint_prob": 0.328747,
+              "leg_results": [
+                "lost",
+                "won"
+              ],
+              "legs": [
+                {
+                  "event_id": "32675",
+                  "fair_prob": 0.6106,
+                  "market": "player_receptions",
+                  "player": "Kenneth Walker III",
+                  "point": "2.5",
+                  "price": -145,
+                  "side": "Over"
+                },
+                {
+                  "event_id": "32664",
+                  "fair_prob": 0.5384,
+                  "market": "player_field_goals_made",
+                  "player": "Chase McLaughlin",
+                  "point": "1.5",
+                  "price": 100,
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 11.094,
+              "pnl": -5.0,
+              "price": 238,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 73
+        },
+        "V6": {
+          "all_valid_pairs_settled": 6,
+          "all_valid_pairs_won": 1,
+          "eligible_legs_lost": 2,
+          "eligible_legs_settled": 4,
+          "eligible_legs_won": 2,
+          "note": "",
+          "qualified_legs": 4,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.238095,
+              "clv": [
+                null,
+                {
+                  "beat_close": "",
+                  "book": "bovada",
+                  "closing_is_final": "False",
+                  "clv_pct": null,
+                  "ev_vs_close_pct": null,
+                  "matched": "False"
+                }
+              ],
+              "fair_joint_prob": 0.26248,
+              "leg_results": [
+                "won",
+                "lost"
+              ],
+              "legs": [
+                {
+                  "event_id": "24886",
+                  "fair_prob": 0.504867,
+                  "market": "player_receptions",
+                  "player": "Tyler Warren",
+                  "point": "5.5",
+                  "price": 110,
+                  "side": "Under"
+                },
+                {
+                  "event_id": "32666",
+                  "fair_prob": 0.5199,
+                  "market": "player_receptions",
+                  "player": "Xavier Hutchinson",
+                  "point": "2.5",
+                  "price": 100,
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 10.242,
+              "pnl": -5.0,
+              "price": 320,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 6
+        },
+        "V7": {
+          "all_valid_pairs_settled": 0,
+          "all_valid_pairs_won": 0,
+          "eligible_legs_lost": 0,
+          "eligible_legs_settled": 0,
+          "eligible_legs_won": 0,
+          "note": "blocked: actual cross-game parlay quote capture not implemented",
+          "qualified_legs": 0,
+          "selections": [],
+          "valid_pairs": 0
+        },
+        "V8": {
+          "all_valid_pairs_settled": 9,
+          "all_valid_pairs_won": 1,
+          "eligible_legs_lost": 3,
+          "eligible_legs_settled": 5,
+          "eligible_legs_won": 2,
+          "note": "",
+          "qualified_legs": 5,
+          "selections": [
+            {
+              "book": "bovada",
+              "break_even_prob": 0.256098,
+              "clv": [
+                null,
+                {
+                  "beat_close": "",
+                  "book": "bovada",
+                  "closing_is_final": "False",
+                  "clv_pct": null,
+                  "ev_vs_close_pct": null,
+                  "matched": "False"
+                }
+              ],
+              "fair_joint_prob": 0.275183,
+              "leg_results": [
+                "lost",
+                "lost"
+              ],
+              "legs": [
+                {
+                  "event_id": "24886",
+                  "fair_prob": 0.5293,
+                  "market": "player_pass_interceptions",
+                  "player": "Marcus Mariota",
+                  "point": "0.5",
+                  "price": -105,
+                  "side": "Over"
+                },
+                {
+                  "event_id": "32666",
+                  "fair_prob": 0.5199,
+                  "market": "player_receptions",
+                  "player": "Xavier Hutchinson",
+                  "point": "2.5",
+                  "price": 100,
+                  "side": "Under"
+                }
+              ],
+              "model_edge_pct": 7.452,
+              "pnl": -5.0,
+              "price": 290,
+              "resolution": "lost"
+            },
+            {
+              "book": "bovada",
+              "break_even_prob": 0.207039,
+              "clv": [
+                {
+                  "beat_close": "True",
+                  "book": "bovada",
+                  "closing_is_final": "True",
+                  "clv_pct": 4.5455,
+                  "ev_vs_close_pct": -2.2876,
+                  "matched": "True"
+                },
+                {
+                  "beat_close": "",
+                  "book": "bovada",
+                  "closing_is_final": "False",
+                  "clv_pct": null,
+                  "ev_vs_close_pct": null,
+                  "matched": "False"
+                }
+              ],
+              "fair_joint_prob": 0.222614,
+              "leg_results": [
+                "won",
+                "lost"
+              ],
+              "legs": [
+                {
+                  "event_id": "32669",
+                  "fair_prob": 0.449,
+                  "market": "player_pass_interceptions",
+                  "player": "Josh Allen",
+                  "point": "0.5",
+                  "price": 130,
+                  "side": "Over"
+                },
+                {
+                  "event_id": "32672",
+                  "fair_prob": 0.4958,
+                  "market": "player_receptions",
+                  "player": "Jauan Jennings",
+                  "point": "2.5",
+                  "price": 110,
+                  "side": "Over"
+                }
+              ],
+              "model_edge_pct": 7.523,
+              "pnl": -5.0,
+              "price": 383,
+              "resolution": "lost"
+            }
+          ],
+          "valid_pairs": 9
+        }
+      },
+      "cutoff": "2026-10-04T03:07:18Z",
+      "line_rows": 26802
+    }
+  ],
+  "target_date": "2026-10-04"
+}
