@@ -27,7 +27,7 @@ def capture_phase(api,now=None,hours_before=None,legacy_sgp=True):
     events_seen=sum(x.get("events",0) for x in snaps)
 
     # Additive metadata. Failures here are warnings; the canonical /ev board is already persisted.
-    meta=context={}
+    meta=context=steam={}
     try:
         max_hours=min(float(hours_before),36.0) if hours_before is not None else 36.0
         meta=instrumentation.capture_live_meta(api,now,max_hours=max_hours)
@@ -38,6 +38,11 @@ def capture_phase(api,now=None,hours_before=None,legacy_sgp=True):
         context=instrumentation.capture_context(api,now,max_hours=max_hours)
     except Exception as e:
         context={"warning":f"{type(e).__name__}: {e}"}; print("context warning",context["warning"]); traceback.print_exc()
+    try:
+        steam_hours=min(float(hours_before),12.0) if hours_before is not None else 12.0
+        steam=instrumentation.capture_movement(api,now,max_hours=steam_hours)
+    except Exception as e:
+        steam={"warning":f"{type(e).__name__}: {e}"}; print("steam warning",steam["warning"]); traceback.print_exc()
 
     try:
         shadow_obs=shadow_lab.run_observe(now)
@@ -48,8 +53,8 @@ def capture_phase(api,now=None,hours_before=None,legacy_sgp=True):
         telegram(f"Eevee — warning: snapshot found 0 events on {local:%a %H:%M} ET. API remaining={api.remaining}")
     instrumentation.health("capture","ok",events_seen,sum(x.get("changed_lines",0) for x in snaps),api,
                            note=f"hours_before={hours_before or SNAPSHOT_HOURS_BEFORE}; shadow={shadow_obs}")
-    out=dict(events=events_seen,snapshots=snaps,meta=meta,context=context,shadow_observations=shadow_obs,
-             api_calls=api.calls,remaining=api.remaining)
+    out=dict(events=events_seen,snapshots=snaps,meta=meta,context=context,steam=steam,
+             shadow_observations=shadow_obs,api_calls=api.calls,remaining=api.remaining)
     print("capture ok",out); return out
 
 
