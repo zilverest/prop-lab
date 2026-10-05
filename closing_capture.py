@@ -19,6 +19,7 @@ CLOSING_FIELDS=[
 ]
 OWN_CLV_FIELDS=[
     "graded_ts","candidate_ts","event_id","market","player","player_id","point","side","book","price",
+    "hours_to_kick","timing_bucket","ev_pct","fair_prob","fair_source","n_books",
     "outcome_id","closing_price","closing_point","closing_at","is_stale","same_point",
     "candidate_implied_prob","closing_implied_prob","clv_implied_pp","beat_close_price","beat_close_point",
     "line_type","match_method",
@@ -127,6 +128,18 @@ def _closing_lookup():
     return by_id,exact,loose
 
 
+def _timing_bucket(hours):
+    try:h=float(hours)
+    except Exception:return ""
+    if h>24:return "T-24h+"
+    if h>12:return "T-24_to_12h"
+    if h>8:return "T-12_to_8h"
+    if h>4:return "T-8_to_4h"
+    if h>2:return "T-4_to_2h"
+    if h>1:return "T-2_to_1h"
+    return "T-1h"
+
+
 def _better_point(side, taken, close):
     try: a=float(taken); b=float(close)
     except Exception: return ""
@@ -173,6 +186,8 @@ def grade_candidates(now=None):
             graded_ts=ts,candidate_ts=c.get("ts",""),event_id=c.get("event_id",""),market=c.get("market",""),
             player=c.get("player",""),player_id=(ident or {}).get("player_id",""),point=c.get("point",""),
             side=c.get("side",""),book=c.get("book",""),price=c.get("price",""),
+            hours_to_kick=c.get("hours_to_kick",""),timing_bucket=_timing_bucket(c.get("hours_to_kick","")),
+            ev_pct=c.get("ev_pct",""),fair_prob=c.get("fair_prob",""),fair_source=c.get("fair_source",""),n_books=c.get("n_books",""),
             outcome_id=(ident or {}).get("outcome_id",""),closing_price=close.get("closing_price",""),
             closing_point=close.get("closing_point",""),closing_at=close.get("closing_at",""),
             is_stale=close.get("is_stale",""),same_point=str(bool(same)),
