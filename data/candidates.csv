@@ -2052,3 +2052,6 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-04T03:07:18Z,football_nfl,32677,2026-10-06T00:15:00Z,New Orleans Saints,Atlanta Falcons,player_receptions,Alvin Kamara,3.5,Over,kalshi,156,5.82,0.4133,pinnacle,10,45.1,False,ev +5.8 fair 0.413 pinnacle 10b
 2026-10-04T03:07:18Z,football_nfl,32677,2026-10-06T00:15:00Z,New Orleans Saints,Atlanta Falcons,player_receptions,Austin Hooper,1.5,Under,hardrock,-150,5.8,0.6348,pinnacle,11,45.1,True,ev +5.8 fair 0.635 pinnacle 11b
 2026-10-04T03:07:18Z,football_nfl,32677,2026-10-06T00:15:00Z,New Orleans Saints,Atlanta Falcons,player_rush_yds,Kendre Miller,24.5,Over,hardrock,120,13.26,0.5148,kalshi,4,45.1,True,ev +13.3 fair 0.515 kalshi 4b
+2026-10-05T02:40:39Z,football_nfl,32677,2026-10-06T00:15:00Z,New Orleans Saints,Atlanta Falcons,player_reception_yds,Bijan Robinson,39.5,Over,kalshi,108,3.56,0.4979,pinnacle,11,21.6,False,ev +3.6 fair 0.498 pinnacle 11b
+2026-10-05T02:40:39Z,football_nfl,32677,2026-10-06T00:15:00Z,New Orleans Saints,Atlanta Falcons,player_receptions,Alvin Kamara,3.5,Over,kalshi,156,5.82,0.4133,pinnacle,10,21.6,False,ev +5.8 fair 0.413 pinnacle 10b
+2026-10-05T02:40:39Z,football_nfl,32677,2026-10-06T00:15:00Z,New Orleans Saints,Atlanta Falcons,player_rush_yds,Kendre Miller,24.5,Over,hardrock,120,11.07,0.5049,kalshi,4,21.6,True,ev +11.1 fair 0.505 kalshi 4b
