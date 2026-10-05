@@ -17,6 +17,8 @@ CLOSING_FIELDS=[
     "point","outcome_id","book_outcome_id","line_type","closing_price","closing_point","closing_at",
     "closing_age_seconds","is_stale","opening_price","opening_point","opening_at","opening_age_seconds",
 ]
+MAX_CLOSING_EVENTS_PER_RUN = 8
+
 OWN_CLV_FIELDS=[
     "graded_ts","candidate_ts","event_id","market","player","player_id","point","side","book","price",
     "hours_to_kick","timing_bucket","ev_pct","fair_prob","fair_source","n_books",
@@ -100,14 +102,23 @@ def capture(api, now=None, min_after_kick_minutes=10):
     done=set(state_get("closing_captured_events",[]) or [])
     market_index=_market_index()
     new_rows=[]; newly_done=[]; failures=[]
+
+    # Newest completed events first. Historical backfill is deliberately bounded so
+    # closing-line evidence can never crowd out the time-sensitive live pipeline.
+    eligible=[]
     for eid,e in events.items():
         if eid in done: continue
-        try: mins=(now-parse_iso(e["commence_time"])).total_seconds()/60
-        except Exception: continue
+        try:
+            kick=parse_iso(e["commence_time"]); mins=(now-kick).total_seconds()/60
+        except Exception:
+            continue
         if mins < min_after_kick_minutes: continue
         markets=sorted(market_index.get(eid,set()))
-        if not markets:
-            continue
+        if not markets: continue
+        eligible.append((kick,eid,e,markets))
+    eligible.sort(reverse=True)
+
+    for _kick,eid,e,markets in eligible[:MAX_CLOSING_EVENTS_PER_RUN]:
         ok=True; event_rows=[]
         for chunk in _chunks(markets):
             resp=api.get(f"/sports/{e.get('sport') or SPORTS[0]}/events/{eid}/odds/closing",
@@ -120,7 +131,8 @@ def capture(api, now=None, min_after_kick_minutes=10):
     append_rows("closing_lines",new_rows,CLOSING_FIELDS)
     if newly_done:
         state_set("closing_captured_events",sorted(done|set(newly_done)))
-    summary=dict(ts=ts,events=len(newly_done),rows=len(new_rows),failures=failures)
+    summary=dict(ts=ts,events=len(newly_done),rows=len(new_rows),failures=failures,
+                 backlog=max(0,len(eligible)-len(newly_done)))
     print("closing capture",json.dumps(summary,sort_keys=True)); return summary
 
 
