@@ -24,10 +24,10 @@ import slips
 NY=ZoneInfo("America/New_York")
 
 FIELDS=[
-    "ts","snapshot_ts","target_date","week_key","variant","family","rule","selector","slip_no",
+    "ts","snapshot_ts","target_date","week_key","hours_to_first_kick","timing_bucket","variant","family","rule","selector","slip_no",
     "qualified_legs","valid_pairs","decision","selection_key","legs","book","price","fair_joint_prob",
     "break_even_prob","model_edge_pct","persistence_min","meta_coverage","resolution","pnl","brier",
-    "calibration_error","settled_ts","note",
+    "calibration_error","clv_legs","avg_clv_implied_pp","beat_close_legs","settled_ts","note",
 ]
 
 VARIANTS={
@@ -165,11 +165,30 @@ def _selection_key(p):
     return "||".join(sorted("|".join(map(str,(x["event_id"],x["market"],x["player"],x["point"],x["side"]))) for x in (p["a"],p["b"])))
 
 
-def _row(variant,family,rule,selector,slip_no,qualified_legs,valid_pairs,p,target_date,snapshot_ts,meta_coverage):
+def _timing(now,eids):
+    kicks=[]
+    evmap={r.get("event_id"):r for r in read_rows("events")}
+    for eid in eids:
+        try:kicks.append(parse_iso(evmap[eid]["commence_time"]))
+        except Exception:pass
+    if not kicks:return "",""
+    h=(min(kicks)-now).total_seconds()/3600
+    if h>18:b="T-24h+"
+    elif h>10:b="T-12h"
+    elif h>6:b="T-8h"
+    elif h>3:b="T-4h"
+    elif h>1.5:b="T-2h"
+    else:b="T-1h"
+    return round(h,2),b
+
+
+def _row(variant,family,rule,selector,slip_no,qualified_legs,valid_pairs,p,target_date,snapshot_ts,meta_coverage,hours_to_first,timing_bucket):
     base=dict(ts=iso(),snapshot_ts=snapshot_ts,target_date=target_date,week_key=_week_key(target_date),
+              hours_to_first_kick=hours_to_first,timing_bucket=timing_bucket,
               variant=variant,family=family,rule=rule,selector=selector,slip_no=slip_no,
               qualified_legs=qualified_legs,valid_pairs=valid_pairs,persistence_min="",meta_coverage=round(meta_coverage,3),
-              resolution="",pnl="",brier="",calibration_error="",settled_ts="",note="SHADOW_DIAGNOSTIC · never an official forward decision")
+              resolution="",pnl="",brier="",calibration_error="",clv_legs="",avg_clv_implied_pp="",beat_close_legs="",
+              settled_ts="",note="SHADOW_DIAGNOSTIC · never an official forward decision")
     if not p:
         return dict(base,decision="no_play",selection_key="",legs="[]",book="",price="",fair_joint_prob="",
                     break_even_prob="",model_edge_pct="")
@@ -193,6 +212,7 @@ def observe(now=None):
     existing={(r.get("snapshot_ts"),r.get("variant"),r.get("slip_no")) for r in read_rows("shadow_snapshots")}
     persist=_persistence(eids,snapshot_ts); meta=_meta_index()
     meta_hits=sum(1 for r in rows if _line_key(r) in meta); coverage=(meta_hits/len(rows)) if rows else 0
+    hours_to_first,timing_bucket=_timing(now,eids)
     out=[]
 
     all_by_leg=defaultdict(dict); gated=defaultdict(dict)
@@ -206,7 +226,7 @@ def observe(now=None):
             k=(snapshot_ts,"OFF_"+model,str(i))
             if k in existing:continue
             out.append(_row("OFF_"+model,"official_mirror",parlay_lab.MODEL_META[model]["detail"],"official",i,
-                            result["qualified_legs"],result["valid_pairs"],p,target_date,snapshot_ts,coverage))
+                            result["qualified_legs"],result["valid_pairs"],p,target_date,snapshot_ts,coverage,hours_to_first,timing_bucket))
 
     for name,cfg in VARIANTS.items():
         legs,pairs=_build(cfg,rows,now,persist,meta)
@@ -214,7 +234,7 @@ def observe(now=None):
         for i,p in enumerate(sels,1):
             k=(snapshot_ts,name,str(i))
             if k in existing:continue
-            out.append(_row(name,cfg["family"],cfg["rule"],cfg["selector"],i,len(legs),len(pairs),p,target_date,snapshot_ts,coverage))
+            out.append(_row(name,cfg["family"],cfg["rule"],cfg["selector"],i,len(legs),len(pairs),p,target_date,snapshot_ts,coverage,hours_to_first,timing_bucket))
     n=append_rows("shadow_snapshots",out,FIELDS)
     print("shadow observe",json.dumps(dict(ts=iso(now),snapshot_ts=snapshot_ts,target_date=target_date,rows=n,meta_coverage=coverage),sort_keys=True))
     return n
@@ -230,6 +250,29 @@ def _grade(row,grader):
     if all(x=="won" for x in rs):return "won",rs
     if "won" in rs:return "won_reduced",rs
     return ("void" if all(x=="void" for x in rs) else "push"),rs
+
+
+def _selected_clv(row):
+    try:legs=json.loads(row.get("legs","[]"))
+    except Exception:return []
+    identities={}
+    for x in read_rows("line_identity_history"):
+        identities[(x.get("event_id"),x.get("market"),x.get("player"),x.get("point"),x.get("side"),x.get("book"))]=x
+    by_id={}; exact={}
+    for x in read_rows("closing_lines"):
+        if x.get("outcome_id"):by_id[x["outcome_id"]]=x
+        exact[(x.get("event_id"),x.get("market"),x.get("player"),x.get("point"),x.get("side"),x.get("book"))]=x
+    vals=[]
+    for l in legs:
+        k=(l.get("event_id"),l.get("market"),l.get("player"),str(l.get("point","")),l.get("side"),row.get("book",""))
+        ident=identities.get(k); close=by_id.get((ident or {}).get("outcome_id","")) if ident else None
+        if close is None:close=exact.get(k)
+        if not close or str(close.get("closing_point",""))!=str(l.get("point","")):continue
+        try:
+            taken=am_to_p(int(float(l["price"]))); z=am_to_p(int(float(close["closing_price"])))
+        except Exception:continue
+        vals.append(100*(z-taken))
+    return vals
 
 
 def settle(now=None):
@@ -255,6 +298,9 @@ def settle(now=None):
         r["resolution"]=res;r["pnl"]=round(pnl,2);r["settled_ts"]=iso(now)
         if p is not None and y is not None:
             r["brier"]=round((p-y)**2,6);r["calibration_error"]=round(y-p,6)
+        clv=_selected_clv(r)
+        if clv:
+            r["clv_legs"]=len(clv);r["avg_clv_implied_pp"]=round(sum(clv)/len(clv),4);r["beat_close_legs"]=sum(x>0 for x in clv)
         changed+=1
     if changed:
         with open(csv_path("shadow_snapshots"),"w",newline="") as f:
@@ -270,8 +316,11 @@ def _metrics(rows):
     b=[_f(r.get("brier")) for r in settled if _f(r.get("brier")) is not None]
     pnl=sum(_f(r.get("pnl"),0) for r in settled);stake=STAKE_USD*len(settled)
     unique=len({(r.get("target_date"),r.get("selection_key")) for r in settled})
+    clv=[_f(r.get("avg_clv_implied_pp")) for r in settled if _f(r.get("avg_clv_implied_pp")) is not None]
+    beat=sum(_i(r.get("beat_close_legs"),0) for r in settled);clv_legs=sum(_i(r.get("clv_legs"),0) for r in settled)
     return dict(obs=len(settled),unique=unique,wins=wins,losses=losses,expected=expected,
-                brier=(sum(b)/len(b) if b else None),pnl=pnl,roi=(100*pnl/stake if stake else None))
+                brier=(sum(b)/len(b) if b else None),pnl=pnl,roi=(100*pnl/stake if stake else None),
+                avg_clv=(sum(clv)/len(clv) if clv else None),beat_close=(100*beat/clv_legs if clv_legs else None))
 
 
 def write_report():
@@ -283,12 +332,14 @@ def write_report():
         b="—" if m["brier"] is None else f'{m["brier"]:.3f}'
         roi="—" if m["roi"] is None else f'{m["roi"]:+.1f}%'
         pnl_txt="$"+f'{m["pnl"]:+.2f}'
-        trs.append(f'<tr><td><b>{html.escape(name)}</b><small>{html.escape(rule)}</small></td><td>{m["obs"]}</td><td>{m["unique"]}</td><td>{m["wins"]}-{m["losses"]}</td><td>{m["expected"]:.2f}</td><td>{b}</td><td>{pnl_txt}</td><td>{roi}</td></tr>')
+        clv_txt="—" if m["avg_clv"] is None else f'{m["avg_clv"]:+.2f}pp'
+        beat_txt="—" if m["beat_close"] is None else f'{m["beat_close"]:.0f}%'
+        trs.append(f'<tr><td><b>{html.escape(name)}</b><small>{html.escape(rule)}</small></td><td>{m["obs"]}</td><td>{m["unique"]}</td><td>{m["wins"]}-{m["losses"]}</td><td>{m["expected"]:.2f}</td><td>{b}</td><td>{clv_txt}</td><td>{beat_txt}</td><td>{pnl_txt}</td><td>{roi}</td></tr>')
     page=f'''<!doctype html><meta charset="utf-8"><title>Prop Lab Diagnostics</title><style>
 body{{font:14px/1.45 system-ui;max-width:1100px;margin:auto;padding:22px;color:#18181b}}h1{{font-size:24px}}p{{color:#666}}table{{width:100%;border-collapse:collapse}}th,td{{padding:8px;border-bottom:1px solid #e5e5e5;text-align:right}}th:first-child,td:first-child{{text-align:left}}small{{display:block;color:#777;font-weight:400;max-width:400px}}.note{{background:#f6f6f7;padding:12px;border-radius:10px}}</style>
 <h1>Shadow diagnostics</h1><p>Gate, selector and timing observations. These are repeated snapshot observations, not official forward wagers.</p>
 <div class="note"><b>Interpretation:</b> expected wins, Brier score and CLV should lead P&amp;L. Repeated snapshots of the same selection are not independent samples.</div>
-<table><thead><tr><th>Variant</th><th>Settled obs</th><th>Unique</th><th>W-L</th><th>Expected W</th><th>Brier</th><th>P&amp;L</th><th>ROI</th></tr></thead><tbody>{''.join(trs)}</tbody></table>'''
+<table><thead><tr><th>Variant</th><th>Settled obs</th><th>Unique</th><th>W-L</th><th>Expected W</th><th>Brier</th><th>Avg CLV</th><th>Beat close</th><th>P&amp;L</th><th>ROI</th></tr></thead><tbody>{''.join(trs)}</tbody></table>'''
     with open(os.path.join(DOCS,"diagnostics.html"),"w",encoding="utf-8") as f:f.write(page)
     return page
 
