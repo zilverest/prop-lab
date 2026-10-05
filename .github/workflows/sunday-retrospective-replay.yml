@@ -1,0 +1,35 @@
+name: sunday-retrospective-replay
+
+on:
+  push:
+    paths:
+      - "research/sunday_2026_10_04_replay.py"
+      - ".github/workflows/sunday-retrospective-replay.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run Sunday retrospective replay
+        run: python3 research/sunday_2026_10_04_replay.py
+
+      - name: Commit replay outputs
+        run: |
+          git config user.name "eevee-bot"
+          git config user.email "eevee-bot@users.noreply.github.com"
+          git add research/sunday_2026_10_04_replay/
+          git diff --cached --quiet && echo "nothing new" && exit 0
+          git commit -m "Sunday missed-freeze retrospective replay"
+          git pull --rebase origin main || true
+          git push
