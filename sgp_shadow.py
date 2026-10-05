@@ -35,6 +35,8 @@ import slips as _slips
 NY = ZoneInfo("America/New_York")
 OBSERVE_HOURS_BEFORE = 36.0
 FREEZE_HOURS_BEFORE = 8.0
+QUOTE_TRACK_HOURS_BEFORE = 12.0
+QUOTE_TRACK_MAX_PAIRS = 8
 MAX_QUOTES_PER_EVENT = 30
 ROSTER_MAX_AGE_DAYS = 7
 SHADOW_BOOKS = tuple(SGP_BOOKS)              # PropLine SGP books currently supported by the project
@@ -110,6 +112,14 @@ RESULT_FIELDS = [
     "settled_ts", "board_date", "week_key", "event_id", "home", "away", "model", "pair_id", "book",
     "sgp_price", "stake", "resolution", "pnl", "model_joint_prob", "book_break_even_prob", "pricing_edge_pp",
     "qb_player", "catcher_player", "archetype", "tier",
+]
+QUOTE_SNAPSHOT_FIELDS = [
+    "ts","snapshot_ts","event_id","commence_time","hours_to_kick","pair_id",
+    "qb_player","catcher_player","archetype","tier","rho_cons","independent_prob","model_joint_prob",
+    "dual_confirm","core_quality","qb_persistence","catcher_persistence",
+    "qb_main","catcher_main","qb_fresh_age_sec","catcher_fresh_age_sec",
+    "book","quoted","sgp_price","book_break_even_prob","pricing_edge_pp",
+    "independent_price","correlation_factor","error",
 ]
 ROSTER_FIELDS = ["season", "week", "team", "position", "full_name", "football_name", "status"]
 
@@ -532,6 +542,95 @@ def observe(now=None):
                         tier_a_pairs=sum(p["core_quality"] and p["tier"]=="A" for p in true),tier_b_pairs=sum(p["core_quality"] and p["tier"]=="B" for p in true),
                         frozen="",note=status))
     return append_rows("sgp_shadow_boards",new,BOARD_FIELDS)
+
+
+def _quote_meta_index():
+    idx=defaultdict(list)
+    for r in read_rows("current_line_meta"):
+        k=(r.get("event_id"),r.get("market"),r.get("player"),str(r.get("point","")),r.get("side"))
+        idx[k].append(r)
+    return idx
+
+
+def _leg_quote_features(leg, meta_idx, seen_counts, now):
+    k=(leg.get("event_id"),leg.get("market"),leg.get("player"),str(leg.get("point","")),leg.get("side"))
+    rows=meta_idx.get(k,[])
+    main=any(r.get("line_type")=="main" for r in rows)
+    ages=[]
+    for r in rows:
+        stamp=r.get("last_seen_at") or r.get("market_last_update") or r.get("last_change_at")
+        try:
+            age=(now-parse_iso(stamp)).total_seconds()
+            if age>=0:ages.append(age)
+        except Exception:
+            pass
+    return dict(main=main,fresh_age=(min(ages) if ages else None),persistence=seen_counts.get(k,0))
+
+
+def track_quote_history(api, now=None):
+    """Observe actual SGP quote trajectories without changing any frozen model decision.
+
+    Tracks a small, fixed cap of the strongest verified same-team Tier A/B candidates
+    from T-12h to kickoff. Each hourly snapshot records quote, break-even, model edge,
+    freshness/main-line metadata, and candidate persistence.
+    """
+    now=now or utcnow(); rows,status=_snapshot_rows(now)
+    if not rows:return dict(events=0,rows=0,skipped=status)
+    roster_status=ensure_roster_cache(now)
+    if roster_status.startswith("unavailable"):
+        return dict(events=0,rows=0,skipped=roster_status)
+    roster_idx=_roster_index();priors=_load_priors();meta_idx=_quote_meta_index()
+    seen_counts=_slips.candidate_seen_counts()
+    existing={(r.get("snapshot_ts"),r.get("event_id"),r.get("pair_id"),r.get("book"))
+              for r in read_rows("sgp_quote_snapshots")}
+    by_event=defaultdict(list)
+    for r in rows:by_event[r["event_id"]].append(r)
+    out=[];events=0
+    for eid,erows in by_event.items():
+        ev=_event_row(eid);h=_event_hours(ev,now)
+        if h is None or not (0<h<=QUOTE_TRACK_HOURS_BEFORE):continue
+        u=_candidate_universe(eid,erows,roster_idx,priors)
+        pairs=[p for p in u["true"] if p.get("relation")=="same_team" and p.get("core_quality")
+               and p.get("tier") in ("A","B") and p.get("rho_cons") is not None]
+        pairs=pairs[:QUOTE_TRACK_MAX_PAIRS]
+        if not pairs:continue
+        events+=1;snap=max((r.get("ts","") for r in erows),default="")
+        sport=erows[0].get("sport") or SPORTS[0]
+        for p in pairs:
+            qf=_leg_quote_features(p["qb"],meta_idx,seen_counts,now)
+            cf=_leg_quote_features(p["catcher"],meta_idx,seen_counts,now)
+            prob=p.get("model_prob")
+            for book in SHADOW_BOOKS:
+                key=(snap,eid,p["pair_id"],book)
+                if key in existing:continue
+                res=api.post(f"/sports/{sport}/events/{eid}/sgp",
+                             {"bookmaker":book,"legs":_pair_body(p["qb"],p["catcher"])})
+                quoted=isinstance(res,dict) and res.get("quoted") is True and res.get("sgp_price") not in ("",None)
+                price=int(float(res["sgp_price"])) if quoted else None
+                be=am_to_p(price) if price is not None else None
+                edge=100*(prob-be) if prob is not None and be is not None else None
+                err=""
+                if isinstance(res,dict) and "_error" in res:err=f"http {res['_error']}"
+                elif isinstance(res,dict) and not quoted:err=str(res.get("reason") or res.get("note") or "not_quoted")[:120]
+                out.append(dict(
+                    ts=iso(now),snapshot_ts=snap,event_id=eid,commence_time=ev.get("commence_time",""),
+                    hours_to_kick=round(h,2),pair_id=p["pair_id"],qb_player=p["qb"].get("player",""),
+                    catcher_player=p["catcher"].get("player",""),archetype=p.get("archetype",""),tier=p.get("tier",""),
+                    rho_cons=p.get("rho_cons",""),independent_prob=p.get("independent_prob",""),
+                    model_joint_prob=prob if prob is not None else "",dual_confirm=p.get("dual_confirm",False),
+                    core_quality=p.get("core_quality",False),qb_persistence=qf["persistence"],catcher_persistence=cf["persistence"],
+                    qb_main=qf["main"],catcher_main=cf["main"],
+                    qb_fresh_age_sec="" if qf["fresh_age"] is None else round(qf["fresh_age"],1),
+                    catcher_fresh_age_sec="" if cf["fresh_age"] is None else round(cf["fresh_age"],1),
+                    book=book,quoted=quoted,sgp_price="" if price is None else price,
+                    book_break_even_prob="" if be is None else be,pricing_edge_pp="" if edge is None else edge,
+                    independent_price=res.get("independent_price","") if isinstance(res,dict) else "",
+                    correlation_factor=res.get("correlation_factor","") if isinstance(res,dict) else "",error=err,
+                ))
+                existing.add(key)
+    n=append_rows("sgp_quote_snapshots",out,QUOTE_SNAPSHOT_FIELDS)
+    summary=dict(events=events,rows=n,skipped="",api_calls=getattr(api,"calls",0))
+    print("sgp quote history",json.dumps(summary,sort_keys=True));return summary
 
 
 def _frozen_event_ids():
