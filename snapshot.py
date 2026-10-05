@@ -102,7 +102,7 @@ def sgp_probes(api, ev, sport, ts, rows):
                             correlation_factor=res.get("correlation_factor", ""), quoted=res.get("quoted", ""), note=note))
     return out
 
-def run(api=None, from_file=None, event_id=None, sport="football_nfl", do_sgp=True):
+def run(api=None, from_file=None, event_id=None, sport="football_nfl", do_sgp=True, hours_before=None):
     ts = iso()
     seen = state_get("line_sigs", {})          # key -> sig of last written row (change-only)
     n_lines = n_cand = n_sgp = n_events = 0
@@ -112,10 +112,10 @@ def run(api=None, from_file=None, event_id=None, sport="football_nfl", do_sgp=Tr
     else:
         evs = api.get(f"/sports/{sport}/events")
         if isinstance(evs, dict) and "_error" in evs: raise RuntimeError(f"events: {evs}")
-        now = utcnow()
+        now = utcnow(); horizon = SNAPSHOT_HOURS_BEFORE if hours_before is None else float(hours_before)
         for e in evs:
             kick = parse_iso(e["commence_time"])
-            if 0 < (kick - now).total_seconds() / 3600 <= SNAPSHOT_HOURS_BEFORE:
+            if 0 < (kick - now).total_seconds() / 3600 <= horizon:
                 ev = api.get(f"/sports/{sport}/events/{e['id']}/ev")
                 if isinstance(ev, dict) and "_error" not in ev and ev.get("lines"):
                     events.append(ev)
@@ -158,6 +158,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--from-file"); ap.add_argument("--event-id"); ap.add_argument("--sport", default="football_nfl")
     ap.add_argument("--no-sgp", action="store_true")
+    ap.add_argument("--hours-before", type=float)
     a = ap.parse_args()
     api = None if a.from_file else Api()
-    run(api, a.from_file, a.event_id, a.sport, do_sgp=not a.no_sgp)
+    run(api, a.from_file, a.event_id, a.sport, do_sgp=not a.no_sgp, hours_before=a.hours_before)
