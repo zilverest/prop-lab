@@ -25,7 +25,7 @@ jobs:
 
       - name: Syntax + offline tests
         run: |
-          python3 -m py_compile common.py snapshot.py close.py closing_capture.py instrumentation.py shadow_lab.py evidence_report.py parlay_lab.py sgp_shadow.py slips.py run.py
+          python3 -m py_compile common.py snapshot.py close.py closing_capture.py instrumentation.py shadow_lab.py evidence_report.py calibration_report.py parlay_lab.py sgp_shadow.py slips.py run.py
           python3 -m unittest discover -s tests -v
 
       - name: Compact retained research data
