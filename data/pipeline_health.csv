@@ -1,0 +1,2 @@
+ts,phase,status,events,rows,api_calls,api_remaining,note
+2026-10-05T12:28:08Z,capture,ok,1,621,4,4949,hours_before=30.0; shadow=22
