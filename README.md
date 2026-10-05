@@ -33,10 +33,16 @@ Every candidate is logged whether or not it's at a bettable book, and every one 
 | `sgp_shadow.py` | separate S0/S1/S2/S3-A:E single-game shadow runner: roster verification, actual `/sgp` quotes, frozen decisions, rejection audit, settlement |
 | `report.py` | legacy H1–H4 rollups + verdicts → `docs/ledger.html` + `docs/internal.html` |
 | `docs/index.html` | dynamic Parlay Lab forward-research cockpit — GitHub Pages homepage |
-| `run.py` | one tick: snapshot → close → legacy slips → cross-game V1–V8 → SGP shadow → reports → Telegram |
+| `run.py` | phased runner: capture → research/freeze → settle/report; each phase can run independently |
+| `instrumentation.py` | stable outcome/player IDs, quote freshness metadata, game context, pipeline health |
+| `closing_capture.py` | direct `/odds/closing` archive + ID-aware CLV diagnostics, separate from H2 |
+| `shadow_lab.py` | additive gate/selector/timing tournament + Brier/calibration/CLV metrics |
+| `evidence_report.py` | book/market/side/timing CLV cohort report → `docs/evidence.html` |
 | `common.py` | API client, CSV store, gates, Telegram |
 | `SGP_SHADOW.md` | SGP shadow model definitions, generated files, timing, and settlement rules |
-| `.github/workflows/lab.yml` | cron every 6h, commits data + docs back to the repo |
+| `.github/workflows/lab.yml` | base 6h pipeline with an immutable commit after capture, freeze, and settlement |
+| `.github/workflows/fast-game-capture.yml` | hourly near-game capture/freeze on primary NFL game days |
+| `.github/workflows/instrumentation-validation.yml` | compile + offline unit-test gate for research plumbing |
 
 All data is plain CSV — open in pandas or Excel. `data/state.json` holds bookkeeping (change-detection signatures, closed events, message cadence).
 
@@ -49,6 +55,30 @@ The older Top-8-straights and weekly “board captured” messages are retired. 
 - **FAILED / warning** — immediately on an exception or an empty Thu–Sun snapshot.
 
 Cross-game prices are still reconstructed from the two leg prices. Telegram explicitly says `recon` and tells you to verify the live platform ticket; no bet is placed automatically. V7 remains blocked until actual parlay-quote capture exists.
+
+## Instrumentation sprint
+
+The official forward models are frozen. New research is additive and is stored separately so it cannot rewrite V1–V8 or S0–S3 outcomes.
+
+The pipeline now commits in three stages:
+
+```
+capture exact board + IDs/freshness
+→ git checkpoint
+→ freeze official research decisions
+→ git checkpoint
+→ settlement + canonical closing lines + reports
+→ git checkpoint
+```
+
+That ordering prevents a downstream API failure from erasing a successfully captured pregame board.
+
+Near game time, a second workflow captures the board more frequently. Every committed board is mirrored into a shadow tournament that tests gate ablations, selector alternatives, persistence, quote freshness, main-vs-alt lines, timing buckets, and matched controls. Shadow observations record expected wins, Brier score, calibration error, canonical closing-line movement and paper P&L.
+
+Research views:
+- `/diagnostics.html` — gate / selector / timing shadow tournament
+- `/evidence.html` — canonical CLV cohorts by book, market, side, timing, line type and fair source
+- `research/INSTRUMENTATION_PLAN.md` — pre-registered interpretation and promotion rules
 
 ## Building slips (paper only)
 
