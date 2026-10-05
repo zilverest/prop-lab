@@ -38,6 +38,7 @@ Every candidate is logged whether or not it's at a bettable book, and every one 
 | `closing_capture.py` | direct `/odds/closing` archive + ID-aware CLV diagnostics, separate from H2 |
 | `shadow_lab.py` | additive gate/selector/timing tournament + Brier/calibration/CLV metrics |
 | `evidence_report.py` | book/market/side/timing CLV cohort report → `docs/evidence.html` |
+| `calibration_report.py` | fair-probability calibration + Brier diagnostics → `docs/calibration.html` |
 | `common.py` | API client, CSV store, gates, Telegram |
 | `SGP_SHADOW.md` | SGP shadow model definitions, generated files, timing, and settlement rules |
 | `.github/workflows/lab.yml` | base 6h pipeline with an immutable commit after capture, freeze, and settlement |
@@ -78,6 +79,7 @@ Near game time, a second workflow captures the board more frequently. Every comm
 Research views:
 - `/diagnostics.html` — gate / selector / timing shadow tournament
 - `/evidence.html` — canonical CLV cohorts by book, market, side, timing, line type and fair source
+- `/calibration.html` — predicted vs realized win rates and Brier score by probability, timing, side and market
 - `research/INSTRUMENTATION_PLAN.md` — pre-registered interpretation and promotion rules
 
 ## Building slips (paper only)
