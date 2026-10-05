@@ -9,6 +9,7 @@ on:
       - "instrumentation.py"
       - "shadow_lab.py"
       - "evidence_report.py"
+      - "calibration_report.py"
       - "common.py"
       - "parlay_lab.py"
       - "sgp_shadow.py"
@@ -28,6 +29,6 @@ jobs:
         with:
           python-version: "3.12"
       - name: Compile
-        run: python3 -m py_compile common.py snapshot.py close.py closing_capture.py instrumentation.py shadow_lab.py evidence_report.py parlay_lab.py sgp_shadow.py slips.py run.py
+        run: python3 -m py_compile common.py snapshot.py close.py closing_capture.py instrumentation.py shadow_lab.py evidence_report.py calibration_report.py parlay_lab.py sgp_shadow.py slips.py run.py
       - name: Unit tests
         run: python3 -m unittest discover -s tests -v
