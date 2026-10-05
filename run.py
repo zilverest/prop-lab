@@ -11,7 +11,7 @@ import traceback
 
 from common import *
 import snapshot, close, report, slips, parlay_lab, sgp_shadow
-import instrumentation, closing_capture, shadow_lab
+import instrumentation, closing_capture, shadow_lab, evidence_report
 
 
 def _clock(now=None):
@@ -105,6 +105,7 @@ def settle_phase(api,now=None):
 
     parlay_lab.write_dashboard()
     report.write_pages()
+    evidence_report.write()
 
     if local.weekday()==1 and 8<=local.hour<15 and state_get("parlay_summary_week")!=week:
         telegram(parlay_lab.weekly_telegram(now));state_set("parlay_summary_week",week)
