@@ -1,0 +1,51 @@
+name: instrumentation-api-smoke
+
+on:
+  push:
+    paths:
+      - ".github/workflows/instrumentation-api-smoke.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify live PropLine instrumentation endpoints
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          from common import *
+          api=Api(); now=utcnow()
+          current=[r for r in read_rows("current_lines") if parse_iso(r["commence_time"])>now]
+          assert current, "no upcoming current_lines rows"
+          current.sort(key=lambda r:r["commence_time"])
+          eid=current[0]["event_id"]; sport=current[0]["sport"]
+          markets=sorted({r["market"] for r in current if r["event_id"]==eid})[:3]
+          odds=api.get(f"/sports/{sport}/events/{eid}/odds",markets=",".join(markets),includeBookIds="true")
+          assert isinstance(odds,dict) and "_error" not in odds and odds.get("bookmakers"), odds
+          outcomes=[o for b in odds.get("bookmakers",[]) for m in b.get("markets",[]) for o in m.get("outcomes",[])]
+          assert outcomes and any(o.get("outcome_id") for o in outcomes), "missing outcome_id"
+          ctx=api.get(f"/sports/{sport}/events/{eid}/context")
+          assert isinstance(ctx,dict) and "_error" not in ctx, ctx
+
+          evmap={r["event_id"]:r for r in read_rows("events")}
+          done=[e for e in evmap.values() if parse_iso(e["commence_time"])<now]
+          done.sort(key=lambda e:e["commence_time"],reverse=True)
+          assert done, "no completed event"
+          de=done[0]; deid=de["event_id"]
+          cands=[r for r in read_rows("candidates") if r["event_id"]==deid]
+          mk=next((r["market"] for r in cands),None)
+          assert mk, "no completed-event candidate market"
+          closing=api.get(f"/sports/{de['sport']}/events/{deid}/odds/closing",markets=mk,includeBookIds="true")
+          assert isinstance(closing,dict) and "_error" not in closing and closing.get("bookmakers"), closing
+          print({"upcoming_event":eid,"markets":markets,"outcomes":len(outcomes),"closing_event":deid,"api_calls":api.calls})
+          PY
