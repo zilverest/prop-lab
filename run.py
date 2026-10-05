@@ -72,6 +72,12 @@ def research_phase(api,now=None,legacy_auto=True):
 
     # Official SGP shadow observe/freeze, unchanged. Settlement is a later phase.
     sgp_obs=sgp_shadow.observe(now)
+    try:
+        sgp_quotes=sgp_shadow.track_quote_history(api,now)
+    except Exception as e:
+        sgp_quotes={"warning":f"{type(e).__name__}: {e}"}
+        print("sgp quote history warning",sgp_quotes["warning"])
+        traceback.print_exc()
     sgp_fr=sgp_shadow.freeze(api,now)
     parlay_lab.write_dashboard()
 
@@ -83,8 +89,8 @@ def research_phase(api,now=None,legacy_auto=True):
 
     instrumentation.health("research","ok",sgp_fr.get("events",0),frozen+sgp_fr.get("decisions",0),api,
                            note=f"legacy_auto={legacy_auto}; sgp_obs={sgp_obs}")
-    out=dict(auto_slips=n_auto,parlay_frozen_rows=frozen,sgp_observations=sgp_obs,sgp_freeze=sgp_fr,
-             api_calls=api.calls,remaining=api.remaining)
+    out=dict(auto_slips=n_auto,parlay_frozen_rows=frozen,sgp_observations=sgp_obs,
+             sgp_quote_history=sgp_quotes,sgp_freeze=sgp_fr,api_calls=api.calls,remaining=api.remaining)
     print("research ok",out);return out
 
 
