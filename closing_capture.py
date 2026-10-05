@@ -37,12 +37,14 @@ def _event_map():
     return {r["event_id"]:r for r in read_rows("events") if r.get("event_id")}
 
 
-def _markets_for_event(eid):
-    m=set()
-    for name in ("line_identity_history","candidates","lines"):
+def _market_index():
+    """Build once per run; never rescan the large line-history file event by event."""
+    out=defaultdict(set)
+    for name in ("line_identity_history","candidates"):
         for r in read_rows(name):
-            if r.get("event_id")==eid and r.get("market"): m.add(r["market"])
-    return sorted(m)
+            if r.get("event_id") and r.get("market"):
+                out[r["event_id"]].add(r["market"])
+    return out
 
 
 def _flatten(resp, captured_ts):
@@ -78,13 +80,14 @@ def capture(api, now=None, min_after_kick_minutes=10):
     """
     now=now or utcnow(); ts=iso(now); events=_event_map()
     done=set(state_get("closing_captured_events",[]) or [])
+    market_index=_market_index()
     new_rows=[]; newly_done=[]; failures=[]
     for eid,e in events.items():
         if eid in done: continue
         try: mins=(now-parse_iso(e["commence_time"])).total_seconds()/60
         except Exception: continue
         if mins < min_after_kick_minutes: continue
-        markets=_markets_for_event(eid)
+        markets=sorted(market_index.get(eid,set()))
         if not markets:
             continue
         ok=True; event_rows=[]
