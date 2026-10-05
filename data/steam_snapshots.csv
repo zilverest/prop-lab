@@ -68,3 +68,75 @@ ts,sport,event_id,commence_time,hours_to_kick,market,name,team,open_point,latest
 2026-10-05T12:27:56Z,football_nfl,32677,2026-10-06T00:15:00Z,11.78,player_receptions,Over,,6.5,6.5,16,3,shortening,0.023,0.0,6.9
 2026-10-05T12:27:56Z,football_nfl,32677,2026-10-06T00:15:00Z,11.78,player_receptions,Over,,0.5,0.5,12,3,shortening,0.023,0.0,6.9
 2026-10-05T12:27:56Z,football_nfl,32677,2026-10-06T00:15:00Z,11.78,player_reception_yds,40+ Receiving Yards,,,,8,3,lengthening,-0.0225,,6.7
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_pass_yds,Over,,256.5,259.5,13,11,point_up,0.0,3.55,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_pass_yds,Under,,256.5,259.5,13,11,point_up,0.0,3.55,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_pass_yds,Over,,224.5,226.0,5,4,point_up,0.0,2.5,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_pass_yds,Under,,224.5,226.0,5,4,point_up,0.0,2.5,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Over,,12.5,14.0,6,6,point_up,0.0,2.0,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Under,,12.5,14.0,6,6,point_up,0.0,2.0,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Over,,84.5,86.5,9,5,point_up,0.0,2.6,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Under,,84.5,86.5,9,5,point_up,0.0,2.6,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Over,,20.5,18.5,8,5,point_down,0.0,-1.4,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Under,,20.5,18.5,8,5,point_down,0.0,-1.4,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Over,,5.5,3.5,5,4,point_down,0.0,-2.0,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Under,,5.5,3.5,5,4,point_down,0.0,-2.0,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Over,,38.5,36.5,6,5,point_down,0.0,-2.4,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Under,,38.5,36.5,6,5,point_down,0.0,-2.4,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Over,,78.5,79.5,9,7,point_up,0.0,1.0,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Under,,78.5,79.5,9,7,point_up,0.0,1.0,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,Over,,18.0,16.0,8,6,point_down,0.0,-2.0,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,Under,,18.0,16.0,8,6,point_down,0.0,-2.0,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,Over,,25.5,23.5,4,4,point_down,0.0,-2.0,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,Under,,25.5,23.5,4,4,point_down,0.0,-2.0,100.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_attempts,Over,,19.5,18.5,6,6,point_down,0.0,-1.0,90.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_attempts,Under,,19.5,18.5,6,6,point_down,0.0,-1.0,90.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,Over,,5.5,4.5,6,6,point_down,0.0,-1.0,90.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,Under,,5.5,4.5,6,6,point_down,0.0,-1.0,90.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Over,,44.5,45.5,5,5,point_up,0.0,1.0,75.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Under,,44.5,45.5,5,5,point_up,0.0,1.0,75.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,Over,,87.5,88.5,7,5,point_up,0.0,1.0,75.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,Under,,87.5,88.5,7,5,point_up,0.0,1.0,75.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,Over,,37.5,36.5,5,5,point_down,0.0,-1.0,75.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,Under,,37.5,36.5,5,5,point_down,0.0,-1.0,75.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Over,,17.5,16.5,4,4,point_down,0.0,-1.0,60.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Under,,17.5,16.5,4,4,point_down,0.0,-1.0,60.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_attempts,Over,,11.5,10.5,4,4,point_down,0.0,-1.0,60.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_attempts,Under,,11.5,10.5,4,4,point_down,0.0,-1.0,60.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,Over,,29.5,30.5,5,4,point_up,0.0,1.0,60.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,Under,,29.5,30.5,5,4,point_up,0.0,1.0,60.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_receptions,Over,,3.5,4.5,3,3,point_up,0.0,1.0,45.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_receptions,Under,,3.5,4.5,3,3,point_up,0.0,1.0,45.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Over,,7.5,8.5,3,3,point_up,0.0,1.0,45.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Under,,7.5,8.5,3,3,point_up,0.0,1.0,45.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Over,,9.5,10.5,5,3,point_up,0.0,1.0,45.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,Under,,9.5,10.5,5,3,point_up,0.0,1.0,45.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,25+ Rushing Yards,,,,7,4,lengthening,-0.055,,22.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,20+ Rushing Yards,,,,6,3,lengthening,-0.0666,,20.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,15+ Rushing Yards,,,,4,3,lengthening,-0.0586,,17.6
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,15+ Rushing Yards,,,,3,3,lengthening,-0.0556,,16.7
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_receptions,Under,,1.5,1.5,12,6,lengthening,-0.0273,0.0,16.4
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,10+ Rushing Yards,,,,3,3,lengthening,-0.0518,,15.5
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,25+ Receiving Yards,,,,5,4,shortening,0.0385,,15.4
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,30+ Receiving Yards,,,,4,3,shortening,0.0501,,15.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_receptions,Under,,0.5,0.5,12,5,lengthening,-0.0276,0.0,13.8
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,20+ Rushing Yards,,,,3,3,lengthening,-0.0459,,13.8
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,10+ Rushing Yards,,,,6,3,lengthening,-0.0454,,13.6
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,20+ Receiving Yards,,,,4,3,shortening,0.044,,13.2
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_reception_yds,10+ Receiving Yards,,,,4,3,shortening,0.0436,,13.1
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,15+ Rushing Yards,,,,5,3,lengthening,-0.0422,,12.7
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_receptions,Over,,5.5,5.5,22,4,shortening,0.0256,0.0,10.2
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_receptions,Under,,5.5,5.5,21,4,lengthening,-0.0254,0.0,10.2
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_receptions,Over,,4.5,4.5,22,3,lengthening,-0.0337,0.0,10.1
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_attempts,24+ Rushing Attempts,,,,4,3,lengthening,-0.0333,,10.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,25+ Rushing Yards,,,,5,3,lengthening,-0.0334,,10.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,20+ Rushing Yards,,,,7,3,lengthening,-0.0326,,9.8
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_yds,25+ Rushing Yards,,,,8,3,lengthening,-0.0323,,9.7
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_receptions,Under,,4.5,4.5,21,3,shortening,0.0304,0.0,9.1
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_receptions,7+ Receptions,,,,7,3,shortening,0.0298,,8.9
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_attempts,18+ Rushing Attempts,,,,4,3,lengthening,-0.0298,,8.9
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_rush_attempts,14+ Rushing Attempts,,,,3,3,lengthening,-0.0277,,8.3
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_receptions,Over,,1.5,1.5,19,3,shortening,0.0261,0.0,7.8
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_receptions,Under,,1.5,1.5,18,3,lengthening,-0.0248,0.0,7.4
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_pass_yds,275+ Passing Yards,,,,7,3,shortening,0.0234,,7.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_receptions,Over,,6.5,6.5,16,3,shortening,0.0234,0.0,7.0
+2026-10-05T12:50:53Z,football_nfl,32677,2026-10-06T00:15:00Z,11.4,player_receptions,Over,,0.5,0.5,12,3,shortening,0.023,0.0,6.9
