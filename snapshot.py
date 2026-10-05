@@ -37,6 +37,15 @@ def line_key(r):
 def sig(r):
     return f"{r['price']}|{r['fair_prob']}|{r['ev_pct']}"
 
+def retain_history_line(r):
+    """Keep only the raw line universe any current model/report can use.
+    current_lines.csv still stores the full live board for SGP research."""
+    try:
+        fp = float(r["fair_prob"]); nb = int(float(r["n_books"]))
+    except (TypeError, ValueError):
+        return False
+    return GATE["fair_min"] <= fp <= GATE["fair_max"] and nb >= GATE["min_books"]
+
 def flatten_ev(ev, sport, ts):
     """One row per (line, tracked book outcome)."""
     rows = []
@@ -110,13 +119,16 @@ def run(api=None, from_file=None, event_id=None, sport="football_nfl", do_sgp=Tr
                 ev = api.get(f"/sports/{sport}/events/{e['id']}/ev")
                 if isinstance(ev, dict) and "_error" not in ev and ev.get("lines"):
                     events.append(ev)
+    current_history_keys = set()
     for ev in events:
         n_events += 1
         rows = flatten_ev(ev, sport, ts)
         current_rows.extend(rows)
         changed = []
         for r in rows:
-            k = line_key(r); s = sig(r)
+            if not retain_history_line(r):
+                continue
+            k = line_key(r); s = sig(r); current_history_keys.add(k)
             if seen.get(k) != s:
                 seen[k] = s; changed.append(r)
         n_lines += append_rows("lines", changed, LINE_FIELDS)
@@ -134,6 +146,8 @@ def run(api=None, from_file=None, event_id=None, sport="football_nfl", do_sgp=Tr
             if str(ev["id"]) not in {e["event_id"] for e in read_rows("events")} else None
     if events:
         _replace_current_lines(sport, current_rows)
+    # Only live, retained research lines need signatures. Old/deep-alt keys caused state.json to grow without bound.
+    seen = {k:v for k,v in seen.items() if k in current_history_keys}
     state_set("line_sigs", seen)
     state_set("last_snapshot", ts)
     summary = dict(ts=ts, events=n_events, changed_lines=n_lines, candidates=n_cand, sgp_probes=n_sgp,
