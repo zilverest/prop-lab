@@ -39,12 +39,29 @@ def _event_map():
 
 
 def _market_index():
-    """Build once per run; never rescan the large line-history file event by event."""
+    """Build once per run from rows that can matter to an experiment.
+
+    Candidate markets plus actually selected/frozen legs are sufficient for CLV. Avoid
+    asking /odds/closing for every deep-alt market seen in the identity archive.
+    """
     out=defaultdict(set)
-    for name in ("line_identity_history","candidates"):
+    for r in read_rows("candidates"):
+        if r.get("event_id") and r.get("market"):
+            out[r["event_id"]].add(r["market"])
+
+    for name in ("parlay_decisions","shadow_snapshots","sgp_shadow_decisions"):
         for r in read_rows(name):
-            if r.get("event_id") and r.get("market"):
-                out[r["event_id"]].add(r["market"])
+            raw=r.get("legs","")
+            if raw:
+                try: legs=json.loads(raw)
+                except Exception: legs=[]
+                for l in legs:
+                    if l.get("event_id") and l.get("market"):
+                        out[l["event_id"]].add(l["market"])
+            # SGP shadow stores the two legs in dedicated columns.
+            if r.get("event_id"):
+                if r.get("qb_market"): out[r["event_id"]].add(r["qb_market"])
+                if r.get("catcher_market"): out[r["event_id"]].add(r["catcher_market"])
     return out
 
 
