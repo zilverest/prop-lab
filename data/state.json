@@ -1747,6 +1747,7 @@
   "draftkings|32677|32677/player_receptions/Olamide Zaccheaus/1.5/Over|32677/player_rush_yds/Kendre Miller/39.5/Over": "2026-10-03T02:41:11Z",
   "draftkings|32678|32678/player_pass_tds/Dak Prescott/1.5/Under|32678/player_receptions/Kenneth Gainwell/1.5/Under": "2026-10-06T12:19:44Z",
   "draftkings|32678|32678/player_pass_tds/Dak Prescott/1.5/Under|32678/player_rush_attempts/Javonte Williams/17.5/Over": "2026-10-06T12:19:44Z",
+  "draftkings|32678|32678/player_pass_tds/Jalon Daniels/0.5/Under|32678/player_receptions/Bucky Irving/2.5/Over": "2026-10-06T21:58:10Z",
   "draftkings|32678|32678/player_pass_tds/Jalon Daniels/0.5/Under|32678/player_receptions/Kenneth Gainwell/1.5/Under": "2026-10-05T23:27:34Z",
   "draftkings|32678|32678/player_receptions/Kenneth Gainwell/1.5/Under|32678/player_rush_attempts/Javonte Williams/17.5/Over": "2026-10-05T23:27:34Z",
   "fanduel|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
@@ -1999,12 +2000,13 @@
   "fanduel|32677|32677/player_receptions/Olamide Zaccheaus/1.5/Over|32677/player_rush_yds/Kendre Miller/39.5/Over": "2026-10-03T02:41:11Z",
   "fanduel|32678|32678/player_pass_tds/Dak Prescott/1.5/Under|32678/player_receptions/Kenneth Gainwell/1.5/Under": "2026-10-06T12:19:44Z",
   "fanduel|32678|32678/player_pass_tds/Dak Prescott/1.5/Under|32678/player_rush_attempts/Javonte Williams/17.5/Over": "2026-10-06T12:19:44Z",
+  "fanduel|32678|32678/player_pass_tds/Jalon Daniels/0.5/Under|32678/player_receptions/Bucky Irving/2.5/Over": "2026-10-06T21:58:10Z",
   "fanduel|32678|32678/player_pass_tds/Jalon Daniels/0.5/Under|32678/player_receptions/Kenneth Gainwell/1.5/Under": "2026-10-05T23:27:34Z",
   "fanduel|32678|32678/player_receptions/Kenneth Gainwell/1.5/Under|32678/player_rush_attempts/Javonte Williams/17.5/Over": "2026-10-05T23:27:34Z"
  },
  "sgp_roster_cache": {
-  "downloaded_at": "2026-10-05T12:28:15Z",
-  "rows": 3102,
+  "downloaded_at": "2026-10-06T21:58:09Z",
+  "rows": 3105,
   "season": 2026,
   "source": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.csv"
  },
