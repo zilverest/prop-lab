@@ -46,10 +46,18 @@
   "32673",
   "32674",
   "32675",
-  "32676"
+  "32676",
+  "32677"
  ],
  "closing_captured_events": [
+  "23215",
   "24886",
+  "32654",
+  "32655",
+  "32656",
+  "32657",
+  "32658",
+  "32659",
   "32660",
   "32661",
   "32663",
@@ -661,6 +669,7 @@
   "ts": "2026-10-05T12:28:15Z"
  },
  "parlay_gameday_msg_date": "2026-10-05",
+ "parlay_summary_week": "2026-W41",
  "sgp_attempted": {
   "draftkings|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
   "draftkings|23215|23215/player_pass_yds/Lamar Jackson/199.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-26T20:20:37Z",
