@@ -1,0 +1,828 @@
+{
+  "account": {
+    "endpoint_status": {
+      "resolution": {
+        "ok": false,
+        "status": 504
+      },
+      "scores": {
+        "ok": true,
+        "status": 200
+      },
+      "sports": {
+        "ok": true,
+        "status": 200
+      },
+      "upcoming": {
+        "ok": true,
+        "status": 200
+      }
+    },
+    "quota": {
+      "archive_starts": null,
+      "daily_limit": "5000",
+      "daily_remaining": "4845",
+      "daily_reset": "1791417600",
+      "daily_used": "155",
+      "export_window_start": null
+    },
+    "sport_available": true
+  },
+  "books_seen_in_sample": {
+    "bovada": 2,
+    "courtside": 1,
+    "fanatics": 4,
+    "fanduel": 3,
+    "novig": 5,
+    "pick6": 5,
+    "prophetx": 5,
+    "underdog": 5
+  },
+  "closing_access_worked": true,
+  "core_market_sample_coverage": {
+    "player_assists": 4,
+    "player_points": 5,
+    "player_rebounds": 4,
+    "player_threes": 4
+  },
+  "documentation_constraint": "PropLine documentation says NBA graded history begins with the 2026-27 season.",
+  "event_coverage": {
+    "earliest_final_30d": "2026-10-03T23:00:00Z",
+    "final_games_30d": 12,
+    "latest_final_30d": "2026-10-07T02:00:00Z",
+    "sampled_completed_games": 5,
+    "score_rows_30d": 91,
+    "upcoming_events": 79
+  },
+  "events": [
+    {
+      "all_player_markets_present": [
+        "player_assists",
+        "player_points",
+        "player_points_10plus",
+        "player_points_15plus",
+        "player_points_rebounds_assists",
+        "player_rebounds",
+        "player_threes"
+      ],
+      "api": {
+        "closing": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4843",
+            "daily_reset": "1791417600",
+            "daily_used": "157",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "history": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4838",
+            "daily_reset": "1791417600",
+            "daily_used": "162",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "markets": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4844",
+            "daily_reset": "1791417600",
+            "daily_used": "156",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "results": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4844",
+            "daily_reset": "1791417600",
+            "daily_used": "156",
+            "export_window_start": null
+          },
+          "status": 200
+        }
+      },
+      "books": [
+        "bovada",
+        "fanatics",
+        "fanduel",
+        "novig",
+        "pick6",
+        "prophetx",
+        "underdog"
+      ],
+      "closing_outcomes": 300,
+      "core_markets_present": [
+        "player_points",
+        "player_rebounds",
+        "player_assists",
+        "player_threes"
+      ],
+      "end_to_end_joined_examples": [
+        {
+          "actual_value": 1.0,
+          "market": "player_assists",
+          "outcome_id": 11272930342,
+          "player": "Brandin Podziemski (GSW)",
+          "point": null,
+          "resolution": "lost",
+          "side": "To Record 3+ Assists"
+        },
+        {
+          "actual_value": 1.0,
+          "market": "player_assists",
+          "outcome_id": 11272930343,
+          "player": "Brandin Podziemski (GSW)",
+          "point": null,
+          "resolution": "lost",
+          "side": "To Record 4+ Assists"
+        },
+        {
+          "actual_value": 1.0,
+          "market": "player_assists",
+          "outcome_id": 11272930344,
+          "player": "Brandin Podziemski (GSW)",
+          "point": null,
+          "resolution": "lost",
+          "side": "To Record 5+ Assists"
+        },
+        {
+          "actual_value": 1.0,
+          "market": "player_assists",
+          "outcome_id": 11272930345,
+          "player": "Brandin Podziemski (GSW)",
+          "point": null,
+          "resolution": "lost",
+          "side": "To Record 6+ Assists"
+        }
+      ],
+      "event": {
+        "away_team": "Los Angeles Lakers",
+        "commence_time": "2026-10-07T02:00:00Z",
+        "home_team": "Golden State Warriors",
+        "id": "317856",
+        "status": "final"
+      },
+      "history_outcomes": 300,
+      "history_windows": {
+        "T-0.5h": true,
+        "T-12h": true,
+        "T-1h": true,
+        "T-24h": false,
+        "T-2h": true,
+        "T-4h": true,
+        "T-8h": true
+      },
+      "identity": {
+        "book_outcome_id": {
+          "present": 0,
+          "total": 900
+        },
+        "outcome_id": {
+          "present": 900,
+          "total": 900
+        },
+        "player_id": {
+          "present": 300,
+          "total": 900
+        }
+      },
+      "result_outcomes": 300
+    },
+    {
+      "all_player_markets_present": [
+        "player_assists",
+        "player_points",
+        "player_points_10plus",
+        "player_points_15plus",
+        "player_points_assists",
+        "player_points_rebounds",
+        "player_points_rebounds_assists",
+        "player_rebounds",
+        "player_rebounds_assists",
+        "player_threes"
+      ],
+      "api": {
+        "closing": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4843",
+            "daily_reset": "1791417600",
+            "daily_used": "157",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "history": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4842",
+            "daily_reset": "1791417600",
+            "daily_used": "158",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "markets": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4837",
+            "daily_reset": "1791417600",
+            "daily_used": "163",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "results": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4837",
+            "daily_reset": "1791417600",
+            "daily_used": "163",
+            "export_window_start": null
+          },
+          "status": 200
+        }
+      },
+      "books": [
+        "bovada",
+        "fanatics",
+        "fanduel",
+        "novig",
+        "pick6",
+        "prophetx",
+        "underdog"
+      ],
+      "closing_outcomes": 300,
+      "core_markets_present": [
+        "player_points",
+        "player_rebounds",
+        "player_assists",
+        "player_threes"
+      ],
+      "end_to_end_joined_examples": [
+        {
+          "actual_value": 3.0,
+          "market": "player_assists",
+          "outcome_id": 11272930106,
+          "player": "Julian Strawther (DEN)",
+          "point": null,
+          "resolution": "won",
+          "side": "To Record 3+ Assists"
+        },
+        {
+          "actual_value": 3.0,
+          "market": "player_assists",
+          "outcome_id": 11272930107,
+          "player": "Julian Strawther (DEN)",
+          "point": null,
+          "resolution": "lost",
+          "side": "To Record 4+ Assists"
+        },
+        {
+          "actual_value": 3.0,
+          "market": "player_assists",
+          "outcome_id": 11272930108,
+          "player": "Julian Strawther (DEN)",
+          "point": null,
+          "resolution": "lost",
+          "side": "To Record 5+ Assists"
+        },
+        {
+          "actual_value": 4.0,
+          "market": "player_assists",
+          "outcome_id": 11272930109,
+          "player": "Keyonte George (UTA)",
+          "point": null,
+          "resolution": "won",
+          "side": "To Record 3+ Assists"
+        }
+      ],
+      "event": {
+        "away_team": "Denver Nuggets",
+        "commence_time": "2026-10-07T01:00:00Z",
+        "home_team": "Utah Jazz",
+        "id": "318754",
+        "status": "final"
+      },
+      "history_outcomes": 300,
+      "history_windows": {
+        "T-0.5h": true,
+        "T-12h": false,
+        "T-1h": true,
+        "T-24h": false,
+        "T-2h": true,
+        "T-4h": true,
+        "T-8h": true
+      },
+      "identity": {
+        "book_outcome_id": {
+          "present": 0,
+          "total": 900
+        },
+        "outcome_id": {
+          "present": 900,
+          "total": 900
+        },
+        "player_id": {
+          "present": 300,
+          "total": 900
+        }
+      },
+      "result_outcomes": 300
+    },
+    {
+      "all_player_markets_present": [
+        "player_assists",
+        "player_points",
+        "player_points_10plus",
+        "player_points_15plus",
+        "player_points_assists",
+        "player_points_rebounds",
+        "player_points_rebounds_assists",
+        "player_rebounds",
+        "player_rebounds_assists",
+        "player_threes"
+      ],
+      "api": {
+        "closing": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4842",
+            "daily_reset": "1791417600",
+            "daily_used": "158",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "history": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4842",
+            "daily_reset": "1791417600",
+            "daily_used": "158",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "markets": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4833",
+            "daily_reset": "1791417600",
+            "daily_used": "167",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "results": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4843",
+            "daily_reset": "1791417600",
+            "daily_used": "157",
+            "export_window_start": null
+          },
+          "status": 200
+        }
+      },
+      "books": [
+        "courtside",
+        "fanatics",
+        "fanduel",
+        "novig",
+        "pick6",
+        "prophetx",
+        "underdog"
+      ],
+      "closing_outcomes": 311,
+      "core_markets_present": [
+        "player_points",
+        "player_rebounds",
+        "player_assists",
+        "player_threes"
+      ],
+      "end_to_end_joined_examples": [
+        {
+          "actual_value": 1.0,
+          "market": "player_rebounds",
+          "outcome_id": 11157793964,
+          "player": "Ajay Mitchell",
+          "point": 4.5,
+          "resolution": "lost",
+          "side": "Over"
+        },
+        {
+          "actual_value": 1.0,
+          "market": "player_rebounds",
+          "outcome_id": 11157793988,
+          "player": "Ajay Mitchell",
+          "point": 4.5,
+          "resolution": "won",
+          "side": "Under"
+        },
+        {
+          "actual_value": 1.0,
+          "market": "player_rebounds",
+          "outcome_id": 11158132928,
+          "player": "Jared McCain",
+          "point": 4.5,
+          "resolution": "lost",
+          "side": "Over"
+        },
+        {
+          "actual_value": 1.0,
+          "market": "player_rebounds",
+          "outcome_id": 11158132929,
+          "player": "Jared McCain",
+          "point": 4.5,
+          "resolution": "won",
+          "side": "Under"
+        }
+      ],
+      "event": {
+        "away_team": "New Orleans Pelicans",
+        "commence_time": "2026-10-07T00:00:00Z",
+        "home_team": "Oklahoma City Thunder",
+        "id": "318155",
+        "status": "final"
+      },
+      "history_outcomes": 311,
+      "history_windows": {
+        "T-0.5h": true,
+        "T-12h": true,
+        "T-1h": true,
+        "T-24h": false,
+        "T-2h": true,
+        "T-4h": true,
+        "T-8h": true
+      },
+      "identity": {
+        "book_outcome_id": {
+          "present": 0,
+          "total": 933
+        },
+        "outcome_id": {
+          "present": 933,
+          "total": 933
+        },
+        "player_id": {
+          "present": 311,
+          "total": 933
+        }
+      },
+      "result_outcomes": 311
+    },
+    {
+      "all_player_markets_present": [
+        "player_assists",
+        "player_points",
+        "player_points_assists",
+        "player_points_rebounds",
+        "player_points_rebounds_assists",
+        "player_rebounds",
+        "player_rebounds_assists",
+        "player_threes"
+      ],
+      "api": {
+        "closing": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4841",
+            "daily_reset": "1791417600",
+            "daily_used": "159",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "history": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4836",
+            "daily_reset": "1791417600",
+            "daily_used": "164",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "markets": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4841",
+            "daily_reset": "1791417600",
+            "daily_used": "159",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "results": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4832",
+            "daily_reset": "1791417600",
+            "daily_used": "168",
+            "export_window_start": null
+          },
+          "status": 200
+        }
+      },
+      "books": [
+        "fanatics",
+        "novig",
+        "pick6",
+        "prophetx",
+        "underdog"
+      ],
+      "closing_outcomes": 235,
+      "core_markets_present": [
+        "player_points",
+        "player_rebounds",
+        "player_assists",
+        "player_threes"
+      ],
+      "end_to_end_joined_examples": [
+        {
+          "actual_value": null,
+          "market": "player_assists",
+          "outcome_id": 11157075225,
+          "player": "Brandon Miller",
+          "point": null,
+          "resolution": "void",
+          "side": "10+ Assists"
+        },
+        {
+          "actual_value": null,
+          "market": "player_assists",
+          "outcome_id": 11157075226,
+          "player": "Brandon Miller",
+          "point": null,
+          "resolution": "void",
+          "side": "11+ Assists"
+        },
+        {
+          "actual_value": null,
+          "market": "player_assists",
+          "outcome_id": 11157075227,
+          "player": "Brandon Miller",
+          "point": null,
+          "resolution": "void",
+          "side": "2+ Assists"
+        },
+        {
+          "actual_value": null,
+          "market": "player_assists",
+          "outcome_id": 11157075228,
+          "player": "Brandon Miller",
+          "point": null,
+          "resolution": "void",
+          "side": "3+ Assists"
+        }
+      ],
+      "event": {
+        "away_team": "Brooklyn Nets",
+        "commence_time": "2026-10-06T23:00:00Z",
+        "home_team": "Charlotte Hornets",
+        "id": "317333",
+        "status": "final"
+      },
+      "history_outcomes": 235,
+      "history_windows": {
+        "T-0.5h": true,
+        "T-12h": false,
+        "T-1h": true,
+        "T-24h": false,
+        "T-2h": true,
+        "T-4h": true,
+        "T-8h": true
+      },
+      "identity": {
+        "book_outcome_id": {
+          "present": 0,
+          "total": 705
+        },
+        "outcome_id": {
+          "present": 705,
+          "total": 705
+        },
+        "player_id": {
+          "present": 235,
+          "total": 705
+        }
+      },
+      "result_outcomes": 235
+    },
+    {
+      "all_player_markets_present": [
+        "player_points",
+        "player_points_rebounds_assists"
+      ],
+      "api": {
+        "closing": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4839",
+            "daily_reset": "1791417600",
+            "daily_used": "161",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "history": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4840",
+            "daily_reset": "1791417600",
+            "daily_used": "160",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "markets": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4841",
+            "daily_reset": "1791417600",
+            "daily_used": "159",
+            "export_window_start": null
+          },
+          "status": 200
+        },
+        "results": {
+          "error": null,
+          "ok": true,
+          "quota": {
+            "archive_starts": null,
+            "daily_limit": "5000",
+            "daily_remaining": "4840",
+            "daily_reset": "1791417600",
+            "daily_used": "160",
+            "export_window_start": null
+          },
+          "status": 200
+        }
+      },
+      "books": [
+        "novig",
+        "pick6",
+        "prophetx",
+        "underdog"
+      ],
+      "closing_outcomes": 28,
+      "core_markets_present": [
+        "player_points"
+      ],
+      "end_to_end_joined_examples": [
+        {
+          "actual_value": 19.0,
+          "market": "player_points",
+          "outcome_id": 11041087371,
+          "player": "Darius Acuff Jr.",
+          "point": 14.5,
+          "resolution": "won",
+          "side": "Over"
+        },
+        {
+          "actual_value": 19.0,
+          "market": "player_points",
+          "outcome_id": 11041087372,
+          "player": "Darius Acuff Jr.",
+          "point": 14.5,
+          "resolution": "lost",
+          "side": "Under"
+        },
+        {
+          "actual_value": null,
+          "market": "player_points",
+          "outcome_id": 10848257030,
+          "player": "Austin Reaves",
+          "point": 12.5,
+          "resolution": "void",
+          "side": "Over"
+        },
+        {
+          "actual_value": 19.0,
+          "market": "player_points",
+          "outcome_id": 10912855403,
+          "player": "Darius Acuff Jr.",
+          "point": 14.5,
+          "resolution": "won",
+          "side": "Over"
+        }
+      ],
+      "event": {
+        "away_team": "Los Angeles Lakers",
+        "commence_time": "2026-10-06T02:00:00Z",
+        "home_team": "Sacramento Kings",
+        "id": "318158",
+        "status": "final"
+      },
+      "history_outcomes": 28,
+      "history_windows": {
+        "T-0.5h": true,
+        "T-12h": true,
+        "T-1h": true,
+        "T-24h": false,
+        "T-2h": false,
+        "T-4h": true,
+        "T-8h": false
+      },
+      "identity": {
+        "book_outcome_id": {
+          "present": 0,
+          "total": 84
+        },
+        "outcome_id": {
+          "present": 84,
+          "total": 84
+        },
+        "player_id": {
+          "present": 28,
+          "total": 84
+        }
+      },
+      "result_outcomes": 28
+    }
+  ],
+  "generated_at": "2026-10-07T19:43:12Z",
+  "history_access_worked": true,
+  "limitations": [
+    "No pre-2026-27 NBA graded regular-season archive is expected from PropLine.",
+    "Historical endpoint depth is tier-capped by event age.",
+    "Preseason is diagnostic only and must never be mixed with formal regular-season evidence.",
+    "Repeated snapshots are not independent observations."
+  ],
+  "phase": "NBA-0",
+  "phase1_recommendation": "If recent NBA history, closing lines and results are healthy, begin isolated forward NBA collection now for main-line player_points, player_rebounds, player_assists and player_threes. Keep preseason diagnostic-only. At the 2026-27 regular-season opener start a preregistered baseline focused on CLV and calibration, with no selector or SGP.",
+  "pinnacle_seen": false,
+  "resolution_summary": {
+    "days": null,
+    "nba": {},
+    "top_markets": []
+  },
+  "results_access_worked": true,
+  "scope": "read-only capability audit; no NBA model",
+  "sport": "basketball_nba",
+  "verdict": "CONDITIONAL PASS"
+}
