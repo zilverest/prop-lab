@@ -40,11 +40,16 @@ jobs:
           NBA_AUDIT_MAX_EVENTS: "5"
         run: python3 nba_audit.py
 
+      - name: Probe raw NBA history shape
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python3 nba_history_probe.py
+
       - name: Commit audit report to audit branch
         run: |
           git config user.name "eevee-bot"
           git config user.email "eevee-bot@users.noreply.github.com"
-          git add research/nba/NBA_DATA_AUDIT.md research/nba/nba_data_audit.json
+          git add research/nba/NBA_DATA_AUDIT.md research/nba/nba_data_audit.json research/nba/probe
           git diff --cached --quiet && echo "nothing new" && exit 0
           git commit -m "NBA Phase 0 audit $(date -u +%Y-%m-%dT%H:%MZ)"
           git pull --rebase origin "$GITHUB_REF_NAME" || true
