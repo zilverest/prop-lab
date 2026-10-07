@@ -1,0 +1,53 @@
+{
+  "closing": {
+    "ok": true,
+    "rows": null,
+    "status": 200,
+    "top_keys": [
+      "away_team",
+      "bookmakers",
+      "commence_time",
+      "home_team",
+      "id",
+      "sport_key",
+      "upgrade_url"
+    ],
+    "type": "dict"
+  },
+  "history": {
+    "ok": true,
+    "rows": null,
+    "status": 200,
+    "top_keys": [
+      "away_team",
+      "bookmakers",
+      "commence_time",
+      "home_team",
+      "id",
+      "live",
+      "sport_key",
+      "upgrade_url"
+    ],
+    "type": "dict"
+  },
+  "results": {
+    "ok": true,
+    "rows": null,
+    "status": 200,
+    "top_keys": [
+      "away_score",
+      "away_team",
+      "bookmakers",
+      "commence_time",
+      "context",
+      "home_score",
+      "home_team",
+      "id",
+      "live",
+      "sport_key",
+      "status",
+      "upgrade_url"
+    ],
+    "type": "dict"
+  }
+}

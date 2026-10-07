@@ -21,9 +21,9 @@
     "quota": {
       "archive_starts": null,
       "daily_limit": "5000",
-      "daily_remaining": "4845",
+      "daily_remaining": "4797",
       "daily_reset": "1791417600",
-      "daily_used": "155",
+      "daily_used": "203",
       "export_window_start": null
     },
     "sport_available": true
@@ -72,9 +72,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4843",
+            "daily_remaining": "4792",
             "daily_reset": "1791417600",
-            "daily_used": "157",
+            "daily_used": "208",
             "export_window_start": null
           },
           "status": 200
@@ -85,9 +85,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4838",
+            "daily_remaining": "4791",
             "daily_reset": "1791417600",
-            "daily_used": "162",
+            "daily_used": "209",
             "export_window_start": null
           },
           "status": 200
@@ -98,9 +98,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4844",
+            "daily_remaining": "4794",
             "daily_reset": "1791417600",
-            "daily_used": "156",
+            "daily_used": "206",
             "export_window_start": null
           },
           "status": 200
@@ -111,9 +111,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4844",
+            "daily_remaining": "4792",
             "daily_reset": "1791417600",
-            "daily_used": "156",
+            "daily_used": "208",
             "export_window_start": null
           },
           "status": 200
@@ -226,9 +226,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4843",
+            "daily_remaining": "4795",
             "daily_reset": "1791417600",
-            "daily_used": "157",
+            "daily_used": "205",
             "export_window_start": null
           },
           "status": 200
@@ -239,9 +239,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4842",
+            "daily_remaining": "4787",
             "daily_reset": "1791417600",
-            "daily_used": "158",
+            "daily_used": "213",
             "export_window_start": null
           },
           "status": 200
@@ -252,9 +252,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4837",
+            "daily_remaining": "4791",
             "daily_reset": "1791417600",
-            "daily_used": "163",
+            "daily_used": "209",
             "export_window_start": null
           },
           "status": 200
@@ -265,9 +265,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4837",
+            "daily_remaining": "4796",
             "daily_reset": "1791417600",
-            "daily_used": "163",
+            "daily_used": "204",
             "export_window_start": null
           },
           "status": 200
@@ -380,9 +380,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4842",
+            "daily_remaining": "4786",
             "daily_reset": "1791417600",
-            "daily_used": "158",
+            "daily_used": "214",
             "export_window_start": null
           },
           "status": 200
@@ -393,9 +393,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4842",
+            "daily_remaining": "4790",
             "daily_reset": "1791417600",
-            "daily_used": "158",
+            "daily_used": "210",
             "export_window_start": null
           },
           "status": 200
@@ -406,9 +406,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4833",
+            "daily_remaining": "4793",
             "daily_reset": "1791417600",
-            "daily_used": "167",
+            "daily_used": "207",
             "export_window_start": null
           },
           "status": 200
@@ -419,9 +419,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4843",
+            "daily_remaining": "4792",
             "daily_reset": "1791417600",
-            "daily_used": "157",
+            "daily_used": "208",
             "export_window_start": null
           },
           "status": 200
@@ -532,9 +532,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4841",
+            "daily_remaining": "4785",
             "daily_reset": "1791417600",
-            "daily_used": "159",
+            "daily_used": "215",
             "export_window_start": null
           },
           "status": 200
@@ -545,9 +545,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4836",
+            "daily_remaining": "4790",
             "daily_reset": "1791417600",
-            "daily_used": "164",
+            "daily_used": "210",
             "export_window_start": null
           },
           "status": 200
@@ -558,9 +558,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4841",
+            "daily_remaining": "4781",
             "daily_reset": "1791417600",
-            "daily_used": "159",
+            "daily_used": "219",
             "export_window_start": null
           },
           "status": 200
@@ -571,9 +571,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4832",
+            "daily_remaining": "4791",
             "daily_reset": "1791417600",
-            "daily_used": "168",
+            "daily_used": "209",
             "export_window_start": null
           },
           "status": 200
@@ -676,9 +676,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4839",
+            "daily_remaining": "4788",
             "daily_reset": "1791417600",
-            "daily_used": "161",
+            "daily_used": "212",
             "export_window_start": null
           },
           "status": 200
@@ -689,9 +689,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4840",
+            "daily_remaining": "4780",
             "daily_reset": "1791417600",
-            "daily_used": "160",
+            "daily_used": "220",
             "export_window_start": null
           },
           "status": 200
@@ -702,9 +702,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4841",
+            "daily_remaining": "4791",
             "daily_reset": "1791417600",
-            "daily_used": "159",
+            "daily_used": "209",
             "export_window_start": null
           },
           "status": 200
@@ -715,9 +715,9 @@
           "quota": {
             "archive_starts": null,
             "daily_limit": "5000",
-            "daily_remaining": "4840",
+            "daily_remaining": "4789",
             "daily_reset": "1791417600",
-            "daily_used": "160",
+            "daily_used": "211",
             "export_window_start": null
           },
           "status": 200
@@ -805,7 +805,7 @@
       "result_outcomes": 28
     }
   ],
-  "generated_at": "2026-10-07T19:43:12Z",
+  "generated_at": "2026-10-07T21:30:00Z",
   "history_access_worked": true,
   "limitations": [
     "No pre-2026-27 NBA graded regular-season archive is expected from PropLine.",

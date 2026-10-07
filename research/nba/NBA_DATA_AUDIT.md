@@ -1,6 +1,6 @@
 # NBA Phase 0 - Data Capability Audit
 
-Generated: 2026-10-07T19:43:12Z
+Generated: 2026-10-07T21:30:00Z
 
 ## Verdict: CONDITIONAL PASS
 
@@ -12,7 +12,7 @@ PropLine documentation says NBA graded history begins with the 2026-27 season.
 - History access worked: True
 - Closing-line access worked: True
 - Results access worked: True
-- Quota snapshot: {"archive_starts": null, "daily_limit": "5000", "daily_remaining": "4845", "daily_reset": "1791417600", "daily_used": "155", "export_window_start": null}
+- Quota snapshot: {"archive_starts": null, "daily_limit": "5000", "daily_remaining": "4797", "daily_reset": "1791417600", "daily_used": "203", "export_window_start": null}
 
 ## Event coverage
 
