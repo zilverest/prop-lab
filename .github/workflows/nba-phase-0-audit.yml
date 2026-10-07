@@ -1,0 +1,51 @@
+name: nba-phase-0-audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - nba-phase-0-audit
+    paths:
+      - "nba_audit.py"
+      - "tests/test_nba_audit.py"
+      - "common.py"
+      - ".github/workflows/nba-phase-0-audit.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nba-phase-0-audit
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile and test
+        run: |
+          python3 -m py_compile nba_audit.py common.py
+          python3 -m unittest tests.test_nba_audit -v
+
+      - name: Run NBA Phase 0 read-only audit
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          NBA_AUDIT_MAX_EVENTS: "5"
+        run: python3 nba_audit.py
+
+      - name: Commit audit report to audit branch
+        run: |
+          git config user.name "eevee-bot"
+          git config user.email "eevee-bot@users.noreply.github.com"
+          git add research/nba/NBA_DATA_AUDIT.md research/nba/nba_data_audit.json
+          git diff --cached --quiet && echo "nothing new" && exit 0
+          git commit -m "NBA Phase 0 audit $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin "$GITHUB_REF_NAME" || true
+          git push origin HEAD:"$GITHUB_REF_NAME"
