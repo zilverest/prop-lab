@@ -5249,14 +5249,14 @@
   "46673|player_rush_yds|Kyren Williams|79.5|Under|kalshi": "-170|0.6115|-2.88"
  },
  "parlay_board_last": {
-  "date": "2026-10-05",
+  "date": "2026-10-08",
   "events": [
-   "32677"
+   "32678"
   ],
   "rows": 8,
-  "ts": "2026-10-05T12:28:15Z"
+  "ts": "2026-10-08T12:26:10Z"
  },
- "parlay_gameday_msg_date": "2026-10-05",
+ "parlay_gameday_msg_date": "2026-10-08",
  "parlay_summary_week": "2026-W41",
  "sgp_attempted": {
   "draftkings|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
@@ -5512,10 +5512,14 @@
   "draftkings|32678|32678/player_pass_tds/Dak Prescott/1.5/Under|32678/player_rush_attempts/Javonte Williams/17.5/Over": "2026-10-06T12:19:44Z",
   "draftkings|32678|32678/player_pass_tds/Jalon Daniels/0.5/Under|32678/player_receptions/Bucky Irving/2.5/Over": "2026-10-06T21:58:10Z",
   "draftkings|32678|32678/player_pass_tds/Jalon Daniels/0.5/Under|32678/player_receptions/CeeDee Lamb/5.5/Under": "2026-10-07T12:13:35Z",
+  "draftkings|32678|32678/player_pass_tds/Jalon Daniels/0.5/Under|32678/player_receptions/Chris Godwin Jr./3.5/Over": "2026-10-08T12:26:10Z",
   "draftkings|32678|32678/player_pass_tds/Jalon Daniels/0.5/Under|32678/player_receptions/Kenneth Gainwell/1.5/Under": "2026-10-05T23:27:34Z",
   "draftkings|32678|32678/player_receptions/Kenneth Gainwell/1.5/Under|32678/player_rush_attempts/Javonte Williams/17.5/Over": "2026-10-05T23:27:34Z",
+  "draftkings|32682|32682/player_pass_completions/C.J. Stroud/21.5/Under|32682/player_receptions/Carnell Tate/4.5/Under": "2026-10-08T12:26:10Z",
+  "draftkings|32683|32683/player_reception_yds/Tyler Warren/49.5/Over|32683/player_receptions/Pat Freiermuth/3.5/Over": "2026-10-08T12:26:10Z",
   "draftkings|32684|32684/player_pass_interceptions/Kirk Cousins/0.5/Under|32684/player_pass_tds/Drake Maye/1.5/Under": "2026-10-07T22:26:18Z",
-  "draftkings|32686|32686/player_receptions/RJ Harvey/4.5/Over|32686/player_rush_yds/J.K. Dobbins/59.5/Under": "2026-10-07T12:13:35Z",
+  "draftkings|32686|32686/player_receptions/RJ Harvey/4.5/Over|32686/player_rush_yds/J.K. Dobbins/59.5/Under": "2026-10-08T12:26:10Z",
+  "draftkings|46671|46671/player_pass_tds/Jordan Love/1.5/Under|46671/player_receptions/Tucker Kraft/4.5/Under": "2026-10-08T12:26:10Z",
   "fanduel|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
   "fanduel|23215|23215/player_pass_yds/Lamar Jackson/199.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-26T20:20:37Z",
   "fanduel|23215|23215/player_reception_yds/George Pickens/59.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-24T20:56:16Z",
@@ -5769,10 +5773,14 @@
   "fanduel|32678|32678/player_pass_tds/Dak Prescott/1.5/Under|32678/player_rush_attempts/Javonte Williams/17.5/Over": "2026-10-06T12:19:44Z",
   "fanduel|32678|32678/player_pass_tds/Jalon Daniels/0.5/Under|32678/player_receptions/Bucky Irving/2.5/Over": "2026-10-06T21:58:10Z",
   "fanduel|32678|32678/player_pass_tds/Jalon Daniels/0.5/Under|32678/player_receptions/CeeDee Lamb/5.5/Under": "2026-10-07T12:13:35Z",
+  "fanduel|32678|32678/player_pass_tds/Jalon Daniels/0.5/Under|32678/player_receptions/Chris Godwin Jr./3.5/Over": "2026-10-08T12:26:10Z",
   "fanduel|32678|32678/player_pass_tds/Jalon Daniels/0.5/Under|32678/player_receptions/Kenneth Gainwell/1.5/Under": "2026-10-05T23:27:34Z",
   "fanduel|32678|32678/player_receptions/Kenneth Gainwell/1.5/Under|32678/player_rush_attempts/Javonte Williams/17.5/Over": "2026-10-05T23:27:34Z",
+  "fanduel|32682|32682/player_pass_completions/C.J. Stroud/21.5/Under|32682/player_receptions/Carnell Tate/4.5/Under": "2026-10-08T12:26:10Z",
+  "fanduel|32683|32683/player_reception_yds/Tyler Warren/49.5/Over|32683/player_receptions/Pat Freiermuth/3.5/Over": "2026-10-08T12:26:10Z",
   "fanduel|32684|32684/player_pass_interceptions/Kirk Cousins/0.5/Under|32684/player_pass_tds/Drake Maye/1.5/Under": "2026-10-07T22:26:18Z",
-  "fanduel|32686|32686/player_receptions/RJ Harvey/4.5/Over|32686/player_rush_yds/J.K. Dobbins/59.5/Under": "2026-10-07T12:13:35Z"
+  "fanduel|32686|32686/player_receptions/RJ Harvey/4.5/Over|32686/player_rush_yds/J.K. Dobbins/59.5/Under": "2026-10-08T12:26:10Z",
+  "fanduel|46671|46671/player_pass_tds/Jordan Love/1.5/Under|46671/player_receptions/Tucker Kraft/4.5/Under": "2026-10-08T12:26:10Z"
  },
  "sgp_roster_cache": {
   "downloaded_at": "2026-10-07T22:26:18Z",
