@@ -2175,3 +2175,6 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-08T13:50:32Z,football_nfl,32678,2026-10-09T00:15:00Z,Dallas Cowboys,Tampa Bay Buccaneers,player_receptions,Chris Godwin Jr.,3.5,Over,kalshi,-108,5.0,0.5452,pinnacle,4,10.4,False,ev +5.0 fair 0.545 pinnacle 4b
 2026-10-08T13:50:32Z,football_nfl,32678,2026-10-09T00:15:00Z,Dallas Cowboys,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,2.5,Over,kalshi,-170,4.76,0.6596,pinnacle,6,10.4,False,ev +4.8 fair 0.660 pinnacle 6b
 2026-10-08T13:50:32Z,football_nfl,32678,2026-10-09T00:15:00Z,Dallas Cowboys,Tampa Bay Buccaneers,player_receptions,Ryan Flournoy,3.5,Over,kalshi,138,4.3,0.4382,pinnacle,13,10.4,False,ev +4.3 fair 0.438 pinnacle 13b
+2026-10-08T20:01:15Z,football_nfl,32678,2026-10-09T00:15:00Z,Dallas Cowboys,Tampa Bay Buccaneers,player_pass_tds,Dak Prescott,2.5,Over,kalshi,178,4.09,0.3744,pinnacle,11,4.2,False,ev +4.1 fair 0.374 pinnacle 11b
+2026-10-08T20:01:15Z,football_nfl,32678,2026-10-09T00:15:00Z,Dallas Cowboys,Tampa Bay Buccaneers,player_pass_tds,Jalon Daniels,0.5,Under,kalshi,212,4.47,0.3349,pinnacle,14,4.2,False,ev +4.5 fair 0.335 pinnacle 14b
+2026-10-08T20:01:15Z,football_nfl,32678,2026-10-09T00:15:00Z,Dallas Cowboys,Tampa Bay Buccaneers,player_receptions,Tez Johnson,1.5,Over,kalshi,150,3.8,0.4152,pinnacle,12,4.2,False,ev +3.8 fair 0.415 pinnacle 12b
