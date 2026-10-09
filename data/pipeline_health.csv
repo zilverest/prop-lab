@@ -46,3 +46,4 @@ ts,phase,status,events,rows,api_calls,api_remaining,note
 2026-10-08T22:37:03Z,settle,ok,0,0,0,,"canonical_close={'capture': {'ts': '2026-10-08T22:36:50Z', 'events': 0, 'rows': 0, 'failures': [], 'backlog': 0}, 'grade': {'ts': '2026-10-08T22:36:50Z', 'rows': 0, 'id_matches': 0, 'exact_matches': 0, 'loose_matches': 0}}"
 2026-10-09T00:31:50Z,capture,ok,0,0,1,4999,hours_before=30.0; shadow=0
 2026-10-09T00:31:53Z,research,ok,0,0,0,,legacy_auto=False; sgp_obs=0
+2026-10-09T03:23:55Z,capture,ok,14,6887,98,4914,hours_before=144; shadow=22
