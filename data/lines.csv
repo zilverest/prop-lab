@@ -268810,3 +268810,257 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-11T21:08:47Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Josh Allen,39.5,Under,kalshi,-122,-1.87,0.5393,kalshi,4,27.1
 2026-10-11T21:08:47Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,59.5,Over,kalshi,-156,-3.71,0.5868,kalshi,3,27.1
 2026-10-11T21:08:47Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,59.5,Under,kalshi,133,-3.71,0.4132,kalshi,3,27.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_anytime_td,Bijan Robinson,0.5,Over,pinnacle,-193,-4.56,0.6286,pinnacle,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_anytime_td,Bijan Robinson,0.5,Under,pinnacle,157,-4.56,0.3714,pinnacle,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_anytime_td,Derrick Henry,0.5,Over,pinnacle,-130,-4.61,0.5392,pinnacle,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_anytime_td,Derrick Henry,0.5,Under,pinnacle,107,-4.61,0.4608,pinnacle,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_attempts,Michael Penix Jr.,28.5,Over,draftkings,-123,-5.67,0.5203,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_attempts,Michael Penix Jr.,28.5,Under,draftkings,-104,-5.91,0.4797,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_attempts,Michael Penix Jr.,28.5,Over,bovada,-125,-6.35,0.5203,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_attempts,Michael Penix Jr.,28.5,Under,bovada,-105,-6.35,0.4797,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Tyler Huntley,174.5,Over,draftkings,-114,-4.92,0.5065,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Tyler Huntley,174.5,Under,draftkings,-110,-5.79,0.4935,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Austin Hooper,6.5,Under,fanduel,-113,-3.84,0.5101,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Austin Hooper,6.5,Under,hardrock,-115,-4.63,0.5101,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Austin Hooper,6.5,Over,draftkings,-107,-5.23,0.4899,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Austin Hooper,6.5,Under,draftkings,-118,-5.76,0.5101,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Austin Hooper,6.5,Over,bovada,-110,-6.48,0.4899,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Austin Hooper,6.5,Under,bovada,-120,-6.48,0.5101,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Austin Hooper,6.5,Over,fanduel,-113,-7.66,0.4899,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Austin Hooper,6.5,Over,hardrock,-115,-8.41,0.4899,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Bijan Robinson,27.5,Under,draftkings,-115,-4.63,0.5101,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Bijan Robinson,27.5,Under,hardrock,-115,-4.63,0.5101,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Bijan Robinson,27.5,Over,draftkings,-109,-6.07,0.4899,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Bijan Robinson,27.5,Over,bovada,-110,-6.48,0.4899,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Bijan Robinson,27.5,Under,bovada,-120,-6.48,0.5101,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Bijan Robinson,27.5,Over,hardrock,-115,-8.41,0.4899,bovada,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Derrick Henry,4.5,Under,kalshi,108,2.2,0.4913,pinnacle,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Derrick Henry,4.5,Over,kalshi,-113,-4.12,0.5087,pinnacle,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Derrick Henry,4.5,Over,hardrock,-115,-4.9,0.5087,pinnacle,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Derrick Henry,4.5,Under,hardrock,-115,-8.14,0.4913,pinnacle,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,79.5,Over,kalshi,-104,-0.97,0.5049,kalshi,5,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,79.5,Under,kalshi,-100,-0.97,0.4951,kalshi,5,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,79.5,Under,underdog,-105,-3.33,0.4951,kalshi,5,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,79.5,Over,underdog,-118,-6.73,0.5049,kalshi,5,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,81.5,Over,hardrock,-115,-6.52,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,81.5,Under,hardrock,-115,-6.52,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Mark Andrews,32.5,Over,draftkings,-112,-5.36,0.5,bovada,4,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Mark Andrews,32.5,Under,draftkings,-112,-5.36,0.5,bovada,4,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Mark Andrews,32.5,Over,bovada,-115,-6.52,0.5,bovada,4,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Mark Andrews,32.5,Under,bovada,-115,-6.52,0.5,bovada,4,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Under,kalshi,170,-0.09,0.37,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Over,kalshi,-178,-1.61,0.63,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Under,fanduel,158,-4.53,0.37,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Over,pinnacle,-194,-4.53,0.63,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Under,pinnacle,158,-4.53,0.37,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Over,draftkings,-198,-5.19,0.63,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Over,bovada,-200,-5.51,0.63,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Under,hardrock,155,-5.64,0.37,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Under,draftkings,154,-6.01,0.37,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Over,hardrock,-210,-7.01,0.63,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Under,bovada,150,-7.49,0.37,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Over,fanduel,-215,-7.7,0.63,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Bijan Robinson,3.5,Under,draftkings,-104,-5.09,0.4838,pinnacle,15,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Bijan Robinson,3.5,Under,bovada,-105,-5.54,0.4838,pinnacle,15,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Bijan Robinson,3.5,Over,draftkings,-123,-6.42,0.5162,pinnacle,15,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Bijan Robinson,3.5,Over,bovada,-125,-7.09,0.5162,pinnacle,15,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Derrick Henry,1.5,Over,draftkings,159,-4.94,0.367,pinnacle,15,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Derrick Henry,1.5,Under,draftkings,-205,-5.83,0.633,pinnacle,15,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Devontez Walker,0.5,Over,kalshi,-178,1.76,0.6516,pinnacle,12,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Devontez Walker,0.5,Over,draftkings,-192,-0.9,0.6516,pinnacle,12,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Devontez Walker,0.5,Over,bovada,-200,-2.26,0.6516,pinnacle,12,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Devontez Walker,0.5,Under,kalshi,170,-5.93,0.3484,pinnacle,12,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Devontez Walker,0.5,Under,bovada,150,-12.9,0.3484,pinnacle,12,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Devontez Walker,0.5,Under,draftkings,150,-12.9,0.3484,pinnacle,12,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Drake London,5.5,Over,kalshi,-133,-2.08,0.5589,kalshi,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Drake London,5.5,Under,kalshi,122,-2.08,0.4411,kalshi,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Drake London,5.5,Under,fanduel,116,-4.73,0.4411,kalshi,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Drake London,5.5,Over,fanduel,-154,-7.81,0.5589,kalshi,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Drake London,6.5,Over,kalshi,138,1.95,0.4284,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Drake London,6.5,Under,kalshi,-144,-3.14,0.5716,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Drake London,6.5,Under,draftkings,-146,-3.68,0.5716,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Drake London,6.5,Under,bovada,-150,-4.73,0.5716,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Drake London,6.5,Over,bovada,115,-7.9,0.4284,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Drake London,6.5,Over,draftkings,114,-8.33,0.4284,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Justice Hill,1.5,Under,bovada,-105,1.2,0.5183,pinnacle,14,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Justice Hill,1.5,Under,hardrock,-115,-3.1,0.5183,pinnacle,14,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Justice Hill,1.5,Under,draftkings,-116,-3.48,0.5183,pinnacle,14,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Justice Hill,1.5,Over,draftkings,-110,-8.04,0.4817,pinnacle,14,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Justice Hill,1.5,Over,hardrock,-115,-9.95,0.4817,pinnacle,14,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Justice Hill,1.5,Over,bovada,-125,-13.3,0.4817,pinnacle,14,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Mark Andrews,3.5,Under,bovada,120,-2.4,0.4436,pinnacle,15,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Mark Andrews,3.5,Under,hardrock,115,-4.62,0.4436,pinnacle,15,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Mark Andrews,3.5,Over,bovada,-160,-9.59,0.5564,pinnacle,15,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Rashod Bateman,2.5,Over,kalshi,223,-0.92,0.3067,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Rashod Bateman,2.5,Under,kalshi,-233,-0.92,0.6933,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Zay Flowers,5.5,Under,draftkings,-125,-4.22,0.5321,pinnacle,14,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Zay Flowers,5.5,Under,hardrock,-125,-4.22,0.5321,pinnacle,14,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Zay Flowers,5.5,Over,draftkings,-102,-7.34,0.4679,pinnacle,14,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Zay Flowers,5.5,Over,hardrock,-105,-8.65,0.4679,pinnacle,14,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_attempts,Bijan Robinson,18.5,Over,draftkings,-119,-4.61,0.5183,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_attempts,Bijan Robinson,18.5,Under,hardrock,-105,-5.96,0.4817,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_attempts,Bijan Robinson,18.5,Over,hardrock,-125,-6.7,0.5183,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_attempts,Bijan Robinson,18.5,Under,draftkings,-107,-6.82,0.4817,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Bijan Robinson,88.5,Over,draftkings,-111,-4.95,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Bijan Robinson,88.5,Under,draftkings,-113,-5.75,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Bijan Robinson,88.5,Over,fanduel,-113,-5.75,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Bijan Robinson,88.5,Under,fanduel,-113,-5.75,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Bijan Robinson,88.5,Over,bovada,-115,-6.52,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Bijan Robinson,88.5,Under,bovada,-115,-6.52,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Brian Robinson Jr.,35.5,Under,hardrock,-120,-7.94,0.5022,pinnacle,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Derrick Henry,80.5,Over,draftkings,-111,-4.54,0.5022,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Derrick Henry,80.5,Over,bovada,-115,-6.12,0.5022,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Derrick Henry,80.5,Under,draftkings,-113,-6.16,0.4978,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Derrick Henry,80.5,Under,bovada,-115,-6.93,0.4978,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Michael Penix Jr.,0.5,Over,hardrock,-110,-2.61,0.5101,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Michael Penix Jr.,0.5,Over,fanduel,-113,-3.84,0.5101,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Michael Penix Jr.,0.5,Under,draftkings,-105,-4.36,0.4899,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Michael Penix Jr.,0.5,Over,bovada,-120,-6.48,0.5101,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Michael Penix Jr.,0.5,Under,bovada,-110,-6.48,0.4899,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Michael Penix Jr.,0.5,Over,draftkings,-120,-6.48,0.5101,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Michael Penix Jr.,0.5,Under,fanduel,-113,-7.66,0.4899,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Michael Penix Jr.,0.5,Under,hardrock,-120,-10.19,0.4899,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_anytime_td,Drake London,,No,kalshi,-144,-1.02,0.5841,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_anytime_td,Drake London,,Yes,kalshi,138,-1.02,0.4159,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_anytime_td,Drake London,,No,hardrock,-160,-5.08,0.5841,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_anytime_td,Drake London,,Yes,hardrock,115,-10.59,0.4159,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_kicking_points,Tyler Loop,6.5,Over,draftkings,101,-5.65,0.4694,bovada,5,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_kicking_points,Tyler Loop,6.5,Under,draftkings,-129,-5.81,0.5306,bovada,5,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_kicking_points,Tyler Loop,6.5,Over,bovada,100,-6.12,0.4694,bovada,5,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_kicking_points,Tyler Loop,6.5,Under,bovada,-130,-6.12,0.5306,bovada,5,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_kicking_points,Tyler Loop,6.5,Over,hardrock,100,-6.12,0.4694,bovada,5,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_kicking_points,Tyler Loop,6.5,Under,hardrock,-130,-6.12,0.5306,bovada,5,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_completions,Tyler Huntley,17.5,Under,draftkings,104,-3.07,0.4752,pinnacle,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_completions,Tyler Huntley,17.5,Over,draftkings,-133,-8.05,0.5248,pinnacle,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_rush_yds,Michael Penix Jr.,224.5,Over,bovada,-115,-6.52,0.5,bovada,4,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_rush_yds,Michael Penix Jr.,224.5,Under,bovada,-115,-6.52,0.5,bovada,4,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Michael Penix Jr.,199.5,Under,bovada,145,-5.28,0.3866,kalshi,4,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Michael Penix Jr.,199.5,Over,bovada,-190,-6.38,0.6134,kalshi,4,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Michael Penix Jr.,219.5,Over,draftkings,-111,-4.95,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Michael Penix Jr.,219.5,Under,draftkings,-113,-5.75,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Michael Penix Jr.,219.5,Over,fanduel,-113,-5.75,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Michael Penix Jr.,219.5,Under,fanduel,-113,-5.75,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Michael Penix Jr.,219.5,Over,bovada,-115,-6.52,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Michael Penix Jr.,219.5,Under,bovada,-115,-6.52,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Michael Penix Jr.,249.5,Under,bovada,-230,-3.38,0.6734,kalshi,4,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Michael Penix Jr.,249.5,Over,bovada,170,-11.82,0.3266,kalshi,4,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Tyler Huntley,175.5,Over,bovada,-115,-6.52,0.5,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Tyler Huntley,175.5,Under,bovada,-115,-6.52,0.5,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Tyler Huntley,175.5,Over,fanatics,-115,-6.52,0.5,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Tyler Huntley,175.5,Under,fanatics,-115,-6.52,0.5,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_longest,Mark Andrews,14.5,Over,draftkings,-105,-4.36,0.4899,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_longest,Mark Andrews,14.5,Over,hardrock,-105,-4.36,0.4899,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_longest,Mark Andrews,14.5,Over,underdog,-105,-4.36,0.4899,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_longest,Mark Andrews,14.5,Under,underdog,-117,-5.39,0.5101,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_longest,Mark Andrews,14.5,Over,bovada,-110,-6.48,0.4899,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_longest,Mark Andrews,14.5,Under,bovada,-120,-6.48,0.5101,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_longest,Mark Andrews,14.5,Under,draftkings,-123,-7.51,0.5101,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_longest,Mark Andrews,14.5,Under,hardrock,-125,-8.18,0.5101,bovada,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Devontez Walker,8.5,Over,bovada,-115,-4.09,0.513,pinnacle,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Devontez Walker,8.5,Under,bovada,-115,-8.95,0.487,pinnacle,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,69.5,Over,kalshi,-150,-0.97,0.5942,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,69.5,Under,kalshi,144,-0.97,0.4058,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,89.5,Over,kalshi,138,-1.98,0.4119,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,89.5,Under,kalshi,-150,-1.98,0.5881,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Justice Hill,8.5,Over,draftkings,-110,-4.13,0.5022,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Justice Hill,8.5,Under,draftkings,-114,-6.55,0.4978,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Kyle Pitts,23.5,Over,bovada,-120,-6.48,0.5101,bovada,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Kyle Pitts,23.5,Under,bovada,-110,-6.48,0.4899,bovada,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Mark Andrews,30.5,Under,fanatics,-125,-10.0,0.5,pinnacle,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Olamide Zaccheaus,7.5,Under,draftkings,-107,-3.27,0.5,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Olamide Zaccheaus,7.5,Over,draftkings,-118,-7.63,0.5,pinnacle,10,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Rashod Bateman,14.5,Over,kalshi,-122,-1.03,0.5439,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Rashod Bateman,14.5,Under,kalshi,117,-1.03,0.4561,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Zay Flowers,59.5,Over,kalshi,-138,-0.89,0.5747,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Zay Flowers,59.5,Under,kalshi,133,-0.89,0.4253,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_attempts,Brian Robinson Jr.,8.5,Under,draftkings,-103,-1.46,0.5,pinnacle,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_attempts,Brian Robinson Jr.,8.5,Under,hardrock,-105,-2.38,0.5,pinnacle,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_attempts,Brian Robinson Jr.,8.5,Over,draftkings,-123,-9.35,0.5,pinnacle,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_attempts,Brian Robinson Jr.,8.5,Over,hardrock,-125,-10.0,0.5,pinnacle,7,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_attempts,Derrick Henry,19.5,Under,hardrock,-110,-3.31,0.5065,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_attempts,Derrick Henry,19.5,Over,hardrock,-120,-9.52,0.4935,pinnacle,9,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_longest,Derrick Henry,16.5,Under,hardrock,-105,-4.36,0.4899,bovada,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_longest,Derrick Henry,16.5,Over,bovada,-120,-6.48,0.5101,bovada,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_longest,Derrick Henry,16.5,Under,bovada,-110,-6.48,0.4899,bovada,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_longest,Derrick Henry,16.5,Over,hardrock,-125,-8.18,0.5101,bovada,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_longest,Tyler Huntley,11.5,Over,underdog,-110,-4.55,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_longest,Tyler Huntley,11.5,Under,underdog,-112,-5.36,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_longest,Tyler Huntley,11.5,Over,draftkings,-113,-5.75,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_longest,Tyler Huntley,11.5,Over,bovada,-115,-6.52,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_longest,Tyler Huntley,11.5,Under,bovada,-115,-6.52,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_longest,Tyler Huntley,11.5,Under,draftkings,-115,-6.52,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_longest,Tyler Huntley,11.5,Over,hardrock,-115,-6.52,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_longest,Tyler Huntley,11.5,Under,hardrock,-115,-6.52,0.5,bovada,6,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Bijan Robinson,99.5,Over,kalshi,156,-1.03,0.3866,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Bijan Robinson,99.5,Under,kalshi,-163,-1.03,0.6134,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Derrick Henry,79.5,Under,hardrock,-115,-5.61,0.5049,kalshi,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Derrick Henry,79.5,Over,hardrock,-120,-9.22,0.4951,kalshi,8,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Justice Hill,14.5,Over,kalshi,170,-1.05,0.3665,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Justice Hill,14.5,Under,kalshi,-178,-1.05,0.6335,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,19.5,Over,kalshi,-223,-1.08,0.6829,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,19.5,Under,kalshi,212,-1.08,0.3171,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,19.5,Under,bovada,210,-1.71,0.3171,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,19.5,Over,bovada,-290,-8.16,0.6829,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,24.5,Under,bovada,130,-2.17,0.4253,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,24.5,Over,bovada,-170,-8.73,0.5747,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,29.5,Over,kalshi,-100,0.0,0.5,pinnacle,12,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,29.5,Under,kalshi,-104,-1.92,0.5,pinnacle,12,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,29.5,Over,bovada,-115,-6.52,0.5,pinnacle,12,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,29.5,Under,bovada,-115,-6.52,0.5,pinnacle,12,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,39.5,Under,bovada,-240,-1.79,0.6933,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,39.5,Over,bovada,175,-15.64,0.3067,kalshi,3,2.1
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_anytime_td,James Cook,0.5,Over,underdog,-102,1.11,0.5105,pinnacle,4,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Khalil Shakir,4.5,Over,kalshi,-104,0.34,0.5115,pinnacle,12,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Khalil Shakir,4.5,Under,kalshi,-100,-2.3,0.4885,pinnacle,12,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Blake Corum,49.5,Over,kalshi,203,-2.0,0.3234,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Blake Corum,49.5,Under,kalshi,-223,-2.0,0.6766,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Josh Allen,224.5,Over,kalshi,-178,-2.01,0.6274,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Josh Allen,224.5,Under,kalshi,163,-2.01,0.3726,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Josh Allen,249.5,Over,kalshi,108,-1.12,0.4754,kalshi,4,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Josh Allen,249.5,Under,kalshi,-113,-1.12,0.5246,kalshi,4,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Josh Allen,249.5,Under,underdog,-121,-4.19,0.5246,kalshi,4,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Josh Allen,249.5,Over,underdog,-103,-6.3,0.4754,kalshi,4,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Matthew Stafford,274.5,Over,kalshi,-122,-1.03,0.5439,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Matthew Stafford,274.5,Under,kalshi,117,-1.03,0.4561,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Dalton Kincaid,39.5,Over,kalshi,-213,-2.93,0.6606,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Dalton Kincaid,39.5,Under,kalshi,186,-2.93,0.3394,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Dalton Kincaid,59.5,Over,kalshi,117,-1.03,0.4561,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Dalton Kincaid,59.5,Under,kalshi,-122,-1.03,0.5439,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Davante Adams,69.5,Over,kalshi,122,-2.94,0.4372,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Davante Adams,69.5,Under,kalshi,-138,-2.94,0.5628,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Keon Coleman,24.5,Over,kalshi,-213,-3.87,0.6542,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Keon Coleman,24.5,Under,kalshi,178,-3.87,0.3458,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Keon Coleman,39.5,Over,kalshi,108,-1.12,0.4754,kalshi,5,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Keon Coleman,39.5,Under,kalshi,-113,-1.12,0.5246,kalshi,5,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Keon Coleman,49.5,Over,kalshi,178,-1.92,0.3528,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Keon Coleman,49.5,Under,kalshi,-194,-1.92,0.6472,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Puka Nacua,94.5,Over,kalshi,108,-1.12,0.4754,kalshi,6,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Puka Nacua,94.5,Under,kalshi,-113,-1.12,0.5246,kalshi,6,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Davante Adams,3.5,Over,kalshi,-178,-3.0,0.6211,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Davante Adams,3.5,Under,kalshi,156,-3.0,0.3789,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Davante Adams,4.5,Under,kalshi,-127,-1.51,0.551,pinnacle,12,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Davante Adams,4.5,Over,kalshi,113,-4.36,0.449,pinnacle,12,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,James Cook,1.5,Over,underdog,-118,-3.55,0.5221,pinnacle,9,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,James Cook,1.5,Under,underdog,-105,-6.69,0.4779,pinnacle,9,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Khalil Shakir,5.5,Over,kalshi,194,-1.0,0.3367,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Khalil Shakir,5.5,Under,kalshi,-203,-1.0,0.6633,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Kyren Williams,3.5,Over,kalshi,170,-2.03,0.3629,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Kyren Williams,3.5,Under,kalshi,-186,-2.03,0.6371,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_longest,James Cook,15.5,Over,underdog,-114,-4.24,0.5101,bovada,4,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_longest,James Cook,15.5,Over,draftkings,-117,-5.39,0.5101,bovada,4,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_longest,James Cook,15.5,Under,underdog,-108,-5.65,0.4899,bovada,4,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_longest,James Cook,15.5,Over,bovada,-120,-6.48,0.5101,bovada,4,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_longest,James Cook,15.5,Under,bovada,-110,-6.48,0.4899,bovada,4,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_longest,James Cook,15.5,Under,draftkings,-111,-6.88,0.4899,bovada,4,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Blake Corum,29.5,Over,kalshi,-150,-1.98,0.5881,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Blake Corum,29.5,Under,kalshi,138,-1.98,0.4119,kalshi,3,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Josh Allen,39.5,Over,kalshi,108,-2.94,0.4666,kalshi,4,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Josh Allen,39.5,Under,kalshi,-122,-2.94,0.5334,kalshi,4,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,69.5,Over,kalshi,108,-1.12,0.4754,kalshi,9,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,69.5,Under,kalshi,-113,-1.12,0.5246,kalshi,9,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,69.5,Under,underdog,-113,-1.12,0.5246,kalshi,9,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,69.5,Under,draftkings,-114,-1.52,0.5246,kalshi,9,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,69.5,Under,bovada,-115,-1.92,0.5246,kalshi,9,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,69.5,Over,underdog,-109,-8.84,0.4754,kalshi,9,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,69.5,Over,draftkings,-110,-9.24,0.4754,kalshi,9,26.0
+2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,69.5,Over,bovada,-115,-11.12,0.4754,kalshi,9,26.0
