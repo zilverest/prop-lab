@@ -267637,3 +267637,427 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-11T16:53:17Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,67.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,4,31.4
 2026-10-11T16:53:17Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,79.5,Over,kalshi,163,-2.01,0.3726,kalshi,3,31.4
 2026-10-11T16:53:17Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,79.5,Under,kalshi,-178,-2.01,0.6274,kalshi,3,31.4
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_anytime_td,Omarion Hampton,0.5,Over,pinnacle,183,-4.54,0.3373,pinnacle,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_anytime_td,Omarion Hampton,0.5,Under,pinnacle,-227,-4.54,0.6627,pinnacle,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_pass_completions,Bo Nix,21.5,Over,underdog,-103,-1.03,0.5022,pinnacle,11,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_pass_completions,Bo Nix,21.5,Under,underdog,-120,-8.73,0.4978,pinnacle,11,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_pass_yds,Bo Nix,223.5,Over,fanduel,-113,-1.89,0.5205,pinnacle,4,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_pass_yds,Bo Nix,223.5,Over,pinnacle,-120,-4.57,0.5205,pinnacle,4,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_pass_yds,Bo Nix,223.5,Under,pinnacle,-101,-4.57,0.4795,pinnacle,4,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_pass_yds,Bo Nix,223.5,Under,fanduel,-113,-9.62,0.4795,pinnacle,4,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Evan Engram,18.5,Over,draftkings,-107,3.35,0.5342,pinnacle,9,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Evan Engram,18.5,Over,fanduel,-113,0.7,0.5342,pinnacle,9,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Evan Engram,18.5,Over,bovada,-115,-0.12,0.5342,pinnacle,9,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Evan Engram,18.5,Over,hardrock,-120,-2.06,0.5342,pinnacle,9,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Evan Engram,18.5,Over,pinnacle,-127,-4.51,0.5342,pinnacle,9,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Evan Engram,18.5,Under,pinnacle,105,-4.51,0.4658,pinnacle,9,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Evan Engram,18.5,Under,hardrock,-110,-11.08,0.4658,pinnacle,9,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Evan Engram,18.5,Under,fanduel,-113,-12.2,0.4658,pinnacle,9,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Evan Engram,18.5,Under,bovada,-115,-12.92,0.4658,pinnacle,9,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Evan Engram,18.5,Under,draftkings,-117,-13.61,0.4658,pinnacle,9,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Jaylen Waddle,69.5,Over,kalshi,170,-1.05,0.3665,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Jaylen Waddle,69.5,Under,kalshi,-178,-1.05,0.6335,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Keaton Mitchell,9.5,Over,pinnacle,-135,-4.62,0.5479,pinnacle,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Keaton Mitchell,9.5,Under,pinnacle,111,-4.62,0.4521,pinnacle,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Keaton Mitchell,14.5,Over,kalshi,150,-0.93,0.3963,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Keaton Mitchell,14.5,Under,kalshi,-156,-0.93,0.6037,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Omarion Hampton,1.5,Under,draftkings,-162,0.73,0.6229,pinnacle,12,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Omarion Hampton,1.5,Under,kalshi,-163,0.5,0.6229,pinnacle,12,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Omarion Hampton,1.5,Under,bovada,-165,0.03,0.6229,pinnacle,12,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Omarion Hampton,1.5,Under,hardrock,-180,-3.11,0.6229,pinnacle,12,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Omarion Hampton,1.5,Over,kalshi,156,-3.45,0.3771,pinnacle,12,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Omarion Hampton,1.5,Over,pinnacle,153,-4.58,0.3771,pinnacle,12,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Omarion Hampton,1.5,Under,pinnacle,-188,-4.58,0.6229,pinnacle,12,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Omarion Hampton,1.5,Over,fanduel,148,-6.47,0.3771,pinnacle,12,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Omarion Hampton,1.5,Under,fanduel,-200,-6.57,0.6229,pinnacle,12,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Omarion Hampton,1.5,Over,hardrock,135,-11.37,0.3771,pinnacle,12,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Omarion Hampton,1.5,Over,draftkings,127,-14.39,0.3771,pinnacle,12,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Omarion Hampton,1.5,Over,bovada,125,-15.14,0.3771,pinnacle,12,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,J.K. Dobbins,50.5,Over,fanatics,-115,-8.73,0.4882,pinnacle,8,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_anytime_td,Ladd McConkey,0.5,Over,pinnacle,203,-4.54,0.3151,pinnacle,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_anytime_td,Ladd McConkey,0.5,Under,pinnacle,-254,-4.54,0.6849,pinnacle,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_pass_yds,Justin Herbert,174.5,Over,kalshi,-194,-0.94,0.6536,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_pass_yds,Justin Herbert,174.5,Under,kalshi,186,-0.94,0.3464,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Courtland Sutton,24.5,Over,kalshi,-213,-1.04,0.6734,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Courtland Sutton,24.5,Under,kalshi,203,-1.04,0.3266,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Courtland Sutton,39.5,Over,hardrock,-115,-7.43,0.4951,kalshi,7,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Courtland Sutton,39.5,Under,hardrock,-120,-7.44,0.5049,kalshi,7,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Jaylen Waddle,39.5,Over,kalshi,-213,-1.04,0.6734,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Jaylen Waddle,39.5,Under,kalshi,203,-1.04,0.3266,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Jaylen Waddle,59.5,Over,kalshi,108,-1.12,0.4754,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Jaylen Waddle,59.5,Under,kalshi,-113,-1.12,0.5246,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Marvin Mims Jr.,14.5,Over,kalshi,122,-0.98,0.446,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Marvin Mims Jr.,14.5,Under,kalshi,-127,-0.98,0.554,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Marvin Mims Jr.,24.5,Over,kalshi,223,-1.94,0.3036,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Marvin Mims Jr.,24.5,Under,kalshi,-245,-1.94,0.6964,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,RJ Harvey,24.5,Over,kalshi,-122,-1.03,0.5439,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,RJ Harvey,24.5,Under,kalshi,117,-1.03,0.4561,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Troy Franklin,14.5,Over,kalshi,-144,-1.02,0.5841,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Troy Franklin,14.5,Under,kalshi,138,-1.02,0.4159,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Troy Franklin,24.5,Over,kalshi,144,-0.97,0.4058,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_reception_yds,Troy Franklin,24.5,Under,kalshi,-150,-0.97,0.5942,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Courtland Sutton,2.5,Over,kalshi,-178,-1.05,0.6335,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Courtland Sutton,2.5,Under,kalshi,170,-1.05,0.3665,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Jaylen Waddle,5.5,Over,kalshi,186,-0.94,0.3464,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Jaylen Waddle,5.5,Under,kalshi,-194,-0.94,0.6536,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Ladd McConkey,3.5,Over,pinnacle,-117,-4.67,0.514,pinnacle,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_receptions,Ladd McConkey,3.5,Under,pinnacle,-104,-4.67,0.486,pinnacle,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,Bo Nix,9.5,Over,kalshi,-163,-1.03,0.6134,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,Bo Nix,9.5,Under,kalshi,156,-1.03,0.3866,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,Bo Nix,14.5,Over,kalshi,108,-1.12,0.4754,kalshi,7,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,Bo Nix,14.5,Under,kalshi,-113,-1.12,0.5246,kalshi,7,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,Bo Nix,14.5,Under,draftkings,-117,-2.7,0.5246,kalshi,7,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,Bo Nix,14.5,Under,bovada,-120,-3.82,0.5246,kalshi,7,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,Bo Nix,14.5,Over,draftkings,-107,-8.03,0.4754,kalshi,7,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,Bo Nix,14.5,Over,bovada,-110,-9.24,0.4754,kalshi,7,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,Keaton Mitchell,39.5,Over,kalshi,163,-2.01,0.3726,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,Keaton Mitchell,39.5,Under,kalshi,-178,-2.01,0.6274,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,Omarion Hampton,49.5,Over,kalshi,156,-1.03,0.3866,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,Omarion Hampton,49.5,Under,kalshi,-163,-1.03,0.6134,kalshi,3,1.8
+2026-10-11T18:15:05Z,football_nfl,32686,2026-10-11T20:05:00Z,Los Angeles Chargers,Denver Broncos,player_rush_yds,RJ Harvey,25.5,Over,fanatics,-115,-6.52,0.5,pinnacle,6,1.8
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_pass_tds,Jacoby Brissett,1.5,Under,kalshi,133,4.43,0.4482,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_pass_tds,Jacoby Brissett,1.5,Over,kalshi,-138,-4.83,0.5518,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_pass_yds,Jacoby Brissett,266.5,Over,fanduel,-113,-0.66,0.527,pinnacle,5,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_pass_yds,Jacoby Brissett,266.5,Over,pinnacle,-123,-4.45,0.527,pinnacle,5,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_pass_yds,Jacoby Brissett,266.5,Under,pinnacle,102,-4.45,0.473,pinnacle,5,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_pass_yds,Jacoby Brissett,266.5,Under,fanduel,-113,-10.84,0.473,pinnacle,5,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Isaac TeSlaa,24.5,Over,kalshi,-104,-0.97,0.5049,kalshi,4,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Isaac TeSlaa,24.5,Under,kalshi,-100,-0.97,0.4951,kalshi,4,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Amon-Ra St. Brown,6.5,Over,kalshi,-144,0.29,0.5919,pinnacle,5,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Amon-Ra St. Brown,6.5,Under,kalshi,138,-2.87,0.4081,pinnacle,5,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Trey McBride,7.5,Over,kalshi,-117,1.99,0.5499,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Trey McBride,7.5,Under,kalshi,113,-4.13,0.4501,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Trey McBride,7.5,Over,pinnacle,-136,-4.58,0.5499,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Trey McBride,7.5,Under,pinnacle,112,-4.58,0.4501,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Trey McBride,7.5,Under,hardrock,110,-5.48,0.4501,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Trey McBride,7.5,Over,fanduel,-140,-5.73,0.5499,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Trey McBride,7.5,Under,fanduel,106,-7.28,0.4501,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Trey McBride,7.5,Over,hardrock,-155,-9.53,0.5499,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_2plus_td,Jahmyr Gibbs,,No,kalshi,-150,-0.97,0.5942,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_2plus_td,Jahmyr Gibbs,,Yes,kalshi,144,-0.97,0.4058,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_2plus_td,Jahmyr Gibbs,,No,hardrock,-175,-6.63,0.5942,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_2plus_td,Jahmyr Gibbs,,Yes,hardrock,125,-8.69,0.4058,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_pass_tds,Jared Goff,1.5,Over,kalshi,-233,-0.92,0.6933,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_pass_tds,Jared Goff,1.5,Under,kalshi,223,-0.92,0.3067,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_pass_yds,Jacoby Brissett,274.5,Over,kalshi,113,-0.86,0.4655,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_pass_yds,Jacoby Brissett,274.5,Under,kalshi,-117,-0.86,0.5345,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Amon-Ra St. Brown,59.5,Over,kalshi,-233,-0.92,0.6933,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Amon-Ra St. Brown,59.5,Under,kalshi,223,-0.92,0.3067,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Amon-Ra St. Brown,69.5,Over,kalshi,-163,-1.03,0.6134,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Amon-Ra St. Brown,69.5,Under,kalshi,156,-1.03,0.3866,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Amon-Ra St. Brown,89.5,Over,kalshi,144,-0.97,0.4058,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Amon-Ra St. Brown,89.5,Under,kalshi,-150,-0.97,0.5942,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Isaac TeSlaa,14.5,Over,kalshi,-213,-2.02,0.6667,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Isaac TeSlaa,14.5,Under,kalshi,194,-2.02,0.3333,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Isaac TeSlaa,39.5,Over,kalshi,223,-0.92,0.3067,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Isaac TeSlaa,39.5,Under,kalshi,-233,-0.92,0.6933,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Jahmyr Gibbs,24.5,Over,kalshi,-233,-0.92,0.6933,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Jahmyr Gibbs,24.5,Under,kalshi,223,-0.92,0.3067,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Jahmyr Gibbs,49.5,Over,kalshi,203,-1.04,0.3266,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Jahmyr Gibbs,49.5,Under,kalshi,-213,-1.04,0.6734,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Jameson Williams,39.5,Over,kalshi,-178,-1.05,0.6335,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Jameson Williams,39.5,Under,kalshi,170,-1.05,0.3665,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Jameson Williams,49.5,Over,kalshi,-127,-0.98,0.554,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Jameson Williams,49.5,Under,kalshi,122,-0.98,0.446,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Jameson Williams,69.5,Over,kalshi,203,-1.04,0.3266,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Jameson Williams,69.5,Under,kalshi,-213,-1.04,0.6734,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Sam LaPorta,39.5,Over,kalshi,-186,-1.0,0.6439,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Sam LaPorta,39.5,Under,kalshi,178,-1.0,0.3561,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Trey McBride,69.5,Over,kalshi,-170,-0.98,0.6235,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Trey McBride,69.5,Under,kalshi,163,-0.98,0.3765,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Trey McBride,79.5,Over,kalshi,-113,-1.12,0.5246,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Trey McBride,79.5,Under,kalshi,108,-1.12,0.4754,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Trey McBride,99.5,Over,kalshi,194,-1.0,0.3367,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Trey McBride,99.5,Under,kalshi,-203,-1.0,0.6633,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Tyler Allgeier,14.5,Over,kalshi,170,-2.03,0.3629,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_reception_yds,Tyler Allgeier,14.5,Under,kalshi,-186,-2.03,0.6371,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Jameson Williams,4.5,Over,kalshi,186,-1.92,0.3429,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Jameson Williams,4.5,Under,kalshi,-203,-1.92,0.6571,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Jeremiyah Love,1.5,Over,kalshi,-203,-1.0,0.6633,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Jeremiyah Love,1.5,Under,kalshi,194,-1.0,0.3367,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,6.5,Under,kalshi,-108,-0.78,0.5152,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,6.5,Over,kalshi,104,-1.1,0.4848,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,6.5,Under,draftkings,-114,-3.29,0.5152,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,6.5,Under,fanduel,-114,-3.29,0.5152,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,6.5,Under,bovada,-115,-3.68,0.5152,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,6.5,Under,hardrock,-115,-3.68,0.5152,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,6.5,Over,pinnacle,-103,-4.45,0.4848,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,6.5,Under,pinnacle,-117,-4.45,0.5152,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,6.5,Over,draftkings,-112,-8.23,0.4848,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,6.5,Over,fanduel,-114,-8.99,0.4848,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,6.5,Over,bovada,-115,-9.36,0.4848,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,6.5,Over,hardrock,-115,-9.36,0.4848,pinnacle,13,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,7.5,Over,kalshi,186,-0.94,0.3464,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Michael Wilson,7.5,Under,kalshi,-194,-0.94,0.6536,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Trey McBride,6.5,Over,kalshi,-203,-1.0,0.6633,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_receptions,Trey McBride,6.5,Under,kalshi,194,-1.0,0.3367,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_rush_yds,Jahmyr Gibbs,109.5,Over,kalshi,203,-1.04,0.3266,kalshi,4,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_rush_yds,Jahmyr Gibbs,109.5,Under,kalshi,-213,-1.04,0.6734,kalshi,4,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_rush_yds,Jahmyr Gibbs,109.5,Over,bovada,190,-5.29,0.3266,kalshi,4,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_rush_yds,Jahmyr Gibbs,109.5,Under,bovada,-260,-6.76,0.6734,kalshi,4,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_rush_yds,Jeremiyah Love,39.5,Over,kalshi,-133,-1.12,0.5644,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46670,2026-10-11T20:25:00Z,Arizona Cardinals,Detroit Lions,player_rush_yds,Jeremiyah Love,39.5,Under,kalshi,127,-1.12,0.4356,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_anytime_td,Jaxon Smith-Njigba,0.5,Under,underdog,-103,0.25,0.5087,pinnacle,4,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_pass_attempts,Brock Purdy,32.5,Under,hardrock,-115,-0.51,0.5321,pinnacle,9,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_pass_attempts,Brock Purdy,32.5,Over,hardrock,-115,-12.53,0.4679,pinnacle,9,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_pass_yds,Sam Darnold,231.5,Over,fanduel,-113,1.09,0.5363,pinnacle,4,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_pass_yds,Sam Darnold,231.5,Over,pinnacle,-128,-4.47,0.5363,pinnacle,4,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_pass_yds,Sam Darnold,231.5,Under,pinnacle,106,-4.47,0.4637,pinnacle,4,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_pass_yds,Sam Darnold,231.5,Under,fanduel,-113,-12.59,0.4637,pinnacle,4,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Christian McCaffrey,39.5,Over,kalshi,127,-1.12,0.4356,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Christian McCaffrey,39.5,Under,kalshi,-133,-1.12,0.5644,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Jaxon Smith-Njigba,119.5,Over,kalshi,203,-1.04,0.3266,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Jaxon Smith-Njigba,119.5,Under,kalshi,-213,-1.04,0.6734,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Rashid Shaheed,20.5,Under,bovada,-110,-4.96,0.4978,pinnacle,11,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Rashid Shaheed,20.5,Over,draftkings,-113,-5.34,0.5022,pinnacle,11,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Rashid Shaheed,20.5,Under,draftkings,-111,-5.37,0.4978,pinnacle,11,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Rashid Shaheed,20.5,Over,bovada,-120,-7.94,0.5022,pinnacle,11,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Emanuel Wilson,1.5,Under,hardrock,135,3.37,0.4399,pinnacle,15,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Emanuel Wilson,1.5,Under,bovada,130,1.17,0.4399,pinnacle,15,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Emanuel Wilson,1.5,Under,draftkings,130,1.17,0.4399,pinnacle,15,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Emanuel Wilson,1.5,Over,draftkings,-166,-10.25,0.5601,pinnacle,15,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Emanuel Wilson,1.5,Over,bovada,-170,-11.04,0.5601,pinnacle,15,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Under,kalshi,-100,1.73,0.5087,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Under,underdog,-108,-2.04,0.5087,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Under,bovada,-110,-2.89,0.5087,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Under,draftkings,-111,-3.31,0.5087,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Over,kalshi,-104,-3.62,0.4913,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Over,fanduel,-106,-4.51,0.4913,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Over,pinnacle,-106,-4.51,0.4913,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Under,pinnacle,-114,-4.51,0.5087,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Over,hardrock,-110,-6.2,0.4913,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Under,hardrock,-120,-6.74,0.5087,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Over,underdog,-114,-7.77,0.4913,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Over,draftkings,-115,-8.14,0.4913,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Under,fanduel,-125,-8.44,0.5087,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,4.5,Over,bovada,-120,-9.92,0.4913,pinnacle,16,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Jaxon Smith-Njigba,7.5,Under,draftkings,-152,0.09,0.6037,kalshi,7,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Jaxon Smith-Njigba,7.5,Over,kalshi,150,-0.93,0.3963,kalshi,7,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Jaxon Smith-Njigba,7.5,Under,kalshi,-156,-0.93,0.6037,kalshi,7,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Jaxon Smith-Njigba,7.5,Under,bovada,-160,-1.9,0.6037,kalshi,7,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Jaxon Smith-Njigba,7.5,Over,bovada,120,-12.82,0.3963,kalshi,7,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Jaxon Smith-Njigba,7.5,Over,draftkings,119,-13.21,0.3963,kalshi,7,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_rush_yds,Brock Purdy,29.5,Over,kalshi,170,-1.05,0.3665,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_rush_yds,Brock Purdy,29.5,Under,kalshi,-178,-1.05,0.6335,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_rush_yds,Sam Darnold,4.5,Over,underdog,-107,-4.73,0.4925,pinnacle,9,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_rush_yds,Sam Darnold,4.5,Under,underdog,-115,-5.11,0.5075,pinnacle,9,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_anytime_td,George Kittle,0.5,Over,pinnacle,188,-4.56,0.3314,pinnacle,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_anytime_td,George Kittle,0.5,Under,pinnacle,-234,-4.56,0.6686,pinnacle,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_pass_yds,Sam Darnold,199.5,Over,kalshi,-223,-1.08,0.6829,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_pass_yds,Sam Darnold,199.5,Under,kalshi,212,-1.08,0.3171,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_pass_yds,Sam Darnold,249.5,Over,kalshi,144,-0.97,0.4058,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_pass_yds,Sam Darnold,249.5,Under,kalshi,-150,-0.97,0.5942,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,AJ Barner,14.5,Over,kalshi,-194,-0.94,0.6536,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,AJ Barner,14.5,Under,kalshi,186,-0.94,0.3464,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Christian McCaffrey,24.5,Over,kalshi,-213,-1.04,0.6734,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Christian McCaffrey,24.5,Under,kalshi,203,-1.04,0.3266,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Christian McCaffrey,35.5,Under,fanatics,-110,-5.37,0.4957,pinnacle,8,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Christian McCaffrey,35.5,Over,fanatics,-135,-12.21,0.5043,pinnacle,8,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Cooper Kupp,14.5,Over,kalshi,-194,-0.94,0.6536,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Cooper Kupp,14.5,Under,kalshi,186,-0.94,0.3464,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Deebo Samuel Sr.,49.5,Over,kalshi,223,-0.92,0.3067,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Deebo Samuel Sr.,49.5,Under,kalshi,-233,-0.92,0.6933,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Emanuel Wilson,14.5,Over,kalshi,117,-1.03,0.4561,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Emanuel Wilson,14.5,Under,kalshi,-122,-1.03,0.5439,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Holani,8.5,Over,draftkings,-119,-5.3,0.5146,pinnacle,8,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Holani,8.5,Over,bovada,-120,-5.66,0.5146,pinnacle,8,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Holani,8.5,Under,draftkings,-106,-5.66,0.4854,pinnacle,8,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Holani,8.5,Under,bovada,-110,-7.33,0.4854,pinnacle,8,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Kittle,54.5,Under,draftkings,-112,-4.13,0.5065,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Kittle,54.5,Under,fanduel,-113,-4.53,0.5065,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Kittle,54.5,Over,pinnacle,-107,-4.53,0.4935,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Kittle,54.5,Under,pinnacle,-113,-4.53,0.5065,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Kittle,54.5,Under,bovada,-115,-5.31,0.5065,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Kittle,54.5,Under,hardrock,-115,-5.31,0.5065,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Kittle,54.5,Over,draftkings,-112,-6.59,0.4935,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Kittle,54.5,Over,fanduel,-113,-6.98,0.4935,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Kittle,54.5,Over,bovada,-115,-7.74,0.4935,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Kittle,54.5,Over,hardrock,-115,-7.74,0.4935,pinnacle,10,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Kittle,69.5,Over,kalshi,203,-1.04,0.3266,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,George Kittle,69.5,Under,kalshi,-213,-1.04,0.6734,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Mike Evans,39.5,Over,kalshi,-156,-0.93,0.6037,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Mike Evans,39.5,Under,kalshi,150,-0.93,0.3963,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Mike Evans,49.5,Over,draftkings,-114,-3.44,0.5144,kalshi,6,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Mike Evans,49.5,Under,draftkings,-110,-7.29,0.4856,kalshi,6,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Mike Evans,50.5,Under,bovada,-115,-6.12,0.5022,pinnacle,12,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Mike Evans,50.5,Over,bovada,-115,-6.93,0.4978,pinnacle,12,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Rashid Shaheed,14.5,Over,kalshi,-163,-1.03,0.6134,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_reception_yds,Rashid Shaheed,14.5,Under,kalshi,156,-1.03,0.3866,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,AJ Barner,2.5,Under,bovada,-120,-6.35,0.5108,pinnacle,15,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,AJ Barner,2.5,Under,hardrock,-120,-6.35,0.5108,pinnacle,15,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,AJ Barner,2.5,Over,bovada,-110,-6.61,0.4892,pinnacle,15,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,AJ Barner,2.5,Over,hardrock,-110,-6.61,0.4892,pinnacle,15,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Christian McCaffrey,4.5,Over,draftkings,-133,-4.84,0.5432,pinnacle,14,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Christian McCaffrey,4.5,Under,draftkings,104,-6.81,0.4568,pinnacle,14,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Cooper Kupp,1.5,Over,kalshi,-213,-1.04,0.6734,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Cooper Kupp,1.5,Under,kalshi,203,-1.04,0.3266,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Deebo Samuel Sr.,2.5,Over,kalshi,-233,-0.92,0.6933,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Deebo Samuel Sr.,2.5,Under,kalshi,223,-0.92,0.3067,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Deebo Samuel Sr.,4.5,Over,kalshi,203,-1.04,0.3266,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Deebo Samuel Sr.,4.5,Under,kalshi,-213,-1.04,0.6734,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Holani,1.5,Under,draftkings,113,-2.87,0.456,pinnacle,11,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Holani,1.5,Under,bovada,110,-4.24,0.456,pinnacle,11,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Holani,1.5,Over,draftkings,-144,-7.82,0.544,pinnacle,11,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Holani,1.5,Over,bovada,-145,-8.08,0.544,pinnacle,11,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,3.5,Over,kalshi,-203,-1.0,0.6633,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,George Kittle,3.5,Under,kalshi,194,-1.0,0.3367,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Jaxon Smith-Njigba,5.5,Over,kalshi,-213,-1.04,0.6734,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_receptions,Jaxon Smith-Njigba,5.5,Under,kalshi,203,-1.04,0.3266,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_rush_yds,Brock Purdy,23.5,Over,bovada,-115,-6.52,0.5,pinnacle,11,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_rush_yds,Brock Purdy,23.5,Under,bovada,-115,-6.52,0.5,pinnacle,11,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_rush_yds,Deebo Samuel Sr.,14.5,Over,kalshi,203,-1.04,0.3266,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_rush_yds,Deebo Samuel Sr.,14.5,Under,kalshi,-213,-1.04,0.6734,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_rush_yds,Emanuel Wilson,79.5,Over,kalshi,203,-1.04,0.3266,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_rush_yds,Emanuel Wilson,79.5,Under,kalshi,-213,-1.04,0.6734,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_rush_yds,Kaelon Black,9.5,Over,kalshi,-156,-0.93,0.6037,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,32687,2026-10-11T20:25:00Z,Seattle Seahawks,San Francisco 49ers,player_rush_yds,Kaelon Black,9.5,Under,kalshi,150,-0.93,0.3963,kalshi,3,2.2
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,80.5,Over,fanduel,-113,-0.66,0.527,pinnacle,11,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,80.5,Over,draftkings,-114,-1.07,0.527,pinnacle,11,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,80.5,Over,bovada,-115,-1.47,0.527,pinnacle,11,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,80.5,Over,hardrock,-115,-1.47,0.527,pinnacle,11,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,80.5,Over,fanatics,-120,-3.38,0.527,pinnacle,11,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,80.5,Over,pinnacle,-123,-4.45,0.527,pinnacle,11,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,80.5,Under,pinnacle,102,-4.45,0.473,pinnacle,11,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,80.5,Under,draftkings,-110,-9.7,0.473,pinnacle,11,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,80.5,Under,fanduel,-113,-10.84,0.473,pinnacle,11,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,80.5,Under,bovada,-115,-11.57,0.473,pinnacle,11,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,80.5,Under,hardrock,-115,-11.57,0.473,pinnacle,11,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,80.5,Under,fanatics,-125,-14.86,0.473,pinnacle,11,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Olamide Zaccheaus,1.5,Under,hardrock,-210,2.34,0.6933,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Olamide Zaccheaus,1.5,Over,kalshi,223,-0.92,0.3067,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Olamide Zaccheaus,1.5,Under,kalshi,-233,-0.92,0.6933,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Olamide Zaccheaus,1.5,Over,hardrock,155,-21.78,0.3067,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,29.5,Over,hardrock,-110,-4.55,0.5,pinnacle,12,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,29.5,Under,hardrock,-120,-8.33,0.5,pinnacle,12,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_anytime_td,Derrick Henry,,No,kalshi,117,-1.03,0.4561,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_anytime_td,Derrick Henry,,Yes,kalshi,-122,-1.03,0.5439,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_anytime_td,Derrick Henry,,No,hardrock,110,-4.22,0.4561,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_anytime_td,Derrick Henry,,Yes,hardrock,-155,-10.52,0.5439,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Michael Penix Jr.,199.5,Over,kalshi,-163,-1.03,0.6134,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_pass_yds,Michael Penix Jr.,199.5,Under,kalshi,156,-1.03,0.3866,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Bijan Robinson,24.5,Over,kalshi,-117,-0.86,0.5345,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Bijan Robinson,24.5,Under,kalshi,113,-0.86,0.4655,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,59.5,Over,kalshi,-223,-1.08,0.6829,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,59.5,Under,kalshi,212,-1.08,0.3171,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,69.5,Over,kalshi,-156,-0.93,0.6037,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,69.5,Under,kalshi,150,-0.93,0.3963,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,89.5,Over,kalshi,144,-0.97,0.4058,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Drake London,89.5,Under,kalshi,-150,-0.97,0.5942,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Mark Andrews,24.5,Over,kalshi,-156,-0.93,0.6037,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Mark Andrews,24.5,Under,kalshi,150,-0.93,0.3963,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Mark Andrews,30.5,Over,fanatics,-120,-6.74,0.5087,pinnacle,7,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Mark Andrews,30.5,Under,fanatics,-125,-11.56,0.4913,pinnacle,7,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Rashod Bateman,14.5,Over,kalshi,-127,-0.98,0.554,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Rashod Bateman,14.5,Under,kalshi,122,-0.98,0.446,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Rashod Bateman,19.5,Over,kalshi,117,-1.99,0.4517,kalshi,4,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Rashod Bateman,19.5,Under,kalshi,-127,-1.99,0.5483,kalshi,4,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Zay Flowers,49.5,Over,kalshi,-194,-0.94,0.6536,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Zay Flowers,49.5,Under,kalshi,186,-0.94,0.3464,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Zay Flowers,59.5,Over,kalshi,-133,-1.12,0.5644,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Zay Flowers,59.5,Under,kalshi,127,-1.12,0.4356,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Zay Flowers,69.5,Under,underdog,-115,-0.06,0.5345,kalshi,4,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Zay Flowers,69.5,Over,kalshi,113,-0.86,0.4655,kalshi,4,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Zay Flowers,69.5,Under,kalshi,-117,-0.86,0.5345,kalshi,4,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Zay Flowers,69.5,Over,underdog,-106,-9.54,0.4655,kalshi,4,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Zay Flowers,79.5,Over,kalshi,170,-1.05,0.3665,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_reception_yds,Zay Flowers,79.5,Under,kalshi,-178,-1.05,0.6335,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Over,kalshi,-203,-0.4,0.6673,pinnacle,9,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Under,kalshi,194,-2.18,0.3327,pinnacle,9,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Over,pinnacle,-232,-4.51,0.6673,pinnacle,9,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Under,pinnacle,187,-4.51,0.3327,pinnacle,9,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Under,bovada,185,-5.18,0.3327,pinnacle,9,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Over,draftkings,-238,-5.23,0.6673,pinnacle,9,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Under,draftkings,184,-5.51,0.3327,pinnacle,9,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Under,fanduel,182,-6.17,0.3327,pinnacle,9,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Over,bovada,-250,-6.58,0.6673,pinnacle,9,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Austin Hooper,0.5,Over,fanduel,-250,-6.58,0.6673,pinnacle,9,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Drake London,4.5,Over,kalshi,-233,-0.92,0.6933,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Drake London,4.5,Under,kalshi,223,-0.92,0.3067,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Bijan Robinson,89.5,Under,hardrock,-120,-5.7,0.5144,kalshi,7,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Bijan Robinson,89.5,Over,hardrock,-115,-9.21,0.4856,kalshi,7,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Derrick Henry,69.5,Under,bovada,145,-0.57,0.4058,kalshi,4,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Derrick Henry,69.5,Over,kalshi,-150,-0.97,0.5942,kalshi,4,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Derrick Henry,69.5,Under,kalshi,144,-0.97,0.4058,kalshi,4,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Derrick Henry,69.5,Over,bovada,-190,-9.31,0.5942,kalshi,4,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Derrick Henry,80.5,Under,hardrock,-115,-5.71,0.5043,pinnacle,10,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Derrick Henry,80.5,Over,fanatics,-115,-7.33,0.4957,pinnacle,10,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Derrick Henry,80.5,Under,fanatics,-135,-12.21,0.5043,pinnacle,10,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,24.5,Over,kalshi,-138,-0.89,0.5747,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,24.5,Under,kalshi,133,-0.89,0.4253,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,24.5,Under,bovada,125,-4.3,0.4253,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,24.5,Over,bovada,-165,-7.71,0.5747,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,39.5,Over,kalshi,223,-0.92,0.3067,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,39.5,Under,kalshi,-233,-0.92,0.6933,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,39.5,Under,bovada,-250,-2.94,0.6933,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_rush_yds,Tyler Huntley,39.5,Over,bovada,185,-12.58,0.3067,kalshi,3,6.1
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_attempts,Josh Allen,31.5,Over,pinnacle,-134,-5.28,0.5424,pinnacle,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_attempts,Josh Allen,31.5,Under,pinnacle,107,-5.28,0.4576,pinnacle,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_completions,Josh Allen,20.5,Under,bovada,100,-5.44,0.4728,pinnacle,8,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_completions,Josh Allen,20.5,Over,bovada,-130,-6.73,0.5272,pinnacle,8,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Keon Coleman,39.5,Over,kalshi,108,-1.12,0.4754,kalshi,5,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Keon Coleman,39.5,Under,kalshi,-113,-1.12,0.5246,kalshi,5,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Colby Parkinson,1.5,Under,kalshi,150,1.21,0.4048,pinnacle,8,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Colby Parkinson,1.5,Over,kalshi,-156,-2.33,0.5952,pinnacle,8,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Colby Parkinson,2.5,Under,draftkings,-190,-3.3,0.6335,kalshi,7,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Colby Parkinson,2.5,Over,draftkings,148,-9.12,0.3665,kalshi,7,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Kyren Williams,2.5,Under,draftkings,131,-2.86,0.4205,pinnacle,12,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Kyren Williams,2.5,Over,draftkings,-168,-7.56,0.5795,pinnacle,12,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Blake Corum,49.5,Over,kalshi,212,-1.98,0.3142,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Blake Corum,49.5,Under,kalshi,-233,-1.98,0.6858,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_tds,Matthew Stafford,1.5,Over,kalshi,-233,-0.92,0.6933,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_tds,Matthew Stafford,1.5,Under,kalshi,223,-0.92,0.3067,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Josh Allen,249.5,Over,kalshi,104,-0.93,0.4856,kalshi,4,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Josh Allen,249.5,Under,kalshi,-108,-0.93,0.5144,kalshi,4,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Josh Allen,249.5,Over,underdog,-103,-4.29,0.4856,kalshi,4,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Josh Allen,249.5,Under,underdog,-121,-6.05,0.5144,kalshi,4,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Matthew Stafford,249.5,Over,kalshi,-203,-1.0,0.6633,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Matthew Stafford,249.5,Under,kalshi,194,-1.0,0.3367,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Matthew Stafford,274.5,Over,kalshi,-117,-0.86,0.5345,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_yds,Matthew Stafford,274.5,Under,kalshi,113,-0.86,0.4655,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Dalton Kincaid,39.5,Over,kalshi,-194,-0.94,0.6536,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Dalton Kincaid,39.5,Under,kalshi,186,-0.94,0.3464,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Dalton Kincaid,69.5,Over,kalshi,178,-2.88,0.3493,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Dalton Kincaid,69.5,Under,kalshi,-203,-2.88,0.6507,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Davante Adams,49.5,Over,kalshi,-178,-2.01,0.6274,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Davante Adams,49.5,Under,kalshi,163,-2.01,0.3726,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Davante Adams,59.5,Over,kalshi,-108,-0.93,0.5144,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Davante Adams,59.5,Under,kalshi,104,-0.93,0.4856,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Davante Adams,69.5,Over,kalshi,127,-2.0,0.4317,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Davante Adams,69.5,Under,kalshi,-138,-2.0,0.5683,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Davante Adams,79.5,Over,kalshi,203,-1.04,0.3266,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Davante Adams,79.5,Under,kalshi,-213,-1.04,0.6734,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Keon Coleman,24.5,Over,kalshi,-213,-3.87,0.6542,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Keon Coleman,24.5,Under,kalshi,178,-3.87,0.3458,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Khalil Shakir,39.5,Over,kalshi,-150,-3.9,0.5766,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Khalil Shakir,39.5,Under,kalshi,127,-3.9,0.4234,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Khalil Shakir,59.5,Over,kalshi,186,-2.93,0.3394,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Khalil Shakir,59.5,Under,kalshi,-213,-2.93,0.6606,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Kyren Williams,14.5,Over,kalshi,-178,-1.05,0.6335,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Kyren Williams,14.5,Under,kalshi,170,-1.05,0.3665,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Puka Nacua,79.5,Over,kalshi,-170,-2.88,0.6115,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Puka Nacua,79.5,Under,kalshi,150,-2.88,0.3885,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Puka Nacua,89.5,Over,kalshi,-117,-1.95,0.5286,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Puka Nacua,89.5,Under,kalshi,108,-1.95,0.4714,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Puka Nacua,109.5,Over,kalshi,170,-2.93,0.3595,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Puka Nacua,109.5,Under,kalshi,-194,-2.93,0.6405,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Tyler Higbee,14.5,Over,kalshi,-203,-1.0,0.6633,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_reception_yds,Tyler Higbee,14.5,Under,kalshi,194,-1.0,0.3367,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Dalton Kincaid,5.5,Over,kalshi,223,-1.94,0.3036,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Dalton Kincaid,5.5,Under,kalshi,-245,-1.94,0.6964,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Davante Adams,3.5,Over,kalshi,-178,-2.01,0.6274,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Davante Adams,3.5,Under,kalshi,163,-2.01,0.3726,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Jordan Whittington,0.5,Under,kalshi,138,-4.14,0.4028,pinnacle,11,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Khalil Shakir,3.5,Over,kalshi,-203,-3.88,0.644,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Khalil Shakir,3.5,Under,kalshi,170,-3.88,0.356,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Blake Corum,24.5,Over,kalshi,-223,-2.0,0.6766,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Blake Corum,24.5,Under,kalshi,203,-2.0,0.3234,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Blake Corum,39.5,Over,kalshi,127,-2.0,0.4317,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Blake Corum,39.5,Under,kalshi,-138,-2.0,0.5683,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Josh Allen,29.5,Over,kalshi,-178,-2.01,0.6274,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Josh Allen,29.5,Under,kalshi,163,-2.01,0.3726,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Josh Allen,39.5,Over,kalshi,117,-1.03,0.4561,kalshi,4,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Josh Allen,39.5,Under,kalshi,-122,-1.03,0.5439,kalshi,4,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Josh Allen,49.5,Over,kalshi,212,-1.98,0.3142,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Josh Allen,49.5,Under,kalshi,-233,-1.98,0.6858,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,59.5,Over,kalshi,-156,-1.88,0.5979,kalshi,3,30.0
+2026-10-11T18:15:05Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,59.5,Under,kalshi,144,-1.88,0.4021,kalshi,3,30.0
