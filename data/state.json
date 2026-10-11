@@ -8986,8 +8986,8 @@
   "fanduel|46673|46673/player_receptions/Joshua Palmer/1.5/Under|46673/player_rush_yds/Josh Allen/39.5/Under": "2026-10-11T02:34:53Z"
  },
  "sgp_roster_cache": {
-  "downloaded_at": "2026-10-10T03:03:05Z",
-  "rows": 3142,
+  "downloaded_at": "2026-10-11T06:09:56Z",
+  "rows": 3143,
   "season": 2026,
   "source": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.csv"
  },
