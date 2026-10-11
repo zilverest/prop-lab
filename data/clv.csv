@@ -723,3 +723,17 @@ graded_ts,event_id,market,player,point,side,book,price,ev_pct_at_bet,fair_prob_a
 2026-10-05T02:40:54Z,32675,player_rush_yds,Kirk Cousins,0.5,Over,draftkings,106,5.61,0.5127,False,no_outcome_for_selection,,,,,,,,,,False
 2026-10-05T02:40:54Z,32675,player_rush_yds,Kirk Cousins,0.5,Over,bovada,105,5.09,0.5127,True,,-105,0.5,0.479695,bovada,5.0,-1.6624,True,void,,True
 2026-10-05T02:40:54Z,32675,player_pass_tds,Kirk Cousins,1.5,Under,kalshi,-133,3.06,0.5883,True,,-138,1.5,0.588665,pinnacle,1.5796,3.1271,True,lost,2.0,True
+2026-10-11T21:10:04Z,32685,player_pass_tds,Deshaun Watson,1.5,Over,kalshi,186,4.24,0.3645,True,,186,1.5,0.364465,pinnacle,0.0,4.2371,False,lost,1.0,True
+2026-10-11T21:10:04Z,32685,player_receptions,Braelon Allen,2.5,Over,kalshi,113,3.27,0.4848,True,,117,2.5,0.472999,pinnacle,-1.8433,0.7487,False,lost,1.0,True
+2026-10-11T21:10:04Z,32685,player_receptions,Jerry Jeudy,1.5,Under,draftkings,-117,4.66,0.5643,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-11T21:10:04Z,32685,player_receptions,Jerry Jeudy,1.5,Under,underdog,-121,3.06,0.5643,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-11T21:10:04Z,32685,player_receptions,Quinshon Judkins,2.5,Over,kalshi,-108,3.14,0.5355,True,,-108,2.5,0.516161,pinnacle,0.0,-0.5912,False,won,3.0,True
+2026-10-11T21:10:04Z,32685,player_receptions,Raheim Sanders,2.5,Under,hardrock,-155,4.82,0.6371,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-11T21:10:04Z,32685,player_receptions,Garrett Wilson,6.5,Over,kalshi,156,3.64,0.4048,True,,150,6.5,0.399231,pinnacle,2.4,2.2032,True,won,7.0,True
+2026-10-11T21:10:04Z,32685,player_receptions,Jerry Jeudy,1.5,Under,bovada,-120,3.45,0.5643,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-11T21:10:04Z,32685,player_reception_yds,Mason Taylor,14.5,Under,underdog,-107,4.08,0.538,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-11T21:10:04Z,32685,player_receptions,Denzel Boston,3.5,Over,kalshi,133,4.43,0.4482,True,,133,3.5,0.444362,pinnacle,0.0,3.5363,False,lost,3.0,True
+2026-10-11T21:10:04Z,32685,player_receptions,Kenyon Sadiq,3.5,Over,fanduel,134,3.57,0.4426,True,,124,3.5,0.422526,pinnacle,4.4643,-1.129,True,lost,2.0,True
+2026-10-11T21:10:04Z,32685,player_receptions,Kenyon Sadiq,3.5,Over,kalshi,133,3.13,0.4426,True,,127,3.5,0.422526,pinnacle,2.6432,-1.5515,True,lost,2.0,True
+2026-10-11T21:10:04Z,32685,player_receptions,Raheim Sanders,1.5,Over,kalshi,-150,3.85,0.6231,True,,-138,1.5,0.579178,pinnacle,-3.3613,-3.4704,False,lost,1.0,True
+2026-10-11T21:10:04Z,32685,player_rush_yds,Quinshon Judkins,59.5,Under,kalshi,-104,3.83,0.5293,True,,-104,59.5,0.508664,pinnacle,0.0,-0.2236,False,won,44.0,True
