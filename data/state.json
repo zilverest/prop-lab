@@ -8804,14 +8804,26 @@
   "46672|player_rush_yds|Tyler Huntley|39.5|Under|kalshi": "-233|0.6795|-2.89"
  },
  "parlay_board_last": {
-  "date": "2026-10-08",
+  "date": "2026-10-11",
   "events": [
-   "32678"
+   "24872",
+   "46671",
+   "32684",
+   "32683",
+   "32681",
+   "32682",
+   "32685",
+   "32679",
+   "32680",
+   "32686",
+   "46670",
+   "32687",
+   "46672"
   ],
   "rows": 8,
-  "ts": "2026-10-08T12:26:10Z"
+  "ts": "2026-10-11T13:15:38Z"
  },
- "parlay_gameday_msg_date": "2026-10-08",
+ "parlay_gameday_msg_date": "2026-10-11",
  "parlay_summary_week": "2026-W41",
  "sgp_attempted": {
   "draftkings|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
