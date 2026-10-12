@@ -737,3 +737,14 @@ graded_ts,event_id,market,player,point,side,book,price,ev_pct_at_bet,fair_prob_a
 2026-10-11T21:10:04Z,32685,player_receptions,Kenyon Sadiq,3.5,Over,kalshi,133,3.13,0.4426,True,,127,3.5,0.422526,pinnacle,2.6432,-1.5515,True,lost,2.0,True
 2026-10-11T21:10:04Z,32685,player_receptions,Raheim Sanders,1.5,Over,kalshi,-150,3.85,0.6231,True,,-138,1.5,0.579178,pinnacle,-3.3613,-3.4704,False,lost,1.0,True
 2026-10-11T21:10:04Z,32685,player_rush_yds,Quinshon Judkins,59.5,Under,kalshi,-104,3.83,0.5293,True,,-104,59.5,0.508664,pinnacle,0.0,-0.2236,False,won,44.0,True
+2026-10-12T02:56:30Z,32686,player_receptions,RJ Harvey,4.5,Over,draftkings,126,4.43,0.4621,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-12T02:56:30Z,32686,player_receptions,RJ Harvey,4.5,Over,bovada,125,3.97,0.4621,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-12T02:56:30Z,32686,player_rush_yds,J.K. Dobbins,59.5,Under,underdog,-112,17.2,0.6192,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-12T02:56:30Z,32686,player_receptions,Courtland Sutton,3.5,Under,draftkings,-126,3.16,0.5752,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-12T02:56:30Z,32686,player_rush_yds,RJ Harvey,19.5,Over,underdog,-102,14.66,0.579,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-12T02:56:30Z,32686,player_rush_longest,RJ Harvey,9.5,Over,underdog,-102,3.04,0.5203,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-12T02:56:30Z,32686,player_rush_yds,RJ Harvey,24.5,Over,underdog,-105,4.36,0.5345,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-12T02:56:30Z,32686,player_rush_yds,J.K. Dobbins,49.5,Over,underdog,-107,3.41,0.5345,True,,-122,49.5,0.519751,kalshi,6.3147,0.55,True,won,68.0,True
+2026-10-12T02:56:30Z,32686,player_receptions,Courtland Sutton,3.5,Over,kalshi,133,3.54,0.4444,True,,122,3.5,0.444362,pinnacle,4.955,3.5363,True,lost,2.0,True
+2026-10-12T02:56:30Z,32686,player_rush_attempts,J.K. Dobbins,13.5,Under,draftkings,101,5.49,0.5248,False,no_outcome_for_selection,,,,,,,,,,False
+2026-10-12T02:56:30Z,32686,player_reception_yds,Evan Engram,18.5,Over,draftkings,-107,3.35,0.5342,False,no_outcome_for_selection,,,,,,,,,,False
