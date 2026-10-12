@@ -1,0 +1,56 @@
+name: nba-phase-1-replay
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - nba-phase-1-replay
+    paths:
+      - "nba_replay.py"
+      - "nba_audit.py"
+      - "tests/test_nba_replay.py"
+      - "tests/test_nba_audit.py"
+      - "common.py"
+      - "research/nba/NBA_PHASE1_PLAN.md"
+      - ".github/workflows/nba-phase-1-replay.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nba-phase-1-replay
+  cancel-in-progress: false
+
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile
+        run: |
+          python3 -m py_compile nba_audit.py nba_replay.py common.py
+
+      - name: Full offline tests
+        run: python3 -m unittest discover -s tests -v
+
+      - name: Run NBA causal preseason replay
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          NBA_REPLAY_MAX_EVENTS: "20"
+        run: python3 nba_replay.py
+
+      - name: Commit replay evidence to NBA branch
+        run: |
+          git config user.name "eevee-bot"
+          git config user.email "eevee-bot@users.noreply.github.com"
+          git add research/nba/phase1 data/nba
+          git diff --cached --quiet && echo "nothing new" && exit 0
+          git commit -m "NBA Phase 1 replay $(date -u +%Y-%m-%dT%H:%MZ)"
+          git pull --rebase origin "$GITHUB_REF_NAME" || true
+          git push origin HEAD:"$GITHUB_REF_NAME"
