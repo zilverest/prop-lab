@@ -94,3 +94,4 @@ ts,phase,status,events,rows,api_calls,api_remaining,note
 2026-10-12T01:29:59Z,capture,ok,1,492,3,4997,hours_before=30.0; shadow=22
 2026-10-12T01:30:09Z,research,ok,0,0,0,,legacy_auto=False; sgp_obs=1
 2026-10-12T02:56:18Z,capture,ok,2,93,10,4986,hours_before=144; shadow=22
+2026-10-12T02:56:29Z,research,ok,0,0,0,,legacy_auto=True; sgp_obs=1
