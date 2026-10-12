@@ -63,3 +63,13 @@ event_id,sport,home,away,commence_time,first_seen
 46673,football_nfl,Los Angeles Rams,Buffalo Bills,2026-10-13T00:15:00Z,2026-10-07T02:58:41Z
 46674,football_nfl,Denver Broncos,Seattle Seahawks,2026-10-16T00:15:00Z,2026-10-10T03:01:20Z
 32690,football_nfl,Jacksonville Jaguars,Houston Texans,2026-10-18T13:30:00Z,2026-10-12T13:42:30Z
+46677,football_nfl,Atlanta Falcons,Chicago Bears,2026-10-18T17:00:00Z,2026-10-12T23:52:50Z
+46678,football_nfl,Cleveland Browns,Baltimore Ravens,2026-10-18T17:00:00Z,2026-10-12T23:52:50Z
+46676,football_nfl,New York Giants,New Orleans Saints,2026-10-18T17:00:00Z,2026-10-12T23:52:50Z
+53245,football_nfl,Tampa Bay Buccaneers,Pittsburgh Steelers,2026-10-18T17:00:00Z,2026-10-12T23:52:50Z
+46675,football_nfl,Philadelphia Eagles,Carolina Panthers,2026-10-18T17:00:00Z,2026-10-12T23:52:50Z
+56777,football_nfl,Indianapolis Colts,Tennessee Titans,2026-10-18T17:00:00Z,2026-10-12T23:52:50Z
+53246,football_nfl,New England Patriots,New York Jets,2026-10-18T17:00:00Z,2026-10-12T23:52:50Z
+53247,football_nfl,Los Angeles Rams,Arizona Cardinals,2026-10-18T20:05:00Z,2026-10-12T23:52:50Z
+53165,football_nfl,Las Vegas Raiders,Buffalo Bills,2026-10-18T20:25:00Z,2026-10-12T23:52:50Z
+53248,football_nfl,Kansas City Chiefs,Los Angeles Chargers,2026-10-18T20:25:00Z,2026-10-12T23:52:50Z
