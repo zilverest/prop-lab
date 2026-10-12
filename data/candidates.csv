@@ -3020,3 +3020,7 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-12T07:54:44Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Tyler Higbee,2.5,Over,kalshi,-100,3.23,0.5162,pinnacle,11,16.3,False,ev +3.2 fair 0.516 pinnacle 11b
 2026-10-12T13:42:30Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Khalil Shakir,4.5,Over,kalshi,104,3.77,0.5087,pinnacle,15,10.5,False,ev +3.8 fair 0.509 pinnacle 15b
 2026-10-12T13:42:30Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Kyren Williams,2.5,Under,kalshi,150,4.36,0.4175,pinnacle,11,10.5,False,ev +4.4 fair 0.417 pinnacle 11b
+2026-10-12T18:05:54Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_tds,Matthew Stafford,2.5,Over,hardrock,150,6.93,0.4277,pinnacle,15,6.2,True,ev +6.9 fair 0.428 pinnacle 15b
+2026-10-12T18:05:54Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_pass_tds,Matthew Stafford,2.5,Over,kalshi,150,6.93,0.4277,pinnacle,15,6.2,False,ev +6.9 fair 0.428 pinnacle 15b
+2026-10-12T18:05:54Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Ty Johnson,2.5,Over,kalshi,186,6.21,0.3714,pinnacle,6,6.2,False,ev +6.2 fair 0.371 pinnacle 6b
+2026-10-12T18:05:54Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_rush_yds,Kyren Williams,59.5,Under,bovada,150,3.97,0.4159,kalshi,4,6.2,False,ev +4.0 fair 0.416 kalshi 4b
