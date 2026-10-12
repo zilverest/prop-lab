@@ -3009,3 +3009,5 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-11T22:13:46Z,football_nfl,46672,2026-10-12T00:20:00Z,Atlanta Falcons,Baltimore Ravens,player_receptions,Derrick Henry,1.5,Over,kalshi,186,4.97,0.367,pinnacle,15,2.1,False,ev +5.0 fair 0.367 pinnacle 15b
 2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Keon Coleman,3.5,Over,kalshi,163,8.14,0.4112,pinnacle,9,26.0,False,ev +8.1 fair 0.411 pinnacle 9b
 2026-10-11T22:13:46Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Ty Johnson,2.5,Over,kalshi,178,3.18,0.3712,pinnacle,5,26.0,False,ev +3.2 fair 0.371 pinnacle 5b
+2026-10-12T01:29:52Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Keon Coleman,3.5,Over,kalshi,163,8.18,0.4113,pinnacle,9,22.8,False,ev +8.2 fair 0.411 pinnacle 9b
+2026-10-12T01:29:52Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Ty Johnson,2.5,Over,kalshi,178,3.24,0.3714,pinnacle,5,22.8,False,ev +3.2 fair 0.371 pinnacle 5b
