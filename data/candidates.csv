@@ -3033,3 +3033,4 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-12T23:52:50Z,football_nfl,46673,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,player_receptions,Ty Johnson,2.5,Over,kalshi,178,3.24,0.3714,pinnacle,10,0.4,False,ev +3.2 fair 0.371 pinnacle 10b
 2026-10-12T23:52:50Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,224.5,Under,underdog,-106,7.7,0.5542,kalshi,5,72.4,False,ev +7.7 fair 0.554 kalshi 5b
 2026-10-12T23:52:50Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,24.5,Under,underdog,-106,7.39,0.5526,kalshi,5,72.4,False,ev +7.4 fair 0.553 kalshi 5b
+2026-10-13T04:11:15Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,24.5,Under,underdog,-106,9.37,0.5628,kalshi,5,68.1,False,ev +9.4 fair 0.563 kalshi 5b
