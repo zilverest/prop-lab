@@ -1695,6 +1695,7 @@
   "draftkings|46673|46673/player_receptions/Joshua Palmer/1.5/Under|46673/player_rush_yds/Josh Allen/39.5/Under": "2026-10-11T02:34:53Z",
   "draftkings|46673|46673/player_receptions/Keon Coleman/3.5/Over|46673/player_rush_yds/Josh Allen/39.5/Under": "2026-10-12T13:42:52Z",
   "draftkings|46674|46674/player_pass_yds/Sam Darnold/224.5/Under|46674/player_reception_yds/Evan Engram/24.5/Under": "2026-10-12T23:53:28Z",
+  "draftkings|46674|46674/player_reception_yds/Evan Engram/24.5/Under|46674/player_rush_attempts/RJ Harvey/5.5/Under": "2026-10-13T13:03:54Z",
   "fanduel|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
   "fanduel|23215|23215/player_pass_yds/Lamar Jackson/199.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-26T20:20:37Z",
   "fanduel|23215|23215/player_reception_yds/George Pickens/59.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-24T20:56:16Z",
@@ -2037,10 +2038,11 @@
   "fanduel|46673|46673/player_pass_tds/Matthew Stafford/2.5/Over|46673/player_rush_yds/Josh Allen/39.5/Under": "2026-10-12T23:53:28Z",
   "fanduel|46673|46673/player_receptions/Joshua Palmer/1.5/Under|46673/player_rush_yds/Josh Allen/39.5/Under": "2026-10-11T02:34:53Z",
   "fanduel|46673|46673/player_receptions/Keon Coleman/3.5/Over|46673/player_rush_yds/Josh Allen/39.5/Under": "2026-10-12T13:42:52Z",
-  "fanduel|46674|46674/player_pass_yds/Sam Darnold/224.5/Under|46674/player_reception_yds/Evan Engram/24.5/Under": "2026-10-12T23:53:28Z"
+  "fanduel|46674|46674/player_pass_yds/Sam Darnold/224.5/Under|46674/player_reception_yds/Evan Engram/24.5/Under": "2026-10-12T23:53:28Z",
+  "fanduel|46674|46674/player_reception_yds/Evan Engram/24.5/Under|46674/player_rush_attempts/RJ Harvey/5.5/Under": "2026-10-13T13:03:54Z"
  },
  "sgp_roster_cache": {
-  "downloaded_at": "2026-10-12T07:54:59Z",
+  "downloaded_at": "2026-10-13T13:03:54Z",
   "rows": 3143,
   "season": 2026,
   "source": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.csv"
