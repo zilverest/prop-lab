@@ -3034,3 +3034,6 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-12T23:52:50Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,224.5,Under,underdog,-106,7.7,0.5542,kalshi,5,72.4,False,ev +7.7 fair 0.554 kalshi 5b
 2026-10-12T23:52:50Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,24.5,Under,underdog,-106,7.39,0.5526,kalshi,5,72.4,False,ev +7.4 fair 0.553 kalshi 5b
 2026-10-13T04:11:15Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,24.5,Under,underdog,-106,9.37,0.5628,kalshi,5,68.1,False,ev +9.4 fair 0.563 kalshi 5b
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,George Holani,7.5,Under,underdog,-106,3.12,0.5306,bovada,5,59.2,False,ev +3.1 fair 0.531 bovada 5b
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,3.5,Over,kalshi,138,3.05,0.433,pinnacle,10,59.2,False,ev +3.0 fair 0.433 pinnacle 10b
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,RJ Harvey,5.5,Under,hardrock,-130,3.14,0.583,pinnacle,5,59.2,True,ev +3.1 fair 0.583 pinnacle 5b

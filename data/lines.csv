@@ -273510,3 +273510,1029 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-13T04:11:15Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,226.5,Over,bovada,-115,-6.52,0.5,bovada,3,129.3
 2026-10-13T04:11:15Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,226.5,Under,bovada,-115,-6.52,0.5,bovada,3,129.3
 2026-10-13T04:11:15Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,226.5,Under,hardrock,-125,-10.0,0.5,bovada,3,129.3
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_attempts,Bo Nix,34.5,Over,underdog,-115,-2.18,0.5232,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_attempts,Bo Nix,34.5,Over,draftkings,-117,-2.96,0.5232,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_attempts,Bo Nix,34.5,Over,bovada,-120,-4.08,0.5232,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_attempts,Bo Nix,34.5,Over,hardrock,-120,-4.08,0.5232,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_attempts,Bo Nix,34.5,Over,pinnacle,-127,-6.48,0.5232,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_attempts,Bo Nix,34.5,Under,pinnacle,-104,-6.48,0.4768,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_attempts,Bo Nix,34.5,Under,underdog,-107,-7.76,0.4768,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_attempts,Bo Nix,34.5,Under,draftkings,-109,-8.58,0.4768,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_attempts,Bo Nix,34.5,Under,bovada,-110,-8.98,0.4768,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_attempts,Bo Nix,34.5,Under,hardrock,-110,-8.98,0.4768,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,224.5,Over,kalshi,108,-1.12,0.4754,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,224.5,Under,kalshi,-113,-1.12,0.5246,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,224.5,Under,underdog,-114,-1.52,0.5246,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,224.5,Over,hardrock,-105,-7.18,0.4754,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,224.5,Under,hardrock,-130,-7.19,0.5246,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,224.5,Over,underdog,-108,-8.44,0.4754,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,George Holani,7.5,Under,underdog,-106,3.12,0.5306,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,George Holani,7.5,Under,hardrock,-125,-4.49,0.5306,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,George Holani,7.5,Over,draftkings,101,-5.65,0.4694,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,George Holani,7.5,Over,bovada,100,-6.12,0.4694,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,George Holani,7.5,Under,bovada,-130,-6.12,0.5306,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,George Holani,7.5,Under,draftkings,-131,-6.43,0.5306,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,George Holani,7.5,Over,hardrock,-105,-8.36,0.4694,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,George Holani,7.5,Over,underdog,-117,-12.94,0.4694,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Troy Franklin,12.5,Under,underdog,-105,1.58,0.5203,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Troy Franklin,12.5,Over,draftkings,-104,-5.91,0.4797,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Troy Franklin,12.5,Over,bovada,-105,-6.35,0.4797,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Troy Franklin,12.5,Under,bovada,-125,-6.35,0.5203,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Troy Franklin,12.5,Under,draftkings,-125,-6.35,0.5203,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Troy Franklin,12.5,Over,underdog,-118,-11.38,0.4797,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,14.5,Under,underdog,-112,-3.47,0.51,kalshi,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,14.5,Over,kalshi,-104,-3.88,0.49,kalshi,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,14.5,Under,kalshi,-113,-3.88,0.51,kalshi,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,14.5,Under,fanduel,-114,-4.27,0.51,kalshi,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,14.5,Over,hardrock,-110,-6.45,0.49,kalshi,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,14.5,Under,hardrock,-120,-6.51,0.51,kalshi,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,14.5,Over,underdog,-112,-7.24,0.49,kalshi,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,14.5,Over,fanduel,-114,-8.01,0.49,kalshi,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,19.5,Over,hardrock,-125,-6.55,0.5192,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,19.5,Over,pinnacle,-125,-6.55,0.5192,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,19.5,Under,pinnacle,-106,-6.55,0.4808,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,19.5,Under,hardrock,-110,-8.2,0.4808,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,3.5,Over,kalshi,138,3.05,0.433,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,3.5,Over,bovada,130,-0.42,0.433,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,3.5,Over,draftkings,129,-0.85,0.433,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,3.5,Over,hardrock,120,-4.75,0.433,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,3.5,Under,kalshi,-150,-5.5,0.567,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,3.5,Over,fanduel,116,-6.48,0.433,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,3.5,Under,fanduel,-154,-6.48,0.567,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,3.5,Over,pinnacle,116,-6.48,0.433,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,3.5,Under,pinnacle,-154,-6.48,0.567,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,3.5,Under,hardrock,-155,-6.72,0.567,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,3.5,Under,draftkings,-165,-8.93,0.567,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,3.5,Under,bovada,-170,-9.94,0.567,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Emanuel Wilson,1.5,Under,draftkings,-103,0.4,0.5094,kalshi,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Emanuel Wilson,1.5,Under,bovada,-105,-0.54,0.5094,kalshi,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Emanuel Wilson,1.5,Over,kalshi,-100,-1.89,0.4906,kalshi,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Emanuel Wilson,1.5,Under,kalshi,-108,-1.89,0.5094,kalshi,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Emanuel Wilson,1.5,Under,underdog,-112,-3.57,0.5094,kalshi,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Emanuel Wilson,1.5,Under,fanduel,-114,-4.37,0.5094,kalshi,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Emanuel Wilson,1.5,Under,hardrock,-115,-4.76,0.5094,kalshi,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Emanuel Wilson,1.5,Over,underdog,-112,-7.14,0.4906,kalshi,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Emanuel Wilson,1.5,Over,fanduel,-114,-7.91,0.4906,kalshi,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Emanuel Wilson,1.5,Over,hardrock,-115,-8.29,0.4906,kalshi,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Emanuel Wilson,1.5,Over,draftkings,-124,-11.38,0.4906,kalshi,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Emanuel Wilson,1.5,Over,bovada,-125,-11.7,0.4906,kalshi,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,2.5,Over,kalshi,-127,2.19,0.5717,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,2.5,Over,draftkings,-143,-2.84,0.5717,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,2.5,Over,bovada,-145,-3.4,0.5717,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,2.5,Under,kalshi,122,-4.93,0.4283,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,2.5,Under,hardrock,120,-5.78,0.4283,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,2.5,Over,hardrock,-155,-5.94,0.5717,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,2.5,Over,fanduel,-158,-6.64,0.5717,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,2.5,Under,fanduel,118,-6.64,0.4283,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,2.5,Over,pinnacle,-158,-6.64,0.5717,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,2.5,Under,pinnacle,118,-6.64,0.4283,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,2.5,Under,draftkings,112,-9.21,0.4283,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,2.5,Under,bovada,110,-10.07,0.4283,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Over,kalshi,-100,0.0,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Under,bovada,-110,-4.55,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Under,draftkings,-111,-4.95,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Over,underdog,-112,-5.36,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Under,underdog,-112,-5.36,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Under,kalshi,-113,-5.75,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Over,fanduel,-114,-6.14,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Under,fanduel,-114,-6.14,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Over,draftkings,-115,-6.52,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Over,hardrock,-115,-6.52,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Under,hardrock,-115,-6.52,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,4.5,Over,bovada,-120,-8.33,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,1.5,Over,hardrock,-160,-0.63,0.6115,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,1.5,Over,kalshi,-170,-2.88,0.6115,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,1.5,Under,kalshi,150,-2.88,0.3885,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,1.5,Under,hardrock,120,-14.53,0.3885,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,2.5,Over,kalshi,163,-0.88,0.3769,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,2.5,Under,kalshi,-178,-2.68,0.6231,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,2.5,Under,bovada,-190,-4.89,0.6231,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,2.5,Under,draftkings,-190,-4.89,0.6231,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,2.5,Over,draftkings,148,-6.53,0.3769,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,2.5,Over,fanduel,148,-6.53,0.3769,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,2.5,Under,fanduel,-200,-6.53,0.6231,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,2.5,Over,pinnacle,148,-6.53,0.3769,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,2.5,Under,pinnacle,-200,-6.53,0.6231,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,2.5,Over,bovada,145,-7.66,0.3769,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,2.5,Over,hardrock,145,-7.66,0.3769,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Rashid Shaheed,2.5,Under,hardrock,-210,-8.02,0.6231,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,Bo Nix,3.5,Over,draftkings,-150,-2.3,0.5862,pinnacle,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,Bo Nix,3.5,Over,pinnacle,-168,-6.48,0.5862,pinnacle,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,Bo Nix,3.5,Under,pinnacle,126,-6.48,0.4138,pinnacle,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,Bo Nix,3.5,Under,draftkings,118,-9.79,0.4138,pinnacle,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,J.K. Dobbins,13.5,Under,draftkings,-102,-3.79,0.4858,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,J.K. Dobbins,13.5,Under,hardrock,-105,-5.15,0.4858,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,J.K. Dobbins,13.5,Over,pinnacle,-122,-6.44,0.5142,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,J.K. Dobbins,13.5,Under,pinnacle,-108,-6.44,0.4858,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,J.K. Dobbins,13.5,Over,draftkings,-124,-7.12,0.5142,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,J.K. Dobbins,13.5,Over,hardrock,-125,-7.45,0.5142,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,RJ Harvey,5.5,Under,hardrock,-130,3.14,0.583,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,RJ Harvey,5.5,Under,draftkings,-155,-4.09,0.583,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,RJ Harvey,5.5,Over,pinnacle,124,-6.58,0.417,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,RJ Harvey,5.5,Under,pinnacle,-166,-6.58,0.583,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,RJ Harvey,5.5,Over,draftkings,121,-7.84,0.417,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,RJ Harvey,5.5,Over,hardrock,100,-16.59,0.417,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,J.K. Dobbins,12.5,Under,underdog,-102,1.02,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,J.K. Dobbins,12.5,Under,hardrock,-115,-4.63,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,J.K. Dobbins,12.5,Under,draftkings,-116,-5.01,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,J.K. Dobbins,12.5,Over,bovada,-110,-6.48,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,J.K. Dobbins,12.5,Under,bovada,-120,-6.48,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,J.K. Dobbins,12.5,Over,draftkings,-111,-6.88,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,J.K. Dobbins,12.5,Over,hardrock,-115,-8.41,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,J.K. Dobbins,12.5,Over,underdog,-121,-10.53,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,14.5,Over,kalshi,108,-2.94,0.4666,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,14.5,Under,kalshi,-122,-2.94,0.5334,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,14.5,Under,hardrock,-125,-3.99,0.5334,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,14.5,Over,hardrock,-110,-10.92,0.4666,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_anytime_td,J.K. Dobbins,,No,kalshi,-186,-1.0,0.6439,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_anytime_td,J.K. Dobbins,,Yes,kalshi,178,-1.0,0.3561,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_anytime_td,J.K. Dobbins,,No,hardrock,-210,-4.95,0.6439,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_anytime_td,J.K. Dobbins,,Yes,hardrock,150,-10.97,0.3561,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_anytime_td,Jaxon Smith-Njigba,,No,kalshi,-117,-0.86,0.5345,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_anytime_td,Jaxon Smith-Njigba,,Yes,kalshi,113,-0.86,0.4655,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_anytime_td,Jaxon Smith-Njigba,,Yes,hardrock,100,-6.91,0.4655,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_anytime_td,Jaxon Smith-Njigba,,No,hardrock,-140,-8.36,0.5345,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_kicking_points,Jason Myers,7.5,Over,hardrock,-125,-2.66,0.5408,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_kicking_points,Jason Myers,7.5,Over,draftkings,-132,-4.95,0.5408,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_kicking_points,Jason Myers,7.5,Over,bovada,-135,-5.86,0.5408,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_kicking_points,Jason Myers,7.5,Under,bovada,105,-5.86,0.4592,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_kicking_points,Jason Myers,7.5,Under,draftkings,103,-6.78,0.4592,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_kicking_points,Jason Myers,7.5,Under,hardrock,-105,-10.34,0.4592,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Bo Nix,31.5,Under,underdog,-115,-4.63,0.5101,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Bo Nix,31.5,Over,underdog,-107,-5.23,0.4899,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Bo Nix,31.5,Under,draftkings,-117,-5.39,0.5101,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Bo Nix,31.5,Over,bovada,-110,-6.48,0.4899,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Bo Nix,31.5,Under,bovada,-120,-6.48,0.5101,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Bo Nix,31.5,Over,draftkings,-111,-6.88,0.4899,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Sam Darnold,35.5,Over,underdog,-109,-4.13,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Sam Darnold,35.5,Over,hardrock,-110,-4.55,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Sam Darnold,35.5,Over,draftkings,-112,-5.36,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Sam Darnold,35.5,Under,underdog,-113,-5.75,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Sam Darnold,35.5,Over,bovada,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Sam Darnold,35.5,Under,bovada,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Sam Darnold,35.5,Under,draftkings,-116,-6.9,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_longest_completion,Sam Darnold,35.5,Under,hardrock,-120,-8.33,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_attempts,Sam Darnold,29.5,Over,pinnacle,-120,-6.48,0.5101,pinnacle,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_attempts,Sam Darnold,29.5,Under,pinnacle,-110,-6.48,0.4899,pinnacle,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Bo Nix,21.5,Over,hardrock,100,-2.84,0.4858,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Bo Nix,21.5,Under,draftkings,-118,-5.01,0.5142,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Bo Nix,21.5,Under,bovada,-120,-5.73,0.5142,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Bo Nix,21.5,Over,draftkings,-108,-6.44,0.4858,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Bo Nix,21.5,Over,pinnacle,-108,-6.44,0.4858,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Bo Nix,21.5,Under,pinnacle,-122,-6.44,0.5142,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Bo Nix,21.5,Over,bovada,-110,-7.25,0.4858,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Bo Nix,21.5,Under,hardrock,-130,-9.03,0.5142,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Sam Darnold,18.5,Under,draftkings,-104,-0.73,0.5061,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Sam Darnold,18.5,Under,bovada,-105,-1.2,0.5061,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Sam Darnold,18.5,Under,hardrock,-105,-1.2,0.5061,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Sam Darnold,18.5,Over,pinnacle,-112,-6.51,0.4939,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Sam Darnold,18.5,Under,pinnacle,-118,-6.51,0.5061,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Sam Darnold,18.5,Over,draftkings,-123,-10.45,0.4939,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Sam Darnold,18.5,Over,bovada,-125,-11.09,0.4939,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_completions,Sam Darnold,18.5,Over,hardrock,-125,-11.09,0.4939,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_interceptions,Bo Nix,0.5,Over,draftkings,-147,-5.35,0.5633,bovada,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_interceptions,Bo Nix,0.5,Under,draftkings,115,-6.11,0.4367,bovada,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_rush_yds,Bo Nix,219.5,Under,draftkings,-111,-4.95,0.5,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_rush_yds,Bo Nix,219.5,Over,draftkings,-114,-6.14,0.5,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_rush_yds,Bo Nix,219.5,Over,bovada,-115,-6.52,0.5,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_rush_yds,Bo Nix,219.5,Under,bovada,-115,-6.52,0.5,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Bo Nix,1.5,Over,kalshi,203,-1.04,0.3266,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Bo Nix,1.5,Under,kalshi,-213,-1.04,0.6734,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Bo Nix,1.5,Over,fanduel,194,-3.98,0.3266,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Bo Nix,1.5,Under,draftkings,-238,-4.36,0.6734,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Bo Nix,1.5,Under,bovada,-250,-5.72,0.6734,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Bo Nix,1.5,Under,hardrock,-260,-6.76,0.6734,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Bo Nix,1.5,Over,bovada,185,-6.92,0.3266,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Bo Nix,1.5,Over,draftkings,184,-7.25,0.3266,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Bo Nix,1.5,Under,fanduel,-270,-7.72,0.6734,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Bo Nix,1.5,Over,hardrock,180,-8.55,0.3266,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Sam Darnold,1.5,Over,bovada,135,-1.06,0.421,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Sam Darnold,1.5,Over,draftkings,135,-1.06,0.421,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Sam Darnold,1.5,Over,fanduel,128,-4.0,0.421,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Sam Darnold,1.5,Over,hardrock,125,-5.27,0.421,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Sam Darnold,1.5,Under,hardrock,-165,-7.02,0.579,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Sam Darnold,1.5,Under,fanduel,-172,-8.44,0.579,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Sam Darnold,1.5,Under,draftkings,-173,-8.64,0.579,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_tds,Sam Darnold,1.5,Under,bovada,-180,-9.94,0.579,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,199.5,Over,kalshi,-113,-1.12,0.5246,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,199.5,Under,kalshi,108,-1.12,0.4754,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,199.5,Over,hardrock,-130,-7.19,0.5246,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,199.5,Under,hardrock,-110,-9.24,0.4754,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,202.5,Over,fanduel,-114,-6.14,0.5,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,202.5,Under,fanduel,-114,-6.14,0.5,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,202.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,202.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,202.5,Under,hardrock,-115,-6.52,0.5,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,202.5,Over,hardrock,-120,-8.33,0.5,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,203.5,Over,draftkings,-111,-4.95,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,203.5,Under,draftkings,-113,-5.75,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,203.5,Over,bovada,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,203.5,Under,bovada,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,203.5,Over,hardrock,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,203.5,Under,hardrock,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,224.5,Over,kalshi,170,-2.93,0.3595,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Bo Nix,224.5,Under,kalshi,-194,-2.93,0.6405,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,199.5,Over,kalshi,-178,-3.0,0.6211,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,199.5,Under,kalshi,156,-3.0,0.3789,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,219.5,Under,hardrock,-115,-6.52,0.5,bovada,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,220.5,Over,fanatics,-110,-4.55,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,220.5,Over,fanduel,-114,-6.14,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,220.5,Under,fanduel,-114,-6.14,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,220.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,220.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,220.5,Over,hardrock,-115,-6.52,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,220.5,Under,fanatics,-120,-8.33,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_pass_yds,Sam Darnold,220.5,Under,hardrock,-120,-8.33,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Cooper Kupp,12.5,Over,underdog,-109,-2.19,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Cooper Kupp,12.5,Under,draftkings,-109,-6.07,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Cooper Kupp,12.5,Over,draftkings,-119,-6.12,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Cooper Kupp,12.5,Over,bovada,-120,-6.48,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Cooper Kupp,12.5,Under,bovada,-110,-6.48,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Cooper Kupp,12.5,Over,hardrock,-120,-6.48,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Cooper Kupp,12.5,Under,hardrock,-110,-6.48,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Cooper Kupp,12.5,Under,underdog,-113,-7.66,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Courtland Sutton,15.5,Over,hardrock,-110,-6.48,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Courtland Sutton,15.5,Under,hardrock,-120,-6.48,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Emanuel Wilson,7.5,Over,underdog,-117,-3.5,0.5203,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Emanuel Wilson,7.5,Over,hardrock,-120,-4.61,0.5203,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Emanuel Wilson,7.5,Under,underdog,-106,-6.78,0.4797,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Emanuel Wilson,7.5,Under,hardrock,-110,-8.42,0.4797,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Jaxon Smith-Njigba,27.5,Under,draftkings,-109,-6.07,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Jaxon Smith-Njigba,27.5,Over,draftkings,-119,-6.12,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Jaylen Waddle,19.5,Under,hardrock,-115,-2.73,0.5203,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Jaylen Waddle,19.5,Under,underdog,-118,-3.88,0.5203,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Jaylen Waddle,19.5,Over,draftkings,-104,-5.91,0.4797,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Jaylen Waddle,19.5,Under,draftkings,-124,-6.01,0.5203,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Jaylen Waddle,19.5,Over,bovada,-105,-6.35,0.4797,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Jaylen Waddle,19.5,Under,bovada,-125,-6.35,0.5203,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Jaylen Waddle,19.5,Over,underdog,-105,-6.35,0.4797,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Jaylen Waddle,19.5,Over,hardrock,-115,-10.32,0.4797,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Marvin Mims Jr.,11.5,Under,underdog,-121,-4.97,0.5203,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Marvin Mims Jr.,11.5,Over,underdog,-102,-5.0,0.4797,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Marvin Mims Jr.,11.5,Over,bovada,-105,-6.35,0.4797,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Marvin Mims Jr.,11.5,Under,bovada,-125,-6.35,0.5203,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,RJ Harvey,10.5,Under,underdog,-106,-2.83,0.5,bovada,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,RJ Harvey,10.5,Over,hardrock,-110,-4.55,0.5,bovada,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,RJ Harvey,10.5,Over,draftkings,-114,-6.14,0.5,bovada,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,RJ Harvey,10.5,Under,draftkings,-114,-6.14,0.5,bovada,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,RJ Harvey,10.5,Over,bovada,-115,-6.52,0.5,bovada,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,RJ Harvey,10.5,Under,bovada,-115,-6.52,0.5,bovada,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,RJ Harvey,10.5,Over,underdog,-117,-7.26,0.5,bovada,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,RJ Harvey,10.5,Under,hardrock,-120,-8.33,0.5,bovada,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Rashid Shaheed,14.5,Under,underdog,-112,-3.44,0.5101,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Rashid Shaheed,14.5,Under,draftkings,-118,-5.76,0.5101,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Rashid Shaheed,14.5,Over,bovada,-110,-6.48,0.4899,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Rashid Shaheed,14.5,Under,bovada,-120,-6.48,0.5101,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Rashid Shaheed,14.5,Over,draftkings,-110,-6.48,0.4899,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_longest,Rashid Shaheed,14.5,Over,underdog,-112,-7.27,0.4899,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,AJ Barner,14.5,Over,kalshi,-163,-1.94,0.6078,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,AJ Barner,14.5,Under,kalshi,150,-1.94,0.3922,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,AJ Barner,14.5,Under,hardrock,140,-5.86,0.3922,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,AJ Barner,14.5,Over,hardrock,-195,-8.06,0.6078,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,AJ Barner,20.5,Over,fanatics,-110,-4.55,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,AJ Barner,20.5,Over,hardrock,-110,-4.55,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,AJ Barner,20.5,Over,fanduel,-114,-6.14,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,AJ Barner,20.5,Under,fanduel,-114,-6.14,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,AJ Barner,20.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,AJ Barner,20.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,AJ Barner,20.5,Under,fanatics,-120,-8.33,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,AJ Barner,20.5,Under,hardrock,-120,-8.33,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,14.5,Over,kalshi,-194,-0.94,0.6536,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,14.5,Under,kalshi,186,-0.94,0.3464,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,14.5,Over,hardrock,-200,-1.95,0.6536,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,14.5,Under,hardrock,140,-16.87,0.3464,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,20.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,20.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,20.5,Over,fanatics,-115,-6.52,0.5,pinnacle,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,20.5,Under,fanatics,-115,-6.52,0.5,pinnacle,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,20.5,Over,hardrock,-115,-6.52,0.5,pinnacle,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,20.5,Under,hardrock,-115,-6.52,0.5,pinnacle,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,21.5,Under,draftkings,-116,-5.01,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,21.5,Over,draftkings,-108,-5.65,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,21.5,Over,bovada,-110,-6.48,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,21.5,Under,bovada,-120,-6.48,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,21.5,Over,hardrock,-110,-6.48,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,21.5,Under,hardrock,-125,-8.18,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,24.5,Over,kalshi,122,-3.9,0.4329,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,24.5,Under,kalshi,-144,-3.9,0.5671,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,24.5,Under,hardrock,-155,-6.7,0.5671,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Cooper Kupp,24.5,Over,hardrock,115,-6.93,0.4329,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,30.5,Under,fanatics,-105,-2.38,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,30.5,Under,draftkings,-110,-4.55,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,30.5,Under,hardrock,-110,-4.55,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,30.5,Over,draftkings,-114,-6.14,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,30.5,Over,bovada,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,30.5,Under,bovada,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,30.5,Over,fanatics,-125,-10.0,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,30.5,Over,hardrock,-125,-10.0,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,31.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,31.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,34.5,Over,kalshi,113,-2.81,0.4563,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,34.5,Under,kalshi,-127,-2.81,0.5437,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,34.5,Under,hardrock,-135,-5.35,0.5437,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,34.5,Over,hardrock,100,-8.75,0.4563,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,39.5,Over,kalshi,150,-3.87,0.3845,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,39.5,Under,kalshi,-178,-3.87,0.6155,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,39.5,Under,hardrock,-180,-4.26,0.6155,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Courtland Sutton,39.5,Over,hardrock,130,-11.56,0.3845,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Emanuel Wilson,14.5,Under,hardrock,-185,-2.78,0.6311,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Emanuel Wilson,14.5,Over,kalshi,163,-2.97,0.3689,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Emanuel Wilson,14.5,Under,kalshi,-186,-2.97,0.6311,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Emanuel Wilson,14.5,Over,hardrock,135,-13.3,0.3689,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,14.5,Over,kalshi,-203,-1.0,0.6633,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,14.5,Under,kalshi,194,-1.0,0.3367,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,14.5,Over,hardrock,-240,-6.04,0.6633,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,14.5,Under,hardrock,170,-9.08,0.3367,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,21.5,Under,hardrock,-105,-2.38,0.5,bovada,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,21.5,Over,hardrock,-130,-11.54,0.5,bovada,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,23.5,Over,hardrock,-110,-4.55,0.5,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,23.5,Over,fanduel,-114,-6.14,0.5,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,23.5,Under,fanduel,-114,-6.14,0.5,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,23.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,23.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,23.5,Under,hardrock,-125,-10.0,0.5,pinnacle,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,24.5,Over,kalshi,117,-1.99,0.4517,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,24.5,Under,kalshi,-127,-1.99,0.5483,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,24.5,Under,hardrock,-130,-2.99,0.5483,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Evan Engram,24.5,Over,hardrock,100,-9.67,0.4517,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,George Holani,9.5,Over,hardrock,-105,-4.36,0.4899,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,George Holani,9.5,Under,draftkings,-116,-5.01,0.5101,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,George Holani,9.5,Over,draftkings,-108,-5.65,0.4899,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,George Holani,9.5,Over,bovada,-110,-6.48,0.4899,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,George Holani,9.5,Under,bovada,-120,-6.48,0.5101,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,George Holani,9.5,Under,hardrock,-130,-9.75,0.5101,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,George Holani,14.5,Under,hardrock,-200,-1.44,0.6571,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,George Holani,14.5,Over,kalshi,186,-1.92,0.3429,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,George Holani,14.5,Under,kalshi,-203,-1.92,0.6571,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,George Holani,14.5,Over,hardrock,145,-15.98,0.3429,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,69.5,Over,kalshi,-223,-2.0,0.6766,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,69.5,Under,kalshi,203,-2.0,0.3234,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,79.5,Over,kalshi,-156,-1.88,0.5979,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,79.5,Under,kalshi,144,-1.88,0.4021,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,79.5,Over,hardrock,-175,-6.05,0.5979,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,79.5,Under,hardrock,125,-9.53,0.4021,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,89.5,Over,kalshi,-108,-0.93,0.5144,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,89.5,Under,kalshi,104,-0.93,0.4856,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,89.5,Over,underdog,-108,-0.93,0.5144,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,89.5,Over,draftkings,-113,-3.04,0.5144,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,89.5,Over,bovada,-115,-3.83,0.5144,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,89.5,Over,hardrock,-120,-5.7,0.5144,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,89.5,Under,draftkings,-111,-7.69,0.4856,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,89.5,Under,underdog,-114,-8.84,0.4856,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,89.5,Under,bovada,-115,-9.21,0.4856,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,89.5,Under,hardrock,-115,-9.21,0.4856,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,90.5,Over,fanduel,-114,-6.14,0.5,pinnacle,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,90.5,Under,fanduel,-114,-6.14,0.5,pinnacle,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,90.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,90.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,90.5,Over,fanatics,-115,-6.52,0.5,pinnacle,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,90.5,Under,fanatics,-115,-6.52,0.5,pinnacle,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,90.5,Over,hardrock,-115,-6.52,0.5,pinnacle,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,90.5,Under,hardrock,-115,-6.52,0.5,pinnacle,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,99.5,Over,kalshi,127,-2.98,0.4274,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,99.5,Under,kalshi,-144,-2.98,0.5726,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,99.5,Over,hardrock,120,-5.97,0.4274,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,99.5,Under,hardrock,-160,-6.95,0.5726,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,109.5,Over,kalshi,186,-3.85,0.3362,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaxon Smith-Njigba,109.5,Under,kalshi,-223,-3.85,0.6638,kalshi,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,39.5,Over,kalshi,-178,-3.87,0.6155,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,39.5,Under,kalshi,150,-3.87,0.3845,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,39.5,Over,hardrock,-190,-6.06,0.6155,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,39.5,Under,hardrock,135,-9.64,0.3845,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,49.5,Over,kalshi,-104,-1.92,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,49.5,Under,kalshi,-108,-3.7,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,49.5,Over,underdog,-112,-5.36,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,49.5,Under,underdog,-112,-5.36,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,49.5,Over,fanduel,-114,-6.14,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,49.5,Under,fanduel,-114,-6.14,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,49.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,49.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,49.5,Over,hardrock,-115,-6.52,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,49.5,Under,hardrock,-115,-6.52,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,50.5,Over,draftkings,-110,-4.55,0.5,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,50.5,Over,hardrock,-110,-4.55,0.5,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,50.5,Under,draftkings,-114,-6.14,0.5,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,50.5,Over,bovada,-115,-6.52,0.5,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,50.5,Under,bovada,-115,-6.52,0.5,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,50.5,Over,fanatics,-115,-6.52,0.5,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,50.5,Under,fanatics,-115,-6.52,0.5,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Jaylen Waddle,50.5,Under,hardrock,-125,-10.0,0.5,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,13.5,Under,hardrock,-110,-4.55,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,13.5,Over,bovada,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,13.5,Under,bovada,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,13.5,Over,hardrock,-125,-10.0,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,24.5,Over,kalshi,203,-2.0,0.3234,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,24.5,Under,kalshi,-223,-2.0,0.6766,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,24.5,Under,hardrock,-240,-4.15,0.6766,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Marvin Mims Jr.,24.5,Over,hardrock,165,-14.29,0.3234,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,14.5,Under,hardrock,135,-13.88,0.3665,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,20.5,Over,fanduel,-114,-4.24,0.5101,bovada,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,20.5,Over,draftkings,-115,-4.63,0.5101,bovada,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,20.5,Over,fanatics,-115,-4.63,0.5101,bovada,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,20.5,Over,hardrock,-115,-4.63,0.5101,bovada,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,20.5,Under,draftkings,-109,-6.07,0.4899,bovada,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,20.5,Over,bovada,-120,-6.48,0.5101,bovada,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,20.5,Under,bovada,-110,-6.48,0.4899,bovada,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,20.5,Under,fanduel,-114,-8.04,0.4899,bovada,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,20.5,Under,fanatics,-115,-8.41,0.4899,bovada,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,20.5,Under,hardrock,-115,-8.41,0.4899,bovada,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,24.5,Over,kalshi,138,-1.98,0.4119,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,24.5,Under,kalshi,-150,-1.98,0.5881,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,24.5,Under,hardrock,-160,-4.43,0.5881,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,RJ Harvey,24.5,Over,hardrock,115,-11.45,0.4119,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,14.5,Over,kalshi,-186,-3.94,0.6248,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,14.5,Under,kalshi,156,-3.94,0.3752,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,14.5,Under,hardrock,150,-6.19,0.3752,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,14.5,Over,hardrock,-210,-7.77,0.6248,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,22.5,Over,draftkings,-109,-4.13,0.5,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,22.5,Over,bovada,-110,-4.55,0.5,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,22.5,Over,fanduel,-114,-6.14,0.5,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,22.5,Under,fanduel,-114,-6.14,0.5,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,22.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,22.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,22.5,Under,draftkings,-115,-6.52,0.5,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,22.5,Over,hardrock,-115,-6.52,0.5,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,22.5,Under,hardrock,-115,-6.52,0.5,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,22.5,Under,bovada,-120,-8.33,0.5,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,24.5,Over,kalshi,104,-3.82,0.4715,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,24.5,Under,kalshi,-122,-3.82,0.5285,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,24.5,Over,hardrock,-105,-7.95,0.4715,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Rashid Shaheed,24.5,Under,hardrock,-135,-7.99,0.5285,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Tory Horton,5.5,Over,draftkings,-112,-5.36,0.5,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Tory Horton,5.5,Under,draftkings,-112,-5.36,0.5,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Tory Horton,5.5,Over,fanduel,-114,-6.14,0.5,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Tory Horton,5.5,Under,fanduel,-114,-6.14,0.5,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Tory Horton,5.5,Over,bovada,-115,-6.52,0.5,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Tory Horton,5.5,Under,bovada,-115,-6.52,0.5,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Tory Horton,5.5,Over,hardrock,-115,-6.52,0.5,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Tory Horton,5.5,Under,hardrock,-115,-6.52,0.5,bovada,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,14.5,Over,kalshi,-127,-3.87,0.5378,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,14.5,Under,kalshi,108,-3.87,0.4622,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,14.5,Under,hardrock,100,-7.57,0.4622,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,14.5,Over,hardrock,-140,-7.8,0.5378,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,17.5,Over,hardrock,-110,-4.55,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,17.5,Over,draftkings,-111,-4.95,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,17.5,Under,draftkings,-113,-5.75,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,17.5,Over,bovada,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,17.5,Under,bovada,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,17.5,Under,hardrock,-125,-10.0,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,24.5,Over,kalshi,163,-3.85,0.3656,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,24.5,Under,kalshi,-194,-3.85,0.6344,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,24.5,Under,hardrock,-210,-6.35,0.6344,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_reception_yds,Troy Franklin,24.5,Over,hardrock,145,-10.43,0.3656,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,1.5,Over,kalshi,-245,-2.97,0.689,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,1.5,Under,kalshi,212,-2.97,0.311,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,1.5,Under,hardrock,210,-3.6,0.311,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,1.5,Over,hardrock,-300,-8.13,0.689,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,2.5,Over,kalshi,113,-1.57,0.4621,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,2.5,Under,kalshi,-122,-2.12,0.5379,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,2.5,Under,hardrock,-130,-4.83,0.5379,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,2.5,Over,bovada,105,-5.27,0.4621,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,2.5,Under,bovada,-135,-6.36,0.5379,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,2.5,Over,fanduel,102,-6.66,0.4621,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,2.5,Under,fanduel,-136,-6.66,0.5379,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,2.5,Over,pinnacle,102,-6.66,0.4621,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,2.5,Under,pinnacle,-136,-6.66,0.5379,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,AJ Barner,2.5,Over,hardrock,100,-7.58,0.4621,pinnacle,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,1.5,Over,kalshi,-223,-2.96,0.6699,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,1.5,Under,kalshi,194,-2.96,0.3301,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,1.5,Under,hardrock,185,-5.93,0.3301,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,1.5,Over,hardrock,-275,-8.64,0.6699,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,2.5,Over,kalshi,127,-1.71,0.433,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,2.5,Under,kalshi,-138,-2.21,0.567,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,2.5,Under,draftkings,-143,-3.65,0.567,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,2.5,Under,bovada,-145,-4.19,0.567,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,2.5,Under,hardrock,-150,-5.5,0.567,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,2.5,Over,fanduel,116,-6.48,0.433,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,2.5,Under,fanduel,-154,-6.48,0.567,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,2.5,Over,pinnacle,116,-6.48,0.433,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,2.5,Under,pinnacle,-154,-6.48,0.567,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,2.5,Over,hardrock,115,-6.91,0.433,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,2.5,Over,draftkings,112,-8.21,0.433,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Cooper Kupp,2.5,Over,bovada,110,-9.08,0.433,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,2.5,Under,hardrock,150,-2.88,0.3885,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,2.5,Over,kalshi,-170,-2.88,0.6115,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,2.5,Under,kalshi,150,-2.88,0.3885,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Courtland Sutton,2.5,Over,hardrock,-210,-9.73,0.6115,kalshi,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,3.5,Under,hardrock,-220,-5.36,0.6507,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Evan Engram,3.5,Over,hardrock,155,-10.92,0.3493,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,George Holani,1.5,Under,bovada,105,-0.54,0.4852,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,George Holani,1.5,Under,draftkings,104,-1.02,0.4852,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,George Holani,1.5,Under,hardrock,100,-2.96,0.4852,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,George Holani,1.5,Over,kalshi,-113,-2.96,0.5148,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,George Holani,1.5,Under,kalshi,-100,-2.96,0.4852,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,George Holani,1.5,Under,fanduel,-102,-3.91,0.4852,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,George Holani,1.5,Over,fanduel,-130,-8.92,0.5148,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,George Holani,1.5,Over,hardrock,-130,-8.92,0.5148,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,George Holani,1.5,Over,draftkings,-132,-9.52,0.5148,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,George Holani,1.5,Over,bovada,-135,-10.39,0.5148,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaxon Smith-Njigba,6.5,Under,bovada,-110,-4.55,0.5,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaxon Smith-Njigba,6.5,Under,underdog,-110,-4.55,0.5,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaxon Smith-Njigba,6.5,Under,draftkings,-111,-4.95,0.5,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaxon Smith-Njigba,6.5,Over,underdog,-112,-5.36,0.5,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaxon Smith-Njigba,6.5,Over,fanduel,-114,-6.14,0.5,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaxon Smith-Njigba,6.5,Under,fanduel,-114,-6.14,0.5,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaxon Smith-Njigba,6.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaxon Smith-Njigba,6.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaxon Smith-Njigba,6.5,Over,draftkings,-115,-6.52,0.5,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaxon Smith-Njigba,6.5,Over,hardrock,-115,-6.52,0.5,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaxon Smith-Njigba,6.5,Under,hardrock,-115,-6.52,0.5,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaxon Smith-Njigba,6.5,Over,bovada,-120,-8.33,0.5,pinnacle,11,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,3.5,Under,hardrock,185,-1.45,0.3458,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,3.5,Over,kalshi,-213,-3.87,0.6542,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,3.5,Under,kalshi,178,-3.87,0.3458,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,3.5,Over,hardrock,-260,-9.42,0.6542,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Jaylen Waddle,5.5,Over,hardrock,170,-10.02,0.3333,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Marvin Mims Jr.,1.5,Under,hardrock,-130,-2.99,0.5483,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,2.5,Over,kalshi,-223,-2.96,0.6699,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,2.5,Under,kalshi,194,-2.96,0.3301,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,2.5,Under,hardrock,190,-4.28,0.3301,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,2.5,Over,hardrock,-275,-8.64,0.6699,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Under,kalshi,-108,-0.97,0.5142,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Over,kalshi,-100,-2.84,0.4858,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Under,draftkings,-116,-4.26,0.5142,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Under,underdog,-118,-5.01,0.5142,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Over,underdog,-105,-5.15,0.4858,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Under,bovada,-120,-5.73,0.5142,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Under,hardrock,-120,-5.73,0.5142,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Over,fanduel,-108,-6.44,0.4858,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Under,fanduel,-122,-6.44,0.5142,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Over,pinnacle,-108,-6.44,0.4858,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Under,pinnacle,-122,-6.44,0.5142,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Over,bovada,-110,-7.25,0.4858,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Over,draftkings,-110,-7.25,0.4858,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,3.5,Over,hardrock,-110,-7.25,0.4858,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,RJ Harvey,4.5,Over,hardrock,190,-7.99,0.3173,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Tory Horton,0.5,Over,kalshi,-150,-1.98,0.5881,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Tory Horton,0.5,Under,kalshi,138,-1.98,0.4119,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Tory Horton,0.5,Under,draftkings,133,-4.04,0.4119,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Tory Horton,0.5,Under,bovada,130,-5.27,0.4119,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Tory Horton,0.5,Over,fanduel,-168,-6.18,0.5881,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Tory Horton,0.5,Over,bovada,-170,-6.59,0.5881,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Tory Horton,0.5,Over,draftkings,-170,-6.59,0.5881,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Tory Horton,0.5,Over,hardrock,-170,-6.59,0.5881,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Tory Horton,0.5,Under,fanduel,126,-6.92,0.4119,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Tory Horton,0.5,Under,hardrock,125,-7.33,0.4119,kalshi,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Troy Franklin,1.5,Under,bovada,110,-0.17,0.4754,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Troy Franklin,1.5,Under,draftkings,109,-0.64,0.4754,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Troy Franklin,1.5,Over,kalshi,-113,-1.12,0.5246,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Troy Franklin,1.5,Under,kalshi,108,-1.12,0.4754,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Troy Franklin,1.5,Under,hardrock,100,-4.92,0.4754,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Troy Franklin,1.5,Over,fanduel,-125,-5.57,0.5246,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Troy Franklin,1.5,Over,hardrock,-130,-7.19,0.5246,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Troy Franklin,1.5,Under,fanduel,-106,-7.61,0.4754,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Troy Franklin,1.5,Over,draftkings,-139,-9.8,0.5246,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_receptions,Troy Franklin,1.5,Over,bovada,-145,-11.36,0.5246,kalshi,10,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,Emanuel Wilson,18.5,Over,hardrock,100,-0.4,0.498,pinnacle,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,Emanuel Wilson,18.5,Over,pinnacle,-114,-6.52,0.498,pinnacle,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,Emanuel Wilson,18.5,Under,pinnacle,-116,-6.52,0.502,pinnacle,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,Emanuel Wilson,18.5,Under,hardrock,-130,-11.18,0.502,pinnacle,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,Sam Darnold,2.5,Under,underdog,-122,-0.68,0.5458,pinnacle,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,Sam Darnold,2.5,Over,pinnacle,106,-6.43,0.4542,pinnacle,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,Sam Darnold,2.5,Under,pinnacle,-140,-6.43,0.5458,pinnacle,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_attempts,Sam Darnold,2.5,Over,underdog,-102,-10.05,0.4542,pinnacle,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Bo Nix,8.5,Under,hardrock,-110,-0.67,0.5203,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Bo Nix,8.5,Under,underdog,-114,-2.33,0.5203,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Bo Nix,8.5,Over,draftkings,-104,-5.91,0.4797,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Bo Nix,8.5,Over,bovada,-105,-6.35,0.4797,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Bo Nix,8.5,Under,bovada,-125,-6.35,0.5203,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Bo Nix,8.5,Under,draftkings,-125,-6.35,0.5203,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Bo Nix,8.5,Over,underdog,-108,-7.61,0.4797,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Bo Nix,8.5,Over,hardrock,-120,-12.06,0.4797,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Emanuel Wilson,13.5,Under,underdog,-115,-2.73,0.5203,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Emanuel Wilson,13.5,Under,draftkings,-123,-5.67,0.5203,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Emanuel Wilson,13.5,Over,bovada,-105,-6.35,0.4797,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Emanuel Wilson,13.5,Under,bovada,-125,-6.35,0.5203,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Emanuel Wilson,13.5,Over,draftkings,-105,-6.35,0.4797,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Emanuel Wilson,13.5,Over,underdog,-107,-7.2,0.4797,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,George Holani,7.5,Under,draftkings,101,-5.65,0.4694,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,George Holani,7.5,Over,bovada,-130,-6.12,0.5306,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,George Holani,7.5,Under,bovada,100,-6.12,0.4694,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,George Holani,7.5,Over,draftkings,-131,-6.43,0.5306,bovada,3,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,RJ Harvey,6.5,Under,underdog,-107,-3.27,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,RJ Harvey,6.5,Over,draftkings,-113,-5.75,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,RJ Harvey,6.5,Over,bovada,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,RJ Harvey,6.5,Under,bovada,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,RJ Harvey,6.5,Under,draftkings,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,RJ Harvey,6.5,Over,underdog,-115,-6.52,0.5,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Sam Darnold,5.5,Over,underdog,-109,-2.19,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Sam Darnold,5.5,Over,hardrock,-115,-4.63,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Sam Darnold,5.5,Over,draftkings,-117,-5.39,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Sam Darnold,5.5,Over,bovada,-120,-6.48,0.5101,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Sam Darnold,5.5,Under,bovada,-110,-6.48,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Sam Darnold,5.5,Under,draftkings,-111,-6.88,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Sam Darnold,5.5,Under,underdog,-113,-7.66,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_longest,Sam Darnold,5.5,Under,hardrock,-115,-8.41,0.4899,bovada,5,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,9.5,Over,kalshi,-170,-2.88,0.6115,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,9.5,Under,kalshi,150,-2.88,0.3885,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,9.5,Under,hardrock,140,-6.76,0.3885,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,9.5,Over,hardrock,-200,-8.27,0.6115,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,13.5,Over,draftkings,-105,-2.38,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,13.5,Over,bovada,-110,-4.55,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,13.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,13.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,13.5,Over,hardrock,-115,-6.52,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,13.5,Under,hardrock,-115,-6.52,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,13.5,Under,draftkings,-119,-7.98,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,13.5,Under,bovada,-120,-8.33,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Bo Nix,19.5,Under,hardrock,-225,-4.58,0.6606,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,59.5,Under,hardrock,120,-6.86,0.4234,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,59.5,Over,hardrock,-165,-7.39,0.5766,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,64.5,Over,kalshi,-117,-1.95,0.5286,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,64.5,Under,kalshi,108,-1.95,0.4714,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,64.5,Over,hardrock,-130,-6.47,0.5286,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,64.5,Under,hardrock,-110,-10.01,0.4714,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,66.5,Under,draftkings,-109,-4.13,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,66.5,Under,bovada,-110,-4.55,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,66.5,Over,fanduel,-114,-6.14,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,66.5,Under,fanduel,-114,-6.14,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,66.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,66.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,66.5,Over,draftkings,-115,-6.52,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,66.5,Over,hardrock,-115,-6.52,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,66.5,Under,hardrock,-115,-6.52,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,66.5,Over,bovada,-120,-8.33,0.5,pinnacle,8,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,69.5,Over,kalshi,104,-2.03,0.4802,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,69.5,Under,kalshi,-113,-2.03,0.5198,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,69.5,Over,hardrock,100,-3.95,0.4802,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,69.5,Under,hardrock,-135,-9.52,0.5198,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,79.5,Over,kalshi,163,-3.85,0.3656,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,79.5,Under,kalshi,-194,-3.85,0.6344,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,79.5,Under,hardrock,-210,-6.35,0.6344,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Emanuel Wilson,79.5,Over,hardrock,145,-10.43,0.3656,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,9.5,Over,kalshi,-194,-2.93,0.6405,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,9.5,Under,kalshi,170,-2.93,0.3595,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,9.5,Under,hardrock,165,-4.73,0.3595,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,9.5,Over,hardrock,-230,-8.1,0.6405,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,13.5,Under,draftkings,-105,-4.36,0.4899,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,13.5,Under,hardrock,-105,-4.36,0.4899,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,13.5,Over,draftkings,-119,-6.12,0.5101,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,13.5,Over,bovada,-120,-6.48,0.5101,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,13.5,Under,bovada,-110,-6.48,0.4899,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,13.5,Over,hardrock,-130,-9.75,0.5101,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,14.5,Over,kalshi,-104,-2.82,0.4954,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,14.5,Under,kalshi,-108,-2.82,0.5046,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,14.5,Under,underdog,-112,-4.49,0.5046,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,14.5,Under,fanduel,-114,-5.28,0.5046,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,14.5,Under,hardrock,-115,-5.67,0.5046,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,14.5,Over,underdog,-112,-6.22,0.4954,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,14.5,Over,fanduel,-114,-7.0,0.4954,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,14.5,Over,hardrock,-115,-7.38,0.4954,kalshi,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,19.5,Over,kalshi,170,-2.03,0.3629,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,19.5,Under,kalshi,-186,-2.03,0.6371,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,19.5,Under,hardrock,-220,-7.32,0.6371,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,George Holani,19.5,Over,hardrock,150,-9.29,0.3629,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,39.5,Over,kalshi,-170,-3.8,0.6057,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,39.5,Under,kalshi,144,-3.8,0.3943,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,39.5,Under,hardrock,135,-7.35,0.3943,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,39.5,Over,hardrock,-195,-8.36,0.6057,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,46.5,Over,draftkings,-115,-4.63,0.5101,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,46.5,Under,draftkings,-109,-6.07,0.4899,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,46.5,Over,bovada,-120,-6.48,0.5101,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,46.5,Under,bovada,-110,-6.48,0.4899,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,46.5,Over,hardrock,-120,-6.48,0.5101,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,46.5,Under,hardrock,-115,-8.41,0.4899,bovada,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,47.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,47.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,6,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,49.5,Over,kalshi,108,-1.95,0.4714,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,49.5,Under,kalshi,-117,-1.95,0.5286,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,49.5,Over,hardrock,-105,-7.97,0.4714,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,J.K. Dobbins,49.5,Under,hardrock,-135,-7.98,0.5286,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,9.5,Over,kalshi,-203,-1.92,0.6571,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,9.5,Under,kalshi,186,-1.92,0.3429,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,9.5,Over,hardrock,-240,-6.91,0.6571,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,9.5,Under,hardrock,170,-7.41,0.3429,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,14.5,Under,kalshi,-100,0.0,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,14.5,Over,kalshi,-104,-1.92,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,14.5,Under,hardrock,-110,-4.55,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,14.5,Over,underdog,-112,-5.36,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,14.5,Under,underdog,-112,-5.36,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,14.5,Over,fanduel,-114,-6.14,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,14.5,Under,fanduel,-114,-6.14,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,14.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,14.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,14.5,Over,hardrock,-125,-10.0,0.5,pinnacle,7,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,15.5,Over,fanatics,-105,-0.4,0.5101,bovada,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,15.5,Over,hardrock,-110,-2.61,0.5101,bovada,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,15.5,Over,draftkings,-117,-5.39,0.5101,bovada,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,15.5,Under,draftkings,-108,-5.65,0.4899,bovada,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,15.5,Over,bovada,-120,-6.48,0.5101,bovada,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,15.5,Under,bovada,-110,-6.48,0.4899,bovada,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,15.5,Under,hardrock,-120,-10.19,0.4899,bovada,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,15.5,Under,fanatics,-125,-11.82,0.4899,bovada,9,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,RJ Harvey,19.5,Under,hardrock,-185,-5.5,0.6134,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Sam Darnold,4.5,Under,draftkings,-109,-4.13,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Sam Darnold,4.5,Under,bovada,-110,-4.55,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Sam Darnold,4.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Sam Darnold,4.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Sam Darnold,4.5,Over,draftkings,-115,-6.52,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Sam Darnold,4.5,Over,bovada,-120,-8.33,0.5,pinnacle,12,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Sam Darnold,9.5,Over,kalshi,212,-2.97,0.311,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Sam Darnold,9.5,Under,kalshi,-245,-2.97,0.689,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Sam Darnold,9.5,Under,hardrock,-275,-6.04,0.689,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,player_rush_yds,Sam Darnold,9.5,Over,hardrock,185,-11.37,0.311,kalshi,4,59.2
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Jakobi Meyers,3.5,Over,hardrock,125,-6.17,0.417,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Jakobi Meyers,3.5,Under,hardrock,-165,-6.37,0.583,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Jakobi Meyers,3.5,Over,fanduel,124,-6.58,0.417,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Jakobi Meyers,3.5,Under,fanduel,-166,-6.58,0.583,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Jakobi Meyers,3.5,Over,pinnacle,124,-6.58,0.417,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Jakobi Meyers,3.5,Under,pinnacle,-166,-6.58,0.583,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Nico Collins,5.5,Over,draftkings,-138,-2.21,0.567,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Nico Collins,5.5,Over,hardrock,-145,-4.19,0.567,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Nico Collins,5.5,Over,fanduel,-154,-6.48,0.567,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Nico Collins,5.5,Under,fanduel,116,-6.48,0.433,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Nico Collins,5.5,Over,pinnacle,-154,-6.48,0.567,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Nico Collins,5.5,Under,pinnacle,116,-6.48,0.433,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Nico Collins,5.5,Under,hardrock,110,-9.08,0.433,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Nico Collins,5.5,Under,draftkings,108,-9.94,0.433,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Bhayshul Tuten,63.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Bhayshul Tuten,63.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Bhayshul Tuten,63.5,Over,hardrock,-115,-6.52,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Bhayshul Tuten,63.5,Under,hardrock,-115,-6.52,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Woody Marks,47.5,Under,fanduel,-114,0.3,0.5343,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Woody Marks,47.5,Under,hardrock,-115,-0.11,0.5343,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Woody Marks,47.5,Over,pinnacle,101,-6.4,0.4657,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Woody Marks,47.5,Under,pinnacle,-133,-6.4,0.5343,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Woody Marks,47.5,Over,fanduel,-114,-12.58,0.4657,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Woody Marks,47.5,Over,hardrock,-115,-12.94,0.4657,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_attempts,C.J. Stroud,36.5,Over,hardrock,-110,-4.55,0.5,pinnacle,4,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_attempts,C.J. Stroud,36.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,4,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_attempts,C.J. Stroud,36.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,4,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_attempts,C.J. Stroud,36.5,Under,hardrock,-120,-8.33,0.5,pinnacle,4,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_attempts,Trevor Lawrence,31.5,Under,draftkings,-106,-2.83,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_attempts,Trevor Lawrence,31.5,Under,hardrock,-110,-4.55,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_attempts,Trevor Lawrence,31.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_attempts,Trevor Lawrence,31.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_attempts,Trevor Lawrence,31.5,Over,hardrock,-120,-8.33,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_attempts,Trevor Lawrence,31.5,Over,draftkings,-121,-8.68,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_completions,C.J. Stroud,22.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,4,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_completions,C.J. Stroud,22.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,4,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_completions,Trevor Lawrence,19.5,Over,draftkings,101,-3.35,0.4808,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_completions,Trevor Lawrence,19.5,Over,hardrock,-105,-6.12,0.4808,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_completions,Trevor Lawrence,19.5,Under,hardrock,-125,-6.55,0.5192,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_completions,Trevor Lawrence,19.5,Over,pinnacle,-106,-6.55,0.4808,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_completions,Trevor Lawrence,19.5,Under,pinnacle,-125,-6.55,0.5192,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_completions,Trevor Lawrence,19.5,Under,draftkings,-129,-7.84,0.5192,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,C.J. Stroud,1.5,Under,draftkings,-154,-5.7,0.5717,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,C.J. Stroud,1.5,Over,bovada,120,-5.78,0.4283,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,C.J. Stroud,1.5,Over,draftkings,120,-5.78,0.4283,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,C.J. Stroud,1.5,Over,fanduel,120,-5.78,0.4283,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,C.J. Stroud,1.5,Over,hardrock,120,-5.78,0.4283,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,C.J. Stroud,1.5,Under,hardrock,-155,-5.94,0.5717,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,C.J. Stroud,1.5,Over,pinnacle,118,-6.64,0.4283,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,C.J. Stroud,1.5,Under,pinnacle,-158,-6.64,0.5717,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,C.J. Stroud,1.5,Under,bovada,-160,-7.09,0.5717,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,C.J. Stroud,1.5,Under,fanduel,-160,-7.09,0.5717,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,Trevor Lawrence,1.5,Under,bovada,-170,-3.06,0.6104,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,Trevor Lawrence,1.5,Under,draftkings,-170,-3.06,0.6104,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,Trevor Lawrence,1.5,Over,fanduel,144,-4.94,0.3896,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,Trevor Lawrence,1.5,Under,hardrock,-185,-5.97,0.6104,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,Trevor Lawrence,1.5,Over,pinnacle,140,-6.49,0.3896,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,Trevor Lawrence,1.5,Under,pinnacle,-188,-6.49,0.6104,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,Trevor Lawrence,1.5,Under,fanduel,-194,-7.5,0.6104,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,Trevor Lawrence,1.5,Over,hardrock,135,-8.44,0.3896,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,Trevor Lawrence,1.5,Over,draftkings,132,-9.61,0.3896,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_tds,Trevor Lawrence,1.5,Over,bovada,130,-10.39,0.3896,pinnacle,8,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,C.J. Stroud,255.5,Under,draftkings,-111,-4.95,0.5,bovada,3,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,C.J. Stroud,255.5,Over,draftkings,-113,-5.75,0.5,bovada,3,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,C.J. Stroud,255.5,Over,hardrock,-120,-8.33,0.5,bovada,3,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,C.J. Stroud,256.5,Over,fanduel,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,C.J. Stroud,256.5,Under,fanduel,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,C.J. Stroud,256.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,C.J. Stroud,256.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,C.J. Stroud,256.5,Over,hardrock,-115,-6.52,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,C.J. Stroud,256.5,Under,hardrock,-115,-6.52,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,223.5,Over,fanduel,-114,-3.86,0.5122,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,223.5,Over,hardrock,-115,-4.25,0.5122,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,223.5,Over,pinnacle,-121,-6.46,0.5122,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,223.5,Under,pinnacle,-109,-6.46,0.4878,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,223.5,Under,fanduel,-114,-8.42,0.4878,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,223.5,Under,hardrock,-115,-8.79,0.4878,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,225.5,Over,hardrock,-110,-4.55,0.5,bovada,3,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,225.5,Over,draftkings,-112,-5.36,0.5,bovada,3,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,225.5,Under,draftkings,-112,-5.36,0.5,bovada,3,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,225.5,Over,bovada,-115,-6.52,0.5,bovada,3,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,225.5,Under,bovada,-115,-6.52,0.5,bovada,3,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_pass_yds,Trevor Lawrence,225.5,Under,hardrock,-125,-10.0,0.5,bovada,3,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Brenton Strange,37.5,Under,hardrock,-110,-4.55,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Brenton Strange,37.5,Over,fanduel,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Brenton Strange,37.5,Under,fanduel,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Brenton Strange,37.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Brenton Strange,37.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Brenton Strange,37.5,Over,hardrock,-125,-10.0,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Dalton Schultz,30.5,Over,draftkings,-110,-4.55,0.5,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Dalton Schultz,30.5,Under,draftkings,-114,-6.14,0.5,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Dalton Schultz,30.5,Over,fanduel,-114,-6.14,0.5,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Dalton Schultz,30.5,Under,fanduel,-114,-6.14,0.5,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Dalton Schultz,30.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Dalton Schultz,30.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Dalton Schultz,30.5,Over,hardrock,-115,-6.52,0.5,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Dalton Schultz,30.5,Under,hardrock,-115,-6.52,0.5,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Jakobi Meyers,34.5,Over,fanduel,-114,-3.86,0.5122,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Jakobi Meyers,34.5,Over,hardrock,-115,-4.25,0.5122,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Jakobi Meyers,34.5,Over,pinnacle,-121,-6.46,0.5122,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Jakobi Meyers,34.5,Under,pinnacle,-109,-6.46,0.4878,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Jakobi Meyers,34.5,Under,fanduel,-114,-8.42,0.4878,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Jakobi Meyers,34.5,Under,hardrock,-115,-8.79,0.4878,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Kayshon Boutte,30.5,Over,hardrock,-110,-4.55,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Kayshon Boutte,30.5,Over,fanduel,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Kayshon Boutte,30.5,Under,fanduel,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Kayshon Boutte,30.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Kayshon Boutte,30.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Kayshon Boutte,30.5,Under,hardrock,-125,-10.0,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Nico Collins,71.5,Over,fanduel,-114,-3.86,0.5122,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Nico Collins,71.5,Over,hardrock,-115,-4.25,0.5122,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Nico Collins,71.5,Over,pinnacle,-121,-6.46,0.5122,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Nico Collins,71.5,Under,pinnacle,-109,-6.46,0.4878,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Nico Collins,71.5,Under,fanduel,-114,-8.42,0.4878,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Nico Collins,71.5,Under,hardrock,-115,-8.79,0.4878,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Parker Washington,61.5,Over,draftkings,-111,-4.95,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Parker Washington,61.5,Under,draftkings,-113,-5.75,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Parker Washington,61.5,Over,fanduel,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Parker Washington,61.5,Under,fanduel,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Parker Washington,61.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Parker Washington,61.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Parker Washington,61.5,Over,hardrock,-115,-6.52,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Parker Washington,61.5,Under,hardrock,-115,-6.52,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Woody Marks,12.5,Under,hardrock,-110,-4.55,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Woody Marks,12.5,Over,fanduel,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Woody Marks,12.5,Under,fanduel,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Woody Marks,12.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Woody Marks,12.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_reception_yds,Woody Marks,12.5,Over,hardrock,-120,-8.33,0.5,pinnacle,5,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Brenton Strange,3.5,Over,draftkings,-148,-4.19,0.5717,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Brenton Strange,3.5,Under,hardrock,120,-5.78,0.4283,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Brenton Strange,3.5,Over,hardrock,-155,-5.94,0.5717,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Brenton Strange,3.5,Over,fanduel,-158,-6.64,0.5717,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Brenton Strange,3.5,Under,fanduel,118,-6.64,0.4283,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Brenton Strange,3.5,Over,pinnacle,-158,-6.64,0.5717,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Brenton Strange,3.5,Under,pinnacle,118,-6.64,0.4283,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Brenton Strange,3.5,Under,draftkings,116,-7.5,0.4283,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Dalton Schultz,3.5,Under,draftkings,-125,-4.19,0.5323,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Dalton Schultz,3.5,Under,hardrock,-130,-5.83,0.5323,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Dalton Schultz,3.5,Over,fanduel,100,-6.45,0.4677,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Dalton Schultz,3.5,Under,fanduel,-132,-6.45,0.5323,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Dalton Schultz,3.5,Over,hardrock,100,-6.45,0.4677,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Dalton Schultz,3.5,Over,pinnacle,100,-6.45,0.4677,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Dalton Schultz,3.5,Under,pinnacle,-132,-6.45,0.5323,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Dalton Schultz,3.5,Over,draftkings,-102,-7.37,0.4677,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Kayshon Boutte,2.5,Over,draftkings,-141,-2.28,0.5717,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Kayshon Boutte,2.5,Under,hardrock,120,-5.78,0.4283,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Kayshon Boutte,2.5,Over,hardrock,-155,-5.94,0.5717,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Kayshon Boutte,2.5,Over,fanduel,-158,-6.64,0.5717,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Kayshon Boutte,2.5,Under,fanduel,118,-6.64,0.4283,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Kayshon Boutte,2.5,Over,pinnacle,-158,-6.64,0.5717,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Kayshon Boutte,2.5,Under,pinnacle,118,-6.64,0.4283,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Kayshon Boutte,2.5,Under,draftkings,110,-10.07,0.4283,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Parker Washington,4.5,Under,hardrock,-105,-4.36,0.4899,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Parker Washington,4.5,Under,draftkings,-108,-5.65,0.4899,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Parker Washington,4.5,Over,draftkings,-118,-5.76,0.5101,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Parker Washington,4.5,Over,fanduel,-120,-6.48,0.5101,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Parker Washington,4.5,Under,fanduel,-110,-6.48,0.4899,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Parker Washington,4.5,Over,pinnacle,-120,-6.48,0.5101,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Parker Washington,4.5,Under,pinnacle,-110,-6.48,0.4899,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Parker Washington,4.5,Over,hardrock,-125,-8.18,0.5101,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Woody Marks,2.5,Under,draftkings,-109,-1.41,0.5142,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Woody Marks,2.5,Under,hardrock,-120,-5.73,0.5142,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Woody Marks,2.5,Over,fanduel,-108,-6.44,0.4858,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Woody Marks,2.5,Under,fanduel,-122,-6.44,0.5142,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Woody Marks,2.5,Over,pinnacle,-108,-6.44,0.4858,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Woody Marks,2.5,Under,pinnacle,-122,-6.44,0.5142,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Woody Marks,2.5,Over,hardrock,-110,-7.25,0.4858,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_receptions,Woody Marks,2.5,Over,draftkings,-116,-9.54,0.4858,pinnacle,7,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,C.J. Stroud,9.5,Under,hardrock,-110,-4.55,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,C.J. Stroud,9.5,Over,fanduel,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,C.J. Stroud,9.5,Under,fanduel,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,C.J. Stroud,9.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,C.J. Stroud,9.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,C.J. Stroud,9.5,Over,hardrock,-120,-8.33,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Trevor Lawrence,12.5,Over,fanduel,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Trevor Lawrence,12.5,Under,fanduel,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Trevor Lawrence,12.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Trevor Lawrence,12.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Trevor Lawrence,12.5,Over,hardrock,-115,-6.52,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,32690,2026-10-18T13:30:00Z,Jacksonville Jaguars,Houston Texans,player_rush_yds,Trevor Lawrence,12.5,Under,hardrock,-115,-6.52,0.5,pinnacle,6,120.4
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_attempts,Jordan Love,33.5,Under,draftkings,-102,1.83,0.5142,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_attempts,Jordan Love,33.5,Under,hardrock,-105,0.39,0.5142,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_attempts,Jordan Love,33.5,Over,pinnacle,-108,-6.44,0.4858,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_attempts,Jordan Love,33.5,Under,pinnacle,-122,-6.44,0.5142,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_attempts,Jordan Love,33.5,Over,draftkings,-125,-12.55,0.4858,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_attempts,Jordan Love,33.5,Over,hardrock,-125,-12.55,0.4858,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,CeeDee Lamb,6.5,Over,hardrock,115,-5.58,0.4392,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,CeeDee Lamb,6.5,Over,fanduel,114,-6.02,0.4392,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,CeeDee Lamb,6.5,Under,fanduel,-148,-6.02,0.5608,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,CeeDee Lamb,6.5,Over,pinnacle,114,-6.02,0.4392,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,CeeDee Lamb,6.5,Under,pinnacle,-148,-6.02,0.5608,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,CeeDee Lamb,6.5,Under,hardrock,-155,-7.73,0.5608,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Jake Ferguson,3.5,Over,draftkings,-104,0.06,0.5101,pinnacle,7,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Jake Ferguson,3.5,Over,hardrock,-115,-4.63,0.5101,pinnacle,7,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Jake Ferguson,3.5,Over,underdog,-115,-4.63,0.5101,pinnacle,7,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Jake Ferguson,3.5,Under,underdog,-107,-5.23,0.4899,pinnacle,7,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Jake Ferguson,3.5,Over,fanduel,-120,-6.48,0.5101,pinnacle,7,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Jake Ferguson,3.5,Under,fanduel,-110,-6.48,0.4899,pinnacle,7,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Jake Ferguson,3.5,Over,pinnacle,-120,-6.48,0.5101,pinnacle,7,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Jake Ferguson,3.5,Under,pinnacle,-110,-6.48,0.4899,pinnacle,7,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Jake Ferguson,3.5,Under,hardrock,-115,-8.41,0.4899,pinnacle,7,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Jake Ferguson,3.5,Under,draftkings,-123,-11.18,0.4899,pinnacle,7,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Matthew Golden,4.5,Over,draftkings,-124,0.9,0.5585,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Matthew Golden,4.5,Over,hardrock,-145,-5.63,0.5585,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Matthew Golden,4.5,Over,fanduel,-148,-6.41,0.5585,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Matthew Golden,4.5,Under,fanduel,112,-6.41,0.4415,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Matthew Golden,4.5,Over,pinnacle,-148,-6.41,0.5585,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Matthew Golden,4.5,Under,pinnacle,112,-6.41,0.4415,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Matthew Golden,4.5,Under,hardrock,110,-7.29,0.4415,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Matthew Golden,4.5,Under,draftkings,-103,-12.99,0.4415,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_attempts,Dak Prescott,34.5,Over,hardrock,-120,-5.73,0.5142,pinnacle,4,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_attempts,Dak Prescott,34.5,Over,pinnacle,-122,-6.44,0.5142,pinnacle,4,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_attempts,Dak Prescott,34.5,Under,pinnacle,-108,-6.44,0.4858,pinnacle,4,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_attempts,Dak Prescott,34.5,Under,hardrock,-110,-7.25,0.4858,pinnacle,4,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_completions,Dak Prescott,21.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,3,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_completions,Dak Prescott,21.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,3,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_completions,Jordan Love,21.5,Over,underdog,-106,-2.83,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_completions,Jordan Love,21.5,Over,draftkings,-108,-3.7,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_completions,Jordan Love,21.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_completions,Jordan Love,21.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_completions,Jordan Love,21.5,Over,hardrock,-115,-6.52,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_completions,Jordan Love,21.5,Under,hardrock,-115,-6.52,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_completions,Jordan Love,21.5,Under,underdog,-115,-6.52,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_completions,Jordan Love,21.5,Under,draftkings,-118,-7.63,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Dak Prescott,277.5,Over,draftkings,-112,-5.36,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Dak Prescott,277.5,Under,draftkings,-112,-5.36,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Dak Prescott,277.5,Over,fanduel,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Dak Prescott,277.5,Under,fanduel,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Dak Prescott,277.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Dak Prescott,277.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Dak Prescott,277.5,Over,hardrock,-115,-6.52,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Dak Prescott,277.5,Under,hardrock,-115,-6.52,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Jordan Love,264.5,Over,fanduel,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Jordan Love,264.5,Under,fanduel,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Jordan Love,264.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Jordan Love,264.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Jordan Love,264.5,Under,hardrock,-115,-6.52,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_yds,Jordan Love,264.5,Over,hardrock,-120,-8.33,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,CeeDee Lamb,78.5,Over,fanduel,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,CeeDee Lamb,78.5,Under,fanduel,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,CeeDee Lamb,78.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,CeeDee Lamb,78.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,CeeDee Lamb,78.5,Over,hardrock,-115,-6.52,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,CeeDee Lamb,78.5,Under,hardrock,-115,-6.52,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Christian Watson,66.5,Under,hardrock,-110,-4.55,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Christian Watson,66.5,Over,fanduel,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Christian Watson,66.5,Under,fanduel,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Christian Watson,66.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Christian Watson,66.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Christian Watson,66.5,Over,hardrock,-125,-10.0,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,George Pickens,67.5,Over,draftkings,-112,-5.36,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,George Pickens,67.5,Under,draftkings,-112,-5.36,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,George Pickens,67.5,Over,fanduel,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,George Pickens,67.5,Under,fanduel,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,George Pickens,67.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,George Pickens,67.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,George Pickens,67.5,Over,hardrock,-115,-6.52,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,George Pickens,67.5,Under,hardrock,-115,-6.52,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Jake Ferguson,27.5,Over,fanduel,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Jake Ferguson,27.5,Under,fanduel,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Jake Ferguson,27.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Jake Ferguson,27.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Jake Ferguson,27.5,Under,hardrock,-115,-6.52,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Jake Ferguson,27.5,Over,hardrock,-120,-8.33,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Matthew Golden,61.5,Under,draftkings,-111,-4.95,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Matthew Golden,61.5,Over,draftkings,-113,-5.75,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Matthew Golden,61.5,Over,fanduel,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Matthew Golden,61.5,Under,fanduel,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Matthew Golden,61.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Matthew Golden,61.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Matthew Golden,61.5,Over,hardrock,-115,-6.52,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Matthew Golden,61.5,Under,hardrock,-115,-6.52,0.5,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Tucker Kraft,46.5,Under,hardrock,-110,-4.55,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Tucker Kraft,46.5,Over,fanduel,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Tucker Kraft,46.5,Under,fanduel,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Tucker Kraft,46.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Tucker Kraft,46.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_reception_yds,Tucker Kraft,46.5,Over,hardrock,-125,-10.0,0.5,pinnacle,5,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Christian Watson,4.5,Under,draftkings,101,-5.16,0.4718,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Christian Watson,4.5,Under,hardrock,100,-5.63,0.4718,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Christian Watson,4.5,Over,draftkings,-128,-5.92,0.5282,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Christian Watson,4.5,Over,fanduel,-130,-6.56,0.5282,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Christian Watson,4.5,Under,fanduel,-102,-6.56,0.4718,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Christian Watson,4.5,Over,hardrock,-130,-6.56,0.5282,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Christian Watson,4.5,Over,pinnacle,-130,-6.56,0.5282,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Christian Watson,4.5,Under,pinnacle,-102,-6.56,0.4718,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,George Pickens,4.5,Over,draftkings,-134,-3.11,0.5548,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,George Pickens,4.5,Under,hardrock,115,-4.29,0.4452,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,George Pickens,4.5,Over,hardrock,-145,-6.25,0.5548,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,George Pickens,4.5,Over,fanduel,-146,-6.51,0.5548,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,George Pickens,4.5,Under,fanduel,110,-6.51,0.4452,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,George Pickens,4.5,Over,pinnacle,-146,-6.51,0.5548,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,George Pickens,4.5,Under,pinnacle,110,-6.51,0.4452,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,George Pickens,4.5,Under,draftkings,105,-8.74,0.4452,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Tucker Kraft,4.5,Over,draftkings,115,-3.48,0.4489,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Tucker Kraft,4.5,Under,hardrock,-135,-4.07,0.5511,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Tucker Kraft,4.5,Over,hardrock,110,-5.73,0.4489,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Tucker Kraft,4.5,Over,fanduel,108,-6.62,0.4489,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Tucker Kraft,4.5,Under,fanduel,-144,-6.62,0.5511,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Tucker Kraft,4.5,Over,pinnacle,108,-6.62,0.4489,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Tucker Kraft,4.5,Under,pinnacle,-144,-6.62,0.5511,pinnacle,6,131.3
+2026-10-13T13:03:17Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Tucker Kraft,4.5,Under,draftkings,-147,-7.4,0.5511,pinnacle,6,131.3
