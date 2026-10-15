@@ -4764,7 +4764,11 @@
   "draftkings|46674|46674/player_reception_yds/Evan Engram/24.5/Under|46674/player_receptions/Jaylen Waddle/4.5/Over": "2026-10-14T10:46:05Z",
   "draftkings|46674|46674/player_reception_yds/Evan Engram/24.5/Under|46674/player_rush_attempts/RJ Harvey/5.5/Under": "2026-10-13T13:03:54Z",
   "draftkings|46675|46675/player_pass_completions/Jalen Hurts/20.5/Under|46675/player_reception_yds/Tetairoa McMillan/69.5/Under": "2026-10-14T21:05:13Z",
+  "draftkings|46676|46676/player_pass_tds/Jameis Winston/1.5/Under|46676/player_receptions/Chris Olave/6.5/Under": "2026-10-15T02:06:42Z",
+  "draftkings|46677|46677/player_receptions/Bijan Robinson/3.5/Over|46677/player_receptions/Jahan Dotson/1.5/Under": "2026-10-15T02:06:42Z",
   "draftkings|53165|53165/player_pass_completions/Kirk Cousins/22.5/Under|53165/player_receptions/James Cook/1.5/Over": "2026-10-14T10:46:05Z",
+  "draftkings|53249|53249/player_receptions/Christian McCaffrey/4.5/Under|53249/player_rush_yds/Kaelon Black/24.5/Under": "2026-10-15T02:06:42Z",
+  "draftkings|56777|56777/player_pass_tds/Daniel Jones/1.5/Under|56777/player_receptions/Tyler Warren/5.5/Over": "2026-10-15T02:06:42Z",
   "draftkings|56777|56777/player_pass_tds/Daniel Jones/1.5/Under|56777/player_rush_yds/Jonathan Taylor/89.5/Over": "2026-10-14T16:05:35Z",
   "fanduel|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
   "fanduel|23215|23215/player_pass_yds/Lamar Jackson/199.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-26T20:20:37Z",
@@ -5114,7 +5118,11 @@
   "fanduel|46674|46674/player_reception_yds/Evan Engram/24.5/Under|46674/player_receptions/Jaylen Waddle/4.5/Over": "2026-10-14T10:46:05Z",
   "fanduel|46674|46674/player_reception_yds/Evan Engram/24.5/Under|46674/player_rush_attempts/RJ Harvey/5.5/Under": "2026-10-13T13:03:54Z",
   "fanduel|46675|46675/player_pass_completions/Jalen Hurts/20.5/Under|46675/player_reception_yds/Tetairoa McMillan/69.5/Under": "2026-10-14T21:05:13Z",
+  "fanduel|46676|46676/player_pass_tds/Jameis Winston/1.5/Under|46676/player_receptions/Chris Olave/6.5/Under": "2026-10-15T02:06:42Z",
+  "fanduel|46677|46677/player_receptions/Bijan Robinson/3.5/Over|46677/player_receptions/Jahan Dotson/1.5/Under": "2026-10-15T02:06:42Z",
   "fanduel|53165|53165/player_pass_completions/Kirk Cousins/22.5/Under|53165/player_receptions/James Cook/1.5/Over": "2026-10-14T10:46:05Z",
+  "fanduel|53249|53249/player_receptions/Christian McCaffrey/4.5/Under|53249/player_rush_yds/Kaelon Black/24.5/Under": "2026-10-15T02:06:42Z",
+  "fanduel|56777|56777/player_pass_tds/Daniel Jones/1.5/Under|56777/player_receptions/Tyler Warren/5.5/Over": "2026-10-15T02:06:42Z",
   "fanduel|56777|56777/player_pass_tds/Daniel Jones/1.5/Under|56777/player_rush_yds/Jonathan Taylor/89.5/Over": "2026-10-14T16:05:35Z"
  },
  "sgp_roster_cache": {
