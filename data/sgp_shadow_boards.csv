@@ -222,3 +222,4 @@ ts,snapshot_ts,board_date,week_key,event_id,commence_time,home,away,hours_to_kic
 2026-10-14T16:05:35Z,2026-10-14T16:03:46Z,2026-10-14,2026-10-12,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,32.16,refreshed,634,3,0,3,6040,0,32,28,,fresh
 2026-10-14T21:05:13Z,2026-10-14T21:02:49Z,2026-10-14,2026-10-12,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,27.16,fresh,640,3,0,3,6060,0,32,26,,fresh
 2026-10-15T02:06:41Z,2026-10-15T02:05:22Z,2026-10-14,2026-10-12,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,22.14,fresh,668,5,0,10,6540,0,32,24,,fresh
+2026-10-15T04:58:40Z,2026-10-15T04:58:24Z,2026-10-15,2026-10-12,46674,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,19.27,fresh,670,4,0,6,6372,0,28,24,,fresh
