@@ -44,8 +44,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,PIT,K,Chris Boswell,Chris,ACT
 2026,6,WAS,LS,Tyler Ott,Tyler,ACT
 2026,6,CHI,K,Cairo Santos,Cairo,ACT
-2026,5,MIN,WR,Odell Beckham Jr.,Odell,INA
 2026,4,NYG,WR,Odell Beckham Jr.,Odell,CUT
+2026,5,MIN,WR,Odell Beckham Jr.,Odell,INA
 2026,6,SF,WR,Brandin Cooks,Brandin,ACT
 2026,5,DET,QB,Teddy Bridgewater,Teddy,RET
 2026,6,NYG,DL,Shelby Harris,Shelby,ACT
@@ -83,8 +83,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,LV,WR,Phillip Dorsett,Phillip,DEV
 2026,1,WAS,OL,D.J. Humphries,D.J.,CUT
 2026,6,LA,LS,Joe Cardona,Joe,ACT
-2026,6,GB,OL,Laken Tomlinson,Laken,ACT
 2026,3,DAL,OL,Laken Tomlinson,Laken,DEV
+2026,6,GB,OL,Laken Tomlinson,Laken,ACT
 2026,6,HOU,DL,Mario Edwards,Mario,RES
 2026,6,WAS,QB,Marcus Mariota,Marcus,ACT
 2026,6,IND,DL,DeForest Buckner,DeForest,ACT
@@ -94,7 +94,7 @@ season,week,team,position,full_name,football_name,status
 2026,6,CHI,OL,Joe Thuney,Joe,ACT
 2026,6,ATL,TE,Austin Hooper,Austin,ACT
 2026,6,BAL,TE,Nick Vannett,Nick,ACT
-2026,6,BAL,WR,Chris Moore,Chris,CUT
+2026,6,BAL,WR,Chris Moore,Chris,DEV
 2026,6,TB,DB,Miles Killebrew,Miles,ACT
 2026,5,SF,LB,Matthew Judon,Matt,CUT
 2026,6,NYG,DL,DJ Reader,D.J.,ACT
@@ -122,8 +122,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,ARI,OL,Isaac Seumalo,Isaac,ACT
 2026,6,BAL,OL,Ronnie Stanley,Ronnie,ACT
 2026,6,JAX,DB,Eric Murray,Eric,ACT
-2026,3,MIN,LB,Jihad Ward,Jihad,DEV
 2026,6,NYG,LB,Jihad Ward,Jihad,ACT
+2026,3,MIN,LB,Jihad Ward,Jihad,DEV
 2026,6,NYJ,DL,David Onyemata,David,RES
 2026,6,PIT,DB,Jalen Ramsey,Jalen,ACT
 2026,6,NO,LS,Zach Wood,Zach,RES
@@ -186,8 +186,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,PHI,K,Jake Elliott,Jake,ACT
 2026,6,ATL,OL,Corey Levin,Corey,ACT
 2026,6,WAS,OL,Andrew Wylie,Andrew,ACT
-2026,3,LV,RB,Dare Ogunbowale,Dare,DEV
 2026,6,HOU,RB,Dare Ogunbowale,Dare,ACT
+2026,3,LV,RB,Dare Ogunbowale,Dare,DEV
 2026,6,GB,TE,Jonnu Smith,Jonnu,ACT
 2026,6,NO,DL,Davon Godchaux,Davon,ACT
 2026,6,LA,LB,Myles Garrett,Myles,RES
@@ -221,9 +221,9 @@ season,week,team,position,full_name,football_name,status
 2026,6,WAS,RB,Jeremy McNichols,Jeremy,RES
 2026,6,TB,LB,Al-Quadin Muhammad,Al-Quadin,ACT
 2026,6,PIT,LS,Christian Kuntz,Christian,ACT
-2026,2,NO,LS,Scott Daly,Scott,ACT
-2026,6,CHI,LS,Scott Daly,Scott,ACT
 2026,1,GB,LS,Scott Daly,Scott,DEV
+2026,6,CHI,LS,Scott Daly,Scott,ACT
+2026,2,NO,LS,Scott Daly,Scott,ACT
 2026,6,HOU,DB,George Odum,George,DEV
 2026,6,TEN,OL,Austin Schlottmann,Austin,ACT
 2026,6,LA,OL,Coleman Shelton,Coleman,ACT
@@ -325,7 +325,7 @@ season,week,team,position,full_name,football_name,status
 2026,6,NE,LB,Harold Landry III,Harold,RES
 2026,5,CIN,TE,Mike Gesicki,Mike,ACT
 2026,6,BUF,LB,Bradley Chubb,Bradley,ACT
-2026,6,HOU,OL,Braden Smith,Braden,RES
+2026,6,HOU,OL,Braden Smith,Braden,ACT
 2026,6,TEN,WR,Calvin Ridley,Calvin,ACT
 2026,6,ATL,DB,Mike Hughes,Mike,ACT
 2026,6,PHI,RB,Saquon Barkley,Saquon,ACT
@@ -354,6 +354,7 @@ season,week,team,position,full_name,football_name,status
 2026,6,HOU,LB,E.J. Speed,E.J.,RES
 2026,6,TB,OL,Justin Skule,Justin,ACT
 2026,6,PHI,DB,Marcus Epps,Marcus,ACT
+2026,6,NYJ,DL,Quinton Bell,Quinton,DEV
 2026,1,BUF,LB,Demetrius Flannigan-Fowles,Demetrius,RES
 2026,6,IND,WR,Ashton Dulin,Ashton,ACT
 2026,6,SF,DL,Kevin Givens,Kevin,DEV
@@ -361,6 +362,7 @@ season,week,team,position,full_name,football_name,status
 2026,6,IND,WR,D.J. Montgomery,D.J.,RES
 2026,6,JAX,OL,Sam Mustipher,Sam,RES
 2026,4,MIN,DL,Jonathan Harris,Jonathan,CUT
+2026,6,LAC,QB,Jake Browning,Jake,DEV
 2026,6,JAX,OL,Patrick Mekari,Patrick,RES
 2026,6,GB,LS,Matthew Orzech,Matt,ACT
 2026,6,LAC,RB,Alec Ingold,Alec,ACT
@@ -429,8 +431,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,BUF,WR,Greg Dortch,Greg,ACT
 2026,6,CHI,LB,Devin Bush,Devin,ACT
 2026,6,CLE,OL,Elgton Jenkins,Elgton,ACT
-2026,6,IND,WR,Darius Slayton,Darius,ACT
 2026,1,NYG,WR,Darius Slayton,Darius,CUT
+2026,6,IND,WR,Darius Slayton,Darius,ACT
 2026,6,BUF,RB,Ty Johnson,Ty,ACT
 2026,5,DET,WR,Tom Kennedy,Tom,ACT
 2026,6,WAS,RB,Craig Reynolds,Craig,DEV
@@ -438,7 +440,7 @@ season,week,team,position,full_name,football_name,status
 2026,6,LAC,WR,Gary Jennings,Gary,DEV
 2026,6,PIT,RB,Travis Homer,Travis,ACT
 2026,6,LA,WR,Alex Bachman,Alex,ACT
-2026,6,NYJ,LB,Troy Reeder,Troy,CUT
+2026,6,NYJ,LB,Troy Reeder,Troy,DEV
 2026,6,ATL,OL,Chris Lindstrom,Chris,ACT
 2026,5,CIN,TE,Drew Sample,Drew,ACT
 2026,6,TEN,DB,Amani Hooker,Amani,ACT
@@ -681,7 +683,7 @@ season,week,team,position,full_name,football_name,status
 2026,6,NYG,DB,Ar'Darius Washington,Ar'Darius,ACT
 2026,6,CHI,DB,Nick McCloud,Nick,DEV
 2026,6,JAX,TE,Quintin Morris,Quintin,ACT
-2026,6,LA,OL,Alaric Jackson,Alaric,ACT
+2026,6,LA,OL,Alaric Jackson,Alaric,RES
 2026,6,NYJ,OL,Jordan Meredith,Jordan,ACT
 2026,6,HOU,OL,Max Pircher,Max,DEV
 2026,6,DEN,WR,Jaylen Waddle,Jaylen,ACT
@@ -699,8 +701,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,IND,DB,Camryn Bynum,Camryn,ACT
 2026,6,CLE,WR,Tylan Wallace,Tylan,ACT
 2026,6,CHI,LB,Tony Fields II,Tony,RES
-2026,6,CAR,WR,Ihmir Smith-Marsette,Ihmir,DEV
 2026,2,ARI,WR,Ihmir Smith-Marsette,Ihmir,CUT
+2026,6,CAR,WR,Ihmir Smith-Marsette,Ihmir,DEV
 2026,6,KC,TE,Noah Gray,Noah,ACT
 2026,6,SF,DB,Darrick Forrest,Darrick,RES
 2026,5,CIN,DL,Tedarrell Slaton,Tedarrell,ACT
@@ -747,8 +749,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,LA,WR,Tutu Atwell,Tutu,ACT
 2026,1,ATL,DL,Cameron Sample,Cam,CUT
 2026,5,CIN,K,Evan McPherson,Evan,ACT
-2026,6,NYJ,OL,Jimmy Morrissey,Jimmy,DEV
 2026,1,IND,OL,Jimmy Morrissey,Jimmy,CUT
+2026,6,NYJ,OL,Jimmy Morrissey,Jimmy,DEV
 2026,6,PIT,WR,Ben Skowronek,Ben,ACT
 2026,6,TEN,OL,James Hudson,James,ACT
 2026,6,NO,LB,Chris Rumph II,Chris,ACT
@@ -801,8 +803,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,DEN,LB,Jonathon Cooper,Jonathon,EXE
 2026,6,CLE,OL,Teven Jenkins,Teven,ACT
 2026,5,DET,DL,Levi Onwuzurike,Levi,ACT
-2026,1,ATL,DB,Darren Hall,Darren,RES
 2026,6,WAS,DB,Darren Hall,Darren,DEV
+2026,1,ATL,DB,Darren Hall,Darren,RES
 2026,6,DEN,WR,Michael Bandy,Michael,DEV
 2026,6,CAR,DB,Tre'von Moehrig,Tre'von,ACT
 2026,5,DET,WR,Amon-Ra St. Brown,Amon-Ra,ACT
@@ -820,8 +822,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,PHI,WR,Elijah Moore,Elijah,ACT
 2026,6,NE,DL,Christian Barmore,Christian,ACT
 2026,6,NYG,DL,Chauncey Golston,Chauncey,RES
-2026,4,CLE,OL,Kendrick Green,Kendrick,CUT
 2026,6,NYG,OL,Kendrick Green,Kendrick,DEV
+2026,4,CLE,OL,Kendrick Green,Kendrick,CUT
 2026,6,ATL,RB,Trey Sermon,Trey,RES
 2026,6,JAX,OL,Robert Hainsey,Robert,ACT
 2026,6,NYJ,DB,Nahshon Wright,Nahshon,ACT
@@ -906,7 +908,7 @@ season,week,team,position,full_name,football_name,status
 2026,6,PIT,RB,Jaylen Warren,Jaylen,ACT
 2026,6,CAR,OL,Ikem Ekwonu,Ikem,RES
 2026,1,DEN,DL,Israel Antwine,Israel,CUT
-2026,5,NO,WR,Kevin Austin Jr.,Kevin,CUT
+2026,6,NO,WR,Kevin Austin Jr.,Kevin,DEV
 2026,6,JAX,DL,Travon Walker,Travon,ACT
 2026,5,DET,DL,Aidan Hutchinson,Aidan,ACT
 2026,6,HOU,DB,Derek Stingley Jr.,Derek,ACT
@@ -936,6 +938,7 @@ season,week,team,position,full_name,football_name,status
 2026,6,ARI,RB,Tyler Allgeier,Tyler,ACT
 2026,6,KC,OL,Matt Waletzko,Matt,RES
 2026,4,MIN,RB,Jerome Ford,Jerome,CUT
+2026,6,ARI,RB,Jerome Ford,Jerome,DEV
 2026,6,TB,DB,Zyon McCollum,Zyon,ACT
 2026,3,GB,DL,Eric Johnson,Eric,DEV
 2026,6,DAL,DL,Otito Ogbonnia,Otito,ACT
@@ -957,8 +960,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,DEN,DL,Jordan Jackson,Jordan,ACT
 2026,5,DET,OL,Cade Mays,Cade,RES
 2026,5,MIN,DB,Theo Jackson,Theo,ACT
-2026,1,TEN,OL,Austin Deculus,Austin,CUT
 2026,6,ARI,OL,Austin Deculus,Austin,DEV
+2026,1,TEN,OL,Austin Deculus,Austin,CUT
 2026,6,DEN,DL,Matt Henningsen,Matt,RES
 2026,6,LV,RB,Connor Heyward,Connor,ACT
 2026,6,IND,OL,Luke Tenuta,Luke,ACT
@@ -1027,8 +1030,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,LA,LB,Nate Landman,Nate,ACT
 2026,6,TEN,RB,Julius Chestnut,Julius,ACT
 2026,6,ARI,LB,Jack Gibbens,Jack,ACT
-2026,1,NYJ,OL,Xavier Newman-Johnson,Xavier,DEV
 2026,6,NE,OL,Xavier Newman-Johnson,Xavier,DEV
+2026,1,NYJ,OL,Xavier Newman-Johnson,Xavier,DEV
 2026,6,SF,DL,Sam Okuayinonu,Sam,RES
 2026,6,NYG,LB,Kayvon Thibodeaux,Kayvon,ACT
 2026,6,LV,OL,Evan Neal,Evan,DEV
@@ -1055,7 +1058,7 @@ season,week,team,position,full_name,football_name,status
 2026,6,WAS,WR,Treylon Burks,Treylon,ACT
 2026,5,CIN,DB,Daxton Hill,Dax,ACT
 2026,6,ARI,TE,Trey McBride,Trey,ACT
-2026,6,SEA,RB,Velus Jones Jr.,Velus,CUT
+2026,6,SEA,RB,Velus Jones Jr.,Velus,DEV
 2026,6,ATL,RB,Brian Robinson,Brian,ACT
 2026,1,NYJ,OL,Marquis Hayes,Marquis,DEV
 2026,6,DEN,DB,Tycen Anderson,Tycen,ACT
@@ -1102,8 +1105,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,CHI,DL,Daniel Hardy,Daniel,ACT
 2026,5,CIN,DB,Russ Yeast,Russ,ACT
 2026,6,BAL,OL,A.J. Arcuri,A.J.,DEV
-2026,1,TB,DB,Pepe Williams,Damarion,CUT
 2026,6,LA,DB,Pepe Williams,Damarion,DEV
+2026,1,TB,DB,Pepe Williams,Damarion,CUT
 2026,6,BAL,DB,Kyle Hamilton,Kyle,ACT
 2026,6,SF,DB,Jack Jones,Jack,ACT
 2026,6,NO,RB,Zamir White,Zamir,DEV
@@ -1156,8 +1159,8 @@ season,week,team,position,full_name,football_name,status
 2026,1,NO,OL,Barry Wesley,Barry,CUT
 2026,1,DAL,DB,Josh Butler,Josh,CUT
 2026,1,NO,K,Tanner Brown,Tanner,CUT
-2026,4,LA,WR,Xavier Smith,Xavier,CUT
 2026,6,SF,WR,Xavier Smith,Xavier,DEV
+2026,4,LA,WR,Xavier Smith,Xavier,CUT
 2026,6,LV,LS,Alex Ward,Alex,ACT
 2026,6,LA,DB,Tanner Ingle,Tanner,DEV
 2026,1,WAS,DB,Quindell Johnson,Quindell,CUT
@@ -1172,8 +1175,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,IND,DB,Daniel Scott,Daniel,DEV
 2026,6,PHI,WR,Dontayvion Wicks,Dontayvion,ACT
 2026,6,IND,TE,Will Mallory,Will,RES
-2026,6,PIT,DB,Terell Smith,Terell,ACT
 2026,4,WAS,DB,Terell Smith,Terell,DEV
+2026,6,PIT,DB,Terell Smith,Terell,ACT
 2026,5,CLE,RB,Eric Gray,Eric,CUT
 2026,1,NYG,RB,Eric Gray,Eric,CUT
 2026,6,ARI,RB,Evan Hull,Evan,DEV
@@ -1197,10 +1200,10 @@ season,week,team,position,full_name,football_name,status
 2026,6,CHI,RB,Zavier Scott,Zavier,DEV
 2026,1,TEN,DB,Corey Mayfield Jr.,Corey,CUT
 2026,6,LAC,RB,Keaton Mitchell,Keaton,ACT
-2026,1,HOU,RB,Owen Wright,Owen,CUT
 2026,6,LV,RB,Owen Wright,Owen,DEV
-2026,5,MIN,DL,Keshawn Banks,Keshawn,DEV
+2026,1,HOU,RB,Owen Wright,Owen,CUT
 2026,1,ATL,DL,Keshawn Banks,Keshawn,CUT
+2026,5,MIN,DL,Keshawn Banks,Keshawn,DEV
 2026,6,GB,LB,Brenton Cox Jr.,Brenton,ACT
 2026,1,LA,DB,Alex Cook,Alex,CUT
 2026,6,NE,QB,Tommy DeVito,Tommy,ACT
@@ -1222,8 +1225,8 @@ season,week,team,position,full_name,football_name,status
 2026,5,MIA,DB,Reese Taylor,Reese,INA
 2026,6,GB,DB,Kahlef Hailassie,Kahlef,DEV
 2026,2,WAS,LB,DJ Johnson,D.J.,CUT
-2026,4,CAR,OL,Chandler Zavala,Chandler,CUT
 2026,6,TEN,OL,Chandler Zavala,Chandler,DEV
+2026,4,CAR,OL,Chandler Zavala,Chandler,CUT
 2026,6,ARI,OL,Paris Johnson Jr.,Paris,RES
 2026,6,NO,LB,Tyree Wilson,Tyree,ACT
 2026,6,ATL,RB,Bijan Robinson,Bijan,ACT
@@ -1270,8 +1273,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,GB,TE,Josh Whyle,Josh,ACT
 2026,4,LV,WR,Justin Shorter,Justin,CUT
 2026,6,SEA,DL,Mike Morris,Mike,ACT
-2026,6,ATL,OL,Colby Sorsdal,Colby,DEV
 2026,1,DET,OL,Colby Sorsdal,Colby,CUT
+2026,6,ATL,OL,Colby Sorsdal,Colby,DEV
 2026,6,SEA,OL,Olu Oluwatimi,Olusegun,ACT
 2026,6,LV,DB,Darrell Luter Jr.,Darrell,ACT
 2026,6,CHI,OL,Jordan McFadden,Jordan,ACT
@@ -1306,8 +1309,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,BAL,OL,Jovaughn Gwyn,Jovaughn,RES
 2026,1,BUF,OL,Nick Broeker,Nick,DEV
 2026,5,TEN,OL,Nick Broeker,Nick,TRD
-2026,2,BUF,LB,Andre Jones Jr.,Andre,DEV
 2026,5,MIA,LB,Andre Jones Jr.,Andre,ACT
+2026,2,BUF,LB,Andre Jones Jr.,Andre,DEV
 2026,1,HOU,DL,Derek Parish,Derek,CUT
 2026,6,ARI,WR,Jalen Brooks,Jalen,ACT
 2026,1,PHI,DB,Isaiah Bolden,Isaiah,CUT
@@ -1332,6 +1335,7 @@ season,week,team,position,full_name,football_name,status
 2026,5,MIA,DB,Ethan Bonner,Ethan,DEV
 2026,6,GB,RB,Chris Brooks,Christopher,RES
 2026,1,NO,LB,Garrett Nelson,Garrett,CUT
+2026,6,LA,LB,Garrett Nelson,Garrett,DEV
 2026,6,SEA,DL,Brandon Pili,Brandon,ACT
 2026,6,CHI,DB,Keidron Smith,Keidron,DEV
 2026,6,TEN,DB,Kendell Brooks,Kendell,RES
@@ -1379,8 +1383,8 @@ season,week,team,position,full_name,football_name,status
 2026,5,DET,DB,Christian Izien,Christian,ACT
 2026,6,JAX,DB,Kaevon Merriweather,Kaevon,ACT
 2026,5,MIA,WR,Ryan Miller,Ryan,ACT
-2026,3,HOU,WR,Mitchell Tinsley,Mitch,DEV
 2026,5,CIN,WR,Mitchell Tinsley,Mitch,ACT
+2026,3,HOU,WR,Mitchell Tinsley,Mitch,DEV
 2026,6,CAR,WR,Brycen Tremayne,Brycen,ACT
 2026,5,DET,DB,Nick Whiteside,Nick,DEV
 2026,6,BUF,DB,Anthony Kendall,Anthony,CUT
@@ -1392,13 +1396,15 @@ season,week,team,position,full_name,football_name,status
 2026,5,ARI,DB,D'Shawn Jamison,D'Shawn,CUT
 2026,6,NE,DB,D'Shawn Jamison,D'Shawn,DEV
 2026,1,PIT,WR,Isaiah Winstead,Isaiah,CUT
-2026,5,MIA,LB,Shaka Heyward,Shaka,ACT
 2026,3,CIN,LB,Shaka Heyward,Shaka,DEV
-2026,4,BAL,WR,Shedrick Jackson,Shedrick,CUT
+2026,5,MIA,LB,Shaka Heyward,Shaka,ACT
 2026,1,LV,WR,Shedrick Jackson,Shedrick,CUT
+2026,4,BAL,WR,Shedrick Jackson,Shedrick,CUT
+2026,6,ARI,WR,Shedrick Jackson,Shedrick,DEV
 2026,1,ATL,DL,Devonnsha Maxwell,Devonnsha,CUT
 2026,5,DET,RB,Jacob Saylors,Jacob,ACT
-2026,6,NYJ,K,Blake Grupe,Blake,CUT
+2026,5,NYJ,K,Blake Grupe,Blake,DEV
+2026,6,LA,K,Blake Grupe,Blake,ACT
 2026,5,PHI,LB,Anfernee Orji,Anfernee,CUT
 2026,1,NYG,LB,Anfernee Orji,Anfernee,CUT
 2026,1,DET,WR,Malik Cunningham,Malik,CUT
@@ -1420,8 +1426,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,ATL,WR,Dylan Drummond,Dylan,DEV
 2026,1,DET,DB,Ekow Boye-Doe,Ekow,CUT
 2026,6,CLE,LB,Markees Watts,Markees,RET
-2026,3,DET,DB,Natrone Brooks,Natrone,DEV
 2026,5,MIN,DB,Natrone Brooks,Natrone,TRT
+2026,3,DET,DB,Natrone Brooks,Natrone,DEV
 2026,6,DEN,WR,Marvin Mims Jr.,Marvin,ACT
 2026,6,HOU,WR,Tank Dell,Tank,RES
 2026,6,PHI,DL,Byron Young,Byron,ACT
@@ -1466,8 +1472,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,TB,DB,Josh Hayes,Josh,RES
 2026,6,NO,WR,Trey Palmer,Trey,CUT
 2026,6,NE,LB,Jose Ramirez,Jose,CUT
-2026,1,HOU,LB,Marte Mapu,Marte,CUT
 2026,6,PIT,LB,Marte Mapu,Marte,DEV
+2026,1,HOU,LB,Marte Mapu,Marte,CUT
 2026,6,LA,OL,Steve Avila,Steve,ACT
 2026,6,LA,P,Ethan Evans,Ethan,ACT
 2026,1,DET,DB,Jason Taylor II,Jason,CUT
@@ -1507,8 +1513,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,WAS,DB,Quan Martin,Quan,ACT
 2026,6,CAR,QB,Bryce Young,Bryce,ACT
 2026,6,LA,DB,Emmanuel Forbes,Emmanuel,ACT
-2026,1,TEN,QB,Will Levis,Will,CUT
 2026,6,NYJ,QB,Will Levis,Will,DEV
+2026,1,TEN,QB,Will Levis,Will,CUT
 2026,6,JAX,LB,BJ Ojulari,B.J.,DEV
 2026,1,ARI,LB,BJ Ojulari,B.J.,CUT
 2026,5,MIA,DB,Julius Brents,Julius,ACT
@@ -1517,8 +1523,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,HOU,QB,C.J. Stroud,C.J.,ACT
 2026,6,IND,QB,Anthony Richardson,Anthony,ACT
 2026,6,SEA,RB,Zach Charbonnet,Zach,RES
-2026,3,PIT,DB,Joey Porter Jr.,Joey,INA
 2026,6,DAL,DB,Joey Porter Jr.,Joey,ACT
+2026,3,PIT,DB,Joey Porter Jr.,Joey,INA
 2026,6,SEA,DB,Devon Witherspoon,Devon,ACT
 2026,5,DET,K,Jake Bates,Jake,ACT
 2026,5,MIA,OL,Chukwuebuka Godrick,Chukwuebuka,INA
@@ -1549,9 +1555,9 @@ season,week,team,position,full_name,football_name,status
 2026,5,MIA,OL,James Ester,James,DEV
 2026,6,GB,OL,Donovan Jennings,Donovan,ACT
 2026,4,CLE,TE,Messiah Swinson,Messiah,CUT
-2026,3,TEN,LB,Jimmy Ciarlo,Jimmy,CUT
 2026,6,SEA,LB,Jimmy Ciarlo,Jimmy,DEV
 2026,1,BUF,LB,Jimmy Ciarlo,Jimmy,CUT
+2026,3,TEN,LB,Jimmy Ciarlo,Jimmy,CUT
 2026,6,NYJ,LB,Braiden McGregor,Braiden,RES
 2026,1,NYJ,DB,Jarius Monroe,Jarius,CUT
 2026,6,NO,LB,Jackson Sirmon,Jackson,DEV
@@ -1590,8 +1596,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,SF,OL,Dominick Puni,Dominick,ACT
 2026,6,DAL,LB,Marist Liufau,Marist,RES
 2026,6,JAX,DB,Jarrian Jones,Jarrian,ACT
-2026,6,SF,DL,McKinnley Jackson,McKinnley,DEV
 2026,1,CIN,DL,McKinnley Jackson,McKinnley,CUT
+2026,6,SF,DL,McKinnley Jackson,McKinnley,DEV
 2026,6,WAS,WR,Luke McCaffrey,Luke,ACT
 2026,6,CAR,TE,Ja'Tavion Sanders,Ja'Tavion,ACT
 2026,6,NO,DB,Decamerion Richardson,Decamerion,ACT
@@ -1609,16 +1615,16 @@ season,week,team,position,full_name,football_name,status
 2026,6,ATL,LB,JD Bertrand,J.D.,RES
 2026,6,DEN,DB,Kris Abrams-Draine,Kris,ACT
 2026,6,NYJ,DB,Jarvis Brownlee Jr.,Jarvis,ACT
-2026,6,CLE,RB,Audric Estimé,Audric,ACT
-2026,3,NO,RB,Audric Estimé,Audric,CUT
 2026,5,MIN,RB,Audric Estimé,Audric,DEV
+2026,3,NO,RB,Audric Estimé,Audric,CUT
+2026,6,CLE,RB,Audric Estimé,Audric,ACT
 2026,6,LV,LB,Tommy Eichenberg,Tommy,ACT
 2026,5,CIN,DB,Josh Newton,Josh,ACT
 2026,6,NO,QB,Spencer Rattler,Spencer,ACT
 2026,6,IND,LB,Jaylon Carlies,Jaylon,ACT
 2026,5,CHI,DB,Deantre Prince,Deantre,CUT
-2026,1,CLE,WR,Jamari Thrash,Jamari,CUT
 2026,6,LV,WR,Jamari Thrash,Jamari,DEV
+2026,1,CLE,WR,Jamari Thrash,Jamari,CUT
 2026,6,CAR,DB,Chau Smith-Wade,Chau,ACT
 2026,1,TEN,LB,Dominique Hampton,Dominique,RES
 2026,6,CHI,OL,Christian Jones,Christian,DEV
@@ -1668,8 +1674,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,TEN,LB,Jaylen Harrell,Jaylen,RES
 2026,1,BAL,WR,Cornelius Johnson,Cornelius,CUT
 2026,6,DEN,OL,Nick Gargiulo,Nick,RES
-2026,3,NYG,OL,Kingsley Eguakun,Kingsley,CUT
 2026,6,ARI,OL,Kingsley Eguakun,Kingsley,DEV
+2026,3,NYG,OL,Kingsley Eguakun,Kingsley,CUT
 2026,5,DET,LS,Hogan Hatten,Hogan,ACT
 2026,6,NYG,OL,Bryan Hudson,Bryan,ACT
 2026,6,NYJ,LB,Nate Lynn,Nate,ACT
@@ -1690,8 +1696,8 @@ season,week,team,position,full_name,football_name,status
 2026,1,ARI,P,Jack Browning,Jack,CUT
 2026,5,MIA,DB,Storm Duck,Storm,RES
 2026,5,MIA,OL,Andrew Meyer,Andrew,ACT
-2026,1,GB,DB,Mark Perry,Mark,CUT
 2026,6,ARI,DB,Mark Perry,Mark,DEV
+2026,1,GB,DB,Mark Perry,Mark,CUT
 2026,6,LAC,TE,Hayden Rucci,Hayden,ACT
 2026,2,JAX,TE,Hayden Rucci,Hayden,DEV
 2026,6,CAR,WR,Jalen Coker,Jalen,ACT
@@ -1713,7 +1719,7 @@ season,week,team,position,full_name,football_name,status
 2026,5,MIA,LB,Amari Gainer,Amari,DEV
 2026,6,LV,OL,Will Putnam,Will,DEV
 2026,1,DEN,LB,Ron Stone Jr.,Ron,CUT
-2026,6,ARI,TE,Shawn Bowman,Shawn,DEV
+2026,6,ARI,TE,Shawn Bowman,Shawn,ACT
 2026,6,PIT,OL,Steven Jones,Steven,DEV
 2026,6,DEN,LB,Levelle Bailey,Levelle,RES
 2026,1,CLE,P,Nik Constantinou,Nik,CUT
@@ -1743,7 +1749,7 @@ season,week,team,position,full_name,football_name,status
 2026,6,CAR,LB,Maema Njongmeta,Maema,DEV
 2026,1,NE,DL,Isaiah Iton,Isaiah,CUT
 2026,6,TEN,TE,David Martin-Robinson,David,ACT
-2026,5,HOU,WR,Bryce Oliver,Bryce,CUT
+2026,6,HOU,WR,Bryce Oliver,Bryce,DEV
 2026,1,CLE,WR,Bryce Oliver,Bryce,DEV
 2026,5,DET,RB,Jabari Small,Jabari,DEV
 2026,5,DET,DB,Thomas Harper,Thomas,RES
@@ -1751,8 +1757,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,WAS,QB,Sam Hartman,Sam,DEV
 2026,1,IND,WR,Ben Nikkel,Ben,CUT
 2026,6,WAS,DB,Tyler Owens,Tyler,ACT
-2026,6,BUF,DB,A.J. Woods,A.J.,DEV
 2026,1,ATL,DB,A.J. Woods,A.J.,CUT
+2026,6,BUF,DB,A.J. Woods,A.J.,DEV
 2026,6,WAS,TE,Colson Yankoff,Colson,ACT
 2026,6,NE,DB,Dell Pettus,Dell,RES
 2026,1,SF,DL,Evan Anderson,Evan,CUT
@@ -1787,8 +1793,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,LA,WR,Jordan Whittington,Jordan,ACT
 2026,5,CIN,DL,Cedric Johnson,Cedric,ACT
 2026,6,LA,OL,Beaux Limmer,Beaux,ACT
-2026,1,TB,TE,Devin Culp,Devin,CUT
 2026,6,CLE,TE,Devin Culp,Devin,DEV
+2026,1,TB,TE,Devin Culp,Devin,CUT
 2026,6,CLE,OL,KT Leveston,K.T.,DEV
 2026,6,BUF,LB,Joe Andreessen,Joe,ACT
 2026,6,CLE,DL,Elijah Chatman,Elijah,RES
@@ -1825,8 +1831,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,GB,OL,Travis Glover,Travis,ACT
 2026,6,NYG,DB,Andru Phillips,Andru,ACT
 2026,6,PHI,OL,Kiran Amegadjie,Kiran,DEV
-2026,6,CHI,DB,Elijah Jones,Elijah,DEV
 2026,3,NYG,DB,Elijah Jones,Elijah,CUT
+2026,6,CHI,DB,Elijah Jones,Elijah,DEV
 2026,6,KC,TE,Jared Wiley,Jared,ACT
 2026,6,KC,DB,Jaden Hicks,Jaden,ACT
 2026,6,PHI,LB,Jeremiah Trotter Jr.,Jeremiah,ACT
@@ -1911,8 +1917,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,CHI,WR,Rome Odunze,Rome,ACT
 2026,6,CLE,WR,Malachi Corley,Malachi,ACT
 2026,6,ARI,RB,Trey Benson,Trey,RES
-2026,3,MIN,QB,J.J. McCarthy,J.J.,INA
 2026,6,NYG,QB,J.J. McCarthy,J.J.,ACT
+2026,3,MIN,QB,J.J. McCarthy,J.J.,INA
 2026,5,MIN,LB,Dallas Turner,Dallas,ACT
 2026,5,CIN,OL,Amarius Mims,Amarius,ACT
 2026,6,SEA,OL,Jalen Sundell,Jalen,ACT
@@ -1990,8 +1996,8 @@ season,week,team,position,full_name,football_name,status
 2026,1,CLE,DL,Coziah Izzard,Coziah,CUT
 2026,6,TB,DB,Kevin Knowles,Kevin,ACT
 2026,6,WAS,OL,Esa Pole,Esa,DEV
-2026,6,KC,DB,Melvin Smith Jr.,Melvin,DEV
 2026,1,TEN,DB,Melvin Smith,Melvin,CUT
+2026,6,KC,DB,Melvin Smith Jr.,Melvin,DEV
 2026,5,MIA,TE,Tre Watson,Tre,DEV
 2026,6,BAL,OL,Gerad Lichtenhan,Gerad,DEV
 2026,6,BAL,WR,Xavier Guillory,Xavier,CUT
@@ -2085,8 +2091,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,NE,K,Andy Borregales,Andy,ACT
 2026,6,TEN,DB,Marcus Harris,Marcus,ACT
 2026,5,MIN,RB,Devin Neal,Devin,CUT
-2026,1,NO,RB,Devin Neal,Devin,RES
 2026,6,WAS,RB,Devin Neal,Devin,DEV
+2026,1,NO,RB,Devin Neal,Devin,RES
 2026,6,PIT,QB,Will Howard,Will,ACT
 2026,6,NE,DB,Jaylen Reed,Jaylen,ACT
 2026,6,TEN,RB,Kalel Mullings,Kalel,DEV
@@ -2158,8 +2164,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,ARI,LB,Eugene Asante,Eugene,CUT
 2026,5,MIA,WR,A.J. Henning,A.J.,DEV
 2026,1,MIA,DL,Alex Huntley,Alex,CUT
-2026,1,MIA,OL,Josh Priebe,Josh,CUT
 2026,5,MIN,OL,Josh Priebe,Josh,DEV
+2026,1,MIA,OL,Josh Priebe,Josh,CUT
 2026,1,NE,DB,John Saunders Jr.,John,CUT
 2026,4,NYJ,DB,John Saunders Jr.,John,CUT
 2026,6,LAC,WR,Theo Wease Jr.,Theo,ACT
@@ -2186,8 +2192,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,JAX,DL,Danny Striggow,Danny,ACT
 2026,6,IND,DB,Johnathan Edwards,Johnathan,DEV
 2026,1,TB,OL,Marshall Foerner,Marshall,CUT
-2026,6,GB,WR,Coleman Owen,Coleman,DEV
 2026,1,IND,WR,Coleman Owen,Coleman,RES
+2026,6,GB,WR,Coleman Owen,Coleman,DEV
 2026,6,IND,DB,Trey Washington,Trey,DEV
 2026,5,CIN,OL,Jacob Bayer,Jacob,ACT
 2026,6,BUF,WR,Stephen Gosnell,Stephen,DEV
@@ -2211,6 +2217,7 @@ season,week,team,position,full_name,football_name,status
 2026,1,CAR,TE,Caden Prieskorn,Caden,CUT
 2026,6,CAR,RB,Anthony Tyus III,Anthony,DEV
 2026,6,JAX,LB,Jared Bartlett,Jared,RES
+2026,6,PHI,DB,Dean Clark,Dean,DEV
 2026,1,NYJ,DB,Dean Clark,Dean,CUT
 2026,6,NYJ,DB,Jordan Clark,Jordan,DEV
 2026,5,MIA,QB,Brady Cook,Brady,CUT
@@ -2246,8 +2253,8 @@ season,week,team,position,full_name,football_name,status
 2026,1,NE,OL,Joseph Michalski,Joe,CUT
 2026,6,DEN,LB,Karene Reid,Karene,ACT
 2026,6,NYG,DB,Jaden Robinson,Jaden,DEV
-2026,6,PHI,OL,Xavier Truss,Xavier,DEV
 2026,5,CLE,OL,Xavier Truss,Xavier,CUT
+2026,6,PHI,OL,Xavier Truss,Xavier,DEV
 2026,1,NO,OL,Xavier Truss,Xavier,CUT
 2026,6,DEN,LB,Johnny Walker Jr.,Johnny,DEV
 2026,1,DEN,DL,Kristian Williams,Kristian,CUT
@@ -2263,8 +2270,8 @@ season,week,team,position,full_name,football_name,status
 2026,1,LAC,DB,Nikko Reed,Nikko,DEV
 2026,5,CIN,LB,Garmon Randolph,Garmon,DEV
 2026,1,LAC,DB,Myles Purchase,Myles,CUT
-2026,1,IND,RB,Ulysses Bentley IV,Ulysses,CUT
 2026,6,NO,RB,Ulysses Bentley IV,Ulysses,CUT
+2026,1,IND,RB,Ulysses Bentley IV,Ulysses,CUT
 2026,1,ARI,DB,Hudson Clark,Hudson,CUT
 2026,1,SF,DL,Jah Joyner,Jah,CUT
 2026,1,LV,DL,Treven Ma'ae,Treven,CUT
@@ -2318,8 +2325,8 @@ season,week,team,position,full_name,football_name,status
 2026,1,NE,OL,Jack Conley,Jack,CUT
 2026,1,NE,DB,Brandon Crossley,Brandon,CUT
 2026,6,TB,TE,CJ Dippre,C.J.,DEV
-2026,1,SEA,RB,Brock Lampe,Brock,CUT
 2026,6,BUF,RB,Brock Lampe,Brock,DEV
+2026,1,SEA,RB,Brock Lampe,Brock,CUT
 2026,6,NE,RB,Lan Larison,Lan,DEV
 2026,6,NE,WR,Jeremiah Webb,Jeremiah,RES
 2026,5,MIN,DL,Jahvaree Ritzie,Jahvaree,DEV
@@ -2377,14 +2384,14 @@ season,week,team,position,full_name,football_name,status
 2026,6,SEA,DL,Rylie Mills,Rylie,ACT
 2026,6,SEA,WR,Tory Horton,Tory,ACT
 2026,6,SEA,RB,Robbie Ouzts,Robbie,RES
-2026,6,LV,OL,Bryce Cabeldue,Bryce,ACT
 2026,1,SEA,OL,Bryce Cabeldue,Bryce,INA
+2026,6,LV,OL,Bryce Cabeldue,Bryce,ACT
 2026,1,GB,RB,Damien Martinez,Damien,CUT
 2026,6,SEA,OL,Mason Richman,Mason,RES
 2026,6,SEA,WR,Ricky White III,Ricky,DEV
 2026,6,HOU,P,Kai Kroeger,Kai,ACT
-2026,6,CAR,DL,Keith Cooper Jr.,Keith,DEV
 2026,5,MIA,DL,Keith Cooper Jr.,Keith,CUT
+2026,6,CAR,DL,Keith Cooper Jr.,Keith,DEV
 2026,1,NO,QB,Hunter Dekkers,Hunter,CUT
 2026,6,BAL,LB,Kaimon Rucker,Kaimon,DEV
 2026,6,TEN,DB,Derrick Canteen,Derrick,DEV
@@ -2412,6 +2419,7 @@ season,week,team,position,full_name,football_name,status
 2026,6,GB,DL,Anthony Campbell,Anthony,ACT
 2026,6,NYG,QB,Jaxson Dart,Jaxson,RES
 2026,5,MIA,RB,Jarquez Hunter,Jarquez,DEV
+2026,6,NO,RB,Jarquez Hunter,Jarquez,DEV
 2026,6,NYG,DL,Darius Alexander,Darius,ACT
 2026,5,DET,TE,Thomas Gordon,Thomas,DEV
 2026,6,NE,OL,Will Campbell,Will,ACT
@@ -2425,6 +2433,7 @@ season,week,team,position,full_name,football_name,status
 2026,6,SF,DL,C.J. West,C.J.,RES
 2026,2,SF,DL,CJ West,C.J.,ACT
 2026,5,ARI,OL,Vershon Lee,Vershon,CUT
+2026,6,CLE,OL,Vershon Lee,Vershon,DEV
 2026,6,NYG,RB,Cam Skattebo,Cam,ACT
 2026,6,NE,DB,Craig Woodson,Craig,ACT
 2026,6,JAX,WR,Travis Hunter,Travis,ACT
@@ -2555,7 +2564,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,DAL,TE,Michael Trigg,Michael,DEV
 2026,1,DAL,DL,DJ Withers,D.J.,CUT
 2026,1,GB,OL,Dylan Barrett,Dylan,CUT
-2026,6,GB,OL,Josh Gesky,Josh,CUT
+2026,5,GB,OL,Josh Gesky,Josh,DEV
+2026,6,NYG,OL,Josh Gesky,Josh,DEV
 2026,6,GB,LB,Nyjalik Kelly,Nyjalik,DEV
 2026,1,GB,RB,Jaden Nixon,Jaden,CUT
 2026,1,GB,LB,TJ Quinn,T.J.,CUT
@@ -2591,8 +2601,8 @@ season,week,team,position,full_name,football_name,status
 2026,1,PIT,WR,Levi Wentz,Levi,CUT
 2026,1,BAL,WR,Cortez Braham,Cortez,CUT
 2026,6,BAL,LB,Ethan Burke,Ethan,ACT
-2026,6,NYJ,OL,Nick Dawkins,Nick,DEV
 2026,1,BAL,OL,Nick Dawkins,Nick,DEV
+2026,6,NYJ,OL,Nick Dawkins,Nick,DEV
 2026,1,BAL,LB,Dominic DeLuca,Dominic,DEV
 2026,6,BAL,QB,Joe Fagnano,Joe,ACT
 2026,1,BAL,DL,Aaron Graves,Aaron,CUT
@@ -2619,8 +2629,8 @@ season,week,team,position,full_name,football_name,status
 2026,1,LV,WR,Chase Roberts,Chase,RES
 2026,6,LV,WR,Corey Rucker,Corey,RES
 2026,6,LV,LB,Cian Slone,Cian,DEV
-2026,1,LV,DL,Gary Smith III,Gary,DEV
 2026,6,SEA,DL,Gary Smith III,Gary,DEV
+2026,1,LV,DL,Gary Smith III,Gary,DEV
 2026,1,LV,LB,Xavian Sorey Jr.,Xavian,CUT
 2026,1,NYJ,DB,Tanner Wall,Tanner,CUT
 2026,1,LV,WR,E.J. Williams Jr.,E.J.,CUT
@@ -2738,8 +2748,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,BUF,P,Tommy Doman Jr.,Tommy,ACT
 2026,6,JAX,LB,Parker Hughes,Parker,RES
 2026,6,BUF,OL,Ar'maj Reed-Adams,Ar'maj,ACT
-2026,6,ATL,RB,Jam Miller,Jam,DEV
 2026,1,NE,RB,Jam Miller,Jam,CUT
+2026,6,ATL,RB,Jam Miller,Jam,DEV
 2026,6,DEN,DB,Miles Scott,Miles,DEV
 2026,6,CLE,TE,Carsen Ryan,Carsen,ACT
 2026,6,IND,WR,Deion Burks,Deion,ACT
@@ -2764,7 +2774,7 @@ season,week,team,position,full_name,football_name,status
 2026,1,NYG,WR,Kobe Prentice,Kobe,CUT
 2026,6,CAR,DB,Devonta Smith,DeVonta,DEV
 2026,1,CAR,LB,Isaiah Smith,Isaiah,CUT
-2026,5,HOU,QB,Mark Gronowski,Mark,CUT
+2026,6,HOU,QB,Mark Gronowski,Mark,DEV
 2026,1,MIA,WR,Donaven McCulley,Donaven,CUT
 2026,5,MIA,DL,Rodney McGraw,Rodney,ACT
 2026,1,MIA,DB,Louis Moore,Louis,CUT
@@ -2783,8 +2793,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,CHI,DB,Skyler Thomas,Skyler,ACT
 2026,6,WAS,WR,Jaden Bradley,Jaden,DEV
 2026,6,WAS,DB,Fred Davis,Fred,DEV
-2026,4,WAS,RB,Robert Henry Jr.,Robert,DEV
 2026,6,SEA,RB,Robert Henry Jr.,Robert,ACT
+2026,4,WAS,RB,Robert Henry Jr.,Robert,DEV
 2026,2,GB,WR,Chris Hilton Jr.,Chris,CUT
 2026,1,WAS,TE,Quentin Moore,Quentin,CUT
 2026,1,WAS,DB,Malik Spencer,Malik,RES
@@ -2820,8 +2830,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,JAX,OL,Jordan White,Jordan,RET
 2026,6,JAX,WR,Michael Wortham,Michael,DEV
 2026,1,BUF,LB,Theron Gaines,Theron,CUT
-2026,5,NE,OL,Da'Metrius Weatherspoon,Da'Metrius,CUT
 2026,1,BUF,OL,Da'Metrius Weatherspoon,Da'Metrius,CUT
+2026,5,NE,OL,Da'Metrius Weatherspoon,Da'Metrius,CUT
 2026,6,IND,DL,Cameron Ball,Cameron,DEV
 2026,1,IND,DB,Austin Brown,Austin,CUT
 2026,6,IND,LB,Tahj Chambers,Tahj,ACT
@@ -2912,8 +2922,8 @@ season,week,team,position,full_name,football_name,status
 2026,1,NE,OL,JonDarius Morgan,JonDarius,CUT
 2026,2,NE,OL,Jacob Rizy,Jacob,CUT
 2026,6,NO,RB,CJ Donaldson,C.J.,ACT
-2026,6,NYJ,TE,Cody Hardy,Cody,CUT
 2026,1,NO,TE,Cody Hardy,Cody,CUT
+2026,6,NYJ,TE,Cody Hardy,Cody,CUT
 2026,6,KC,LB,Michael Heldman,Michael,DEV
 2026,1,NO,LB,Michael Heldman,Michael,RES
 2026,6,NO,OL,Alan Herron,Alan,DEV
@@ -2941,8 +2951,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,SF,DB,Jalen Stroman,Jalen,DEV
 2026,6,SF,DL,James Thompson Jr.,James,ACT
 2026,6,GB,DB,Elijah Culp,Elijah,DEV
-2026,1,ARI,DB,Elijah Culp,Elijah,CUT
 2026,5,IND,DB,Elijah Culp,Elijah,CUT
+2026,1,ARI,DB,Elijah Culp,Elijah,CUT
 2026,1,HOU,OL,Ka'ena Decambra,Ka'ena,DEV
 2026,6,ARI,TE,Jameson Geers,Jameson,RES
 2026,6,ARI,LB,Cam Robertson,Cameron,DEV
@@ -2993,8 +3003,8 @@ season,week,team,position,full_name,football_name,status
 2026,6,LA,QB,Matthew Caldwell,Matthew,RES
 2026,6,LA,RB,Dean Connors,Dean,ACT
 2026,6,LA,DB,Nyzier Fourqurean,Nyzier,DEV
-2026,6,NE,DB,"Al'zillion ""AZ"" Hamilton",Al'zillion,DEV
 2026,1,LA,DB,"Al'zillion ""AZ"" Hamilton",Al'zillion,CUT
+2026,6,NE,DB,"Al'zillion ""AZ"" Hamilton",Al'zillion,DEV
 2026,1,LA,OL,Bryce Henderson,Bryce,CUT
 2026,1,LA,LB,Nikhai Hill-Green,Nikhai,CUT
 2026,6,LA,LB,Darryl Peterson III,Darryl,DEV
@@ -3125,6 +3135,7 @@ season,week,team,position,full_name,football_name,status
 2026,6,LV,QB,Fernando Mendoza,Fernando,ACT
 2026,6,LV,DB,Jermod McCoy,Jermod,ACT
 2026,4,NE,LB,Riley Wilson,Riley,CUT
+2026,6,ARI,LB,Riley Wilson,Riley,DEV
 2026,6,PIT,QB,Drew Allar,Drew,ACT
 2026,1,MIA,TE,Jeremiah Franklin,Jeremiah,CUT
 2026,6,LA,QB,Ty Simpson,Ty,ACT

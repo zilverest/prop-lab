@@ -1815,8 +1815,8 @@
   "fanduel|56777|56777/player_pass_tds/Daniel Jones/1.5/Under|56777/player_rush_yds/Jonathan Taylor/89.5/Over": "2026-10-14T16:05:35Z"
  },
  "sgp_roster_cache": {
-  "downloaded_at": "2026-10-14T16:05:35Z",
-  "rows": 3161,
+  "downloaded_at": "2026-10-15T19:18:36Z",
+  "rows": 3172,
   "season": 2026,
   "source": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.csv"
  },
