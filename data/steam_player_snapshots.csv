@@ -3033,3 +3033,133 @@ ts,sport,event_id,commence_time,hours_to_kick,market,player,side,team,open_point
 2026-10-15T15:51:53Z,football_nfl,46674,2026-10-16T00:15:00Z,8.39,player_reception_yds,Tory Horton,Under,,24.5,24.5,4,3,shortening,0.0235,0.0,7.1
 2026-10-15T15:51:53Z,football_nfl,46674,2026-10-16T00:15:00Z,8.39,player_reception_yds,AJ Barner,Over,,24.5,24.5,15,3,shortening,0.0235,0.0,7.0
 2026-10-15T15:51:53Z,football_nfl,46674,2026-10-16T00:15:00Z,8.39,player_receptions,Rashid Shaheed,Over,,3.5,3.5,5,3,lengthening,-0.0217,0.0,6.5
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_pass_yds,Bo Nix,Over,,201.5,198.5,9,9,point_down,0.0,-2.11,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_pass_yds,Bo Nix,Under,,201.5,198.5,9,9,point_down,0.0,-2.11,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_pass_yds,Sam Darnold,Over,,220.5,222.5,13,13,point_up,0.0,2.15,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_pass_yds,Sam Darnold,Under,,220.5,222.5,13,13,point_up,0.0,2.15,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Lil'Jordan Humphrey,Over,,6.5,4.5,8,8,point_down,0.0,-2.25,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Lil'Jordan Humphrey,Under,,6.5,4.5,8,8,point_down,0.0,-2.25,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,George Holani,Over,,9.5,10.5,9,8,point_up,0.0,1.25,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,George Holani,Under,,9.5,10.5,9,8,point_up,0.0,1.25,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Jaxon Smith-Njigba,Over,,92.0,93.5,8,4,point_up,0.0,1.75,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Jaxon Smith-Njigba,Under,,92.0,93.5,8,4,point_up,0.0,1.75,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Tory Horton,Over,,3.5,2.5,9,9,point_down,0.0,-1.44,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Tory Horton,Under,,3.5,2.5,9,9,point_down,0.0,-1.44,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Rashid Shaheed,Over,,22.5,21.5,9,5,point_down,0.0,-1.8,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Rashid Shaheed,Under,,22.5,21.5,9,5,point_down,0.0,-1.8,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,RJ Harvey,Over,,20.5,21.5,12,12,point_up,0.0,1.17,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,RJ Harvey,Under,,20.5,21.5,12,12,point_up,0.0,1.17,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Evan Engram,Over,,21.5,20.5,10,8,point_down,0.0,-1.0,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Evan Engram,Under,,21.5,20.5,10,8,point_down,0.0,-1.0,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Jaylen Waddle,Over,,47.5,45.5,13,13,point_down,0.0,-2.08,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Jaylen Waddle,Under,,47.5,45.5,13,13,point_down,0.0,-2.08,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Over,,23.5,26.5,14,14,point_up,0.0,2.93,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Under,,23.5,26.5,14,14,point_up,0.0,2.93,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,J.K. Dobbins,Over,,4.5,3.5,8,8,point_down,0.0,-1.5,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,J.K. Dobbins,Under,,4.5,3.5,8,8,point_down,0.0,-1.5,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Cooper Kupp,Over,,21.5,22.5,13,11,point_up,0.0,1.18,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Cooper Kupp,Under,,21.5,22.5,13,11,point_up,0.0,1.18,100.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Lil'Jordan Humphrey,Over,,1.5,0.5,6,6,point_down,0.0,-1.0,90.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Lil'Jordan Humphrey,Under,,1.5,0.5,6,6,point_down,0.0,-1.0,90.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Troy Franklin,Over,,16.5,17.5,7,5,point_up,0.0,1.0,75.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Troy Franklin,Under,,16.5,17.5,7,5,point_up,0.0,1.0,75.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Courtland Sutton,Over,,30.5,32.5,5,3,point_up,0.0,1.67,75.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Courtland Sutton,Under,,30.5,32.5,5,3,point_up,0.0,1.67,75.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Tory Horton,Over,,0.5,0.5,18,15,lengthening,-0.0394,0.0,59.2
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Tory Horton,Under,,0.5,0.5,18,14,shortening,0.037,0.0,51.8
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Tory Horton,Under,,5.5,5.5,5,3,shortening,0.1562,0.0,46.9
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Rashid Shaheed,Over,,2.5,1.5,4,3,point_down,0.0,-1.0,45.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Rashid Shaheed,Under,,2.5,1.5,4,3,point_down,0.0,-1.0,45.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,AJ Barner,Over,,2.5,2.5,21,10,shortening,0.0416,0.0,41.6
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_pass_completions,Bo Nix,Over,,21.5,21.5,20,10,lengthening,-0.0414,0.0,41.4
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Lil'Jordan Humphrey,Over,,1.5,1.5,7,5,lengthening,-0.0822,0.0,41.1
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Lil'Jordan Humphrey,Under,,1.5,1.5,7,4,shortening,0.0966,0.0,38.6
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_pass_completions,Bo Nix,Under,,21.5,21.5,19,8,shortening,0.0461,0.0,36.9
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,AJ Barner,Under,,2.5,2.5,20,10,lengthening,-0.0365,0.0,36.5
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,20+ Receiving Yards,,,,7,6,shortening,0.0608,,36.5
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,40+ Receiving Yards,,,,9,8,shortening,0.0431,,34.5
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Under,,24.5,24.5,9,6,lengthening,-0.0533,0.0,32.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Lil'Jordan Humphrey,Under,,6.5,6.5,6,3,shortening,0.1065,0.0,32.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,30+ Receiving Yards,,,,7,6,shortening,0.0523,,31.4
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,George Holani,Under,,1.5,1.5,18,10,lengthening,-0.0312,0.0,31.2
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Over,,24.5,24.5,10,6,shortening,0.0513,0.0,30.8
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Lil'Jordan Humphrey,Over,,0.5,0.5,15,3,lengthening,-0.1014,0.0,30.4
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Lil'Jordan Humphrey,Under,,0.5,0.5,15,3,shortening,0.0999,0.0,30.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Over,,23.5,23.5,7,5,shortening,0.0589,0.0,29.4
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,George Holani,Over,,1.5,1.5,19,9,shortening,0.0321,0.0,28.9
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Under,,39.5,39.5,5,5,lengthening,-0.052,0.0,26.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Lil'Jordan Humphrey,3+ Receptions,,,,6,6,lengthening,-0.0421,,25.3
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,AJ Barner,Under,,4.5,4.5,5,4,lengthening,-0.0605,0.0,24.2
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,AJ Barner,Under,,3.5,3.5,5,4,lengthening,-0.06,0.0,24.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Tory Horton,Under,,4.5,4.5,7,3,shortening,0.0778,0.0,23.3
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Lil'Jordan Humphrey,2+ Receptions,,,,4,3,lengthening,-0.0774,,23.2
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Lil'Jordan Humphrey,Over,,5.5,5.5,5,3,lengthening,-0.0756,0.0,22.7
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,AJ Barner,4+ Receptions,,,,8,6,shortening,0.0363,,21.8
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,RJ Harvey,Over,,20.5,20.5,8,3,shortening,0.0704,0.0,21.1
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,AJ Barner,Under,,1.5,1.5,5,4,lengthening,-0.0504,0.0,20.1
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Lil'Jordan Humphrey,Over,,4.5,4.5,7,3,lengthening,-0.0663,0.0,19.9
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Marvin Mims Jr.,Under,,1.5,1.5,13,4,lengthening,-0.049,0.0,19.6
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,25+ Receiving Yards,,,,6,4,shortening,0.0489,,19.6
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Lil'Jordan Humphrey,Over,,19.5,19.5,3,3,lengthening,-0.0644,0.0,19.3
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Under,,29.5,29.5,5,3,lengthening,-0.0639,0.0,19.2
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,George Holani,Under,,14.5,14.5,5,4,lengthening,-0.0461,0.0,18.5
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_pass_attempts,Sam Darnold,Under,,30.5,30.5,14,4,lengthening,-0.046,0.0,18.4
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,AJ Barner,3+ Receptions,,,,6,5,shortening,0.0368,,18.4
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Under,,14.5,14.5,5,3,lengthening,-0.0601,0.0,18.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Lil'Jordan Humphrey,10+ Receiving Yards,,,,3,3,lengthening,-0.0595,,17.8
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,10+ Receiving Yards,,,,6,5,shortening,0.0345,,17.3
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Rashid Shaheed,Over,,9.5,9.5,4,3,lengthening,-0.0572,0.0,17.1
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Lil'Jordan Humphrey,Under,,19.5,19.5,3,3,shortening,0.0562,0.0,16.9
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,AJ Barner,Under,,5.5,5.5,4,3,lengthening,-0.0557,0.0,16.7
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Under,,23.5,23.5,7,4,lengthening,-0.0416,0.0,16.6
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,AJ Barner,5+ Receptions,,,,8,5,shortening,0.0327,,16.3
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Under,,49.5,49.5,4,3,lengthening,-0.0535,0.0,16.1
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,George Holani,3+ Receptions,,,,8,4,shortening,0.0396,,15.8
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Tory Horton,Over,,4.5,4.5,7,3,lengthening,-0.0526,0.0,15.8
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,J.K. Dobbins,Over,,3.5,3.5,12,3,lengthening,-0.0519,0.0,15.6
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Jaxon Smith-Njigba,Under,,9.5,9.5,4,3,lengthening,-0.0517,0.0,15.5
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,George Holani,2+ Receptions,,,,7,5,shortening,0.0309,,15.5
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Courtland Sutton,Under,,5.5,5.5,5,3,lengthening,-0.0509,0.0,15.3
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,AJ Barner,2+ Receptions,,,,7,5,shortening,0.0306,,15.3
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Over,,39.5,39.5,6,3,shortening,0.0511,0.0,15.3
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,George Holani,Under,,24.5,24.5,4,3,lengthening,-0.051,0.0,15.3
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,50+ Receiving Yards,,,,10,5,shortening,0.0296,,14.8
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Jaylen Waddle,50+ Receiving Yards,,,,11,6,lengthening,-0.023,,13.8
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Jaxon Smith-Njigba,Under,,49.5,49.5,5,3,lengthening,-0.0443,0.0,13.3
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Jaylen Waddle,40+ Receiving Yards,,,,10,5,lengthening,-0.0264,,13.2
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_pass_completions,Bo Nix,20+ Passing Completions,,,,4,3,lengthening,-0.0429,,12.9
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Lil'Jordan Humphrey,15+ Receiving Yards,,,,4,3,lengthening,-0.0422,,12.7
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_pass_tds,Bo Nix,Under,,1.5,1.5,22,5,lengthening,-0.0246,0.0,12.3
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,George Holani,10+ Receiving Yards,,,,6,3,shortening,0.0408,,12.2
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Evan Engram,Under,,4.5,4.5,5,3,lengthening,-0.0403,0.0,12.1
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Over,,25.5,25.5,5,3,shortening,0.0402,0.0,12.1
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Lil'Jordan Humphrey,20+ Receiving Yards,,,,3,3,lengthening,-0.04,,12.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Over,,29.5,29.5,5,3,shortening,0.0392,0.0,11.8
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Under,,59.5,59.5,4,3,lengthening,-0.0382,0.0,11.5
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,RJ Harvey,Under,,20.5,20.5,8,4,lengthening,-0.0286,0.0,11.4
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_pass_attempts,Sam Darnold,Over,,30.5,30.5,14,3,shortening,0.037,0.0,11.1
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Under,,25.5,25.5,5,3,lengthening,-0.0352,0.0,10.6
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Courtland Sutton,Over,,3.5,3.5,21,4,lengthening,-0.0262,0.0,10.5
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,RJ Harvey,20+ Receiving Yards,,,,8,3,shortening,0.0345,,10.4
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,George Holani,4+ Receptions,,,,8,4,shortening,0.0254,,10.2
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Jaylen Waddle,60+ Receiving Yards,,,,9,4,lengthening,-0.0246,,9.8
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,George Holani,Under,,9.5,9.5,12,4,lengthening,-0.0245,0.0,9.8
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,Over,,19.5,19.5,6,3,shortening,0.0312,0.0,9.4
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Rashid Shaheed,Under,,1.5,1.5,14,3,lengthening,-0.0305,0.0,9.1
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Jaylen Waddle,70+ Receiving Yards,,,,9,4,lengthening,-0.0227,,9.1
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_pass_tds,Bo Nix,Under,,0.5,0.5,5,3,lengthening,-0.0302,0.0,9.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,J.K. Dobbins,Over,,4.5,4.5,9,3,lengthening,-0.029,0.0,8.7
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Courtland Sutton,Under,,3.5,3.5,20,3,shortening,0.028,0.0,8.4
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Marvin Mims Jr.,Over,,1.5,1.5,13,3,shortening,0.0281,0.0,8.4
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Jaylen Waddle,Over,,4.5,4.5,22,3,lengthening,-0.0268,0.0,8.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Lil'Jordan Humphrey,25+ Receiving Yards,,,,6,3,lengthening,-0.0265,,8.0
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Jaxon Smith-Njigba,Under,,94.5,94.5,8,3,lengthening,-0.0263,0.0,7.9
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,RJ Harvey,40+ Receiving Yards,,,,10,3,shortening,0.026,,7.8
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_pass_tds,Bo Nix,Over,,1.5,1.5,22,3,shortening,0.0256,0.0,7.7
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,George Holani,Over,,9.5,9.5,12,3,shortening,0.0257,0.0,7.7
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,Lil'Jordan Humphrey,4+ Receptions,,,,5,3,lengthening,-0.0254,,7.6
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,Cooper Kupp,Under,,21.5,21.5,7,3,lengthening,-0.0255,0.0,7.6
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_reception_yds,AJ Barner,60+ Receiving Yards,,,,7,3,shortening,0.0242,,7.3
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_pass_tds,Sam Darnold,Over,,1.5,1.5,22,3,lengthening,-0.0235,0.0,7.1
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,RJ Harvey,Over,,3.5,3.5,22,3,shortening,0.0227,0.0,6.8
+2026-10-15T19:18:12Z,football_nfl,46674,2026-10-16T00:15:00Z,4.95,player_receptions,RJ Harvey,Under,,3.5,3.5,21,3,lengthening,-0.0207,0.0,6.2
