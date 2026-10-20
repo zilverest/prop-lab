@@ -138,7 +138,7 @@ def capture(api, now=None, min_after_kick_minutes=10):
 
 def _identity_lookup():
     exact={}; loose={}
-    for r in read_rows("line_identity_history"):
+    for r in read_partitioned_rows("line_identity_history"):
         k=(r.get("event_id"),r.get("market"),r.get("player"),r.get("point"),r.get("side"),r.get("book"))
         exact[k]=r
         lk=(r.get("event_id"),r.get("market"),r.get("player"),r.get("side"),r.get("book"))

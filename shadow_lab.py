@@ -254,7 +254,7 @@ def _grade(row,grader):
 
 def _clv_lookups():
     identities={}
-    for x in read_rows("line_identity_history"):
+    for x in read_partitioned_rows("line_identity_history"):
         identities[(x.get("event_id"),x.get("market"),x.get("player"),x.get("point"),x.get("side"),x.get("book"))]=x
     by_id={}; exact={}
     for x in read_rows("closing_lines"):
