@@ -11,7 +11,7 @@ import traceback
 
 from common import *
 import snapshot, close, report, slips, parlay_lab, sgp_shadow
-import instrumentation, closing_capture, shadow_lab, evidence_report, calibration_report
+import instrumentation, closing_capture, shadow_lab, early_edge, evidence_report, calibration_report
 
 
 def _clock(now=None):
@@ -48,13 +48,17 @@ def capture_phase(api,now=None,hours_before=None,legacy_sgp=True):
         shadow_obs=shadow_lab.run_observe(now)
     except Exception as e:
         shadow_obs=0; print("shadow-observe warning",type(e).__name__,e); traceback.print_exc()
+    try:
+        e1_obs=early_edge.observe(now)
+    except Exception as e:
+        e1_obs=0; print("e1-observe warning",type(e).__name__,e); traceback.print_exc()
 
     if events_seen==0 and local.weekday() in (3,4,5,6):
         telegram(f"Eevee — warning: snapshot found 0 events on {local:%a %H:%M} ET. API remaining={api.remaining}")
     instrumentation.health("capture","ok",events_seen,sum(x.get("changed_lines",0) for x in snaps),api,
-                           note=f"hours_before={hours_before or SNAPSHOT_HOURS_BEFORE}; shadow={shadow_obs}")
+                           note=f"hours_before={hours_before or SNAPSHOT_HOURS_BEFORE}; shadow={shadow_obs}; e1={e1_obs}")
     out=dict(events=events_seen,snapshots=snaps,meta=meta,context=context,steam=steam,
-             shadow_observations=shadow_obs,api_calls=api.calls,remaining=api.remaining)
+             shadow_observations=shadow_obs,e1_observations=e1_obs,api_calls=api.calls,remaining=api.remaining)
     print("capture ok",out); return out
 
 
@@ -113,6 +117,7 @@ def settle_phase(api,now=None):
     parlay_settled=parlay_lab.settle_forward(now)
     sgp_settled=sgp_shadow.settle(now)
     shadow_settled=shadow_lab.run_settle(now)
+    e1_settled=early_edge.settle(now)
 
     parlay_lab.write_dashboard()
     report.write_pages()
@@ -122,11 +127,11 @@ def settle_phase(api,now=None):
     if local.weekday()==1 and 8<=local.hour<15 and state_get("parlay_summary_week")!=week:
         telegram(parlay_lab.weekly_telegram(now));state_set("parlay_summary_week",week)
 
-    instrumentation.health("settle","ok",0,legacy_settled+parlay_settled+sgp_settled.get("decisions",0)+shadow_settled,api,
+    instrumentation.health("settle","ok",0,legacy_settled+parlay_settled+sgp_settled.get("decisions",0)+shadow_settled+e1_settled,api,
                            note=f"canonical_close={canonical_close}")
     out=dict(close=cl,canonical_close=canonical_close,legacy_settled=legacy_settled,
              parlay_settled=parlay_settled,sgp_settled=sgp_settled,shadow_settled=shadow_settled,
-             api_calls=api.calls,remaining=api.remaining)
+             e1_settled=e1_settled,api_calls=api.calls,remaining=api.remaining)
     print("settle ok",out);return out
 
 
