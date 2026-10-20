@@ -131,14 +131,16 @@ def capture_live_meta(api, now=None, max_hours=36.0):
         w=csv.DictWriter(f,fieldnames=META_FIELDS,extrasaction="ignore"); w.writeheader(); w.writerows(all_meta)
 
     # Preserve stable identities without duplicating every hourly observation.
-    hist=read_rows("line_identity_history")
+    # Freeze the legacy monolith below GitHub's 100 MiB limit; new identities go
+    # to daily shards under data/line_identity_history/.
+    hist=read_partitioned_rows("line_identity_history")
     existing={(r.get("event_id"),r.get("market"),r.get("book"),r.get("outcome_id"),r.get("point")) for r in hist}
     new=[]
     for r in all_meta:
         k=(r.get("event_id"),r.get("market"),r.get("book"),r.get("outcome_id"),r.get("point"))
         if not r.get("outcome_id") or k in existing: continue
         new.append(r); existing.add(k)
-    append_rows("line_identity_history",new,META_FIELDS)
+    append_partitioned_rows("line_identity_history",new,META_FIELDS,ts[:10])
 
     summary=dict(ts=ts,events=len(by_event),rows=len(all_meta),new_identities=len(new),failures=failures)
     print("instrumentation meta",json.dumps(summary,sort_keys=True)); return summary
