@@ -3457,3 +3457,5 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-20T02:22:10Z,football_nfl,53167,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,player_pass_tds,Drake Maye,1.5,Under,bovada,110,6.27,0.5061,pinnacle,12,69.9,False,ev +6.3 fair 0.506 pinnacle 12b
 2026-10-20T02:22:10Z,football_nfl,53167,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,player_pass_tds,Drake Maye,1.5,Under,draftkings,109,5.77,0.5061,pinnacle,12,69.9,False,ev +5.8 fair 0.506 pinnacle 12b
 2026-10-20T02:22:10Z,football_nfl,53167,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,player_pass_tds,Drake Maye,1.5,Under,kalshi,104,3.24,0.5061,pinnacle,12,69.9,False,ev +3.2 fair 0.506 pinnacle 12b
+2026-10-20T10:31:34Z,football_nfl,53167,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,player_pass_tds,Drake Maye,1.5,Under,draftkings,105,3.33,0.504,pinnacle,11,61.7,False,ev +3.3 fair 0.504 pinnacle 11b
+2026-10-20T10:31:34Z,football_nfl,32691,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,player_rush_attempts,Jaylen Warren,15.5,Under,underdog,-105,5.58,0.5408,bovada,5,123.0,False,ev +5.6 fair 0.541 bovada 5b
