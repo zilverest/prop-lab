@@ -3454,3 +3454,6 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-18T17:27:44Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_tds,Jordan Love,1.5,Under,draftkings,170,6.17,0.3932,pinnacle,14,6.9,False,ev +6.2 fair 0.393 pinnacle 14b
 2026-10-18T17:27:44Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_pass_tds,Jordan Love,1.5,Under,kalshi,170,6.17,0.3932,pinnacle,14,6.9,False,ev +6.2 fair 0.393 pinnacle 14b
 2026-10-18T17:27:44Z,football_nfl,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,player_receptions,Jake Ferguson,3.5,Over,kalshi,138,3.22,0.4337,pinnacle,14,6.9,False,ev +3.2 fair 0.434 pinnacle 14b
+2026-10-20T02:22:10Z,football_nfl,53167,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,player_pass_tds,Drake Maye,1.5,Under,bovada,110,6.27,0.5061,pinnacle,12,69.9,False,ev +6.3 fair 0.506 pinnacle 12b
+2026-10-20T02:22:10Z,football_nfl,53167,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,player_pass_tds,Drake Maye,1.5,Under,draftkings,109,5.77,0.5061,pinnacle,12,69.9,False,ev +5.8 fair 0.506 pinnacle 12b
+2026-10-20T02:22:10Z,football_nfl,53167,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,player_pass_tds,Drake Maye,1.5,Under,kalshi,104,3.24,0.5061,pinnacle,12,69.9,False,ev +3.2 fair 0.506 pinnacle 12b
