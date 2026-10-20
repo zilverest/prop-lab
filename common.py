@@ -4,7 +4,7 @@ Data lives in ./data as append-only CSVs (text = git-friendly, pandas-friendly).
 """
 import csv, json, os, sys, time, urllib.request, urllib.parse, urllib.error, datetime as dt
 
-LAB_VERSION = "2026-10-05-historical-tournament-v1"                      # bump on every code drop; shown on both pages so you can confirm what's deployed
+LAB_VERSION = "2026-10-20-nfl-e1-early-edge-v1"                      # bump on every code drop; shown on both pages so you can confirm what's deployed
 BASE = "https://api.prop-line.com/v1"
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 DOCS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "docs")
@@ -100,6 +100,38 @@ def read_rows(name):
     if not os.path.exists(p): return []
     with open(p, newline="") as f:
         return list(csv.DictReader(f))
+
+def read_partitioned_rows(name):
+    """Read the frozen legacy CSV plus any date-sharded CSVs under data/<name>/."""
+    out = read_rows(name)
+    d = os.path.join(DATA, name)
+    if not os.path.isdir(d):
+        return out
+    for fn in sorted(os.listdir(d)):
+        if not fn.endswith(".csv"):
+            continue
+        p = os.path.join(d, fn)
+        with open(p, newline="") as f:
+            out.extend(csv.DictReader(f))
+    return out
+
+def append_partitioned_rows(name, rows, fields, partition):
+    """Append rows to data/<name>/<partition>.csv without growing the legacy monolith."""
+    if not rows:
+        return 0
+    safe = "".join(ch for ch in str(partition) if ch.isalnum() or ch in ("-", "_"))
+    if not safe:
+        raise ValueError("partition must contain a safe name")
+    d = os.path.join(DATA, name)
+    os.makedirs(d, exist_ok=True)
+    p = os.path.join(d, safe + ".csv")
+    new = not os.path.exists(p)
+    with open(p, "a", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        if new:
+            w.writeheader()
+        w.writerows(rows)
+    return len(rows)
 
 def state_get(key, default=None):
     p = os.path.join(DATA, "state.json")
