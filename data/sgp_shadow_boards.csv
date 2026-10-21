@@ -246,3 +246,4 @@ ts,snapshot_ts,board_date,week_key,event_id,commence_time,home,away,hours_to_kic
 2026-10-18T17:28:46Z,2026-10-18T17:27:44Z,2026-10-18,2026-10-12,53165,2026-10-18T20:25:00Z,Las Vegas Raiders,Buffalo Bills,2.94,refreshed,696,2,0,1,9876,0,32,42,,fresh
 2026-10-18T17:28:46Z,2026-10-18T17:27:44Z,2026-10-18,2026-10-12,53248,2026-10-18T20:25:00Z,Kansas City Chiefs,Los Angeles Chargers,2.94,refreshed,700,3,0,2,8606,0,22,28,,fresh
 2026-10-18T17:28:46Z,2026-10-18T17:27:44Z,2026-10-18,2026-10-12,53166,2026-10-19T00:20:00Z,Green Bay Packers,Dallas Cowboys,6.85,refreshed,786,2,0,1,12450,0,30,38,,fresh
+2026-10-21T16:15:42Z,2026-10-21T16:12:34Z,2026-10-21,2026-10-19,53167,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,31.99,fresh,678,5,2,8,8844,0,26,34,,fresh
