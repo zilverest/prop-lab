@@ -3525,3 +3525,6 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-22T02:09:42Z,football_nfl,56769,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,player_reception_yds,Evan Engram,24.5,Under,underdog,-106,4.35,0.537,kalshi,4,89.9,False,ev +4.3 fair 0.537 kalshi 4b
 2026-10-22T02:09:42Z,football_nfl,56770,2026-10-25T20:25:00Z,Detroit Lions,Green Bay Packers,player_receptions,Savion Williams,2.5,Over,fanduel,116,3.61,0.4797,bovada,8,90.3,False,ev +3.6 fair 0.480 bovada 8b
 2026-10-22T02:09:42Z,football_nfl,56770,2026-10-25T20:25:00Z,Detroit Lions,Green Bay Packers,player_receptions,Savion Williams,2.5,Over,hardrock,115,3.13,0.4797,bovada,8,90.3,True,ev +3.1 fair 0.480 bovada 8b
+2026-10-22T05:09:06Z,football_nfl,53167,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,player_pass_tds,Drake Maye,1.5,Under,kalshi,108,3.56,0.4979,pinnacle,15,19.1,False,ev +3.6 fair 0.498 pinnacle 15b
+2026-10-22T05:09:06Z,football_nfl,53167,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,player_receptions,A.J. Brown,4.5,Under,kalshi,150,6.57,0.4263,pinnacle,9,19.1,False,ev +6.6 fair 0.426 pinnacle 9b
+2026-10-22T05:09:06Z,football_nfl,53167,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,player_receptions,Hunter Henry,2.5,Under,kalshi,178,3.55,0.3725,pinnacle,6,19.1,False,ev +3.5 fair 0.372 pinnacle 6b
