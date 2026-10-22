@@ -1212,17 +1212,14 @@
   "53167|player_rush_yds|TreVeyon Henderson|29.5|Under|kalshi": "-163|0.6134|-1.03"
  },
  "parlay_board_last": {
-  "date": "2026-10-18",
+  "date": "2026-10-22",
   "events": [
-   "53247",
-   "53165",
-   "53248",
-   "53166"
+   "53167"
   ],
   "rows": 8,
-  "ts": "2026-10-18T17:28:46Z"
+  "ts": "2026-10-22T15:27:26Z"
  },
- "parlay_gameday_msg_date": "2026-10-18",
+ "parlay_gameday_msg_date": "2026-10-22",
  "parlay_summary_week": "2026-W43",
  "sgp_attempted": {
   "draftkings|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
