@@ -406,3 +406,5 @@ ts,snapshot_ts,board_date,week_key,event_id,commence_time,home,away,hours_to_kic
 2026-10-25T20:06:16Z,2026-10-25T20:05:09Z,2026-10-25,2026-10-19,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,28.15,refreshed,536,1,0,0,6624,0,28,26,,fresh
 2026-10-25T21:02:48Z,2026-10-25T21:02:13Z,2026-10-25,2026-10-19,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,3.29,fresh,820,5,0,9,13920,0,30,38,,fresh
 2026-10-25T21:02:48Z,2026-10-25T21:02:13Z,2026-10-25,2026-10-19,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,27.2,fresh,532,1,0,0,6452,0,28,26,,fresh
+2026-10-25T23:25:46Z,2026-10-25T23:25:22Z,2026-10-25,2026-10-19,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,0.9,fresh,780,5,4,6,11040,0,22,18,,fresh
+2026-10-25T23:25:46Z,2026-10-25T23:25:22Z,2026-10-25,2026-10-19,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,24.82,fresh,534,1,0,0,6488,0,28,26,,fresh
