@@ -454985,3 +454985,487 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-25T20:05:09Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Tanner McKee,9.5,Under,kalshi,-203,-1.0,0.6633,kalshi,4,28.2
 2026-10-25T20:05:09Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Tanner McKee,9.5,Under,hardrock,-230,-4.84,0.6633,kalshi,4,28.2
 2026-10-25T20:05:09Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Tanner McKee,9.5,Over,hardrock,165,-10.77,0.3367,kalshi,4,28.2
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_anytime_td,Jaxon Smith-Njigba,0.5,Over,pinnacle,129,-4.54,0.4168,pinnacle,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_anytime_td,Jaxon Smith-Njigba,0.5,Under,pinnacle,-157,-4.54,0.5832,pinnacle,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_anytime_td,Travis Kelce,0.5,Over,pinnacle,206,-4.53,0.312,pinnacle,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_anytime_td,Travis Kelce,0.5,Under,pinnacle,-258,-4.53,0.688,pinnacle,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_attempts,Patrick Mahomes,31.5,Over,bovada,-125,-3.84,0.5342,pinnacle,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_attempts,Patrick Mahomes,31.5,Over,draftkings,-125,-3.84,0.5342,pinnacle,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_attempts,Patrick Mahomes,31.5,Over,pinnacle,-127,-4.51,0.5342,pinnacle,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_attempts,Patrick Mahomes,31.5,Under,pinnacle,105,-4.51,0.4658,pinnacle,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_attempts,Patrick Mahomes,31.5,Under,draftkings,-102,-7.76,0.4658,pinnacle,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_attempts,Patrick Mahomes,31.5,Under,bovada,-105,-9.06,0.4658,pinnacle,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_attempts,Sam Darnold,31.5,Under,draftkings,-111,-3.72,0.5065,pinnacle,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_attempts,Sam Darnold,31.5,Over,draftkings,-115,-7.74,0.4935,pinnacle,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_completions,Patrick Mahomes,20.5,Under,bovada,-110,-1.65,0.5152,pinnacle,11,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_completions,Patrick Mahomes,20.5,Under,draftkings,-110,-1.65,0.5152,pinnacle,11,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_completions,Patrick Mahomes,20.5,Over,draftkings,-116,-9.72,0.4848,pinnacle,11,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_completions,Patrick Mahomes,20.5,Over,bovada,-120,-11.12,0.4848,pinnacle,11,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_completions,Sam Darnold,19.5,Under,bovada,105,-4.51,0.4658,pinnacle,10,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_completions,Sam Darnold,19.5,Under,draftkings,103,-5.45,0.4658,pinnacle,10,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_completions,Sam Darnold,19.5,Over,draftkings,-131,-5.8,0.5342,pinnacle,10,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_completions,Sam Darnold,19.5,Over,bovada,-135,-7.01,0.5342,pinnacle,10,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_interceptions,Patrick Mahomes,0.5,Over,draftkings,-118,-3.44,0.5227,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_interceptions,Patrick Mahomes,0.5,Over,bovada,-120,-4.18,0.5227,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_interceptions,Patrick Mahomes,0.5,Under,draftkings,-108,-8.07,0.4773,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_interceptions,Patrick Mahomes,0.5,Under,bovada,-110,-8.87,0.4773,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_interceptions,Sam Darnold,0.5,Under,draftkings,-102,-3.99,0.4848,pinnacle,12,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_interceptions,Sam Darnold,0.5,Under,bovada,-105,-5.35,0.4848,pinnacle,12,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_interceptions,Sam Darnold,0.5,Over,bovada,-125,-7.27,0.5152,pinnacle,12,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_interceptions,Sam Darnold,0.5,Over,draftkings,-126,-7.59,0.5152,pinnacle,12,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Over,fanduel,154,-4.21,0.3771,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Over,draftkings,153,-4.58,0.3771,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Under,hardrock,-190,-4.93,0.6229,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Over,bovada,150,-5.71,0.3771,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Under,draftkings,-196,-5.94,0.6229,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Under,bovada,-200,-6.57,0.6229,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Under,fanduel,-205,-7.33,0.6229,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Over,hardrock,145,-7.6,0.3771,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Cyrus Allen,5.5,Over,fanduel,-113,-1.89,0.5205,pinnacle,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Cyrus Allen,5.5,Over,pinnacle,-120,-4.57,0.5205,pinnacle,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Cyrus Allen,5.5,Under,pinnacle,-101,-4.57,0.4795,pinnacle,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Cyrus Allen,5.5,Over,hardrock,-125,-6.31,0.5205,pinnacle,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Cyrus Allen,5.5,Under,hardrock,-110,-8.46,0.4795,pinnacle,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Cyrus Allen,5.5,Under,fanduel,-113,-9.62,0.4795,pinnacle,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Emanuel Wilson,7.5,Under,draftkings,-116,0.77,0.5412,pinnacle,12,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Emanuel Wilson,7.5,Under,bovada,-120,-0.78,0.5412,pinnacle,12,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Emanuel Wilson,7.5,Over,draftkings,-108,-11.64,0.4588,pinnacle,12,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Emanuel Wilson,7.5,Over,bovada,-110,-12.41,0.4588,pinnacle,12,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jaxon Smith-Njigba,92.5,Over,hardrock,-120,-12.09,0.4795,pinnacle,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jaxon Smith-Njigba,93.5,Under,hardrock,-115,-6.52,0.5,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jaxon Smith-Njigba,95.5,Over,hardrock,-110,-4.55,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jaxon Smith-Njigba,95.5,Over,draftkings,-112,-5.36,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jaxon Smith-Njigba,95.5,Under,draftkings,-112,-5.36,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jaxon Smith-Njigba,95.5,Over,bovada,-115,-6.52,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jaxon Smith-Njigba,95.5,Under,bovada,-115,-6.52,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jaxon Smith-Njigba,95.5,Under,hardrock,-125,-10.0,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Tory Horton,10.5,Over,fanatics,-115,-6.52,0.5,pinnacle,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Tory Horton,10.5,Under,fanatics,-115,-6.52,0.5,pinnacle,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Andrew Armstrong,1.5,Under,draftkings,-188,-2.95,0.6335,kalshi,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Andrew Armstrong,1.5,Over,draftkings,146,-9.85,0.3665,kalshi,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Emanuel Wilson,1.5,Over,kalshi,144,1.71,0.4168,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Emanuel Wilson,1.5,Under,kalshi,-150,-2.81,0.5832,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Emanuel Wilson,1.5,Under,draftkings,-153,-3.57,0.5832,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Emanuel Wilson,1.5,Over,pinnacle,129,-4.54,0.4168,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Emanuel Wilson,1.5,Under,pinnacle,-157,-4.54,0.5832,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Emanuel Wilson,1.5,Under,bovada,-160,-5.24,0.5832,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Emanuel Wilson,1.5,Under,fanduel,-160,-5.24,0.5832,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Emanuel Wilson,1.5,Under,hardrock,-160,-5.24,0.5832,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Emanuel Wilson,1.5,Over,bovada,120,-8.29,0.4168,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Emanuel Wilson,1.5,Over,draftkings,120,-8.29,0.4168,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Emanuel Wilson,1.5,Over,fanduel,120,-8.29,0.4168,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Emanuel Wilson,1.5,Over,hardrock,120,-8.29,0.4168,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jaxon Smith-Njigba,6.5,Under,kalshi,127,3.24,0.4548,pinnacle,9,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jaxon Smith-Njigba,6.5,Under,hardrock,120,0.06,0.4548,pinnacle,9,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jaxon Smith-Njigba,6.5,Over,kalshi,-133,-4.49,0.5452,pinnacle,9,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jaxon Smith-Njigba,6.5,Over,hardrock,-165,-12.44,0.5452,pinnacle,9,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jaxon Smith-Njigba,7.5,Under,bovada,-135,1.68,0.5841,kalshi,9,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jaxon Smith-Njigba,7.5,Under,draftkings,-135,1.68,0.5841,kalshi,9,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jaxon Smith-Njigba,7.5,Over,draftkings,106,-14.33,0.4159,kalshi,9,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jaxon Smith-Njigba,7.5,Over,bovada,105,-14.75,0.4159,kalshi,9,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Kenneth Walker III,3.5,Over,draftkings,108,-4.15,0.4608,pinnacle,10,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Kenneth Walker III,3.5,Under,draftkings,-138,-7.01,0.5392,pinnacle,10,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Kenneth Walker III,3.5,Under,hardrock,-145,-8.9,0.5392,pinnacle,10,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Noah Gray,2.5,Under,hardrock,-195,1.87,0.6734,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Noah Gray,2.5,Over,hardrock,140,-21.62,0.3266,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Rashid Shaheed,2.5,Under,draftkings,-140,-0.03,0.5832,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Rashid Shaheed,2.5,Under,bovada,-145,-1.47,0.5832,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Rashid Shaheed,2.5,Over,bovada,110,-12.46,0.4168,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Rashid Shaheed,2.5,Over,draftkings,110,-12.46,0.4168,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Travis Kelce,4.5,Under,draftkings,-146,-3.28,0.574,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Travis Kelce,4.5,Over,draftkings,114,-8.84,0.426,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_attempts,Patrick Mahomes,3.5,Under,draftkings,-145,-4.74,0.5638,pinnacle,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_attempts,Patrick Mahomes,3.5,Under,bovada,-150,-6.04,0.5638,pinnacle,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_attempts,Patrick Mahomes,3.5,Over,bovada,115,-6.21,0.4362,pinnacle,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_attempts,Patrick Mahomes,3.5,Over,draftkings,113,-7.09,0.4362,pinnacle,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_longest,George Holani,6.5,Under,hardrock,-130,-4.32,0.5408,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_longest,George Holani,6.5,Over,hardrock,100,-8.16,0.4592,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,George Holani,9.5,Over,kalshi,108,3.1,0.4957,pinnacle,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,George Holani,9.5,Over,pinnacle,-108,-4.54,0.4957,pinnacle,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,George Holani,9.5,Under,pinnacle,-112,-4.54,0.5043,pinnacle,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,George Holani,9.5,Over,underdog,-108,-4.54,0.4957,pinnacle,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,George Holani,9.5,Under,fanduel,-113,-4.94,0.5043,pinnacle,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,George Holani,9.5,Under,kalshi,-113,-4.94,0.5043,pinnacle,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,George Holani,9.5,Under,underdog,-114,-5.33,0.5043,pinnacle,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,George Holani,9.5,Under,hardrock,-115,-5.71,0.5043,pinnacle,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,George Holani,9.5,Over,fanduel,-113,-6.57,0.4957,pinnacle,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,George Holani,9.5,Over,hardrock,-115,-7.33,0.4957,pinnacle,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Kenneth Walker III,78.5,Under,hardrock,-105,-4.92,0.487,pinnacle,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_anytime_td,Emanuel Wilson,,No,hardrock,-165,-3.04,0.6037,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_anytime_td,Jaxon Smith-Njigba,,No,hardrock,-160,-8.28,0.5644,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_field_goals_made,Harrison Butker,1.5,Under,draftkings,109,-4.53,0.4568,pinnacle,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_field_goals_made,Harrison Butker,1.5,Over,draftkings,-140,-6.88,0.5432,pinnacle,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Sam Darnold,1.5,Under,fanduel,-148,-2.95,0.5792,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Sam Darnold,1.5,Under,draftkings,-149,-3.21,0.5792,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Sam Darnold,1.5,Under,bovada,-150,-3.47,0.5792,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Sam Darnold,1.5,Over,draftkings,116,-9.1,0.4208,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Sam Darnold,1.5,Over,bovada,115,-9.52,0.4208,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_tds,Sam Darnold,1.5,Over,fanduel,114,-9.94,0.4208,pinnacle,14,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Patrick Mahomes,221.5,Over,hardrock,-110,-4.55,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Patrick Mahomes,221.5,Over,draftkings,-111,-4.95,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Patrick Mahomes,221.5,Under,draftkings,-113,-5.75,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Patrick Mahomes,221.5,Over,bovada,-115,-6.52,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Patrick Mahomes,221.5,Under,bovada,-115,-6.52,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Patrick Mahomes,221.5,Under,hardrock,-125,-10.0,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Patrick Mahomes,224.5,Over,kalshi,108,-1.12,0.4754,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Patrick Mahomes,224.5,Under,kalshi,-113,-1.12,0.5246,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Patrick Mahomes,224.5,Over,hardrock,-105,-7.18,0.4754,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Patrick Mahomes,224.5,Under,hardrock,-135,-8.68,0.5246,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Sam Darnold,199.5,Over,kalshi,-203,-1.0,0.6633,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Sam Darnold,199.5,Under,kalshi,194,-1.0,0.3367,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Sam Darnold,223.5,Under,hardrock,-110,-4.55,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Sam Darnold,223.5,Over,hardrock,-125,-10.0,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Sam Darnold,225.5,Under,fanatics,-115,-6.12,0.5022,pinnacle,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Sam Darnold,225.5,Over,fanatics,-115,-6.93,0.4978,pinnacle,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Sam Darnold,225.5,Over,hardrock,-120,-8.73,0.4978,pinnacle,8,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Sam Darnold,227.5,Over,draftkings,-111,-4.95,0.5,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Sam Darnold,227.5,Under,draftkings,-113,-5.75,0.5,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Sam Darnold,227.5,Over,bovada,-115,-6.52,0.5,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Sam Darnold,227.5,Under,bovada,-115,-6.52,0.5,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Sam Darnold,227.5,Over,hardrock,-115,-6.52,0.5,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_pass_yds,Sam Darnold,227.5,Under,hardrock,-120,-8.33,0.5,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Jaxon Smith-Njigba,28.5,Over,underdog,-106,-2.83,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Jaxon Smith-Njigba,28.5,Over,draftkings,-113,-5.75,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Jaxon Smith-Njigba,28.5,Over,bovada,-115,-6.52,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Jaxon Smith-Njigba,28.5,Under,bovada,-115,-6.52,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Jaxon Smith-Njigba,28.5,Under,draftkings,-115,-6.52,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Jaxon Smith-Njigba,28.5,Under,underdog,-117,-7.26,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Noah Gray,10.5,Under,underdog,-103,-3.45,0.4899,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Noah Gray,10.5,Under,hardrock,-105,-4.36,0.4899,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Noah Gray,10.5,Under,draftkings,-107,-5.23,0.4899,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Noah Gray,10.5,Over,bovada,-120,-6.48,0.5101,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Noah Gray,10.5,Under,bovada,-110,-6.48,0.4899,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Noah Gray,10.5,Over,draftkings,-121,-6.83,0.5101,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Noah Gray,10.5,Over,underdog,-121,-6.83,0.5101,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Noah Gray,10.5,Over,hardrock,-125,-8.18,0.5101,bovada,6,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Rashid Shaheed,13.5,Over,underdog,-120,-4.61,0.5203,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Rashid Shaheed,13.5,Under,underdog,-103,-5.46,0.4797,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Rashid Shaheed,13.5,Over,draftkings,-123,-5.67,0.5203,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Rashid Shaheed,13.5,Over,bovada,-125,-6.35,0.5203,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Rashid Shaheed,13.5,Under,bovada,-105,-6.35,0.4797,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Rashid Shaheed,13.5,Under,draftkings,-105,-6.35,0.4797,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Tory Horton,9.5,Over,hardrock,-120,-4.61,0.5203,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Tory Horton,9.5,Over,underdog,-120,-4.61,0.5203,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Tory Horton,9.5,Under,underdog,-103,-5.46,0.4797,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Tory Horton,9.5,Over,draftkings,-123,-5.67,0.5203,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Tory Horton,9.5,Over,bovada,-125,-6.35,0.5203,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Tory Horton,9.5,Under,bovada,-105,-6.35,0.4797,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Tory Horton,9.5,Under,draftkings,-105,-6.35,0.4797,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_longest,Tory Horton,9.5,Under,hardrock,-110,-8.42,0.4797,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,AJ Barner,14.5,Over,kalshi,-233,-1.98,0.6858,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,AJ Barner,14.5,Under,kalshi,212,-1.98,0.3142,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,AJ Barner,14.5,Over,hardrock,-275,-6.48,0.6858,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,AJ Barner,14.5,Under,hardrock,195,-7.32,0.3142,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,AJ Barner,25.5,Under,fanatics,-110,-4.55,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,AJ Barner,25.5,Over,hardrock,-110,-4.55,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,AJ Barner,25.5,Over,bovada,-115,-6.52,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,AJ Barner,25.5,Under,bovada,-115,-6.52,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,AJ Barner,25.5,Over,fanatics,-120,-8.33,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,AJ Barner,25.5,Under,hardrock,-125,-10.0,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Andrew Armstrong,9.5,Over,kalshi,-113,-2.96,0.5148,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Andrew Armstrong,9.5,Under,kalshi,-100,-2.96,0.4852,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Andrew Armstrong,9.5,Under,hardrock,-105,-5.27,0.4852,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Andrew Armstrong,9.5,Over,hardrock,-135,-10.39,0.5148,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Andrew Armstrong,14.5,Over,kalshi,138,-1.98,0.4119,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Andrew Armstrong,14.5,Under,kalshi,-150,-1.98,0.5881,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Andrew Armstrong,14.5,Under,hardrock,-170,-6.59,0.5881,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Andrew Armstrong,14.5,Over,hardrock,120,-9.39,0.4119,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Cooper Kupp,14.5,Under,hardrock,190,-8.05,0.3171,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Cyrus Allen,9.5,Over,kalshi,138,-1.02,0.4159,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Cyrus Allen,9.5,Under,kalshi,-144,-1.02,0.5841,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Cyrus Allen,9.5,Under,hardrock,-165,-6.19,0.5841,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Cyrus Allen,9.5,Over,hardrock,120,-8.51,0.4159,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Emanuel Wilson,9.5,Over,kalshi,163,-0.98,0.3765,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Emanuel Wilson,9.5,Under,kalshi,-170,-0.98,0.6235,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Emanuel Wilson,9.5,Under,hardrock,-185,-3.95,0.6235,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Emanuel Wilson,9.5,Over,hardrock,130,-13.4,0.3765,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,George Holani,14.5,Under,hardrock,-230,-2.51,0.6795,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,George Holani,14.5,Over,kalshi,203,-2.89,0.3205,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,George Holani,14.5,Under,kalshi,-233,-2.89,0.6795,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,George Holani,14.5,Over,hardrock,160,-16.67,0.3205,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jalen Royals,19.5,Over,kalshi,-113,-2.03,0.5198,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jalen Royals,19.5,Under,kalshi,104,-2.03,0.4802,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jalen Royals,19.5,Under,hardrock,100,-3.95,0.4802,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jalen Royals,19.5,Over,hardrock,-135,-9.52,0.5198,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jaxon Smith-Njigba,99.5,Under,hardrock,-145,-2.9,0.5747,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jaxon Smith-Njigba,109.5,Over,kalshi,178,-1.0,0.3561,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Jaxon Smith-Njigba,109.5,Under,kalshi,-186,-1.0,0.6439,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Kenneth Walker III,14.5,Over,kalshi,-194,-1.92,0.6472,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Kenneth Walker III,14.5,Under,kalshi,178,-1.92,0.3528,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Kenneth Walker III,14.5,Under,hardrock,165,-6.51,0.3528,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Kenneth Walker III,14.5,Over,hardrock,-230,-7.14,0.6472,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Kenneth Walker III,19.5,Over,kalshi,-117,-1.95,0.5286,kalshi,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Kenneth Walker III,19.5,Under,kalshi,108,-1.95,0.4714,kalshi,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Kenneth Walker III,19.5,Under,hardrock,100,-5.73,0.4714,kalshi,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Kenneth Walker III,19.5,Over,hardrock,-140,-9.38,0.5286,kalshi,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Noah Gray,14.5,Over,kalshi,-108,-0.93,0.5144,kalshi,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Noah Gray,14.5,Under,kalshi,104,-0.93,0.4856,kalshi,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Noah Gray,14.5,Under,hardrock,-105,-5.19,0.4856,kalshi,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Noah Gray,14.5,Over,hardrock,-130,-8.99,0.5144,kalshi,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Noah Gray,15.5,Under,fanatics,-105,-2.38,0.5,pinnacle,9,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Noah Gray,15.5,Over,fanatics,-125,-10.0,0.5,pinnacle,9,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Noah Gray,16.5,Under,draftkings,-116,-5.01,0.5101,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Noah Gray,16.5,Over,draftkings,-108,-5.65,0.4899,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Noah Gray,16.5,Over,bovada,-110,-6.48,0.4899,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Noah Gray,16.5,Under,bovada,-120,-6.48,0.5101,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Noah Gray,16.5,Over,hardrock,-110,-6.48,0.4899,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Noah Gray,16.5,Under,hardrock,-125,-8.18,0.5101,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Noah Gray,24.5,Over,hardrock,170,-12.68,0.3234,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Rashid Shaheed,24.5,Over,draftkings,-112,-5.36,0.5,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Rashid Shaheed,24.5,Under,draftkings,-112,-5.36,0.5,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Rashid Shaheed,24.5,Over,bovada,-115,-6.52,0.5,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Rashid Shaheed,24.5,Under,bovada,-115,-6.52,0.5,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Tory Horton,14.5,Over,kalshi,144,-0.97,0.4058,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Tory Horton,14.5,Under,kalshi,-150,-0.97,0.5942,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Tory Horton,14.5,Under,hardrock,-170,-5.63,0.5942,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Tory Horton,14.5,Over,hardrock,125,-8.69,0.4058,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Travis Kelce,44.5,Under,draftkings,-110,-4.55,0.5,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Travis Kelce,44.5,Over,draftkings,-114,-6.14,0.5,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Travis Kelce,59.5,Over,hardrock,160,-13.35,0.3333,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,39.5,Under,hardrock,145,-3.9,0.3922,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,50.5,Over,draftkings,-111,-4.95,0.5,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,50.5,Under,draftkings,-113,-5.75,0.5,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,50.5,Over,bovada,-115,-6.52,0.5,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,50.5,Under,bovada,-115,-6.52,0.5,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,50.5,Over,fanatics,-115,-6.52,0.5,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,50.5,Under,fanatics,-115,-6.52,0.5,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,50.5,Over,hardrock,-115,-6.52,0.5,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,50.5,Under,hardrock,-120,-8.33,0.5,bovada,7,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,59.5,Over,kalshi,156,-3.0,0.3789,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,59.5,Under,kalshi,-178,-3.0,0.6211,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,59.5,Under,hardrock,-180,-3.39,0.6211,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,59.5,Under,bovada,-185,-4.32,0.6211,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,59.5,Over,bovada,140,-9.06,0.3789,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_reception_yds,Xavier Worthy,59.5,Over,hardrock,130,-12.85,0.3789,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,AJ Barner,2.5,Over,bovada,-150,-4.62,0.5723,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,AJ Barner,2.5,Under,bovada,115,-8.04,0.4277,pinnacle,13,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jalen Royals,1.5,Over,hardrock,-230,-10.54,0.6235,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jaxon Smith-Njigba,8.5,Over,kalshi,223,-0.92,0.3067,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jaxon Smith-Njigba,8.5,Under,kalshi,-233,-0.92,0.6933,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jaxon Smith-Njigba,8.5,Under,hardrock,-275,-5.47,0.6933,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jaxon Smith-Njigba,8.5,Over,hardrock,190,-11.04,0.3067,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Kenneth Walker,3.5,Over,bovada,110,-6.37,0.4459,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Kenneth Walker,3.5,Under,bovada,-145,-6.37,0.5541,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Kenneth Walker III,2.5,Over,hardrock,-225,-8.49,0.6335,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Rashid Shaheed,1.5,Under,hardrock,175,-4.75,0.3464,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Travis Kelce,3.5,Over,hardrock,-190,-4.84,0.6235,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Xavier Worthy,4.5,Under,draftkings,-108,-3.29,0.5022,pinnacle,15,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Xavier Worthy,4.5,Under,bovada,-110,-4.13,0.5022,pinnacle,15,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Xavier Worthy,4.5,Over,draftkings,-118,-8.03,0.4978,pinnacle,15,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Xavier Worthy,4.5,Over,bovada,-120,-8.73,0.4978,pinnacle,15,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Xavier Worthy,5.5,Over,hardrock,175,-10.19,0.3266,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_reception_yds,Emanuel Wilson,64.5,Under,underdog,-114,-4.24,0.5101,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_reception_yds,Emanuel Wilson,64.5,Under,draftkings,-116,-5.01,0.5101,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_reception_yds,Emanuel Wilson,64.5,Over,underdog,-108,-5.65,0.4899,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_reception_yds,Emanuel Wilson,64.5,Over,bovada,-110,-6.48,0.4899,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_reception_yds,Emanuel Wilson,64.5,Under,bovada,-120,-6.48,0.5101,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_reception_yds,Emanuel Wilson,64.5,Over,draftkings,-110,-6.48,0.4899,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_reception_yds,George Holani,22.5,Over,hardrock,-110,-4.55,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_reception_yds,George Holani,22.5,Over,draftkings,-113,-5.75,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_reception_yds,George Holani,22.5,Under,draftkings,-113,-5.75,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_reception_yds,George Holani,22.5,Over,bovada,-115,-6.52,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_reception_yds,George Holani,22.5,Under,bovada,-115,-6.52,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_reception_yds,George Holani,22.5,Under,hardrock,-120,-8.33,0.5,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Emanuel Wilson,52.5,Over,hardrock,-110,-4.55,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Emanuel Wilson,52.5,Under,draftkings,-111,-4.95,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Emanuel Wilson,52.5,Over,draftkings,-113,-5.75,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Emanuel Wilson,52.5,Over,bovada,-115,-6.52,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Emanuel Wilson,52.5,Under,bovada,-115,-6.52,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Emanuel Wilson,52.5,Under,hardrock,-125,-10.0,0.5,bovada,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Kenneth Walker,80.5,Over,bovada,-115,-6.52,0.5,bovada,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Kenneth Walker,80.5,Under,bovada,-115,-6.52,0.5,bovada,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Kenneth Walker III,79.5,Over,draftkings,-113,-4.84,0.5049,kalshi,9,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Kenneth Walker III,79.5,Under,hardrock,-110,-5.47,0.4951,kalshi,9,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Kenneth Walker III,79.5,Under,draftkings,-111,-5.88,0.4951,kalshi,9,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Kenneth Walker III,89.5,Over,kalshi,138,-1.02,0.4159,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Kenneth Walker III,89.5,Under,kalshi,-144,-1.02,0.5841,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Kenneth Walker III,89.5,Over,hardrock,125,-6.43,0.4159,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Kenneth Walker III,89.5,Under,hardrock,-175,-8.21,0.5841,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,9.5,Under,hardrock,190,-11.04,0.3067,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,24.5,Over,hardrock,165,-15.98,0.3171,kalshi,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Velus Jones Jr.,9.5,Over,kalshi,-108,-0.93,0.5144,kalshi,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Velus Jones Jr.,9.5,Under,kalshi,104,-0.93,0.4856,kalshi,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Velus Jones Jr.,9.5,Under,hardrock,100,-2.88,0.4856,kalshi,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Velus Jones Jr.,9.5,Over,hardrock,-140,-11.82,0.5144,kalshi,5,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Velus Jones Jr.,10.5,Over,draftkings,-105,-4.36,0.4899,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Velus Jones Jr.,10.5,Under,hardrock,-115,-4.63,0.5101,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Velus Jones Jr.,10.5,Over,bovada,-110,-6.48,0.4899,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Velus Jones Jr.,10.5,Under,bovada,-120,-6.48,0.5101,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Velus Jones Jr.,10.5,Under,draftkings,-120,-6.48,0.5101,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Velus Jones Jr.,10.5,Over,hardrock,-115,-8.41,0.4899,bovada,4,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Velus Jones Jr.,14.5,Under,hardrock,-190,-3.3,0.6335,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_rush_yds,Velus Jones Jr.,14.5,Over,hardrock,135,-13.88,0.3665,kalshi,3,3.3
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_field_goals_made,Brandon Aubrey,1.5,Under,hardrock,120,0.5,0.4568,pinnacle,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_field_goals_made,Brandon Aubrey,1.5,Under,draftkings,109,-4.53,0.4568,pinnacle,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_field_goals_made,Brandon Aubrey,1.5,Over,pinnacle,-132,-4.53,0.5432,pinnacle,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_field_goals_made,Brandon Aubrey,1.5,Under,pinnacle,109,-4.53,0.4568,pinnacle,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_field_goals_made,Brandon Aubrey,1.5,Over,draftkings,-139,-6.6,0.5432,pinnacle,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_field_goals_made,Brandon Aubrey,1.5,Over,hardrock,-155,-10.63,0.5432,pinnacle,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_attempts,Tanner McKee,33.5,Under,underdog,-107,-4.53,0.4935,pinnacle,8,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_attempts,Tanner McKee,33.5,Over,underdog,-115,-5.31,0.5065,pinnacle,8,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_attempts,Tanner McKee,33.5,Under,draftkings,-109,-5.37,0.4935,pinnacle,8,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_attempts,Tanner McKee,33.5,Under,bovada,-110,-5.79,0.4935,pinnacle,8,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_attempts,Tanner McKee,33.5,Over,draftkings,-117,-6.06,0.5065,pinnacle,8,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_attempts,Tanner McKee,33.5,Over,bovada,-120,-7.14,0.5065,pinnacle,8,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Dak Prescott,269.5,Over,hardrock,-110,-4.55,0.5,bovada,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Dak Prescott,269.5,Over,draftkings,-111,-4.95,0.5,bovada,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Dak Prescott,269.5,Under,draftkings,-113,-5.75,0.5,bovada,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Dak Prescott,269.5,Over,bovada,-115,-6.52,0.5,bovada,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Dak Prescott,269.5,Under,bovada,-115,-6.52,0.5,bovada,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Dak Prescott,269.5,Under,hardrock,-125,-10.0,0.5,bovada,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,79.5,Over,kalshi,-108,-1.89,0.5094,kalshi,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,79.5,Under,kalshi,-100,-1.89,0.4906,kalshi,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,79.5,Under,underdog,-105,-4.22,0.4906,kalshi,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,79.5,Over,underdog,-118,-5.88,0.5094,kalshi,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,79.5,Over,hardrock,-120,-6.6,0.5094,kalshi,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,79.5,Under,hardrock,-115,-8.29,0.4906,kalshi,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,24.5,Under,hardrock,195,9.66,0.3717,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,24.5,Over,kalshi,-245,-11.53,0.6283,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,24.5,Under,kalshi,138,-11.53,0.3717,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,24.5,Over,hardrock,-300,-16.23,0.6283,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,49.5,Under,hardrock,-195,0.39,0.6636,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,49.5,Over,kalshi,163,-11.52,0.3364,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,49.5,Under,kalshi,-300,-11.52,0.6636,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,49.5,Over,hardrock,135,-20.94,0.3364,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Javonte Williams,19.5,Under,hardrock,-210,0.31,0.6795,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Javonte Williams,19.5,Over,kalshi,203,-2.89,0.3205,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Javonte Williams,19.5,Under,kalshi,-233,-2.89,0.6795,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Javonte Williams,19.5,Over,hardrock,145,-21.48,0.3205,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,24.5,Under,hardrock,195,4.69,0.3549,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,24.5,Over,kalshi,-245,-9.15,0.6451,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,24.5,Under,kalshi,156,-9.15,0.3549,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,24.5,Over,hardrock,-300,-13.98,0.6451,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,37.5,Under,draftkings,-109,-4.13,0.5,pinnacle,10,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,37.5,Under,bovada,-110,-4.55,0.5,pinnacle,10,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,37.5,Over,draftkings,-115,-6.52,0.5,pinnacle,10,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,37.5,Over,bovada,-120,-8.33,0.5,pinnacle,10,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,CeeDee Lamb,7.5,Under,kalshi,-163,-1.54,0.6102,pinnacle,11,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,CeeDee Lamb,7.5,Over,kalshi,150,-2.55,0.3898,pinnacle,11,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Dallas Goedert,4.5,Under,hardrock,130,1.85,0.4428,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Dallas Goedert,4.5,Over,kalshi,-138,-3.91,0.5572,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Dallas Goedert,4.5,Under,kalshi,117,-3.91,0.4428,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Dallas Goedert,4.5,Over,hardrock,-185,-14.16,0.5572,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Javonte Williams,2.5,Over,kalshi,122,0.97,0.4548,pinnacle,12,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,2.5,Under,hardrock,300,24.8,0.312,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,2.5,Over,kalshi,-300,-8.27,0.688,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,2.5,Under,kalshi,194,-8.27,0.312,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,2.5,Over,hardrock,-475,-16.72,0.688,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,4.5,Over,kalshi,127,-1.12,0.4356,kalshi,9,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,4.5,Under,kalshi,-133,-1.12,0.5644,kalshi,9,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,4.5,Over,draftkings,121,-3.74,0.4356,kalshi,9,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,4.5,Over,bovada,120,-4.17,0.4356,kalshi,9,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,4.5,Over,hardrock,120,-4.17,0.4356,kalshi,9,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,4.5,Under,draftkings,-155,-7.15,0.5644,kalshi,9,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,4.5,Under,hardrock,-155,-7.15,0.5644,kalshi,9,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,4.5,Under,bovada,-160,-8.28,0.5644,kalshi,9,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_rush_yds,Dak Prescott,281.5,Under,draftkings,-112,-5.36,0.5,bovada,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_rush_yds,Dak Prescott,281.5,Over,draftkings,-114,-6.14,0.5,bovada,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_rush_yds,Dak Prescott,281.5,Over,bovada,-115,-6.52,0.5,bovada,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_rush_yds,Dak Prescott,281.5,Under,bovada,-115,-6.52,0.5,bovada,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Dak Prescott,274.5,Over,kalshi,113,-1.87,0.4607,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Dak Prescott,274.5,Under,kalshi,-122,-1.87,0.5393,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Dak Prescott,274.5,Under,hardrock,-140,-7.55,0.5393,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Dak Prescott,274.5,Over,hardrock,100,-7.86,0.4607,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Dak Prescott,299.5,Over,kalshi,194,-2.96,0.3301,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Dak Prescott,299.5,Under,kalshi,-223,-2.96,0.6699,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Tanner McKee,195.5,Under,hardrock,-115,-7.33,0.4957,pinnacle,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Tanner McKee,196.5,Over,hardrock,-110,-4.55,0.5,bovada,5,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Tanner McKee,196.5,Under,draftkings,-111,-4.95,0.5,bovada,5,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Tanner McKee,196.5,Over,draftkings,-113,-5.75,0.5,bovada,5,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Tanner McKee,196.5,Over,bovada,-115,-6.52,0.5,bovada,5,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Tanner McKee,196.5,Under,bovada,-115,-6.52,0.5,bovada,5,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Tanner McKee,196.5,Under,hardrock,-125,-10.0,0.5,bovada,5,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Tanner McKee,224.5,Over,kalshi,194,-2.96,0.3301,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Tanner McKee,224.5,Under,kalshi,-223,-2.96,0.6699,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,59.5,Over,kalshi,-245,-3.86,0.6827,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,59.5,Under,kalshi,203,-3.86,0.3173,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,69.5,Over,kalshi,-156,-2.87,0.5919,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,69.5,Under,kalshi,138,-2.87,0.4081,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,69.5,Over,hardrock,-175,-6.99,0.5919,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,69.5,Under,hardrock,125,-8.17,0.4081,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,99.5,Over,kalshi,194,-2.02,0.3333,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,CeeDee Lamb,99.5,Under,kalshi,-213,-2.02,0.6667,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Dallas Goedert,39.5,Over,kalshi,-163,-1.94,0.6078,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Dallas Goedert,39.5,Under,kalshi,150,-1.94,0.3922,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Dallas Goedert,39.5,Under,hardrock,140,-5.86,0.3922,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Dallas Goedert,39.5,Over,hardrock,-195,-8.06,0.6078,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Dallas Goedert,59.5,Over,kalshi,170,-2.03,0.3629,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Dallas Goedert,59.5,Under,kalshi,-186,-2.03,0.6371,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Dallas Goedert,59.5,Under,hardrock,-200,-4.43,0.6371,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Dallas Goedert,59.5,Over,hardrock,140,-12.92,0.3629,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,29.5,Over,kalshi,-178,-3.87,0.6155,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,29.5,Under,kalshi,150,-3.87,0.3845,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,29.5,Under,hardrock,145,-5.8,0.3845,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,29.5,Over,hardrock,-210,-9.14,0.6155,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,39.5,Over,kalshi,-100,0.0,0.5,pinnacle,11,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,39.5,Under,kalshi,-113,-5.75,0.5,pinnacle,11,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,George Pickens,59.5,Over,kalshi,-133,-1.12,0.5644,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,George Pickens,59.5,Under,kalshi,127,-1.12,0.4356,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,George Pickens,59.5,Over,hardrock,-145,-4.63,0.5644,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,George Pickens,59.5,Under,hardrock,105,-10.7,0.4356,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Jake Ferguson,14.5,Over,kalshi,-156,-2.87,0.5919,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Jake Ferguson,14.5,Under,kalshi,138,-2.87,0.4081,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Jake Ferguson,14.5,Under,hardrock,130,-6.13,0.4081,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Jake Ferguson,14.5,Over,hardrock,-185,-8.82,0.5919,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Jake Ferguson,24.5,Over,kalshi,150,-3.87,0.3845,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Jake Ferguson,24.5,Under,kalshi,-178,-3.87,0.6155,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Jake Ferguson,24.5,Under,hardrock,-190,-6.06,0.6155,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Jake Ferguson,24.5,Over,hardrock,135,-9.64,0.3845,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Javonte Williams,9.5,Over,kalshi,-138,-2.0,0.5683,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Javonte Williams,9.5,Under,kalshi,127,-2.0,0.4317,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Javonte Williams,9.5,Under,hardrock,115,-7.18,0.4317,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Javonte Williams,9.5,Over,hardrock,-160,-7.66,0.5683,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Javonte Williams,14.5,Over,kalshi,127,-2.0,0.4317,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Javonte Williams,14.5,Under,kalshi,-138,-2.0,0.5683,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Javonte Williams,14.5,Under,hardrock,-140,-2.58,0.5683,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Javonte Williams,14.5,Over,hardrock,100,-13.65,0.4317,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,29.5,Under,hardrock,140,-3.94,0.4002,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,29.5,Over,kalshi,-170,-4.74,0.5998,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,29.5,Under,kalshi,138,-4.74,0.4002,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,29.5,Over,hardrock,-200,-10.04,0.5998,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,39.5,Over,kalshi,104,-3.82,0.4715,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,39.5,Under,kalshi,-122,-3.82,0.5285,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,39.5,Under,underdog,-122,-3.82,0.5285,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,39.5,Over,underdog,100,-5.71,0.4715,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,39.5,Under,hardrock,-130,-6.49,0.5285,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,39.5,Over,hardrock,-105,-7.95,0.4715,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,49.5,Over,kalshi,178,-2.88,0.3493,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,49.5,Under,kalshi,-203,-2.88,0.6507,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,49.5,Under,hardrock,-230,-6.65,0.6507,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,49.5,Over,hardrock,160,-9.17,0.3493,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Ryan Flournoy,24.5,Over,kalshi,-178,-3.0,0.6211,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Ryan Flournoy,24.5,Under,kalshi,156,-3.0,0.3789,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Ryan Flournoy,24.5,Under,hardrock,150,-5.27,0.3789,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Ryan Flournoy,24.5,Over,hardrock,-210,-8.32,0.6211,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Ryan Flournoy,29.5,Over,kalshi,-133,-3.07,0.5533,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Ryan Flournoy,29.5,Under,kalshi,117,-3.07,0.4467,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Ryan Flournoy,29.5,Over,hardrock,-150,-7.78,0.5533,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Ryan Flournoy,29.5,Under,hardrock,105,-8.43,0.4467,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,CeeDee Lamb,5.5,Over,kalshi,-245,-3.86,0.6827,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,CeeDee Lamb,5.5,Under,kalshi,203,-3.86,0.3173,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,CeeDee Lamb,5.5,Under,hardrock,200,-4.81,0.3173,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,CeeDee Lamb,5.5,Over,hardrock,-300,-8.97,0.6827,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Darius Cooper,2.5,Over,kalshi,-186,-2.97,0.6311,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Darius Cooper,2.5,Under,kalshi,163,-2.97,0.3689,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Darius Cooper,2.5,Under,hardrock,160,-4.07,0.3689,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Darius Cooper,2.5,Over,hardrock,-230,-9.46,0.6311,kalshi,3,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Darius Cooper,3.5,Over,kalshi,122,-0.34,0.4489,pinnacle,11,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Javonte Williams,1.5,Over,kalshi,-213,-1.04,0.6734,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Javonte Williams,1.5,Under,kalshi,203,-1.04,0.3266,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Javonte Williams,1.5,Under,hardrock,195,-3.66,0.3266,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Javonte Williams,1.5,Over,hardrock,-275,-8.17,0.6734,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Ryan Flournoy,2.5,Over,kalshi,-223,-3.85,0.6638,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Ryan Flournoy,2.5,Under,kalshi,186,-3.85,0.3362,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Ryan Flournoy,2.5,Under,hardrock,175,-7.55,0.3362,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Ryan Flournoy,2.5,Over,hardrock,-260,-8.09,0.6638,kalshi,4,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Ryan Flournoy,3.5,Under,kalshi,-117,-1.7,0.53,pinnacle,12,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Saquon Barkley,70.5,Over,fanatics,-110,-4.55,0.5,bovada,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Saquon Barkley,70.5,Under,fanatics,-120,-8.33,0.5,bovada,6,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Tanner McKee,5.5,Over,fanatics,100,-2.02,0.4899,bovada,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Tanner McKee,5.5,Over,hardrock,-105,-4.36,0.4899,bovada,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Tanner McKee,5.5,Over,draftkings,-106,-4.8,0.4899,bovada,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Tanner McKee,5.5,Under,draftkings,-118,-5.76,0.5101,bovada,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Tanner McKee,5.5,Over,bovada,-110,-6.48,0.4899,bovada,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Tanner McKee,5.5,Under,bovada,-120,-6.48,0.5101,bovada,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Tanner McKee,5.5,Under,hardrock,-130,-9.75,0.5101,bovada,7,27.2
+2026-10-25T21:02:13Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Tanner McKee,5.5,Under,fanatics,-135,-11.2,0.5101,bovada,7,27.2
