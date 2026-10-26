@@ -4558,3 +4558,5 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-26T02:01:33Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Tanner McKee,199.5,Under,underdog,-103,3.39,0.5246,kalshi,6,22.2,False,ev +3.4 fair 0.525 kalshi 6b
 2026-10-26T02:01:33Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,24.5,Under,hardrock,195,7.95,0.3659,kalshi,4,22.2,True,ev +8.0 fair 0.366 kalshi 4b
 2026-10-26T02:01:33Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,2.5,Under,hardrock,300,29.66,0.3241,kalshi,4,22.2,True,ev +29.7 fair 0.324 kalshi 4b
+2026-10-26T06:44:35Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Darius Cooper,39.5,Over,kalshi,108,4.0,0.5,pinnacle,9,17.5,False,ev +4.0 fair 0.500 pinnacle 9b
+2026-10-26T06:44:35Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Javonte Williams,2.5,Over,kalshi,133,4.43,0.4482,pinnacle,12,17.5,False,ev +4.4 fair 0.448 pinnacle 12b
