@@ -4552,3 +4552,6 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-25T23:25:22Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Jalen Royals,2.5,Over,kalshi,150,3.24,0.413,pinnacle,12,0.9,False,ev +3.2 fair 0.413 pinnacle 12b
 2026-10-25T23:25:22Z,football_nfl,53168,2026-10-26T00:20:00Z,Seattle Seahawks,Kansas City Chiefs,player_receptions,Rashid Shaheed,2.5,Over,kalshi,150,4.21,0.4168,pinnacle,14,0.9,False,ev +4.2 fair 0.417 pinnacle 14b
 2026-10-25T23:25:22Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Tanner McKee,199.5,Under,underdog,-103,4.19,0.5286,kalshi,6,24.8,False,ev +4.2 fair 0.529 kalshi 6b
+2026-10-26T01:27:31Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_pass_yds,Tanner McKee,199.5,Under,underdog,-103,5.35,0.5345,kalshi,6,22.8,False,ev +5.3 fair 0.534 kalshi 6b
+2026-10-26T01:27:31Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_reception_yds,Makai Lemon,24.5,Under,hardrock,195,9.66,0.3717,kalshi,4,22.8,True,ev +9.7 fair 0.372 kalshi 4b
+2026-10-26T01:27:31Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Makai Lemon,2.5,Under,hardrock,300,29.66,0.3241,kalshi,4,22.8,True,ev +29.7 fair 0.324 kalshi 4b
