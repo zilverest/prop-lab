@@ -1646,24 +1646,14 @@
   "56773|player_rush_yds|MarShawn Lloyd|24.5|Under|kalshi": "-178|0.6211|-3.0"
  },
  "parlay_board_last": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "events": [
-   "56778",
-   "53250",
-   "53253",
-   "53252",
-   "53251",
-   "56767",
-   "56768",
-   "56769",
-   "56771",
-   "56770",
-   "53168"
+   "56772"
   ],
   "rows": 8,
-  "ts": "2026-10-25T14:31:17Z"
+  "ts": "2026-10-26T17:46:51Z"
  },
- "parlay_gameday_msg_date": "2026-10-25",
+ "parlay_gameday_msg_date": "2026-10-26",
  "parlay_summary_week": "2026-W43",
  "sgp_attempted": {
   "draftkings|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
