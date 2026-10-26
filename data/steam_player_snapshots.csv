@@ -6873,3 +6873,83 @@ ts,sport,event_id,commence_time,hours_to_kick,market,player,side,team,open_point
 2026-10-25T23:25:22Z,football_nfl,53168,2026-10-26T00:20:00Z,0.91,player_receptions,Kenneth Walker III,3+ Receptions,,,,8,3,shortening,0.023,,6.9
 2026-10-25T23:25:22Z,football_nfl,53168,2026-10-26T00:20:00Z,0.91,player_pass_yds,Sam Darnold,175+ Passing Yards,,,,8,3,shortening,0.0219,,6.6
 2026-10-25T23:25:22Z,football_nfl,53168,2026-10-26T00:20:00Z,0.91,player_reception_yds,Noah Gray,20+ Receiving Yards,,,,7,3,shortening,0.0217,,6.5
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_pass_yds,Dak Prescott,Over,,263.5,266.5,7,5,point_up,0.0,2.0,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_pass_yds,Dak Prescott,Under,,263.5,266.5,7,5,point_up,0.0,2.0,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_pass_yds,Tanner McKee,Over,,196.5,193.5,9,5,point_down,0.0,-2.2,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_pass_yds,Tanner McKee,Under,,196.5,193.5,9,5,point_down,0.0,-2.2,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Dallas Goedert,Over,,48.5,49.5,9,7,point_up,0.0,1.0,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Dallas Goedert,Under,,48.5,49.5,9,7,point_up,0.0,1.0,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Makai Lemon,Over,,38.5,37.5,10,7,point_down,0.0,-1.0,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Makai Lemon,Under,,38.5,37.5,10,7,point_down,0.0,-1.0,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Saquon Barkley,Over,,13.5,14.5,7,7,point_up,0.0,1.0,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Saquon Barkley,Under,,13.5,14.5,7,7,point_up,0.0,1.0,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Darius Cooper,Over,,36.5,38.5,6,3,point_up,0.0,3.0,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Darius Cooper,Under,,36.5,38.5,6,3,point_up,0.0,3.0,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Hollywood Brown,Over,,9.5,11.5,3,3,point_up,0.0,2.33,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Hollywood Brown,Under,,9.5,11.5,3,3,point_up,0.0,2.33,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Jake Ferguson,Over,,18.5,20.5,8,5,point_up,0.0,2.4,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Jake Ferguson,Under,,18.5,20.5,8,5,point_up,0.0,2.4,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Ryan Flournoy,Over,,32.5,33.5,11,11,point_up,0.0,1.73,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Ryan Flournoy,Under,,32.5,33.5,11,11,point_up,0.0,1.73,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,CeeDee Lamb,Over,,80.5,78.0,8,8,point_down,0.0,-2.12,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,CeeDee Lamb,Under,,80.5,78.0,8,8,point_down,0.0,-2.12,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,George Pickens,Over,,64.5,63.5,8,7,point_down,0.0,-1.14,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,George Pickens,Under,,64.5,63.5,8,7,point_down,0.0,-1.14,100.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,Makai Lemon,Over,,4.5,3.5,5,5,point_down,0.0,-1.0,75.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,Makai Lemon,Under,,4.5,3.5,5,5,point_down,0.0,-1.0,75.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,CeeDee Lamb,Over,,7.5,6.5,5,5,point_down,0.0,-1.0,75.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,CeeDee Lamb,Under,,7.5,6.5,5,5,point_down,0.0,-1.0,75.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Brevyn Spann-Ford,Over,,7.5,9.0,4,4,point_up,0.0,1.25,75.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Brevyn Spann-Ford,Under,,7.5,9.0,4,4,point_up,0.0,1.25,75.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_pass_completions,Tanner McKee,Over,,19.5,20.5,4,4,point_up,0.0,1.0,60.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_pass_completions,Tanner McKee,Under,,19.5,20.5,4,4,point_up,0.0,1.0,60.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Marquise Brown,Over,,9.5,10.5,3,3,point_up,0.0,1.33,60.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Marquise Brown,Under,,9.5,10.5,3,3,point_up,0.0,1.33,60.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Javonte Williams,Over,,12.5,11.5,4,4,point_down,0.0,-1.0,60.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Javonte Williams,Under,,12.5,11.5,4,4,point_down,0.0,-1.0,60.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,Jake Ferguson,Over,,2.5,2.5,21,10,shortening,0.0401,0.0,40.1
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,Jake Ferguson,Under,,2.5,2.5,20,10,lengthening,-0.0381,0.0,38.1
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,CeeDee Lamb,Over,,6.5,6.5,20,9,lengthening,-0.0317,0.0,28.5
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_pass_completions,Dak Prescott,Under,,23.5,23.5,14,7,lengthening,-0.0391,0.0,27.3
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_pass_completions,Dak Prescott,Over,,23.5,23.5,15,6,shortening,0.0419,0.0,25.2
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,CeeDee Lamb,Under,,6.5,6.5,19,8,shortening,0.0267,0.0,21.4
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,Jake Ferguson,3+ Receptions,,,,7,5,shortening,0.0394,,19.7
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_pass_yds,Tanner McKee,Over,,195.5,195.5,9,3,shortening,0.064,0.0,19.2
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Marquise Brown,25+ Receiving Yards,,,,4,4,shortening,0.0442,,17.7
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Marquise Brown,20+ Receiving Yards,,,,5,4,shortening,0.0418,,16.7
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Hollywood Brown,Over,,10.5,10.5,10,3,shortening,0.0543,0.0,16.3
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Jake Ferguson,20+ Receiving Yards,,,,8,4,shortening,0.0377,,15.1
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,Jake Ferguson,2+ Receptions,,,,8,5,shortening,0.0284,,14.2
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,Hollywood Brown,Under,,1.5,1.5,10,4,lengthening,-0.0352,0.0,14.1
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,CeeDee Lamb,8+ Receptions,,,,9,4,lengthening,-0.0347,,13.9
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Marquise Brown,30+ Receiving Yards,,,,5,3,shortening,0.0464,,13.9
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,Jake Ferguson,4+ Receptions,,,,9,4,shortening,0.0345,,13.8
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Marquise Brown,40+ Receiving Yards,,,,5,3,shortening,0.0449,,13.5
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Marquise Brown,15+ Receiving Yards,,,,3,3,shortening,0.0435,,13.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,Makai Lemon,4+ Receptions,,,,9,3,lengthening,-0.0411,,12.3
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,Dallas Goedert,Under,,6.5,6.5,5,3,lengthening,-0.0409,0.0,12.3
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,CeeDee Lamb,7+ Receptions,,,,9,4,lengthening,-0.0304,,12.2
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Jake Ferguson,30+ Receiving Yards,,,,8,4,shortening,0.0294,,11.8
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Marquise Brown,10+ Receiving Yards,,,,5,4,shortening,0.0296,,11.8
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_pass_completions,Dak Prescott,26+ Passing Completions,,,,3,3,shortening,0.039,,11.7
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,Jake Ferguson,5+ Receptions,,,,9,4,shortening,0.0271,,10.8
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,CeeDee Lamb,70+ Receiving Yards,,,,8,4,lengthening,-0.0269,,10.8
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Ryan Flournoy,30+ Receiving Yards,,,,7,4,shortening,0.0262,,10.5
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,CeeDee Lamb,90+ Receiving Yards,,,,8,4,lengthening,-0.0254,,10.2
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,CeeDee Lamb,6+ Receptions,,,,9,3,lengthening,-0.0334,,10.0
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_pass_completions,Dak Prescott,22+ Passing Completions,,,,3,3,shortening,0.0313,,9.4
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,CeeDee Lamb,5+ Receptions,,,,8,3,lengthening,-0.0304,,9.1
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Ryan Flournoy,60+ Receiving Yards,,,,8,4,shortening,0.0218,,8.7
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,Dameon Pierce,Over,,0.5,0.5,3,3,lengthening,-0.0288,0.0,8.6
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_pass_completions,Tanner McKee,20+ Passing Completions,,,,4,3,shortening,0.0282,,8.5
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,Dameon Pierce,Under,,0.5,0.5,3,3,shortening,0.0279,0.0,8.4
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Hollywood Brown,Under,,10.5,10.5,10,3,lengthening,-0.028,0.0,8.4
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Ryan Flournoy,50+ Receiving Yards,,,,10,3,shortening,0.0276,,8.3
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,CeeDee Lamb,60+ Receiving Yards,,,,8,3,lengthening,-0.0274,,8.2
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,CeeDee Lamb,80+ Receiving Yards,,,,9,3,lengthening,-0.0273,,8.2
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Jake Ferguson,10+ Receiving Yards,,,,8,3,shortening,0.0272,,8.2
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_pass_completions,Dak Prescott,20+ Passing Completions,,,,3,3,shortening,0.0269,,8.1
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,CeeDee Lamb,Over,,4.5,4.5,5,3,lengthening,-0.0268,0.0,8.1
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Dallas Goedert,40+ Receiving Yards,,,,10,3,shortening,0.0249,,7.5
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_receptions,CeeDee Lamb,9+ Receptions,,,,7,3,lengthening,-0.024,,7.2
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,9.79,player_reception_yds,Ryan Flournoy,40+ Receiving Yards,,,,9,3,shortening,0.0227,,6.8

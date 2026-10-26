@@ -4564,3 +4564,4 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-26T11:42:24Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Darius Cooper,3.5,Over,kalshi,133,4.6,0.4489,pinnacle,12,12.5,False,ev +4.6 fair 0.449 pinnacle 12b
 2026-10-26T11:42:24Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Javonte Williams,2.5,Over,kalshi,133,4.43,0.4482,pinnacle,14,12.5,False,ev +4.4 fair 0.448 pinnacle 14b
 2026-10-26T11:42:24Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Marquise Brown,1.5,Under,draftkings,-153,3.35,0.625,bovada,3,12.5,False,ev +3.4 fair 0.625 bovada 3b
+2026-10-26T14:27:38Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Darius Cooper,3.5,Over,kalshi,138,6.67,0.4482,pinnacle,14,9.8,False,ev +6.7 fair 0.448 pinnacle 14b
