@@ -4588,3 +4588,5 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-26T23:58:49Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_receptions,Saquon Barkley,1.5,Under,hardrock,230,3.67,0.3142,kalshi,4,0.3,True,ev +3.7 fair 0.314 kalshi 4b
 2026-10-26T23:58:49Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Dameon Pierce,9.5,Under,hardrock,240,4.29,0.3067,kalshi,4,0.3,True,ev +4.3 fair 0.307 kalshi 4b
 2026-10-26T23:58:49Z,football_nfl,56772,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,player_rush_yds,Javonte Williams,69.5,Under,underdog,-118,4.27,0.5644,kalshi,6,0.3,False,ev +4.3 fair 0.564 kalshi 6b
+2026-10-27T02:39:07Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Chuba Hubbard,2.5,Over,kalshi,138,3.47,0.4347,pinnacle,10,69.6,False,ev +3.5 fair 0.435 pinnacle 10b
+2026-10-27T02:39:07Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,4.5,Over,kalshi,117,6.3,0.4899,pinnacle,10,69.6,False,ev +6.3 fair 0.490 pinnacle 10b
