@@ -463587,3 +463587,691 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-27T11:10:37Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_yds,Jahmyr Gibbs,86.5,Under,bovada,-115,-6.52,0.5,bovada,6,126.8
 2026-10-27T11:10:37Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_yds,Jahmyr Gibbs,86.5,Over,hardrock,-115,-6.52,0.5,bovada,6,126.8
 2026-10-27T11:10:37Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_yds,Jahmyr Gibbs,86.5,Under,hardrock,-115,-6.52,0.5,bovada,6,126.8
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_attempts,Jordan Love,35.5,Under,bovada,100,0.0,0.5,pinnacle,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_attempts,Jordan Love,35.5,Under,draftkings,-101,-0.5,0.5,pinnacle,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_attempts,Jordan Love,35.5,Over,draftkings,-127,-10.63,0.5,pinnacle,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_attempts,Jordan Love,35.5,Over,bovada,-130,-11.54,0.5,pinnacle,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_completions,Jordan Love,21.5,Under,bovada,-110,0.83,0.5282,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_completions,Jordan Love,21.5,Under,draftkings,-110,0.83,0.5282,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_completions,Jordan Love,21.5,Over,draftkings,-116,-12.14,0.4718,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_completions,Jordan Love,21.5,Over,bovada,-120,-13.5,0.4718,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_tds,Bryce Young,1.5,Under,kalshi,-104,2.8,0.5241,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_tds,Bryce Young,1.5,Under,fanduel,-118,-3.18,0.5241,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_tds,Bryce Young,1.5,Over,kalshi,-100,-4.82,0.4759,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_tds,Bryce Young,1.5,Over,fanduel,-112,-9.92,0.4759,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_tds,Jordan Love,1.5,Under,hardrock,120,-8.25,0.417,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Savion Williams,12.5,Over,underdog,-108,0.21,0.5203,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Savion Williams,12.5,Over,hardrock,-120,-4.61,0.5203,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Savion Williams,12.5,Over,draftkings,-122,-5.32,0.5203,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Savion Williams,12.5,Over,bovada,-125,-6.35,0.5203,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Savion Williams,12.5,Under,bovada,-105,-6.35,0.4797,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Savion Williams,12.5,Under,draftkings,-106,-6.78,0.4797,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Savion Williams,12.5,Under,hardrock,-110,-8.42,0.4797,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Savion Williams,12.5,Under,underdog,-114,-9.95,0.4797,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,9.5,Under,hardrock,210,3.29,0.3332,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,9.5,Over,kalshi,-257,-7.37,0.6668,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,9.5,Under,kalshi,178,-7.37,0.3332,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,9.5,Over,hardrock,-300,-11.09,0.6668,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,19.5,Over,kalshi,-104,-2.82,0.4954,kalshi,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,19.5,Under,kalshi,-108,-2.82,0.5046,kalshi,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,19.5,Under,fanduel,-114,-5.28,0.5046,kalshi,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,19.5,Over,fanduel,-114,-7.0,0.4954,kalshi,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,19.5,Over,hardrock,-115,-7.38,0.4954,kalshi,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,19.5,Under,hardrock,-120,-7.49,0.5046,kalshi,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,49.5,Under,hardrock,150,5.65,0.4226,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,49.5,Over,kalshi,-170,-8.3,0.5774,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,49.5,Under,kalshi,117,-8.3,0.4226,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,49.5,Over,hardrock,-210,-14.76,0.5774,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,59.5,Under,hardrock,100,9.25,0.5463,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,59.5,Over,kalshi,104,-7.44,0.4537,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,59.5,Under,kalshi,-144,-7.44,0.5463,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,59.5,Over,hardrock,-135,-21.02,0.4537,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,62.5,Under,draftkings,-110,-4.55,0.5,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,62.5,Over,draftkings,-114,-6.14,0.5,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,62.5,Over,fanduel,-114,-6.14,0.5,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,62.5,Under,fanduel,-114,-6.14,0.5,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,62.5,Over,bovada,-115,-6.52,0.5,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,62.5,Under,bovada,-115,-6.52,0.5,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,62.5,Over,hardrock,-115,-6.52,0.5,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,62.5,Under,hardrock,-115,-6.52,0.5,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,62.5,Over,pinnacle,-115,-6.52,0.5,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,62.5,Under,pinnacle,-115,-6.52,0.5,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,69.5,Under,hardrock,-150,2.21,0.6132,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,69.5,Over,kalshi,133,-9.89,0.3868,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,69.5,Under,kalshi,-213,-9.89,0.6132,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Jalen Coker,69.5,Over,hardrock,110,-18.78,0.3868,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,14.5,Under,underdog,-103,2.99,0.5226,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,14.5,Under,hardrock,-105,2.03,0.5226,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,14.5,Over,kalshi,-117,-11.45,0.4774,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,14.5,Under,kalshi,-144,-11.45,0.5226,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,14.5,Over,underdog,-121,-12.8,0.4774,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,14.5,Over,hardrock,-155,-21.46,0.4774,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Josh Jacobs,14.5,Over,kalshi,-113,-4.61,0.5061,pinnacle,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,14.5,Under,hardrock,175,10.56,0.402,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,14.5,Over,kalshi,-203,-10.75,0.598,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,14.5,Under,kalshi,122,-10.75,0.402,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,14.5,Over,hardrock,-250,-16.29,0.598,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,41.5,Over,hardrock,-125,-2.82,0.5399,pinnacle,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,41.5,Under,hardrock,-110,-12.16,0.4601,pinnacle,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,4.5,Under,bovada,-105,-0.4,0.5101,pinnacle,14,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,4.5,Under,draftkings,-105,-0.4,0.5101,pinnacle,14,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,4.5,Under,hardrock,-115,-4.63,0.5101,pinnacle,14,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,4.5,Over,hardrock,-115,-8.41,0.4899,pinnacle,14,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,4.5,Over,draftkings,-121,-10.53,0.4899,pinnacle,14,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,4.5,Over,bovada,-125,-11.82,0.4899,pinnacle,14,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Chuba Hubbard,2.5,Over,kalshi,144,6.08,0.4347,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Chuba Hubbard,2.5,Over,bovada,130,-0.01,0.4347,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Chuba Hubbard,2.5,Over,hardrock,130,-0.01,0.4347,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Chuba Hubbard,2.5,Over,draftkings,128,-0.88,0.4347,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Chuba Hubbard,2.5,Under,kalshi,-150,-5.79,0.5653,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Chuba Hubbard,2.5,Under,draftkings,-164,-9.01,0.5653,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Chuba Hubbard,2.5,Under,bovada,-170,-10.22,0.5653,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,2.5,Over,kalshi,138,1.11,0.4248,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,2.5,Under,draftkings,-142,-1.98,0.5752,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,2.5,Under,kalshi,-144,-2.54,0.5752,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,2.5,Under,bovada,-145,-2.82,0.5752,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,2.5,Under,fanduel,-154,-5.14,0.5752,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,2.5,Under,hardrock,-155,-5.38,0.5752,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,2.5,Over,hardrock,120,-6.54,0.4248,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,2.5,Over,fanduel,116,-8.24,0.4248,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,2.5,Over,draftkings,111,-10.36,0.4248,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,2.5,Over,bovada,110,-10.78,0.4248,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Josh Jacobs,2.5,Over,bovada,100,-2.84,0.4858,pinnacle,14,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Josh Jacobs,2.5,Over,draftkings,-101,-3.32,0.4858,pinnacle,14,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Josh Jacobs,2.5,Under,draftkings,-127,-8.09,0.5142,pinnacle,14,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Josh Jacobs,2.5,Under,bovada,-130,-9.03,0.5142,pinnacle,14,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Matthew Golden,4.5,Over,fanduel,-138,-5.08,0.5504,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Matthew Golden,4.5,Under,draftkings,111,-5.13,0.4496,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Matthew Golden,4.5,Under,hardrock,110,-5.58,0.4496,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Matthew Golden,4.5,Over,hardrock,-140,-5.65,0.5504,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Matthew Golden,4.5,Over,draftkings,-141,-5.93,0.5504,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Matthew Golden,4.5,Under,fanduel,104,-8.27,0.4496,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Savion Williams,2.5,Under,bovada,-110,-0.11,0.5232,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Savion Williams,2.5,Under,draftkings,-110,-0.11,0.5232,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Savion Williams,2.5,Under,kalshi,-113,-1.37,0.5232,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Savion Williams,2.5,Under,hardrock,-115,-2.18,0.5232,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Savion Williams,2.5,Over,hardrock,-115,-10.86,0.4768,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Savion Williams,2.5,Over,draftkings,-116,-11.22,0.4768,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Savion Williams,2.5,Over,bovada,-120,-12.59,0.4768,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,3.5,Under,hardrock,275,19.39,0.3184,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,3.5,Over,kalshi,-335,-11.49,0.6816,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,3.5,Under,kalshi,178,-11.49,0.3184,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,3.5,Over,hardrock,-450,-16.69,0.6816,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,5.5,Over,kalshi,122,1.27,0.4562,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,5.5,Over,draftkings,117,-1.02,0.4562,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,5.5,Over,bovada,115,-1.93,0.4562,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,5.5,Over,hardrock,110,-4.21,0.4562,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,5.5,Under,kalshi,-133,-4.72,0.5438,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,5.5,Over,fanduel,106,-6.03,0.4562,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,5.5,Over,pinnacle,105,-6.49,0.4562,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,5.5,Under,pinnacle,-139,-6.49,0.5438,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,5.5,Under,fanduel,-140,-6.77,0.5438,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,5.5,Under,hardrock,-140,-6.77,0.5438,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,5.5,Under,bovada,-150,-9.36,0.5438,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,5.5,Under,draftkings,-150,-9.36,0.5438,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,4.5,Over,bovada,110,2.87,0.4899,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,4.5,Over,draftkings,101,-1.53,0.4899,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,4.5,Under,kalshi,-122,-7.17,0.5101,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,4.5,Under,draftkings,-129,-9.44,0.5101,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,4.5,Under,bovada,-145,-13.81,0.5101,pinnacle,13,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Bryce Young,10.5,Over,fanatics,105,4.57,0.5101,bovada,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Bryce Young,10.5,Under,fanatics,-140,-16.02,0.4899,bovada,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,5.5,Over,fanduel,-102,-0.98,0.5,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,5.5,Over,draftkings,-110,-4.55,0.5,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,5.5,Under,draftkings,-114,-6.14,0.5,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,5.5,Over,bovada,-115,-6.52,0.5,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,5.5,Under,bovada,-115,-6.52,0.5,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,5.5,Over,fanatics,-115,-6.52,0.5,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,5.5,Under,fanatics,-115,-6.52,0.5,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,5.5,Under,fanduel,-128,-10.94,0.5,pinnacle,12,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,MarShawn Lloyd,18.5,Over,draftkings,-112,1.14,0.5343,pinnacle,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,MarShawn Lloyd,18.5,Over,hardrock,-120,-2.04,0.5343,pinnacle,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,MarShawn Lloyd,18.5,Under,hardrock,-110,-11.1,0.4657,pinnacle,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,MarShawn Lloyd,18.5,Under,draftkings,-112,-11.85,0.4657,pinnacle,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Christian Watson,,No,kalshi,-150,-0.97,0.5942,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Christian Watson,,Yes,kalshi,144,-0.97,0.4058,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Christian Watson,,No,hardrock,-170,-5.63,0.5942,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Christian Watson,,Yes,hardrock,120,-10.71,0.4058,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Jalen Coker,,Yes,hardrock,195,-9.51,0.3067,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Josh Jacobs,,No,kalshi,122,-0.98,0.446,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Josh Jacobs,,Yes,kalshi,-127,-0.98,0.554,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Josh Jacobs,,Yes,hardrock,-140,-5.03,0.554,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Josh Jacobs,,No,hardrock,100,-10.79,0.446,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Matthew Golden,,No,kalshi,-170,-0.98,0.6235,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Matthew Golden,,Yes,kalshi,163,-0.98,0.3765,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Matthew Golden,,No,hardrock,-200,-6.48,0.6235,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Matthew Golden,,Yes,hardrock,140,-9.64,0.3765,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Tetairoa McMillan,,No,kalshi,-213,-1.04,0.6734,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Tetairoa McMillan,,Yes,kalshi,203,-1.04,0.3266,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Tetairoa McMillan,,No,hardrock,-250,-5.72,0.6734,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Tetairoa McMillan,,Yes,hardrock,170,-11.82,0.3266,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Tucker Kraft,,No,kalshi,-203,-1.92,0.6571,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Tucker Kraft,,Yes,kalshi,186,-1.92,0.3429,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Tucker Kraft,,Yes,hardrock,170,-7.41,0.3429,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_anytime_td,Tucker Kraft,,No,hardrock,-250,-8.01,0.6571,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Bryce Young,37.5,Under,underdog,-115,-4.63,0.5101,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Bryce Young,37.5,Over,underdog,-107,-5.23,0.4899,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Bryce Young,37.5,Over,draftkings,-109,-6.07,0.4899,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Bryce Young,37.5,Under,draftkings,-119,-6.12,0.5101,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Bryce Young,37.5,Over,bovada,-110,-6.48,0.4899,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Bryce Young,37.5,Under,bovada,-120,-6.48,0.5101,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Jordan Love,38.5,Over,hardrock,-110,-4.55,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Jordan Love,38.5,Over,underdog,-110,-4.55,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Jordan Love,38.5,Under,underdog,-112,-5.36,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Jordan Love,38.5,Over,draftkings,-113,-5.75,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Jordan Love,38.5,Over,bovada,-115,-6.52,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Jordan Love,38.5,Under,bovada,-115,-6.52,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Jordan Love,38.5,Under,draftkings,-115,-6.52,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_longest_completion,Jordan Love,38.5,Under,hardrock,-120,-8.33,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_interceptions,Jordan Love,0.5,Under,draftkings,-102,-5.0,0.4797,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_interceptions,Jordan Love,0.5,Over,bovada,-125,-6.35,0.5203,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_interceptions,Jordan Love,0.5,Under,bovada,-105,-6.35,0.4797,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_interceptions,Jordan Love,0.5,Over,draftkings,-125,-6.35,0.5203,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_interceptions,Jordan Love,0.5,Over,hardrock,-125,-6.35,0.5203,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_interceptions,Jordan Love,0.5,Under,hardrock,-105,-6.35,0.4797,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_rush_yds,Jordan Love,268.5,Over,draftkings,-112,-5.36,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_rush_yds,Jordan Love,268.5,Under,draftkings,-114,-6.14,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_rush_yds,Jordan Love,268.5,Over,bovada,-115,-6.52,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_rush_yds,Jordan Love,268.5,Under,bovada,-115,-6.52,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Bryce Young,249.5,Over,kalshi,-113,-1.12,0.5246,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Bryce Young,249.5,Under,kalshi,108,-1.12,0.4754,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Bryce Young,249.5,Over,hardrock,-125,-5.57,0.5246,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Bryce Young,249.5,Under,hardrock,-110,-9.24,0.4754,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Bryce Young,250.5,Over,hardrock,-120,-8.33,0.5,pinnacle,6,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Bryce Young,252.5,Over,draftkings,-111,-4.95,0.5,bovada,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Bryce Young,252.5,Under,draftkings,-112,-5.36,0.5,bovada,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Bryce Young,252.5,Over,bovada,-115,-6.52,0.5,bovada,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Bryce Young,252.5,Under,bovada,-115,-6.52,0.5,bovada,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Bryce Young,252.5,Over,hardrock,-115,-6.52,0.5,bovada,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Bryce Young,252.5,Under,hardrock,-120,-8.33,0.5,bovada,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Bryce Young,274.5,Over,kalshi,156,-1.03,0.3866,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Bryce Young,274.5,Under,kalshi,-163,-1.03,0.6134,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Jordan Love,249.5,Over,kalshi,-138,-2.0,0.5683,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Jordan Love,249.5,Under,kalshi,127,-2.0,0.4317,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Jordan Love,249.5,Over,hardrock,-155,-6.51,0.5683,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_pass_yds,Jordan Love,249.5,Under,hardrock,110,-9.33,0.4317,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Christian Watson,25.5,Under,underdog,-106,-4.8,0.4899,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Christian Watson,25.5,Over,underdog,-117,-5.39,0.5101,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Christian Watson,25.5,Under,draftkings,-108,-5.65,0.4899,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Christian Watson,25.5,Over,bovada,-120,-6.48,0.5101,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Christian Watson,25.5,Under,bovada,-110,-6.48,0.4899,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Christian Watson,25.5,Over,draftkings,-120,-6.48,0.5101,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Chuba Hubbard,9.5,Under,underdog,-109,-2.19,0.5101,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Chuba Hubbard,9.5,Over,draftkings,-109,-6.07,0.4899,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Chuba Hubbard,9.5,Under,draftkings,-119,-6.12,0.5101,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Chuba Hubbard,9.5,Over,bovada,-110,-6.48,0.4899,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Chuba Hubbard,9.5,Under,bovada,-120,-6.48,0.5101,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Chuba Hubbard,9.5,Over,underdog,-113,-7.66,0.4899,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Darren Waller,10.5,Over,underdog,-121,-4.97,0.5203,bovada,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Darren Waller,10.5,Under,underdog,-102,-5.0,0.4797,bovada,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Darren Waller,10.5,Under,draftkings,-104,-5.91,0.4797,bovada,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Darren Waller,10.5,Over,bovada,-125,-6.35,0.5203,bovada,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Darren Waller,10.5,Under,bovada,-105,-6.35,0.4797,bovada,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Darren Waller,10.5,Over,draftkings,-125,-6.35,0.5203,bovada,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Jalen Coker,23.5,Over,underdog,-105,-4.36,0.4899,bovada,6,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Jalen Coker,23.5,Under,hardrock,-115,-4.63,0.5101,bovada,6,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Jalen Coker,23.5,Over,draftkings,-107,-5.23,0.4899,bovada,6,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Jalen Coker,23.5,Under,underdog,-118,-5.76,0.5101,bovada,6,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Jalen Coker,23.5,Over,bovada,-110,-6.48,0.4899,bovada,6,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Jalen Coker,23.5,Under,bovada,-120,-6.48,0.5101,bovada,6,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Jalen Coker,23.5,Under,draftkings,-121,-6.83,0.5101,bovada,6,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Jalen Coker,23.5,Over,hardrock,-115,-8.41,0.4899,bovada,6,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Josh Jacobs,8.5,Under,hardrock,105,-3.78,0.4694,bovada,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Josh Jacobs,8.5,Over,hardrock,-135,-7.63,0.5306,bovada,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tetairoa McMillan,26.5,Over,underdog,-108,-1.75,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tetairoa McMillan,26.5,Under,draftkings,-108,-5.65,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tetairoa McMillan,26.5,Over,bovada,-120,-6.48,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tetairoa McMillan,26.5,Under,bovada,-110,-6.48,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tetairoa McMillan,26.5,Over,draftkings,-120,-6.48,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tetairoa McMillan,26.5,Under,underdog,-114,-8.04,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tucker Kraft,17.5,Over,underdog,-107,-3.27,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tucker Kraft,17.5,Under,hardrock,-110,-4.55,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tucker Kraft,17.5,Over,draftkings,-113,-5.75,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tucker Kraft,17.5,Under,draftkings,-114,-6.14,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tucker Kraft,17.5,Over,bovada,-115,-6.52,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tucker Kraft,17.5,Under,bovada,-115,-6.52,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tucker Kraft,17.5,Under,underdog,-115,-6.52,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_longest,Tucker Kraft,17.5,Over,hardrock,-120,-8.33,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,59.5,Under,hardrock,120,-5.27,0.4306,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,59.5,Over,kalshi,-156,-6.56,0.5694,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,59.5,Under,kalshi,117,-6.56,0.4306,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,59.5,Over,hardrock,-170,-9.57,0.5694,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,66.5,Over,pinnacle,-115,-6.52,0.5,pinnacle,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,66.5,Under,pinnacle,-115,-6.52,0.5,pinnacle,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,68.5,Under,draftkings,-111,-4.95,0.5,bovada,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,68.5,Over,draftkings,-113,-5.75,0.5,bovada,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,68.5,Over,bovada,-115,-6.52,0.5,bovada,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,68.5,Under,bovada,-115,-6.52,0.5,bovada,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,68.5,Over,hardrock,-115,-6.52,0.5,bovada,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,68.5,Under,hardrock,-115,-6.52,0.5,bovada,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,69.5,Under,underdog,-106,-1.89,0.5049,kalshi,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,69.5,Under,fanduel,-114,-5.23,0.5049,kalshi,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,69.5,Over,fanduel,-114,-7.05,0.4951,kalshi,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,69.5,Over,underdog,-117,-8.17,0.4951,kalshi,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,79.5,Over,kalshi,138,-2.87,0.4081,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,79.5,Under,kalshi,-156,-2.87,0.5919,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,79.5,Over,hardrock,130,-6.13,0.4081,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Christian Watson,79.5,Under,hardrock,-180,-7.93,0.5919,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,9.5,Over,hardrock,-185,-6.69,0.6057,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,9.5,Under,hardrock,135,-7.35,0.3943,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,14.5,Under,draftkings,-108,-0.93,0.5144,kalshi,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,14.5,Over,kalshi,104,-0.93,0.4856,kalshi,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,14.5,Under,kalshi,-108,-0.93,0.5144,kalshi,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,14.5,Under,bovada,-110,-1.8,0.5144,kalshi,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,14.5,Under,hardrock,-120,-5.7,0.5144,kalshi,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,14.5,Over,hardrock,-115,-9.21,0.4856,kalshi,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,14.5,Over,draftkings,-116,-9.57,0.4856,kalshi,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,14.5,Over,bovada,-120,-10.97,0.4856,kalshi,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,19.5,Over,kalshi,170,-1.05,0.3665,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,19.5,Under,kalshi,-178,-1.05,0.6335,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,19.5,Under,hardrock,-180,-1.45,0.6335,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Chuba Hubbard,19.5,Over,hardrock,130,-15.71,0.3665,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,14.5,Over,kalshi,-150,-3.9,0.5766,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,14.5,Under,kalshi,127,-3.9,0.4234,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,14.5,Under,hardrock,125,-4.74,0.4234,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,14.5,Over,hardrock,-175,-9.39,0.5766,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,18.5,Over,draftkings,-111,-3.8,0.5061,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,18.5,Over,bovada,-115,-5.39,0.5061,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,18.5,Under,draftkings,-113,-6.9,0.4939,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,18.5,Over,hardrock,-120,-7.22,0.5061,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,18.5,Under,bovada,-115,-7.66,0.4939,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,24.5,Over,kalshi,144,-2.88,0.3981,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,24.5,Under,kalshi,-163,-2.88,0.6019,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,24.5,Under,hardrock,-180,-6.36,0.6019,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,24.5,Over,hardrock,130,-8.45,0.3981,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,29.5,Over,kalshi,203,-3.86,0.3173,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,29.5,Under,kalshi,-245,-3.86,0.6827,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,29.5,Under,hardrock,-260,-5.47,0.6827,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Darren Waller,29.5,Over,hardrock,180,-11.16,0.3173,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,16.5,Under,draftkings,-115,-4.63,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,16.5,Under,hardrock,-115,-4.63,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,16.5,Over,draftkings,-109,-6.07,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,16.5,Over,bovada,-110,-6.48,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,16.5,Under,bovada,-120,-6.48,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,16.5,Over,hardrock,-115,-8.41,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,19.5,Under,hardrock,-170,-2.6,0.6132,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,19.5,Over,kalshi,133,-9.89,0.3868,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,19.5,Under,kalshi,-213,-9.89,0.6132,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,John Metchie III,19.5,Over,hardrock,105,-20.71,0.3868,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Josh Jacobs,9.5,Over,kalshi,-194,-0.94,0.6536,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Josh Jacobs,9.5,Under,kalshi,186,-0.94,0.3464,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Josh Jacobs,9.5,Over,hardrock,-200,-1.95,0.6536,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Josh Jacobs,9.5,Under,hardrock,140,-16.87,0.3464,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Josh Jacobs,15.5,Over,fanatics,-105,-2.38,0.5,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Josh Jacobs,15.5,Under,fanatics,-125,-10.0,0.5,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Josh Jacobs,19.5,Under,hardrock,-170,-2.88,0.6115,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Josh Jacobs,19.5,Over,kalshi,150,-2.88,0.3885,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Josh Jacobs,19.5,Under,kalshi,-170,-2.88,0.6115,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Josh Jacobs,19.5,Over,hardrock,120,-14.53,0.3885,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Matthew Golden,59.5,Under,hardrock,100,-9.67,0.4517,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Matthew Golden,63.5,Over,draftkings,-112,-5.36,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Matthew Golden,63.5,Under,draftkings,-112,-5.36,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Matthew Golden,63.5,Over,bovada,-115,-6.52,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Matthew Golden,63.5,Under,bovada,-115,-6.52,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Matthew Golden,63.5,Over,hardrock,-115,-6.52,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Matthew Golden,63.5,Under,hardrock,-115,-6.52,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Matthew Golden,64.5,Over,pinnacle,-106,-6.38,0.4817,pinnacle,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Matthew Golden,64.5,Under,pinnacle,-124,-6.38,0.5183,pinnacle,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Matthew Golden,64.5,Under,hardrock,-125,-6.71,0.5183,pinnacle,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Matthew Golden,64.5,Over,hardrock,-110,-8.03,0.4817,pinnacle,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Matthew Golden,69.5,Under,hardrock,-150,-3.26,0.5804,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,19.5,Over,kalshi,-156,-2.87,0.5919,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,19.5,Under,kalshi,138,-2.87,0.4081,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,19.5,Over,hardrock,-160,-3.82,0.5919,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,19.5,Under,hardrock,115,-12.26,0.4081,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,21.5,Over,hardrock,-140,-4.89,0.5548,pinnacle,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,21.5,Over,pinnacle,-146,-6.51,0.5548,pinnacle,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,21.5,Under,pinnacle,110,-6.51,0.4452,pinnacle,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,21.5,Under,hardrock,100,-10.97,0.4452,pinnacle,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,23.5,Under,hardrock,-110,-4.55,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,23.5,Over,draftkings,-111,-4.95,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,23.5,Under,draftkings,-113,-5.75,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,23.5,Over,bovada,-115,-6.52,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,23.5,Under,bovada,-115,-6.52,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,23.5,Over,hardrock,-120,-8.33,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,24.5,Over,kalshi,-104,-4.67,0.486,kalshi,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,24.5,Under,kalshi,-117,-4.67,0.514,kalshi,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,24.5,Over,underdog,-104,-4.67,0.486,kalshi,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,24.5,Under,underdog,-120,-5.77,0.514,kalshi,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,24.5,Over,hardrock,-110,-7.22,0.486,kalshi,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,24.5,Under,hardrock,-125,-7.48,0.514,kalshi,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,29.5,Over,kalshi,133,-4.67,0.4092,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,29.5,Under,kalshi,-163,-4.67,0.5908,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,29.5,Under,hardrock,-175,-7.15,0.5908,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Savion Williams,29.5,Over,hardrock,125,-7.94,0.4092,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,59.5,Over,kalshi,-194,-0.94,0.6536,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,59.5,Under,kalshi,186,-0.94,0.3464,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,59.5,Over,hardrock,-220,-4.92,0.6536,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,59.5,Under,hardrock,155,-11.68,0.3464,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,69.5,Over,kalshi,-122,-3.82,0.5285,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,69.5,Under,kalshi,104,-3.82,0.4715,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,69.5,Under,hardrock,100,-5.71,0.4715,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,69.5,Over,hardrock,-140,-9.39,0.5285,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,73.5,Over,draftkings,-114,-5.0,0.5061,pinnacle,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,73.5,Over,bovada,-115,-5.39,0.5061,pinnacle,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,73.5,Under,draftkings,-111,-6.11,0.4939,pinnacle,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,73.5,Over,hardrock,-120,-7.22,0.5061,pinnacle,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,73.5,Under,bovada,-115,-7.66,0.4939,pinnacle,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,73.5,Under,hardrock,-115,-7.66,0.4939,pinnacle,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,79.5,Over,kalshi,117,-3.91,0.4428,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,79.5,Under,kalshi,-138,-3.91,0.5572,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,79.5,Under,hardrock,-145,-5.86,0.5572,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,79.5,Over,hardrock,105,-9.22,0.4428,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,89.5,Over,kalshi,170,-3.88,0.356,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,89.5,Under,kalshi,-203,-3.88,0.644,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,89.5,Under,hardrock,-220,-6.33,0.644,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tetairoa McMillan,89.5,Over,hardrock,150,-11.0,0.356,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,29.5,Over,kalshi,-233,-0.92,0.6933,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,29.5,Under,kalshi,223,-0.92,0.3067,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,29.5,Over,hardrock,-260,-4.01,0.6933,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,29.5,Under,hardrock,185,-12.58,0.3067,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,39.5,Over,kalshi,-122,-3.82,0.5285,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,39.5,Under,kalshi,104,-3.82,0.4715,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,39.5,Under,hardrock,100,-5.71,0.4715,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,39.5,Over,hardrock,-140,-9.39,0.5285,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,42.5,Under,draftkings,-110,-4.55,0.5,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,42.5,Over,draftkings,-114,-6.14,0.5,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,42.5,Over,bovada,-115,-6.52,0.5,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,42.5,Under,bovada,-115,-6.52,0.5,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,42.5,Over,hardrock,-115,-6.52,0.5,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,42.5,Under,hardrock,-115,-6.52,0.5,bovada,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,49.5,Under,hardrock,-170,-3.16,0.6097,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_reception_yds,Tucker Kraft,49.5,Over,hardrock,120,-14.14,0.3903,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,3.5,Under,hardrock,175,-3.08,0.3524,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,5.5,Under,hardrock,-250,-6.66,0.6667,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,5.5,Over,hardrock,175,-8.35,0.3333,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Chuba Hubbard,1.5,Over,hardrock,-195,-3.49,0.6379,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Chuba Hubbard,1.5,Over,kalshi,-203,-4.78,0.6379,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Chuba Hubbard,1.5,Under,kalshi,163,-4.78,0.3621,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Chuba Hubbard,1.5,Under,hardrock,135,-14.92,0.3621,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,1.5,Over,kalshi,-223,-3.85,0.6638,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,1.5,Under,kalshi,186,-3.85,0.3362,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,1.5,Under,hardrock,185,-4.19,0.3362,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Darren Waller,1.5,Over,hardrock,-260,-8.09,0.6638,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Jalen Coker,4.5,Under,fanduel,120,-2.47,0.4433,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Jalen Coker,4.5,Over,draftkings,-138,-3.99,0.5567,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Jalen Coker,4.5,Under,hardrock,115,-4.69,0.4433,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Jalen Coker,4.5,Over,bovada,-145,-5.94,0.5567,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Jalen Coker,4.5,Under,bovada,110,-6.9,0.4433,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Jalen Coker,4.5,Over,hardrock,-150,-7.22,0.5567,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Jalen Coker,4.5,Under,draftkings,108,-7.79,0.4433,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Jalen Coker,4.5,Over,fanduel,-160,-9.54,0.5567,pinnacle,11,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,John Metchie III,1.5,Over,kalshi,-122,-3.82,0.5285,kalshi,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,John Metchie III,1.5,Under,kalshi,104,-3.82,0.4715,kalshi,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,John Metchie III,1.5,Over,hardrock,-125,-4.86,0.5285,kalshi,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,John Metchie III,1.5,Under,draftkings,101,-5.24,0.4715,kalshi,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,John Metchie III,1.5,Under,bovada,100,-5.71,0.4715,kalshi,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,John Metchie III,1.5,Over,draftkings,-129,-6.17,0.5285,kalshi,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,John Metchie III,1.5,Over,bovada,-130,-6.49,0.5285,kalshi,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,John Metchie III,1.5,Over,fanduel,-130,-6.49,0.5285,kalshi,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,John Metchie III,1.5,Under,fanduel,-102,-6.63,0.4715,kalshi,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,John Metchie III,1.5,Under,hardrock,-105,-7.95,0.4715,kalshi,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,4.5,Under,hardrock,135,-4.74,0.4053,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,4.5,Over,kalshi,-170,-5.55,0.5947,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,4.5,Under,kalshi,133,-5.55,0.4053,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,4.5,Over,hardrock,-185,-8.39,0.5947,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,6.5,Over,kalshi,223,-0.92,0.3067,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,6.5,Under,kalshi,-233,-0.92,0.6933,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,6.5,Under,hardrock,-300,-7.57,0.6933,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tetairoa McMillan,6.5,Over,hardrock,195,-9.51,0.3067,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,3.5,Over,kalshi,-194,-0.94,0.6536,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,3.5,Under,kalshi,186,-0.94,0.3464,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,3.5,Over,hardrock,-225,-5.58,0.6536,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,3.5,Under,hardrock,155,-11.68,0.3464,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,5.5,Over,kalshi,223,-1.94,0.3036,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,5.5,Under,kalshi,-245,-1.94,0.6964,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,5.5,Under,hardrock,-300,-7.15,0.6964,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Tucker Kraft,5.5,Over,hardrock,200,-8.92,0.3036,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_attempts,Chuba Hubbard,15.5,Under,bovada,100,-2.84,0.4858,pinnacle,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_attempts,Chuba Hubbard,15.5,Under,draftkings,100,-2.84,0.4858,pinnacle,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_attempts,Chuba Hubbard,15.5,Over,draftkings,-127,-8.09,0.5142,pinnacle,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_attempts,Chuba Hubbard,15.5,Over,bovada,-130,-9.03,0.5142,pinnacle,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_attempts,Josh Jacobs,14.5,Over,underdog,-107,-3.27,0.5,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_attempts,Josh Jacobs,14.5,Under,underdog,-115,-6.52,0.5,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_attempts,MarShawn Lloyd,6.5,Under,hardrock,-130,-4.48,0.5399,pinnacle,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_attempts,MarShawn Lloyd,6.5,Over,pinnacle,103,-6.6,0.4601,pinnacle,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_attempts,MarShawn Lloyd,6.5,Under,pinnacle,-137,-6.6,0.5399,pinnacle,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_attempts,MarShawn Lloyd,6.5,Over,hardrock,100,-7.98,0.4601,pinnacle,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Bryce Young,8.5,Over,underdog,-103,-3.45,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Bryce Young,8.5,Under,draftkings,-117,-5.39,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Bryce Young,8.5,Over,bovada,-110,-6.48,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Bryce Young,8.5,Under,bovada,-120,-6.48,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Bryce Young,8.5,Over,hardrock,-110,-6.48,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Bryce Young,8.5,Under,hardrock,-120,-6.48,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Bryce Young,8.5,Under,underdog,-120,-6.48,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Bryce Young,8.5,Over,draftkings,-111,-6.88,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Chuba Hubbard,14.5,Under,underdog,-108,-3.7,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Chuba Hubbard,14.5,Over,draftkings,-113,-5.75,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Chuba Hubbard,14.5,Over,underdog,-114,-6.14,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Chuba Hubbard,14.5,Over,bovada,-115,-6.52,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Chuba Hubbard,14.5,Under,bovada,-115,-6.52,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Chuba Hubbard,14.5,Under,draftkings,-115,-6.52,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Jordan Love,5.5,Over,underdog,-107,-3.27,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Jordan Love,5.5,Over,hardrock,-110,-4.55,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Jordan Love,5.5,Over,draftkings,-113,-5.75,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Jordan Love,5.5,Over,bovada,-115,-6.52,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Jordan Love,5.5,Under,bovada,-115,-6.52,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Jordan Love,5.5,Under,draftkings,-115,-6.52,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Jordan Love,5.5,Under,underdog,-115,-6.52,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Jordan Love,5.5,Under,hardrock,-120,-8.33,0.5,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Josh Jacobs,14.5,Over,underdog,-102,-2.98,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Josh Jacobs,14.5,Under,hardrock,-115,-4.63,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Josh Jacobs,14.5,Over,draftkings,-107,-5.23,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Josh Jacobs,14.5,Over,bovada,-110,-6.48,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Josh Jacobs,14.5,Under,bovada,-120,-6.48,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Josh Jacobs,14.5,Under,draftkings,-121,-6.83,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Josh Jacobs,14.5,Under,underdog,-121,-6.83,0.5101,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_longest,Josh Jacobs,14.5,Over,hardrock,-115,-8.41,0.4899,bovada,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_reception_yds,Chuba Hubbard,88.5,Over,draftkings,-112,-5.36,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_reception_yds,Chuba Hubbard,88.5,Under,draftkings,-114,-6.14,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Bryce Young,9.5,Over,kalshi,-100,0.0,0.5,pinnacle,9,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Bryce Young,14.5,Over,kalshi,178,-1.0,0.3561,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Bryce Young,14.5,Under,kalshi,-186,-1.0,0.6439,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Bryce Young,14.5,Under,hardrock,-210,-4.95,0.6439,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Bryce Young,14.5,Over,hardrock,145,-12.75,0.3561,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,59.5,Over,kalshi,-170,-2.88,0.6115,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,59.5,Under,kalshi,150,-2.88,0.3885,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,59.5,Over,hardrock,-190,-6.66,0.6115,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,59.5,Under,hardrock,140,-6.76,0.3885,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,68.5,Under,hardrock,-110,-4.55,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,68.5,Under,draftkings,-111,-4.95,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,68.5,Over,draftkings,-113,-5.75,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,68.5,Over,bovada,-115,-6.52,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,68.5,Under,bovada,-115,-6.52,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,68.5,Over,hardrock,-125,-10.0,0.5,bovada,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,69.5,Over,kalshi,-104,-1.92,0.5,kalshi,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,69.5,Under,kalshi,-104,-1.92,0.5,kalshi,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,69.5,Over,hardrock,-115,-6.52,0.5,kalshi,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,69.5,Under,hardrock,-115,-6.52,0.5,kalshi,8,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,70.5,Over,hardrock,-110,-4.16,0.502,pinnacle,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,70.5,Over,fanatics,-115,-6.14,0.502,pinnacle,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,70.5,Over,pinnacle,-116,-6.52,0.502,pinnacle,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,70.5,Under,pinnacle,-114,-6.52,0.498,pinnacle,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,70.5,Under,fanatics,-115,-6.9,0.498,pinnacle,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,70.5,Under,hardrock,-125,-10.36,0.498,pinnacle,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,79.5,Over,kalshi,150,-1.94,0.3922,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,79.5,Under,kalshi,-163,-1.94,0.6078,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,79.5,Under,hardrock,-180,-5.46,0.6078,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Chuba Hubbard,79.5,Over,hardrock,130,-9.78,0.3922,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,4.5,Over,kalshi,-113,-2.96,0.5148,kalshi,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,4.5,Under,kalshi,-100,-2.96,0.4852,kalshi,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,4.5,Under,hardrock,-105,-5.27,0.4852,kalshi,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,4.5,Over,hardrock,-130,-8.92,0.5148,kalshi,5,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,9.5,Over,kalshi,186,-1.92,0.3429,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,9.5,Under,kalshi,-203,-1.92,0.6571,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,9.5,Under,hardrock,-225,-5.09,0.6571,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Jordan Love,9.5,Over,hardrock,155,-12.55,0.3429,kalshi,3,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,49.5,Over,kalshi,-170,-0.98,0.6235,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,49.5,Under,kalshi,163,-0.98,0.3765,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,49.5,Over,hardrock,-180,-3.01,0.6235,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,49.5,Under,hardrock,125,-15.28,0.3765,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,59.5,Under,underdog,-108,-0.85,0.5148,kalshi,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,59.5,Over,kalshi,-100,-2.96,0.4852,kalshi,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,59.5,Under,kalshi,-113,-2.96,0.5148,kalshi,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,59.5,Under,hardrock,-125,-7.33,0.5148,kalshi,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,59.5,Over,hardrock,-110,-7.37,0.4852,kalshi,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,59.5,Over,underdog,-114,-8.92,0.4852,kalshi,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,69.5,Over,kalshi,163,-2.97,0.3689,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,69.5,Under,kalshi,-186,-2.97,0.6311,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,69.5,Under,hardrock,-195,-4.53,0.6311,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Josh Jacobs,69.5,Over,hardrock,140,-11.45,0.3689,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,MarShawn Lloyd,14.5,Over,kalshi,-163,-2.88,0.6019,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,MarShawn Lloyd,14.5,Under,kalshi,144,-2.88,0.3981,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,MarShawn Lloyd,14.5,Over,hardrock,-180,-6.36,0.6019,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,MarShawn Lloyd,14.5,Under,hardrock,135,-6.46,0.3981,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,MarShawn Lloyd,19.5,Under,hardrock,-125,-6.44,0.5198,kalshi,7,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,MarShawn Lloyd,24.5,Under,hardrock,-195,-5.08,0.6274,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,MarShawn Lloyd,24.5,Over,hardrock,140,-10.58,0.3726,kalshi,4,55.3
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_attempts,Jared Goff,34.5,Over,underdog,-107,-1.31,0.5101,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_attempts,Jared Goff,34.5,Over,draftkings,-115,-4.63,0.5101,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_attempts,Jared Goff,34.5,Over,bovada,-120,-6.48,0.5101,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_attempts,Jared Goff,34.5,Under,bovada,-110,-6.48,0.4899,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_attempts,Jared Goff,34.5,Under,draftkings,-110,-6.48,0.4899,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_attempts,Jared Goff,34.5,Under,underdog,-115,-8.41,0.4899,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Justin Jefferson,74.5,Under,draftkings,-111,-4.95,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Justin Jefferson,74.5,Over,draftkings,-113,-5.75,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Justin Jefferson,74.5,Over,bovada,-115,-6.52,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Justin Jefferson,74.5,Under,bovada,-115,-6.52,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Justin Jefferson,74.5,Under,hardrock,-115,-6.52,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Justin Jefferson,74.5,Over,hardrock,-120,-8.33,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jordan Addison,3.5,Over,fanduel,124,-2.18,0.4367,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jordan Addison,3.5,Over,hardrock,120,-3.93,0.4367,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jordan Addison,3.5,Under,draftkings,-147,-5.35,0.5633,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jordan Addison,3.5,Over,bovada,115,-6.11,0.4367,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jordan Addison,3.5,Under,bovada,-150,-6.11,0.5633,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jordan Addison,3.5,Over,draftkings,115,-6.11,0.4367,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jordan Addison,3.5,Under,hardrock,-155,-7.32,0.5633,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jordan Addison,3.5,Under,fanduel,-166,-9.73,0.5633,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Justin Jefferson,5.5,Under,fanduel,112,3.85,0.4899,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Justin Jefferson,5.5,Under,hardrock,105,0.43,0.4899,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Justin Jefferson,5.5,Over,draftkings,-116,-5.01,0.5101,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Justin Jefferson,5.5,Over,bovada,-120,-6.48,0.5101,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Justin Jefferson,5.5,Under,bovada,-110,-6.48,0.4899,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Justin Jefferson,5.5,Under,draftkings,-110,-6.48,0.4899,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Justin Jefferson,5.5,Over,hardrock,-135,-11.2,0.5101,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Justin Jefferson,5.5,Over,fanduel,-148,-14.52,0.5101,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Under,underdog,-114,4.02,0.5541,bovada,8,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Under,fanduel,-118,2.38,0.5541,bovada,8,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Under,hardrock,-130,-1.96,0.5541,bovada,8,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Over,draftkings,113,-5.03,0.4459,bovada,8,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Under,draftkings,-144,-6.1,0.5541,bovada,8,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Over,bovada,110,-6.37,0.4459,bovada,8,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Under,bovada,-145,-6.37,0.5541,bovada,8,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Over,hardrock,100,-10.83,0.4459,bovada,8,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Over,underdog,-108,-14.13,0.4459,bovada,8,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Over,fanduel,-112,-15.61,0.4459,bovada,8,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_attempts,Jahmyr Gibbs,22.5,Over,hardrock,-115,-4.63,0.5101,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_attempts,Jahmyr Gibbs,22.5,Under,draftkings,-108,-5.65,0.4899,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_attempts,Jahmyr Gibbs,22.5,Over,draftkings,-118,-5.76,0.5101,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_attempts,Jahmyr Gibbs,22.5,Over,bovada,-120,-6.48,0.5101,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_attempts,Jahmyr Gibbs,22.5,Under,bovada,-110,-6.48,0.4899,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_attempts,Jahmyr Gibbs,22.5,Under,hardrock,-115,-8.41,0.4899,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_attempts,Kyler Murray,30.5,Under,underdog,-105,-4.36,0.4899,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_attempts,Kyler Murray,30.5,Under,draftkings,-106,-4.8,0.4899,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_attempts,Kyler Murray,30.5,Over,underdog,-118,-5.76,0.5101,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_attempts,Kyler Murray,30.5,Over,bovada,-120,-6.48,0.5101,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_attempts,Kyler Murray,30.5,Under,bovada,-110,-6.48,0.4899,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_attempts,Kyler Murray,30.5,Over,draftkings,-120,-6.48,0.5101,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_completions,Jared Goff,22.5,Under,draftkings,-108,-5.65,0.4899,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_completions,Jared Goff,22.5,Over,draftkings,-118,-5.76,0.5101,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_completions,Jared Goff,22.5,Over,bovada,-120,-6.48,0.5101,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_completions,Jared Goff,22.5,Under,bovada,-110,-6.48,0.4899,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Jared Goff,1.5,Over,fanduel,-130,-4.32,0.5408,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Jared Goff,1.5,Over,hardrock,-130,-4.32,0.5408,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Jared Goff,1.5,Under,draftkings,107,-4.94,0.4592,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Jared Goff,1.5,Over,draftkings,-137,-6.45,0.5408,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Jared Goff,1.5,Under,fanduel,-102,-9.06,0.4592,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Kyler Murray,1.5,Over,fanduel,130,-2.29,0.4248,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Kyler Murray,1.5,Over,hardrock,125,-4.41,0.4248,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Kyler Murray,1.5,Under,draftkings,-156,-5.61,0.5752,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Kyler Murray,1.5,Over,draftkings,122,-5.69,0.4248,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Kyler Murray,1.5,Over,bovada,120,-6.54,0.4248,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Kyler Murray,1.5,Under,bovada,-160,-6.54,0.5752,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Kyler Murray,1.5,Under,hardrock,-165,-7.63,0.5752,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_tds,Kyler Murray,1.5,Under,fanduel,-174,-9.43,0.5752,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_yds,Jared Goff,263.5,Under,draftkings,-111,-4.95,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_yds,Jared Goff,263.5,Over,draftkings,-113,-5.75,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_yds,Jared Goff,263.5,Over,fanduel,-114,-6.14,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_yds,Jared Goff,263.5,Under,fanduel,-114,-6.14,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_yds,Jared Goff,263.5,Over,bovada,-115,-6.52,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_yds,Jared Goff,263.5,Under,bovada,-115,-6.52,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_yds,Jared Goff,263.5,Under,hardrock,-115,-6.52,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_yds,Jared Goff,263.5,Over,hardrock,-125,-10.0,0.5,bovada,6,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_yds,Kyler Murray,213.5,Over,draftkings,-111,-4.95,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_pass_yds,Kyler Murray,213.5,Under,draftkings,-112,-5.36,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Amon-Ra St. Brown,76.5,Under,draftkings,-111,-4.95,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Amon-Ra St. Brown,76.5,Over,draftkings,-113,-5.75,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Amon-Ra St. Brown,76.5,Over,bovada,-115,-6.52,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Amon-Ra St. Brown,76.5,Under,bovada,-115,-6.52,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Amon-Ra St. Brown,76.5,Over,hardrock,-115,-6.52,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Amon-Ra St. Brown,76.5,Under,hardrock,-115,-6.52,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jahmyr Gibbs,34.5,Over,hardrock,-115,-4.63,0.5101,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jahmyr Gibbs,34.5,Over,draftkings,-116,-5.01,0.5101,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jahmyr Gibbs,34.5,Under,draftkings,-108,-5.65,0.4899,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jahmyr Gibbs,34.5,Over,bovada,-120,-6.48,0.5101,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jahmyr Gibbs,34.5,Under,bovada,-110,-6.48,0.4899,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jahmyr Gibbs,34.5,Under,hardrock,-115,-8.41,0.4899,bovada,5,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jameson Williams,49.5,Under,hardrock,-110,-4.55,0.5,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jameson Williams,49.5,Over,draftkings,-111,-4.95,0.5,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jameson Williams,49.5,Under,draftkings,-113,-5.75,0.5,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jameson Williams,49.5,Over,bovada,-115,-6.52,0.5,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jameson Williams,49.5,Under,bovada,-115,-6.52,0.5,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jameson Williams,49.5,Over,hardrock,-125,-10.0,0.5,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jordan Addison,39.5,Under,underdog,-114,-4.24,0.5101,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jordan Addison,39.5,Under,draftkings,-115,-4.63,0.5101,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jordan Addison,39.5,Over,underdog,-108,-5.65,0.4899,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jordan Addison,39.5,Over,draftkings,-109,-6.07,0.4899,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jordan Addison,39.5,Over,bovada,-110,-6.48,0.4899,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jordan Addison,39.5,Under,bovada,-120,-6.48,0.5101,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jordan Addison,39.5,Over,hardrock,-110,-6.48,0.4899,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Jordan Addison,39.5,Under,hardrock,-125,-8.18,0.5101,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Sam LaPorta,51.5,Over,hardrock,-110,-4.55,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Sam LaPorta,51.5,Under,draftkings,-111,-4.95,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Sam LaPorta,51.5,Over,draftkings,-113,-5.75,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Sam LaPorta,51.5,Over,bovada,-115,-6.52,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Sam LaPorta,51.5,Under,bovada,-115,-6.52,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,Sam LaPorta,51.5,Under,hardrock,-125,-10.0,0.5,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,T.J. Hockenson,37.5,Under,draftkings,-115,-4.63,0.5101,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,T.J. Hockenson,37.5,Over,draftkings,-109,-6.07,0.4899,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,T.J. Hockenson,37.5,Over,bovada,-110,-6.48,0.4899,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,T.J. Hockenson,37.5,Under,bovada,-120,-6.48,0.5101,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,T.J. Hockenson,37.5,Under,hardrock,-120,-6.48,0.5101,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_reception_yds,T.J. Hockenson,37.5,Over,hardrock,-115,-8.41,0.4899,bovada,3,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Amon-Ra St. Brown,6.5,Under,hardrock,105,-1.66,0.4797,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Amon-Ra St. Brown,6.5,Under,fanduel,100,-4.06,0.4797,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Amon-Ra St. Brown,6.5,Over,draftkings,-122,-5.32,0.5203,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Amon-Ra St. Brown,6.5,Over,bovada,-125,-6.35,0.5203,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Amon-Ra St. Brown,6.5,Under,bovada,-105,-6.35,0.4797,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Amon-Ra St. Brown,6.5,Under,draftkings,-105,-6.35,0.4797,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Amon-Ra St. Brown,6.5,Over,fanduel,-132,-8.55,0.5203,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Amon-Ra St. Brown,6.5,Over,hardrock,-135,-9.43,0.5203,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jahmyr Gibbs,4.5,Over,fanduel,102,-3.1,0.4797,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jahmyr Gibbs,4.5,Under,draftkings,-121,-4.97,0.5203,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jahmyr Gibbs,4.5,Over,bovada,-105,-6.35,0.4797,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jahmyr Gibbs,4.5,Under,bovada,-125,-6.35,0.5203,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jahmyr Gibbs,4.5,Over,draftkings,-105,-6.35,0.4797,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jahmyr Gibbs,4.5,Over,hardrock,-105,-6.35,0.4797,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jahmyr Gibbs,4.5,Under,hardrock,-125,-6.35,0.5203,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jahmyr Gibbs,4.5,Under,fanduel,-136,-9.71,0.5203,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jameson Williams,3.5,Under,hardrock,-135,-3.54,0.5541,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jameson Williams,3.5,Under,fanduel,-136,-3.84,0.5541,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jameson Williams,3.5,Under,draftkings,-142,-5.56,0.5541,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jameson Williams,3.5,Over,draftkings,111,-5.92,0.4459,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jameson Williams,3.5,Over,bovada,110,-6.37,0.4459,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jameson Williams,3.5,Under,bovada,-145,-6.37,0.5541,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jameson Williams,3.5,Over,hardrock,105,-8.6,0.4459,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Jameson Williams,3.5,Over,fanduel,102,-9.94,0.4459,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Sam LaPorta,4.5,Under,fanduel,-102,-5.0,0.4797,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Sam LaPorta,4.5,Over,draftkings,-122,-5.32,0.5203,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Sam LaPorta,4.5,Over,bovada,-125,-6.35,0.5203,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Sam LaPorta,4.5,Under,bovada,-105,-6.35,0.4797,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Sam LaPorta,4.5,Under,draftkings,-105,-6.35,0.4797,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Sam LaPorta,4.5,Over,hardrock,-125,-6.35,0.5203,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Sam LaPorta,4.5,Under,hardrock,-105,-6.35,0.4797,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Sam LaPorta,4.5,Over,fanduel,-130,-7.95,0.5203,bovada,7,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_yds,Jahmyr Gibbs,84.5,Over,draftkings,-110,-4.55,0.5,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_yds,Jahmyr Gibbs,84.5,Under,draftkings,-114,-6.14,0.5,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_yds,Jahmyr Gibbs,84.5,Over,bovada,-115,-6.52,0.5,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_yds,Jahmyr Gibbs,84.5,Under,bovada,-115,-6.52,0.5,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_yds,Jahmyr Gibbs,84.5,Under,hardrock,-115,-6.52,0.5,bovada,4,121.1
+2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_rush_yds,Jahmyr Gibbs,84.5,Over,hardrock,-120,-8.33,0.5,bovada,4,121.1
