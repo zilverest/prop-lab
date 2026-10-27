@@ -4600,3 +4600,5 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-27T16:56:38Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_rush_yds,Bryce Young,10.5,Over,fanatics,105,4.57,0.5101,bovada,8,55.3,False,ev +4.6 fair 0.510 bovada 8b
 2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,Justin Jefferson,5.5,Under,fanduel,112,3.85,0.4899,bovada,7,121.1,False,ev +3.9 fair 0.490 bovada 7b
 2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Under,underdog,-114,4.02,0.5541,bovada,8,121.1,False,ev +4.0 fair 0.554 bovada 8b
+2026-10-27T21:32:02Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,4.5,Under,kalshi,104,4.06,0.5101,pinnacle,13,50.7,False,ev +4.1 fair 0.510 pinnacle 13b
+2026-10-27T21:32:02Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,4.5,Under,draftkings,102,3.04,0.5101,pinnacle,13,50.7,False,ev +3.0 fair 0.510 pinnacle 13b
