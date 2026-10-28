@@ -286,7 +286,12 @@ def build_payload(historical_rows=None, forward_rows=None):
         methodology="historical reconstruction before forward start + frozen forward decisions thereafter; forward dates supersede retrospective rows",
         pricing_warning="Cross-game ticket P&L is hypothetical whenever pricing_status=reconstructed_independent_product.",
         sgp_scope="SGP remains a separate additive research family and is not included in this ledger.",
-        model_summary=model_summary(ledger),unique_summary=_metrics(unique),
+        model_summary=model_summary(ledger),
+        phase_summary={
+            "historical_reconstruction": _metrics([x for x in unique if x.get("source_phase")=="historical_reconstruction"]),
+            "forward_frozen": _metrics([x for x in unique if x.get("source_phase")=="forward_frozen"]),
+        },
+        unique_summary=_metrics(unique),
         ledger=ledger,unique_tickets=unique,
     )
 
@@ -334,9 +339,15 @@ def write():
         x=payload["model_summary"][m]
         lines.append(f'| {m} | {x["historical_plays"]} | {x["forward_plays"]} | {x["wins"]}-{x["losses"]} | {x["voids"]} | {_pct(x["hit_rate"])} | {_money(x["hypothetical_pnl"])} | {_pct(x["hypothetical_roi"])} | {x["actual_quote_tickets"]} |')
     u=payload["unique_summary"]
+    h=payload["phase_summary"]["historical_reconstruction"]
+    fwd=payload["phase_summary"]["forward_frozen"]
     lines += ["","## Deduplicated execution record","",
               f'Unique execution tickets: **{u["plays"]}** · settled **{u["settled"]}** · record **{u["wins"]}-{u["losses"]}** · voids **{u["voids"]}** · hypothetical P&L **{_money(u["hypothetical_pnl"])}**.',"",
               "Identical tickets selected by multiple V-models count once here.","",
+              "| Evidence phase | Unique tickets | W-L | Hit | Hypothetical P&L | ROI |",
+              "|---|---:|---:|---:|---:|---:|",
+              f'| Historical reconstruction | {h["plays"]} | {h["wins"]}-{h["losses"]} | {_pct(h["hit_rate"])} | {_money(h["hypothetical_pnl"])} | {_pct(h["hypothetical_roi"])} |',
+              f'| Frozen forward | {fwd["plays"]} | {fwd["wins"]}-{fwd["losses"]} | {_pct(fwd["hit_rate"])} | {_money(fwd["hypothetical_pnl"])} | {_pct(fwd["hypothetical_roi"])} |',"",
               "| Sunday | Models | Ticket | Result | Price | Pricing | P&L |",
               "|---|---|---|---|---:|---|---:|"]
     for r in payload["unique_tickets"]:
