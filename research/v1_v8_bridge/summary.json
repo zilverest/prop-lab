@@ -71,7 +71,7 @@
       "source_status": "future"
     }
   ],
-  "generated_at": "2026-10-28T14:37:23Z",
+  "generated_at": "2026-10-28T14:38:34Z",
   "lab_version": "2026-10-28-v1-v8-full-history-bridge-v1",
   "methodology": "historical reconstruction before forward start + frozen forward decisions thereafter; forward dates supersede retrospective rows",
   "model_summary": {
@@ -186,6 +186,32 @@
       "settled": 6,
       "voids": 0,
       "wins": 3
+    }
+  },
+  "phase_summary": {
+    "forward_frozen": {
+      "actual_quote_tickets": 0,
+      "hit_rate": 75.0,
+      "hypothetical_pnl": 23.29,
+      "hypothetical_roi": 116.45,
+      "losses": 1,
+      "plays": 4,
+      "pushes": 0,
+      "settled": 4,
+      "voids": 0,
+      "wins": 3
+    },
+    "historical_reconstruction": {
+      "actual_quote_tickets": 0,
+      "hit_rate": 50.0,
+      "hypothetical_pnl": 66.32,
+      "hypothetical_roi": 110.53333333333332,
+      "losses": 6,
+      "plays": 12,
+      "pushes": 0,
+      "settled": 12,
+      "voids": 0,
+      "wins": 6
     }
   },
   "pricing_warning": "Cross-game ticket P&L is hypothetical whenever pricing_status=reconstructed_independent_product.",

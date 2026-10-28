@@ -1,6 +1,6 @@
 # V1–V8 full-history bridge
 
-Generated: **2026-10-28T14:37:23Z** · LAB_VERSION **2026-10-28-v1-v8-full-history-bridge-v1**
+Generated: **2026-10-28T14:38:34Z** · LAB_VERSION **2026-10-28-v1-v8-full-history-bridge-v1**
 
 **Purpose:** restore one continuous V1–V8 record. The historical reconstruction ends where frozen forward decisions begin. SGP remains additive and separate.
 
@@ -38,6 +38,11 @@ Cross-game ticket P&L is hypothetical whenever pricing_status=reconstructed_inde
 Unique execution tickets: **16** · settled **16** · record **9-7** · voids **0** · hypothetical P&L **$+89.61**.
 
 Identical tickets selected by multiple V-models count once here.
+
+| Evidence phase | Unique tickets | W-L | Hit | Hypothetical P&L | ROI |
+|---|---:|---:|---:|---:|---:|
+| Historical reconstruction | 12 | 6-6 | 50.0% | $+66.32 | 110.5% |
+| Frozen forward | 4 | 3-1 | 75.0% | $+23.29 | 116.5% |
 
 | Sunday | Models | Ticket | Result | Price | Pricing | P&L |
 |---|---|---|---|---:|---|---:|
