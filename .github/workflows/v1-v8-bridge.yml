@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "v1_v8_bridge.py"
+      - "common.py"
       - "data/parlay_decisions.csv"
       - "research/historical_ablation_tournament/benchmark.csv"
       - ".github/workflows/v1-v8-bridge.yml"
