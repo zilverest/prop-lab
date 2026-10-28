@@ -101,7 +101,7 @@ class EarlyEdgeTests(unittest.TestCase):
         self.assertIn("POC · Early price dislocation",page)
         self.assertIn("1–0",page)
         self.assertIn("+$6.00",page)
-        self.assertIn("2.10%",page)
+        self.assertIn("+2.10 pp",page)
 
 if __name__=="__main__":
     unittest.main()
