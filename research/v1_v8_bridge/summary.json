@@ -71,8 +71,8 @@
       "source_status": "future"
     }
   ],
-  "generated_at": "2026-10-28T17:10:04Z",
-  "lab_version": "2026-10-28-v1-v8-dashboard-bridge-v1",
+  "generated_at": "2026-10-28T17:14:45Z",
+  "lab_version": "2026-10-28-e1-poc-dashboard-v2",
   "methodology": "historical reconstruction before forward start + frozen forward decisions thereafter; forward dates supersede retrospective rows",
   "model_summary": {
     "V1": {
