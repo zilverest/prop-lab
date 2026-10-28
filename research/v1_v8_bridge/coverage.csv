@@ -1,0 +1,8 @@
+board_date,event_count,candidate_snapshots,first_kick,source_status,source_detail,historical_cutoff,forward_board_ts
+2026-09-20,14,13,2026-09-20T17:00:00Z,historical_reconstruction,retrospective causal reconstruction from archived pregame board,2026-09-20T10:11:49Z,
+2026-09-27,14,17,2026-09-27T17:00:00Z,historical_reconstruction,retrospective causal reconstruction from archived pregame board,2026-09-27T10:56:13Z,
+2026-10-04,14,23,2026-10-04T13:30:00Z,historical_reconstruction,retrospective causal reconstruction from archived pregame board,2026-10-04T03:07:18Z,
+2026-10-11,13,24,2026-10-11T13:30:00Z,forward_frozen,canonical frozen forward V1–V8 decisions,,2026-10-11T13:15:38Z
+2026-10-18,12,15,2026-10-18T13:30:00Z,forward_frozen,canonical frozen forward V1–V8 decisions,,2026-10-18T17:28:46Z
+2026-10-25,12,31,2026-10-25T13:30:00Z,forward_frozen,canonical frozen forward V1–V8 decisions,,2026-10-25T14:31:17Z
+2026-11-01,12,2,2026-11-01T18:00:00Z,future,Sunday has not occurred yet,,
