@@ -34,6 +34,7 @@ from zoneinfo import ZoneInfo
 
 from common import *
 import slips as _slips
+import early_edge as _early_edge
 import sgp_shadow as _sgp_shadow
 
 NY = ZoneInfo("America/New_York")
@@ -587,6 +588,7 @@ a{{color:inherit;text-decoration:none}}.nav{{position:sticky;top:0;z-index:20;ba
 <div class="metrics"><div class="metric"><small>Phase</small><b id="mxPhase">—</b></div><div class="metric"><small>Staked</small><b id="mxStake">—</b></div><div class="metric"><small>Gross</small><b id="mxGross">—</b></div><div class="metric"><small>Net</small><b id="mxNet">—</b></div><div class="metric"><small>ROI</small><b id="mxRoi">—</b></div><div class="metric"><small>Slips</small><b id="mxSlips">—</b></div><div class="metric"><small>Hit rate</small><b id="mxHit">—</b></div><div class="metric"><small>Avg joint P</small><b id="mxJoint">—</b></div></div>
 <div class="grid"><div class="chart"><svg id="chart" viewBox="0 0 900 285"></svg></div><div class="chart-note"><span>Cards and chart show the continuous V1–V8 bridge record.</span><b id="chartSelected">Selected · V2</b></div><div class="models">{''.join(cards)}</div><div class="notice">Historical reconstruction and frozen forward evidence remain separated in the drill-down. Cross-game ticket prices are reconstructed independent products until actual parlay quote capture is added.</div></div>
 <div class="model-detail"><div class="detail-head"><div class="detail-title"><small>Selected model</small><h3 id="theoryName">V2 · Depth</h3></div><div class="theory-chip"><b id="theoryStatus">LEAD</b><span id="theoryDetail">BOV + DK · REC &gt;1.5</span></div></div>{''.join(histories)}</div></section>
+{_early_edge.dashboard_html()}
 <div class="lower"><section class="card panel"><h3>Latest frozen board</h3><p>Opportunity density and final slip count by model. V3 is intended to widen the candidate pool; V8 tests whether exceptional boards support a second independent slip.</p><table><tr><th>model</th><th>legs</th><th>pairs</th><th>slips</th><th>research execution</th></tr>{latest_table}</table></section></div>
 {_sgp_shadow.dashboard_html()}
 <footer>Paper research only · nothing is automatically wagered · code version {_h(version)}.</footer></main>
