@@ -36,11 +36,14 @@ jobs:
       - name: Build canonical V1-V8 ledger
         run: python3 v1_v8_bridge.py
 
+      - name: Refresh dashboard from bridge
+        run: python3 -c "import parlay_lab; parlay_lab.write_dashboard()"
+
       - name: Commit bridge outputs
         run: |
           git config user.name "eevee-bot"
           git config user.email "eevee-bot@users.noreply.github.com"
-          git add research/v1_v8_bridge/
+          git add research/v1_v8_bridge/ docs/index.html
           git diff --cached --quiet && echo "nothing new" && exit 0
           git commit -m "Update V1-V8 full-history bridge"
           git pull --rebase origin "$GITHUB_REF_NAME" || true
