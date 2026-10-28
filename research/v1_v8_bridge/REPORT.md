@@ -1,6 +1,6 @@
 # V1–V8 full-history bridge
 
-Generated: **2026-10-28T16:56:12Z** · LAB_VERSION **2026-10-28-v1-v8-full-history-bridge-v1**
+Generated: **2026-10-28T16:58:24Z** · LAB_VERSION **2026-10-28-v1-v8-dashboard-bridge-v1**
 
 **Purpose:** restore one continuous V1–V8 record. The historical reconstruction ends where frozen forward decisions begin. SGP remains additive and separate.
 
