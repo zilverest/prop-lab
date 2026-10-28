@@ -71,8 +71,8 @@
       "source_status": "future"
     }
   ],
-  "generated_at": "2026-10-28T14:36:23Z",
-  "lab_version": "2026-10-20-nfl-e1-early-edge-v1",
+  "generated_at": "2026-10-28T14:37:23Z",
+  "lab_version": "2026-10-28-v1-v8-full-history-bridge-v1",
   "methodology": "historical reconstruction before forward start + frozen forward decisions thereafter; forward dates supersede retrospective rows",
   "model_summary": {
     "V1": {

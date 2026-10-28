@@ -1,6 +1,6 @@
 # V1–V8 full-history bridge
 
-Generated: **2026-10-28T14:36:23Z** · LAB_VERSION **2026-10-20-nfl-e1-early-edge-v1**
+Generated: **2026-10-28T14:37:23Z** · LAB_VERSION **2026-10-28-v1-v8-full-history-bridge-v1**
 
 **Purpose:** restore one continuous V1–V8 record. The historical reconstruction ends where frozen forward decisions begin. SGP remains additive and separate.
 
