@@ -4602,3 +4602,5 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-10-27T16:56:38Z,football_nfl,56774,2026-11-01T18:00:00Z,Detroit Lions,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Under,underdog,-114,4.02,0.5541,bovada,8,121.1,False,ev +4.0 fair 0.554 bovada 8b
 2026-10-27T21:32:02Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,4.5,Under,kalshi,104,4.06,0.5101,pinnacle,13,50.7,False,ev +4.1 fair 0.510 pinnacle 13b
 2026-10-27T21:32:02Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,4.5,Under,draftkings,102,3.04,0.5101,pinnacle,13,50.7,False,ev +3.0 fair 0.510 pinnacle 13b
+2026-10-28T02:47:26Z,football_nfl,56773,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,player_receptions,Christian Watson,4.5,Under,kalshi,104,4.06,0.5101,pinnacle,14,45.5,False,ev +4.1 fair 0.510 pinnacle 14b
+2026-10-28T02:47:26Z,football_nfl,519775,2026-11-03T01:15:00Z,Seattle Seahawks,Chicago Bears,player_pass_tds,Sam Darnold,1.5,Over,underdog,-102,5.08,0.5306,bovada,10,142.5,False,ev +5.1 fair 0.531 bovada 10b
