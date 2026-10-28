@@ -230,6 +230,11 @@ def _money(x):
     x=_f(x,0)
     return ("+" if x>0 else "") + "$" + f"{x:.2f}"
 
+def _pp(x, digits=2):
+    if x is None:
+        return "—"
+    return ("+" if x>0 else "") + f"{x:.{digits}f} pp"
+
 def _h(x):
     return html.escape(str(x))
 
@@ -256,7 +261,7 @@ def dashboard_html():
         rec=f'{x["wins"]}–{x["losses"]}' + (f'–{x["voids"]}V' if x["voids"] else "")
         slate_rows.append(
             f'<tr><td>{_h(date_label)}</td><td>{x["signals"]}</td><td>{_h(rec)}</td>'
-            f'<td>{_money(x["pnl"])}</td><td>{_pct(x["avg_clv"],2)}</td><td>{_pct(x["beat_close"])}</td></tr>'
+            f'<td>{_money(x["pnl"])}</td><td>{_pp(x["avg_clv"])}</td><td>{_pct(x["beat_close"])}</td></tr>'
         )
 
     latest_rows=[]
@@ -303,12 +308,12 @@ def dashboard_html():
     <div class="e1-kpi"><small>Hit rate</small><b>{_pct(ps["hit_rate"])}</b></div>
     <div class="e1-kpi"><small>Paper P&amp;L</small><b>{_money(ps["pnl"])}</b></div>
     <div class="e1-kpi"><small>Paper ROI</small><b>{_pct(ps["roi"])}</b></div>
-    <div class="e1-kpi"><small>Avg CLV</small><b>{_pct(ps["avg_clv"],2)}</b></div>
+    <div class="e1-kpi"><small>Avg CLV</small><b>{_pp(ps["avg_clv"])}</b></div>
     <div class="e1-kpi"><small>Beat close</small><b>{_pct(ps["beat_close"])}</b></div>
   </div>
   <div class="e1-compare">
     <div class="e1-box"><small>POC cohort</small><b>{ps["signals"]} signals</b><span>{ps["settled"]} settled · {ps["same_point"]} exact same-point closes</span></div>
-    <div class="e1-box"><small>All E1 context</small><b>{broad_rec} · {_money(broad["pnl"])}</b><span>{broad["signals"]} signals · {_pct(broad["avg_clv"],2)} avg CLV</span></div>
+    <div class="e1-box"><small>All E1 context</small><b>{broad_rec} · {_money(broad["pnl"])}</b><span>{broad["signals"]} signals · {_pp(broad["avg_clv"])} avg CLV</span></div>
     <div class="e1-box"><small>Persistence diagnostic</small><b>D1/D2 {d12["wins"]}–{d12["losses"]}</b><span>D3+/D5+ {d3["wins"]}–{d3["losses"]} · diagnostic, not entry gate</span></div>
   </div>
   <div class="e1-grid">
