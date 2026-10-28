@@ -2577,8 +2577,8 @@
   "fanduel|56778|56778/player_rush_yds/Chase Brown/49.5/Under|56778/player_rush_yds/Derrick Henry/79.5/Under": "2026-10-22T10:48:03Z"
  },
  "sgp_roster_cache": {
-  "downloaded_at": "2026-10-26T22:00:41Z",
-  "rows": 3212,
+  "downloaded_at": "2026-10-28T02:48:29Z",
+  "rows": 3216,
   "season": 2026,
   "source": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.csv"
  },
