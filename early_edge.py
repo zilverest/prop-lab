@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import csv
 import datetime as dt
+import html
 import json
 from collections import defaultdict
 from zoneinfo import ZoneInfo
@@ -16,6 +17,8 @@ from common import *
 import slips
 
 NY = ZoneInfo("America/New_York")
+POC_MIN_EV_PCT = 5.0
+POC_MIN_HOURS_TO_KICK = 12.0
 
 FIELDS = [
     "ts","snapshot_ts","event_id","commence_time","target_date","week_key",
@@ -181,6 +184,138 @@ def _clv_row(signal, own):
         and r.get("book")==signal.get("book")
     ]
     return matches[-1] if matches else None
+
+
+def _is_poc(r):
+    """Reporting-only POC cohort. Does not alter E1 signal generation."""
+    ev=_f(r.get("ev_pct")); hours=_f(r.get("hours_to_kick"))
+    return ev is not None and ev >= POC_MIN_EV_PCT and hours is not None and hours >= POC_MIN_HOURS_TO_KICK
+
+def _stats(rows):
+    settled=[r for r in rows if r.get("resolution") in ("won","lost","void","push")]
+    decided=[r for r in settled if r.get("resolution") in ("won","lost")]
+    wins=sum(r.get("resolution")=="won" for r in decided)
+    losses=sum(r.get("resolution")=="lost" for r in decided)
+    voids=sum(r.get("resolution")=="void" for r in settled)
+    pushes=sum(r.get("resolution")=="push" for r in settled)
+    pnl=sum(_f(r.get("pnl"),0) for r in settled)
+    stake=STAKE_USD*len(decided)
+    same=[r for r in settled if str(r.get("same_point","")).lower() in ("true","1") and _f(r.get("clv_implied_pp")) is not None]
+    beats=[r for r in same if str(r.get("beat_close_price","")).lower() in ("true","1","false","0")]
+    return dict(
+        signals=len(rows),settled=len(settled),open=max(0,len(rows)-len(settled)),
+        wins=wins,losses=losses,voids=voids,pushes=pushes,
+        hit_rate=(100*wins/(wins+losses) if wins+losses else None),
+        pnl=round(pnl,2),roi=(100*pnl/stake if stake else None),
+        same_point=len(same),
+        avg_clv=(sum(_f(r.get("clv_implied_pp"),0) for r in same)/len(same) if same else None),
+        beat_close=(100*sum(str(r.get("beat_close_price","")).lower() in ("true","1") for r in beats)/len(beats) if beats else None),
+    )
+
+def poc_summary():
+    rows=read_rows("e1_early_edge_signals")
+    poc=[r for r in rows if _is_poc(r)]
+    by_date={}
+    for ds in sorted({r.get("target_date","") for r in poc if r.get("target_date")}):
+        by_date[ds]=_stats([r for r in poc if r.get("target_date")==ds])
+    return dict(
+        rule=dict(min_ev_pct=POC_MIN_EV_PCT,min_hours_to_kick=POC_MIN_HOURS_TO_KICK),
+        broad=_stats(rows),poc=_stats(poc),by_date=by_date,
+    )
+
+def _pct(x, digits=1):
+    return "—" if x is None else f"{x:.{digits}f}%"
+
+def _money(x):
+    x=_f(x,0)
+    return ("+" if x>0 else "") + "$" + f"{x:.2f}"
+
+def _h(x):
+    return html.escape(str(x))
+
+def _market_label(market):
+    return str(market or "").replace("player_","").replace("_"," ")
+
+def dashboard_html():
+    """Static E1 POC panel for the main dashboard. Reporting only."""
+    rows=read_rows("e1_early_edge_signals")
+    if not rows:
+        return '''<section class="card panel e1-panel"><h3>E1 POC · Early price dislocation</h3><p>No E1 signals have been recorded yet.</p></section>'''
+
+    poc=[r for r in rows if _is_poc(r)]
+    broad=_stats(rows); ps=_stats(poc)
+    settled_poc=[r for r in poc if r.get("resolution") in ("won","lost","void","push")]
+    d12=_stats([r for r in settled_poc if r.get("persistence_class") in ("D1","D2")])
+    d3=_stats([r for r in settled_poc if r.get("persistence_class") in ("D3+","D5+")])
+
+    slate_rows=[]
+    dates=sorted({r.get("target_date","") for r in poc if r.get("target_date")}, reverse=True)
+    for ds in dates[:8]:
+        x=_stats([r for r in poc if r.get("target_date")==ds])
+        date_label=dt.date.fromisoformat(ds).strftime("%b %-d")
+        rec=f'{x["wins"]}–{x["losses"]}' + (f'–{x["voids"]}V' if x["voids"] else "")
+        slate_rows.append(
+            f'<tr><td>{_h(date_label)}</td><td>{x["signals"]}</td><td>{_h(rec)}</td>'
+            f'<td>{_money(x["pnl"])}</td><td>{_pct(x["avg_clv"],2)}</td><td>{_pct(x["beat_close"])}</td></tr>'
+        )
+
+    latest_rows=[]
+    for r in sorted(poc,key=lambda x:(x.get("target_date",""),x.get("snapshot_ts","")),reverse=True)[:8]:
+        res=(r.get("resolution") or "open").upper()
+        cls="win" if res=="WON" else "loss" if res=="LOST" else "open"
+        edge=_f(r.get("ev_pct")); hours=_f(r.get("hours_to_kick"))
+        latest_rows.append(
+            f'<tr><td>{_h(r.get("target_date",""))}</td><td><b>{_h(r.get("player",""))}</b><br>'
+            f'<span class="e1-sub">{_h(r.get("side",""))} {_h(r.get("point",""))} {_h(_market_label(r.get("market")))}</span></td>'
+            f'<td>{_pct(edge)}</td><td>{hours:.1f}h</td><td class="{cls}">{_h(res)}</td><td>{_money(r.get("pnl")) if r.get("pnl") not in ("",None) else "—"}</td></tr>'
+        )
+
+    broad_rec=f'{broad["wins"]}–{broad["losses"]}'
+    poc_rec=f'{ps["wins"]}–{ps["losses"]}' + (f'–{ps["voids"]}V' if ps["voids"] else "")
+    return f'''
+<style>
+.e1-panel{{margin-top:14px;padding:22px}}
+.e1-head{{display:flex;justify-content:space-between;gap:18px;align-items:flex-start}}
+.e1-head h3{{font-size:24px;margin:0 0 5px}}
+.e1-head p{{max-width:760px}}
+.e1-badge{{font-size:9px;font-weight:800;letter-spacing:.06em;padding:6px 9px;border-radius:999px;background:#eef6ff;color:#1769aa;white-space:nowrap}}
+.e1-kpis{{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin:14px 0}}
+.e1-kpi{{padding:11px;border-radius:13px;border:1px solid #eee;background:#fafafa}}
+.e1-kpi small{{display:block;font-size:8px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut)}}
+.e1-kpi b{{display:block;font-size:18px;margin-top:4px}}
+.e1-compare{{display:grid;grid-template-columns:1fr 1fr 1fr;gap:9px;margin:12px 0}}
+.e1-box{{border:1px solid #eee;border-radius:14px;padding:12px;background:#fff}}
+.e1-box small{{font-size:8px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut)}}
+.e1-box b{{display:block;font-size:18px;margin:4px 0}}
+.e1-box span,.e1-sub{{font-size:8px;color:var(--mut)}}
+.e1-grid{{display:grid;grid-template-columns:1fr 1.35fr;gap:14px;margin-top:14px}}
+.e1-grid h4{{font-size:13px;margin:0 0 6px}}
+@media(max-width:900px){{.e1-kpis{{grid-template-columns:repeat(3,1fr)}}.e1-grid{{grid-template-columns:1fr}}}}
+@media(max-width:620px){{.e1-kpis{{grid-template-columns:repeat(2,1fr)}}.e1-compare{{grid-template-columns:1fr}}}}
+</style>
+<section class="card e1-panel">
+  <div class="e1-head"><div><small>E1 early edge</small><h3>POC · Early price dislocation</h3>
+    <p>Reporting-only monitor for the frozen POC cohort: first E1 signal with <b>≥{POC_MIN_EV_PCT:.0f}% estimated edge</b> and <b>≥{POC_MIN_HOURS_TO_KICK:.0f} hours before kickoff</b>. E1 remains forward shadow only and never auto-wagers.</p></div>
+    <div class="e1-badge">FORWARD SHADOW · POC</div>
+  </div>
+  <div class="e1-kpis">
+    <div class="e1-kpi"><small>Record</small><b>{poc_rec}</b></div>
+    <div class="e1-kpi"><small>Hit rate</small><b>{_pct(ps["hit_rate"])}</b></div>
+    <div class="e1-kpi"><small>Paper P&amp;L</small><b>{_money(ps["pnl"])}</b></div>
+    <div class="e1-kpi"><small>Paper ROI</small><b>{_pct(ps["roi"])}</b></div>
+    <div class="e1-kpi"><small>Avg CLV</small><b>{_pct(ps["avg_clv"],2)}</b></div>
+    <div class="e1-kpi"><small>Beat close</small><b>{_pct(ps["beat_close"])}</b></div>
+  </div>
+  <div class="e1-compare">
+    <div class="e1-box"><small>POC cohort</small><b>{ps["signals"]} signals</b><span>{ps["settled"]} settled · {ps["same_point"]} exact same-point closes</span></div>
+    <div class="e1-box"><small>All E1 context</small><b>{broad_rec} · {_money(broad["pnl"])}</b><span>{broad["signals"]} signals · {_pct(broad["avg_clv"],2)} avg CLV</span></div>
+    <div class="e1-box"><small>Persistence diagnostic</small><b>D1/D2 {d12["wins"]}–{d12["losses"]}</b><span>D3+/D5+ {d3["wins"]}–{d3["losses"]} · diagnostic, not entry gate</span></div>
+  </div>
+  <div class="e1-grid">
+    <div><h4>POC by slate</h4><table><tr><th>slate</th><th>n</th><th>record</th><th>P&amp;L</th><th>CLV</th><th>beat</th></tr>{''.join(slate_rows) or '<tr><td colspan="6">No settled POC slates yet.</td></tr>'}</table></div>
+    <div><h4>Latest POC signals</h4><table><tr><th>date</th><th>prop</th><th>edge</th><th>early</th><th>result</th><th>P&amp;L</th></tr>{''.join(latest_rows) or '<tr><td colspan="6">No POC signals yet.</td></tr>'}</table></div>
+  </div>
+</section>'''
 
 def settle(now=None):
     now=now or utcnow()
