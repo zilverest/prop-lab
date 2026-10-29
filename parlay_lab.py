@@ -458,6 +458,74 @@ def _unique_today_plays(date_s=None):
     return out
 
 
+def _final_today_play(date_s=None):
+    """Return the single frozen lineup with the highest ex-ante hit probability.
+
+    Ranking uses only fields available at board freeze: joint fair probability first,
+    then model agreement, then model edge, then reconstructed price as a final
+    deterministic tie-break. Model agreement is a tie-break only because the V1-V8
+    variants are related, not independent votes.
+    """
+    groups=_unique_today_plays(date_s)
+    if not groups: return None
+    return max(groups,key=lambda g:(
+        _f(g["row"].get("fair_joint_prob"),0),
+        len(set(g.get("models") or [])),
+        _f(g["row"].get("model_edge_pct"),0),
+        _i(g["row"].get("price"),-999999),
+    ))
+
+
+def final_slip_telegram(date_s=None):
+    """One hindsight-free FINAL SLIP message emitted immediately after board freeze."""
+    rows=read_rows("parlay_decisions")
+    if date_s is None:
+        dates=sorted({r.get("board_date") for r in rows if r.get("phase")=="forward"})
+        if not dates: return None
+        date_s=dates[-1]
+    board_rows=[r for r in rows if r.get("phase")=="forward" and r.get("board_date")==date_s]
+    if not board_rows: return None
+    label=dt.date.fromisoformat(date_s).strftime("%a %b %-d")
+    g=_final_today_play(date_s)
+    if not g:
+        return "\n".join([
+            f"⚪ EEVEE FINAL SLIP — {label}",
+            "PAPER RESEARCH · NO QUALIFYING FINAL SLIP",
+            "",
+            "The frozen V1–V8 board produced no eligible cross-game play.",
+            "Quality > quantity.",
+        ])
+
+    r=g["row"]
+    try: legs=json.loads(r["legs"])
+    except Exception: legs=[]
+    models=sorted(set(g.get("models") or []),key=lambda x:int(x[1:]))
+    fp=_f(r.get("fair_joint_prob"))
+    edge=_f(r.get("model_edge_pct"))
+    price=_i(r.get("price"),None)
+    frozen=parse_iso(r.get("board_ts")) if r.get("board_ts") else None
+    frozen_txt=frozen.astimezone(NY).strftime("%I:%M %p ET").lstrip("0") if frozen else "time unavailable"
+
+    L=[
+        f"🔥 EEVEE FINAL SLIP — {label}",
+        f"PAPER RESEARCH · FROZEN {frozen_txt}",
+        "",
+        f"{str(r.get('book','')).upper()} recon {price:+d}" if price is not None else f"{str(r.get('book','')).upper()} recon —",
+    ]
+    for leg in legs:
+        L.append("• "+_fmt_leg(leg))
+    L += [
+        "",
+        f"Frozen fair hit: {100*fp:.1f}%" if fp is not None else "Frozen fair hit: —",
+        f"Model edge: {edge:+.1f}%" if edge is not None else "Model edge: —",
+        f"Model agreement: {' · '.join(models) if models else '—'}",
+        "Pick rule: highest frozen joint fair probability; model agreement and edge break ties.",
+        "",
+        "Recon price only — verify the live platform ticket before any real-world action.",
+    ]
+    return "\n".join(L)
+
+
 def daily_telegram(date_s=None):
     groups=_unique_today_plays(date_s)
     rows=read_rows("parlay_decisions")
@@ -483,17 +551,44 @@ def daily_telegram(date_s=None):
     return "\n".join(L)
 
 
+def _completed_report_window(local_date):
+    """Return the completed Tuesday-through-Monday reporting window [start, end)."""
+    days_since_tuesday=(local_date.weekday()-1)%7
+    end=local_date-dt.timedelta(days=days_since_tuesday)
+    start=end-dt.timedelta(days=7)
+    return start,end
+
+
 def weekly_telegram(now=None):
-    now=now or utcnow(); local=now.astimezone(NY); monday=local.date()-dt.timedelta(days=local.weekday()); key=monday.isoformat()
-    rows=[r for r in read_rows("parlay_decisions") if r.get("phase")=="forward" and r.get("week_key")==key]
-    if not rows: return "📊 PARLAY LAB — weekly\nNo forward boards frozen this week yet."
-    L=[f"📊 PARLAY LAB — {_week_label(local.date().isoformat())}", "PAPER FORWARD TOURNAMENT"]
+    now=now or utcnow(); local=now.astimezone(NY)
+    start,end=_completed_report_window(local.date())
+    def in_window(r):
+        try: d=dt.date.fromisoformat(r.get("board_date",""))
+        except Exception: return False
+        return start <= d < end
+
+    rows=[r for r in read_rows("parlay_decisions") if r.get("phase")=="forward" and in_window(r)]
+    last=end-dt.timedelta(days=1)
+    label=f"{start.strftime('%b')} {start.day}–{last.strftime('%b')} {last.day}"
+    if not rows:
+        return f"📊 PARLAY LAB — {label}\nNo forward boards frozen in the completed Tue–Mon window."
+
+    unique=set()
+    for r in rows:
+        if r.get("decision")!="play": continue
+        try: legs=json.loads(r.get("legs") or "[]")
+        except Exception: continue
+        key=tuple(sorted((l.get("event_id"),l.get("market"),l.get("player"),str(l.get("point")),l.get("side")) for l in legs))
+        unique.add((r.get("board_date"),key))
+
+    L=[f"📊 PARLAY LAB — {label}", "COMPLETED TUE–MON · PAPER FORWARD TOURNAMENT",
+       f"Unique frozen lineups: {len(unique)}"]
     for m in ("V1","V2","V3","V4","V5","V6","V8"):
         rr=[r for r in rows if r.get("model")==m]; rec=_record(rr)
         if not rr: continue
         if rec["slips"]:
             wl=f"{rec['wins']}–{rec['losses']}" if rec["settled"] else "open"
-            L.append(f"{m} {MODEL_META[m]['name']}: {wl} · {rec['slips']} slips · ${rec['pnl']:+.2f}")
+            L.append(f"{m} {MODEL_META[m]['name']}: {wl} · {rec['slips']} slips · {_money(rec['pnl'])}")
         else: L.append(f"{m} {MODEL_META[m]['name']}: NO PLAY")
     L.append("Dashboard → https://zilverest.github.io/prop-lab/")
     return "\n".join(L)
