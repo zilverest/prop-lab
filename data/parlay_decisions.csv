@@ -79,3 +79,11 @@ ts,phase,board_date,board_ts,week_key,model,model_name,slip_no,decision,qualifie
 2026-10-26T17:46:51Z,forward,2026-10-26,2026-10-26T17:46:51Z,2026-10-26,V6,Any 3,0,no_play,0,0,,[],,,,,,,,0,,,,no qualifying cross-game pair
 2026-10-26T17:46:51Z,forward,2026-10-26,2026-10-26T17:46:51Z,2026-10-26,V7,Value Floor,0,no_play,0,0,,[],,,,,,,,0,,,,blocked: actual cross-game parlay quote capture not implemented
 2026-10-26T17:46:51Z,forward,2026-10-26,2026-10-26T17:46:51Z,2026-10-26,V8,Strong Slate,0,no_play,1,0,,[],,,,,,,,0,,,,no qualifying cross-game pair
+2026-10-29T13:29:49Z,forward,2026-10-29,2026-10-29T13:29:49Z,2026-10-26,V1,Strict,0,no_play,0,0,,[],,,,,,,,0,,,,no qualifying cross-game pair
+2026-10-29T13:29:49Z,forward,2026-10-29,2026-10-29T13:29:49Z,2026-10-26,V2,Depth,0,no_play,0,0,,[],,,,,,,,0,,,,no qualifying cross-game pair
+2026-10-29T13:29:49Z,forward,2026-10-29,2026-10-29T13:29:49Z,2026-10-26,V3,Bovada,0,no_play,0,0,,[],,,,,,,,0,,,,no qualifying cross-game pair
+2026-10-29T13:29:49Z,forward,2026-10-29,2026-10-29T13:29:49Z,2026-10-26,V4,DraftKings,0,no_play,0,0,,[],,,,,,,,0,,,,no qualifying cross-game pair
+2026-10-29T13:29:49Z,forward,2026-10-29,2026-10-29T13:29:49Z,2026-10-26,V5,Any 2,0,no_play,0,0,,[],,,,,,,,0,,,,no qualifying cross-game pair
+2026-10-29T13:29:49Z,forward,2026-10-29,2026-10-29T13:29:49Z,2026-10-26,V6,Any 3,0,no_play,0,0,,[],,,,,,,,0,,,,no qualifying cross-game pair
+2026-10-29T13:29:49Z,forward,2026-10-29,2026-10-29T13:29:49Z,2026-10-26,V7,Value Floor,0,no_play,0,0,,[],,,,,,,,0,,,,blocked: actual cross-game parlay quote capture not implemented
+2026-10-29T13:29:49Z,forward,2026-10-29,2026-10-29T13:29:49Z,2026-10-26,V8,Strong Slate,0,no_play,0,0,,[],,,,,,,,0,,,,no qualifying cross-game pair
