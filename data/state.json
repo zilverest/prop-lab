@@ -5793,6 +5793,7 @@
   "draftkings|53168|53168/player_receptions/Jaxon Smith-Njigba/6.5/Under|53168/player_receptions/Rashid Shaheed/2.5/Over": "2026-10-25T02:03:11Z",
   "draftkings|53169|53169/player_pass_yds/Joe Burrow/274.5/Under|53169/player_receptions/Gunnar Helm/1.5/Under": "2026-10-28T21:59:37Z",
   "draftkings|53169|53169/player_pass_yds/Joe Burrow/274.5/Under|53169/player_rush_yds/Tony Pollard/69.5/Under": "2026-10-28T21:59:37Z",
+  "draftkings|53171|53171/player_pass_tds/Daniel Jones/0.5/Under|53171/player_receptions/Tyler Warren/4.5/Over": "2026-10-29T03:12:08Z",
   "draftkings|53171|53171/player_pass_tds/Daniel Jones/0.5/Under|53171/player_rush_yds/Jonathan Taylor/69.5/Under": "2026-10-28T17:33:27Z",
   "draftkings|53172|53172/player_reception_yds/Travis Kelce/49.5/Under|53172/player_receptions/RJ Harvey/3.5/Over": "2026-10-28T17:33:27Z",
   "draftkings|53172|53172/player_reception_yds/Travis Kelce/49.5/Under|53172/player_rush_attempts/J.K. Dobbins/7.5/Over": "2026-10-28T21:59:37Z",
@@ -5855,6 +5856,7 @@
   "draftkings|53253|53253/player_receptions/Tez Johnson/1.5/Under|53253/player_rush_yds/Chuba Hubbard/59.5/Under": "2026-10-25T10:20:04Z",
   "draftkings|53253|53253/player_receptions/Tez Johnson/2.5/Over|53253/player_rush_yds/Chuba Hubbard/59.5/Under": "2026-10-23T16:03:09Z",
   "draftkings|53253|53253/player_receptions/Tommy Tremble/2.5/Under|53253/player_rush_yds/Chuba Hubbard/59.5/Under": "2026-10-22T20:59:21Z",
+  "draftkings|534128|534128/player_pass_tds/Malik Willis/0.5/Under|534128/player_receptions/Ollie Gordon II/1.5/Over": "2026-10-29T03:12:08Z",
   "draftkings|56767|56767/player_pass_tds/Kyler Murray/1.5/Under|56767/player_reception_yds/Josh Downs/39.5/Under": "2026-10-24T09:57:26Z",
   "draftkings|56767|56767/player_pass_tds/Kyler Murray/1.5/Under|56767/player_receptions/Will Mallory/1.5/Under": "2026-10-24T19:58:07Z",
   "draftkings|56767|56767/player_reception_yds/Jonathan Taylor/14.5/Under|56767/player_reception_yds/Josh Downs/39.5/Under": "2026-10-23T20:47:32Z",
@@ -6322,6 +6324,7 @@
   "fanduel|53168|53168/player_receptions/Jaxon Smith-Njigba/6.5/Under|53168/player_receptions/Rashid Shaheed/2.5/Over": "2026-10-25T02:03:11Z",
   "fanduel|53169|53169/player_pass_yds/Joe Burrow/274.5/Under|53169/player_receptions/Gunnar Helm/1.5/Under": "2026-10-28T21:59:37Z",
   "fanduel|53169|53169/player_pass_yds/Joe Burrow/274.5/Under|53169/player_rush_yds/Tony Pollard/69.5/Under": "2026-10-28T21:59:37Z",
+  "fanduel|53171|53171/player_pass_tds/Daniel Jones/0.5/Under|53171/player_receptions/Tyler Warren/4.5/Over": "2026-10-29T03:12:08Z",
   "fanduel|53171|53171/player_pass_tds/Daniel Jones/0.5/Under|53171/player_rush_yds/Jonathan Taylor/69.5/Under": "2026-10-28T17:33:27Z",
   "fanduel|53172|53172/player_reception_yds/Travis Kelce/49.5/Under|53172/player_receptions/RJ Harvey/3.5/Over": "2026-10-28T17:33:27Z",
   "fanduel|53172|53172/player_reception_yds/Travis Kelce/49.5/Under|53172/player_rush_attempts/J.K. Dobbins/7.5/Over": "2026-10-28T21:59:37Z",
@@ -6384,6 +6387,7 @@
   "fanduel|53253|53253/player_receptions/Tez Johnson/1.5/Under|53253/player_rush_yds/Chuba Hubbard/59.5/Under": "2026-10-25T10:20:04Z",
   "fanduel|53253|53253/player_receptions/Tez Johnson/2.5/Over|53253/player_rush_yds/Chuba Hubbard/59.5/Under": "2026-10-23T16:03:09Z",
   "fanduel|53253|53253/player_receptions/Tommy Tremble/2.5/Under|53253/player_rush_yds/Chuba Hubbard/59.5/Under": "2026-10-22T20:59:21Z",
+  "fanduel|534128|534128/player_pass_tds/Malik Willis/0.5/Under|534128/player_receptions/Ollie Gordon II/1.5/Over": "2026-10-29T03:12:08Z",
   "fanduel|56767|56767/player_pass_tds/Kyler Murray/1.5/Under|56767/player_reception_yds/Josh Downs/39.5/Under": "2026-10-24T09:57:26Z",
   "fanduel|56767|56767/player_pass_tds/Kyler Murray/1.5/Under|56767/player_receptions/Will Mallory/1.5/Under": "2026-10-24T19:58:07Z",
   "fanduel|56767|56767/player_reception_yds/Jonathan Taylor/14.5/Under|56767/player_reception_yds/Josh Downs/39.5/Under": "2026-10-23T20:47:32Z",
@@ -6452,8 +6456,8 @@
   "fanduel|56778|56778/player_rush_yds/Chase Brown/49.5/Under|56778/player_rush_yds/Derrick Henry/79.5/Under": "2026-10-22T10:48:03Z"
  },
  "sgp_roster_cache": {
-  "downloaded_at": "2026-10-28T02:48:29Z",
-  "rows": 3216,
+  "downloaded_at": "2026-10-29T03:12:08Z",
+  "rows": 3228,
   "season": 2026,
   "source": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.csv"
  },
