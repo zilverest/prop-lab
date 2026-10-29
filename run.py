@@ -87,7 +87,7 @@ def research_phase(api,now=None,legacy_auto=True):
 
     date_s=local.date().isoformat()
     if frozen and state_get("parlay_gameday_msg_date")!=date_s:
-        msg=parlay_lab.daily_telegram(date_s)
+        msg=parlay_lab.final_slip_telegram(date_s)
         if msg:
             telegram(msg);state_set("parlay_gameday_msg_date",date_s)
 
