@@ -1,6 +1,6 @@
 # V1–V8 full-history bridge
 
-Generated: **2026-10-28T17:14:45Z** · LAB_VERSION **2026-10-28-e1-poc-dashboard-v2**
+Generated: **2026-10-29T14:29:58Z** · LAB_VERSION **2026-10-29-eevee-final-slip-weekly-v1**
 
 **Purpose:** restore one continuous V1–V8 record. The historical reconstruction ends where frozen forward decisions begin. SGP remains additive and separate.
 
@@ -18,7 +18,7 @@ Cross-game ticket P&L is hypothetical whenever pricing_status=reconstructed_inde
 | 2026-10-11 | forward_frozen | 13 | 24 | 2026-10-11T13:15:38Z |
 | 2026-10-18 | forward_frozen | 12 | 15 | 2026-10-18T17:28:46Z |
 | 2026-10-25 | forward_frozen | 12 | 31 | 2026-10-25T14:31:17Z |
-| 2026-11-01 | future | 12 | 2 | — |
+| 2026-11-01 | future | 12 | 6 | — |
 
 ## Model record
 

@@ -106,3 +106,11 @@ board_date,week_key,source_phase,evidence_class,cutoff_method,board_ts,model,mod
 2026-10-26,2026-10-26,forward_frozen,forward_validation,frozen_live_board,2026-10-26T17:46:51Z,V6,Any 3,0,no_play,0,0,,[],,,,none,,,0,,,unsettled,no qualifying cross-game pair
 2026-10-26,2026-10-26,forward_frozen,forward_validation,frozen_live_board,2026-10-26T17:46:51Z,V7,Value Floor,0,no_play,0,0,,[],,,,none,,,0,,,unsettled,blocked: actual cross-game parlay quote capture not implemented
 2026-10-26,2026-10-26,forward_frozen,forward_validation,frozen_live_board,2026-10-26T17:46:51Z,V8,Strong Slate,0,no_play,1,0,,[],,,,none,,,0,,,unsettled,no qualifying cross-game pair
+2026-10-29,2026-10-26,forward_frozen,forward_validation,frozen_live_board,2026-10-29T13:29:49Z,V1,Strict,0,no_play,0,0,,[],,,,none,,,0,,,unsettled,no qualifying cross-game pair
+2026-10-29,2026-10-26,forward_frozen,forward_validation,frozen_live_board,2026-10-29T13:29:49Z,V2,Depth,0,no_play,0,0,,[],,,,none,,,0,,,unsettled,no qualifying cross-game pair
+2026-10-29,2026-10-26,forward_frozen,forward_validation,frozen_live_board,2026-10-29T13:29:49Z,V3,Bovada,0,no_play,0,0,,[],,,,none,,,0,,,unsettled,no qualifying cross-game pair
+2026-10-29,2026-10-26,forward_frozen,forward_validation,frozen_live_board,2026-10-29T13:29:49Z,V4,DraftKings,0,no_play,0,0,,[],,,,none,,,0,,,unsettled,no qualifying cross-game pair
+2026-10-29,2026-10-26,forward_frozen,forward_validation,frozen_live_board,2026-10-29T13:29:49Z,V5,Any 2,0,no_play,0,0,,[],,,,none,,,0,,,unsettled,no qualifying cross-game pair
+2026-10-29,2026-10-26,forward_frozen,forward_validation,frozen_live_board,2026-10-29T13:29:49Z,V6,Any 3,0,no_play,0,0,,[],,,,none,,,0,,,unsettled,no qualifying cross-game pair
+2026-10-29,2026-10-26,forward_frozen,forward_validation,frozen_live_board,2026-10-29T13:29:49Z,V7,Value Floor,0,no_play,0,0,,[],,,,none,,,0,,,unsettled,blocked: actual cross-game parlay quote capture not implemented
+2026-10-29,2026-10-26,forward_frozen,forward_validation,frozen_live_board,2026-10-29T13:29:49Z,V8,Strong Slate,0,no_play,0,0,,[],,,,none,,,0,,,unsettled,no qualifying cross-game pair

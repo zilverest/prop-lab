@@ -5,4 +5,4 @@ board_date,event_count,candidate_snapshots,first_kick,source_status,source_detai
 2026-10-11,13,24,2026-10-11T13:30:00Z,forward_frozen,canonical frozen forward V1–V8 decisions,,2026-10-11T13:15:38Z
 2026-10-18,12,15,2026-10-18T13:30:00Z,forward_frozen,canonical frozen forward V1–V8 decisions,,2026-10-18T17:28:46Z
 2026-10-25,12,31,2026-10-25T13:30:00Z,forward_frozen,canonical frozen forward V1–V8 decisions,,2026-10-25T14:31:17Z
-2026-11-01,12,2,2026-11-01T18:00:00Z,future,Sunday has not occurred yet,,
+2026-11-01,12,6,2026-11-01T18:00:00Z,future,Sunday has not occurred yet,,
