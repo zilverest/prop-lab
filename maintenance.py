@@ -21,37 +21,65 @@ def _mb(path):
 
 
 def compact_lines():
-    """Drop raw deep-alt / thin-market history that no current model or report can use.
+    """Migrate the legacy monolithic change-only archive into daily CSV shards.
 
-    current_lines.csv remains the complete live board. candidates.csv, CLV, slips and
-    frozen decisions are untouched.
+    Preserve every originally retained row. Frozen decisions, candidate ledgers,
+    live current_lines and CLV archives remain untouched. Future captures append
+    directly to data/lines/YYYY-MM-DD.csv, so no >100 MB single Git blob can form.
     """
-    path = csv_path("lines")
+    path=csv_path("lines")
     if not os.path.exists(path):
-        return {"before_mb": 0, "after_mb": 0, "rows": 0, "kept": 0}
-    tmp = path + ".tmp"
-    total = kept = 0
-    with open(path, newline="") as src, open(tmp, "w", newline="") as dst:
-        rd = csv.DictReader(src)
-        fields = rd.fieldnames or []
-        wr = csv.DictWriter(dst, fieldnames=fields, extrasaction="ignore")
-        wr.writeheader()
-        for r in rd:
-            total += 1
-            try:
-                fp = float(r.get("fair_prob", ""))
-                nb = int(float(r.get("n_books", 0)))
-            except (TypeError, ValueError):
-                continue
-            if not (GATE["fair_min"] <= fp <= GATE["fair_max"]):
-                continue
-            if nb < GATE["min_books"]:
-                continue
-            wr.writerow(r)
-            kept += 1
-    before = _mb(path)
-    os.replace(tmp, path)
-    return {"before_mb": before, "after_mb": _mb(path), "rows": total, "kept": kept}
+        return {"before_mb": 0, "after_mb": 0, "rows": 0, "kept": 0, "mode": "partitioned"}
+    before=_mb(path)
+    import tempfile
+    import shutil
+    output_dir=os.path.join(DATA,"lines")
+    os.makedirs(output_dir,exist_ok=True)
+    total=kept=0
+    # No in-place partial migration; create all shards in temporary storage first.
+    temp_dir=tempfile.mkdtemp(prefix=".lines-migrate-",dir=DATA)
+    try:
+        handles={}
+        try:
+            with open(path,newline="") as src:
+                rd=csv.DictReader(src)
+                fields=rd.fieldnames or []
+                if not fields or "ts" not in fields:
+                    raise ValueError("legacy lines.csv has no valid header")
+                for row in rd:
+                    total+=1
+                    stamp=str(row.get("ts",""))
+                    if len(stamp)<10 or stamp[4]!="-" or stamp[7]!="-":
+                        raise ValueError(f"invalid timestamp in lines.csv at row {total}")
+                    date=stamp[:10]
+                    # Existing compact_lines() only retained this quality universe.
+                    # Preserve every current row regardless of its score or age.
+                    if date not in handles:
+                        fp=open(os.path.join(temp_dir,date+".csv"),"w",newline="")
+                        w=csv.DictWriter(fp,fieldnames=fields,extrasaction="ignore")
+                        w.writeheader()
+                        handles[date]=(fp,w)
+                    handles[date][1].writerow(row)
+                    kept+=1
+        finally:
+            for fp,_ in handles.values():
+                fp.close()
+        # If any output already exists, refuse to overwrite or double-count history.
+        conflicts=[fn for fn in os.listdir(temp_dir) if os.path.exists(os.path.join(output_dir,fn))]
+        if conflicts:
+            raise RuntimeError("line partition already exists: "+", ".join(conflicts[:3]))
+        sizes=[(fn,os.path.getsize(os.path.join(temp_dir,fn))) for fn in os.listdir(temp_dir)]
+        limit=80*1024*1024
+        oversized=[fn for fn,sz in sizes if sz>=limit]
+        if oversized:
+            raise RuntimeError("line date partition exceeds safe Git size: "+", ".join(oversized[:3]))
+        for fn,_ in sizes:
+            os.replace(os.path.join(temp_dir,fn),os.path.join(output_dir,fn))
+        os.remove(path)
+        return {"before_mb": before, "after_mb": 0, "rows": total,
+                "kept": kept, "partitions": len(sizes), "mode": "migrated"}
+    finally:
+        shutil.rmtree(temp_dir,ignore_errors=True)
 
 
 def compact_audit():
