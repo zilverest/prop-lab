@@ -31,7 +31,7 @@ class TestLinePartitions(unittest.TestCase):
             w=csv.DictWriter(f,fieldnames=fields)
             w.writeheader()
             for date in ("2026-10-20","2026-10-20","2026-10-26"):
-                w.writerow(dict.fromkeys(fields,"",ts=date+"T12:00:00Z",event_id=date))
+                w.writerow(dict(dict.fromkeys(fields,""),ts=date+"T12:00:00Z",event_id=date))
         out=maintenance.compact_lines()
         self.assertEqual(out["rows"],3)
         self.assertEqual(out["kept"],3)
@@ -53,7 +53,7 @@ class TestLinePartitions(unittest.TestCase):
         p=common.csv_path("lines")
         with open(p,"w",newline="") as f:
             w=csv.DictWriter(f,fieldnames=fields);w.writeheader()
-            w.writerow(dict.fromkeys(fields,"",ts="2026-10-20T12:00:00Z"))
+            w.writerow(dict(dict.fromkeys(fields,""),ts="2026-10-20T12:00:00Z"))
         os.makedirs(os.path.join(self.tmp.name,"lines"),exist_ok=True)
         open(os.path.join(self.tmp.name,"lines","2026-10-20.csv"),"w").close()
         with self.assertRaises(RuntimeError):
