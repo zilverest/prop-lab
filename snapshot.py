@@ -131,7 +131,8 @@ def run(api=None, from_file=None, event_id=None, sport="football_nfl", do_sgp=Tr
             k = line_key(r); s = sig(r); current_history_keys.add(k)
             if seen.get(k) != s:
                 seen[k] = s; changed.append(r)
-        n_lines += append_rows("lines", changed, LINE_FIELDS)
+        # Keep change-only snapshots in date shards. Never grow a single >100 MB Git blob.
+        n_lines += append_partitioned_rows("lines", changed, LINE_FIELDS, ts[:10])
         cands = []
         for r in rows:
             ok, note = passes_gate(r)
