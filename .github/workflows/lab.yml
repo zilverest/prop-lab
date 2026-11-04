@@ -45,7 +45,7 @@ jobs:
           git add data docs
           git diff --cached --quiet && echo "nothing new" && exit 0
           git commit -m "capture $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase origin main || true
+          git pull --rebase origin main
           git push
 
       - name: Freeze research decisions
@@ -62,7 +62,7 @@ jobs:
           git add data docs
           git diff --cached --quiet && echo "nothing new" && exit 0
           git commit -m "freeze $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase origin main || true
+          git pull --rebase origin main
           git push
 
       - name: Settle + closing-line evidence
@@ -79,5 +79,5 @@ jobs:
           git add data docs
           git diff --cached --quiet && echo "nothing new" && exit 0
           git commit -m "settle $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase origin main || true
+          git pull --rebase origin main
           git push
