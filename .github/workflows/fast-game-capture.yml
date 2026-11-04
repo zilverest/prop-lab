@@ -24,6 +24,9 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Migrate oversized legacy history before capture
+        run: python3 maintenance.py
+
       - name: Capture near-game board
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
@@ -38,7 +41,7 @@ jobs:
           git add data docs
           git diff --cached --quiet && echo "nothing new" && exit 0
           git commit -m "fast capture $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase origin main || true
+          git pull --rebase origin main
           git push
 
       - name: Freeze if eligible
@@ -55,5 +58,5 @@ jobs:
           git add data docs
           git diff --cached --quiet && echo "nothing new" && exit 0
           git commit -m "fast freeze $(date -u +%Y-%m-%dT%H:%MZ)"
-          git pull --rebase origin main || true
+          git pull --rebase origin main
           git push
