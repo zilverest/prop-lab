@@ -104,3 +104,17 @@ event_id,sport,home,away,commence_time,first_seen
 534473,football_nfl,Washington Commanders,Philadelphia Eagles,2026-11-02T01:20:00Z,2026-10-27T02:39:07Z
 519775,football_nfl,Seattle Seahawks,Chicago Bears,2026-11-03T01:15:00Z,2026-10-28T02:47:26Z
 87238,football_nfl,Baltimore Ravens,Jacksonville Jaguars,2026-11-06T01:15:00Z,2026-10-31T02:57:56Z
+32689,football_nfl,Atlanta Falcons,Cincinnati Bengals,2026-11-08T14:30:00Z,2026-11-04T22:57:30Z
+53173,football_nfl,Kansas City Chiefs,New York Jets,2026-11-08T18:00:00Z,2026-11-04T22:57:30Z
+53174,football_nfl,New Orleans Saints,Cleveland Browns,2026-11-08T18:00:00Z,2026-11-04T22:57:30Z
+60346,football_nfl,Philadelphia Eagles,New York Giants,2026-11-08T18:00:00Z,2026-11-04T22:57:30Z
+636011,football_nfl,Carolina Panthers,Denver Broncos,2026-11-08T18:00:00Z,2026-11-04T22:57:30Z
+636635,football_nfl,Washington Commanders,Los Angeles Rams,2026-11-08T18:00:00Z,2026-11-04T22:57:30Z
+636628,football_nfl,Miami Dolphins,Detroit Lions,2026-11-08T18:00:00Z,2026-11-04T22:57:30Z
+636634,football_nfl,Indianapolis Colts,Dallas Cowboys,2026-11-08T18:00:00Z,2026-11-04T22:57:30Z
+53175,football_nfl,Los Angeles Chargers,Houston Texans,2026-11-08T21:05:00Z,2026-11-04T22:57:30Z
+53176,football_nfl,Seattle Seahawks,Arizona Cardinals,2026-11-08T21:25:00Z,2026-11-04T22:57:30Z
+636626,football_nfl,San Francisco 49ers,Las Vegas Raiders,2026-11-08T21:25:00Z,2026-11-04T22:57:30Z
+60347,football_nfl,New England Patriots,Green Bay Packers,2026-11-08T21:25:00Z,2026-11-04T22:57:30Z
+60348,football_nfl,Chicago Bears,Tampa Bay Buccaneers,2026-11-09T01:20:00Z,2026-11-04T22:57:30Z
+53177,football_nfl,Minnesota Vikings,Buffalo Bills,2026-11-10T01:15:00Z,2026-11-04T22:57:30Z
