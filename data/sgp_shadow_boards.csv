@@ -535,3 +535,4 @@ ts,snapshot_ts,board_date,week_key,event_id,commence_time,home,away,hours_to_kic
 2026-11-01T14:26:29Z,2026-11-01T14:24:31Z,2026-11-01,2026-10-26,534473,2026-11-02T01:20:00Z,Washington Commanders,Philadelphia Eagles,10.89,fresh,728,3,0,3,8300,0,28,22,,fresh
 2026-11-04T22:59:52Z,2026-11-04T22:57:30Z,2026-11-04,2026-11-02,87238,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,26.25,refreshed,706,5,0,10,8200,0,26,16,,fresh
 2026-11-05T04:01:47Z,2026-11-05T03:56:41Z,2026-11-04,2026-11-02,87238,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,21.22,fresh,756,4,0,6,11224,0,26,16,,fresh
+2026-11-05T07:09:09Z,2026-11-05T07:08:51Z,2026-11-05,2026-11-02,87238,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,18.1,fresh,706,2,0,1,9912,0,0,0,,fresh
