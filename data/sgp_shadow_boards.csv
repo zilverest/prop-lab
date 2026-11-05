@@ -539,3 +539,4 @@ ts,snapshot_ts,board_date,week_key,event_id,commence_time,home,away,hours_to_kic
 2026-11-05T13:40:43Z,2026-11-05T13:37:54Z,2026-11-05,2026-11-02,87238,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,11.57,fresh,708,0,0,0,9828,0,0,0,,fresh
 2026-11-05T15:41:49Z,2026-11-05T15:41:29Z,2026-11-05,2026-11-02,87238,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,9.55,fresh,720,4,0,6,10248,0,0,0,,fresh
 2026-11-05T22:10:52Z,2026-11-05T22:10:34Z,2026-11-05,2026-11-02,87238,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,3.07,fresh,792,1,0,0,11964,0,0,0,,fresh
+2026-11-05T23:01:43Z,2026-11-05T22:58:17Z,2026-11-05,2026-11-02,87238,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,2.22,refreshed,772,1,0,0,10644,0,0,0,,fresh
