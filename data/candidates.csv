@@ -5691,3 +5691,5 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-11-05T03:56:41Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Colston Loveland,59.5,Under,hardrock,-170,3.58,0.6522,kalshi,4,93.4,True,ev +3.6 fair 0.652 kalshi 4b
 2026-11-05T03:56:41Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Keon Coleman,29.5,Under,underdog,-112,4.6,0.5526,kalshi,4,117.3,False,ev +4.6 fair 0.553 kalshi 4b
 2026-11-05T03:56:41Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_attempts,James Cook,17.5,Over,underdog,-102,5.08,0.5306,bovada,6,117.3,False,ev +5.1 fair 0.531 bovada 6b
+2026-11-05T07:08:51Z,football_nfl,87238,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,player_rush_yds,Chris Rodriguez Jr.,29.5,Over,pinnacle,-157,10.23,0.6734,kalshi,4,18.1,False,ev +10.2 fair 0.673 kalshi 4b
+2026-11-05T07:08:51Z,football_nfl,87238,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,player_rush_yds,Derrick Henry,69.5,Under,underdog,-105,4.36,0.5345,kalshi,7,18.1,False,ev +4.4 fair 0.534 kalshi 7b
