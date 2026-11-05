@@ -5713,3 +5713,4 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-11-05T15:41:29Z,football_nfl,87238,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,player_receptions,Justice Hill,2.5,Over,underdog,100,4.92,0.5246,kalshi,14,9.6,False,ev +4.9 fair 0.525 kalshi 14b
 2026-11-05T15:41:29Z,football_nfl,87238,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,player_receptions,Rashod Bateman,1.5,Over,fanduel,116,4.89,0.4856,kalshi,15,9.6,False,ev +4.9 fair 0.486 kalshi 15b
 2026-11-05T15:41:29Z,football_nfl,87238,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,player_rush_attempts,Derrick Henry,17.5,Over,pinnacle,112,3.85,0.4899,bovada,9,9.6,False,ev +3.9 fair 0.490 bovada 9b
+2026-11-05T22:10:34Z,football_nfl,87238,2026-11-06T01:15:00Z,Baltimore Ravens,Jacksonville Jaguars,player_rush_yds,Chris Rodriguez Jr.,29.5,Under,pinnacle,126,5.19,0.4655,kalshi,5,3.1,False,ev +5.2 fair 0.466 kalshi 5b
