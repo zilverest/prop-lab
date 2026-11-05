@@ -7162,25 +7162,14 @@
   "87238|player_rush_yds|Trevor Lawrence|9.5|Under|kalshi": "133|0.421|-1.9"
  },
  "parlay_board_last": {
-  "date": "2026-11-01",
+  "date": "2026-11-05",
   "events": [
-   "56776",
-   "534471",
-   "53171",
-   "53169",
-   "56775",
-   "60344",
-   "53170",
-   "56774",
-   "60345",
-   "534128",
-   "53172",
-   "534473"
+   "87238"
   ],
   "rows": 8,
-  "ts": "2026-11-01T14:26:29Z"
+  "ts": "2026-11-05T13:40:43Z"
  },
- "parlay_gameday_msg_date": "2026-11-01",
+ "parlay_gameday_msg_date": "2026-11-05",
  "parlay_summary_week": "2026-W44",
  "sgp_attempted": {
   "draftkings|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
@@ -7502,6 +7491,7 @@
   "draftkings|32687|32687/player_pass_tds/Brock Purdy/1.5/Over|32687/player_receptions/Cooper Kupp/2.5/Over": "2026-10-11T02:34:53Z",
   "draftkings|32687|32687/player_receptions/AJ Barner/2.5/Over|32687/player_rush_yds/Brock Purdy/19.5/Over": "2026-10-11T11:45:05Z",
   "draftkings|32687|32687/player_receptions/Cooper Kupp/2.5/Over|32687/player_rush_yds/Brock Purdy/19.5/Over": "2026-10-11T02:34:53Z",
+  "draftkings|32689|32689/player_reception_yds/Bijan Robinson/14.5/Under|32689/player_reception_yds/Mike Gesicki/14.5/Under": "2026-11-05T13:40:43Z",
   "draftkings|32689|32689/player_receptions/Bijan Robinson/3.5/Over|32689/player_receptions/Chase Brown/3.5/Over": "2026-11-05T04:01:47Z",
   "draftkings|32690|32690/player_reception_longest/Woody Marks/8.5/Under|32690/player_receptions/Kayshon Boutte/2.5/Over": "2026-10-16T01:57:31Z",
   "draftkings|32690|32690/player_reception_longest/Woody Marks/8.5/Under|32690/player_receptions/Marvin Harrison Jr./1.5/Under": "2026-10-16T10:16:42Z",
@@ -7620,6 +7610,7 @@
   "draftkings|53172|53172/player_receptions/Jonah Coleman/1.5/Under|53172/player_receptions/Kenneth Walker III/2.5/Under": "2026-11-01T12:14:24Z",
   "draftkings|53172|53172/player_receptions/Jonah Coleman/1.5/Under|53172/player_rush_yds/J.K. Dobbins/19.5/Under": "2026-10-31T11:23:27Z",
   "draftkings|53172|53172/player_receptions/Kenneth Walker III/2.5/Under|53172/player_rush_attempts/J.K. Dobbins/7.5/Over": "2026-10-29T22:10:10Z",
+  "draftkings|53176|53176/player_reception_yds/Elijah Higgins/14.5/Under|53176/player_reception_yds/Jaxon Smith-Njigba/99.5/Over": "2026-11-05T13:40:43Z",
   "draftkings|53177|53177/player_reception_yds/Keon Coleman/29.5/Under|53177/player_rush_attempts/James Cook/17.5/Over": "2026-11-05T04:01:47Z",
   "draftkings|53245|53245/player_pass_tds/Jalon Daniels/0.5/Under|53245/player_receptions/Cade Otton/3.5/Over": "2026-10-15T15:54:10Z",
   "draftkings|53245|53245/player_pass_tds/Jalon Daniels/0.5/Under|53245/player_receptions/Germie Bernard/2.5/Under": "2026-10-16T10:16:42Z",
@@ -7804,6 +7795,9 @@
   "draftkings|60345|60345/player_receptions/Tyler Higbee/3.5/Under|60345/player_rush_yds/Justin Herbert/24.5/Under": "2026-10-31T20:46:54Z",
   "draftkings|60345|60345/player_rush_yds/Justin Herbert/24.5/Under|60345/player_rush_yds/Kimani Vidal/24.5/Under": "2026-10-30T03:15:35Z",
   "draftkings|636628|636628/player_receptions/Isaac TeSlaa/1.5/Over|636628/player_rush_yds/Sione Vaki/14.5/Under": "2026-11-05T04:01:47Z",
+  "draftkings|636628|636628/player_receptions/Isaac TeSlaa/1.5/Over|636628/player_rush_yds/Sione Vaki/9.5/Under": "2026-11-05T13:40:43Z",
+  "draftkings|636634|636634/player_receptions/Ryan Flournoy/3.5/Over|636634/player_rush_yds/Daniel Jones/6.5/Under": "2026-11-05T13:40:43Z",
+  "draftkings|87238|87238/player_receptions/Josh Cameron/1.5/Over|87238/player_rush_yds/Chris Rodriguez Jr./29.5/Over": "2026-11-05T13:40:43Z",
   "draftkings|87238|87238/player_receptions/Josh Cameron/1.5/Over|87238/player_rush_yds/Chris Rodriguez Jr./29.5/Under": "2026-11-05T04:01:47Z",
   "draftkings|87238|87238/player_rush_attempts/Bhayshul Tuten/16.5/Under|87238/player_rush_yds/Justice Hill/15.5/Over": "2026-11-04T22:59:52Z",
   "fanduel|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
@@ -8125,6 +8119,7 @@
   "fanduel|32687|32687/player_pass_tds/Brock Purdy/1.5/Over|32687/player_receptions/Cooper Kupp/2.5/Over": "2026-10-11T02:34:53Z",
   "fanduel|32687|32687/player_receptions/AJ Barner/2.5/Over|32687/player_rush_yds/Brock Purdy/19.5/Over": "2026-10-08T22:36:05Z",
   "fanduel|32687|32687/player_receptions/Cooper Kupp/2.5/Over|32687/player_rush_yds/Brock Purdy/19.5/Over": "2026-10-11T02:34:53Z",
+  "fanduel|32689|32689/player_reception_yds/Bijan Robinson/14.5/Under|32689/player_reception_yds/Mike Gesicki/14.5/Under": "2026-11-05T13:40:43Z",
   "fanduel|32689|32689/player_receptions/Bijan Robinson/3.5/Over|32689/player_receptions/Chase Brown/3.5/Over": "2026-11-05T04:01:47Z",
   "fanduel|32690|32690/player_reception_longest/Woody Marks/8.5/Under|32690/player_receptions/Kayshon Boutte/2.5/Over": "2026-10-17T09:51:59Z",
   "fanduel|32690|32690/player_reception_longest/Woody Marks/8.5/Under|32690/player_receptions/Marvin Harrison Jr./1.5/Under": "2026-10-16T10:16:42Z",
@@ -8243,6 +8238,7 @@
   "fanduel|53172|53172/player_receptions/Jonah Coleman/1.5/Under|53172/player_receptions/Kenneth Walker III/2.5/Under": "2026-11-01T12:14:24Z",
   "fanduel|53172|53172/player_receptions/Jonah Coleman/1.5/Under|53172/player_rush_yds/J.K. Dobbins/19.5/Under": "2026-10-31T11:23:27Z",
   "fanduel|53172|53172/player_receptions/Kenneth Walker III/2.5/Under|53172/player_rush_attempts/J.K. Dobbins/7.5/Over": "2026-10-29T22:10:10Z",
+  "fanduel|53176|53176/player_reception_yds/Elijah Higgins/14.5/Under|53176/player_reception_yds/Jaxon Smith-Njigba/99.5/Over": "2026-11-05T13:40:43Z",
   "fanduel|53177|53177/player_reception_yds/Keon Coleman/29.5/Under|53177/player_rush_attempts/James Cook/17.5/Over": "2026-11-05T04:01:47Z",
   "fanduel|53245|53245/player_pass_tds/Jalon Daniels/0.5/Under|53245/player_receptions/Cade Otton/3.5/Over": "2026-10-15T15:54:10Z",
   "fanduel|53245|53245/player_pass_tds/Jalon Daniels/0.5/Under|53245/player_receptions/Germie Bernard/2.5/Under": "2026-10-16T10:16:42Z",
@@ -8427,6 +8423,9 @@
   "fanduel|60345|60345/player_receptions/Tyler Higbee/3.5/Under|60345/player_rush_yds/Justin Herbert/24.5/Under": "2026-10-31T20:46:54Z",
   "fanduel|60345|60345/player_rush_yds/Justin Herbert/24.5/Under|60345/player_rush_yds/Kimani Vidal/24.5/Under": "2026-10-30T03:15:35Z",
   "fanduel|636628|636628/player_receptions/Isaac TeSlaa/1.5/Over|636628/player_rush_yds/Sione Vaki/14.5/Under": "2026-11-05T04:01:47Z",
+  "fanduel|636628|636628/player_receptions/Isaac TeSlaa/1.5/Over|636628/player_rush_yds/Sione Vaki/9.5/Under": "2026-11-05T13:40:43Z",
+  "fanduel|636634|636634/player_receptions/Ryan Flournoy/3.5/Over|636634/player_rush_yds/Daniel Jones/6.5/Under": "2026-11-05T13:40:43Z",
+  "fanduel|87238|87238/player_receptions/Josh Cameron/1.5/Over|87238/player_rush_yds/Chris Rodriguez Jr./29.5/Over": "2026-11-05T13:40:43Z",
   "fanduel|87238|87238/player_receptions/Josh Cameron/1.5/Over|87238/player_rush_yds/Chris Rodriguez Jr./29.5/Under": "2026-11-05T04:01:47Z",
   "fanduel|87238|87238/player_rush_attempts/Bhayshul Tuten/16.5/Under|87238/player_rush_yds/Justice Hill/15.5/Over": "2026-11-04T22:59:52Z"
  },
