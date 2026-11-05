@@ -388,3 +388,4 @@ ts,phase,status,events,rows,api_calls,api_remaining,note
 2026-11-04T22:59:56Z,research,ok,0,0,0,,legacy_auto=True; sgp_obs=1
 2026-11-04T23:06:09Z,settle,ok,0,1067,34,4730,"canonical_close={'capture': {'ts': '2026-11-04T22:59:57Z', 'events': 6, 'rows': 34254, 'failures': ['519775:504', '56776:504'], 'backlog': 7}, 'grade': {'ts': '2026-11-04T22:59:57Z', 'rows': 408, 'id_matches': 390, 'exact_matches': 8, 'loose_matches': 10}}"
 2026-11-05T04:01:44Z,capture,ok,15,5119,107,4893,hours_before=144; shadow=22; e1=3
+2026-11-05T04:02:03Z,research,ok,0,0,2,4898,legacy_auto=True; sgp_obs=1
