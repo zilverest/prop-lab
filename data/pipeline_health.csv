@@ -395,3 +395,4 @@ ts,phase,status,events,rows,api_calls,api_remaining,note
 2026-11-05T13:40:40Z,capture,ok,15,6599,108,4766,hours_before=144; shadow=22; e1=8
 2026-11-05T13:41:02Z,research,ok,0,8,1,4766,legacy_auto=True; sgp_obs=1
 2026-11-05T13:41:47Z,settle,ok,0,0,1,4753,"canonical_close={'capture': {'ts': '2026-11-05T13:41:03Z', 'events': 1, 'rows': 6072, 'failures': [], 'backlog': 0}, 'grade': {'ts': '2026-11-05T13:41:03Z', 'rows': 63, 'id_matches': 60, 'exact_matches': 3, 'loose_matches': 0}}"
+2026-11-05T15:41:46Z,capture,ok,1,535,4,4749,hours_before=30.0; shadow=22; e1=4
