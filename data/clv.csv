@@ -1722,3 +1722,17 @@ graded_ts,event_id,market,player,point,side,book,price,ev_pct_at_bet,fair_prob_a
 2026-11-04T22:59:57Z,519775,player_reception_yds,Jaxon Smith-Njigba,99.5,Over,kalshi,108,3.56,0.4979,True,,-117,99.5,0.534545,kalshi,12.1475,11.1853,True,won,118.0,True
 2026-11-04T22:59:57Z,519775,player_rush_yds,D'Andre Swift,64.5,Over,kalshi,138,3.86,0.4364,True,,127,64.5,0.431738,kalshi,4.8458,2.7537,True,won,69.0,True
 2026-11-04T22:59:57Z,519775,player_rush_yds,D'Andre Swift,64.5,Under,hardrock,-140,3.49,0.6037,True,,-145,64.5,0.568262,kalshi,1.4577,-2.5837,True,lost,69.0,True
+2026-11-06T03:58:09Z,87238,player_receptions,Josh Cameron,1.5,Over,kalshi,163,6.47,0.4048,True,,186,1.5,0.361555,pinnacle,-8.042,-4.9109,False,,,True
+2026-11-06T03:58:09Z,87238,player_receptions,Travis Hunter,1.5,Over,kalshi,203,6.18,0.3504,True,,194,1.5,0.352284,pinnacle,3.0612,6.7421,True,,,True
+2026-11-06T03:58:09Z,87238,player_receptions,Zay Flowers,4.5,Over,kalshi,122,4.03,0.4686,True,,-113,4.5,0.524849,pinnacle,17.7746,16.5165,True,,,True
+2026-11-06T03:58:09Z,87238,player_rush_attempts,Bhayshul Tuten,16.5,Under,underdog,-107,5.09,0.5432,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-06T03:58:09Z,87238,player_rush_yds,Justice Hill,15.5,Over,fanatics,110,5.0,0.5,True,,110,15.5,0.442478,fanatics,0.0,-7.0796,False,,,True
+2026-11-06T03:58:09Z,87238,player_rush_yds,Chris Rodriguez Jr.,29.5,Under,kalshi,156,8.09,0.4222,True,,113,29.5,0.465455,kalshi,20.1878,19.1566,True,,,True
+2026-11-06T03:58:09Z,87238,player_rush_yds,Chris Rodriguez Jr.,29.5,Over,pinnacle,-157,10.23,0.6734,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-06T03:58:09Z,87238,player_rush_yds,Derrick Henry,69.5,Under,underdog,-105,4.36,0.5345,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-06T03:58:09Z,87238,player_receptions,Josh Cuevas,1.5,Over,fanatics,210,7.37,0.3464,True,,145,1.5,0.366465,kalshi,26.5306,13.604,True,,,True
+2026-11-06T03:58:09Z,87238,player_receptions,Justice Hill,2.5,Over,underdog,100,4.92,0.5246,True,,-148,2.5,0.549893,pinnacle,19.3548,9.9786,True,,,True
+2026-11-06T03:58:09Z,87238,player_receptions,Rashod Bateman,1.5,Over,fanduel,116,4.89,0.4856,True,,116,1.5,0.458807,pinnacle,0.0,-0.8978,False,,,True
+2026-11-06T03:58:09Z,87238,player_rush_attempts,Derrick Henry,17.5,Over,pinnacle,112,3.85,0.4899,True,,-110,17.5,0.5,pinnacle,11.0476,6.0,True,,,True
+2026-11-06T03:58:09Z,87238,player_rush_yds,Chris Rodriguez Jr.,29.5,Under,pinnacle,126,5.19,0.4655,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-06T03:58:09Z,87238,player_receptions,Matthew Hibner,0.5,Over,fanduel,106,3.0,0.5,True,,106,0.5,0.454201,fanduel,0.0,-6.4345,False,,,True
