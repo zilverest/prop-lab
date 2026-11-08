@@ -32373,3 +32373,475 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-11-08T21:25:45Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Ray Davis,9.5,Under,kalshi,-203,-1.92,0.6571,kalshi,4,27.8
 2026-11-08T21:25:45Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Ray Davis,9.5,Under,hardrock,-240,-6.91,0.6571,kalshi,4,27.8
 2026-11-08T21:25:45Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Ray Davis,9.5,Over,hardrock,170,-7.41,0.3429,kalshi,4,27.8
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_attempts,Baker Mayfield,29.5,Under,fanatics,-115,-4.63,0.5101,bovada,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_attempts,Baker Mayfield,29.5,Over,fanatics,-115,-8.41,0.4899,bovada,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_interceptions,Baker Mayfield,0.5,Over,hardrock,-120,-6.48,0.5101,bovada,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_interceptions,Baker Mayfield,0.5,Under,hardrock,-110,-6.48,0.4899,bovada,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_interceptions,Caleb Williams,0.5,Under,pinnacle,-133,0.76,0.5752,bovada,12,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Caleb Williams,1.5,Over,fanduel,-144,-2.63,0.5747,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Caleb Williams,1.5,Over,hardrock,-155,-5.46,0.5747,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Caleb Williams,1.5,Under,pinnacle,118,-7.27,0.4253,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Caleb Williams,1.5,Under,fanduel,110,-10.68,0.4253,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds,Baker Mayfield,210.5,Under,hardrock,-120,-8.33,0.5,bovada,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds,Caleb Williams,249.5,Over,kalshi,117,-1.03,0.4561,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds,Caleb Williams,249.5,Under,kalshi,-122,-1.03,0.5439,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds,Caleb Williams,249.5,Under,hardrock,-130,-3.77,0.5439,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds,Caleb Williams,249.5,Over,hardrock,-105,-10.95,0.4561,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Bucky Irving,14.5,Under,draftkings,-115,-1.92,0.5246,kalshi,7,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Bucky Irving,14.5,Over,draftkings,-109,-8.84,0.4754,kalshi,7,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Cade Otton,29.5,Under,hardrock,-120,-2.0,0.5345,kalshi,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Cade Otton,29.5,Over,hardrock,-110,-11.14,0.4655,kalshi,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,39.5,Under,bovada,150,3.97,0.4159,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,39.5,Over,kalshi,-144,-1.02,0.5841,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,39.5,Under,kalshi,138,-1.02,0.4159,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,39.5,Under,hardrock,130,-4.35,0.4159,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,39.5,Over,hardrock,-185,-10.01,0.5841,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,39.5,Over,bovada,-200,-12.38,0.5841,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Kenneth Gainwell,9.5,Over,draftkings,-109,-2.19,0.5101,bovada,9,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Kenneth Gainwell,9.5,Under,draftkings,-115,-8.41,0.4899,bovada,9,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,39.5,Under,bovada,150,1.46,0.4058,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,39.5,Over,kalshi,-150,-0.97,0.5942,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,39.5,Under,kalshi,144,-0.97,0.4058,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,39.5,Under,hardrock,130,-6.66,0.4058,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,39.5,Over,hardrock,-190,-9.31,0.5942,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,39.5,Over,bovada,-200,-10.88,0.5942,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,49.5,Over,kalshi,104,-0.93,0.4856,kalshi,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,49.5,Under,kalshi,-108,-0.93,0.5144,kalshi,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,49.5,Under,bovada,-115,-3.83,0.5144,kalshi,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,49.5,Under,hardrock,-115,-3.83,0.5144,kalshi,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,49.5,Over,bovada,-115,-9.21,0.4856,kalshi,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,49.5,Over,hardrock,-115,-9.21,0.4856,kalshi,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Over,underdog,-112,-0.7,0.5246,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Over,kalshi,-113,-1.12,0.5246,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Under,kalshi,108,-1.12,0.4754,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Over,fanduel,-114,-1.52,0.5246,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Under,draftkings,107,-1.59,0.4754,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Over,pinnacle,-116,-2.32,0.5246,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Under,bovada,105,-2.54,0.4754,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Over,fanatics,-120,-3.82,0.5246,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Over,hardrock,-125,-5.57,0.5246,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Under,pinnacle,-104,-6.75,0.4754,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Under,hardrock,-105,-7.18,0.4754,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Over,bovada,-135,-8.68,0.5246,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Under,fanatics,-110,-9.24,0.4754,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Over,draftkings,-137,-9.25,0.5246,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Under,underdog,-112,-10.01,0.4754,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Under,fanduel,-114,-10.76,0.4754,kalshi,16,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Kalif Raymond,2.5,Under,hardrock,-165,2.33,0.6371,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Kalif Raymond,2.5,Over,kalshi,170,-2.03,0.3629,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Kalif Raymond,2.5,Under,kalshi,-186,-2.03,0.6371,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Kalif Raymond,2.5,Over,hardrock,125,-18.36,0.3629,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Luther Burden III,4.5,Under,hardrock,125,0.36,0.446,kalshi,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Luther Burden III,4.5,Over,kalshi,-127,-0.98,0.554,kalshi,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Luther Burden III,4.5,Under,kalshi,122,-0.98,0.446,kalshi,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Luther Burden III,4.5,Under,draftkings,117,-3.21,0.446,kalshi,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Luther Burden III,4.5,Over,draftkings,-149,-7.42,0.554,kalshi,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Luther Burden III,4.5,Over,hardrock,-160,-9.98,0.554,kalshi,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Luther Burden III,5.5,Under,hardrock,-170,-4.12,0.6037,kalshi,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Luther Burden III,5.5,Under,fanatics,-180,-6.09,0.6037,kalshi,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Luther Burden III,5.5,Over,fanatics,130,-8.85,0.3963,kalshi,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,2.5,Over,kalshi,-163,-1.03,0.6134,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,2.5,Under,kalshi,156,-1.03,0.3866,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,2.5,Over,hardrock,-195,-7.2,0.6134,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,2.5,Under,hardrock,135,-9.15,0.3866,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Over,kalshi,138,-1.02,0.4159,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Under,kalshi,-144,-1.02,0.5841,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Over,fanduel,134,-2.69,0.4159,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Under,pinnacle,-154,-3.66,0.5841,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Over,bovada,130,-4.35,0.4159,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Over,fanatics,130,-4.35,0.4159,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Over,hardrock,130,-4.35,0.4159,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Under,draftkings,-162,-5.53,0.5841,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Over,draftkings,127,-5.6,0.4159,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Over,pinnacle,126,-6.01,0.4159,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Under,bovada,-170,-7.23,0.5841,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Under,hardrock,-175,-8.21,0.5841,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Under,fanatics,-180,-9.14,0.5841,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Rome Odunze,3.5,Under,fanduel,-180,-9.14,0.5841,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Ted Hurst,1.5,Under,draftkings,-102,-2.98,0.4899,bovada,9,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Ted Hurst,1.5,Over,pinnacle,-111,-3.03,0.5101,bovada,9,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Ted Hurst,1.5,Under,pinnacle,-109,-6.07,0.4899,bovada,9,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Ted Hurst,1.5,Over,draftkings,-125,-8.18,0.5101,bovada,9,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Tez Johnson,1.5,Under,pinnacle,-139,0.44,0.5841,kalshi,12,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Tez Johnson,1.5,Under,fanatics,-155,-3.9,0.5841,kalshi,12,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Tez Johnson,1.5,Over,fanatics,115,-10.59,0.4159,kalshi,12,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Tez Johnson,1.5,Over,pinnacle,115,-10.59,0.4159,kalshi,12,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_attempts,Bucky Irving,15.5,Under,hardrock,-110,-2.61,0.5101,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_attempts,Bucky Irving,15.5,Over,hardrock,-120,-10.19,0.4899,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_attempts,Kenneth Gainwell,6.5,Over,pinnacle,106,-3.31,0.4694,bovada,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_attempts,Kenneth Gainwell,6.5,Under,pinnacle,-129,-5.81,0.5306,bovada,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_attempts,Roschon Johnson,5.5,Under,pinnacle,-127,-3.34,0.5408,bovada,7,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_attempts,Roschon Johnson,5.5,Over,pinnacle,105,-5.86,0.4592,bovada,7,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_reception_yds,Roschon Johnson,24.5,Over,hardrock,-115,-4.63,0.5101,bovada,7,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_reception_yds,Roschon Johnson,24.5,Under,hardrock,-115,-8.41,0.4899,bovada,7,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,65.5,Over,hardrock,-115,-6.52,0.5,bovada,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,65.5,Under,hardrock,-115,-6.52,0.5,bovada,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Roschon Johnson,16.5,Over,pinnacle,-110,-4.55,0.5,bovada,11,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Roschon Johnson,16.5,Under,pinnacle,-110,-4.55,0.5,bovada,11,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_anytime_td,Colston Loveland,,No,hardrock,-230,-9.1,0.6335,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_anytime_td,Luther Burden III,,No,hardrock,-230,-9.1,0.6335,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_anytime_td,Rome Odunze,,Yes,hardrock,175,-7.4,0.3367,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_longest_completion,Baker Mayfield,35.5,Over,draftkings,-115,-4.63,0.5101,bovada,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_longest_completion,Baker Mayfield,35.5,Under,draftkings,-112,-7.27,0.4899,bovada,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_attempts,Caleb Williams,31.5,Under,pinnacle,106,-3.31,0.4694,bovada,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_attempts,Caleb Williams,31.5,Over,fanatics,-125,-4.49,0.5306,bovada,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_attempts,Caleb Williams,31.5,Over,draftkings,-126,-4.83,0.5306,bovada,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_attempts,Caleb Williams,31.5,Over,pinnacle,-128,-5.48,0.5306,bovada,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_attempts,Caleb Williams,31.5,Over,bovada,-130,-6.12,0.5306,bovada,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_attempts,Caleb Williams,31.5,Under,bovada,100,-6.12,0.4694,bovada,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_attempts,Caleb Williams,31.5,Under,draftkings,-101,-6.59,0.4694,bovada,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_attempts,Caleb Williams,31.5,Under,fanatics,-105,-8.36,0.4694,bovada,8,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_rush_yds,Caleb Williams,269.5,Over,draftkings,-112,-5.36,0.5,bovada,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_rush_yds,Caleb Williams,269.5,Under,draftkings,-114,-6.14,0.5,bovada,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Baker Mayfield,1.5,Over,kalshi,150,-0.93,0.3963,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Baker Mayfield,1.5,Under,kalshi,-156,-0.93,0.6037,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Baker Mayfield,1.5,Under,draftkings,-163,-2.59,0.6037,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Baker Mayfield,1.5,Under,bovada,-165,-3.04,0.6037,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Baker Mayfield,1.5,Over,pinnacle,143,-3.7,0.3963,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Baker Mayfield,1.5,Under,hardrock,-175,-5.13,0.6037,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Baker Mayfield,1.5,Under,pinnacle,-175,-5.13,0.6037,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Baker Mayfield,1.5,Under,fanduel,-178,-5.71,0.6037,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Baker Mayfield,1.5,Over,fanduel,136,-6.48,0.3963,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Baker Mayfield,1.5,Over,hardrock,130,-8.85,0.3963,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Baker Mayfield,1.5,Over,draftkings,127,-10.04,0.3963,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_tds,Baker Mayfield,1.5,Over,bovada,125,-10.84,0.3963,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds,Baker Mayfield,224.5,Over,hardrock,120,-12.82,0.3963,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds,Caleb Williams,224.5,Over,kalshi,-163,-1.03,0.6134,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds,Caleb Williams,224.5,Under,kalshi,156,-1.03,0.3866,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds,Caleb Williams,245.5,Under,hardrock,-115,-6.52,0.5,bovada,7,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds,Caleb Williams,246.5,Over,bovada,-115,-6.52,0.5,bovada,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds,Caleb Williams,246.5,Under,bovada,-115,-6.52,0.5,bovada,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds,Caleb Williams,246.5,Over,hardrock,-115,-6.52,0.5,bovada,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_pass_yds,Caleb Williams,246.5,Under,hardrock,-120,-8.33,0.5,bovada,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_longest,D'Andre Swift,11.5,Over,underdog,-104,-1.92,0.5,bovada,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_longest,D'Andre Swift,11.5,Over,hardrock,-110,-4.55,0.5,bovada,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_longest,D'Andre Swift,11.5,Over,draftkings,-113,-5.75,0.5,bovada,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_longest,D'Andre Swift,11.5,Over,bovada,-115,-6.52,0.5,bovada,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_longest,D'Andre Swift,11.5,Under,bovada,-115,-6.52,0.5,bovada,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_longest,D'Andre Swift,11.5,Under,draftkings,-115,-6.52,0.5,bovada,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_longest,D'Andre Swift,11.5,Under,hardrock,-120,-8.33,0.5,bovada,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_longest,D'Andre Swift,11.5,Under,underdog,-120,-8.33,0.5,bovada,6,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_longest,Kenneth Gainwell,7.5,Over,draftkings,-103,-3.45,0.4899,bovada,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_longest,Kenneth Gainwell,7.5,Under,hardrock,-115,-4.63,0.5101,bovada,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_longest,Kenneth Gainwell,7.5,Under,draftkings,-125,-8.18,0.5101,bovada,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_longest,Kenneth Gainwell,7.5,Over,hardrock,-115,-8.41,0.4899,bovada,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Bucky Irving,19.5,Over,kalshi,170,-1.05,0.3665,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Bucky Irving,19.5,Under,kalshi,-178,-1.05,0.6335,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Bucky Irving,19.5,Under,hardrock,-185,-2.4,0.6335,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Bucky Irving,19.5,Over,hardrock,130,-15.71,0.3665,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Cade Otton,19.5,Under,hardrock,165,-6.51,0.3528,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Cade Otton,19.5,Over,hardrock,-240,-8.31,0.6472,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Cade Otton,24.5,Over,kalshi,-138,-2.94,0.5628,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Cade Otton,24.5,Under,kalshi,122,-2.94,0.4372,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Cade Otton,24.5,Under,hardrock,120,-3.81,0.4372,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Cade Otton,24.5,Over,hardrock,-160,-8.55,0.5628,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Cade Otton,39.5,Under,hardrock,-230,-4.84,0.6633,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Cade Otton,39.5,Over,hardrock,160,-12.45,0.3367,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,D'Andre Swift,21.5,Over,draftkings,-112,-5.36,0.5,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,D'Andre Swift,21.5,Under,draftkings,-112,-5.36,0.5,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,D'Andre Swift,21.5,Over,underdog,-112,-5.36,0.5,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,D'Andre Swift,21.5,Under,underdog,-112,-5.36,0.5,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,D'Andre Swift,21.5,Over,bovada,-115,-6.52,0.5,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,D'Andre Swift,21.5,Under,bovada,-115,-6.52,0.5,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,D'Andre Swift,21.5,Over,hardrock,-115,-6.52,0.5,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,D'Andre Swift,21.5,Under,hardrock,-115,-6.52,0.5,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,59.5,Over,kalshi,163,-0.98,0.3765,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,59.5,Under,kalshi,-170,-0.98,0.6235,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,59.5,Under,bovada,-185,-3.95,0.6235,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,59.5,Under,hardrock,-185,-3.95,0.6235,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,59.5,Over,bovada,140,-9.64,0.3765,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,59.5,Over,hardrock,130,-13.4,0.3765,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Kalif Raymond,9.5,Over,kalshi,-170,-0.98,0.6235,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Kalif Raymond,9.5,Under,kalshi,163,-0.98,0.3765,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Kalif Raymond,9.5,Under,hardrock,155,-3.99,0.3765,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Kalif Raymond,9.5,Over,hardrock,-220,-9.31,0.6235,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Luther Burden III,59.5,Over,hardrock,-160,-11.62,0.5439,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Luther Burden III,69.5,Over,kalshi,117,-1.99,0.4517,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Luther Burden III,69.5,Under,kalshi,-127,-1.99,0.5483,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Luther Burden III,69.5,Under,hardrock,-135,-4.55,0.5483,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Luther Burden III,69.5,Over,hardrock,-105,-11.82,0.4517,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,45.5,Over,fanatics,-135,-1.94,0.5633,bovada,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,45.5,Over,hardrock,-140,-3.43,0.5633,bovada,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,45.5,Under,fanatics,100,-12.66,0.4367,bovada,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,54.5,Over,kalshi,122,-2.08,0.4411,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,54.5,Under,kalshi,-133,-2.08,0.5589,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,54.5,Under,bovada,-145,-5.56,0.5589,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,54.5,Under,hardrock,-150,-6.85,0.5589,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,54.5,Over,bovada,110,-7.38,0.4411,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,54.5,Over,hardrock,110,-7.38,0.4411,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,59.5,Over,kalshi,156,-1.03,0.3866,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,59.5,Under,kalshi,-163,-1.03,0.6134,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,59.5,Under,bovada,-185,-5.5,0.6134,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,59.5,Under,hardrock,-185,-5.5,0.6134,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,59.5,Over,bovada,140,-7.21,0.3866,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,59.5,Over,hardrock,135,-9.15,0.3866,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,69.5,Over,kalshi,223,-0.92,0.3067,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,69.5,Under,kalshi,-233,-0.92,0.6933,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Tez Johnson,15.5,Over,fanatics,-110,-4.55,0.5,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Tez Johnson,15.5,Under,hardrock,-110,-4.55,0.5,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Tez Johnson,15.5,Under,fanatics,-120,-8.33,0.5,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Tez Johnson,15.5,Over,hardrock,-120,-8.33,0.5,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Bucky Irving,2.5,Under,pinnacle,-108,-0.93,0.5144,kalshi,15,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Bucky Irving,2.5,Over,fanatics,100,-2.88,0.4856,kalshi,15,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Bucky Irving,2.5,Under,draftkings,-119,-5.34,0.5144,kalshi,15,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Bucky Irving,2.5,Over,draftkings,-107,-6.05,0.4856,kalshi,15,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Bucky Irving,2.5,Over,pinnacle,-112,-8.08,0.4856,kalshi,15,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Bucky Irving,2.5,Under,fanatics,-135,-10.46,0.5144,kalshi,15,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,2.5,Under,hardrock,140,-2.05,0.4081,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,2.5,Over,kalshi,-156,-2.87,0.5919,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,2.5,Under,kalshi,138,-2.87,0.4081,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,2.5,Over,hardrock,-195,-10.46,0.5919,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Under,draftkings,-163,-1.94,0.6078,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Over,kalshi,150,-1.94,0.3922,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Under,kalshi,-163,-1.94,0.6078,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Under,bovada,-165,-2.39,0.6078,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Under,hardrock,-165,-2.39,0.6078,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Under,pinnacle,-167,-2.83,0.6078,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Under,fanduel,-174,-4.3,0.6078,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Under,fanatics,-180,-5.46,0.6078,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Over,pinnacle,137,-7.04,0.3922,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Over,fanatics,130,-9.78,0.3922,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Over,fanduel,130,-9.78,0.3922,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Over,draftkings,128,-10.57,0.3922,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Over,bovada,125,-11.74,0.3922,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Cade Otton,3.5,Over,hardrock,125,-11.74,0.3922,kalshi,13,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Chris Godwin Jr.,3.5,Over,fanatics,-115,-5.61,0.5049,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Chris Godwin Jr.,3.5,Under,fanatics,-115,-7.43,0.4951,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Colston Loveland,4.5,Over,kalshi,-170,-1.99,0.6171,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Colston Loveland,4.5,Under,kalshi,156,-1.99,0.3829,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Colston Loveland,4.5,Under,hardrock,150,-4.28,0.3829,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Colston Loveland,4.5,Over,hardrock,-210,-8.9,0.6171,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Colston Loveland,5.5,Under,fanatics,-125,-2.1,0.5439,kalshi,15,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Colston Loveland,5.5,Over,pinnacle,111,-3.76,0.4561,kalshi,15,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Colston Loveland,5.5,Over,fanatics,-105,-10.95,0.4561,kalshi,15,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,2.5,Over,kalshi,-133,-1.12,0.5644,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,2.5,Under,kalshi,127,-1.12,0.4356,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,2.5,Over,pinnacle,-137,-2.36,0.5644,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,2.5,Under,bovada,120,-4.17,0.4356,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,2.5,Under,draftkings,119,-4.61,0.4356,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,2.5,Over,fanduel,-148,-5.42,0.5644,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,2.5,Over,hardrock,-150,-5.93,0.5644,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,2.5,Under,hardrock,115,-6.35,0.4356,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,2.5,Over,draftkings,-152,-6.43,0.5644,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,2.5,Under,pinnacle,113,-7.22,0.4356,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,2.5,Under,fanduel,112,-7.66,0.4356,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,2.5,Over,bovada,-160,-8.28,0.5644,kalshi,14,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,3.5,Over,kalshi,170,-1.05,0.3665,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,3.5,Under,kalshi,-178,-1.05,0.6335,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,3.5,Over,hardrock,160,-4.72,0.3665,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,3.5,Over,fanatics,155,-6.55,0.3665,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,3.5,Under,fanatics,-220,-7.85,0.6335,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,D'Andre Swift,3.5,Under,hardrock,-225,-8.49,0.6335,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,2.5,Over,kalshi,-233,-0.92,0.6933,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,2.5,Under,kalshi,223,-0.92,0.3067,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,2.5,Under,hardrock,220,-1.84,0.3067,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,2.5,Over,hardrock,-350,-10.87,0.6933,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Kenneth Gainwell,1.5,Over,draftkings,-161,-4.11,0.5915,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Kenneth Gainwell,1.5,Under,draftkings,126,-7.69,0.4085,bovada,10,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Ted Hurst III,1.5,Under,fanatics,-115,-3.83,0.5144,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Ted Hurst III,1.5,Over,fanatics,-115,-9.21,0.4856,kalshi,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_longest,Caleb Williams,11.5,Under,underdog,-121,-4.97,0.5203,bovada,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_longest,Caleb Williams,11.5,Over,underdog,-102,-5.0,0.4797,bovada,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_longest,Caleb Williams,11.5,Over,draftkings,-104,-5.91,0.4797,bovada,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_longest,Caleb Williams,11.5,Over,bovada,-105,-6.35,0.4797,bovada,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_longest,Caleb Williams,11.5,Under,bovada,-125,-6.35,0.5203,bovada,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_longest,Caleb Williams,11.5,Under,draftkings,-125,-6.35,0.5203,bovada,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_reception_yds,Kenneth Gainwell,35.5,Over,hardrock,-110,-2.61,0.5101,bovada,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_reception_yds,Kenneth Gainwell,35.5,Under,hardrock,-120,-10.19,0.4899,bovada,5,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,49.5,Over,kalshi,-203,-1.0,0.6633,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,49.5,Under,kalshi,194,-1.0,0.3367,kalshi,3,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,59.5,Over,kalshi,-127,-1.99,0.5483,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,59.5,Under,kalshi,117,-1.99,0.4517,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,59.5,Under,hardrock,110,-5.15,0.4517,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,59.5,Over,hardrock,-155,-9.79,0.5483,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,69.5,Over,kalshi,127,-1.12,0.4356,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,69.5,Under,kalshi,-133,-1.12,0.5644,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,69.5,Under,hardrock,-145,-4.63,0.5644,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,69.5,Over,hardrock,105,-10.7,0.4356,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,79.5,Under,hardrock,-220,-3.52,0.6633,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,Bucky Irving,79.5,Over,hardrock,155,-14.13,0.3367,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,D'Andre Swift,69.5,Over,kalshi,138,-1.98,0.4119,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,D'Andre Swift,69.5,Under,kalshi,-150,-1.98,0.5881,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,D'Andre Swift,69.5,Under,hardrock,-165,-5.54,0.5881,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_rush_yds,D'Andre Swift,69.5,Over,hardrock,115,-11.45,0.4119,kalshi,4,2.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_pass_tds,Josh Allen,1.5,Under,hardrock,-190,-9.31,0.5942,kalshi,12,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Ben Yurosek,2.5,Over,draftkings,-111,-4.95,0.5,bovada,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Ben Yurosek,2.5,Under,draftkings,-113,-5.75,0.5,bovada,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Ben Yurosek,2.5,Over,hardrock,-115,-6.52,0.5,bovada,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Dalton Kincaid,46.5,Under,hardrock,-200,-6.25,0.625,bovada,3,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Justin Jefferson,69.5,Over,hardrock,-170,-6.59,0.5881,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Justin Jefferson,69.5,Under,hardrock,125,-7.33,0.4119,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Justin Jefferson,77.5,Under,hardrock,-110,-4.55,0.5,bovada,8,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Justin Jefferson,77.5,Over,hardrock,-125,-10.0,0.5,bovada,8,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,DJ Moore,3.5,Under,bovada,105,0.57,0.4906,kalshi,10,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,DJ Moore,3.5,Under,fanatics,100,-1.89,0.4906,kalshi,10,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,DJ Moore,3.5,Under,hardrock,100,-1.89,0.4906,kalshi,10,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,DJ Moore,3.5,Over,kalshi,-108,-1.89,0.5094,kalshi,10,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,DJ Moore,3.5,Under,kalshi,-100,-1.89,0.4906,kalshi,10,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,DJ Moore,3.5,Over,pinnacle,-114,-4.37,0.5094,kalshi,10,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,DJ Moore,3.5,Under,pinnacle,-106,-4.66,0.4906,kalshi,10,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,DJ Moore,3.5,Over,hardrock,-130,-9.87,0.5094,kalshi,10,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,DJ Moore,3.5,Over,bovada,-135,-11.32,0.5094,kalshi,10,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,DJ Moore,3.5,Over,fanatics,-135,-11.32,0.5094,kalshi,10,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,5.5,Under,hardrock,155,1.05,0.3963,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Over,kalshi,104,-0.93,0.4856,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Under,kalshi,-108,-0.93,0.5144,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Under,pinnacle,-109,-1.37,0.5144,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Under,hardrock,-115,-3.83,0.5144,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Under,draftkings,-116,-4.22,0.5144,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Under,underdog,-118,-4.97,0.5144,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Over,fanatics,-105,-5.19,0.4856,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Over,underdog,-105,-5.19,0.4856,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Under,bovada,-120,-5.7,0.5144,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Under,fanduel,-122,-6.4,0.5144,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Over,fanduel,-108,-6.47,0.4856,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Over,bovada,-110,-7.29,0.4856,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Over,draftkings,-110,-7.29,0.4856,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Under,fanatics,-125,-7.41,0.5144,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Over,pinnacle,-111,-7.69,0.4856,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Over,hardrock,-115,-9.21,0.4856,kalshi,14,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Skyler Bell,0.5,Over,kalshi,-117,-0.86,0.5345,kalshi,8,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Skyler Bell,0.5,Under,kalshi,113,-0.86,0.4655,kalshi,8,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Skyler Bell,0.5,Under,bovada,110,-2.25,0.4655,kalshi,8,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Skyler Bell,0.5,Under,hardrock,110,-2.25,0.4655,kalshi,8,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Skyler Bell,0.5,Under,fanduel,106,-4.12,0.4655,kalshi,8,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Skyler Bell,0.5,Over,draftkings,-130,-5.43,0.5345,kalshi,8,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Skyler Bell,0.5,Under,draftkings,102,-5.98,0.4655,kalshi,8,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Skyler Bell,0.5,Over,fanduel,-140,-8.36,0.5345,kalshi,8,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Skyler Bell,0.5,Over,hardrock,-140,-8.36,0.5345,kalshi,8,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Skyler Bell,0.5,Over,bovada,-145,-9.68,0.5345,kalshi,8,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_pass_yds,Carson Wentz,174.5,Over,kalshi,-245,-1.94,0.6964,kalshi,3,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_pass_yds,Carson Wentz,174.5,Under,kalshi,223,-1.94,0.3036,kalshi,3,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_pass_yds,Josh Allen,224.5,Over,kalshi,-144,-1.02,0.5841,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_pass_yds,Josh Allen,224.5,Under,kalshi,138,-1.02,0.4159,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_pass_yds,Josh Allen,224.5,Over,hardrock,-165,-6.19,0.5841,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_pass_yds,Josh Allen,224.5,Under,hardrock,120,-8.51,0.4159,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_pass_yds,Josh Allen,249.5,Over,kalshi,127,-1.12,0.4356,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_pass_yds,Josh Allen,249.5,Under,kalshi,-133,-1.12,0.5644,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_pass_yds,Josh Allen,249.5,Over,hardrock,115,-6.35,0.4356,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_pass_yds,Josh Allen,249.5,Under,hardrock,-155,-7.15,0.5644,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_longest,Jordan Addison,19.5,Over,hardrock,-110,-6.48,0.4899,bovada,5,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_longest,Jordan Addison,19.5,Under,hardrock,-120,-6.48,0.5101,bovada,5,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Ben Yurosek,9.5,Under,hardrock,-250,-6.66,0.6667,kalshi,3,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Ben Yurosek,9.5,Over,hardrock,170,-10.02,0.3333,kalshi,3,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Dalton Kincaid,49.5,Over,kalshi,186,-1.92,0.3429,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Dalton Kincaid,49.5,Under,kalshi,-203,-1.92,0.6571,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Dalton Kincaid,49.5,Under,hardrock,-240,-6.91,0.6571,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Dalton Kincaid,49.5,Over,hardrock,165,-9.13,0.3429,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Dawson Knox,9.5,Over,kalshi,122,-2.08,0.4411,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Dawson Knox,9.5,Under,kalshi,-133,-2.08,0.5589,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Dawson Knox,9.5,Under,hardrock,-145,-5.56,0.5589,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Dawson Knox,9.5,Over,hardrock,105,-9.58,0.4411,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Dawson Knox,14.5,Under,hardrock,-240,-6.04,0.6633,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,29.5,Over,kalshi,-178,-3.0,0.6211,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,29.5,Under,kalshi,156,-3.0,0.3789,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,29.5,Under,hardrock,145,-7.17,0.3789,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,29.5,Over,hardrock,-210,-8.32,0.6211,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,36.5,Over,hardrock,-140,-3.43,0.5633,bovada,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,36.5,Over,bovada,-150,-6.11,0.5633,bovada,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,36.5,Under,bovada,115,-6.11,0.4367,bovada,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,36.5,Under,hardrock,100,-12.66,0.4367,bovada,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,41.5,Over,draftkings,-110,-4.55,0.5,bovada,5,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,41.5,Over,hardrock,-110,-4.55,0.5,bovada,5,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,41.5,Under,draftkings,-114,-6.14,0.5,bovada,5,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,41.5,Over,bovada,-115,-6.52,0.5,bovada,5,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,41.5,Under,bovada,-115,-6.52,0.5,bovada,5,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,41.5,Under,hardrock,-125,-10.0,0.5,bovada,5,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,49.5,Under,hardrock,-185,-5.79,0.6115,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Jordan Addison,49.5,Over,hardrock,130,-10.65,0.3885,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Justin Jefferson,67.5,Under,hardrock,135,-4.01,0.4085,bovada,3,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Justin Jefferson,67.5,Over,hardrock,-185,-8.87,0.5915,bovada,3,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Justin Jefferson,79.5,Over,hardrock,-115,-7.43,0.4951,kalshi,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Justin Jefferson,79.5,Under,hardrock,-120,-7.44,0.5049,kalshi,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Justin Jefferson,89.5,Over,hardrock,125,-8.17,0.4081,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Justin Jefferson,99.5,Over,kalshi,194,-1.0,0.3367,kalshi,3,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Justin Jefferson,99.5,Under,kalshi,-203,-1.0,0.6633,kalshi,3,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Keon Coleman,29.5,Under,underdog,-112,-0.85,0.5238,kalshi,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Keon Coleman,29.5,Over,kalshi,104,-2.85,0.4762,kalshi,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Keon Coleman,29.5,Under,kalshi,-117,-2.85,0.5238,kalshi,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Keon Coleman,29.5,Under,hardrock,-130,-7.33,0.5238,kalshi,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Keon Coleman,29.5,Over,hardrock,-110,-9.09,0.4762,kalshi,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Keon Coleman,29.5,Over,underdog,-112,-9.86,0.4762,kalshi,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Khalil Shakir,24.5,Over,hardrock,-275,-5.65,0.6919,kalshi,3,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Khalil Shakir,29.5,Under,hardrock,145,-12.75,0.3561,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Khalil Shakir,39.5,Over,kalshi,-104,-1.92,0.5,kalshi,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Khalil Shakir,39.5,Under,kalshi,-104,-1.92,0.5,kalshi,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Khalil Shakir,39.5,Over,hardrock,-115,-6.52,0.5,kalshi,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Khalil Shakir,39.5,Under,hardrock,-120,-8.33,0.5,kalshi,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Skyler Bell,4.5,Under,draftkings,-110,-4.55,0.5,bovada,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Skyler Bell,4.5,Under,hardrock,-110,-4.55,0.5,bovada,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Skyler Bell,4.5,Over,draftkings,-114,-6.14,0.5,bovada,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Skyler Bell,4.5,Over,bovada,-115,-6.52,0.5,bovada,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Skyler Bell,4.5,Under,bovada,-115,-6.52,0.5,bovada,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Skyler Bell,4.5,Over,hardrock,-125,-10.0,0.5,bovada,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Skyler Bell,9.5,Over,hardrock,125,-8.17,0.4081,kalshi,3,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,T.J. Hockenson,39.5,Under,hardrock,-110,-9.24,0.4754,kalshi,5,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,T.J. Hockenson,49.5,Over,hardrock,140,-6.76,0.3885,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Ty Johnson,9.5,Under,hardrock,155,-5.92,0.3689,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Ty Johnson,24.5,Over,hardrock,180,-6.69,0.3333,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_reception_yds,Ty Johnson,24.5,Under,hardrock,-260,-7.68,0.6667,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Aaron Jones Sr.,1.5,Over,kalshi,-127,-0.98,0.554,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Aaron Jones Sr.,1.5,Under,kalshi,122,-0.98,0.446,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Aaron Jones Sr.,1.5,Over,fanatics,-135,-3.57,0.554,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Aaron Jones Sr.,1.5,Over,hardrock,-135,-3.57,0.554,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Aaron Jones Sr.,1.5,Under,hardrock,105,-8.56,0.446,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Aaron Jones Sr.,1.5,Under,fanatics,100,-10.79,0.446,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Ben Yurosek,0.5,Under,bovada,105,-5.55,0.4607,kalshi,9,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Ben Yurosek,0.5,Under,draftkings,105,-5.55,0.4607,kalshi,9,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Ben Yurosek,0.5,Over,draftkings,-134,-5.83,0.5393,kalshi,9,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Ben Yurosek,0.5,Over,bovada,-135,-6.12,0.5393,kalshi,9,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,DJ Moore,4.5,Under,hardrock,-230,-5.22,0.6606,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Over,kalshi,117,-1.03,0.4561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Under,kalshi,-122,-1.03,0.5439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Over,pinnacle,116,-1.48,0.4561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Over,hardrock,115,-1.94,0.4561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Over,fanduel,112,-3.31,0.4561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Over,fanatics,110,-4.22,0.4561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Under,bovada,-135,-5.32,0.5439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Over,draftkings,107,-5.59,0.4561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Under,draftkings,-137,-5.91,0.5439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Over,bovada,105,-6.5,0.4561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Under,pinnacle,-141,-7.03,0.5439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Under,hardrock,-145,-8.1,0.5439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Under,fanduel,-148,-8.86,0.5439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dalton Kincaid,3.5,Under,fanatics,-150,-9.35,0.5439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Over,kalshi,178,-1.0,0.3561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Under,kalshi,-186,-1.0,0.6439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Over,bovada,170,-3.85,0.3561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Over,draftkings,170,-3.85,0.3561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Under,pinnacle,-205,-4.2,0.6439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Over,pinnacle,166,-5.27,0.3561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Under,draftkings,-220,-6.35,0.6439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Under,fanduel,-220,-6.35,0.6439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Over,fanduel,162,-6.69,0.3561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Under,hardrock,-225,-7.0,0.6439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Over,fanatics,160,-7.41,0.3561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Over,hardrock,160,-7.41,0.3561,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Under,bovada,-230,-7.62,0.6439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Dawson Knox,1.5,Under,fanatics,-230,-7.62,0.6439,kalshi,13,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,James Cook III,1.5,Over,kalshi,-122,-1.03,0.5439,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,James Cook III,1.5,Under,kalshi,117,-1.03,0.4561,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,James Cook III,1.5,Under,fanatics,110,-4.22,0.4561,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,James Cook III,1.5,Under,hardrock,110,-4.22,0.4561,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,James Cook III,1.5,Over,hardrock,-140,-6.76,0.5439,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,James Cook III,1.5,Over,fanatics,-150,-9.35,0.5439,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Jordan Addison,4.5,Over,hardrock,175,-12.75,0.3173,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,7.5,Over,kalshi,186,-1.92,0.3429,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,7.5,Under,kalshi,-203,-1.92,0.6571,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,7.5,Under,hardrock,-210,-3.0,0.6571,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,7.5,Over,hardrock,150,-14.27,0.3429,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Khalil Shakir,4.5,Under,hardrock,-185,-6.37,0.6078,kalshi,6,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Ty Johnson,1.5,Over,hardrock,-220,-10.47,0.6155,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Jordan Mason,59.5,Over,kalshi,194,-1.0,0.3367,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Jordan Mason,59.5,Under,kalshi,-203,-1.0,0.6633,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Jordan Mason,59.5,Under,hardrock,-220,-3.52,0.6633,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Jordan Mason,59.5,Over,hardrock,155,-14.13,0.3367,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Josh Allen,24.5,Over,kalshi,-186,-1.0,0.6439,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Josh Allen,24.5,Under,kalshi,178,-1.0,0.3561,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Josh Allen,24.5,Over,hardrock,-220,-6.35,0.6439,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Josh Allen,24.5,Under,hardrock,155,-9.19,0.3561,kalshi,4,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Josh Allen,29.5,Over,kalshi,-113,-1.12,0.5246,kalshi,5,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Josh Allen,29.5,Under,kalshi,108,-1.12,0.4754,kalshi,5,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Josh Allen,29.5,Under,hardrock,105,-2.54,0.4754,kalshi,5,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Josh Allen,29.5,Over,hardrock,-145,-11.36,0.5246,kalshi,5,26.3
+2026-11-08T22:59:39Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Josh Allen,39.5,Under,hardrock,-200,-3.93,0.6405,kalshi,4,26.3
