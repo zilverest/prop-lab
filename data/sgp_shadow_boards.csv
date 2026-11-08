@@ -662,3 +662,5 @@ ts,snapshot_ts,board_date,week_key,event_id,commence_time,home,away,hours_to_kic
 2026-11-08T18:57:09Z,2026-11-08T18:56:10Z,2026-11-08,2026-11-02,636626,2026-11-08T21:25:00Z,San Francisco 49ers,Las Vegas Raiders,2.46,fresh,586,2,0,0,5556,0,0,0,,fresh
 2026-11-08T18:57:09Z,2026-11-08T18:56:10Z,2026-11-08,2026-11-02,60347,2026-11-08T21:25:00Z,New England Patriots,Green Bay Packers,2.46,fresh,488,2,0,1,4816,0,0,0,,fresh
 2026-11-08T18:57:09Z,2026-11-08T18:56:10Z,2026-11-08,2026-11-02,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,6.38,fresh,622,1,0,0,6300,0,0,0,,fresh
+2026-11-08T21:26:34Z,2026-11-08T21:25:45Z,2026-11-08,2026-11-02,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,3.89,fresh,812,3,0,3,11638,0,0,0,,fresh
+2026-11-08T21:26:34Z,2026-11-08T21:25:45Z,2026-11-08,2026-11-02,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,27.81,fresh,788,0,0,0,10950,0,0,0,,fresh
