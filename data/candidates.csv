@@ -6364,3 +6364,6 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-11-08T18:56:10Z,football_nfl,60347,2026-11-08T21:25:00Z,New England Patriots,Green Bay Packers,player_reception_yds,Savion Williams,9.5,Under,hardrock,210,4.39,0.3367,kalshi,4,2.5,True,ev +4.4 fair 0.337 kalshi 4b
 2026-11-08T18:56:10Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Under,bovada,115,4.41,0.4856,kalshi,13,6.4,False,ev +4.4 fair 0.486 kalshi 13b
 2026-11-08T18:56:10Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Emeka Egbuka,3.5,Under,draftkings,114,3.92,0.4856,kalshi,13,6.4,False,ev +3.9 fair 0.486 kalshi 13b
+2026-11-08T21:25:45Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,39.5,Under,bovada,150,6.34,0.4253,kalshi,5,3.9,False,ev +6.3 fair 0.425 kalshi 5b
+2026-11-08T21:25:45Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,45.5,Over,fanatics,-120,3.28,0.5633,bovada,3,3.9,False,ev +3.3 fair 0.563 bovada 3b
+2026-11-08T21:25:45Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Kalif Raymond,2.5,Under,hardrock,-165,3.41,0.6439,kalshi,4,3.9,True,ev +3.4 fair 0.644 kalshi 4b
