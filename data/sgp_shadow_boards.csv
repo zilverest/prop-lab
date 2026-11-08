@@ -664,3 +664,5 @@ ts,snapshot_ts,board_date,week_key,event_id,commence_time,home,away,hours_to_kic
 2026-11-08T18:57:09Z,2026-11-08T18:56:10Z,2026-11-08,2026-11-02,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,6.38,fresh,622,1,0,0,6300,0,0,0,,fresh
 2026-11-08T21:26:34Z,2026-11-08T21:25:45Z,2026-11-08,2026-11-02,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,3.89,fresh,812,3,0,3,11638,0,0,0,,fresh
 2026-11-08T21:26:34Z,2026-11-08T21:25:45Z,2026-11-08,2026-11-02,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,27.81,fresh,788,0,0,0,10950,0,0,0,,fresh
+2026-11-08T23:00:09Z,2026-11-08T22:59:39Z,2026-11-08,2026-11-02,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,2.33,fresh,828,1,0,0,13490,0,0,0,,fresh
+2026-11-08T23:00:09Z,2026-11-08T22:59:39Z,2026-11-08,2026-11-02,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,26.25,fresh,798,0,0,0,11160,0,0,0,,fresh
