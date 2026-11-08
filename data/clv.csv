@@ -1736,3 +1736,208 @@ graded_ts,event_id,market,player,point,side,book,price,ev_pct_at_bet,fair_prob_a
 2026-11-06T03:58:09Z,87238,player_rush_attempts,Derrick Henry,17.5,Over,pinnacle,112,3.85,0.4899,True,,-110,17.5,0.5,pinnacle,11.0476,6.0,True,,,True
 2026-11-06T03:58:09Z,87238,player_rush_yds,Chris Rodriguez Jr.,29.5,Under,pinnacle,126,5.19,0.4655,False,no_outcome_for_selection,,,,,,,,,,False
 2026-11-06T03:58:09Z,87238,player_receptions,Matthew Hibner,0.5,Over,fanduel,106,3.0,0.5,True,,106,0.5,0.454201,fanduel,0.0,-6.4345,False,,,True
+2026-11-08T21:26:44Z,32689,player_receptions,Chase Brown,3.5,Over,pinnacle,-124,3.9,0.5752,True,,-164,3.5,0.592442,pinnacle,12.219,7.0217,True,lost,3.0,True
+2026-11-08T21:26:44Z,32689,player_receptions,Bijan Robinson,3.5,Over,fanduel,124,6.34,0.4747,True,,116,3.5,0.472999,pinnacle,3.7037,5.9517,True,won,6.0,True
+2026-11-08T21:26:44Z,32689,player_receptions,Bijan Robinson,3.5,Over,draftkings,123,5.87,0.4747,True,,112,3.5,0.472999,pinnacle,5.1887,5.4787,True,lost,6.0,True
+2026-11-08T21:26:44Z,32689,player_receptions,Bijan Robinson,3.5,Over,bovada,120,4.44,0.4747,True,,110,3.5,0.44586,bovada,4.7619,-1.9108,True,won,6.0,True
+2026-11-08T21:26:44Z,32689,player_receptions,Bijan Robinson,3.5,Over,fanatics,120,4.44,0.4747,True,,105,3.5,0.472999,pinnacle,7.3171,4.0597,True,lost,6.0,True
+2026-11-08T21:26:44Z,32689,player_receptions,Bijan Robinson,3.5,Over,hardrock,120,4.44,0.4747,False,ambiguous_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,32689,player_reception_yds,Bijan Robinson,14.5,Under,hardrock,220,6.63,0.3332,True,,240,14.5,0.294358,kalshi,-5.8824,-5.8055,False,lost,47.0,True
+2026-11-08T21:26:44Z,32689,player_reception_yds,Mike Gesicki,14.5,Under,hardrock,240,3.9,0.3056,True,,240,14.5,0.27452,kalshi,0.0,-6.6633,False,won,11.0,True
+2026-11-08T21:26:44Z,32689,player_reception_yds,Bijan Robinson,24.5,Over,kalshi,-104,3.03,0.5253,True,,-117,24.5,0.534545,kalshi,5.7604,4.853,True,won,47.0,True
+2026-11-08T21:26:44Z,32689,player_receptions,Olamide Zaccheaus,1.5,Under,draftkings,-107,3.91,0.5371,True,,-127,1.5,0.502165,pinnacle,8.2342,-2.8523,True,won,1.0,True
+2026-11-08T21:26:44Z,32689,player_rush_yds,Chase Brown,49.5,Under,kalshi,108,3.58,0.498,True,,-100,49.5,0.482636,pinnacle,4.0,0.3883,True,lost,57.0,True
+2026-11-08T21:26:44Z,32689,player_receptions,Austin Hooper,1.5,Over,fanatics,220,4.51,0.3266,True,,200,1.5,0.326589,kalshi,6.6667,4.5086,True,void,,True
+2026-11-08T21:26:44Z,32689,player_receptions,Chase Brown,3.5,Under,kalshi,144,5.22,0.4312,True,,144,3.5,0.407558,pinnacle,0.0,-0.5558,False,won,3.0,True
+2026-11-08T21:26:44Z,32689,player_rush_attempts,Bijan Robinson,19.5,Under,pinnacle,-106,3.12,0.5306,True,,-113,19.5,0.506496,pinnacle,3.1004,-1.5678,True,won,19.0,True
+2026-11-08T21:26:44Z,32689,player_rush_attempts,Bijan Robinson,19.5,Over,bovada,100,3.83,0.5192,True,,-110,19.5,0.489879,bovada,4.7619,-2.0243,True,lost,19.0,True
+2026-11-08T21:26:44Z,32689,player_rush_attempts,Bijan Robinson,19.5,Over,draftkings,-101,3.32,0.5192,True,,-110,19.5,0.493504,pinnacle,4.2433,-1.7878,True,lost,19.0,True
+2026-11-08T21:26:44Z,32689,player_rush_yds,Khalil Herbert,9.5,Under,fanduel,-113,4.42,0.554,True,,-113,9.5,0.524596,kalshi,0.0,-1.116,False,won,7.0,True
+2026-11-08T21:26:44Z,32689,player_receptions,Austin Hooper,0.5,Under,kalshi,203,9.37,0.361,True,,186,0.5,0.348079,pinnacle,5.9441,5.4679,True,void,,True
+2026-11-08T21:26:44Z,32689,player_receptions,Bijan Robinson,3.5,Over,kalshi,122,4.94,0.4727,True,,117,3.5,0.472999,pinnacle,2.3041,5.0057,True,won,6.0,True
+2026-11-08T21:26:44Z,32689,player_receptions,Samaje Perine,1.5,Over,kalshi,186,3.59,0.3622,True,,186,1.5,0.360307,pinnacle,0.0,3.0477,False,void,,True
+2026-11-08T21:26:44Z,32689,player_rush_yds,Joe Burrow,8.5,Under,underdog,-112,3.82,0.5485,True,,-112,8.5,0.5,underdog,0.0,-5.3571,False,lost,7.0,True
+2026-11-08T21:26:44Z,32689,player_rush_yds,Michael Penix,4.5,Under,underdog,-108,8.86,0.5653,True,,-108,4.5,0.493593,underdog,0.0,-4.9376,False,won,50.0,True
+2026-11-08T21:26:44Z,53173,player_rush_yds,Patrick Mahomes,9.5,Under,hardrock,115,4.45,0.4858,True,,140,9.5,0.402111,kalshi,-10.4167,-13.5461,False,won,8.0,True
+2026-11-08T21:26:44Z,53173,player_receptions,Rashee Rice,3.5,Under,hardrock,275,18.33,0.3156,True,,240,3.5,0.284287,kalshi,10.2941,6.6078,True,lost,5.0,True
+2026-11-08T21:26:44Z,53173,player_receptions,Rashee Rice,4.5,Under,hardrock,130,3.42,0.4496,False,ambiguous_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,53173,player_receptions,Travis Kelce,3.5,Under,hardrock,140,6.23,0.4426,True,,135,3.5,0.396285,kalshi,2.1277,-4.8916,True,lost,4.0,True
+2026-11-08T21:26:44Z,53173,player_reception_yds,Kenyon Sadiq,9.5,Under,hardrock,175,9.09,0.3967,True,,230,9.5,0.326589,kalshi,-16.6667,-10.1879,False,lost,49.0,True
+2026-11-08T21:26:44Z,53173,player_reception_yds,Mason Taylor,14.5,Under,hardrock,220,3.63,0.3239,True,,210,14.5,0.294358,kalshi,3.2258,-5.8055,True,won,11.0,True
+2026-11-08T21:26:44Z,53173,player_reception_yds,Omar Cooper Jr.,29.5,Under,hardrock,175,3.59,0.3767,True,,190,29.5,0.287058,kalshi,-5.1724,-21.059,False,lost,58.0,True
+2026-11-08T21:26:44Z,53173,player_rush_yds,Braelon Allen,24.5,Under,hardrock,170,7.47,0.3981,True,,175,24.5,0.356129,kalshi,-1.8182,-3.8452,False,lost,33.0,True
+2026-11-08T21:26:44Z,53173,player_rush_yds,Braelon Allen,29.5,Under,hardrock,110,3.95,0.495,True,,115,29.5,0.435587,kalshi,-2.3256,-8.5267,False,lost,33.0,True
+2026-11-08T21:26:44Z,53173,player_rush_yds,Breece Hall,29.5,Under,hardrock,155,3.49,0.4058,True,,155,29.5,0.386606,kalshi,0.0,-1.4156,False,lost,61.0,True
+2026-11-08T21:26:44Z,53173,player_receptions,Kenyon Sadiq,1.5,Under,fanatics,140,4.26,0.4344,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,53173,player_receptions,Kenyon Sadiq,1.5,Under,hardrock,145,3.65,0.423,True,,180,1.5,0.366465,kalshi,-12.5,-10.2162,False,lost,4.0,True
+2026-11-08T21:26:44Z,53173,player_receptions,Tim Patrick,1.5,Over,kalshi,138,3.89,0.4365,True,,144,1.5,0.396201,pinnacle,-2.459,-5.7041,False,void,,True
+2026-11-08T21:26:44Z,53173,player_rush_yds,Braelon Allen,24.5,Under,bovada,190,3.95,0.3585,True,,185,24.5,0.329412,bovada,1.7544,-4.4706,True,lost,33.0,True
+2026-11-08T21:26:44Z,53173,player_reception_yds,Adonai Mitchell,39.5,Under,hardrock,135,4.02,0.4426,True,,140,39.5,0.392245,kalshi,-2.0833,-7.8225,False,won,0.0,True
+2026-11-08T21:26:44Z,53173,player_rush_yds,Braelon Allen,29.5,Under,bovada,130,13.85,0.495,True,,120,29.5,0.424837,bovada,4.5455,-2.2876,True,lost,33.0,True
+2026-11-08T21:26:44Z,53173,player_receptions,Mason Taylor,2.5,Under,hardrock,150,4.81,0.4192,True,,160,2.5,0.376517,kalshi,-3.8462,-5.8709,False,won,1.0,True
+2026-11-08T21:26:44Z,53173,player_reception_yds,Travis Kelce,39.5,Under,bovada,150,3.87,0.4155,True,,150,39.5,0.375,bovada,0.0,-6.25,False,lost,72.0,True
+2026-11-08T21:26:44Z,53173,player_receptions,Kenyon Sadiq,1.5,Under,draftkings,151,10.85,0.4416,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,53173,player_receptions,Omar Cooper Jr.,4.5,Over,kalshi,127,3.1,0.4542,True,,127,4.5,0.442478,pinnacle,0.0,0.4425,False,won,8.0,True
+2026-11-08T21:26:44Z,53173,player_reception_yds,Travis Kelce,45.5,Over,underdog,-112,6.63,0.5633,True,,-112,45.5,0.50433,pinnacle,0.0,-4.5376,False,won,72.0,True
+2026-11-08T21:26:44Z,53173,player_reception_yds,Travis Kelce,45.5,Over,fanduel,-113,6.18,0.5633,True,,-113,45.5,0.50433,pinnacle,0.0,-4.9361,False,won,72.0,True
+2026-11-08T21:26:44Z,53173,player_reception_yds,Travis Kelce,45.5,Over,pinnacle,-116,4.89,0.5633,True,,-112,45.5,0.50433,pinnacle,-1.6265,-6.0903,False,won,72.0,True
+2026-11-08T21:26:44Z,53173,player_receptions,Adonai Mitchell,2.5,Under,hardrock,210,4.23,0.3362,True,,230,2.5,0.306746,kalshi,-6.0606,-4.9089,False,won,0.0,True
+2026-11-08T21:26:44Z,53173,player_rush_yds,Breece Hall,24.5,Under,hardrock,225,4.16,0.3205,True,,225,24.5,0.287058,kalshi,0.0,-6.7061,False,lost,61.0,True
+2026-11-08T21:26:44Z,53173,player_reception_yds,Rashee Rice,59.5,Over,kalshi,113,3.48,0.4858,True,,113,59.5,0.465455,kalshi,0.0,-0.858,False,lost,49.0,True
+2026-11-08T21:26:44Z,53173,player_reception_yds,Travis Kelce,45.5,Under,bovada,115,7.07,0.498,True,,-115,45.5,0.5,bovada,15.0,7.5,True,lost,72.0,True
+2026-11-08T21:26:44Z,53173,player_receptions,Travis Kelce,4.5,Over,kalshi,138,3.05,0.433,True,,138,4.5,0.402843,pinnacle,0.0,-4.1235,False,lost,4.0,True
+2026-11-08T21:26:44Z,53173,player_receptions,Omar Cooper Jr.,3.5,Under,hardrock,155,8.38,0.425,True,,150,3.5,0.392245,kalshi,2.0,0.0224,True,lost,8.0,True
+2026-11-08T21:26:44Z,53173,player_rush_yds,Braelon Allen,19.5,Under,hardrock,250,6.81,0.3052,True,,260,19.5,0.26926,kalshi,-2.7778,-5.7591,False,lost,33.0,True
+2026-11-08T21:26:44Z,53173,player_receptions,Cyrus Allen,1.5,Over,kalshi,138,4.48,0.439,True,,138,1.5,0.430137,pinnacle,0.0,2.3727,False,lost,0.0,True
+2026-11-08T21:26:44Z,53174,player_receptions,Denzel Boston,3.5,Under,underdog,-102,19.16,0.6017,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,53174,player_reception_yds,Chris Olave,69.5,Under,hardrock,-105,5.69,0.5414,True,,-105,69.5,0.475404,kalshi,0.0,-7.183,False,,,True
+2026-11-08T21:26:44Z,53174,player_reception_yds,Harold Fannin Jr.,29.5,Under,hardrock,195,12.15,0.3802,True,,195,29.5,0.303604,kalshi,0.0,-10.4369,False,,,True
+2026-11-08T21:26:44Z,53174,player_reception_yds,Harold Fannin Jr.,39.5,Under,hardrock,110,6.99,0.5095,True,,125,39.5,0.446025,kalshi,-6.6667,-6.3347,False,,,True
+2026-11-08T21:26:44Z,53174,player_reception_yds,Chris Olave,59.5,Under,hardrock,140,3.15,0.4298,True,,145,59.5,0.366465,kalshi,-2.0408,-12.0485,False,,,True
+2026-11-08T21:26:44Z,53174,player_rush_yds,Kendre Miller,24.5,Under,hardrock,240,17.44,0.3454,True,,200,24.5,0.377358,kalshi,13.3333,28.3019,True,,,True
+2026-11-08T21:26:44Z,53174,player_rush_yds,Kendre Miller,29.5,Under,hardrock,135,4.17,0.4433,True,,135,29.5,0.419486,kalshi,0.0,-1.4208,False,,,True
+2026-11-08T21:26:44Z,53174,player_rush_yds,Shedeur Sanders,9.5,Under,hardrock,175,6.32,0.3866,True,,175,9.5,0.366465,kalshi,0.0,0.7777,False,,,True
+2026-11-08T21:26:44Z,53174,player_rush_yds,Tyler Shough,9.5,Under,hardrock,160,3.49,0.3981,True,,155,9.5,0.376517,kalshi,1.9608,-2.1057,True,,,True
+2026-11-08T21:26:44Z,53174,player_receptions,Harold Fannin Jr.,4.5,Under,bovada,-105,6.19,0.5439,True,,-130,4.5,0.530612,bovada,10.352,3.5957,True,,,True
+2026-11-08T21:26:44Z,53174,player_receptions,Harold Fannin Jr.,4.5,Under,draftkings,-107,3.41,0.5345,True,,-111,4.5,0.522678,pinnacle,1.7717,1.1162,True,,,True
+2026-11-08T21:26:44Z,53174,player_receptions,Juwan Johnson,3.5,Under,draftkings,-152,5.65,0.6372,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,53174,player_rush_yds,Shedeur Sanders,14.5,Under,hardrock,105,4.45,0.5095,True,,-105,14.5,0.465455,kalshi,5.0,-4.5816,True,,,True
+2026-11-08T21:26:44Z,53174,player_rush_attempts,Quinshon Judkins,16.5,Under,underdog,-105,3.6,0.5306,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,53174,player_receptions,Harold Fannin Jr.,4.5,Over,kalshi,117,3.46,0.4768,True,,108,4.5,0.477322,pinnacle,4.3269,3.5788,True,,,True
+2026-11-08T21:26:44Z,53174,player_receptions,Chris Olave,4.5,Under,hardrock,195,3.97,0.3524,True,,195,4.5,0.330057,kalshi,0.0,-2.6333,False,,,True
+2026-11-08T21:26:44Z,53174,player_pass_yds,Shedeur Sanders,178.5,Over,underdog,-112,4.89,0.5541,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,53174,player_pass_yds,Shedeur Sanders,178.5,Over,fanduel,-113,4.45,0.5541,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,53174,player_receptions,Denzel Boston,3.5,Over,kalshi,156,6.34,0.4154,True,,186,3.5,0.347253,pinnacle,-10.4895,-11.1033,False,,,True
+2026-11-08T21:26:44Z,53174,player_receptions,Jerry Jeudy,1.5,Under,kalshi,-113,3.88,0.5511,True,,-138,1.5,0.566291,pinnacle,9.2958,6.7433,True,,,True
+2026-11-08T21:26:44Z,53174,player_receptions,Quinshon Judkins,1.5,Under,draftkings,118,3.64,0.4754,True,,-125,1.5,0.527001,pinnacle,21.1111,14.8863,True,,,True
+2026-11-08T21:26:44Z,53174,player_rush_yds,Alvin Kamara,26.5,Under,hardrock,250,54.51,0.4415,True,,160,26.5,0.357143,hardrock,34.6154,25.0,True,,,True
+2026-11-08T21:26:44Z,53174,player_rush_yds,Quinshon Judkins,59.5,Under,hardrock,125,5.27,0.4679,True,,105,59.5,0.456096,kalshi,9.7561,2.6215,True,,,True
+2026-11-08T21:26:44Z,53174,player_receptions,Alvin Kamara,2.5,Under,hardrock,175,3.54,0.3765,True,,180,2.5,0.356129,kalshi,-1.7857,-2.0646,False,,,True
+2026-11-08T21:26:44Z,53174,player_reception_yds,Audric Estime,3.5,Over,fanduel,102,3.04,0.5101,True,,102,3.5,0.470865,pinnacle,0.0,-4.8852,False,,,True
+2026-11-08T21:26:44Z,53174,player_rush_longest,Dylan Sampson,7.5,Under,underdog,100,4.06,0.5203,True,,-104,7.5,0.487997,underdog,1.9608,-2.4007,True,,,True
+2026-11-08T21:26:44Z,53174,player_rush_yds,Audric Estime,19.5,Under,bovada,225,24.43,0.3829,True,,225,19.5,0.289242,bovada,0.0,-5.9965,False,,,True
+2026-11-08T21:26:44Z,53174,player_rush_yds,Audric Estime,19.5,Under,hardrock,190,11.03,0.3829,True,,240,19.5,0.297196,kalshi,-14.7059,-13.8132,False,,,True
+2026-11-08T21:26:44Z,53174,player_rush_yds,Audric Estime,24.5,Under,bovada,140,5.86,0.4411,True,,205,24.5,0.307942,bovada,-21.3115,-26.094,False,,,True
+2026-11-08T21:26:44Z,53174,player_reception_yds,Denzel Boston,29.5,Under,hardrock,175,3.54,0.3765,True,,175,29.5,0.352806,kalshi,0.0,-2.9784,False,,,True
+2026-11-08T21:26:44Z,60346,player_reception_yds,Darnell Mooney,9.5,Under,hardrock,115,4.44,0.4857,True,,135,9.5,0.425349,kalshi,-8.5106,-8.5499,False,,,True
+2026-11-08T21:26:44Z,60346,player_reception_yds,Isaiah Likely,39.5,Under,hardrock,120,8.95,0.4952,True,,110,39.5,0.456096,kalshi,4.7619,0.341,True,,,True
+2026-11-08T21:26:44Z,60346,player_reception_yds,Malachi Fields,14.5,Under,hardrock,225,17.68,0.3621,True,,160,14.5,0.362852,kalshi,25.0,17.9269,True,,,True
+2026-11-08T21:26:44Z,60346,player_reception_yds,Malachi Fields,19.5,Under,hardrock,160,8.63,0.4178,True,,110,19.5,0.441071,kalshi,23.8095,14.6784,True,,,True
+2026-11-08T21:26:44Z,60346,player_receptions,Malachi Fields,1.5,Under,hardrock,180,8.18,0.3864,False,ambiguous_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,60346,player_reception_longest,Isaiah Likely,17.5,Over,underdog,-102,3.04,0.5203,True,,-102,17.5,0.47978,underdog,0.0,-4.9847,False,,,True
+2026-11-08T21:26:44Z,60346,player_reception_yds,Darius Cooper,27.5,Under,pinnacle,106,3.0,0.5,True,,109,27.5,0.456801,pinnacle,-1.4354,-5.899,False,,,True
+2026-11-08T21:26:44Z,60346,player_reception_yds,Darius Cooper,27.5,Over,underdog,-112,3.31,0.5458,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,60346,player_receptions,Devin Singletary,2.5,Over,kalshi,127,3.1,0.4542,True,,113,2.5,0.456801,pinnacle,6.5728,3.6938,True,,,True
+2026-11-08T21:26:44Z,60346,player_receptions,Malachi Fields,2.5,Over,kalshi,186,6.06,0.3709,True,,186,2.5,0.372677,pinnacle,0.0,6.5857,False,,,True
+2026-11-08T21:26:44Z,60346,player_receptions,Marquise Brown,1.5,Over,fanduel,116,8.0,0.5,True,,116,1.5,0.432974,fanduel,0.0,-6.4776,False,,,True
+2026-11-08T21:26:44Z,60346,player_reception_yds,Devin Singletary,14.5,Over,kalshi,108,4.0,0.5,True,,-100,14.5,0.502165,pinnacle,4.0,4.4502,True,,,True
+2026-11-08T21:26:44Z,60346,player_reception_yds,Saquon Barkley,14.5,Under,hardrock,-185,5.07,0.682,True,,-185,14.5,0.631053,kalshi,0.0,-2.7837,False,,,True
+2026-11-08T21:26:44Z,60346,player_receptions,Hollywood Brown,1.5,Over,kalshi,113,4.34,0.4899,True,,117,1.5,0.452053,pinnacle,-1.8433,-3.7126,False,,,True
+2026-11-08T21:26:44Z,60346,player_rush_yds,Saquon Barkley,39.5,Under,hardrock,170,9.58,0.4058,True,,175,39.5,0.333255,kalshi,-1.8182,-10.0211,False,,,True
+2026-11-08T21:26:44Z,636011,player_reception_yds,Marvin Mims Jr.,15.5,Under,underdog,-107,3.37,0.5343,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636011,player_reception_yds,Marvin Mims Jr.,14.5,Over,kalshi,144,10.65,0.4535,True,,144,14.5,0.405844,kalshi,0.0,-0.974,False,lost,0.0,True
+2026-11-08T21:26:44Z,636011,player_reception_yds,Marvin Mims Jr.,14.5,Over,hardrock,140,8.83,0.4535,True,,130,14.5,0.405844,kalshi,4.3478,-2.5974,True,lost,0.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Marvin Mims Jr.,1.5,Over,kalshi,144,14.43,0.469,True,,133,1.5,0.396201,pinnacle,4.721,-3.3269,True,lost,1.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Marvin Mims Jr.,1.5,Over,fanduel,134,9.74,0.469,True,,134,1.5,0.396201,pinnacle,0.0,-7.2889,False,lost,1.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Marvin Mims Jr.,1.5,Over,bovada,130,7.86,0.469,True,,125,1.5,0.416503,bovada,2.2222,-4.2043,True,lost,1.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Marvin Mims Jr.,1.5,Over,hardrock,135,10.21,0.469,False,ambiguous_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636011,player_receptions,Troy Franklin,1.5,Over,fanatics,215,13.7,0.361,True,,200,1.5,0.303604,kalshi,5.0,-4.3649,True,won,3.0,True
+2026-11-08T21:26:44Z,636011,player_reception_yds,Marvin Mims Jr.,14.5,Under,pinnacle,-141,3.19,0.6037,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636011,player_receptions,Marvin Mims Jr.,1.5,Under,pinnacle,-132,4.03,0.5919,True,,-172,1.5,0.603799,pinnacle,11.1408,6.1222,True,won,1.0,True
+2026-11-08T21:26:44Z,636011,player_reception_yds,Courtland Sutton,35.5,Under,fanatics,-105,4.32,0.5343,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636011,player_reception_yds,Jonah Coleman,14.5,Under,hardrock,210,9.37,0.3528,True,,210,14.5,0.314163,kalshi,0.0,-2.6095,False,lost,31.0,True
+2026-11-08T21:26:44Z,636011,player_reception_yds,Jonah Coleman,19.5,Under,hardrock,140,5.99,0.4416,True,,130,19.5,0.417014,kalshi,4.3478,0.0834,True,lost,31.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Jaylen Waddle,4.5,Under,draftkings,-126,3.47,0.5769,True,,-132,4.5,0.543199,pinnacle,2.0525,-2.569,True,won,1.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Jaylen Waddle,4.5,Under,kalshi,-127,3.11,0.5769,True,,-127,4.5,0.543199,pinnacle,0.0,-2.9085,False,won,1.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Tetairoa McMillan,5.5,Over,kalshi,150,4.81,0.4192,True,,156,5.5,0.383121,pinnacle,-2.3438,-4.2197,False,lost,4.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Troy Franklin,1.5,Over,hardrock,195,6.48,0.361,True,,200,1.5,0.303604,kalshi,-1.6667,-10.4369,False,won,3.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Troy Franklin,1.5,Over,kalshi,194,6.12,0.361,True,,223,1.5,0.303604,kalshi,-8.9783,-10.7405,False,won,3.0,True
+2026-11-08T21:26:44Z,636011,player_rush_yds,J.K. Dobbins,14.5,Under,hardrock,230,9.97,0.3333,True,,230,14.5,0.317052,kalshi,0.0,4.6272,False,lost,18.0,True
+2026-11-08T21:26:44Z,636011,player_rush_yds,J.K. Dobbins,19.5,Under,hardrock,135,5.67,0.4496,True,,140,19.5,0.405844,kalshi,-2.0833,-4.6266,False,won,18.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Courtland Sutton,3.5,Over,kalshi,150,6.21,0.4248,True,,150,3.5,0.382174,pinnacle,0.0,-4.4564,False,won,5.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Jalen Coker,4.5,Over,kalshi,-104,3.6,0.5282,True,,104,4.5,0.491336,pinnacle,-3.8462,-3.6226,False,lost,4.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Jonah Coleman,3.5,Over,kalshi,113,3.48,0.4858,True,,104,3.5,0.489166,pinnacle,4.4118,4.1923,True,won,4.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Troy Franklin,0.5,Under,draftkings,179,3.57,0.3712,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636011,player_reception_yds,Courtland Sutton,32.5,Over,fanduel,-114,7.97,0.5752,True,,-113,32.5,0.50433,pinnacle,-0.4118,-5.3276,False,lost,45.0,True
+2026-11-08T21:26:44Z,636011,player_reception_yds,Courtland Sutton,32.5,Over,hardrock,-125,3.53,0.5752,True,,-120,32.5,0.50433,pinnacle,-1.8182,-9.2206,False,won,45.0,True
+2026-11-08T21:26:44Z,636011,player_pass_yds,Bryce Young,199.5,Under,bovada,185,3.41,0.3629,True,,185,199.5,0.329412,bovada,0.0,-6.1176,False,lost,276.0,True
+2026-11-08T21:26:44Z,636011,player_pass_completions,Bo Nix,20.5,Under,fanatics,105,7.85,0.5261,True,,-115,20.5,0.506496,pinnacle,9.6512,3.8317,True,lost,25.0,True
+2026-11-08T21:26:44Z,636011,player_pass_completions,Bo Nix,20.5,Under,draftkings,-102,3.62,0.5232,True,,-109,20.5,0.506496,pinnacle,3.2836,0.3061,True,lost,25.0,True
+2026-11-08T21:26:44Z,636011,player_reception_yds,Courtland Sutton,24.5,Under,bovada,170,3.37,0.3829,True,,170,24.5,0.347003,bovada,0.0,-6.3091,False,lost,45.0,True
+2026-11-08T21:26:44Z,636011,player_receptions,Courtland Sutton,2.5,Under,hardrock,150,3.97,0.4159,True,,140,2.5,0.396285,kalshi,4.1667,-0.9288,True,lost,5.0,True
+2026-11-08T21:26:44Z,636635,player_reception_yds,Puka Nacua,79.5,Under,hardrock,135,3.04,0.4385,True,,145,79.5,0.376517,kalshi,-4.0816,-11.5186,False,lost,150.0,True
+2026-11-08T21:26:44Z,636635,player_reception_yds,Treylon Burks,19.5,Under,hardrock,160,4.98,0.4038,True,,145,19.5,0.443251,kalshi,6.1224,15.2453,True,void,,True
+2026-11-08T21:26:44Z,636635,player_receptions,Antonio Williams,3.5,Under,bovada,130,3.88,0.4517,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636635,player_receptions,Antonio Williams,3.5,Under,draftkings,129,3.43,0.4517,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636635,player_rush_attempts,Rachaad White,10.5,Over,pinnacle,-106,5.1,0.5408,True,,-107,10.5,0.493504,pinnacle,0.4557,-4.0926,True,lost,7.0,True
+2026-11-08T21:26:44Z,636635,player_receptions,Antonio Williams,4.5,Over,kalshi,117,3.02,0.4747,True,,108,4.5,0.474236,pinnacle,4.3269,2.9092,True,lost,3.0,True
+2026-11-08T21:26:44Z,636635,player_receptions,Blake Corum,1.5,Under,hardrock,-185,4.62,0.6791,False,ambiguous_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636635,player_pass_tds,Jayden Daniels,1.5,Under,kalshi,-144,3.43,0.6104,True,,-138,1.5,0.583151,pinnacle,-1.7507,-1.1883,False,won,1.0,True
+2026-11-08T21:26:44Z,636635,player_receptions,Kyren Williams,2.5,Under,kalshi,127,4.62,0.4609,True,,133,2.5,0.419132,pinnacle,-2.5751,-4.857,False,lost,3.0,True
+2026-11-08T21:26:44Z,636635,player_receptions,Blake Corum,0.5,Under,hardrock,195,3.06,0.3493,True,,180,0.5,0.330326,pinnacle,5.3571,-2.5539,True,won,0.0,True
+2026-11-08T21:26:44Z,636628,player_receptions,Isaac TeSlaa,1.5,Over,bovada,115,3.57,0.4817,True,,110,1.5,0.44586,bovada,2.381,-4.1401,True,lost,1.0,True
+2026-11-08T21:26:44Z,636628,player_receptions,Isaac TeSlaa,1.5,Over,draftkings,115,3.57,0.4817,True,,111,1.5,0.439175,pinnacle,1.8957,-5.5773,True,lost,1.0,True
+2026-11-08T21:26:44Z,636628,player_rush_yds,Sione Vaki,14.5,Under,hardrock,155,6.35,0.4171,True,,115,14.5,0.45166,kalshi,18.6047,15.1734,True,won,14.0,True
+2026-11-08T21:26:44Z,636628,player_rush_attempts,Sione Vaki,5.5,Under,underdog,-106,3.12,0.5306,True,,-115,5.5,0.487849,pinnacle,3.9491,-5.1916,True,won,3.0,True
+2026-11-08T21:26:44Z,636628,player_rush_yds,Sione Vaki,9.5,Under,hardrock,225,12.57,0.3464,True,,225,9.5,0.317052,kalshi,0.0,3.0419,False,lost,14.0,True
+2026-11-08T21:26:44Z,636628,player_reception_yds,Isaac TeSlaa,9.5,Under,hardrock,155,3.92,0.4075,True,,155,9.5,0.376517,kalshi,0.0,-3.9883,False,won,9.0,True
+2026-11-08T21:26:44Z,636628,player_reception_yds,Jahmyr Gibbs,19.5,Under,hardrock,230,3.73,0.3143,True,,250,19.5,0.284287,kalshi,-5.7143,-6.1852,False,won,0.0,True
+2026-11-08T21:26:44Z,636628,player_reception_yds,Jameson Williams,39.5,Under,hardrock,155,10.84,0.4347,True,,155,39.5,0.362852,kalshi,0.0,-7.4727,False,won,31.0,True
+2026-11-08T21:26:44Z,636628,player_reception_yds,Sam LaPorta,29.5,Under,hardrock,200,11.52,0.3717,True,,200,29.5,0.267454,kalshi,0.0,-19.7638,False,lost,32.0,True
+2026-11-08T21:26:44Z,636628,player_receptions,Jahmyr Gibbs,2.5,Under,hardrock,275,14.05,0.3041,True,,325,2.5,0.227585,kalshi,-11.7647,-14.6555,False,won,0.0,True
+2026-11-08T21:26:44Z,636628,player_receptions,Sam LaPorta,2.5,Under,hardrock,260,16.91,0.3247,True,,300,2.5,0.2351,kalshi,-10.0,-15.3641,False,lost,4.0,True
+2026-11-08T21:26:44Z,636628,player_rush_attempts,Jahmyr Gibbs,20.5,Under,underdog,-103,4.58,0.5306,True,,-104,20.5,0.486993,pinnacle,0.4759,-4.0199,True,lost,20.0,True
+2026-11-08T21:26:44Z,636628,player_rush_attempts,Sione Vaki,5.5,Over,pinnacle,-110,3.24,0.5408,True,,-121,5.5,0.512151,pinnacle,4.5249,-2.2257,True,lost,3.0,True
+2026-11-08T21:26:44Z,636628,player_reception_yds,Isaac TeSlaa,14.5,Under,hardrock,100,4.52,0.5226,True,,-105,14.5,0.485618,kalshi,2.439,-2.8764,True,won,9.0,True
+2026-11-08T21:26:44Z,636628,player_reception_yds,Ollie Gordon II,14.5,Under,hardrock,-200,3.79,0.6919,True,,-260,14.5,0.69927,kalshi,8.3333,4.8904,True,won,9.0,True
+2026-11-08T21:26:44Z,636628,player_rush_yds,Jahmyr Gibbs,109.5,Under,hardrock,-175,3.76,0.6603,True,,-160,109.5,0.594156,kalshi,-3.2967,-6.6327,False,won,74.0,True
+2026-11-08T21:26:44Z,636628,player_rush_attempts,Ollie Gordon II,16.5,Over,pinnacle,-105,3.6,0.5306,True,,-133,16.5,0.545188,pinnacle,11.4449,6.4415,True,lost,16.0,True
+2026-11-08T21:26:44Z,636628,player_reception_yds,Jahmyr Gibbs,24.5,Under,bovada,170,4.89,0.3885,True,,170,24.5,0.347003,bovada,0.0,-6.3091,False,won,0.0,True
+2026-11-08T21:26:44Z,636628,player_reception_yds,Jahmyr Gibbs,39.5,Under,bovada,-150,3.91,0.6235,True,,-150,39.5,0.563319,bovada,0.0,-6.1135,False,won,0.0,True
+2026-11-08T21:26:44Z,636628,player_reception_yds,Jahmyr Gibbs,24.5,Under,hardrock,150,3.24,0.413,True,,165,24.5,0.372584,kalshi,-5.6604,-6.8539,False,won,0.0,True
+2026-11-08T21:26:44Z,636628,player_receptions,Greg Dulcich,3.5,Under,kalshi,122,5.39,0.4747,True,,104,3.5,0.477322,pinnacle,8.8235,5.9654,True,won,2.0,True
+2026-11-08T21:26:44Z,636628,player_receptions,Isaac TeSlaa,1.5,Over,kalshi,127,3.99,0.4581,True,,127,1.5,0.439175,pinnacle,0.0,-0.3072,False,lost,1.0,True
+2026-11-08T21:26:44Z,636628,player_receptions,Jameson Williams,2.5,Under,hardrock,195,7.79,0.3654,True,,200,2.5,0.326589,kalshi,-1.6667,-3.6561,False,won,1.0,True
+2026-11-08T21:26:44Z,636628,player_receptions,Ollie Gordon II,1.5,Over,kalshi,-108,3.45,0.5371,True,,-104,1.5,0.524849,pinnacle,-1.8155,1.0821,False,lost,1.0,True
+2026-11-08T21:26:44Z,636628,player_receptions,Jahmyr Gibbs,3.5,Under,kalshi,163,4.75,0.3983,True,,163,3.5,0.399231,pinnacle,0.0,4.9978,False,won,0.0,True
+2026-11-08T21:26:44Z,636634,player_rush_yds,Daniel Jones,6.5,Under,hardrock,105,7.93,0.5265,True,,105,6.5,0.451821,hardrock,0.0,-7.3767,False,,,True
+2026-11-08T21:26:44Z,636634,player_receptions,Ryan Flournoy,3.5,Over,pinnacle,116,3.61,0.4797,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636634,player_receptions,Ryan Flournoy,3.5,Over,hardrock,115,3.13,0.4797,True,,-325,3.5,0.702804,kalshi,64.4118,51.1029,True,,,True
+2026-11-08T21:26:44Z,636634,player_reception_yds,George Pickens,49.5,Under,hardrock,125,3.77,0.4612,True,,115,49.5,0.418511,kalshi,4.6512,-5.8351,True,,,True
+2026-11-08T21:26:44Z,636634,player_reception_yds,Javonte Williams,9.5,Under,draftkings,-113,4.3,0.5533,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636634,player_reception_yds,Javonte Williams,9.5,Under,bovada,-115,3.44,0.5533,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636634,player_reception_yds,Javonte Williams,9.5,Under,hardrock,-125,3.07,0.5726,True,,-130,9.5,0.553975,kalshi,1.7391,-0.2845,True,,,True
+2026-11-08T21:26:44Z,636634,player_reception_yds,Javonte Williams,14.5,Under,hardrock,-195,4.88,0.6933,True,,-200,14.5,0.663266,kalshi,0.8547,0.3402,True,,,True
+2026-11-08T21:26:44Z,636634,player_rush_yds,Jonathan Taylor,59.5,Under,hardrock,-105,3.59,0.5306,True,,140,59.5,0.405844,kalshi,-18.6508,-20.7638,False,,,True
+2026-11-08T21:26:44Z,636634,player_reception_yds,Jonathan Taylor,9.5,Under,hardrock,220,12.67,0.3521,True,,210,9.5,0.306746,kalshi,3.2258,-1.8414,True,,,True
+2026-11-08T21:26:44Z,636634,player_reception_yds,Jonathan Taylor,14.5,Under,hardrock,130,9.81,0.4774,True,,130,14.5,0.411862,kalshi,0.0,-5.2718,False,,,True
+2026-11-08T21:26:44Z,636634,player_rush_yds,Seth McGowan,19.5,Under,hardrock,155,3.49,0.4058,True,,140,19.5,0.376517,kalshi,6.25,-3.9883,True,,,True
+2026-11-08T21:26:44Z,636634,player_rush_yds,Tyler Goodson,9.5,Under,hardrock,225,16.08,0.3572,True,,230,9.5,0.277382,kalshi,-1.5152,-9.8508,False,,,True
+2026-11-08T21:26:44Z,636634,player_pass_attempts,Dak Prescott,33.5,Under,underdog,-106,6.21,0.5465,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636634,player_receptions,CeeDee Lamb,5.5,Under,hardrock,165,5.48,0.3981,True,,230,5.5,0.287058,kalshi,-19.697,-23.9296,False,,,True
+2026-11-08T21:26:44Z,636634,player_receptions,Jonathan Taylor,2.5,Over,draftkings,121,6.27,0.4808,True,,-106,2.5,0.479499,pinnacle,13.7184,5.9694,True,,,True
+2026-11-08T21:26:44Z,636634,player_receptions,Jonathan Taylor,2.5,Over,bovada,120,5.79,0.4808,True,,-110,2.5,0.489879,bovada,15.2381,7.7733,True,,,True
+2026-11-08T21:26:44Z,636634,player_pass_yds,Daniel Jones,199.5,Under,bovada,110,3.02,0.4906,True,,110,199.5,0.44586,bovada,0.0,-6.3694,False,,,True
+2026-11-08T21:26:44Z,636634,player_reception_yds,George Pickens,63.5,Over,hardrock,110,5.0,0.5,True,,120,63.5,0.421975,hardrock,-4.5455,-11.3854,False,,,True
+2026-11-08T21:26:44Z,636634,player_receptions,CeeDee Lamb,6.5,Under,kalshi,-100,3.83,0.5192,True,,133,6.5,0.430137,pinnacle,-14.1631,-13.9725,False,,,True
+2026-11-08T21:26:44Z,636634,player_receptions,Keenan Allen,4.5,Over,kalshi,-104,4.0,0.5302,True,,-104,4.5,0.517364,pinnacle,0.0,1.483,False,,,True
+2026-11-08T21:26:44Z,636634,player_reception_yds,George Pickens,56.5,Over,underdog,-112,4.89,0.5541,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636634,player_reception_yds,George Pickens,56.5,Over,fanduel,-114,4.02,0.5541,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636634,player_receptions,CeeDee Lamb,6.5,Over,bovada,105,3.5,0.5049,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636634,player_rush_yds,Jonathan Taylor,49.5,Under,hardrock,175,5.29,0.3829,True,,180,49.5,0.287058,kalshi,-1.7857,-21.059,False,,,True
+2026-11-08T21:26:44Z,636634,player_rush_yds,Tyler Goodson,14.5,Under,hardrock,135,3.78,0.4416,True,,135,14.5,0.405844,kalshi,0.0,-4.6266,False,,,True
+2026-11-08T21:26:44Z,636634,player_reception_yds,George Pickens,56.5,Over,hardrock,-115,3.6,0.5541,False,ambiguous_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636634,player_receptions,Javonte Williams,1.5,Under,kalshi,127,3.99,0.4581,True,,138,1.5,0.401294,pinnacle,-4.6218,-8.9063,False,,,True
+2026-11-08T21:26:44Z,636634,player_receptions,Keenan Allen,4.5,Over,bovada,-105,3.52,0.5302,True,,-125,4.5,0.520305,bovada,8.4656,1.5833,True,,,True
+2026-11-08T21:26:44Z,636634,player_receptions,Keenan Allen,4.5,Over,draftkings,-105,3.52,0.5302,True,,-122,4.5,0.517364,pinnacle,7.293,1.0092,True,,,True
+2026-11-08T21:26:44Z,636634,player_reception_yds,CeeDee Lamb,69.5,Under,hardrock,145,4.48,0.4265,True,,155,69.5,0.297196,kalshi,-3.9216,-27.187,False,,,True
+2026-11-08T21:26:44Z,636634,player_reception_yds,Laquon Treadwell,14.5,Under,kalshi,108,3.58,0.498,True,,117,14.5,0.45166,kalshi,-4.1475,-6.0546,False,,,True
+2026-11-08T21:26:44Z,636634,player_receptions,CeeDee Lamb,6.5,Under,bovada,100,3.83,0.5192,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636634,player_receptions,CeeDee Lamb,6.5,Under,draftkings,-101,3.32,0.5192,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636634,player_receptions,Ryan Flournoy,2.5,Under,hardrock,250,5.26,0.3007,True,,450,2.5,0.158404,kalshi,-36.3636,-44.5586,False,,,True
+2026-11-08T21:26:44Z,636634,player_receptions,Ryan Flournoy,3.5,Under,hardrock,125,9.77,0.4878,True,,210,3.5,0.297196,kalshi,-27.4194,-33.1309,False,,,True
+2026-11-08T21:26:44Z,636634,player_receptions,Ryan Flournoy,3.5,Under,kalshi,117,5.86,0.4878,True,,233,3.5,0.297196,kalshi,-34.8348,-35.5085,False,,,True
+2026-11-08T21:26:44Z,636634,player_rush_yds,Seth McGowan,23.5,Over,pinnacle,-133,5.41,0.6017,False,no_outcome_for_selection,,,,,,,,,,False
+2026-11-08T21:26:44Z,636634,player_reception_yds,Ryan Flournoy,36.5,Under,hardrock,150,11.29,0.4452,True,,150,36.5,0.371257,hardrock,0.0,-7.1856,False,,,True
+2026-11-08T21:26:44Z,636634,player_receptions,Tyler Warren,5.5,Over,kalshi,127,5.71,0.4657,True,,117,5.5,0.465784,pinnacle,4.6083,5.733,True,,,True
+2026-11-08T21:26:44Z,636634,player_rush_yds,Seth McGowan,23.5,Under,bovada,135,8.77,0.4629,True,,130,23.5,0.408472,bovada,2.1739,-4.0091,True,,,True
