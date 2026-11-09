@@ -6368,3 +6368,6 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-11-08T21:25:45Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Rome Odunze,45.5,Over,fanatics,-120,3.28,0.5633,bovada,3,3.9,False,ev +3.3 fair 0.563 bovada 3b
 2026-11-08T21:25:45Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_receptions,Kalif Raymond,2.5,Under,hardrock,-165,3.41,0.6439,kalshi,4,3.9,True,ev +3.4 fair 0.644 kalshi 4b
 2026-11-08T22:59:39Z,football_nfl,60348,2026-11-09T01:20:00Z,Chicago Bears,Tampa Bay Buccaneers,player_reception_yds,Emeka Egbuka,39.5,Under,bovada,150,3.97,0.4159,kalshi,5,2.3,False,ev +4.0 fair 0.416 kalshi 5b
+2026-11-09T11:56:16Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Ben Yurosek,0.5,Over,kalshi,-108,4.23,0.5412,pinnacle,9,13.3,False,ev +4.2 fair 0.541 pinnacle 9b
+2026-11-09T11:56:16Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Over,kalshi,108,4.45,0.5022,pinnacle,14,13.3,False,ev +4.5 fair 0.502 pinnacle 14b
+2026-11-09T11:56:16Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Khalil Shakir,3.5,Under,kalshi,133,3.36,0.4436,pinnacle,11,13.3,False,ev +3.4 fair 0.444 pinnacle 11b
