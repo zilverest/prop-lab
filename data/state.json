@@ -1843,26 +1843,14 @@
   "53178|player_rush_yds|Rachaad White|49.5|Under|kalshi": "-270|0.6761|-7.35"
  },
  "parlay_board_last": {
-  "date": "2026-11-08",
+  "date": "2026-11-09",
   "events": [
-   "32689",
-   "53173",
-   "53174",
-   "60346",
-   "636011",
-   "636635",
-   "636628",
-   "636634",
-   "53175",
-   "53176",
-   "636626",
-   "60347",
-   "60348"
+   "53177"
   ],
   "rows": 8,
-  "ts": "2026-11-08T13:48:00Z"
+  "ts": "2026-11-09T14:32:33Z"
  },
- "parlay_gameday_msg_date": "2026-11-08",
+ "parlay_gameday_msg_date": "2026-11-09",
  "parlay_summary_week": "2026-W44",
  "sgp_attempted": {
   "draftkings|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
