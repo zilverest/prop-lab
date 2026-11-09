@@ -6374,3 +6374,6 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-11-09T14:31:50Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,James Cook,1.5,Over,fanduel,102,3.04,0.5101,bovada,11,10.7,False,ev +3.0 fair 0.510 bovada 11b
 2026-11-09T14:31:50Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Khalil Shakir,4.5,Under,draftkings,-146,3.35,0.6134,kalshi,6,10.7,False,ev +3.4 fair 0.613 kalshi 6b
 2026-11-09T14:31:50Z,football_nfl,53178,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,player_rush_yds,Austin Ekeler,14.5,Under,hardrock,210,3.29,0.3332,kalshi,4,82.7,True,ev +3.3 fair 0.333 kalshi 4b
+2026-11-09T22:37:21Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Ben Yurosek,0.5,Over,pinnacle,-114,5.95,0.5644,kalshi,9,2.6,False,ev +6.0 fair 0.564 kalshi 9b
+2026-11-09T22:37:21Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,James Cook,1.5,Over,fanduel,102,3.04,0.5101,bovada,12,2.6,False,ev +3.0 fair 0.510 bovada 12b
+2026-11-09T22:37:21Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_rush_yds,Jordan Mason,39.5,Under,bovada,165,7.55,0.4058,kalshi,5,2.6,False,ev +7.5 fair 0.406 kalshi 5b
