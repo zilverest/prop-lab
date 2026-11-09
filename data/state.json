@@ -2745,7 +2745,7 @@
   "fanduel|87238|87238/player_rush_attempts/Bhayshul Tuten/16.5/Under|87238/player_rush_yds/Justice Hill/15.5/Over": "2026-11-04T22:59:52Z"
  },
  "sgp_roster_cache": {
-  "downloaded_at": "2026-11-08T06:28:54Z",
+  "downloaded_at": "2026-11-09T11:56:35Z",
   "rows": 3290,
   "season": 2026,
   "source": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.csv"
