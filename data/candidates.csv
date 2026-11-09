@@ -6371,3 +6371,6 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-11-09T11:56:16Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Ben Yurosek,0.5,Over,kalshi,-108,4.23,0.5412,pinnacle,9,13.3,False,ev +4.2 fair 0.541 pinnacle 9b
 2026-11-09T11:56:16Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Justin Jefferson,6.5,Over,kalshi,108,4.45,0.5022,pinnacle,14,13.3,False,ev +4.5 fair 0.502 pinnacle 14b
 2026-11-09T11:56:16Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Khalil Shakir,3.5,Under,kalshi,133,3.36,0.4436,pinnacle,11,13.3,False,ev +3.4 fair 0.444 pinnacle 11b
+2026-11-09T14:31:50Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,James Cook,1.5,Over,fanduel,102,3.04,0.5101,bovada,11,10.7,False,ev +3.0 fair 0.510 bovada 11b
+2026-11-09T14:31:50Z,football_nfl,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,player_receptions,Khalil Shakir,4.5,Under,draftkings,-146,3.35,0.6134,kalshi,6,10.7,False,ev +3.4 fair 0.613 kalshi 6b
+2026-11-09T14:31:50Z,football_nfl,53178,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,player_rush_yds,Austin Ekeler,14.5,Under,hardrock,210,3.29,0.3332,kalshi,4,82.7,True,ev +3.3 fair 0.333 kalshi 4b
