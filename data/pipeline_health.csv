@@ -465,3 +465,4 @@ ts,phase,status,events,rows,api_calls,api_remaining,note
 2026-11-10T04:43:58Z,research,ok,0,0,0,,legacy_auto=False; sgp_obs=0
 2026-11-10T13:53:30Z,capture,ok,13,942,26,4955,hours_before=144; shadow=22; e1=0
 2026-11-10T13:53:34Z,research,ok,0,0,0,,legacy_auto=True; sgp_obs=0
+2026-11-10T13:54:47Z,settle,ok,0,55,3,4929,"canonical_close={'capture': {'ts': '2026-11-10T13:53:36Z', 'events': 1, 'rows': 7149, 'failures': [], 'backlog': 0}, 'grade': {'ts': '2026-11-10T13:53:36Z', 'rows': 46, 'id_matches': 41, 'exact_matches': 0, 'loose_matches': 5}}"
