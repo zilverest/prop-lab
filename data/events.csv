@@ -120,3 +120,13 @@ event_id,sport,home,away,commence_time,first_seen
 53177,football_nfl,Minnesota Vikings,Buffalo Bills,2026-11-10T01:15:00Z,2026-11-04T22:57:30Z
 53178,football_nfl,New York Giants,Washington Commanders,2026-11-13T01:15:00Z,2026-11-07T03:29:08Z
 32692,football_nfl,Detroit Lions,New England Patriots,2026-11-15T14:30:00Z,2026-11-09T14:31:50Z
+692590,football_nfl,Indianapolis Colts,Miami Dolphins,2026-11-15T18:00:00Z,2026-11-10T00:55:47Z
+53181,football_nfl,Cleveland Browns,Houston Texans,2026-11-15T18:00:00Z,2026-11-10T00:55:47Z
+88479,football_nfl,Tennessee Titans,Jacksonville Jaguars,2026-11-15T18:00:00Z,2026-11-10T00:55:47Z
+53180,football_nfl,New York Jets,Buffalo Bills,2026-11-15T18:00:00Z,2026-11-10T00:55:47Z
+53179,football_nfl,New Orleans Saints,Carolina Panthers,2026-11-15T18:00:00Z,2026-11-10T00:55:47Z
+88480,football_nfl,Green Bay Packers,Minnesota Vikings,2026-11-15T18:00:00Z,2026-11-10T00:55:47Z
+88481,football_nfl,Atlanta Falcons,Kansas City Chiefs,2026-11-15T18:00:00Z,2026-11-10T00:55:47Z
+53183,football_nfl,Las Vegas Raiders,Seattle Seahawks,2026-11-15T21:05:00Z,2026-11-10T00:55:47Z
+53182,football_nfl,Arizona Cardinals,Los Angeles Rams,2026-11-15T21:05:00Z,2026-11-10T00:55:47Z
+684539,football_nfl,Dallas Cowboys,San Francisco 49ers,2026-11-15T21:25:00Z,2026-11-10T00:55:47Z
