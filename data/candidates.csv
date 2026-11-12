@@ -6502,3 +6502,5 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-11-12T16:09:35Z,football_nfl,53178,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,player_rush_yds,Austin Ekeler,24.5,Under,bovada,130,4.9,0.4561,kalshi,5,9.1,False,ev +4.9 fair 0.456 kalshi 5b
 2026-11-12T16:09:35Z,football_nfl,53178,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,player_rush_yds,Jayden Daniels,24.5,Under,hardrock,230,7.77,0.3266,kalshi,4,9.1,True,ev +7.8 fair 0.327 kalshi 4b
 2026-11-12T16:09:35Z,football_nfl,53178,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,player_rush_yds,Jayden Daniels,29.5,Under,hardrock,160,5.52,0.4058,kalshi,4,9.1,True,ev +5.5 fair 0.406 kalshi 4b
+2026-11-12T22:22:18Z,football_nfl,53178,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,player_rush_yds,Austin Ekeler,19.5,Under,bovada,225,6.14,0.3266,kalshi,5,2.9,False,ev +6.1 fair 0.327 kalshi 5b
+2026-11-12T22:22:18Z,football_nfl,53178,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,player_rush_yds,Jayden Daniels,24.5,Under,hardrock,240,11.04,0.3266,kalshi,4,2.9,True,ev +11.0 fair 0.327 kalshi 4b
