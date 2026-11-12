@@ -489,3 +489,4 @@ ts,phase,status,events,rows,api_calls,api_remaining,note
 2026-11-12T16:09:52Z,capture,ok,1,642,4,4773,hours_before=30.0; shadow=22; e1=1
 2026-11-12T16:09:59Z,research,ok,0,0,0,,legacy_auto=False; sgp_obs=1
 2026-11-12T22:22:36Z,capture,ok,1,840,4,4768,hours_before=30.0; shadow=22; e1=0
+2026-11-12T22:22:48Z,research,ok,1,8,0,,legacy_auto=False; sgp_obs=1
