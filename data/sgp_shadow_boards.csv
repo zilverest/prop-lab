@@ -673,3 +673,4 @@ ts,snapshot_ts,board_date,week_key,event_id,commence_time,home,away,hours_to_kic
 2026-11-09T22:37:48Z,2026-11-09T22:37:21Z,2026-11-09,2026-11-09,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,2.62,fresh,814,3,0,3,14000,0,0,0,,fresh
 2026-11-10T00:57:01Z,2026-11-10T00:55:47Z,2026-11-09,2026-11-09,53177,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,0.3,fresh,828,3,0,3,11990,0,0,0,,fresh
 2026-11-11T23:51:04Z,2026-11-11T23:47:07Z,2026-11-11,2026-11-09,53178,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,25.4,refreshed,726,3,0,2,7744,0,0,0,,fresh
+2026-11-12T04:41:05Z,2026-11-12T04:37:52Z,2026-11-11,2026-11-09,53178,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,20.57,fresh,864,8,2,22,12674,10,24,30,,fresh
