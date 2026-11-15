@@ -12445,14 +12445,25 @@
   "88481|player_rush_yds|Patrick Mahomes|9.5|Under|kalshi": "-122|0.5439|-1.03"
  },
  "parlay_board_last": {
-  "date": "2026-11-12",
+  "date": "2026-11-15",
   "events": [
-   "53178"
+   "32692",
+   "692590",
+   "53181",
+   "88479",
+   "53180",
+   "53179",
+   "88480",
+   "88481",
+   "53183",
+   "53182",
+   "684539",
+   "686589"
   ],
   "rows": 8,
-  "ts": "2026-11-12T14:10:53Z"
+  "ts": "2026-11-15T13:06:17Z"
  },
- "parlay_gameday_msg_date": "2026-11-12",
+ "parlay_gameday_msg_date": "2026-11-15",
  "parlay_summary_week": "2026-W46",
  "sgp_attempted": {
   "draftkings|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
@@ -12936,6 +12947,7 @@
   "draftkings|53180|53180/player_pass_tds/Josh Allen/1.5/Over|53180/player_receptions/DJ Moore/3.5/Over": "2026-11-15T03:31:29Z",
   "draftkings|53180|53180/player_receptions/Adonai Mitchell/2.5/Over|53180/player_receptions/DJ Moore/3.5/Over": "2026-11-15T03:31:29Z",
   "draftkings|53180|53180/player_receptions/Adonai Mitchell/2.5/Over|53180/player_receptions/Keon Coleman/2.5/Over": "2026-11-14T21:47:37Z",
+  "draftkings|53180|53180/player_receptions/Adonai Mitchell/2.5/Over|53180/player_rush_yds/Braelon Allen/24.5/Under": "2026-11-15T13:06:18Z",
   "draftkings|53181|53181/player_pass_tds/C.J. Stroud/1.5/Over|53181/player_receptions/Jerry Jeudy/1.5/Over": "2026-11-12T04:41:05Z",
   "draftkings|53181|53181/player_pass_tds/C.J. Stroud/1.5/Over|53181/player_receptions/Xavier Hutchinson/2.5/Over": "2026-11-14T21:47:37Z",
   "draftkings|53181|53181/player_pass_tds/Deshaun Watson/1.5/Over|53181/player_receptions/Xavier Hutchinson/2.5/Over": "2026-11-13T23:00:27Z",
@@ -12951,7 +12963,7 @@
   "draftkings|53183|53183/player_reception_yds/AJ Barner/9.5/Under|53183/player_receptions/Tory Horton/1.5/Over": "2026-11-15T03:31:29Z",
   "draftkings|53183|53183/player_reception_yds/AJ Barner/9.5/Under|53183/player_rush_yds/Ashton Jeanty/19.5/Under": "2026-11-12T14:10:53Z",
   "draftkings|53184|53184/player_pass_completions/Jacoby Brissett/19.5/Over|53184/player_receptions/Ja'Kobi Lane/2.5/Over": "2026-11-14T03:50:58Z",
-  "draftkings|53184|53184/player_pass_tds/Justin Herbert/0.5/Under|53184/player_reception_yds/Kimani Vidal/9.5/Under": "2026-11-14T12:39:24Z",
+  "draftkings|53184|53184/player_pass_tds/Justin Herbert/0.5/Under|53184/player_reception_yds/Kimani Vidal/9.5/Under": "2026-11-15T13:06:18Z",
   "draftkings|53184|53184/player_rush_yds/Derrick Henry/59.5/Under|53184/player_rush_yds/Omarion Hampton/19.5/Under": "2026-11-14T21:47:37Z",
   "draftkings|53184|53184/player_rush_yds/Kimani Vidal/9.5/Under|53184/player_rush_yds/Omarion Hampton/19.5/Under": "2026-11-13T13:33:58Z",
   "draftkings|53245|53245/player_pass_tds/Jalon Daniels/0.5/Under|53245/player_receptions/Cade Otton/3.5/Over": "2026-10-15T15:54:10Z",
@@ -13174,7 +13186,7 @@
   "draftkings|684539|684539/player_receptions/Deebo Samuel Sr./3.5/Over|684539/player_rush_yds/Brock Purdy/9.5/Under": "2026-11-14T21:47:37Z",
   "draftkings|684539|684539/player_rush_yds/Brock Purdy/9.5/Under|684539/player_rush_yds/Kaelon Black/24.5/Under": "2026-11-13T23:00:27Z",
   "draftkings|686589|686589/player_pass_completions/Joe Burrow/26.5/Under|686589/player_reception_yds/Chase Brown/14.5/Under": "2026-11-13T23:00:27Z",
-  "draftkings|686589|686589/player_pass_tds/Joe Burrow/1.5/Under|686589/player_reception_yds/Chase Brown/14.5/Under": "2026-11-14T03:50:58Z",
+  "draftkings|686589|686589/player_pass_tds/Joe Burrow/1.5/Under|686589/player_reception_yds/Chase Brown/14.5/Under": "2026-11-15T13:06:18Z",
   "draftkings|686589|686589/player_reception_yds/Chase Brown/14.5/Under|686589/player_receptions/Pat Freiermuth/2.5/Under": "2026-11-14T21:47:37Z",
   "draftkings|686589|686589/player_reception_yds/Chase Brown/14.5/Under|686589/player_rush_yds/Samaje Perine/14.5/Under": "2026-11-11T03:29:27Z",
   "draftkings|686589|686589/player_reception_yds/Chase Brown/14.5/Under|686589/player_rush_yds/Samaje Perine/24.5/Under": "2026-11-14T12:39:24Z",
@@ -13194,6 +13206,7 @@
   "draftkings|88480|88480/player_reception_yds/T.J. Hockenson/24.5/Under|88480/player_receptions/Aaron Jones/1.5/Under": "2026-11-13T23:00:27Z",
   "draftkings|88480|88480/player_reception_yds/T.J. Hockenson/24.5/Under|88480/player_receptions/Ben Yurosek/1.5/Over": "2026-11-14T21:47:37Z",
   "draftkings|88480|88480/player_reception_yds/T.J. Hockenson/24.5/Under|88480/player_rush_yds/Jordan Mason/29.5/Under": "2026-11-12T14:10:53Z",
+  "draftkings|88481|88481/player_pass_tds/Patrick Mahomes/1.5/Under|88481/player_reception_yds/Rashee Rice/55.5/Under": "2026-11-15T13:06:18Z",
   "draftkings|88481|88481/player_pass_tds/Patrick Mahomes/1.5/Under|88481/player_reception_yds/Travis Kelce/47.5/Under": "2026-11-15T03:31:29Z",
   "draftkings|88481|88481/player_pass_tds/Patrick Mahomes/1.5/Under|88481/player_reception_yds/Xavier Worthy/14.5/Under": "2026-11-13T23:00:27Z",
   "draftkings|88481|88481/player_pass_tds/Patrick Mahomes/1.5/Under|88481/player_receptions/Kyle Pitts/3.5/Under": "2026-11-12T04:41:05Z",
@@ -13681,6 +13694,7 @@
   "fanduel|53180|53180/player_pass_tds/Josh Allen/1.5/Over|53180/player_receptions/DJ Moore/3.5/Over": "2026-11-15T03:31:29Z",
   "fanduel|53180|53180/player_receptions/Adonai Mitchell/2.5/Over|53180/player_receptions/DJ Moore/3.5/Over": "2026-11-15T03:31:29Z",
   "fanduel|53180|53180/player_receptions/Adonai Mitchell/2.5/Over|53180/player_receptions/Keon Coleman/2.5/Over": "2026-11-14T21:47:37Z",
+  "fanduel|53180|53180/player_receptions/Adonai Mitchell/2.5/Over|53180/player_rush_yds/Braelon Allen/24.5/Under": "2026-11-15T13:06:18Z",
   "fanduel|53181|53181/player_pass_tds/C.J. Stroud/1.5/Over|53181/player_receptions/Jerry Jeudy/1.5/Over": "2026-11-12T04:41:05Z",
   "fanduel|53181|53181/player_pass_tds/C.J. Stroud/1.5/Over|53181/player_receptions/Xavier Hutchinson/2.5/Over": "2026-11-14T21:47:37Z",
   "fanduel|53181|53181/player_pass_tds/Deshaun Watson/1.5/Over|53181/player_receptions/Xavier Hutchinson/2.5/Over": "2026-11-13T23:00:27Z",
@@ -13696,7 +13710,7 @@
   "fanduel|53183|53183/player_reception_yds/AJ Barner/9.5/Under|53183/player_receptions/Tory Horton/1.5/Over": "2026-11-15T03:31:29Z",
   "fanduel|53183|53183/player_reception_yds/AJ Barner/9.5/Under|53183/player_rush_yds/Ashton Jeanty/19.5/Under": "2026-11-12T14:10:53Z",
   "fanduel|53184|53184/player_pass_completions/Jacoby Brissett/19.5/Over|53184/player_receptions/Ja'Kobi Lane/2.5/Over": "2026-11-14T03:50:58Z",
-  "fanduel|53184|53184/player_pass_tds/Justin Herbert/0.5/Under|53184/player_reception_yds/Kimani Vidal/9.5/Under": "2026-11-14T12:39:24Z",
+  "fanduel|53184|53184/player_pass_tds/Justin Herbert/0.5/Under|53184/player_reception_yds/Kimani Vidal/9.5/Under": "2026-11-15T13:06:18Z",
   "fanduel|53184|53184/player_rush_yds/Derrick Henry/59.5/Under|53184/player_rush_yds/Omarion Hampton/19.5/Under": "2026-11-14T21:47:37Z",
   "fanduel|53184|53184/player_rush_yds/Kimani Vidal/9.5/Under|53184/player_rush_yds/Omarion Hampton/19.5/Under": "2026-11-13T13:33:58Z",
   "fanduel|53245|53245/player_pass_tds/Jalon Daniels/0.5/Under|53245/player_receptions/Cade Otton/3.5/Over": "2026-10-15T15:54:10Z",
@@ -13919,7 +13933,7 @@
   "fanduel|684539|684539/player_receptions/Deebo Samuel Sr./3.5/Over|684539/player_rush_yds/Brock Purdy/9.5/Under": "2026-11-14T21:47:37Z",
   "fanduel|684539|684539/player_rush_yds/Brock Purdy/9.5/Under|684539/player_rush_yds/Kaelon Black/24.5/Under": "2026-11-13T23:00:27Z",
   "fanduel|686589|686589/player_pass_completions/Joe Burrow/26.5/Under|686589/player_reception_yds/Chase Brown/14.5/Under": "2026-11-13T23:00:27Z",
-  "fanduel|686589|686589/player_pass_tds/Joe Burrow/1.5/Under|686589/player_reception_yds/Chase Brown/14.5/Under": "2026-11-14T03:50:58Z",
+  "fanduel|686589|686589/player_pass_tds/Joe Burrow/1.5/Under|686589/player_reception_yds/Chase Brown/14.5/Under": "2026-11-15T13:06:18Z",
   "fanduel|686589|686589/player_reception_yds/Chase Brown/14.5/Under|686589/player_receptions/Pat Freiermuth/2.5/Under": "2026-11-14T21:47:37Z",
   "fanduel|686589|686589/player_reception_yds/Chase Brown/14.5/Under|686589/player_rush_yds/Samaje Perine/14.5/Under": "2026-11-11T03:29:27Z",
   "fanduel|686589|686589/player_reception_yds/Chase Brown/14.5/Under|686589/player_rush_yds/Samaje Perine/24.5/Under": "2026-11-14T12:39:24Z",
@@ -13939,6 +13953,7 @@
   "fanduel|88480|88480/player_reception_yds/T.J. Hockenson/24.5/Under|88480/player_receptions/Aaron Jones/1.5/Under": "2026-11-13T23:00:27Z",
   "fanduel|88480|88480/player_reception_yds/T.J. Hockenson/24.5/Under|88480/player_receptions/Ben Yurosek/1.5/Over": "2026-11-14T21:47:37Z",
   "fanduel|88480|88480/player_reception_yds/T.J. Hockenson/24.5/Under|88480/player_rush_yds/Jordan Mason/29.5/Under": "2026-11-12T14:10:53Z",
+  "fanduel|88481|88481/player_pass_tds/Patrick Mahomes/1.5/Under|88481/player_reception_yds/Rashee Rice/55.5/Under": "2026-11-15T13:06:18Z",
   "fanduel|88481|88481/player_pass_tds/Patrick Mahomes/1.5/Under|88481/player_reception_yds/Travis Kelce/47.5/Under": "2026-11-15T03:31:29Z",
   "fanduel|88481|88481/player_pass_tds/Patrick Mahomes/1.5/Under|88481/player_reception_yds/Xavier Worthy/14.5/Under": "2026-11-13T23:00:27Z",
   "fanduel|88481|88481/player_pass_tds/Patrick Mahomes/1.5/Under|88481/player_receptions/Kyle Pitts/3.5/Under": "2026-11-12T04:41:05Z",
@@ -13947,7 +13962,7 @@
   "fanduel|88481|88481/player_rush_reception_yds/Emmett Johnson/25.5/Over|88481/player_rush_yds/Patrick Mahomes/9.5/Under": "2026-11-12T22:58:54Z"
  },
  "sgp_roster_cache": {
-  "downloaded_at": "2026-11-14T12:39:23Z",
+  "downloaded_at": "2026-11-15T13:06:17Z",
   "rows": 3324,
   "season": 2026,
   "source": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.csv"
