@@ -36124,3 +36124,956 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-11-15T20:28:37Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,39.5,Under,kalshi,-178,-3.0,0.6211,kalshi,4,28.8
 2026-11-15T20:28:37Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,39.5,Under,hardrock,-190,-5.2,0.6211,kalshi,4,28.8
 2026-11-15T20:28:37Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,39.5,Over,hardrock,135,-10.96,0.3789,kalshi,4,28.8
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_completions,Aaron Rodgers,21.5,Under,pinnacle,-109,-2.19,0.5101,bovada,12,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_completions,Aaron Rodgers,21.5,Over,fanatics,-110,-6.48,0.4899,bovada,12,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_completions,Aaron Rodgers,21.5,Under,fanatics,-120,-6.48,0.5101,bovada,12,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_completions,Aaron Rodgers,21.5,Over,pinnacle,-111,-6.88,0.4899,bovada,12,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_interceptions,Joe Burrow,0.5,Over,pinnacle,-112,-3.44,0.5101,bovada,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_interceptions,Joe Burrow,0.5,Under,pinnacle,-108,-5.65,0.4899,bovada,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Mike Gesicki,29.5,Over,kalshi,133,-1.9,0.421,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Mike Gesicki,29.5,Under,kalshi,-144,-1.9,0.579,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Mike Gesicki,29.5,Under,hardrock,-160,-5.92,0.579,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Mike Gesicki,29.5,Over,hardrock,115,-9.48,0.421,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Over,kalshi,-104,-0.97,0.5049,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Under,kalshi,-100,-0.97,0.4951,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Over,pinnacle,-110,-3.62,0.5049,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Under,draftkings,-106,-3.77,0.4951,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Over,underdog,-112,-4.44,0.5049,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Over,fanduel,-113,-4.84,0.5049,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Under,pinnacle,-110,-5.47,0.4951,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Under,bovada,-110,-5.47,0.4951,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Over,hardrock,-115,-5.61,0.5049,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Under,underdog,-112,-6.28,0.4951,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Under,fanduel,-113,-6.67,0.4951,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Over,draftkings,-119,-7.09,0.5049,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Under,hardrock,-115,-7.43,0.4951,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Samaje Perine,4.5,Over,bovada,-120,-7.44,0.5049,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,DK Metcalf,4.5,Over,pinnacle,120,-1.87,0.446,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,DK Metcalf,4.5,Under,pinnacle,-146,-6.66,0.554,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Dohnte Meyers,2.5,Under,pinnacle,-140,-1.49,0.5747,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Dohnte Meyers,2.5,Over,pinnacle,115,-8.55,0.4253,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Drew Sample,0.5,Under,hardrock,155,-11.51,0.347,bovada,8,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Drew Sample,1.5,Under,fanatics,-300,-7.57,0.6933,kalshi,6,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Drew Sample,1.5,Over,fanatics,200,-7.98,0.3067,kalshi,6,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Over,kalshi,-117,-0.86,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Under,kalshi,113,-0.86,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Over,fanduel,-122,-2.73,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Over,pinnacle,-126,-4.12,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Under,fanatics,105,-4.58,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Under,hardrock,105,-4.58,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Under,pinnacle,104,-5.05,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Over,bovada,-130,-5.43,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Over,draftkings,-131,-5.74,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Under,draftkings,102,-5.98,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Under,bovada,100,-6.91,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Over,hardrock,-135,-6.95,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Over,fanatics,-140,-8.36,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,4.5,Under,fanduel,-108,-10.36,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,8.5,Over,kalshi,163,-0.98,0.3765,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,8.5,Under,kalshi,-170,-0.98,0.6235,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,8.5,Under,hardrock,-195,-5.68,0.6235,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,8.5,Over,hardrock,140,-9.64,0.3765,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Over,fanduel,116,0.54,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Over,kalshi,113,-0.86,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Under,kalshi,-117,-0.86,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Under,pinnacle,-120,-2.0,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Over,fanatics,110,-2.25,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Under,draftkings,-123,-3.09,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Under,bovada,-125,-3.78,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Over,hardrock,105,-4.58,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Under,hardrock,-135,-6.95,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Over,pinnacle,-101,-7.37,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Over,draftkings,-103,-8.26,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Over,bovada,-105,-9.13,0.4655,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Under,fanatics,-150,-10.91,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Mike Gesicki,2.5,Under,fanduel,-154,-11.83,0.5345,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Pat Freiermuth,2.5,Under,draftkings,113,-2.85,0.4561,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Pat Freiermuth,2.5,Over,pinnacle,-132,-4.4,0.5439,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Pat Freiermuth,2.5,Under,pinnacle,109,-4.68,0.4561,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Pat Freiermuth,2.5,Over,draftkings,-144,-7.84,0.5439,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Rico Dowdle,2.5,Over,pinnacle,129,-2.59,0.4253,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Rico Dowdle,2.5,Under,pinnacle,-157,-5.93,0.5747,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Tee Higgins,5.5,Under,pinnacle,-115,-1.92,0.5246,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Tee Higgins,5.5,Over,pinnacle,-105,-7.18,0.4754,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Chase Brown,11.5,Over,pinnacle,-117,-3.5,0.5203,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Chase Brown,11.5,Over,underdog,-120,-4.61,0.5203,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Chase Brown,11.5,Over,fanatics,-120,-4.61,0.5203,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Chase Brown,11.5,Under,underdog,-104,-5.91,0.4797,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Chase Brown,11.5,Under,pinnacle,-104,-5.91,0.4797,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Chase Brown,11.5,Over,hardrock,-125,-6.35,0.5203,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Chase Brown,11.5,Under,hardrock,-105,-6.35,0.4797,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Chase Brown,11.5,Under,fanatics,-110,-8.42,0.4797,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Jaylen Warren,13.5,Under,pinnacle,-104,0.06,0.5101,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Jaylen Warren,13.5,Under,hardrock,-110,-2.61,0.5101,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Jaylen Warren,13.5,Under,fanatics,-115,-4.63,0.5101,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Jaylen Warren,13.5,Over,fanatics,-115,-8.41,0.4899,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Jaylen Warren,13.5,Over,pinnacle,-116,-8.78,0.4899,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Jaylen Warren,13.5,Over,hardrock,-120,-10.19,0.4899,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Rico Dowdle,7.5,Over,pinnacle,-105,-4.36,0.4899,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Rico Dowdle,7.5,Under,pinnacle,-115,-4.63,0.5101,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Samaje Perine,5.5,Over,pinnacle,-125,-0.25,0.5541,bovada,6,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_attempts,Samaje Perine,5.5,Under,pinnacle,103,-9.49,0.4459,bovada,6,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Chase Brown,59.5,Over,kalshi,212,-1.08,0.3171,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Chase Brown,59.5,Under,kalshi,-223,-1.08,0.6829,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Chase Brown,59.5,Under,hardrock,-275,-6.87,0.6829,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Chase Brown,59.5,Over,hardrock,190,-8.05,0.3171,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,59.5,Over,kalshi,-133,-2.08,0.5589,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,59.5,Under,kalshi,122,-2.08,0.4411,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,59.5,Under,hardrock,115,-5.17,0.4411,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,59.5,Under,bovada,115,-5.17,0.4411,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,59.5,Over,bovada,-150,-6.85,0.5589,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,59.5,Over,hardrock,-160,-9.17,0.5589,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,69.5,Over,kalshi,122,-0.98,0.446,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,69.5,Under,kalshi,-127,-0.98,0.554,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,69.5,Under,hardrock,-135,-3.57,0.554,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,69.5,Over,bovada,115,-4.1,0.446,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,69.5,Under,bovada,-150,-7.67,0.554,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,69.5,Over,hardrock,-105,-12.92,0.446,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Rico Dowdle,30.5,Over,pinnacle,108,1.89,0.4899,bovada,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Rico Dowdle,30.5,Under,pinnacle,-130,-9.75,0.5101,bovada,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Samaje Perine,9.5,Under,hardrock,220,1.46,0.3171,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Samaje Perine,9.5,Over,kalshi,-223,-1.08,0.6829,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Samaje Perine,9.5,Under,kalshi,212,-1.08,0.3171,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Samaje Perine,9.5,Over,hardrock,-325,-10.69,0.6829,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Chase Brown,,No,kalshi,-113,-1.12,0.5246,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Chase Brown,,Yes,kalshi,108,-1.12,0.4754,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Chase Brown,,Yes,hardrock,100,-4.92,0.4754,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Chase Brown,,No,hardrock,-135,-8.68,0.5246,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Ja'Marr Chase,,No,kalshi,-100,-0.97,0.4951,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Ja'Marr Chase,,Yes,kalshi,-104,-0.97,0.5049,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Ja'Marr Chase,,Yes,hardrock,-115,-5.61,0.5049,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Ja'Marr Chase,,No,hardrock,-115,-7.43,0.4951,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Jaylen Warren,,No,kalshi,-122,-1.03,0.5439,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Jaylen Warren,,Yes,kalshi,117,-1.03,0.4561,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Jaylen Warren,,No,hardrock,-140,-6.76,0.5439,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Jaylen Warren,,Yes,hardrock,100,-8.78,0.4561,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Rico Dowdle,,No,kalshi,-223,-1.08,0.6829,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Rico Dowdle,,Yes,kalshi,212,-1.08,0.3171,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Rico Dowdle,,No,hardrock,-260,-5.44,0.6829,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Rico Dowdle,,Yes,hardrock,180,-11.23,0.3171,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Tee Higgins,,No,kalshi,-138,-0.89,0.5747,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Tee Higgins,,Yes,kalshi,133,-0.89,0.4253,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Tee Higgins,,No,hardrock,-160,-6.62,0.5747,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_anytime_td,Tee Higgins,,Yes,hardrock,115,-8.55,0.4253,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_attempts,Joe Burrow,37.5,Under,pinnacle,-107,-3.27,0.5,bovada,9,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_attempts,Joe Burrow,37.5,Over,pinnacle,-113,-5.75,0.5,bovada,9,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_interceptions,Aaron Rodgers,0.5,Over,pinnacle,-109,-4.13,0.5,bovada,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_interceptions,Aaron Rodgers,0.5,Under,pinnacle,-111,-4.95,0.5,bovada,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_tds,Aaron Rodgers,1.5,Over,fanduel,-102,-1.94,0.4951,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_tds,Aaron Rodgers,1.5,Over,pinnacle,-103,-2.41,0.4951,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_tds,Aaron Rodgers,1.5,Under,pinnacle,-118,-6.73,0.5049,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_tds,Aaron Rodgers,1.5,Under,fanduel,-128,-10.07,0.5049,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_tds,Joe Burrow,1.5,Over,pinnacle,-215,-1.34,0.6734,kalshi,6,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_tds,Joe Burrow,1.5,Over,hardrock,-250,-5.72,0.6734,kalshi,6,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_tds,Joe Burrow,1.5,Under,hardrock,175,-10.19,0.3266,kalshi,6,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_tds,Joe Burrow,1.5,Under,pinnacle,174,-10.51,0.3266,kalshi,6,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_tds,Joe Burrow,2.5,Under,hardrock,-200,-3.42,0.6439,kalshi,12,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Aaron Rodgers,224.5,Over,kalshi,-156,-1.88,0.5979,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Aaron Rodgers,224.5,Under,kalshi,144,-1.88,0.4021,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Aaron Rodgers,249.5,Over,kalshi,122,-0.98,0.446,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Aaron Rodgers,249.5,Under,kalshi,-127,-0.98,0.554,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Aaron Rodgers,249.5,Over,bovada,110,-6.33,0.446,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Aaron Rodgers,249.5,Under,hardrock,-145,-6.4,0.554,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Aaron Rodgers,249.5,Under,bovada,-145,-6.4,0.554,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Aaron Rodgers,249.5,Over,hardrock,105,-8.56,0.446,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Joe Burrow,293.5,Over,hardrock,-115,-6.52,0.5,bovada,8,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Joe Burrow,293.5,Under,hardrock,-115,-6.52,0.5,bovada,8,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Joe Burrow,299.5,Over,kalshi,113,-0.86,0.4655,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Joe Burrow,299.5,Under,kalshi,-117,-0.86,0.5345,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Joe Burrow,299.5,Over,hardrock,100,-6.91,0.4655,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Joe Burrow,299.5,Under,hardrock,-135,-6.95,0.5345,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Joe Burrow,324.5,Over,kalshi,203,-1.04,0.3266,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_pass_yds,Joe Burrow,324.5,Under,kalshi,-213,-1.04,0.6734,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_longest,Chase Brown,9.5,Over,hardrock,-110,-0.67,0.5203,bovada,6,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_longest,Chase Brown,9.5,Under,hardrock,-120,-12.06,0.4797,bovada,6,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Chase Brown,19.5,Over,kalshi,-156,-0.93,0.6037,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Chase Brown,19.5,Under,kalshi,150,-0.93,0.3963,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Chase Brown,19.5,Under,hardrock,145,-2.91,0.3963,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Chase Brown,19.5,Over,hardrock,-200,-9.44,0.6037,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Chase Brown,29.5,Over,kalshi,150,-0.93,0.3963,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Chase Brown,29.5,Under,kalshi,-156,-0.93,0.6037,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Chase Brown,29.5,Under,hardrock,-175,-5.13,0.6037,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Chase Brown,29.5,Over,hardrock,130,-8.85,0.3963,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,DK Metcalf,39.5,Over,kalshi,-194,-1.92,0.6472,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,DK Metcalf,39.5,Under,kalshi,178,-1.92,0.3528,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,DK Metcalf,39.5,Over,hardrock,-230,-7.14,0.6472,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,DK Metcalf,39.5,Under,hardrock,160,-8.27,0.3528,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,DK Metcalf,50.5,Over,fanatics,-135,-3.54,0.5541,bovada,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,DK Metcalf,50.5,Under,fanatics,100,-10.83,0.4459,bovada,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,DK Metcalf,59.5,Over,kalshi,138,-1.02,0.4159,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,DK Metcalf,59.5,Under,kalshi,-144,-1.02,0.5841,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,DK Metcalf,59.5,Under,hardrock,-150,-2.65,0.5841,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,DK Metcalf,59.5,Over,hardrock,105,-14.75,0.4159,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Darnell Washington,19.5,Over,hardrock,-240,-6.91,0.6571,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Darnell Washington,19.5,Under,hardrock,165,-9.13,0.3429,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Darnell Washington,24.5,Over,kalshi,-138,-0.89,0.5747,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Darnell Washington,24.5,Under,kalshi,133,-0.89,0.4253,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Darnell Washington,24.5,Under,hardrock,120,-6.42,0.4253,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Darnell Washington,24.5,Over,hardrock,-170,-8.73,0.5747,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Darnell Washington,25.5,Over,hardrock,-160,-6.54,0.5752,bovada,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Darnell Washington,39.5,Over,kalshi,170,-1.05,0.3665,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Darnell Washington,39.5,Under,kalshi,-178,-1.05,0.6335,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Darnell Washington,39.5,Under,hardrock,-185,-2.4,0.6335,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Darnell Washington,39.5,Over,hardrock,135,-13.88,0.3665,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Dohnte Meyers,14.5,Over,kalshi,-170,-1.99,0.6171,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Dohnte Meyers,14.5,Under,kalshi,156,-1.99,0.3829,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Dohnte Meyers,14.5,Over,hardrock,-190,-5.81,0.6171,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Dohnte Meyers,14.5,Under,hardrock,135,-10.03,0.3829,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Dohnte Meyers,19.5,Over,pinnacle,-110,-2.74,0.5094,kalshi,6,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Dohnte Meyers,19.5,Under,pinnacle,-110,-6.35,0.4906,kalshi,6,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Dohnte Meyers,20.5,Under,fanatics,-110,-4.55,0.5,bovada,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Dohnte Meyers,20.5,Over,fanatics,-120,-8.33,0.5,bovada,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Dohnte Meyers,24.5,Over,kalshi,133,-1.9,0.421,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Dohnte Meyers,24.5,Under,kalshi,-144,-1.9,0.579,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Dohnte Meyers,24.5,Under,hardrock,-160,-5.92,0.579,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Dohnte Meyers,24.5,Over,hardrock,115,-9.48,0.421,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Drew Sample,9.5,Under,hardrock,-240,-6.04,0.6633,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,39.5,Under,bovada,150,-0.49,0.3981,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,39.5,Over,kalshi,-163,-2.88,0.6019,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,39.5,Under,kalshi,144,-2.88,0.3981,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,39.5,Under,hardrock,135,-6.46,0.3981,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,39.5,Over,hardrock,-195,-8.94,0.6019,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,39.5,Over,bovada,-200,-9.71,0.6019,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,49.5,Over,kalshi,104,-0.93,0.4856,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,49.5,Under,kalshi,-108,-0.93,0.5144,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,49.5,Under,draftkings,-113,-3.04,0.5144,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,49.5,Under,bovada,-115,-3.83,0.5144,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,49.5,Under,hardrock,-120,-5.7,0.5144,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,49.5,Over,draftkings,-111,-7.69,0.4856,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,49.5,Over,hardrock,-115,-9.21,0.4856,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,49.5,Over,bovada,-115,-9.21,0.4856,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,59.5,Over,kalshi,170,-1.05,0.3665,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,59.5,Under,kalshi,-178,-1.05,0.6335,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,59.5,Under,bovada,-185,-2.4,0.6335,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,59.5,Under,hardrock,-195,-4.16,0.6335,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,59.5,Over,hardrock,140,-12.05,0.3665,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Germie Bernard,59.5,Over,bovada,140,-12.05,0.3665,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Ja'Marr Chase,89.5,Under,pinnacle,-111,-0.28,0.5246,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Ja'Marr Chase,89.5,Over,pinnacle,-109,-8.84,0.4754,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,19.5,Over,kalshi,-144,-1.02,0.5841,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,19.5,Under,kalshi,138,-1.02,0.4159,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,19.5,Over,hardrock,-170,-7.23,0.5841,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,19.5,Under,hardrock,120,-8.51,0.4159,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,24.5,Over,kalshi,104,-0.93,0.4856,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,24.5,Under,kalshi,-108,-0.93,0.5144,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,24.5,Under,underdog,-112,-2.63,0.5144,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,24.5,Under,fanduel,-113,-3.04,0.5144,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,24.5,Under,hardrock,-115,-3.83,0.5144,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,24.5,Over,underdog,-112,-8.08,0.4856,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,24.5,Over,fanduel,-113,-8.46,0.4856,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,24.5,Over,hardrock,-115,-9.21,0.4856,kalshi,7,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,29.5,Over,kalshi,138,-1.98,0.4119,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,29.5,Under,kalshi,-150,-1.98,0.5881,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,29.5,Under,hardrock,-170,-6.59,0.5881,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Jaylen Warren,29.5,Over,hardrock,120,-9.39,0.4119,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Mike Gesicki,19.5,Over,kalshi,-150,-1.98,0.5881,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Mike Gesicki,19.5,Under,kalshi,138,-1.98,0.4119,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Mike Gesicki,19.5,Over,hardrock,-170,-6.59,0.5881,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Mike Gesicki,19.5,Under,hardrock,120,-9.39,0.4119,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Mike Gesicki,24.5,Under,pinnacle,-102,-3.83,0.4856,kalshi,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Mike Gesicki,24.5,Over,pinnacle,-119,-5.34,0.5144,kalshi,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Pat Freiermuth,19.5,Over,kalshi,-156,-0.93,0.6037,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Pat Freiermuth,19.5,Under,kalshi,150,-0.93,0.3963,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Pat Freiermuth,19.5,Under,hardrock,140,-4.89,0.3963,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Pat Freiermuth,19.5,Over,hardrock,-200,-9.44,0.6037,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Pat Freiermuth,29.5,Over,kalshi,122,-0.98,0.446,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Pat Freiermuth,29.5,Under,kalshi,-127,-0.98,0.554,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Pat Freiermuth,29.5,Under,hardrock,-145,-6.4,0.554,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Pat Freiermuth,29.5,Over,hardrock,105,-8.56,0.446,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,9.5,Over,kalshi,-150,-0.97,0.5942,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,9.5,Under,kalshi,144,-0.97,0.4058,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,9.5,Under,hardrock,130,-6.66,0.4058,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,9.5,Over,hardrock,-180,-7.58,0.5942,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,13.5,Over,pinnacle,-109,-4.13,0.5,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,13.5,Under,pinnacle,-111,-4.95,0.5,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,14.5,Over,kalshi,113,-0.86,0.4655,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,14.5,Under,kalshi,-117,-0.86,0.5345,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,14.5,Under,hardrock,-130,-5.43,0.5345,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,14.5,Over,hardrock,-105,-9.13,0.4655,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,19.5,Over,kalshi,178,-1.0,0.3561,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,19.5,Under,kalshi,-186,-1.0,0.6439,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,19.5,Under,hardrock,-220,-6.35,0.6439,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Rico Dowdle,19.5,Over,hardrock,155,-9.19,0.3561,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,59.5,Over,kalshi,-178,-1.05,0.6335,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,59.5,Under,kalshi,170,-1.05,0.3665,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,69.5,Over,kalshi,-133,-1.12,0.5644,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,69.5,Under,kalshi,127,-1.12,0.4356,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,69.5,Over,hardrock,-150,-5.93,0.5644,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,69.5,Under,hardrock,110,-8.53,0.4356,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,76.5,Under,hardrock,-115,-6.52,0.5,bovada,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,79.5,Over,kalshi,117,-1.03,0.4561,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,79.5,Under,kalshi,-122,-1.03,0.5439,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,79.5,Under,hardrock,-135,-5.32,0.5439,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,79.5,Over,hardrock,-105,-10.95,0.4561,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,89.5,Over,kalshi,163,-0.98,0.3765,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,89.5,Under,kalshi,-170,-0.98,0.6235,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,89.5,Under,hardrock,-195,-5.68,0.6235,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_reception_yds,Tee Higgins,89.5,Over,hardrock,140,-9.64,0.3765,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,3.5,Over,kalshi,-156,-0.93,0.6037,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,3.5,Under,kalshi,150,-0.93,0.3963,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,3.5,Under,hardrock,140,-4.89,0.3963,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,3.5,Over,hardrock,-200,-9.44,0.6037,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Under,draftkings,-131,-0.47,0.5644,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Over,kalshi,127,-1.12,0.4356,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Under,kalshi,-133,-1.12,0.5644,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Under,pinnacle,-134,-1.44,0.5644,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Under,bovada,-135,-1.75,0.5644,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Under,fanduel,-140,-3.24,0.5644,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Under,fanatics,-140,-3.24,0.5644,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Under,hardrock,-140,-3.24,0.5644,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Over,hardrock,115,-6.35,0.4356,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Over,pinnacle,110,-8.53,0.4356,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Over,fanduel,106,-10.27,0.4356,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Over,fanatics,105,-10.7,0.4356,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Over,bovada,105,-10.7,0.4356,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Chase Brown,4.5,Over,draftkings,103,-11.58,0.4356,kalshi,15,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Over,kalshi,-104,-0.97,0.5049,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Under,kalshi,-100,-0.97,0.4951,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Over,underdog,-108,-2.77,0.5049,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Over,pinnacle,-108,-2.77,0.5049,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Under,draftkings,-107,-4.21,0.4951,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Over,fanduel,-112,-4.44,0.5049,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Under,bovada,-110,-5.47,0.4951,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Over,hardrock,-115,-5.61,0.5049,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Under,pinnacle,-112,-6.28,0.4951,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Under,underdog,-114,-7.05,0.4951,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Over,draftkings,-119,-7.09,0.5049,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Under,hardrock,-115,-7.43,0.4951,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Over,bovada,-120,-7.44,0.5049,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Darnell Washington,2.5,Under,fanduel,-118,-8.52,0.4951,kalshi,13,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,3.5,Over,kalshi,-223,-1.08,0.6829,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,3.5,Under,kalshi,212,-1.08,0.3171,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,3.5,Under,hardrock,195,-6.47,0.3171,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Germie Bernard,3.5,Over,hardrock,-275,-6.87,0.6829,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,6.5,Over,kalshi,-178,-1.05,0.6335,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,6.5,Under,kalshi,170,-1.05,0.3665,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,6.5,Under,hardrock,155,-6.55,0.3665,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,6.5,Over,hardrock,-220,-7.85,0.6335,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Under,draftkings,-102,-0.02,0.5049,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Over,kalshi,-100,-0.97,0.4951,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Under,kalshi,-104,-0.97,0.5049,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Under,bovada,-105,-1.43,0.5049,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Under,pinnacle,-107,-2.33,0.5049,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Under,fanatics,-110,-3.62,0.5049,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Under,hardrock,-110,-3.62,0.5049,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Under,underdog,-112,-4.44,0.5049,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Under,fanduel,-114,-5.23,0.5049,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Over,underdog,-112,-6.28,0.4951,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Over,pinnacle,-113,-6.67,0.4951,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Over,fanduel,-114,-7.05,0.4951,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Over,fanatics,-120,-9.22,0.4951,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Over,hardrock,-120,-9.22,0.4951,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Over,draftkings,-124,-10.55,0.4951,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Ja'Marr Chase,7.5,Over,bovada,-125,-10.87,0.4951,kalshi,16,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,2.5,Over,kalshi,-138,-0.89,0.5747,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,2.5,Under,kalshi,133,-0.89,0.4253,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,2.5,Over,pinnacle,-145,-2.9,0.5747,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,2.5,Under,draftkings,126,-3.87,0.4253,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,2.5,Under,hardrock,125,-4.3,0.4253,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,2.5,Under,bovada,125,-4.3,0.4253,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,2.5,Over,fanduel,-158,-6.16,0.5747,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,2.5,Under,pinnacle,120,-6.42,0.4253,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,2.5,Over,draftkings,-161,-6.84,0.5747,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,2.5,Under,fanduel,118,-7.27,0.4253,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,2.5,Over,hardrock,-165,-7.71,0.5747,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,2.5,Over,bovada,-165,-7.71,0.5747,kalshi,14,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,3.5,Under,fanatics,-205,-5.74,0.6335,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Jaylen Warren,3.5,Over,fanatics,145,-10.22,0.3665,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Pat Freiermuth,3.5,Over,kalshi,186,-0.94,0.3464,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Pat Freiermuth,3.5,Under,kalshi,-194,-0.94,0.6536,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Pat Freiermuth,3.5,Under,hardrock,-225,-5.58,0.6536,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Pat Freiermuth,3.5,Over,hardrock,160,-9.95,0.3464,kalshi,3,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Under,pinnacle,-230,-2.51,0.6795,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Under,draftkings,-231,-2.63,0.6795,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Over,kalshi,203,-2.89,0.3205,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Under,kalshi,-233,-2.89,0.6795,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Under,bovada,-240,-3.74,0.6795,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Under,fanatics,-245,-4.32,0.6795,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Under,fanduel,-250,-4.87,0.6795,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Under,hardrock,-250,-4.87,0.6795,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Over,pinnacle,185,-8.66,0.3205,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Over,fanduel,182,-9.62,0.3205,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Over,draftkings,178,-10.9,0.3205,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Over,hardrock,175,-11.86,0.3205,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Over,bovada,175,-11.86,0.3205,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Samaje Perine,1.5,Over,fanatics,170,-13.46,0.3205,kalshi,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Tee Higgins,4.5,Over,kalshi,-186,-1.0,0.6439,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Tee Higgins,4.5,Under,kalshi,178,-1.0,0.3561,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Tee Higgins,4.5,Over,hardrock,-220,-6.35,0.6439,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Tee Higgins,4.5,Under,hardrock,155,-9.19,0.3561,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_receptions,Tee Higgins,6.5,Under,hardrock,-230,-4.84,0.6633,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Aaron Rodgers,0.5,Over,pinnacle,-104,-3.91,0.4899,bovada,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Aaron Rodgers,0.5,Under,underdog,-115,-4.63,0.5101,bovada,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Aaron Rodgers,0.5,Under,pinnacle,-116,-5.01,0.5101,bovada,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Aaron Rodgers,0.5,Over,underdog,-107,-5.23,0.4899,bovada,11,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Chase Brown,39.5,Over,kalshi,-133,-2.08,0.5589,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Chase Brown,39.5,Under,kalshi,122,-2.08,0.4411,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Chase Brown,39.5,Under,hardrock,110,-7.38,0.4411,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Chase Brown,39.5,Over,hardrock,-155,-8.05,0.5589,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,64.5,Under,pinnacle,-102,-0.98,0.5,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,64.5,Under,hardrock,-105,-2.38,0.5,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,64.5,Over,pinnacle,-119,-7.98,0.5,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,64.5,Over,hardrock,-130,-11.54,0.5,bovada,10,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,79.5,Under,hardrock,-200,-1.95,0.6536,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Jaylen Warren,79.5,Over,hardrock,145,-15.14,0.3464,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Rico Dowdle,19.5,Over,kalshi,-213,-1.04,0.6734,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Rico Dowdle,19.5,Under,kalshi,203,-1.04,0.3266,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Rico Dowdle,19.5,Under,hardrock,190,-5.29,0.3266,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Rico Dowdle,19.5,Over,hardrock,-275,-8.17,0.6734,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Rico Dowdle,39.5,Over,kalshi,212,-1.08,0.3171,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Rico Dowdle,39.5,Under,kalshi,-223,-1.08,0.6829,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Rico Dowdle,39.5,Under,hardrock,-230,-2.01,0.6829,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Rico Dowdle,39.5,Over,hardrock,160,-17.57,0.3171,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Samaje Perine,14.5,Over,kalshi,-144,-1.9,0.579,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Samaje Perine,14.5,Under,kalshi,133,-1.9,0.421,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Samaje Perine,14.5,Under,hardrock,120,-7.37,0.421,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Samaje Perine,14.5,Over,hardrock,-170,-8.05,0.579,kalshi,4,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Samaje Perine,19.5,Over,kalshi,117,-1.03,0.4561,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Samaje Perine,19.5,Under,kalshi,-122,-1.03,0.5439,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Samaje Perine,19.5,Under,hardrock,-135,-5.32,0.5439,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,player_rush_yds,Samaje Perine,19.5,Over,hardrock,100,-8.78,0.4561,kalshi,5,3.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_anytime_td,Derrick Henry,0.5,Over,pinnacle,-131,-5.42,0.5364,pinnacle,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_anytime_td,Derrick Henry,0.5,Under,pinnacle,104,-5.42,0.4636,pinnacle,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_attempts,Jacoby Brissett,30.5,Over,pinnacle,-112,-6.51,0.4939,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_attempts,Jacoby Brissett,30.5,Under,pinnacle,-118,-6.51,0.5061,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_attempts,Justin Herbert,29.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_attempts,Justin Herbert,29.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_attempts,Justin Herbert,30.5,Over,fanatics,-120,-6.48,0.5101,bovada,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_attempts,Justin Herbert,30.5,Under,fanatics,-110,-6.48,0.4899,bovada,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Jacoby Brissett,19.5,Over,fanatics,-110,0.83,0.5282,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Jacoby Brissett,19.5,Over,draftkings,-112,-0.03,0.5282,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Jacoby Brissett,19.5,Over,pinnacle,-130,-6.56,0.5282,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Jacoby Brissett,19.5,Under,pinnacle,-102,-6.56,0.4718,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Jacoby Brissett,19.5,Under,draftkings,-114,-11.43,0.4718,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Jacoby Brissett,19.5,Under,fanatics,-120,-13.5,0.4718,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Jacoby Brissett,0.5,Over,underdog,-105,-0.54,0.5094,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Jacoby Brissett,0.5,Over,draftkings,-107,-1.45,0.5094,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Jacoby Brissett,0.5,Over,hardrock,-115,-4.76,0.5094,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Jacoby Brissett,0.5,Over,pinnacle,-117,-5.52,0.5094,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Jacoby Brissett,0.5,Under,pinnacle,-108,-5.52,0.4906,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Jacoby Brissett,0.5,Under,hardrock,-115,-8.28,0.4906,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Jacoby Brissett,0.5,Under,underdog,-118,-9.37,0.4906,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Jacoby Brissett,0.5,Under,draftkings,-119,-9.72,0.4906,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Justin Herbert,0.5,Under,bovada,130,-1.96,0.4263,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Justin Herbert,0.5,Under,draftkings,129,-2.39,0.4263,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Justin Herbert,0.5,Under,hardrock,125,-4.09,0.4263,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Justin Herbert,0.5,Over,pinnacle,-154,-5.37,0.5737,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Justin Herbert,0.5,Under,pinnacle,122,-5.37,0.4263,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Justin Herbert,0.5,Over,draftkings,-165,-7.85,0.5737,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Justin Herbert,0.5,Over,hardrock,-165,-7.85,0.5737,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_interceptions,Justin Herbert,0.5,Over,bovada,-170,-8.88,0.5737,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Jacoby Brissett,1.5,Under,kalshi,-163,0.23,0.6212,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Jacoby Brissett,1.5,Over,kalshi,156,-3.03,0.3788,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Jacoby Brissett,1.5,Under,draftkings,-185,-4.3,0.6212,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Jacoby Brissett,1.5,Under,fanduel,-192,-5.52,0.6212,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Jacoby Brissett,1.5,Under,hardrock,-195,-6.02,0.6212,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Jacoby Brissett,1.5,Over,pinnacle,146,-6.82,0.3788,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Jacoby Brissett,1.5,Under,pinnacle,-200,-6.82,0.6212,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Jacoby Brissett,1.5,Over,hardrock,145,-7.2,0.3788,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Jacoby Brissett,1.5,Over,draftkings,144,-7.58,0.3788,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Jacoby Brissett,1.5,Over,fanduel,142,-8.33,0.3788,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Justin Herbert,0.5,Over,kalshi,-203,0.98,0.6765,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Justin Herbert,0.5,Under,draftkings,206,-1.02,0.3235,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Justin Herbert,0.5,Under,bovada,205,-1.35,0.3235,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Justin Herbert,0.5,Under,kalshi,194,-4.91,0.3235,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Justin Herbert,0.5,Under,hardrock,190,-6.2,0.3235,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Justin Herbert,0.5,Over,fanduel,-260,-6.32,0.6765,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Justin Herbert,0.5,Over,hardrock,-260,-6.32,0.6765,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Justin Herbert,0.5,Over,pinnacle,-262,-6.52,0.6765,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Justin Herbert,0.5,Under,pinnacle,189,-6.52,0.3235,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Justin Herbert,0.5,Under,fanduel,188,-6.85,0.3235,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Justin Herbert,0.5,Over,draftkings,-269,-7.19,0.6765,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_tds,Justin Herbert,0.5,Over,bovada,-280,-8.18,0.6765,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Jacoby Brissett,214.5,Under,hardrock,-110,-4.55,0.5,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Jacoby Brissett,214.5,Over,fanduel,-114,-6.14,0.5,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Jacoby Brissett,214.5,Under,fanduel,-114,-6.14,0.5,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Jacoby Brissett,214.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Jacoby Brissett,214.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Jacoby Brissett,214.5,Over,hardrock,-125,-10.0,0.5,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,9.5,Under,draftkings,-111,0.49,0.5286,kalshi,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,9.5,Under,bovada,-115,-1.17,0.5286,kalshi,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,9.5,Over,kalshi,108,-1.95,0.4714,kalshi,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,9.5,Under,kalshi,-117,-1.95,0.5286,kalshi,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,9.5,Under,hardrock,-120,-3.08,0.5286,kalshi,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,9.5,Over,hardrock,-110,-10.01,0.4714,kalshi,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,9.5,Over,draftkings,-113,-11.15,0.4714,kalshi,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,9.5,Over,bovada,-115,-11.87,0.4714,kalshi,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,9.5,Under,hardrock,-225,0.14,0.6933,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,9.5,Over,kalshi,223,-0.92,0.3067,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,9.5,Under,kalshi,-233,-0.92,0.6933,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,9.5,Over,hardrock,135,-27.91,0.3067,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Over,kalshi,156,3.64,0.4049,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Over,fanduel,148,0.4,0.4049,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Over,draftkings,142,-2.02,0.4049,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Over,hardrock,140,-2.83,0.4049,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Over,bovada,140,-2.83,0.4049,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Over,fanatics,135,-4.86,0.4049,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Over,pinnacle,131,-6.48,0.4049,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Under,pinnacle,-175,-6.48,0.5951,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Under,kalshi,-178,-7.05,0.5951,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Under,draftkings,-183,-7.96,0.5951,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Under,fanatics,-185,-8.32,0.5951,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Under,bovada,-185,-8.32,0.5951,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Under,hardrock,-195,-9.97,0.5951,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,2.5,Under,fanduel,-200,-10.73,0.5951,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,0.5,Over,hardrock,-230,-5.42,0.6592,pinnacle,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,0.5,Over,fanduel,-240,-6.62,0.6592,pinnacle,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,0.5,Under,fanduel,174,-6.62,0.3408,pinnacle,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,0.5,Over,pinnacle,-240,-6.62,0.6592,pinnacle,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,0.5,Under,pinnacle,174,-6.62,0.3408,pinnacle,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,0.5,Under,hardrock,165,-9.68,0.3408,pinnacle,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,1.5,Over,kalshi,-186,-2.97,0.6311,kalshi,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,1.5,Under,kalshi,163,-2.97,0.3689,kalshi,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,1.5,Under,hardrock,150,-7.76,0.3689,kalshi,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,1.5,Over,hardrock,-220,-8.21,0.6311,kalshi,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Over,kalshi,150,1.6,0.4064,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Over,draftkings,139,-2.87,0.4064,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Under,fanduel,-162,-4.0,0.5936,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Under,kalshi,-163,-4.22,0.5936,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Over,bovada,135,-4.49,0.4064,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Under,hardrock,-165,-4.67,0.5936,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Under,fanatics,-170,-5.72,0.5936,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Over,pinnacle,130,-6.53,0.4064,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Under,pinnacle,-174,-6.53,0.5936,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Under,draftkings,-178,-7.29,0.5936,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Under,bovada,-180,-7.66,0.5936,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Over,hardrock,125,-8.56,0.4064,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Over,fanatics,125,-8.56,0.4064,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Keaton Mitchell,2.5,Over,fanduel,122,-9.78,0.4064,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Under,fanatics,100,-0.4,0.498,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Under,kalshi,-100,-0.4,0.498,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Under,fanduel,-102,-1.38,0.498,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Under,draftkings,-104,-2.32,0.498,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Under,hardrock,-105,-2.78,0.498,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Under,bovada,-105,-2.78,0.498,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Over,kalshi,-108,-3.31,0.502,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Over,pinnacle,-116,-6.52,0.502,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Under,pinnacle,-114,-6.52,0.498,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Over,draftkings,-123,-8.98,0.502,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Over,hardrock,-125,-9.64,0.502,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Over,bovada,-125,-9.64,0.502,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Over,fanduel,-130,-11.18,0.502,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Kimani Vidal,1.5,Over,fanatics,-135,-12.61,0.502,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Over,kalshi,-122,1.42,0.5574,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Under,bovada,120,-2.62,0.4426,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Under,draftkings,119,-3.06,0.4426,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Under,kalshi,117,-3.95,0.4426,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Under,hardrock,115,-4.83,0.4426,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Over,hardrock,-145,-5.82,0.5574,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Under,fanduel,112,-6.16,0.4426,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Over,fanduel,-148,-6.6,0.5574,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Over,pinnacle,-148,-6.6,0.5574,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Under,pinnacle,111,-6.6,0.4426,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Under,fanatics,110,-7.05,0.4426,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Over,fanatics,-150,-7.11,0.5574,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Over,draftkings,-153,-7.83,0.5574,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,2.5,Over,bovada,-160,-9.43,0.5574,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Over,kalshi,156,0.48,0.3925,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Under,kalshi,-170,-3.51,0.6075,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Over,draftkings,141,-5.41,0.3925,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Under,draftkings,-181,-5.68,0.6075,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Over,hardrock,140,-5.8,0.3925,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Over,bovada,140,-5.8,0.3925,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Under,fanduel,-182,-5.87,0.6075,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Under,hardrock,-185,-6.41,0.6075,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Under,fanatics,-185,-6.41,0.6075,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Under,bovada,-185,-6.41,0.6075,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Over,pinnacle,138,-6.59,0.3925,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Under,pinnacle,-186,-6.59,0.6075,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Over,fanduel,136,-7.37,0.3925,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,2.5,Over,fanatics,135,-7.76,0.3925,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Over,kalshi,-104,1.83,0.5192,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Under,draftkings,100,-3.83,0.4808,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Under,bovada,100,-3.83,0.4808,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Under,kalshi,-100,-3.83,0.4808,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Under,fanduel,-102,-4.77,0.4808,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Under,hardrock,-105,-6.12,0.4808,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Under,fanatics,-105,-6.12,0.4808,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Over,hardrock,-125,-6.55,0.5192,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Over,fanatics,-125,-6.55,0.5192,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Over,pinnacle,-125,-6.55,0.5192,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Under,pinnacle,-106,-6.55,0.4808,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Over,draftkings,-128,-7.53,0.5192,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Over,fanduel,-130,-8.15,0.5192,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,5.5,Over,bovada,-130,-8.15,0.5192,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Derrick Henry,18.5,Under,underdog,-105,-3.57,0.4939,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Derrick Henry,18.5,Under,fanatics,-105,-3.57,0.4939,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Derrick Henry,18.5,Under,draftkings,-107,-4.45,0.4939,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Derrick Henry,18.5,Under,hardrock,-110,-5.7,0.4939,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Derrick Henry,18.5,Under,bovada,-110,-5.7,0.4939,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Derrick Henry,18.5,Over,underdog,-118,-6.51,0.5061,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Derrick Henry,18.5,Over,pinnacle,-118,-6.51,0.5061,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Derrick Henry,18.5,Under,pinnacle,-112,-6.51,0.4939,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Derrick Henry,18.5,Over,draftkings,-119,-6.87,0.5061,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Derrick Henry,18.5,Over,hardrock,-120,-7.22,0.5061,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Derrick Henry,18.5,Over,bovada,-120,-7.22,0.5061,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Derrick Henry,18.5,Over,fanatics,-125,-8.91,0.5061,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Justin Herbert,4.5,Over,hardrock,-125,2.06,0.567,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Justin Herbert,4.5,Over,pinnacle,-154,-6.48,0.567,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Justin Herbert,4.5,Under,pinnacle,116,-6.48,0.433,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Justin Herbert,4.5,Under,hardrock,-105,-15.47,0.433,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Derrick Henry,79.5,Over,hardrock,-120,-5.7,0.5144,kalshi,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Derrick Henry,79.5,Under,hardrock,-110,-7.29,0.4856,kalshi,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Jacoby Brissett,5.5,Over,draftkings,-110,-4.93,0.498,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Jacoby Brissett,5.5,Over,fanatics,-110,-4.93,0.498,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Jacoby Brissett,5.5,Under,underdog,-112,-4.97,0.502,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Jacoby Brissett,5.5,Over,underdog,-112,-5.74,0.498,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Jacoby Brissett,5.5,Under,fanduel,-114,-5.76,0.502,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Jacoby Brissett,5.5,Under,draftkings,-114,-5.76,0.502,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Jacoby Brissett,5.5,Under,hardrock,-115,-6.14,0.502,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Jacoby Brissett,5.5,Over,fanduel,-114,-6.52,0.498,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Jacoby Brissett,5.5,Over,pinnacle,-114,-6.52,0.498,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Jacoby Brissett,5.5,Under,pinnacle,-116,-6.52,0.502,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Jacoby Brissett,5.5,Over,hardrock,-115,-6.9,0.498,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Jacoby Brissett,5.5,Under,fanatics,-120,-7.96,0.502,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,12.5,Over,underdog,-112,-4.59,0.504,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,12.5,Under,hardrock,-110,-5.32,0.496,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,12.5,Over,fanduel,-114,-5.38,0.504,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,12.5,Under,underdog,-112,-6.12,0.496,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,12.5,Over,pinnacle,-117,-6.51,0.504,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,12.5,Under,pinnacle,-113,-6.51,0.496,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,12.5,Under,fanduel,-114,-6.9,0.496,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,12.5,Over,hardrock,-120,-7.59,0.504,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,18.5,Under,hardrock,110,1.83,0.4849,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,18.5,Over,pinnacle,-123,-6.61,0.5151,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,18.5,Under,pinnacle,-108,-6.61,0.4849,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,18.5,Over,hardrock,-150,-14.15,0.5151,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,31.5,Under,hardrock,-105,-3.17,0.496,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,31.5,Under,draftkings,-108,-4.48,0.496,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,31.5,Under,bovada,-110,-5.32,0.496,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,31.5,Over,draftkings,-116,-6.14,0.504,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,31.5,Over,pinnacle,-117,-6.51,0.504,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,31.5,Under,pinnacle,-113,-6.51,0.496,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,31.5,Over,bovada,-120,-7.59,0.504,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,31.5,Over,hardrock,-130,-10.82,0.504,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Zay Flowers,3.5,Over,hardrock,110,1.4,0.4829,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Zay Flowers,3.5,Over,fanduel,-102,-4.37,0.4829,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Zay Flowers,3.5,Over,pinnacle,-107,-6.58,0.4829,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Zay Flowers,3.5,Under,pinnacle,-124,-6.58,0.5171,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Zay Flowers,3.5,Under,fanduel,-128,-7.89,0.5171,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Zay Flowers,3.5,Under,hardrock,-155,-14.92,0.5171,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_anytime_td,Zay Flowers,0.5,Over,pinnacle,163,-5.36,0.3599,pinnacle,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_anytime_td,Zay Flowers,0.5,Under,pinnacle,-209,-5.36,0.6401,pinnacle,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Cameron Dicker,1.5,Over,underdog,-115,-4.55,0.5105,pinnacle,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Cameron Dicker,1.5,Under,underdog,-106,-4.88,0.4895,pinnacle,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Cameron Dicker,1.5,Over,pinnacle,-117,-5.31,0.5105,pinnacle,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Cameron Dicker,1.5,Under,pinnacle,-107,-5.31,0.4895,pinnacle,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Cameron Dicker,1.5,Over,draftkings,-118,-5.68,0.5105,pinnacle,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Cameron Dicker,1.5,Under,draftkings,-108,-5.73,0.4895,pinnacle,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Cameron Dicker,1.5,Over,hardrock,-120,-6.4,0.5105,pinnacle,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Cameron Dicker,1.5,Under,hardrock,-110,-6.56,0.4895,pinnacle,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Riley Patterson,1.5,Under,hardrock,125,-5.0,0.4222,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Riley Patterson,1.5,Under,draftkings,124,-5.42,0.4222,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Riley Patterson,1.5,Over,pinnacle,-157,-5.42,0.5778,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Riley Patterson,1.5,Under,pinnacle,124,-5.42,0.4222,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Riley Patterson,1.5,Over,draftkings,-158,-5.65,0.5778,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_field_goals_made,Riley Patterson,1.5,Over,hardrock,-165,-7.21,0.5778,pinnacle,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Justin Herbert,19.5,Under,fanatics,-110,-0.89,0.5192,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Justin Herbert,19.5,Under,bovada,-110,-0.89,0.5192,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Justin Herbert,19.5,Under,draftkings,-111,-1.31,0.5192,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Justin Herbert,19.5,Over,pinnacle,-106,-6.55,0.4808,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Justin Herbert,19.5,Under,pinnacle,-125,-6.55,0.5192,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Justin Herbert,19.5,Over,draftkings,-115,-10.1,0.4808,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Justin Herbert,19.5,Over,fanatics,-120,-11.84,0.4808,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_completions,Justin Herbert,19.5,Over,bovada,-120,-11.84,0.4808,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Jacoby Brissett,199.5,Over,kalshi,-150,-4.8,0.5712,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Jacoby Brissett,199.5,Under,kalshi,122,-4.8,0.4288,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Jacoby Brissett,249.5,Over,kalshi,223,-2.86,0.3007,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Jacoby Brissett,249.5,Under,kalshi,-257,-2.86,0.6993,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Justin Herbert,174.5,Over,kalshi,-194,-2.93,0.6405,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Justin Herbert,174.5,Under,kalshi,170,-2.93,0.3595,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Justin Herbert,199.5,Over,kalshi,-104,-1.92,0.5,kalshi,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Justin Herbert,199.5,Under,kalshi,-104,-1.92,0.5,kalshi,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Justin Herbert,199.5,Under,hardrock,-110,-4.55,0.5,kalshi,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Justin Herbert,199.5,Over,hardrock,-125,-10.0,0.5,kalshi,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Justin Herbert,200.5,Under,hardrock,-115,-6.52,0.5,bovada,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Justin Herbert,203.5,Over,pinnacle,-114,-6.52,0.498,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Justin Herbert,203.5,Under,pinnacle,-116,-6.52,0.502,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Justin Herbert,203.5,Over,hardrock,-115,-6.9,0.498,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Justin Herbert,203.5,Under,hardrock,-120,-7.96,0.502,pinnacle,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Justin Herbert,224.5,Over,kalshi,178,-1.0,0.3561,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_pass_yds,Justin Herbert,224.5,Under,kalshi,-186,-1.0,0.6439,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,5.5,Under,draftkings,-106,-2.83,0.5,pinnacle,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,5.5,Under,bovada,-110,-4.55,0.5,pinnacle,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,5.5,Over,fanduel,-114,-6.14,0.5,pinnacle,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,5.5,Under,fanduel,-114,-6.14,0.5,pinnacle,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,5.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,5.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,5.5,Over,hardrock,-115,-6.52,0.5,pinnacle,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,5.5,Under,hardrock,-115,-6.52,0.5,pinnacle,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,5.5,Over,draftkings,-118,-7.63,0.5,pinnacle,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,5.5,Over,bovada,-120,-8.33,0.5,pinnacle,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,9.5,Over,kalshi,170,-2.93,0.3595,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,9.5,Under,kalshi,-194,-2.93,0.6405,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,9.5,Under,hardrock,-210,-5.45,0.6405,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Derrick Henry,9.5,Over,hardrock,150,-10.12,0.3595,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,14.5,Over,kalshi,-156,-2.87,0.5919,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,14.5,Under,kalshi,138,-2.87,0.4081,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,14.5,Under,hardrock,130,-6.13,0.4081,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,14.5,Over,hardrock,-180,-7.93,0.5919,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,19.5,Under,kalshi,-100,0.0,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,19.5,Over,kalshi,-108,-3.7,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,19.5,Under,hardrock,-110,-4.55,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,19.5,Over,underdog,-112,-5.36,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,19.5,Under,underdog,-112,-5.36,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,19.5,Over,fanduel,-114,-6.14,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,19.5,Under,fanduel,-114,-6.14,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,19.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,19.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Ja'Kobi Lane,19.5,Over,hardrock,-120,-8.33,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Josh Cuevas,7.5,Under,draftkings,-114,-3.83,0.5123,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Josh Cuevas,7.5,Under,bovada,-115,-4.22,0.5123,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Josh Cuevas,7.5,Under,underdog,-117,-4.98,0.5123,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Josh Cuevas,7.5,Over,underdog,-106,-5.22,0.4877,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Josh Cuevas,7.5,Over,fanduel,-108,-6.08,0.4877,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Josh Cuevas,7.5,Under,fanduel,-120,-6.08,0.5123,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Josh Cuevas,7.5,Under,hardrock,-120,-6.08,0.5123,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Josh Cuevas,7.5,Over,pinnacle,-108,-6.08,0.4877,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Josh Cuevas,7.5,Under,pinnacle,-120,-6.08,0.5123,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Josh Cuevas,7.5,Over,hardrock,-110,-6.9,0.4877,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Josh Cuevas,7.5,Over,draftkings,-110,-6.9,0.4877,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Josh Cuevas,7.5,Over,bovada,-115,-8.82,0.4877,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,11.5,Under,draftkings,-107,-3.27,0.5,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,11.5,Under,bovada,-110,-4.55,0.5,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,11.5,Over,underdog,-112,-5.36,0.5,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,11.5,Under,underdog,-112,-5.36,0.5,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,11.5,Over,fanduel,-114,-6.14,0.5,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,11.5,Under,fanduel,-114,-6.14,0.5,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,11.5,Over,hardrock,-115,-6.52,0.5,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,11.5,Under,hardrock,-115,-6.52,0.5,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,11.5,Over,pinnacle,-115,-6.52,0.5,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,11.5,Under,pinnacle,-115,-6.52,0.5,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,11.5,Over,draftkings,-117,-7.26,0.5,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,11.5,Over,bovada,-120,-8.33,0.5,pinnacle,11,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,14.5,Over,kalshi,127,-2.98,0.4274,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,14.5,Under,kalshi,-144,-2.98,0.5726,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,14.5,Under,hardrock,-150,-4.57,0.5726,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Justice Hill,14.5,Over,hardrock,110,-10.24,0.4274,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Keaton Mitchell,10.5,Over,fanduel,-114,-3.48,0.5142,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Keaton Mitchell,10.5,Under,fanatics,-105,-5.15,0.4858,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Keaton Mitchell,10.5,Over,pinnacle,-122,-6.44,0.5142,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Keaton Mitchell,10.5,Under,pinnacle,-108,-6.44,0.4858,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Keaton Mitchell,10.5,Under,hardrock,-110,-7.25,0.4858,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Keaton Mitchell,10.5,Over,hardrock,-125,-7.45,0.5142,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Keaton Mitchell,10.5,Over,fanatics,-125,-7.45,0.5142,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Keaton Mitchell,10.5,Under,fanduel,-114,-8.8,0.4858,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Keaton Mitchell,14.5,Over,kalshi,144,-1.88,0.4021,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Keaton Mitchell,14.5,Under,kalshi,-156,-1.88,0.5979,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Keaton Mitchell,14.5,Under,hardrock,-160,-2.84,0.5979,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Keaton Mitchell,14.5,Over,hardrock,115,-13.55,0.4021,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,8.5,Over,underdog,-112,-5.36,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,8.5,Under,underdog,-112,-5.36,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,8.5,Over,fanduel,-114,-6.14,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,8.5,Under,fanduel,-114,-6.14,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,8.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,8.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,8.5,Under,hardrock,-120,-8.33,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,8.5,Over,hardrock,-135,-12.96,0.5,pinnacle,8,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,14.5,Over,kalshi,186,-1.92,0.3429,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,14.5,Under,kalshi,-203,-1.92,0.6571,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,14.5,Under,hardrock,-210,-3.0,0.6571,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Kimani Vidal,14.5,Over,hardrock,125,-22.84,0.3429,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Mark Andrews,21.5,Under,draftkings,-108,-3.7,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Mark Andrews,21.5,Under,bovada,-110,-4.55,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Mark Andrews,21.5,Over,underdog,-112,-5.36,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Mark Andrews,21.5,Under,underdog,-112,-5.36,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Mark Andrews,21.5,Over,fanduel,-114,-6.14,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Mark Andrews,21.5,Under,fanduel,-114,-6.14,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Mark Andrews,21.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Mark Andrews,21.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Mark Andrews,21.5,Over,hardrock,-115,-6.52,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Mark Andrews,21.5,Under,hardrock,-115,-6.52,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Mark Andrews,21.5,Over,draftkings,-116,-6.9,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Mark Andrews,21.5,Over,bovada,-120,-8.33,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,4.5,Under,underdog,-104,-1.92,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,4.5,Over,fanduel,-114,-6.14,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,4.5,Under,fanduel,-114,-6.14,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,4.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,4.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,4.5,Over,hardrock,-115,-6.52,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,4.5,Under,hardrock,-115,-6.52,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,4.5,Over,underdog,-120,-8.33,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,5.5,Over,hardrock,-115,-8.41,0.4899,bovada,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Omarion Hampton,5.5,Under,hardrock,-140,-12.55,0.5101,bovada,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,19.5,Over,kalshi,-138,-3.91,0.5572,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,19.5,Under,kalshi,117,-3.91,0.4428,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,19.5,Under,hardrock,110,-7.01,0.4428,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,19.5,Over,hardrock,-155,-8.34,0.5572,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,23.5,Under,underdog,-109,-3.74,0.502,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,23.5,Over,draftkings,-108,-4.09,0.498,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,23.5,Over,bovada,-110,-4.93,0.498,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,23.5,Under,fanduel,-114,-5.76,0.502,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,23.5,Over,underdog,-113,-6.13,0.498,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,23.5,Under,hardrock,-115,-6.14,0.502,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,23.5,Over,fanduel,-114,-6.52,0.498,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,23.5,Under,draftkings,-116,-6.52,0.502,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,23.5,Over,pinnacle,-114,-6.52,0.498,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,23.5,Under,pinnacle,-116,-6.52,0.502,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,23.5,Over,hardrock,-115,-6.9,0.498,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Rashod Bateman,23.5,Under,bovada,-120,-7.96,0.502,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,49.5,Over,kalshi,-223,-1.08,0.6829,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,49.5,Under,kalshi,212,-1.08,0.3171,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,59.5,Over,kalshi,-156,-1.88,0.5979,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,59.5,Under,kalshi,144,-1.88,0.4021,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,59.5,Over,hardrock,-180,-7.0,0.5979,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,59.5,Under,hardrock,130,-7.51,0.4021,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,69.5,Over,kalshi,-108,-1.18,0.5131,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,69.5,Under,kalshi,-100,-2.62,0.4869,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,69.5,Over,underdog,-112,-2.88,0.5131,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,69.5,Over,fanduel,-114,-3.69,0.5131,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,69.5,Over,hardrock,-120,-5.94,0.5131,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,69.5,Over,pinnacle,-122,-6.64,0.5131,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,69.5,Under,pinnacle,-109,-6.64,0.4869,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,69.5,Under,underdog,-112,-7.83,0.4869,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,69.5,Under,fanduel,-114,-8.6,0.4869,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,69.5,Under,hardrock,-115,-8.97,0.4869,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,79.5,Over,kalshi,133,-2.84,0.417,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,79.5,Under,kalshi,-150,-2.84,0.583,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,79.5,Under,hardrock,-170,-7.41,0.583,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,79.5,Over,hardrock,120,-8.26,0.417,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,89.5,Over,kalshi,203,-2.0,0.3234,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_reception_yds,Zay Flowers,89.5,Under,kalshi,-223,-2.0,0.6766,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Over,kalshi,170,-1.44,0.365,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Over,draftkings,167,-2.54,0.365,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Over,bovada,165,-3.27,0.365,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Under,kalshi,-194,-3.77,0.635,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Under,fanduel,-210,-6.27,0.635,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Under,hardrock,-210,-6.27,0.635,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Under,fanatics,-210,-6.27,0.635,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Over,pinnacle,156,-6.55,0.365,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Under,pinnacle,-212,-6.55,0.635,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Over,hardrock,155,-6.92,0.365,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Under,draftkings,-216,-7.11,0.635,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Over,fanduel,154,-7.28,0.365,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Under,bovada,-220,-7.64,0.635,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Derrick Henry,1.5,Over,fanatics,150,-8.74,0.365,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,1.5,Over,kalshi,-156,-0.93,0.6037,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,1.5,Under,kalshi,150,-0.93,0.3963,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,1.5,Under,hardrock,140,-4.89,0.3963,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Ja'Kobi Lane,1.5,Over,hardrock,-190,-7.85,0.6037,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,1.5,Over,kalshi,194,-2.02,0.3333,kalshi,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,1.5,Under,kalshi,-213,-2.02,0.6667,kalshi,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,1.5,Under,draftkings,-230,-4.34,0.6667,kalshi,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,1.5,Under,hardrock,-230,-4.34,0.6667,kalshi,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,1.5,Over,fanatics,185,-5.02,0.3333,kalshi,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,1.5,Under,bovada,-240,-5.54,0.6667,kalshi,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,1.5,Over,draftkings,177,-7.69,0.3333,kalshi,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,1.5,Over,bovada,175,-8.35,0.3333,kalshi,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,1.5,Under,fanatics,-275,-9.08,0.6667,kalshi,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Josh Cuevas,1.5,Over,hardrock,165,-11.69,0.3333,kalshi,10,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Under,kalshi,-156,-2.59,0.5936,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Over,kalshi,138,-3.27,0.4064,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Over,fanatics,135,-4.49,0.4064,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Under,draftkings,-168,-5.31,0.5936,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Over,draftkings,132,-5.71,0.4064,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Under,hardrock,-170,-5.72,0.5936,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Under,bovada,-170,-5.72,0.5936,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Over,fanduel,130,-6.53,0.4064,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Under,fanduel,-174,-6.53,0.5936,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Over,hardrock,130,-6.53,0.4064,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Over,pinnacle,130,-6.53,0.4064,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Under,pinnacle,-174,-6.53,0.5936,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Over,bovada,130,-6.53,0.4064,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Justice Hill,2.5,Under,fanatics,-185,-8.55,0.5936,pinnacle,12,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,3.5,Over,kalshi,178,-3.87,0.3458,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,3.5,Under,kalshi,-213,-3.87,0.6542,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,3.5,Under,hardrock,-220,-4.84,0.6542,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Mark Andrews,3.5,Over,hardrock,150,-13.55,0.3458,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Over,draftkings,161,-0.36,0.3818,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Over,bovada,160,-0.74,0.3818,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Over,kalshi,156,-2.27,0.3818,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Under,kalshi,-178,-3.44,0.6182,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Under,fanduel,-182,-4.21,0.6182,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Under,hardrock,-190,-5.64,0.6182,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Under,fanatics,-195,-6.47,0.6182,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Over,pinnacle,145,-6.47,0.3818,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Under,pinnacle,-195,-6.47,0.6182,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Under,draftkings,-207,-8.31,0.6182,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Over,hardrock,140,-8.38,0.3818,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Over,fanatics,140,-8.38,0.3818,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Under,bovada,-215,-9.42,0.6182,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Omarion Hampton,1.5,Over,fanduel,136,-9.91,0.3818,pinnacle,13,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,1.5,Over,kalshi,-186,-2.97,0.6311,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,1.5,Under,kalshi,163,-2.97,0.3689,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,1.5,Over,hardrock,-200,-5.34,0.6311,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Rashod Bateman,1.5,Under,hardrock,145,-9.61,0.3689,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,4.5,Over,kalshi,-194,-0.94,0.6536,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,4.5,Under,kalshi,186,-0.94,0.3464,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,4.5,Under,hardrock,180,-3.02,0.3464,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_receptions,Zay Flowers,4.5,Over,hardrock,-260,-9.5,0.6536,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Justin Herbert,5.5,Over,fanatics,120,-3.93,0.4367,bovada,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Justin Herbert,5.5,Under,fanatics,-165,-9.53,0.5633,bovada,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Kimani Vidal,6.5,Under,fanatics,100,-6.12,0.4694,bovada,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Kimani Vidal,6.5,Over,fanatics,-135,-7.63,0.5306,bovada,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Kimani Vidal,7.5,Under,hardrock,-130,-1.06,0.5592,pinnacle,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Kimani Vidal,7.5,Over,pinnacle,112,-6.55,0.4408,pinnacle,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Kimani Vidal,7.5,Under,pinnacle,-149,-6.55,0.5592,pinnacle,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Kimani Vidal,7.5,Over,hardrock,100,-11.84,0.4408,pinnacle,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Omarion Hampton,10.5,Over,draftkings,-114,-4.24,0.5101,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Omarion Hampton,10.5,Over,fanatics,-115,-4.63,0.5101,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Omarion Hampton,10.5,Over,bovada,-115,-4.63,0.5101,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Omarion Hampton,10.5,Over,hardrock,-120,-6.48,0.5101,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Omarion Hampton,10.5,Under,hardrock,-110,-6.48,0.4899,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Omarion Hampton,10.5,Over,pinnacle,-120,-6.48,0.5101,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Omarion Hampton,10.5,Under,pinnacle,-110,-6.48,0.4899,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Omarion Hampton,10.5,Under,draftkings,-111,-6.88,0.4899,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Omarion Hampton,10.5,Under,fanatics,-115,-8.41,0.4899,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_attempts,Omarion Hampton,10.5,Under,bovada,-115,-8.41,0.4899,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_reception_yds,Kimani Vidal,35.5,Over,draftkings,-115,-4.63,0.5101,bovada,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_reception_yds,Kimani Vidal,35.5,Over,bovada,-120,-6.48,0.5101,bovada,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_reception_yds,Kimani Vidal,35.5,Under,bovada,-110,-6.48,0.4899,bovada,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_reception_yds,Kimani Vidal,35.5,Under,draftkings,-111,-6.88,0.4899,bovada,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Derrick Henry,59.5,Over,kalshi,-257,-3.88,0.6919,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Derrick Henry,59.5,Under,kalshi,212,-3.88,0.3081,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Derrick Henry,80.5,Over,fanatics,-115,-6.52,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Derrick Henry,80.5,Under,fanatics,-115,-6.52,0.5,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Derrick Henry,99.5,Over,kalshi,203,-2.89,0.3205,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Derrick Henry,99.5,Under,kalshi,-233,-2.89,0.6795,kalshi,3,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,9.5,Over,kalshi,-163,-3.84,0.596,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,9.5,Under,kalshi,138,-3.84,0.404,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,9.5,Under,hardrock,130,-7.07,0.404,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,9.5,Over,hardrock,-190,-9.04,0.596,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,14.5,Over,kalshi,117,-1.99,0.4517,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,14.5,Under,kalshi,-127,-1.99,0.5483,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,14.5,Under,hardrock,-145,-7.35,0.5483,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justice Hill,14.5,Over,hardrock,105,-7.41,0.4517,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,19.5,Over,kalshi,-117,-1.95,0.5286,kalshi,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,19.5,Under,kalshi,108,-1.95,0.4714,kalshi,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,19.5,Under,hardrock,100,-5.73,0.4714,kalshi,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,19.5,Over,hardrock,-135,-7.98,0.5286,kalshi,6,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,20.5,Under,hardrock,-110,-4.16,0.502,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,20.5,Over,fanatics,-110,-4.93,0.498,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,20.5,Under,underdog,-112,-4.97,0.502,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,20.5,Over,underdog,-112,-5.74,0.498,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,20.5,Under,fanduel,-114,-5.76,0.502,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,20.5,Over,fanduel,-114,-6.52,0.498,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,20.5,Over,pinnacle,-114,-6.52,0.498,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,20.5,Under,pinnacle,-116,-6.52,0.502,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,20.5,Under,fanatics,-120,-7.96,0.502,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Justin Herbert,20.5,Over,hardrock,-125,-10.36,0.498,pinnacle,9,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Keaton Mitchell,11.5,Over,hardrock,-110,-4.55,0.5,pinnacle,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Keaton Mitchell,11.5,Over,underdog,-112,-5.36,0.5,pinnacle,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Keaton Mitchell,11.5,Under,underdog,-112,-5.36,0.5,pinnacle,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Keaton Mitchell,11.5,Over,pinnacle,-114,-6.14,0.5,pinnacle,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Keaton Mitchell,11.5,Under,pinnacle,-114,-6.14,0.5,pinnacle,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Keaton Mitchell,11.5,Under,hardrock,-130,-11.54,0.5,pinnacle,5,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,14.5,Over,kalshi,-194,-2.93,0.6405,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,14.5,Under,kalshi,170,-2.93,0.3595,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,14.5,Under,hardrock,165,-4.73,0.3595,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,14.5,Over,hardrock,-240,-9.26,0.6405,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,19.5,Over,kalshi,-122,-2.94,0.5334,kalshi,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,19.5,Under,kalshi,108,-2.94,0.4666,kalshi,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,19.5,Over,hardrock,-135,-7.15,0.5334,kalshi,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,19.5,Under,hardrock,-105,-8.9,0.4666,kalshi,7,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,24.5,Over,kalshi,133,-1.9,0.421,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,24.5,Under,kalshi,-144,-1.9,0.579,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,24.5,Over,hardrock,120,-7.37,0.421,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Kimani Vidal,24.5,Under,hardrock,-170,-8.05,0.579,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,29.5,Over,kalshi,-133,-2.08,0.5589,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,29.5,Under,kalshi,122,-2.08,0.4411,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,29.5,Under,hardrock,110,-7.38,0.4411,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,29.5,Over,hardrock,-155,-8.05,0.5589,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,39.5,Over,kalshi,156,-1.99,0.3829,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,39.5,Under,kalshi,-170,-1.99,0.6171,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,39.5,Under,hardrock,-190,-5.81,0.6171,kalshi,4,27.1
+2026-11-15T22:11:51Z,football_nfl,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,player_rush_yds,Omarion Hampton,39.5,Over,hardrock,135,-10.03,0.3829,kalshi,4,27.1
