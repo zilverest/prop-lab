@@ -781,3 +781,5 @@ ts,snapshot_ts,board_date,week_key,event_id,commence_time,home,away,hours_to_kic
 2026-11-15T20:29:23Z,2026-11-15T20:28:37Z,2026-11-15,2026-11-09,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,28.76,fresh,602,1,0,0,4844,0,0,0,,fresh
 2026-11-15T22:12:36Z,2026-11-15T22:11:51Z,2026-11-15,2026-11-09,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,3.12,fresh,792,0,0,0,11704,0,0,0,,fresh
 2026-11-15T22:12:36Z,2026-11-15T22:11:51Z,2026-11-15,2026-11-09,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,27.04,fresh,648,1,0,0,5870,0,18,14,,fresh
+2026-11-16T00:13:11Z,2026-11-16T00:12:47Z,2026-11-15,2026-11-09,686589,2026-11-16T01:20:00Z,Cincinnati Bengals,Pittsburgh Steelers,1.11,fresh,782,1,0,0,11548,0,0,0,,fresh
+2026-11-16T00:13:11Z,2026-11-16T00:12:47Z,2026-11-15,2026-11-09,53184,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,25.03,fresh,704,1,0,0,7044,0,0,0,,fresh
