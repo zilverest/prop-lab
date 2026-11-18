@@ -552,3 +552,4 @@ ts,phase,status,events,rows,api_calls,api_remaining,note
 2026-11-18T14:44:51Z,capture,ok,13,6320,80,4836,hours_before=144; shadow=22; e1=4
 2026-11-18T14:44:59Z,research,ok,0,0,0,,legacy_auto=True; sgp_obs=1
 2026-11-18T23:41:54Z,capture,ok,13,5374,86,4705,hours_before=144; shadow=22; e1=10
+2026-11-18T23:42:10Z,research,ok,0,0,0,,legacy_auto=True; sgp_obs=1
