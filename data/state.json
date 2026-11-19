@@ -8481,14 +8481,14 @@
   "87239|player_rush_yds|Tyler Allgeier|29.5|Under|kalshi": "-170|0.5829|-7.41"
  },
  "parlay_board_last": {
-  "date": "2026-11-16",
+  "date": "2026-11-19",
   "events": [
-   "53184"
+   "699301"
   ],
   "rows": 8,
-  "ts": "2026-11-16T14:09:08Z"
+  "ts": "2026-11-19T14:50:36Z"
  },
- "parlay_gameday_msg_date": "2026-11-16",
+ "parlay_gameday_msg_date": "2026-11-19",
  "parlay_summary_week": "2026-W46",
  "sgp_attempted": {
   "draftkings|23215|23215/player_pass_tds/Lamar Jackson/1.5/Under|23215/player_receptions/Javonte Williams/2.5/Under": "2026-09-25T16:11:03Z",
@@ -9226,6 +9226,7 @@
   "draftkings|692590|692590/player_reception_yds/Jonathan Taylor/14.5/Under|692590/player_receptions/Laquon Treadwell/2.5/Over": "2026-11-13T23:00:27Z",
   "draftkings|692590|692590/player_receptions/Laquon Treadwell/2.5/Over|692590/player_rush_yds/Jonathan Taylor/49.5/Under": "2026-11-14T21:47:37Z",
   "draftkings|692590|692590/player_receptions/Ollie Gordon II/1.5/Over|692590/player_rush_yds/Jonathan Taylor/49.5/Under": "2026-11-15T03:31:29Z",
+  "draftkings|699301|699301/player_pass_tds/C.J. Stroud/1.5/Under|699301/player_reception_yds/Anthony Gould/9.5/Under": "2026-11-19T14:50:37Z",
   "draftkings|699301|699301/player_pass_tds/Daniel Jones/0.5/Under|699301/player_reception_yds/Anthony Gould/9.5/Under": "2026-11-18T23:41:57Z",
   "draftkings|699301|699301/player_reception_yds/Anthony Gould/9.5/Under|699301/player_rush_yds/Emari Demercado/9.5/Under": "2026-11-18T23:41:57Z",
   "draftkings|699301|699301/player_reception_yds/Anthony Gould/9.5/Under|699301/player_rush_yds/Seth McGowan/14.5/Under": "2026-11-17T15:01:57Z",
@@ -9237,10 +9238,13 @@
   "draftkings|726189|726189/player_rush_yds/Audric Estime/14.5/Under|726189/player_rush_yds/Caleb Williams/9.5/Under": "2026-11-18T00:08:11Z",
   "draftkings|726189|726189/player_rush_yds/Caleb Williams/9.5/Under|726189/player_rush_yds/Travis Etienne Jr./19.5/Under": "2026-11-18T23:41:57Z",
   "draftkings|726189|726189/player_rush_yds/Caleb Williams/9.5/Under|726189/player_rush_yds/Tyler Shough/9.5/Under": "2026-11-18T14:44:54Z",
+  "draftkings|726189|726189/player_rush_yds/Travis Etienne Jr./19.5/Under|726189/player_rush_yds/Tyler Shough/9.5/Under": "2026-11-19T14:50:37Z",
+  "draftkings|726307|726307/player_reception_yds/Jahmyr Gibbs/19.5/Under|726307/player_rush_yds/Jalon Daniels/19.5/Under": "2026-11-19T14:50:37Z",
   "draftkings|726307|726307/player_reception_yds/Jahmyr Gibbs/19.5/Under|726307/player_rush_yds/Sione Vaki/9.5/Under": "2026-11-19T04:48:33Z",
   "draftkings|726307|726307/player_rush_yds/Jalon Daniels/19.5/Under|726307/player_rush_yds/Sione Vaki/9.5/Under": "2026-11-18T14:44:54Z",
   "draftkings|726320|726320/player_reception_yds/Jaylen Warren/14.5/Under|726320/player_receptions/Rico Dowdle/1.5/Under": "2026-11-18T23:41:57Z",
   "draftkings|726320|726320/player_reception_yds/Jaylen Warren/14.5/Under|726320/player_rush_yds/Rico Dowdle/24.5/Under": "2026-11-19T04:48:33Z",
+  "draftkings|726320|726320/player_rush_yds/Joe Milton III/19.5/Under|726320/player_rush_yds/Rico Dowdle/24.5/Under": "2026-11-19T14:50:37Z",
   "draftkings|726373|726373/player_reception_yds/Brevyn Spann-Ford/14.5/Under|726373/player_rush_yds/Javonte Williams/69.5/Under": "2026-11-18T14:44:54Z",
   "draftkings|726373|726373/player_reception_yds/Brevyn Spann-Ford/9.5/Under|726373/player_rush_attempts/Javonte Williams/18.5/Over": "2026-11-19T04:48:33Z",
   "draftkings|726373|726373/player_reception_yds/Brevyn Spann-Ford/9.5/Under|726373/player_rush_yds/Javonte Williams/69.5/Under": "2026-11-18T23:41:57Z",
@@ -10000,6 +10004,7 @@
   "fanduel|692590|692590/player_reception_yds/Jonathan Taylor/14.5/Under|692590/player_receptions/Laquon Treadwell/2.5/Over": "2026-11-13T23:00:27Z",
   "fanduel|692590|692590/player_receptions/Laquon Treadwell/2.5/Over|692590/player_rush_yds/Jonathan Taylor/49.5/Under": "2026-11-14T21:47:37Z",
   "fanduel|692590|692590/player_receptions/Ollie Gordon II/1.5/Over|692590/player_rush_yds/Jonathan Taylor/49.5/Under": "2026-11-15T03:31:29Z",
+  "fanduel|699301|699301/player_pass_tds/C.J. Stroud/1.5/Under|699301/player_reception_yds/Anthony Gould/9.5/Under": "2026-11-19T14:50:37Z",
   "fanduel|699301|699301/player_pass_tds/Daniel Jones/0.5/Under|699301/player_reception_yds/Anthony Gould/9.5/Under": "2026-11-18T23:41:57Z",
   "fanduel|699301|699301/player_reception_yds/Anthony Gould/9.5/Under|699301/player_rush_yds/Emari Demercado/9.5/Under": "2026-11-18T23:41:57Z",
   "fanduel|699301|699301/player_reception_yds/Anthony Gould/9.5/Under|699301/player_rush_yds/Seth McGowan/14.5/Under": "2026-11-17T15:01:57Z",
@@ -10011,10 +10016,13 @@
   "fanduel|726189|726189/player_rush_yds/Audric Estime/14.5/Under|726189/player_rush_yds/Caleb Williams/9.5/Under": "2026-11-18T00:08:11Z",
   "fanduel|726189|726189/player_rush_yds/Caleb Williams/9.5/Under|726189/player_rush_yds/Travis Etienne Jr./19.5/Under": "2026-11-18T23:41:57Z",
   "fanduel|726189|726189/player_rush_yds/Caleb Williams/9.5/Under|726189/player_rush_yds/Tyler Shough/9.5/Under": "2026-11-18T14:44:54Z",
+  "fanduel|726189|726189/player_rush_yds/Travis Etienne Jr./19.5/Under|726189/player_rush_yds/Tyler Shough/9.5/Under": "2026-11-19T14:50:37Z",
+  "fanduel|726307|726307/player_reception_yds/Jahmyr Gibbs/19.5/Under|726307/player_rush_yds/Jalon Daniels/19.5/Under": "2026-11-19T14:50:37Z",
   "fanduel|726307|726307/player_reception_yds/Jahmyr Gibbs/19.5/Under|726307/player_rush_yds/Sione Vaki/9.5/Under": "2026-11-19T04:48:33Z",
   "fanduel|726307|726307/player_rush_yds/Jalon Daniels/19.5/Under|726307/player_rush_yds/Sione Vaki/9.5/Under": "2026-11-18T14:44:54Z",
   "fanduel|726320|726320/player_reception_yds/Jaylen Warren/14.5/Under|726320/player_receptions/Rico Dowdle/1.5/Under": "2026-11-18T23:41:57Z",
   "fanduel|726320|726320/player_reception_yds/Jaylen Warren/14.5/Under|726320/player_rush_yds/Rico Dowdle/24.5/Under": "2026-11-19T04:48:33Z",
+  "fanduel|726320|726320/player_rush_yds/Joe Milton III/19.5/Under|726320/player_rush_yds/Rico Dowdle/24.5/Under": "2026-11-19T14:50:37Z",
   "fanduel|726373|726373/player_reception_yds/Brevyn Spann-Ford/14.5/Under|726373/player_rush_yds/Javonte Williams/69.5/Under": "2026-11-18T14:44:54Z",
   "fanduel|726373|726373/player_reception_yds/Brevyn Spann-Ford/9.5/Under|726373/player_rush_attempts/Javonte Williams/18.5/Over": "2026-11-19T04:48:33Z",
   "fanduel|726373|726373/player_reception_yds/Brevyn Spann-Ford/9.5/Under|726373/player_rush_yds/Javonte Williams/69.5/Under": "2026-11-18T23:41:57Z",
