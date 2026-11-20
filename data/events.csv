@@ -146,3 +146,5 @@ event_id,sport,home,away,commence_time,first_seen
 32693,football_nfl,San Francisco 49ers,Minnesota Vikings,2026-11-23T01:20:00Z,2026-11-17T15:01:11Z
 726376,football_nfl,Washington Commanders,Cincinnati Bengals,2026-11-24T01:15:00Z,2026-11-18T14:42:25Z
 32694,football_nfl,Los Angeles Rams,Green Bay Packers,2026-11-26T01:00:00Z,2026-11-20T05:29:33Z
+32695,football_nfl,Detroit Lions,Chicago Bears,2026-11-26T18:00:00Z,2026-11-20T23:27:40Z
+32688,football_nfl,Dallas Cowboys,Philadelphia Eagles,2026-11-26T21:30:00Z,2026-11-20T23:27:40Z
