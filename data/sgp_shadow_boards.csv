@@ -795,3 +795,4 @@ ts,snapshot_ts,board_date,week_key,event_id,commence_time,home,away,hours_to_kic
 2026-11-19T07:44:59Z,2026-11-19T07:44:43Z,2026-11-19,2026-11-16,699301,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,17.5,fresh,760,3,0,3,10450,0,24,36,,fresh
 2026-11-19T14:50:36Z,2026-11-19T14:49:11Z,2026-11-19,2026-11-16,699301,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,10.41,fresh,808,7,0,20,10776,0,22,40,,fresh
 2026-11-19T17:32:30Z,2026-11-19T17:32:11Z,2026-11-19,2026-11-16,699301,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,7.71,fresh,810,4,0,5,10536,0,22,40,,fresh
+2026-11-20T00:00:40Z,2026-11-19T23:58:42Z,2026-11-19,2026-11-16,699301,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,1.24,refreshed,830,6,0,14,10078,0,34,38,,fresh
