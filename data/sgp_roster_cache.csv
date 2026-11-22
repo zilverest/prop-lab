@@ -280,7 +280,7 @@ season,week,team,position,full_name,football_name,status
 2026,11,HOU,DB,M.J. Stewart,M.J.,ACT
 2026,11,LAC,DB,Donte Jackson,Donte,ACT
 2026,11,TEN,DB,Isaiah Oliver,Isaiah,ACT
-2026,11,NO,DB,Justin Reid,Justin,ACT
+2026,11,NO,DB,Justin Reid,Justin,CUT
 2026,11,LV,TE,Ian Thomas,Ian,ACT
 2026,10,ATL,DL,Da'Shawn Hand,Da'Shawn,RES
 2026,11,WAS,LB,Dorance Armstrong,Dorance,ACT
@@ -749,7 +749,7 @@ season,week,team,position,full_name,football_name,status
 2026,11,IND,DB,Camryn Bynum,Camryn,ACT
 2026,10,CLE,WR,Tylan Wallace,Tylan,ACT
 2026,11,CHI,LB,Tony Fields II,Tony,RES
-2026,11,CAR,WR,Ihmir Smith-Marsette,Ihmir,DEV
+2026,11,CAR,WR,Ihmir Smith-Marsette,Ihmir,TRD
 2026,2,ARI,WR,Ihmir Smith-Marsette,Ihmir,CUT
 2026,11,KC,TE,Noah Gray,Noah,ACT
 2026,11,SF,DB,Darrick Forrest,Darrick,RES
