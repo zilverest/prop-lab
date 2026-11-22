@@ -19280,3 +19280,79 @@ ts,sport,event_id,commence_time,hours_to_kick,market,player,side,team,open_point
 2026-11-22T21:11:38Z,football_nfl,32693,2026-11-23T01:20:00Z,4.14,player_rush_yds,Jordan Mason,75+ Rushing Yards,,,,3,3,lengthening,-0.0247,,7.4
 2026-11-22T21:11:38Z,football_nfl,32693,2026-11-23T01:20:00Z,4.14,player_receptions,Jauan Jennings,Under,,2.5,2.5,27,3,lengthening,-0.023,0.0,6.9
 2026-11-22T21:11:38Z,football_nfl,32693,2026-11-23T01:20:00Z,4.14,player_rush_yds,Jordan Mason,100+ Rushing Yards,,,,11,3,lengthening,-0.0213,,6.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,T.J. Hockenson,Over,,44.5,47.5,7,5,point_up,0.0,2.2,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,T.J. Hockenson,Under,,44.5,47.5,7,5,point_up,0.0,2.2,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Kaelon Black,Over,,28.5,29.5,9,9,point_up,0.0,1.22,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Kaelon Black,Under,,28.5,29.5,9,9,point_up,0.0,1.22,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Jordan Watkins,Over,,8.5,6.5,11,7,point_down,0.0,-1.71,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Jordan Watkins,Under,,8.5,6.5,11,7,point_down,0.0,-1.71,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Myles Price,Over,,6.5,8.5,10,7,point_up,0.0,1.14,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Myles Price,Under,,6.5,8.5,10,7,point_up,0.0,1.14,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Aaron Jones Sr.,Over,,30.5,32.5,4,3,point_up,0.0,2.33,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Aaron Jones Sr.,Under,,30.5,32.5,4,3,point_up,0.0,2.33,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Jordan Mason,Over,,41.5,40.5,15,15,point_down,0.0,-1.93,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Jordan Mason,Under,,41.5,40.5,15,15,point_down,0.0,-1.93,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_pass_yds,Brock Purdy,Over,,240.5,243.0,12,8,point_up,0.0,3.25,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_pass_yds,Brock Purdy,Under,,240.5,243.0,12,8,point_up,0.0,3.25,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_pass_yds,Kirk Cousins,Over,,230.5,228.5,9,5,point_down,0.0,-1.8,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_pass_yds,Kirk Cousins,Under,,230.5,228.5,9,5,point_down,0.0,-1.8,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Justin Jefferson,Over,,86.5,88.0,9,6,point_up,0.0,1.67,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Justin Jefferson,Under,,86.5,88.0,9,6,point_up,0.0,1.67,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Tai Felton,Over,,13.5,12.5,7,6,point_down,0.0,-1.17,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Tai Felton,Under,,13.5,12.5,7,6,point_down,0.0,-1.17,100.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Brock Purdy,Over,,16.5,17.5,5,5,point_up,0.0,1.0,75.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Brock Purdy,Under,,16.5,17.5,5,5,point_up,0.0,1.0,75.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Deebo Samuel,Over,,25.5,26.5,6,5,point_up,0.0,1.0,75.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Deebo Samuel,Under,,25.5,26.5,6,5,point_up,0.0,1.0,75.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Aaron Jones,Over,,31.5,32.5,4,3,point_up,0.0,1.67,75.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Aaron Jones,Under,,31.5,32.5,4,3,point_up,0.0,1.67,75.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Christian McCaffrey,Over,,52.5,53.5,6,4,point_up,0.0,1.0,60.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Christian McCaffrey,Under,,52.5,53.5,6,4,point_up,0.0,1.0,60.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Mike Evans,Over,,47.5,48.5,4,4,point_up,0.0,1.0,60.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Mike Evans,Under,,47.5,48.5,4,4,point_up,0.0,1.0,60.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Deebo Samuel Sr.,Over,,25.5,26.5,4,4,point_up,0.0,1.0,60.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Deebo Samuel Sr.,Under,,25.5,26.5,4,4,point_up,0.0,1.0,60.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Aaron Jones,Over,,11.5,12.5,3,3,point_up,0.0,1.0,45.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Aaron Jones,Under,,11.5,12.5,3,3,point_up,0.0,1.0,45.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Keenan Allen,Over,,24.5,25.5,3,3,point_up,0.0,1.0,45.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Keenan Allen,Under,,24.5,25.5,3,3,point_up,0.0,1.0,45.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Kirk Cousins,Over,,1.5,0.5,3,3,point_down,0.0,-1.0,45.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Kirk Cousins,Under,,1.5,0.5,3,3,point_down,0.0,-1.0,45.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,George Kittle,Over,,47.5,48.5,3,3,point_up,0.0,1.0,45.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,George Kittle,Under,,47.5,48.5,3,3,point_up,0.0,1.0,45.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_receptions,Myles Price,Over,,0.5,1.5,3,3,point_up,0.0,1.0,45.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_receptions,Myles Price,Under,,0.5,1.5,3,3,point_up,0.0,1.0,45.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_pass_tds,Kirk Cousins,Under,,1.5,1.5,29,9,shortening,0.0354,0.0,31.9
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_receptions,Jordan Watkins,Over,,0.5,0.5,23,8,lengthening,-0.0398,0.0,31.9
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_receptions,Jordan Watkins,Under,,0.5,0.5,23,8,shortening,0.0373,0.0,29.9
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_pass_tds,Kirk Cousins,Over,,1.5,1.5,29,6,lengthening,-0.0458,0.0,27.5
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Kirk Cousins,Over,,2.5,2.5,8,3,lengthening,-0.0707,0.0,21.2
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Jordan Mason,40+ Rushing Yards,,,,11,4,lengthening,-0.0489,,19.6
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Kirk Cousins,Over,,4.5,4.5,3,3,lengthening,-0.0565,0.0,16.9
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Jordan Mason,50+ Rushing Yards,,,,12,4,lengthening,-0.0419,,16.8
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Kirk Cousins,Under,,1.5,1.5,13,4,shortening,0.0409,0.0,16.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Jordan Mason,Under,,44.5,44.5,6,3,shortening,0.0505,0.0,15.2
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Kirk Cousins,Over,,1.5,1.5,13,4,lengthening,-0.0359,0.0,14.3
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_receptions,Jauan Jennings,Over,,2.5,2.5,28,5,lengthening,-0.0282,0.0,14.1
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Kirk Cousins,Under,,2.5,2.5,8,3,shortening,0.0468,0.0,14.1
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Jordan Mason,30+ Rushing Yards,,,,9,3,lengthening,-0.0462,,13.9
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_receptions,Jauan Jennings,Under,,2.5,2.5,27,4,shortening,0.0323,0.0,12.9
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_receptions,Myles Price,Under,,2.5,2.5,4,3,lengthening,-0.0431,0.0,12.9
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Jordan Mason,60+ Rushing Yards,,,,10,3,lengthening,-0.0428,,12.8
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_pass_tds,Kirk Cousins,Under,,0.5,0.5,5,4,shortening,0.032,0.0,12.8
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Jordan Watkins,Under,,9.5,9.5,9,4,shortening,0.0306,0.0,12.2
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_receptions,Jauan Jennings,3+ Receptions,,,,9,4,lengthening,-0.03,,12.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_receptions,Myles Price,Over,,1.5,1.5,22,4,shortening,0.0295,0.0,11.8
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_receptions,Myles Price,Under,,1.5,1.5,21,4,lengthening,-0.0266,0.0,10.6
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_receptions,Tai Felton,2+ Receptions,,,,8,4,lengthening,-0.0261,,10.5
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Jauan Jennings,Under,,19.5,19.5,12,3,shortening,0.0313,0.0,9.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Jordan Mason,70+ Rushing Yards,,,,10,3,lengthening,-0.0311,,9.3
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Jauan Jennings,Over,,19.5,19.5,13,3,lengthening,-0.0309,0.0,9.3
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Jordan Watkins,Over,,9.5,9.5,10,3,lengthening,-0.0278,0.0,8.3
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_receptions,Tai Felton,Over,,1.5,1.5,27,3,lengthening,-0.0268,0.0,8.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Jordan Mason,Under,,3.5,3.5,14,3,shortening,0.0244,0.0,7.3
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_rush_yds,Jordan Mason,Under,,29.5,29.5,6,3,shortening,0.0242,0.0,7.3
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_reception_yds,Jauan Jennings,20+ Receiving Yards,,,,9,3,lengthening,-0.0242,,7.3
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_receptions,Myles Price,Over,,0.5,0.5,8,3,shortening,0.0234,0.0,7.0
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_pass_tds,Kirk Cousins,1+ Passing Touchdowns,,,,11,3,lengthening,-0.0231,,6.9
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,2.42,player_pass_tds,Brock Purdy,Under,,1.5,1.5,29,3,lengthening,-0.022,0.0,6.6

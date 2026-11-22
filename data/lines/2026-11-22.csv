@@ -28731,3 +28731,503 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-11-22T21:11:38Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,29.5,Under,kalshi,-223,-2.96,0.6699,kalshi,4,28.1
 2026-11-22T21:11:38Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,29.5,Under,hardrock,-250,-6.21,0.6699,kalshi,4,28.1
 2026-11-22T21:11:38Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,29.5,Over,hardrock,175,-9.23,0.3301,kalshi,4,28.1
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_anytime_td,George Kittle,,Yes,hardrock,180,-5.71,0.3367,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_anytime_td,George Kittle,0.5,Over,pinnacle,180,-4.54,0.3409,pinnacle,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_anytime_td,George Kittle,0.5,Under,pinnacle,-223,-4.54,0.6591,pinnacle,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_anytime_td,T.J. Hockenson,0.5,Over,pinnacle,214,-4.6,0.3038,pinnacle,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_anytime_td,T.J. Hockenson,0.5,Under,pinnacle,-270,-4.6,0.6962,pinnacle,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_field_goals_made,Eddy Pineiro,1.5,Under,fanatics,110,-3.48,0.4596,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_field_goals_made,Eddy Pineiro,1.5,Over,fanatics,-145,-8.7,0.5404,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_field_goals_made,Will Reichard,1.5,Over,fanatics,-120,2.35,0.5583,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_field_goals_made,Will Reichard,1.5,Under,fanatics,-110,-15.67,0.4417,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_attempts,Kirk Cousins,34.5,Under,draftkings,-102,-4.18,0.4838,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_attempts,Kirk Cousins,34.5,Over,pinnacle,-118,-4.64,0.5162,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_attempts,Kirk Cousins,34.5,Under,pinnacle,-103,-4.64,0.4838,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_attempts,Kirk Cousins,34.5,Under,bovada,-105,-5.54,0.4838,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_attempts,Kirk Cousins,34.5,Under,fanatics,-105,-5.54,0.4838,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_attempts,Kirk Cousins,34.5,Over,draftkings,-125,-7.09,0.5162,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_attempts,Kirk Cousins,34.5,Over,bovada,-125,-7.09,0.5162,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_attempts,Kirk Cousins,34.5,Over,fanatics,-125,-7.09,0.5162,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_completions,Brock Purdy,20.5,Over,fanatics,100,-3.91,0.4805,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_completions,Brock Purdy,20.5,Over,pinnacle,-101,-4.39,0.4805,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_completions,Brock Purdy,20.5,Under,pinnacle,-119,-4.39,0.5195,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_completions,Brock Purdy,20.5,Over,draftkings,-102,-4.85,0.4805,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_completions,Brock Purdy,20.5,Over,bovada,-105,-6.2,0.4805,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_completions,Brock Purdy,20.5,Under,draftkings,-125,-6.48,0.5195,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_completions,Brock Purdy,20.5,Under,bovada,-125,-6.48,0.5195,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_completions,Brock Purdy,20.5,Under,fanatics,-135,-9.56,0.5195,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_completions,Kirk Cousins,22.5,Over,fanatics,-105,-3.65,0.4935,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_completions,Kirk Cousins,22.5,Under,fanatics,-125,-8.83,0.5065,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_interceptions,Brock Purdy,0.5,Under,bovada,-105,-5.54,0.4838,pinnacle,14,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_interceptions,Brock Purdy,0.5,Over,draftkings,-121,-5.73,0.5162,pinnacle,14,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_interceptions,Brock Purdy,0.5,Under,draftkings,-106,-5.97,0.4838,pinnacle,14,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_interceptions,Brock Purdy,0.5,Over,bovada,-125,-7.09,0.5162,pinnacle,14,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Brock Purdy,1.5,Under,fanatics,100,-0.87,0.4957,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Brock Purdy,1.5,Under,underdog,-105,-3.23,0.4957,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Brock Purdy,1.5,Under,fanduel,-108,-4.54,0.4957,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Brock Purdy,1.5,Over,underdog,-117,-6.46,0.5043,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Brock Purdy,1.5,Over,fanduel,-120,-7.54,0.5043,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Brock Purdy,1.5,Over,fanatics,-130,-10.77,0.5043,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Under,kalshi,-127,2.17,0.5716,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Over,pinnacle,123,-4.47,0.4284,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Under,pinnacle,-149,-4.47,0.5716,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Under,hardrock,-150,-4.73,0.5716,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Under,fanatics,-150,-4.73,0.5716,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Over,fanduel,122,-4.9,0.4284,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Over,kalshi,122,-4.9,0.4284,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Under,draftkings,-154,-5.72,0.5716,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Over,draftkings,120,-5.76,0.4284,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Over,bovada,120,-5.76,0.4284,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Under,fanduel,-160,-7.11,0.5716,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Under,bovada,-160,-7.11,0.5716,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Over,hardrock,115,-7.9,0.4284,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_tds,Kirk Cousins,1.5,Over,fanatics,115,-7.9,0.4284,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,19.5,Under,kalshi,-100,0.87,0.5043,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,19.5,Over,kalshi,-108,-4.54,0.4957,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,19.5,Over,pinnacle,-108,-4.54,0.4957,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,19.5,Under,pinnacle,-112,-4.54,0.5043,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,19.5,Under,hardrock,-115,-5.71,0.5043,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,19.5,Over,hardrock,-115,-7.33,0.4957,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,20.5,Over,hardrock,-105,-4.36,0.4899,bovada,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,20.5,Over,fanatics,-105,-4.36,0.4899,bovada,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,20.5,Under,fanatics,-125,-8.18,0.5101,bovada,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,20.5,Under,hardrock,-130,-9.75,0.5101,bovada,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,24.5,Over,hardrock,125,-4.3,0.4253,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,24.5,Under,hardrock,-170,-8.73,0.5747,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,29.5,Over,kalshi,186,-0.94,0.3464,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,29.5,Under,kalshi,-194,-0.94,0.6536,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,29.5,Under,hardrock,-240,-7.4,0.6536,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,29.5,Over,hardrock,165,-8.22,0.3464,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,9.5,Under,underdog,-112,2.95,0.5439,kalshi,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,9.5,Over,kalshi,117,-1.03,0.4561,kalshi,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,9.5,Under,kalshi,-122,-1.03,0.5439,kalshi,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,9.5,Under,hardrock,-145,-8.1,0.5439,kalshi,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,9.5,Over,underdog,-112,-13.67,0.4561,kalshi,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,9.5,Over,hardrock,-115,-14.73,0.4561,kalshi,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Justin Jefferson,89.5,Over,kalshi,117,-1.03,0.4561,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Justin Jefferson,89.5,Under,kalshi,-122,-1.03,0.5439,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Justin Jefferson,89.5,Under,hardrock,-130,-3.77,0.5439,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Justin Jefferson,89.5,Over,hardrock,-105,-10.95,0.4561,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Keenan Allen,24.5,Over,kalshi,-113,1.09,0.5363,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Keenan Allen,24.5,Under,kalshi,108,-3.55,0.4637,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Keenan Allen,24.5,Over,pinnacle,-128,-4.47,0.5363,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Keenan Allen,24.5,Under,pinnacle,106,-4.47,0.4637,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Keenan Allen,24.5,Over,hardrock,-135,-6.65,0.5363,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Keenan Allen,24.5,Under,hardrock,-105,-9.46,0.4637,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Keenan Allen,39.5,Under,hardrock,-260,-6.32,0.6766,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Keenan Allen,39.5,Over,hardrock,185,-7.82,0.3234,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Myles Price,7.5,Under,hardrock,-110,-4.96,0.4978,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Myles Price,7.5,Over,hardrock,-125,-9.61,0.5022,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,44.5,Over,bovada,-110,-4.13,0.5022,pinnacle,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,44.5,Over,pinnacle,-111,-4.54,0.5022,pinnacle,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,44.5,Under,pinnacle,-109,-4.54,0.4978,pinnacle,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,44.5,Under,hardrock,-115,-6.93,0.4978,pinnacle,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,44.5,Over,hardrock,-120,-7.94,0.5022,pinnacle,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,44.5,Under,bovada,-120,-8.73,0.4978,pinnacle,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Tai Felton,14.5,Over,kalshi,104,1.12,0.4957,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Tai Felton,14.5,Under,kalshi,-108,-2.87,0.5043,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Christian McCaffrey,3.5,Under,hardrock,115,-4.62,0.4436,pinnacle,14,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Deebo Samuel Sr.,2.5,Over,kalshi,104,-0.65,0.487,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Deebo Samuel Sr.,2.5,Under,fanatics,-120,-5.95,0.513,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Deebo Samuel Sr.,2.5,Over,fanatics,-110,-7.03,0.487,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jauan Jennings,2.5,Over,fanduel,120,-3.22,0.4399,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jauan Jennings,2.5,Over,fanatics,120,-3.22,0.4399,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jauan Jennings,2.5,Under,hardrock,-145,-5.36,0.5601,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jauan Jennings,2.5,Over,hardrock,115,-5.42,0.4399,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jauan Jennings,2.5,Under,fanduel,-160,-8.98,0.5601,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jauan Jennings,2.5,Under,fanatics,-165,-10.04,0.5601,pinnacle,15,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jordan Watkins,0.5,Over,kalshi,-113,-0.49,0.5279,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jordan Watkins,0.5,Under,kalshi,108,-1.8,0.4721,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jordan Watkins,0.5,Under,fanduel,102,-4.64,0.4721,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jordan Watkins,0.5,Over,pinnacle,-124,-4.64,0.5279,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jordan Watkins,0.5,Under,pinnacle,102,-4.64,0.4721,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jordan Watkins,0.5,Under,hardrock,100,-5.58,0.4721,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jordan Watkins,0.5,Under,bovada,100,-5.58,0.4721,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jordan Watkins,0.5,Over,draftkings,-127,-5.64,0.5279,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jordan Watkins,0.5,Under,draftkings,-101,-6.05,0.4721,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jordan Watkins,0.5,Over,hardrock,-130,-6.6,0.5279,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jordan Watkins,0.5,Over,bovada,-130,-6.6,0.5279,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jordan Watkins,0.5,Over,fanduel,-136,-8.39,0.5279,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,7.5,Over,kalshi,117,-0.44,0.4588,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,7.5,Under,kalshi,-122,-1.52,0.5412,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,7.5,Under,draftkings,-130,-4.25,0.5412,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,7.5,Under,hardrock,-130,-4.25,0.5412,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,7.5,Under,bovada,-130,-4.25,0.5412,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,7.5,Over,pinnacle,108,-4.57,0.4588,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,7.5,Under,pinnacle,-131,-4.57,0.5412,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,7.5,Under,fanatics,-135,-5.79,0.5412,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,7.5,Over,draftkings,102,-7.32,0.4588,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,7.5,Over,hardrock,100,-8.24,0.4588,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,7.5,Over,bovada,100,-8.24,0.4588,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,7.5,Over,fanatics,100,-8.24,0.4588,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Over,underdog,-105,1.01,0.5174,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Over,kalshi,-108,-0.36,0.5174,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Under,kalshi,104,-1.54,0.4826,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Over,fanduel,-114,-2.88,0.5174,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Over,fanatics,-115,-3.28,0.5174,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Under,bovada,100,-3.47,0.4826,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Under,draftkings,-101,-3.95,0.4826,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Over,pinnacle,-118,-4.42,0.5174,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Under,pinnacle,-102,-4.42,0.4826,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Over,hardrock,-120,-5.15,0.5174,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Over,draftkings,-126,-7.2,0.5174,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Under,hardrock,-110,-7.86,0.4826,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Over,bovada,-130,-8.47,0.5174,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Under,fanduel,-114,-9.4,0.4826,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Under,fanatics,-115,-9.77,0.4826,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,2.5,Under,underdog,-118,-10.84,0.4826,pinnacle,16,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Under,kalshi,-194,-0.12,0.6591,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Over,kalshi,186,-2.49,0.3409,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Under,draftkings,-218,-3.86,0.6591,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Under,fanduel,-220,-4.14,0.6591,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Under,fanatics,-220,-4.14,0.6591,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Over,pinnacle,180,-4.54,0.3409,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Under,pinnacle,-223,-4.54,0.6591,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Under,bovada,-230,-5.44,0.6591,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Under,hardrock,-240,-6.63,0.6591,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Over,bovada,170,-7.95,0.3409,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Over,draftkings,169,-8.29,0.3409,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Over,hardrock,165,-9.65,0.3409,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Over,fanduel,162,-10.68,0.3409,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Myles Price,1.5,Over,fanatics,155,-13.06,0.3409,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Christian McCaffrey,13.5,Over,hardrock,-105,-6.35,0.4797,bovada,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Christian McCaffrey,13.5,Under,hardrock,-125,-6.35,0.5203,bovada,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Kaelon Black,7.5,Over,bovada,105,2.5,0.5,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Kaelon Black,7.5,Under,underdog,-103,-1.46,0.5,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Kaelon Black,7.5,Under,hardrock,-110,-4.55,0.5,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Kaelon Black,7.5,Under,fanatics,-110,-4.55,0.5,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Kaelon Black,7.5,Over,pinnacle,-110,-4.55,0.5,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Kaelon Black,7.5,Under,pinnacle,-110,-4.55,0.5,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Kaelon Black,7.5,Under,draftkings,-112,-5.36,0.5,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Kaelon Black,7.5,Over,draftkings,-114,-6.14,0.5,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Kaelon Black,7.5,Over,underdog,-120,-8.33,0.5,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Kaelon Black,7.5,Over,hardrock,-120,-8.33,0.5,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Kaelon Black,7.5,Over,fanatics,-120,-8.33,0.5,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_attempts,Kaelon Black,7.5,Under,bovada,-135,-12.96,0.5,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Brock Purdy,9.5,Over,kalshi,-213,-1.04,0.6734,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Brock Purdy,9.5,Under,kalshi,203,-1.04,0.3266,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Brock Purdy,9.5,Under,hardrock,190,-5.29,0.3266,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Brock Purdy,9.5,Over,hardrock,-275,-8.17,0.6734,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Christian McCaffrey,51.5,Over,hardrock,-125,-9.22,0.5043,pinnacle,10,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kaelon Black,28.5,Over,pinnacle,-116,-4.69,0.5118,pinnacle,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kaelon Black,28.5,Under,pinnacle,-105,-4.69,0.4882,pinnacle,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kaelon Black,28.5,Under,hardrock,-110,-6.81,0.4882,pinnacle,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kaelon Black,28.5,Over,hardrock,-125,-7.87,0.5118,pinnacle,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kirk Cousins,1.5,Under,underdog,-106,5.18,0.5412,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kirk Cousins,1.5,Under,draftkings,-113,2.01,0.5412,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kirk Cousins,1.5,Under,bovada,-115,1.18,0.5412,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kirk Cousins,1.5,Under,hardrock,-130,-4.25,0.5412,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kirk Cousins,1.5,Over,pinnacle,108,-4.57,0.4588,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kirk Cousins,1.5,Under,pinnacle,-131,-4.57,0.5412,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kirk Cousins,1.5,Over,hardrock,-105,-10.42,0.4588,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kirk Cousins,1.5,Over,draftkings,-111,-12.79,0.4588,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kirk Cousins,1.5,Over,underdog,-115,-14.22,0.4588,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kirk Cousins,1.5,Over,bovada,-115,-14.22,0.4588,pinnacle,9,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_anytime_td,Christian McCaffrey,,Yes,hardrock,-170,-7.23,0.5841,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_anytime_td,Justin Jefferson,,Yes,hardrock,125,-1.99,0.4356,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_anytime_td,Justin Jefferson,,No,hardrock,-175,-11.31,0.5644,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_longest_completion,Kirk Cousins,34.5,Over,hardrock,-115,-6.52,0.5,bovada,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_longest_completion,Kirk Cousins,34.5,Under,hardrock,-115,-6.52,0.5,bovada,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_interceptions,Kirk Cousins,0.5,Under,draftkings,133,-3.64,0.4135,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_interceptions,Kirk Cousins,0.5,Over,draftkings,-170,-6.86,0.5865,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_interceptions,Kirk Cousins,0.5,Over,fanatics,-170,-6.86,0.5865,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_interceptions,Kirk Cousins,0.5,Under,fanatics,120,-9.02,0.4135,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_rush_yds,Kirk Cousins,234.5,Over,underdog,-112,-5.36,0.5,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_rush_yds,Kirk Cousins,234.5,Under,underdog,-112,-5.36,0.5,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_rush_yds,Kirk Cousins,234.5,Under,draftkings,-112,-5.36,0.5,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_rush_yds,Kirk Cousins,234.5,Over,draftkings,-114,-6.14,0.5,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_rush_yds,Kirk Cousins,234.5,Over,bovada,-115,-6.52,0.5,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_rush_yds,Kirk Cousins,234.5,Under,bovada,-115,-6.52,0.5,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Brock Purdy,242.5,Over,pinnacle,-110,-4.55,0.5,pinnacle,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Brock Purdy,242.5,Under,pinnacle,-110,-4.55,0.5,pinnacle,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Brock Purdy,242.5,Over,hardrock,-115,-6.52,0.5,pinnacle,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Brock Purdy,242.5,Under,hardrock,-115,-6.52,0.5,pinnacle,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,224.5,Over,kalshi,-127,-0.98,0.554,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,224.5,Under,kalshi,122,-0.98,0.446,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,224.5,Over,hardrock,-145,-6.4,0.554,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,224.5,Under,hardrock,105,-8.56,0.446,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,231.5,Over,pinnacle,-110,-4.55,0.5,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,231.5,Under,pinnacle,-110,-4.55,0.5,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,231.5,Over,underdog,-112,-5.36,0.5,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,231.5,Under,underdog,-112,-5.36,0.5,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,231.5,Over,fanduel,-113,-5.75,0.5,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,231.5,Under,fanduel,-113,-5.75,0.5,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,231.5,Under,hardrock,-115,-6.52,0.5,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,231.5,Over,hardrock,-120,-8.33,0.5,pinnacle,8,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,249.5,Over,kalshi,150,-0.93,0.3963,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_pass_yds,Kirk Cousins,249.5,Under,kalshi,-156,-0.93,0.6037,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_longest,Jordan Watkins,7.5,Under,underdog,-110,-4.55,0.5,bovada,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_longest,Jordan Watkins,7.5,Over,underdog,-112,-5.36,0.5,bovada,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_longest,Jordan Watkins,7.5,Under,draftkings,-113,-5.75,0.5,bovada,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_longest,Jordan Watkins,7.5,Over,draftkings,-114,-6.14,0.5,bovada,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_longest,Jordan Watkins,7.5,Over,bovada,-115,-6.52,0.5,bovada,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_longest,Jordan Watkins,7.5,Under,bovada,-115,-6.52,0.5,bovada,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_longest,T.J. Hockenson,17.5,Over,hardrock,-120,-6.48,0.5101,bovada,7,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_longest,T.J. Hockenson,17.5,Under,hardrock,-110,-6.48,0.4899,bovada,7,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Christian McCaffrey,29.5,Over,kalshi,-127,-0.98,0.554,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Christian McCaffrey,29.5,Under,kalshi,122,-0.98,0.446,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Christian McCaffrey,29.5,Under,hardrock,110,-6.33,0.446,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Christian McCaffrey,29.5,Over,hardrock,-155,-8.86,0.554,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Deebo Samuel Sr.,14.5,Over,kalshi,-223,-1.08,0.6829,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Deebo Samuel Sr.,14.5,Under,kalshi,212,-1.08,0.3171,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Deebo Samuel Sr.,14.5,Over,hardrock,-275,-6.87,0.6829,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Deebo Samuel Sr.,14.5,Under,hardrock,190,-8.05,0.3171,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Deebo Samuel Sr.,19.5,Over,kalshi,-150,-0.97,0.5942,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Deebo Samuel Sr.,19.5,Under,kalshi,144,-0.97,0.4058,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Deebo Samuel Sr.,19.5,Under,hardrock,130,-6.66,0.4058,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Deebo Samuel Sr.,19.5,Over,hardrock,-185,-8.47,0.5942,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Deebo Samuel Sr.,26.5,Under,hardrock,-115,-4.63,0.5101,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Deebo Samuel Sr.,26.5,Over,bovada,-110,-6.48,0.4899,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Deebo Samuel Sr.,26.5,Under,bovada,-120,-6.48,0.5101,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Deebo Samuel Sr.,26.5,Over,hardrock,-115,-8.41,0.4899,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,George Kittle,39.5,Over,hardrock,-180,-6.09,0.6037,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,14.5,Over,hardrock,-175,-3.61,0.6134,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jauan Jennings,14.5,Under,hardrock,125,-13.01,0.3866,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,6.5,Under,hardrock,-110,-4.55,0.5,bovada,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,6.5,Over,draftkings,-112,-5.36,0.5,bovada,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,6.5,Under,draftkings,-112,-5.36,0.5,bovada,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,6.5,Over,bovada,-115,-6.52,0.5,bovada,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,6.5,Under,bovada,-115,-6.52,0.5,bovada,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,6.5,Over,hardrock,-150,-16.67,0.5,bovada,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,8.5,Over,hardrock,-110,-3.72,0.5043,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,8.5,Over,pinnacle,-112,-4.54,0.5043,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,8.5,Under,pinnacle,-108,-4.54,0.4957,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,8.5,Over,fanduel,-113,-4.94,0.5043,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,8.5,Under,fanduel,-113,-6.57,0.4957,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,8.5,Under,hardrock,-120,-9.13,0.4957,pinnacle,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,14.5,Over,hardrock,135,-2.27,0.4159,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,14.5,Under,hardrock,-230,-16.19,0.5841,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,19.5,Over,hardrock,195,-3.66,0.3266,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Jordan Watkins,19.5,Under,hardrock,-375,-14.7,0.6734,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Justin Jefferson,86.5,Over,pinnacle,-112,-4.54,0.5043,pinnacle,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Justin Jefferson,86.5,Under,pinnacle,-108,-4.54,0.4957,pinnacle,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Justin Jefferson,86.5,Under,hardrock,-115,-7.33,0.4957,pinnacle,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Justin Jefferson,86.5,Over,hardrock,-120,-7.54,0.5043,pinnacle,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Justin Jefferson,99.5,Under,hardrock,-180,-6.09,0.6037,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Keenan Allen,14.5,Under,hardrock,200,-8.92,0.3036,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Keenan Allen,19.5,Over,hardrock,-190,-4.84,0.6235,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Mike Evans,59.5,Under,hardrock,-190,-7.04,0.6091,bovada,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Myles Price,9.5,Under,hardrock,-135,-5.32,0.5439,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Myles Price,9.5,Over,hardrock,-105,-10.95,0.4561,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Myles Price,14.5,Over,kalshi,178,-1.0,0.3561,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Myles Price,14.5,Under,kalshi,-186,-1.0,0.6439,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Myles Price,14.5,Under,hardrock,-210,-4.95,0.6439,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Myles Price,14.5,Over,hardrock,150,-10.97,0.3561,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,43.5,Under,hardrock,-105,-4.36,0.4899,bovada,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,43.5,Over,draftkings,-115,-4.63,0.5101,bovada,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,43.5,Under,draftkings,-109,-6.07,0.4899,bovada,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,43.5,Over,bovada,-120,-6.48,0.5101,bovada,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,43.5,Under,bovada,-110,-6.48,0.4899,bovada,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,43.5,Over,hardrock,-130,-9.75,0.5101,bovada,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,48.5,Under,hardrock,-140,-5.0,0.5541,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,48.5,Over,bovada,110,-6.37,0.4459,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,48.5,Under,bovada,-145,-6.37,0.5541,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,48.5,Over,hardrock,100,-10.83,0.4459,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,T.J. Hockenson,59.5,Over,hardrock,175,-10.19,0.3266,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_reception_yds,Tai Felton,9.5,Over,hardrock,-175,-6.63,0.5942,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Aaron Jones,1.5,Over,pinnacle,-160,-4.61,0.587,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Aaron Jones,1.5,Under,pinnacle,131,-4.61,0.413,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Aaron Jones,1.5,Over,draftkings,-163,-5.28,0.587,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Aaron Jones,1.5,Over,bovada,-165,-5.72,0.587,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Aaron Jones,1.5,Under,fanduel,128,-5.84,0.413,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Aaron Jones,1.5,Under,draftkings,127,-6.26,0.413,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Aaron Jones,1.5,Under,bovada,125,-7.08,0.413,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Aaron Jones,1.5,Over,fanduel,-172,-7.17,0.587,pinnacle,11,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Aaron Jones Sr.,1.5,Under,fanatics,130,-6.66,0.4058,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Aaron Jones Sr.,1.5,Over,fanatics,-180,-7.58,0.5942,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Christian McCaffrey,4.5,Over,kalshi,178,-1.0,0.3561,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Christian McCaffrey,4.5,Under,kalshi,-186,-1.0,0.6439,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Christian McCaffrey,4.5,Under,hardrock,-195,-2.59,0.6439,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Christian McCaffrey,4.5,Under,fanatics,-195,-2.59,0.6439,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Christian McCaffrey,4.5,Over,hardrock,140,-14.53,0.3561,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Christian McCaffrey,4.5,Over,fanatics,140,-14.53,0.3561,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jauan Jennings,1.5,Over,hardrock,-250,-5.72,0.6734,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Jauan Jennings,1.5,Under,hardrock,175,-10.19,0.3266,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,6.5,Over,kalshi,-156,-0.93,0.6037,kalshi,7,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,6.5,Under,kalshi,150,-0.93,0.3963,kalshi,7,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,6.5,Over,fanduel,-172,-4.53,0.6037,kalshi,7,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,6.5,Over,hardrock,-180,-6.09,0.6037,kalshi,7,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,6.5,Under,hardrock,130,-8.85,0.3963,kalshi,7,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,6.5,Under,fanduel,128,-9.65,0.3963,kalshi,7,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,8.5,Over,kalshi,194,-1.0,0.3367,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,8.5,Under,kalshi,-203,-1.0,0.6633,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,8.5,Under,hardrock,-240,-6.04,0.6633,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Justin Jefferson,8.5,Over,hardrock,165,-10.77,0.3367,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,3.5,Under,hardrock,-260,-4.01,0.6933,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Keenan Allen,3.5,Over,hardrock,180,-14.11,0.3067,kalshi,3,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Mike Evans,3.5,Under,draftkings,105,-3.22,0.4721,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Mike Evans,3.5,Under,bovada,105,-3.22,0.4721,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Mike Evans,3.5,Over,draftkings,-135,-8.11,0.5279,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,Mike Evans,3.5,Over,bovada,-135,-8.11,0.5279,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Over,kalshi,-133,-1.11,0.5645,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_receptions,T.J. Hockenson,4.5,Under,kalshi,127,-1.14,0.4355,pinnacle,12,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_longest,Jordan Mason,9.5,Under,draftkings,-128,-5.48,0.5306,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_longest,Jordan Mason,9.5,Over,bovada,100,-6.12,0.4694,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_longest,Jordan Mason,9.5,Under,bovada,-130,-6.12,0.5306,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_longest,Jordan Mason,9.5,Over,draftkings,-101,-6.59,0.4694,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_reception_yds,Christian McCaffrey,91.5,Under,draftkings,-115,-4.63,0.5101,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_reception_yds,Christian McCaffrey,91.5,Over,bovada,-110,-6.48,0.4899,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_reception_yds,Christian McCaffrey,91.5,Under,bovada,-120,-6.48,0.5101,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_reception_yds,Christian McCaffrey,91.5,Over,draftkings,-111,-6.88,0.4899,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_reception_yds,Deebo Samuel Sr.,37.5,Over,hardrock,-115,-6.52,0.5,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_reception_yds,Deebo Samuel Sr.,37.5,Under,hardrock,-115,-6.52,0.5,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_reception_yds,Deebo Samuel Sr.,37.5,Over,bovada,-115,-6.52,0.5,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_reception_yds,Deebo Samuel Sr.,37.5,Under,bovada,-115,-6.52,0.5,bovada,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Brock Purdy,24.5,Over,hardrock,185,-6.92,0.3266,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Christian McCaffrey,39.5,Over,kalshi,-213,-2.02,0.6667,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Christian McCaffrey,39.5,Under,kalshi,194,-2.02,0.3333,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Christian McCaffrey,39.5,Over,hardrock,-260,-7.68,0.6667,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Christian McCaffrey,39.5,Under,hardrock,175,-8.35,0.3333,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Christian McCaffrey,49.5,Over,kalshi,-117,-0.86,0.5345,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Christian McCaffrey,49.5,Under,kalshi,113,-0.86,0.4655,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Christian McCaffrey,49.5,Under,hardrock,100,-6.91,0.4655,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Christian McCaffrey,49.5,Over,hardrock,-135,-6.95,0.5345,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Christian McCaffrey,59.5,Under,hardrock,-170,-5.63,0.5942,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Deebo Samuel Sr.,9.5,Over,kalshi,117,-1.03,0.4561,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Deebo Samuel Sr.,9.5,Under,kalshi,-122,-1.03,0.5439,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Deebo Samuel Sr.,9.5,Over,hardrock,110,-4.22,0.4561,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Deebo Samuel Sr.,9.5,Under,hardrock,-155,-10.52,0.5439,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Jordan Mason,29.5,Over,kalshi,-203,-1.0,0.6633,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Jordan Mason,29.5,Under,kalshi,194,-1.0,0.3367,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Jordan Mason,29.5,Over,hardrock,-220,-3.52,0.6633,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Jordan Mason,29.5,Under,hardrock,150,-15.82,0.3367,kalshi,4,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Jordan Mason,39.5,Over,kalshi,-100,-0.97,0.4951,kalshi,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Jordan Mason,39.5,Under,kalshi,-104,-0.97,0.5049,kalshi,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Jordan Mason,39.5,Over,hardrock,-110,-5.47,0.4951,kalshi,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Jordan Mason,39.5,Under,hardrock,-125,-9.13,0.5049,kalshi,6,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kaelon Black,39.5,Over,kalshi,194,-1.0,0.3367,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kaelon Black,39.5,Under,kalshi,-203,-1.0,0.6633,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kaelon Black,39.5,Under,hardrock,-240,-6.04,0.6633,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kaelon Black,39.5,Under,bovada,-240,-6.04,0.6633,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kaelon Black,39.5,Over,bovada,175,-7.4,0.3367,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,32693,2026-11-23T01:20:00Z,San Francisco 49ers,Minnesota Vikings,player_rush_yds,Kaelon Black,39.5,Over,hardrock,165,-10.77,0.3367,kalshi,5,2.4
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_field_goals_made,Drew Stevens,1.5,Under,fanatics,115,3.41,0.481,pinnacle,9,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_field_goals_made,Drew Stevens,1.5,Over,fanatics,-150,-13.5,0.519,pinnacle,9,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Over,kalshi,113,-0.63,0.4665,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Under,kalshi,-117,-1.06,0.5335,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Over,draftkings,106,-3.9,0.4665,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Over,bovada,105,-4.36,0.4665,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Over,fanatics,105,-4.36,0.4665,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Over,pinnacle,103,-5.3,0.4665,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Under,pinnacle,-129,-5.3,0.5335,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Under,hardrock,-130,-5.61,0.5335,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Under,fanduel,-132,-6.24,0.5335,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Over,fanduel,100,-6.7,0.4665,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Over,hardrock,100,-6.7,0.4665,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Under,draftkings,-135,-7.13,0.5335,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Under,bovada,-135,-7.13,0.5335,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Under,fanatics,-140,-8.55,0.5335,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,8.5,Under,kalshi,-144,-3.89,0.5672,pinnacle,9,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Mike Gesicki,2.5,Under,kalshi,-127,0.53,0.5625,pinnacle,13,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Ja'Marr Chase,,No,kalshi,127,-2.0,0.4317,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Ja'Marr Chase,,Yes,kalshi,-138,-2.0,0.5683,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Ja'Marr Chase,,No,hardrock,120,-5.02,0.4317,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Ja'Marr Chase,,Yes,hardrock,-165,-8.73,0.5683,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_interceptions,Joe Burrow,0.5,Under,fanatics,-150,-4.77,0.5714,pinnacle,11,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_interceptions,Joe Burrow,0.5,Over,fanatics,105,-12.13,0.4286,pinnacle,11,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Jayden Daniels,199.5,Over,kalshi,-194,-1.92,0.6472,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Jayden Daniels,199.5,Under,kalshi,178,-1.92,0.3528,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Jayden Daniels,224.5,Over,kalshi,-104,-0.97,0.5049,kalshi,6,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Jayden Daniels,224.5,Under,kalshi,-100,-0.97,0.4951,kalshi,6,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Jayden Daniels,224.5,Over,hardrock,-115,-5.61,0.5049,kalshi,6,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Jayden Daniels,224.5,Under,hardrock,-115,-7.43,0.4951,kalshi,6,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Jayden Daniels,249.5,Over,kalshi,163,-2.01,0.3726,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Jayden Daniels,249.5,Under,kalshi,-178,-2.01,0.6274,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,274.5,Over,kalshi,-223,-1.08,0.6829,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,274.5,Under,kalshi,212,-1.08,0.3171,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,24.5,Over,kalshi,-203,-1.0,0.6633,kalshi,5,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,24.5,Under,kalshi,194,-1.0,0.3367,kalshi,5,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,24.5,Over,hardrock,-230,-4.84,0.6633,kalshi,5,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,24.5,Over,bovada,-240,-6.04,0.6633,kalshi,5,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,24.5,Under,bovada,175,-7.4,0.3367,kalshi,5,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,24.5,Under,hardrock,160,-12.45,0.3367,kalshi,5,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,29.5,Over,kalshi,-223,-2.0,0.6766,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,29.5,Under,kalshi,203,-2.0,0.3234,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,29.5,Under,hardrock,195,-4.59,0.3234,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,29.5,Over,hardrock,-275,-7.74,0.6766,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,49.5,Under,hardrock,-155,-1.64,0.5979,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,49.5,Over,kalshi,144,-1.88,0.4021,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,49.5,Under,kalshi,-156,-1.88,0.5979,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,49.5,Over,hardrock,115,-13.55,0.4021,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,14.5,Over,kalshi,-178,-3.87,0.6155,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,14.5,Under,kalshi,150,-3.87,0.3845,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,14.5,Over,hardrock,-190,-6.06,0.6155,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,14.5,Under,hardrock,135,-9.64,0.3845,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Drew Sample,9.5,Over,kalshi,144,-0.97,0.4058,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Drew Sample,9.5,Under,kalshi,-150,-0.97,0.5942,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Drew Sample,9.5,Over,hardrock,130,-6.66,0.4058,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Drew Sample,9.5,Under,hardrock,-185,-8.47,0.5942,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,79.5,Over,kalshi,-186,-1.0,0.6439,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,79.5,Under,kalshi,178,-1.0,0.3561,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,94.5,Over,underdog,-112,-5.36,0.5,pinnacle,7,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,94.5,Under,underdog,-112,-5.36,0.5,pinnacle,7,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,94.5,Over,pinnacle,-112,-5.36,0.5,pinnacle,7,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,94.5,Under,pinnacle,-112,-5.36,0.5,pinnacle,7,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,94.5,Over,fanduel,-114,-6.14,0.5,pinnacle,7,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,94.5,Under,fanduel,-114,-6.14,0.5,pinnacle,7,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,94.5,Under,hardrock,-115,-6.52,0.5,pinnacle,7,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,94.5,Over,hardrock,-120,-8.33,0.5,pinnacle,7,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,99.5,Over,kalshi,108,-2.94,0.4666,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,99.5,Under,kalshi,-122,-2.94,0.5334,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,99.5,Over,hardrock,100,-6.68,0.4666,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,99.5,Under,hardrock,-135,-7.15,0.5334,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,119.5,Over,kalshi,212,-3.88,0.3081,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,119.5,Under,kalshi,-257,-3.88,0.6919,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Samaje Perine,9.5,Over,kalshi,163,-2.01,0.3726,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Samaje Perine,9.5,Under,kalshi,-178,-2.01,0.6274,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Samaje Perine,9.5,Over,hardrock,150,-6.85,0.3726,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Samaje Perine,9.5,Under,hardrock,-210,-7.38,0.6274,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,46.5,Under,hardrock,-110,-4.95,0.4979,pinnacle,6,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,46.5,Over,hardrock,-120,-7.95,0.5021,pinnacle,6,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,59.5,Over,kalshi,-186,-1.0,0.6439,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,59.5,Under,kalshi,178,-1.0,0.3561,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,79.5,Over,kalshi,117,-1.99,0.4517,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,79.5,Under,kalshi,-127,-1.99,0.5483,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,79.5,Under,hardrock,-135,-4.55,0.5483,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,79.5,Over,hardrock,-105,-11.82,0.4517,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Treylon Burks,14.5,Over,kalshi,-233,-0.92,0.6933,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Treylon Burks,14.5,Under,kalshi,223,-0.92,0.3067,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Treylon Burks,14.5,Under,hardrock,210,-4.91,0.3067,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Treylon Burks,14.5,Over,hardrock,-300,-7.57,0.6933,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,2.5,Over,kalshi,-213,-3.87,0.6542,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,2.5,Under,kalshi,178,-3.87,0.3458,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,2.5,Under,hardrock,170,-6.63,0.3458,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,2.5,Over,hardrock,-240,-7.32,0.6542,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chase Brown,3.5,Over,kalshi,-170,-2.88,0.6115,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chase Brown,3.5,Under,kalshi,150,-2.88,0.3885,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chase Brown,3.5,Over,hardrock,-195,-7.49,0.6115,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chase Brown,3.5,Under,hardrock,135,-8.71,0.3885,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,1.5,Over,kalshi,-178,-2.01,0.6274,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,1.5,Under,kalshi,163,-2.01,0.3726,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,1.5,Over,hardrock,-200,-5.89,0.6274,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,1.5,Under,hardrock,145,-8.72,0.3726,kalshi,3,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Drew Sample,1.5,Under,kalshi,-194,-3.55,0.6364,pinnacle,12,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Samaje Perine,1.5,Under,kalshi,-213,-4.33,0.6511,pinnacle,12,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,3.5,Over,kalshi,-213,-3.87,0.6542,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,3.5,Under,kalshi,178,-3.87,0.3458,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,3.5,Under,hardrock,170,-6.63,0.3458,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,3.5,Over,hardrock,-240,-7.32,0.6542,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,5.5,Over,kalshi,194,-2.96,0.3301,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,5.5,Under,kalshi,-223,-2.96,0.6699,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,5.5,Under,hardrock,-240,-5.09,0.6699,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,5.5,Over,hardrock,165,-12.53,0.3301,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,4.5,Over,kalshi,-186,-1.0,0.6439,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,4.5,Under,kalshi,178,-1.0,0.3561,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,4.5,Over,hardrock,-200,-3.42,0.6439,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,4.5,Under,hardrock,140,-14.53,0.3561,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,6.5,Over,kalshi,203,-2.89,0.3205,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,6.5,Under,kalshi,-233,-2.89,0.6795,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,6.5,Under,hardrock,-260,-5.92,0.6795,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,6.5,Over,hardrock,180,-10.26,0.3205,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Treylon Burks,1.5,Over,kalshi,-194,-2.93,0.6405,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Treylon Burks,1.5,Under,kalshi,170,-2.93,0.3595,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Treylon Burks,1.5,Over,hardrock,-210,-5.45,0.6405,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Treylon Burks,1.5,Under,hardrock,150,-10.12,0.3595,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,14.5,Over,kalshi,-178,-3.0,0.6211,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,14.5,Under,kalshi,156,-3.0,0.3789,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,14.5,Under,hardrock,145,-7.17,0.3789,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,14.5,Over,hardrock,-210,-8.32,0.6211,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,19.5,Over,kalshi,-113,-2.96,0.5148,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,19.5,Under,kalshi,-100,-2.96,0.4852,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,19.5,Over,hardrock,-125,-7.33,0.5148,kalshi,4,26.3
+2026-11-22T22:54:30Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,19.5,Under,hardrock,-110,-7.37,0.4852,kalshi,4,26.3
