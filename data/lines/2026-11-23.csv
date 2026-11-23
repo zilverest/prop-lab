@@ -289,3 +289,1063 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-11-23T01:54:23Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,29.5,Under,kalshi,-223,-2.0,0.6766,kalshi,4,23.3
 2026-11-23T01:54:23Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,29.5,Under,hardrock,-250,-5.28,0.6766,kalshi,4,23.3
 2026-11-23T01:54:23Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,29.5,Over,hardrock,175,-11.06,0.3234,kalshi,4,23.3
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_field_goals_made,Drew Stevens,1.5,Under,draftkings,100,-3.8,0.481,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_field_goals_made,Drew Stevens,1.5,Over,draftkings,-128,-7.55,0.519,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_completions,Joe Burrow,27.5,Under,fanatics,-115,-1.2,0.5284,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_completions,Joe Burrow,27.5,Over,fanatics,-115,-11.84,0.4716,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_interceptions,Jayden Daniels,0.5,Under,draftkings,-141,-4.73,0.5574,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_interceptions,Jayden Daniels,0.5,Under,bovada,-145,-5.82,0.5574,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_interceptions,Jayden Daniels,0.5,Over,draftkings,110,-7.05,0.4426,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_interceptions,Jayden Daniels,0.5,Over,bovada,110,-7.05,0.4426,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Under,kalshi,117,2.79,0.4737,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Over,draftkings,-121,-3.87,0.5263,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Over,fanduel,-122,-4.23,0.5263,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Over,kalshi,-122,-4.23,0.5263,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Under,hardrock,100,-5.26,0.4737,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Over,bovada,-125,-5.26,0.5263,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Under,fanatics,100,-5.26,0.4737,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Over,pinnacle,-125,-5.26,0.5263,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Under,pinnacle,-100,-5.26,0.4737,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Over,hardrock,-130,-6.88,0.5263,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Over,fanatics,-130,-6.88,0.5263,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Under,draftkings,-105,-7.52,0.4737,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Under,bovada,-105,-7.52,0.4737,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Joe Burrow,2.5,Under,fanduel,-106,-7.94,0.4737,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,324.5,Over,bovada,140,-4.89,0.3963,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,324.5,Under,bovada,-185,-7.0,0.6037,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Treylon Burks,18.5,Over,hardrock,-110,-0.67,0.5203,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Treylon Burks,18.5,Over,underdog,-121,-4.97,0.5203,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Treylon Burks,18.5,Under,underdog,-103,-5.46,0.4797,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Treylon Burks,18.5,Under,draftkings,-103,-5.46,0.4797,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Treylon Burks,18.5,Over,draftkings,-125,-6.35,0.5203,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Treylon Burks,18.5,Over,bovada,-125,-6.35,0.5203,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Treylon Burks,18.5,Under,bovada,-105,-6.35,0.4797,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Treylon Burks,18.5,Under,hardrock,-120,-12.06,0.4797,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,39.5,Over,bovada,115,0.07,0.4655,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,39.5,Under,bovada,-150,-10.91,0.5345,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Drew Sample,6.5,Over,draftkings,-112,-4.96,0.5021,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Drew Sample,6.5,Under,draftkings,-112,-5.76,0.4979,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Drew Sample,6.5,Over,bovada,-115,-6.13,0.5021,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Drew Sample,6.5,Over,underdog,-117,-6.87,0.5021,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Drew Sample,6.5,Under,bovada,-115,-6.92,0.4979,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,89.5,Under,bovada,125,0.36,0.446,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,89.5,Over,kalshi,-127,-0.98,0.554,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,89.5,Under,kalshi,122,-0.98,0.446,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,89.5,Over,hardrock,-150,-7.67,0.554,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,89.5,Under,hardrock,105,-8.56,0.446,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,89.5,Over,bovada,-165,-11.03,0.554,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,94.5,Over,hardrock,-125,-10.0,0.5,pinnacle,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,99.5,Under,draftkings,-112,1.18,0.5345,kalshi,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,99.5,Under,bovada,-115,-0.06,0.5345,kalshi,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,99.5,Under,hardrock,-130,-5.43,0.5345,kalshi,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,99.5,Over,hardrock,-105,-9.13,0.4655,kalshi,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,99.5,Over,draftkings,-112,-11.9,0.4655,kalshi,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,99.5,Over,bovada,-115,-12.98,0.4655,kalshi,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Samaje Perine,5.5,Under,underdog,-106,-3.24,0.4979,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Samaje Perine,5.5,Under,hardrock,-110,-4.95,0.4979,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Samaje Perine,5.5,Over,fanduel,-113,-5.36,0.5021,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Samaje Perine,5.5,Over,pinnacle,-113,-5.36,0.5021,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Samaje Perine,5.5,Under,pinnacle,-111,-5.36,0.4979,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Samaje Perine,5.5,Under,fanduel,-113,-6.15,0.4979,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Samaje Perine,5.5,Over,underdog,-117,-6.87,0.5021,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Samaje Perine,5.5,Over,hardrock,-130,-11.17,0.5021,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Samaje Perine,7.5,Under,hardrock,-145,-13.81,0.5101,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Over,draftkings,113,-0.63,0.4665,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Over,bovada,110,-2.03,0.4665,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Under,draftkings,-144,-9.6,0.5335,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,3.5,Under,bovada,-145,-9.86,0.5335,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chase Brown,4.5,Over,fanatics,110,-1.59,0.4686,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chase Brown,4.5,Under,fanatics,-150,-11.43,0.5314,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chig Okonkwo,4.5,Under,fanatics,-125,1.12,0.5618,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chig Okonkwo,4.5,Under,bovada,-130,-0.61,0.5618,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chig Okonkwo,4.5,Over,bovada,100,-12.36,0.4382,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chig Okonkwo,4.5,Over,fanatics,-105,-14.44,0.4382,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Drew Sample,1.5,Over,kalshi,178,1.08,0.3636,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Drew Sample,1.5,Under,kalshi,-186,-2.14,0.6364,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,8.5,Over,kalshi,133,0.84,0.4328,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,8.5,Under,kalshi,-138,-2.18,0.5672,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,8.5,Under,draftkings,-146,-4.43,0.5672,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,8.5,Under,bovada,-150,-5.47,0.5672,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,8.5,Over,draftkings,115,-6.95,0.4328,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,8.5,Over,bovada,115,-6.95,0.4328,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Mike Gesicki,2.5,Over,kalshi,122,-2.15,0.4408,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Mike Gesicki,2.5,Under,draftkings,-134,-2.34,0.5592,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Mike Gesicki,2.5,Under,bovada,-135,-2.65,0.5592,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Mike Gesicki,2.5,Under,fanatics,-140,-4.13,0.5592,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Mike Gesicki,2.5,Over,draftkings,105,-9.65,0.4408,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Mike Gesicki,2.5,Over,bovada,105,-9.65,0.4408,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Mike Gesicki,2.5,Over,fanatics,105,-9.65,0.4408,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Samaje Perine,1.5,Under,kalshi,-186,0.11,0.6511,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Samaje Perine,1.5,Under,hardrock,-225,-5.96,0.6511,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Samaje Perine,1.5,Under,fanatics,-235,-7.19,0.6511,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Samaje Perine,1.5,Over,fanatics,165,-7.53,0.3489,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,4.5,Under,draftkings,-120,-3.12,0.5284,pinnacle,14,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,4.5,Under,bovada,-120,-3.12,0.5284,pinnacle,14,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,4.5,Over,draftkings,-106,-8.36,0.4716,pinnacle,14,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,4.5,Over,bovada,-110,-9.97,0.4716,pinnacle,14,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,5.5,Over,draftkings,115,1.39,0.4716,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,5.5,Over,bovada,115,1.39,0.4716,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,5.5,Over,kalshi,113,0.44,0.4716,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,5.5,Over,fanatics,110,-0.97,0.4716,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,5.5,Under,kalshi,-117,-1.99,0.5284,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,5.5,Under,draftkings,-147,-11.21,0.5284,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,5.5,Under,bovada,-150,-11.93,0.5284,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,5.5,Under,fanatics,-150,-11.93,0.5284,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Treylon Burks,2.5,Over,draftkings,136,-4.09,0.4064,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Treylon Burks,2.5,Over,bovada,135,-4.49,0.4064,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Treylon Burks,2.5,Over,fanatics,130,-6.53,0.4064,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Treylon Burks,2.5,Under,draftkings,-174,-6.53,0.5936,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Treylon Burks,2.5,Under,fanatics,-180,-7.66,0.5936,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Treylon Burks,2.5,Under,bovada,-180,-7.66,0.5936,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_attempts,Chase Brown,12.5,Under,fanatics,-135,-2.53,0.5599,pinnacle,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_attempts,Chase Brown,12.5,Over,fanatics,100,-11.99,0.4401,pinnacle,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_attempts,Samaje Perine,6.5,Under,draftkings,-128,-0.92,0.5562,pinnacle,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_attempts,Samaje Perine,6.5,Under,bovada,-130,-1.59,0.5562,pinnacle,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_attempts,Samaje Perine,6.5,Under,fanatics,-140,-4.65,0.5562,pinnacle,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_attempts,Samaje Perine,6.5,Over,fanatics,105,-9.03,0.4438,pinnacle,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_attempts,Samaje Perine,6.5,Over,draftkings,100,-11.25,0.4438,pinnacle,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_attempts,Samaje Perine,6.5,Over,bovada,100,-11.25,0.4438,pinnacle,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Chase Brown,43.5,Under,draftkings,-110,-4.55,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Chase Brown,43.5,Under,hardrock,-110,-4.55,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Chase Brown,43.5,Over,draftkings,-114,-6.14,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Chase Brown,43.5,Over,bovada,-115,-6.52,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Chase Brown,43.5,Under,bovada,-115,-6.52,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Chase Brown,43.5,Over,hardrock,-125,-10.0,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Jayden Daniels,29.5,Over,bovada,-245,-5.17,0.6734,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Jayden Daniels,29.5,Under,bovada,180,-8.55,0.3266,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Jayden Daniels,39.5,Under,hardrock,100,-0.97,0.4951,kalshi,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Jayden Daniels,39.5,Over,kalshi,-104,-0.97,0.5049,kalshi,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Jayden Daniels,39.5,Under,kalshi,-100,-0.97,0.4951,kalshi,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Jayden Daniels,39.5,Over,draftkings,-114,-5.23,0.5049,kalshi,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Jayden Daniels,39.5,Under,draftkings,-110,-5.47,0.4951,kalshi,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Jayden Daniels,39.5,Over,bovada,-115,-5.61,0.5049,kalshi,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Jayden Daniels,39.5,Under,bovada,-115,-7.43,0.4951,kalshi,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Jayden Daniels,39.5,Over,hardrock,-140,-13.45,0.5049,kalshi,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Joe Burrow,8.5,Under,underdog,-106,-2.83,0.5,pinnacle,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Joe Burrow,8.5,Over,underdog,-115,-6.52,0.5,pinnacle,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,20.5,Over,fanatics,-110,-4.95,0.4979,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,20.5,Under,fanatics,-120,-7.95,0.5021,pinnacle,12,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Chase Brown,,No,kalshi,108,-1.12,0.4754,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Chase Brown,,Yes,kalshi,-113,-1.12,0.5246,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Chase Brown,,Yes,hardrock,-125,-5.57,0.5246,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Chase Brown,,No,hardrock,-110,-9.24,0.4754,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Ja'Marr Chase,,No,kalshi,127,-1.12,0.4356,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Ja'Marr Chase,,Yes,kalshi,-133,-1.12,0.5644,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Ja'Marr Chase,,No,hardrock,120,-4.17,0.4356,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Ja'Marr Chase,,Yes,hardrock,-165,-9.35,0.5644,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Mike Gesicki,,Yes,hardrock,185,-12.58,0.3067,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Stefon Diggs,,No,hardrock,-250,-7.14,0.6633,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Tee Higgins,,No,hardrock,-130,-5.43,0.5345,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_anytime_td,Tee Higgins,,Yes,hardrock,-105,-9.13,0.4655,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_field_goals_made,Evan McPherson,2.5,Over,pinnacle,155,-5.36,0.3712,pinnacle,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_field_goals_made,Evan McPherson,2.5,Under,pinnacle,-198,-5.36,0.6288,pinnacle,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_longest_completion,Jayden Daniels,35.5,Under,underdog,-115,-4.63,0.5101,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_longest_completion,Jayden Daniels,35.5,Over,underdog,-107,-5.23,0.4899,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_longest_completion,Jayden Daniels,35.5,Under,draftkings,-118,-5.76,0.5101,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_attempts,Jayden Daniels,31.5,Over,underdog,-102,-4.93,0.4801,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_attempts,Jayden Daniels,31.5,Under,underdog,-121,-5.03,0.5199,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_attempts,Jayden Daniels,31.5,Over,draftkings,-103,-5.39,0.4801,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_attempts,Jayden Daniels,31.5,Under,draftkings,-124,-6.07,0.5199,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_attempts,Joe Burrow,37.5,Under,fanatics,-105,-2.38,0.5,pinnacle,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_attempts,Joe Burrow,37.5,Over,fanatics,-125,-10.0,0.5,pinnacle,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_attempts,Joe Burrow,38.5,Under,underdog,-121,-4.97,0.5203,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_attempts,Joe Burrow,38.5,Over,underdog,-102,-5.0,0.4797,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_attempts,Joe Burrow,38.5,Over,draftkings,-103,-5.46,0.4797,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_attempts,Joe Burrow,38.5,Under,draftkings,-124,-6.01,0.5203,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_attempts,Joe Burrow,38.5,Over,bovada,-105,-6.35,0.4797,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_attempts,Joe Burrow,38.5,Under,bovada,-125,-6.35,0.5203,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_completions,Jayden Daniels,19.5,Over,fanatics,-135,-5.44,0.5432,pinnacle,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_completions,Jayden Daniels,19.5,Under,fanatics,100,-8.64,0.4568,pinnacle,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_completions,Jayden Daniels,20.5,Over,draftkings,101,-5.65,0.4694,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_completions,Jayden Daniels,20.5,Under,draftkings,-129,-5.81,0.5306,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_completions,Jayden Daniels,20.5,Over,bovada,100,-6.12,0.4694,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_completions,Jayden Daniels,20.5,Under,bovada,-130,-6.12,0.5306,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_completions,Joe Burrow,28.5,Under,draftkings,-127,-5.16,0.5306,bovada,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_completions,Joe Burrow,28.5,Over,draftkings,100,-6.12,0.4694,bovada,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_completions,Joe Burrow,28.5,Over,bovada,100,-6.12,0.4694,bovada,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_completions,Joe Burrow,28.5,Under,bovada,-130,-6.12,0.5306,bovada,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_interceptions,Joe Burrow,0.5,Over,draftkings,122,-4.84,0.4286,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_interceptions,Joe Burrow,0.5,Over,bovada,120,-5.7,0.4286,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_interceptions,Joe Burrow,0.5,Under,fanatics,-155,-6.0,0.5714,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_interceptions,Joe Burrow,0.5,Under,draftkings,-157,-6.47,0.5714,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_interceptions,Joe Burrow,0.5,Under,bovada,-160,-7.15,0.5714,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_interceptions,Joe Burrow,0.5,Over,fanatics,110,-9.99,0.4286,pinnacle,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Jayden Daniels,1.5,Over,draftkings,-118,-3.16,0.5242,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Jayden Daniels,1.5,Over,bovada,-120,-3.9,0.5242,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Jayden Daniels,1.5,Over,hardrock,-125,-5.65,0.5242,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Jayden Daniels,1.5,Over,fanatics,-125,-5.65,0.5242,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Jayden Daniels,1.5,Under,hardrock,-105,-7.1,0.4758,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Jayden Daniels,1.5,Under,fanatics,-105,-7.1,0.4758,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Jayden Daniels,1.5,Under,draftkings,-108,-8.36,0.4758,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_tds,Jayden Daniels,1.5,Under,bovada,-110,-9.16,0.4758,pinnacle,13,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Jayden Daniels,199.5,Over,kalshi,-186,-1.0,0.6439,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Jayden Daniels,199.5,Under,kalshi,178,-1.0,0.3561,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,274.5,Over,kalshi,-213,-1.04,0.6734,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,274.5,Under,kalshi,203,-1.04,0.3266,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,274.5,Over,bovada,-245,-5.17,0.6734,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,274.5,Under,bovada,180,-8.55,0.3266,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,299.5,Over,hardrock,-135,-8.68,0.5246,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,304.5,Over,draftkings,-112,-5.36,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,304.5,Under,draftkings,-112,-5.36,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,304.5,Over,hardrock,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,304.5,Under,hardrock,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,304.5,Over,bovada,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_yds,Joe Burrow,304.5,Under,bovada,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Chig Okonkwo,18.5,Under,underdog,-114,-4.24,0.5101,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Chig Okonkwo,18.5,Over,hardrock,-105,-4.36,0.4899,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Chig Okonkwo,18.5,Over,underdog,-108,-5.65,0.4899,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Chig Okonkwo,18.5,Over,bovada,-110,-6.48,0.4899,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Chig Okonkwo,18.5,Under,bovada,-120,-6.48,0.5101,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Chig Okonkwo,18.5,Under,hardrock,-125,-8.18,0.5101,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Dohnte Meyers,13.5,Under,underdog,-105,-2.38,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Dohnte Meyers,13.5,Under,hardrock,-110,-4.55,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Dohnte Meyers,13.5,Over,draftkings,-112,-5.36,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Dohnte Meyers,13.5,Under,draftkings,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Dohnte Meyers,13.5,Over,bovada,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Dohnte Meyers,13.5,Under,bovada,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Dohnte Meyers,13.5,Over,underdog,-118,-7.63,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Dohnte Meyers,13.5,Over,hardrock,-120,-8.33,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Ja'Marr Chase,27.5,Over,underdog,-107,-3.27,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Ja'Marr Chase,27.5,Over,hardrock,-110,-4.55,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Ja'Marr Chase,27.5,Under,draftkings,-113,-5.75,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Ja'Marr Chase,27.5,Under,underdog,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Ja'Marr Chase,27.5,Over,draftkings,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Ja'Marr Chase,27.5,Over,bovada,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Ja'Marr Chase,27.5,Under,bovada,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Ja'Marr Chase,27.5,Under,hardrock,-120,-8.33,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Mike Gesicki,14.5,Under,underdog,-115,-4.63,0.5101,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Mike Gesicki,14.5,Under,hardrock,-115,-4.63,0.5101,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Mike Gesicki,14.5,Over,underdog,-107,-5.23,0.4899,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Mike Gesicki,14.5,Over,draftkings,-108,-5.65,0.4899,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Mike Gesicki,14.5,Under,draftkings,-120,-6.48,0.5101,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Mike Gesicki,14.5,Over,bovada,-110,-6.48,0.4899,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Mike Gesicki,14.5,Under,bovada,-120,-6.48,0.5101,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Mike Gesicki,14.5,Over,hardrock,-115,-8.41,0.4899,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Stefon Diggs,18.5,Under,underdog,-107,-3.27,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Stefon Diggs,18.5,Over,draftkings,-112,-5.36,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Stefon Diggs,18.5,Over,underdog,-115,-6.52,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Stefon Diggs,18.5,Under,draftkings,-115,-6.52,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Stefon Diggs,18.5,Over,hardrock,-115,-6.52,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Stefon Diggs,18.5,Under,hardrock,-115,-6.52,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Stefon Diggs,18.5,Over,bovada,-115,-6.52,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_longest,Stefon Diggs,18.5,Under,bovada,-115,-6.52,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,24.5,Over,bovada,-230,-4.84,0.6633,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,24.5,Under,bovada,170,-9.08,0.3367,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,29.5,Over,bovada,-160,-1.9,0.6037,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,29.5,Under,bovada,120,-12.82,0.3963,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,34.5,Under,hardrock,-110,-4.55,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,34.5,Under,draftkings,-111,-4.95,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,34.5,Over,draftkings,-113,-5.75,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,34.5,Over,bovada,-115,-6.52,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,34.5,Under,bovada,-115,-6.52,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Antonio Williams,34.5,Over,hardrock,-125,-10.0,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ben Sinnott,3.5,Under,hardrock,-110,-4.55,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ben Sinnott,3.5,Under,draftkings,-110,-4.55,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ben Sinnott,3.5,Over,draftkings,-114,-6.14,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ben Sinnott,3.5,Over,bovada,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ben Sinnott,3.5,Under,bovada,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ben Sinnott,3.5,Over,hardrock,-120,-8.33,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ben Sinnott,9.5,Over,kalshi,186,-0.94,0.3464,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ben Sinnott,9.5,Under,kalshi,-194,-0.94,0.6536,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ben Sinnott,9.5,Under,hardrock,-195,-1.12,0.6536,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ben Sinnott,9.5,Over,hardrock,140,-16.87,0.3464,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chase Brown,19.5,Over,kalshi,-178,-1.05,0.6335,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chase Brown,19.5,Under,kalshi,170,-1.05,0.3665,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chase Brown,19.5,Under,hardrock,160,-4.72,0.3665,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chase Brown,19.5,Over,hardrock,-240,-10.25,0.6335,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chase Brown,24.5,Over,draftkings,-117,-0.86,0.5345,kalshi,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chase Brown,24.5,Over,bovada,-120,-2.0,0.5345,kalshi,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chase Brown,24.5,Under,draftkings,-107,-9.95,0.4655,kalshi,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chase Brown,24.5,Under,bovada,-110,-11.14,0.4655,kalshi,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,29.5,Over,kalshi,-213,-1.04,0.6734,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,29.5,Under,kalshi,203,-1.04,0.3266,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,29.5,Under,hardrock,195,-3.66,0.3266,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,29.5,Over,hardrock,-275,-8.17,0.6734,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,43.5,Under,hardrock,-115,-6.52,0.5,pinnacle,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,45.5,Over,fanatics,-115,-6.52,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,45.5,Under,fanatics,-115,-6.52,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,49.5,Under,hardrock,-155,-0.68,0.6037,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,49.5,Over,kalshi,150,-0.93,0.3963,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,49.5,Under,kalshi,-156,-0.93,0.6037,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Chig Okonkwo,49.5,Over,hardrock,115,-14.8,0.3963,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,14.5,Over,kalshi,-170,-1.99,0.6171,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,14.5,Under,kalshi,156,-1.99,0.3829,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,14.5,Over,hardrock,-190,-5.81,0.6171,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,14.5,Under,hardrock,135,-10.03,0.3829,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,19.5,Over,kalshi,-113,-1.12,0.5246,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,19.5,Under,kalshi,108,-1.12,0.4754,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,19.5,Under,hardrock,-105,-7.18,0.4754,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,19.5,Over,hardrock,-130,-7.19,0.5246,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,20.5,Under,draftkings,-110,-4.55,0.5,bovada,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,20.5,Over,fanduel,-113,-5.75,0.5,bovada,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,20.5,Under,fanduel,-113,-5.75,0.5,bovada,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,20.5,Over,draftkings,-114,-6.14,0.5,bovada,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,20.5,Under,hardrock,-115,-6.52,0.5,bovada,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,20.5,Over,fanatics,-115,-6.52,0.5,bovada,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,20.5,Under,fanatics,-115,-6.52,0.5,bovada,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,20.5,Over,bovada,-115,-6.52,0.5,bovada,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,20.5,Under,bovada,-115,-6.52,0.5,bovada,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,20.5,Over,hardrock,-120,-8.33,0.5,bovada,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,24.5,Over,kalshi,133,-0.89,0.4253,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,24.5,Under,kalshi,-138,-0.89,0.5747,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,24.5,Under,hardrock,-145,-2.9,0.5747,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Dohnte Meyers,24.5,Over,hardrock,105,-12.8,0.4253,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,79.5,Under,bovada,185,-1.29,0.3464,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,79.5,Over,bovada,-250,-8.49,0.6536,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,98.5,Over,hardrock,-110,-4.55,0.5,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,98.5,Over,bovada,-115,-6.52,0.5,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,98.5,Under,bovada,-115,-6.52,0.5,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,98.5,Under,hardrock,-125,-10.0,0.5,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,109.5,Under,bovada,-160,-0.32,0.6134,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,109.5,Under,hardrock,-185,-5.5,0.6134,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,109.5,Over,bovada,120,-14.95,0.3866,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,119.5,Under,bovada,-220,-0.66,0.6829,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,119.5,Over,kalshi,212,-1.08,0.3171,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,119.5,Under,kalshi,-223,-1.08,0.6829,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Ja'Marr Chase,119.5,Over,bovada,165,-15.98,0.3171,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Mike Gesicki,25.5,Over,hardrock,-110,-4.55,0.5,bovada,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Mike Gesicki,25.5,Over,fanatics,-110,-4.55,0.5,bovada,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Mike Gesicki,25.5,Over,draftkings,-111,-4.95,0.5,bovada,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Mike Gesicki,25.5,Under,draftkings,-113,-5.75,0.5,bovada,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Mike Gesicki,25.5,Over,bovada,-115,-6.52,0.5,bovada,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Mike Gesicki,25.5,Under,bovada,-115,-6.52,0.5,bovada,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Mike Gesicki,25.5,Under,hardrock,-120,-8.33,0.5,bovada,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Mike Gesicki,25.5,Under,fanatics,-120,-8.33,0.5,bovada,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,40.5,Under,hardrock,115,-6.11,0.4367,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,40.5,Over,bovada,-150,-6.11,0.5633,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,40.5,Under,bovada,115,-6.11,0.4367,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,40.5,Over,hardrock,-165,-9.53,0.5633,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,45.5,Under,hardrock,-110,-4.55,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,45.5,Under,fanatics,-110,-4.55,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,45.5,Under,draftkings,-111,-4.95,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,45.5,Over,draftkings,-113,-5.75,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,45.5,Over,bovada,-115,-6.52,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,45.5,Under,bovada,-115,-6.52,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,45.5,Over,fanatics,-120,-8.33,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,45.5,Over,hardrock,-125,-10.0,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Stefon Diggs,46.5,Over,hardrock,-115,-6.13,0.5021,pinnacle,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,59.5,Over,kalshi,-186,-1.0,0.6439,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,59.5,Under,kalshi,178,-1.0,0.3561,kalshi,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,69.5,Over,kalshi,-117,-0.86,0.5345,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,69.5,Under,kalshi,113,-0.86,0.4655,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,69.5,Under,hardrock,110,-2.25,0.4655,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,69.5,Under,bovada,110,-2.25,0.4655,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,69.5,Over,bovada,-145,-9.68,0.5345,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,69.5,Over,hardrock,-150,-10.91,0.5345,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,73.5,Under,hardrock,-105,-2.38,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,73.5,Under,draftkings,-111,-4.95,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,73.5,Over,draftkings,-113,-5.75,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,73.5,Over,bovada,-115,-6.52,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,73.5,Under,bovada,-115,-6.52,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,73.5,Over,hardrock,-130,-11.54,0.5,bovada,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,74.5,Under,hardrock,-110,-4.55,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,74.5,Over,bovada,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,74.5,Under,bovada,-115,-6.52,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,74.5,Over,hardrock,-125,-10.0,0.5,bovada,6,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,75.5,Over,hardrock,-115,-6.92,0.4979,pinnacle,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,78.5,Under,hardrock,-130,-4.32,0.5408,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,78.5,Over,bovada,105,-5.86,0.4592,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,78.5,Under,bovada,-135,-5.86,0.5408,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,78.5,Over,hardrock,-105,-10.34,0.4592,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,79.5,Over,kalshi,117,-1.99,0.4517,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,79.5,Under,kalshi,-127,-1.99,0.5483,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,79.5,Under,hardrock,-135,-4.55,0.5483,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,79.5,Under,bovada,-135,-4.55,0.5483,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,79.5,Over,bovada,105,-7.41,0.4517,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Tee Higgins,79.5,Over,hardrock,-105,-11.82,0.4517,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Treylon Burks,28.5,Under,hardrock,-110,-4.55,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Treylon Burks,28.5,Under,draftkings,-110,-4.55,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Treylon Burks,28.5,Over,draftkings,-114,-6.14,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Treylon Burks,28.5,Over,bovada,-115,-6.52,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Treylon Burks,28.5,Under,bovada,-115,-6.52,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Treylon Burks,28.5,Over,hardrock,-125,-10.0,0.5,bovada,7,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Treylon Burks,30.5,Over,fanatics,-115,-6.52,0.5,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_reception_yds,Treylon Burks,30.5,Under,fanatics,-115,-6.52,0.5,pinnacle,8,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,2.5,Under,hardrock,165,-6.51,0.3528,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Antonio Williams,2.5,Over,hardrock,-230,-7.14,0.6472,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chase Brown,3.5,Over,kalshi,-163,-1.03,0.6134,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chase Brown,3.5,Under,kalshi,156,-1.03,0.3866,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chase Brown,3.5,Over,hardrock,-195,-7.2,0.6134,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Chase Brown,3.5,Under,hardrock,135,-9.15,0.3866,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,2.5,Over,draftkings,145,-0.57,0.4058,kalshi,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,2.5,Over,bovada,145,-0.57,0.4058,kalshi,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,2.5,Over,kalshi,144,-0.97,0.4058,kalshi,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,2.5,Under,kalshi,-150,-0.97,0.5942,kalshi,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,2.5,Over,hardrock,135,-4.63,0.4058,kalshi,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,2.5,Over,fanduel,134,-5.03,0.4058,kalshi,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,2.5,Under,hardrock,-175,-6.63,0.5942,kalshi,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,2.5,Over,fanatics,130,-6.66,0.4058,kalshi,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,2.5,Under,fanduel,-180,-7.58,0.5942,kalshi,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,2.5,Under,fanatics,-180,-7.58,0.5942,kalshi,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,2.5,Under,draftkings,-186,-8.64,0.5942,kalshi,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Dohnte Meyers,2.5,Under,bovada,-190,-9.31,0.5942,kalshi,11,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,6.5,Over,kalshi,-213,-1.04,0.6734,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,6.5,Under,kalshi,203,-1.04,0.3266,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,6.5,Under,hardrock,185,-6.92,0.3266,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,6.5,Over,hardrock,-275,-8.17,0.6734,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,7.5,Over,kalshi,-122,-1.03,0.5439,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,7.5,Under,kalshi,117,-1.03,0.4561,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,7.5,Under,hardrock,110,-4.22,0.4561,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Ja'Marr Chase,7.5,Over,hardrock,-150,-9.35,0.5439,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,3.5,Over,kalshi,-194,-1.92,0.6472,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,3.5,Under,kalshi,178,-1.92,0.3528,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,3.5,Under,hardrock,170,-4.74,0.3528,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Stefon Diggs,3.5,Over,hardrock,-240,-8.31,0.6472,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,6.5,Over,kalshi,223,-0.92,0.3067,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,6.5,Under,kalshi,-233,-0.92,0.6933,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,6.5,Under,hardrock,-260,-4.01,0.6933,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Tee Higgins,6.5,Over,hardrock,180,-14.11,0.3067,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_longest,Chase Brown,11.5,Over,draftkings,-123,-5.67,0.5203,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_longest,Chase Brown,11.5,Under,draftkings,-105,-6.35,0.4797,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_longest,Chase Brown,11.5,Over,bovada,-125,-6.35,0.5203,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_longest,Chase Brown,11.5,Under,bovada,-105,-6.35,0.4797,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_longest,Jayden Daniels,15.5,Under,underdog,-110,-4.55,0.5,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_longest,Jayden Daniels,15.5,Over,underdog,-112,-5.36,0.5,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_longest,Jayden Daniels,15.5,Under,draftkings,-113,-5.75,0.5,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_longest,Jayden Daniels,15.5,Over,draftkings,-114,-6.14,0.5,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_longest,Jayden Daniels,15.5,Over,bovada,-115,-6.52,0.5,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_longest,Jayden Daniels,15.5,Under,bovada,-115,-6.52,0.5,bovada,3,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_reception_yds,Chase Brown,73.5,Under,draftkings,-115,-4.63,0.5101,bovada,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_reception_yds,Chase Brown,73.5,Over,draftkings,-110,-6.48,0.4899,bovada,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_reception_yds,Chase Brown,73.5,Over,bovada,-110,-6.48,0.4899,bovada,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_reception_yds,Chase Brown,73.5,Under,bovada,-120,-6.48,0.5101,bovada,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Jayden Daniels,41.5,Over,hardrock,-120,-9.11,0.4958,pinnacle,9,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Jayden Daniels,49.5,Over,bovada,160,-4.72,0.3665,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Jayden Daniels,49.5,Under,bovada,-215,-7.18,0.6335,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Joe Burrow,9.5,Under,hardrock,-135,-8.68,0.5246,kalshi,5,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Joe Burrow,14.5,Under,hardrock,-260,-6.76,0.6734,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Joe Burrow,14.5,Over,hardrock,180,-8.55,0.3266,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,19.5,Over,kalshi,-108,-0.93,0.5144,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,19.5,Under,kalshi,104,-0.93,0.4856,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,19.5,Under,hardrock,-110,-7.29,0.4856,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,19.5,Over,hardrock,-125,-7.41,0.5144,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,24.5,Over,kalshi,144,-0.97,0.4058,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,24.5,Under,kalshi,-150,-0.97,0.5942,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,24.5,Under,hardrock,-170,-5.63,0.5942,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,24.5,Over,hardrock,120,-10.71,0.4058,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,29.5,Over,kalshi,212,-1.08,0.3171,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,29.5,Under,kalshi,-223,-1.08,0.6829,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,29.5,Under,hardrock,-250,-4.39,0.6829,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_rush_yds,Samaje Perine,29.5,Over,hardrock,175,-12.81,0.3171,kalshi,4,20.9
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Davis Allen,9.5,Under,hardrock,-105,3.13,0.5282,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Davis Allen,9.5,Under,draftkings,-115,-1.24,0.5282,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Davis Allen,9.5,Over,kalshi,-104,-7.46,0.4718,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Davis Allen,9.5,Under,kalshi,-133,-7.46,0.5282,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Davis Allen,9.5,Over,draftkings,-109,-9.54,0.4718,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Davis Allen,9.5,Over,hardrock,-130,-16.53,0.4718,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Davis Allen,14.5,Under,hardrock,-170,3.11,0.6492,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Davis Allen,14.5,Over,kalshi,150,-12.3,0.3508,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Davis Allen,14.5,Under,kalshi,-285,-12.3,0.6492,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Davis Allen,14.5,Over,hardrock,125,-21.07,0.3508,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Blake Corum,1.5,Under,draftkings,136,1.89,0.4317,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Blake Corum,1.5,Under,hardrock,135,1.46,0.4317,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Blake Corum,1.5,Over,kalshi,-138,-2.0,0.5683,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Blake Corum,1.5,Under,kalshi,127,-2.0,0.4317,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Blake Corum,1.5,Over,draftkings,-174,-10.52,0.5683,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Blake Corum,1.5,Over,hardrock,-180,-11.6,0.5683,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,CJ Daniels,1.5,Under,draftkings,146,0.65,0.4092,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,CJ Daniels,1.5,Under,hardrock,135,-3.85,0.4092,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,CJ Daniels,1.5,Over,kalshi,-163,-4.67,0.5908,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,CJ Daniels,1.5,Under,kalshi,133,-4.67,0.4092,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,CJ Daniels,1.5,Under,fanduel,132,-5.08,0.4092,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,CJ Daniels,1.5,Over,fanduel,-178,-7.72,0.5908,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,CJ Daniels,1.5,Over,hardrock,-180,-8.09,0.5908,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,CJ Daniels,1.5,Over,draftkings,-187,-9.32,0.5908,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_anytime_td,Blake Corum,,No,hardrock,-105,-1.49,0.5046,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_anytime_td,Blake Corum,,No,kalshi,-108,-2.82,0.5046,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_anytime_td,Blake Corum,,Yes,kalshi,-104,-2.82,0.4954,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_anytime_td,Blake Corum,,Yes,hardrock,-130,-12.35,0.4954,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_anytime_td,Christian Watson,,No,kalshi,-186,-1.0,0.6439,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_anytime_td,Christian Watson,,Yes,kalshi,178,-1.0,0.3561,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_anytime_td,Christian Watson,,No,hardrock,-220,-6.35,0.6439,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_anytime_td,Christian Watson,,Yes,hardrock,150,-10.97,0.3561,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_anytime_td,Matthew Golden,,No,kalshi,-233,-1.98,0.6858,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_anytime_td,Matthew Golden,,Yes,kalshi,212,-1.98,0.3142,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_anytime_td,Matthew Golden,,Yes,hardrock,200,-5.75,0.3142,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_anytime_td,Matthew Golden,,No,hardrock,-300,-8.56,0.6858,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Jordan Love,1.5,Over,underdog,-112,-3.47,0.51,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Jordan Love,1.5,Over,draftkings,-112,-3.47,0.51,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Jordan Love,1.5,Over,kalshi,-113,-3.88,0.51,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Jordan Love,1.5,Under,kalshi,-104,-3.88,0.49,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Jordan Love,1.5,Over,fanduel,-114,-4.27,0.51,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Jordan Love,1.5,Over,hardrock,-115,-4.66,0.51,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Jordan Love,1.5,Under,underdog,-112,-7.24,0.49,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Jordan Love,1.5,Under,fanduel,-114,-8.01,0.49,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Jordan Love,1.5,Under,draftkings,-114,-8.01,0.49,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Jordan Love,1.5,Under,hardrock,-115,-8.38,0.49,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Matthew Stafford,1.5,Over,kalshi,-100,-4.72,0.4764,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Matthew Stafford,1.5,Under,kalshi,-122,-4.72,0.5236,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Matthew Stafford,1.5,Over,draftkings,-101,-5.19,0.4764,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Matthew Stafford,1.5,Over,fanduel,-102,-5.66,0.4764,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Matthew Stafford,1.5,Under,hardrock,-125,-5.75,0.5236,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Matthew Stafford,1.5,Under,draftkings,-126,-6.08,0.5236,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Matthew Stafford,1.5,Over,hardrock,-105,-6.99,0.4764,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_tds,Matthew Stafford,1.5,Under,fanduel,-130,-7.36,0.5236,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Jordan Love,249.5,Over,kalshi,-186,-4.79,0.6192,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Jordan Love,249.5,Under,kalshi,150,-4.79,0.3808,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Jordan Love,274.5,Under,draftkings,-111,-3.93,0.5054,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Jordan Love,274.5,Over,kalshi,-108,-4.74,0.4946,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Jordan Love,274.5,Under,kalshi,-113,-4.74,0.5054,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Jordan Love,274.5,Over,draftkings,-113,-6.77,0.4946,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Jordan Love,274.5,Under,hardrock,-120,-7.35,0.5054,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Jordan Love,274.5,Over,hardrock,-115,-7.53,0.4946,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Jordan Love,299.5,Over,kalshi,163,-2.97,0.3689,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Jordan Love,299.5,Under,kalshi,-186,-2.97,0.6311,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Matthew Stafford,199.5,Over,kalshi,-257,-6.5,0.6731,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Matthew Stafford,199.5,Under,kalshi,186,-6.5,0.3269,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Matthew Stafford,224.5,Over,kalshi,-138,-3.91,0.5572,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Matthew Stafford,224.5,Under,kalshi,117,-3.91,0.4428,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Matthew Stafford,224.5,Under,hardrock,110,-7.01,0.4428,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Matthew Stafford,224.5,Over,hardrock,-150,-7.14,0.5572,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Matthew Stafford,249.5,Over,kalshi,127,-3.9,0.4234,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Matthew Stafford,249.5,Under,kalshi,-150,-3.9,0.5766,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Matthew Stafford,249.5,Over,hardrock,120,-6.86,0.4234,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_pass_yds,Matthew Stafford,249.5,Under,hardrock,-170,-8.42,0.5766,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Blake Corum,9.5,Over,kalshi,-108,-2.82,0.5046,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Blake Corum,9.5,Under,kalshi,-104,-2.82,0.4954,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Blake Corum,9.5,Under,hardrock,-110,-5.42,0.4954,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Blake Corum,9.5,Over,hardrock,-125,-9.18,0.5046,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Blake Corum,14.5,Over,kalshi,133,-4.67,0.4092,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Blake Corum,14.5,Under,kalshi,-163,-4.67,0.5908,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Blake Corum,14.5,Under,hardrock,-170,-6.16,0.5908,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Blake Corum,14.5,Over,hardrock,120,-9.99,0.4092,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Blake Corum,19.5,Under,hardrock,-260,-5.56,0.6821,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Blake Corum,19.5,Over,kalshi,194,-6.53,0.3179,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Blake Corum,19.5,Under,kalshi,-270,-6.53,0.6821,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Blake Corum,19.5,Over,hardrock,180,-10.98,0.3179,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,9.5,Under,hardrock,200,-1.87,0.3271,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,9.5,Over,kalshi,-233,-3.83,0.6729,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,9.5,Under,kalshi,194,-3.83,0.3271,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,9.5,Over,hardrock,-275,-8.24,0.6729,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,14.5,Over,kalshi,-163,-4.67,0.5908,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,14.5,Under,kalshi,133,-4.67,0.4092,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,14.5,Over,hardrock,-175,-7.15,0.5908,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,14.5,Under,hardrock,125,-7.94,0.4092,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,19.5,Over,kalshi,-108,-4.74,0.4946,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,19.5,Under,kalshi,-113,-4.74,0.5054,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,19.5,Under,fanduel,-114,-5.13,0.5054,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,19.5,Under,hardrock,-115,-5.52,0.5054,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,19.5,Over,fanduel,-114,-7.15,0.4946,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,19.5,Over,hardrock,-115,-7.53,0.4946,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,24.5,Over,kalshi,127,-5.69,0.4155,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,24.5,Under,kalshi,-163,-5.69,0.5845,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,24.5,Under,hardrock,-165,-6.12,0.5845,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,24.5,Over,hardrock,120,-8.6,0.4155,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,29.5,Under,hardrock,-230,-6.18,0.6539,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,29.5,Over,kalshi,170,-6.55,0.3461,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,29.5,Under,kalshi,-233,-6.55,0.6539,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,CJ Daniels,29.5,Over,hardrock,165,-8.28,0.3461,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,59.5,Over,kalshi,-203,-5.71,0.6317,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,59.5,Under,kalshi,156,-5.71,0.3683,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,69.5,Over,kalshi,-138,-5.71,0.5467,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,69.5,Under,kalshi,108,-5.71,0.4533,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,69.5,Over,hardrock,-140,-6.28,0.5467,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,69.5,Under,hardrock,100,-9.34,0.4533,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,79.5,Over,kalshi,104,-5.75,0.462,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,79.5,Under,kalshi,-133,-5.75,0.538,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,79.5,Under,hardrock,-135,-6.35,0.538,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,79.5,Over,hardrock,100,-7.6,0.462,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,89.5,Over,kalshi,150,-4.79,0.3808,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,89.5,Under,kalshi,-186,-4.79,0.6192,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,89.5,Under,hardrock,-190,-5.49,0.6192,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,89.5,Over,hardrock,135,-10.51,0.3808,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,99.5,Over,kalshi,203,-7.41,0.3056,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Christian Watson,99.5,Under,kalshi,-300,-7.41,0.6944,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,14.5,Over,kalshi,-203,-4.78,0.6379,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,14.5,Under,kalshi,163,-4.78,0.3621,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,14.5,Over,hardrock,-220,-7.21,0.6379,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,14.5,Under,hardrock,155,-7.68,0.3621,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,19.5,Over,kalshi,-133,-4.91,0.5428,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,19.5,Under,kalshi,108,-4.91,0.4572,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,19.5,Over,hardrock,-140,-6.95,0.5428,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,19.5,Under,hardrock,100,-8.56,0.4572,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,24.5,Over,kalshi,117,-4.85,0.4385,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,24.5,Under,kalshi,-144,-4.85,0.5615,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,24.5,Under,hardrock,-145,-5.12,0.5615,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,24.5,Over,hardrock,105,-10.11,0.4385,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,29.5,Under,hardrock,-200,-3.77,0.6415,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,29.5,Over,kalshi,163,-5.73,0.3585,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,29.5,Under,kalshi,-213,-5.73,0.6415,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Colby Parkinson,29.5,Over,hardrock,140,-13.97,0.3585,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,24.5,Over,kalshi,-223,-4.77,0.6575,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,24.5,Under,kalshi,178,-4.77,0.3425,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,24.5,Under,hardrock,175,-5.8,0.3425,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,24.5,Over,hardrock,-250,-7.96,0.6575,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,29.5,Over,kalshi,-163,-2.88,0.6019,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,29.5,Under,kalshi,144,-2.88,0.3981,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,29.5,Over,hardrock,-180,-6.36,0.6019,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,29.5,Under,hardrock,130,-8.45,0.3981,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,39.5,Over,kalshi,104,-2.85,0.4762,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,39.5,Under,kalshi,-117,-2.85,0.5238,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,39.5,Over,hardrock,-105,-7.03,0.4762,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,39.5,Under,hardrock,-130,-7.33,0.5238,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,49.5,Over,kalshi,170,-2.93,0.3595,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,49.5,Under,kalshi,-194,-2.93,0.6405,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,49.5,Under,hardrock,-210,-5.45,0.6405,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Konata Mumpfield,49.5,Over,hardrock,150,-10.12,0.3595,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,59.5,Over,kalshi,-186,-2.97,0.6311,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,59.5,Under,kalshi,163,-2.97,0.3689,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,59.5,Over,hardrock,-210,-6.84,0.6311,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,59.5,Under,hardrock,145,-9.61,0.3689,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,69.5,Over,kalshi,-127,-3.87,0.5378,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,69.5,Under,kalshi,108,-3.87,0.4622,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,69.5,Under,hardrock,105,-5.25,0.4622,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,69.5,Over,hardrock,-140,-7.8,0.5378,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,74.5,Under,underdog,-110,-3.52,0.5054,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,74.5,Under,draftkings,-113,-4.74,0.5054,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,74.5,Over,kalshi,-108,-4.74,0.4946,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,74.5,Under,kalshi,-113,-4.74,0.5054,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,74.5,Under,fanduel,-114,-5.13,0.5054,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,74.5,Over,draftkings,-111,-5.98,0.4946,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,74.5,Over,underdog,-112,-6.37,0.4946,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,74.5,Over,fanduel,-114,-7.15,0.4946,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,74.5,Under,hardrock,-120,-7.35,0.5054,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,74.5,Over,hardrock,-115,-7.53,0.4946,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,79.5,Over,kalshi,113,-4.7,0.4474,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,79.5,Under,kalshi,-138,-4.7,0.5526,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,79.5,Under,hardrock,-145,-6.63,0.5526,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,79.5,Over,hardrock,105,-8.28,0.4474,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,89.5,Over,kalshi,163,-5.73,0.3585,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Matthew Golden,89.5,Under,kalshi,-213,-5.73,0.6415,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,29.5,Over,kalshi,-186,-3.94,0.6248,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,29.5,Under,kalshi,156,-3.94,0.3752,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,29.5,Over,hardrock,-195,-5.49,0.6248,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,29.5,Under,hardrock,140,-9.94,0.3752,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,39.5,Under,draftkings,-113,-2.2,0.5188,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,39.5,Over,kalshi,-100,-3.77,0.4812,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,39.5,Under,kalshi,-117,-3.77,0.5188,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,39.5,Over,hardrock,-105,-6.06,0.4812,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,39.5,Under,hardrock,-130,-8.2,0.5188,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,39.5,Over,draftkings,-111,-8.54,0.4812,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,49.5,Under,hardrock,-210,-4.41,0.6476,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,49.5,Over,kalshi,170,-4.84,0.3524,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,49.5,Under,kalshi,-213,-4.84,0.6476,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tucker Kraft,49.5,Over,hardrock,150,-11.89,0.3524,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,14.5,Over,kalshi,-203,-5.71,0.6317,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,14.5,Under,kalshi,156,-5.71,0.3683,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,14.5,Under,hardrock,155,-6.08,0.3683,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,14.5,Over,hardrock,-220,-8.12,0.6317,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,19.5,Over,kalshi,-144,-5.63,0.5569,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,19.5,Under,kalshi,113,-5.63,0.4431,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,19.5,Under,hardrock,110,-6.96,0.4431,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,19.5,Over,hardrock,-155,-8.37,0.5569,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,24.5,Over,kalshi,-108,-4.74,0.4946,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,24.5,Under,kalshi,-113,-4.74,0.5054,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,24.5,Under,fanduel,-114,-5.13,0.5054,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,24.5,Under,draftkings,-114,-5.13,0.5054,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,24.5,Under,hardrock,-115,-5.52,0.5054,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,24.5,Over,draftkings,-110,-5.57,0.4946,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,24.5,Over,fanduel,-114,-7.15,0.4946,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,24.5,Over,hardrock,-115,-7.53,0.4946,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,29.5,Under,hardrock,-155,-5.41,0.575,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,29.5,Over,kalshi,122,-5.64,0.425,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,29.5,Under,kalshi,-156,-5.64,0.575,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,29.5,Over,hardrock,110,-10.75,0.425,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,39.5,Over,kalshi,194,-5.66,0.3209,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,39.5,Under,kalshi,-257,-5.66,0.6791,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,39.5,Under,hardrock,-260,-5.97,0.6791,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tutu Atwell,39.5,Over,hardrock,180,-10.15,0.3209,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,19.5,Under,hardrock,225,-2.26,0.3007,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,19.5,Over,kalshi,-257,-2.86,0.6993,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,19.5,Under,kalshi,223,-2.86,0.3007,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,19.5,Over,hardrock,-350,-10.09,0.6993,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,24.5,Over,kalshi,-194,-4.81,0.6281,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,24.5,Under,kalshi,156,-4.81,0.3719,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,24.5,Under,hardrock,155,-5.18,0.3719,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,24.5,Over,hardrock,-225,-9.27,0.6281,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,29.5,Over,kalshi,-138,-3.91,0.5572,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,29.5,Under,kalshi,117,-3.91,0.4428,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,29.5,Under,hardrock,110,-7.01,0.4428,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,29.5,Over,hardrock,-155,-8.34,0.5572,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,34.5,Over,kalshi,-104,-3.88,0.49,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,34.5,Under,kalshi,-113,-3.88,0.51,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,34.5,Under,draftkings,-115,-4.66,0.51,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,34.5,Over,draftkings,-109,-6.04,0.49,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,34.5,Over,hardrock,-110,-6.45,0.49,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,34.5,Under,hardrock,-125,-8.21,0.51,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,39.5,Over,kalshi,133,-3.71,0.4132,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,39.5,Under,kalshi,-156,-3.71,0.5868,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,39.5,Under,hardrock,-165,-5.76,0.5868,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Tyler Higbee,39.5,Over,hardrock,120,-9.09,0.4132,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Blake Corum,2.5,Over,kalshi,156,-3.94,0.3752,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Blake Corum,2.5,Under,kalshi,-186,-3.94,0.6248,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Blake Corum,2.5,Over,hardrock,150,-6.19,0.3752,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Blake Corum,2.5,Under,hardrock,-210,-7.77,0.6248,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,CJ Daniels,2.5,Under,hardrock,-200,-0.43,0.6638,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,CJ Daniels,2.5,Over,kalshi,186,-3.85,0.3362,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,CJ Daniels,2.5,Under,kalshi,-223,-3.85,0.6638,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,CJ Daniels,2.5,Over,hardrock,145,-17.63,0.3362,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Christian Watson,4.5,Under,draftkings,118,-1.62,0.4513,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Christian Watson,4.5,Over,kalshi,-133,-3.87,0.5487,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Christian Watson,4.5,Under,kalshi,113,-3.87,0.4513,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Christian Watson,4.5,Under,fanduel,110,-5.23,0.4513,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Christian Watson,4.5,Under,hardrock,110,-5.23,0.4513,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Christian Watson,4.5,Over,hardrock,-145,-7.29,0.5487,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Christian Watson,4.5,Over,fanduel,-146,-7.55,0.5487,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Christian Watson,4.5,Over,draftkings,-151,-8.79,0.5487,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Christian Watson,5.5,Under,hardrock,-185,-3.75,0.6248,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Christian Watson,5.5,Over,kalshi,156,-3.94,0.3752,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Christian Watson,5.5,Under,kalshi,-186,-3.94,0.6248,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Christian Watson,5.5,Over,hardrock,130,-13.69,0.3752,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Colby Parkinson,2.5,Under,hardrock,130,-3.49,0.4196,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Colby Parkinson,2.5,Under,fanduel,128,-4.33,0.4196,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Colby Parkinson,2.5,Over,kalshi,-156,-4.75,0.5804,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Colby Parkinson,2.5,Under,kalshi,127,-4.75,0.4196,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Colby Parkinson,2.5,Over,hardrock,-170,-7.82,0.5804,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Colby Parkinson,2.5,Over,fanduel,-172,-8.21,0.5804,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Colby Parkinson,3.5,Under,draftkings,-172,-2.08,0.6192,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Colby Parkinson,3.5,Under,hardrock,-185,-4.61,0.6192,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Colby Parkinson,3.5,Over,kalshi,150,-4.79,0.3808,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Colby Parkinson,3.5,Under,kalshi,-186,-4.79,0.6192,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Colby Parkinson,3.5,Over,draftkings,134,-10.89,0.3808,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Colby Parkinson,3.5,Over,hardrock,130,-12.41,0.3808,kalshi,6,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Davis Allen,1.5,Under,fanduel,-122,-2.94,0.5334,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Davis Allen,1.5,Over,kalshi,108,-2.94,0.4666,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Davis Allen,1.5,Under,kalshi,-122,-2.94,0.5334,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Davis Allen,1.5,Under,hardrock,-125,-3.99,0.5334,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Davis Allen,1.5,Under,draftkings,-128,-4.99,0.5334,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Davis Allen,1.5,Over,draftkings,101,-6.21,0.4666,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Davis Allen,1.5,Over,hardrock,-105,-8.9,0.4666,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Davis Allen,1.5,Over,fanduel,-108,-10.13,0.4666,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Konata Mumpfield,2.5,Under,hardrock,145,-0.69,0.4053,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Konata Mumpfield,2.5,Over,kalshi,-170,-5.55,0.5947,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Konata Mumpfield,2.5,Under,kalshi,133,-5.55,0.4053,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Konata Mumpfield,2.5,Over,hardrock,-200,-10.8,0.5947,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Konata Mumpfield,3.5,Under,hardrock,-155,-0.01,0.6078,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Konata Mumpfield,3.5,Under,fanduel,-158,-0.76,0.6078,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Konata Mumpfield,3.5,Under,draftkings,-159,-1.0,0.6078,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Konata Mumpfield,3.5,Over,kalshi,150,-1.94,0.3922,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Konata Mumpfield,3.5,Under,kalshi,-163,-1.94,0.6078,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Konata Mumpfield,3.5,Over,draftkings,125,-11.74,0.3922,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Konata Mumpfield,3.5,Over,hardrock,120,-13.71,0.3922,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Konata Mumpfield,3.5,Over,fanduel,118,-14.49,0.3922,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,4.5,Over,kalshi,-233,-3.83,0.6729,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,4.5,Under,kalshi,194,-3.83,0.3271,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,4.5,Over,hardrock,-250,-5.79,0.6729,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,4.5,Under,hardrock,175,-10.05,0.3271,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,5.5,Over,kalshi,-108,-0.93,0.5144,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,5.5,Under,kalshi,104,-0.93,0.4856,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,5.5,Under,draftkings,-102,-3.83,0.4856,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,5.5,Under,underdog,-104,-4.74,0.4856,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,5.5,Under,fanduel,-106,-5.63,0.4856,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,5.5,Over,underdog,-120,-5.7,0.5144,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,5.5,Over,hardrock,-120,-5.7,0.5144,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,5.5,Over,fanduel,-122,-6.4,0.5144,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,5.5,Under,hardrock,-110,-7.29,0.4856,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,5.5,Over,draftkings,-125,-7.41,0.5144,kalshi,9,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,6.5,Over,kalshi,156,-3.94,0.3752,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,6.5,Under,kalshi,-186,-3.94,0.6248,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,6.5,Under,hardrock,-200,-6.29,0.6248,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Matthew Golden,6.5,Over,hardrock,145,-8.06,0.3752,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tucker Kraft,3.5,Over,kalshi,-133,-1.12,0.5644,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tucker Kraft,3.5,Under,kalshi,127,-1.12,0.4356,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tucker Kraft,3.5,Under,hardrock,125,-1.99,0.4356,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tucker Kraft,3.5,Under,fanduel,118,-5.04,0.4356,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tucker Kraft,3.5,Over,fanduel,-158,-7.84,0.5644,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tucker Kraft,3.5,Over,hardrock,-160,-8.28,0.5644,kalshi,5,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tucker Kraft,4.5,Under,draftkings,-155,-0.35,0.6057,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tucker Kraft,4.5,Over,kalshi,144,-3.8,0.3943,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tucker Kraft,4.5,Under,kalshi,-170,-3.8,0.6057,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tucker Kraft,4.5,Under,hardrock,-175,-4.81,0.6057,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tucker Kraft,4.5,Over,hardrock,125,-11.29,0.3943,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tucker Kraft,4.5,Over,draftkings,121,-12.87,0.3943,kalshi,7,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tutu Atwell,1.5,Under,hardrock,115,-2.97,0.4513,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tutu Atwell,1.5,Over,kalshi,-133,-3.87,0.5487,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tutu Atwell,1.5,Under,kalshi,113,-3.87,0.4513,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tutu Atwell,1.5,Under,draftkings,112,-4.33,0.4513,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tutu Atwell,1.5,Under,fanduel,110,-5.23,0.4513,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tutu Atwell,1.5,Over,draftkings,-143,-6.76,0.5487,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tutu Atwell,1.5,Over,hardrock,-145,-7.29,0.5487,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tutu Atwell,1.5,Over,fanduel,-146,-7.55,0.5487,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tutu Atwell,2.5,Under,hardrock,-250,-3.17,0.6916,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tutu Atwell,2.5,Over,kalshi,203,-6.57,0.3084,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tutu Atwell,2.5,Under,kalshi,-285,-6.57,0.6916,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tutu Atwell,2.5,Over,hardrock,175,-15.2,0.3084,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,2.5,Over,kalshi,-245,-3.86,0.6827,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,2.5,Under,kalshi,203,-3.86,0.3173,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,2.5,Under,hardrock,195,-6.4,0.3173,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,2.5,Over,hardrock,-275,-6.9,0.6827,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,3.5,Under,draftkings,-108,-1.79,0.51,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,3.5,Over,kalshi,-104,-3.88,0.49,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,3.5,Under,kalshi,-113,-3.88,0.51,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,3.5,Under,fanduel,-114,-4.27,0.51,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,3.5,Under,hardrock,-115,-4.66,0.51,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,3.5,Over,fanduel,-114,-8.01,0.49,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,3.5,Over,hardrock,-115,-8.38,0.49,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,3.5,Over,draftkings,-118,-9.47,0.49,kalshi,8,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,4.5,Under,hardrock,-250,-3.13,0.6919,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,4.5,Over,kalshi,212,-3.88,0.3081,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,4.5,Under,kalshi,-257,-3.88,0.6919,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_receptions,Tyler Higbee,4.5,Over,hardrock,170,-16.82,0.3081,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Blake Corum,49.5,Under,hardrock,125,-2.26,0.4344,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Blake Corum,49.5,Over,kalshi,-150,-5.73,0.5656,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Blake Corum,49.5,Under,kalshi,117,-5.73,0.4344,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Blake Corum,49.5,Over,hardrock,-170,-10.17,0.5656,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Blake Corum,59.5,Over,kalshi,104,-4.73,0.467,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Blake Corum,59.5,Under,kalshi,-127,-4.73,0.533,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Blake Corum,59.5,Over,hardrock,100,-6.6,0.467,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Blake Corum,59.5,Under,hardrock,-135,-7.22,0.533,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Blake Corum,69.5,Over,kalshi,156,-4.81,0.3719,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Blake Corum,69.5,Under,kalshi,-194,-4.81,0.6281,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Blake Corum,69.5,Over,hardrock,155,-5.18,0.3719,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Blake Corum,69.5,Under,hardrock,-225,-9.27,0.6281,kalshi,3,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Jordan Love,9.5,Under,hardrock,-220,-4.4,0.6572,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Jordan Love,9.5,Over,kalshi,170,-7.45,0.3428,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Jordan Love,9.5,Under,kalshi,-245,-7.45,0.6572,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_rush_yds,Jordan Love,9.5,Over,hardrock,150,-14.31,0.3428,kalshi,4,68.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Caleb Williams,1.5,Under,draftkings,169,-2.61,0.3621,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Caleb Williams,1.5,Over,kalshi,-203,-4.78,0.6379,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Caleb Williams,1.5,Under,kalshi,163,-4.78,0.3621,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Caleb Williams,1.5,Under,fanduel,162,-5.14,0.3621,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Caleb Williams,1.5,Over,draftkings,-218,-6.94,0.6379,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Caleb Williams,1.5,Over,fanduel,-220,-7.21,0.6379,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Caleb Williams,1.5,Over,hardrock,-220,-7.21,0.6379,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Caleb Williams,1.5,Under,hardrock,155,-7.68,0.3621,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Caleb Williams,2.5,Over,kalshi,170,-4.84,0.3524,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Caleb Williams,2.5,Under,kalshi,-213,-4.84,0.6476,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Caleb Williams,2.5,Over,hardrock,165,-6.6,0.3524,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Caleb Williams,2.5,Under,hardrock,-240,-8.26,0.6476,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Jared Goff,1.5,Under,draftkings,164,-4.42,0.3621,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Jared Goff,1.5,Over,kalshi,-203,-4.78,0.6379,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Jared Goff,1.5,Under,kalshi,163,-4.78,0.3621,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Jared Goff,1.5,Over,fanduel,-210,-5.83,0.6379,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Jared Goff,1.5,Over,hardrock,-210,-5.83,0.6379,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Jared Goff,1.5,Over,draftkings,-212,-6.11,0.6379,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Jared Goff,1.5,Under,hardrock,155,-7.68,0.3621,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Jared Goff,1.5,Under,fanduel,154,-8.04,0.3621,kalshi,7,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Jared Goff,2.5,Over,kalshi,186,-4.7,0.3332,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Jared Goff,2.5,Under,kalshi,-233,-4.7,0.6668,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Jared Goff,2.5,Under,hardrock,-240,-5.54,0.6668,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_tds,Jared Goff,2.5,Over,hardrock,170,-10.03,0.3332,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_yds,Caleb Williams,249.5,Over,kalshi,-144,-4.85,0.5615,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_yds,Caleb Williams,249.5,Under,kalshi,117,-4.85,0.4385,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_yds,Caleb Williams,249.5,Over,hardrock,-145,-5.12,0.5615,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_yds,Caleb Williams,249.5,Under,hardrock,105,-10.11,0.4385,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_yds,Caleb Williams,274.5,Over,kalshi,127,-3.9,0.4234,kalshi,3,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_yds,Caleb Williams,274.5,Under,kalshi,-150,-3.9,0.5766,kalshi,3,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_yds,Jared Goff,274.5,Over,kalshi,-127,-6.48,0.5232,kalshi,5,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_yds,Jared Goff,274.5,Under,kalshi,-104,-6.48,0.4768,kalshi,5,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_yds,Jared Goff,274.5,Under,hardrock,-105,-6.92,0.4768,kalshi,5,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_yds,Jared Goff,274.5,Over,hardrock,-130,-7.43,0.5232,kalshi,5,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_yds,Jared Goff,299.5,Over,kalshi,144,-6.52,0.3831,kalshi,3,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_pass_yds,Jared Goff,299.5,Under,kalshi,-194,-6.52,0.6169,kalshi,3,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_reception_yds,Jahmyr Gibbs,49.5,Under,hardrock,-230,-1.55,0.6862,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_reception_yds,Jahmyr Gibbs,49.5,Over,kalshi,170,-15.27,0.3138,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_reception_yds,Jahmyr Gibbs,49.5,Under,kalshi,-426,-15.27,0.6862,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_reception_yds,Jahmyr Gibbs,49.5,Over,hardrock,165,-16.84,0.3138,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_rush_yds,Sione Vaki,9.5,Under,hardrock,-110,-2.75,0.5094,kalshi,6,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_rush_yds,Sione Vaki,9.5,Under,fanduel,-114,-4.37,0.5094,kalshi,6,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_rush_yds,Sione Vaki,9.5,Over,kalshi,-108,-5.52,0.4906,kalshi,6,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_rush_yds,Sione Vaki,9.5,Under,kalshi,-117,-5.52,0.5094,kalshi,6,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_rush_yds,Sione Vaki,9.5,Over,fanduel,-114,-7.91,0.4906,kalshi,6,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_rush_yds,Sione Vaki,9.5,Over,hardrock,-120,-10.06,0.4906,kalshi,6,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_rush_yds,Sione Vaki,14.5,Under,hardrock,-220,-4.4,0.6572,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_rush_yds,Sione Vaki,14.5,Over,kalshi,170,-7.45,0.3428,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_rush_yds,Sione Vaki,14.5,Under,kalshi,-245,-7.45,0.6572,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32695,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,player_rush_yds,Sione Vaki,14.5,Over,hardrock,155,-12.59,0.3428,kalshi,4,85.6
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Joe Milton III,0.5,Under,draftkings,203,2.01,0.3367,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Joe Milton III,0.5,Over,draftkings,-264,-8.54,0.6633,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Joe Milton III,0.5,Over,kalshi,-270,-9.1,0.6633,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Joe Milton III,0.5,Under,kalshi,170,-9.1,0.3367,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,DeVonta Smith,49.5,Under,hardrock,150,7.21,0.4289,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,DeVonta Smith,49.5,Over,kalshi,-178,-10.8,0.5711,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,DeVonta Smith,49.5,Under,kalshi,108,-10.8,0.4289,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,DeVonta Smith,49.5,Over,hardrock,-220,-16.92,0.5711,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,DeVonta Smith,59.5,Under,hardrock,100,1.9,0.5095,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,DeVonta Smith,59.5,Over,kalshi,-122,-10.74,0.4905,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,DeVonta Smith,59.5,Under,kalshi,-133,-10.74,0.5095,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,DeVonta Smith,59.5,Over,hardrock,-135,-14.62,0.4905,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Dak Prescott,1.5,Over,draftkings,-185,-4.09,0.6226,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Dak Prescott,1.5,Over,kalshi,-194,-5.65,0.6226,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Dak Prescott,1.5,Under,kalshi,150,-5.65,0.3774,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Dak Prescott,1.5,Under,draftkings,144,-7.91,0.3774,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Dak Prescott,2.5,Under,fanduel,-205,-4.52,0.6417,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Dak Prescott,2.5,Over,kalshi,156,-8.28,0.3583,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Dak Prescott,2.5,Under,kalshi,-233,-8.28,0.6417,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Dak Prescott,2.5,Over,fanduel,152,-9.72,0.3583,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Joe Milton III,1.5,Under,fanduel,-250,-4.08,0.6852,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Joe Milton III,1.5,Over,kalshi,194,-7.44,0.3148,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Joe Milton III,1.5,Under,kalshi,-285,-7.44,0.6852,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_pass_tds,Joe Milton III,1.5,Over,fanduel,182,-11.22,0.3148,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,CeeDee Lamb,79.5,Under,hardrock,110,-2.67,0.4635,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,CeeDee Lamb,79.5,Over,kalshi,-144,-9.09,0.5365,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,CeeDee Lamb,79.5,Under,kalshi,-104,-9.09,0.4635,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,CeeDee Lamb,79.5,Over,hardrock,-150,-10.58,0.5365,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,CeeDee Lamb,89.5,Over,hardrock,100,-4.52,0.4774,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,CeeDee Lamb,89.5,Under,hardrock,-135,-9.03,0.5226,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,CeeDee Lamb,89.5,Over,kalshi,-117,-11.45,0.4774,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,CeeDee Lamb,89.5,Under,kalshi,-144,-11.45,0.5226,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,CeeDee Lamb,99.5,Over,hardrock,140,-4.79,0.3967,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,CeeDee Lamb,99.5,Under,hardrock,-195,-8.73,0.6033,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,CeeDee Lamb,99.5,Over,kalshi,127,-9.95,0.3967,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,CeeDee Lamb,99.5,Under,kalshi,-203,-9.95,0.6033,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,19.5,Under,hardrock,200,-2.82,0.3239,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,19.5,Over,kalshi,-270,-7.35,0.6761,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,19.5,Under,kalshi,186,-7.35,0.3239,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,19.5,Over,hardrock,-275,-7.81,0.6761,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,24.5,Under,hardrock,140,-1.79,0.4092,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,24.5,Over,kalshi,-186,-9.16,0.5908,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,24.5,Under,kalshi,122,-9.16,0.4092,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,24.5,Over,hardrock,-200,-11.38,0.5908,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,29.5,Under,hardrock,100,-3.66,0.4817,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,29.5,Over,kalshi,-133,-9.2,0.5183,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,29.5,Under,kalshi,-113,-9.2,0.4817,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,29.5,Over,hardrock,-140,-11.15,0.5183,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,39.5,Under,hardrock,-175,-5.12,0.6038,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,39.5,Over,kalshi,138,-5.7,0.3962,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,39.5,Under,kalshi,-178,-5.7,0.6038,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Dallas Goedert,39.5,Over,hardrock,125,-10.85,0.3962,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,DeVonta Smith,69.5,Under,hardrock,-150,-1.94,0.5884,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,DeVonta Smith,69.5,Over,kalshi,127,-6.56,0.4116,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,DeVonta Smith,69.5,Under,kalshi,-170,-6.56,0.5884,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,DeVonta Smith,69.5,Over,hardrock,110,-13.55,0.4116,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,George Pickens,59.5,Under,hardrock,110,-3.8,0.4581,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,George Pickens,59.5,Over,kalshi,-138,-6.54,0.5419,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,George Pickens,59.5,Under,kalshi,104,-6.54,0.4581,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,George Pickens,59.5,Over,hardrock,-155,-10.85,0.5419,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,George Pickens,69.5,Over,hardrock,-105,-4.13,0.4911,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,George Pickens,69.5,Under,hardrock,-135,-11.41,0.5089,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,George Pickens,69.5,Over,kalshi,-127,-12.23,0.4911,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,George Pickens,69.5,Under,kalshi,-138,-12.23,0.5089,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,George Pickens,79.5,Under,hardrock,-195,-3.89,0.6353,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,George Pickens,79.5,Over,kalshi,156,-6.64,0.3647,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,George Pickens,79.5,Under,kalshi,-213,-6.64,0.6353,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,George Pickens,79.5,Over,hardrock,140,-12.48,0.3647,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Javonte Williams,9.5,Under,draftkings,-110,-2.73,0.5095,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Javonte Williams,9.5,Under,hardrock,-115,-4.75,0.5095,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Javonte Williams,9.5,Over,draftkings,-114,-7.92,0.4905,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Javonte Williams,9.5,Over,hardrock,-115,-8.3,0.4905,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Javonte Williams,9.5,Over,kalshi,-122,-10.74,0.4905,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Javonte Williams,9.5,Under,kalshi,-133,-10.74,0.5095,kalshi,4,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,19.5,Over,hardrock,-250,-6.69,0.6665,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,19.5,Under,hardrock,175,-8.29,0.3335,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,19.5,Over,kalshi,-285,-9.96,0.6665,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,19.5,Under,kalshi,170,-9.96,0.3335,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,24.5,Over,hardrock,-175,-7.16,0.5908,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,24.5,Under,hardrock,125,-7.93,0.4092,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,24.5,Over,kalshi,-186,-9.16,0.5908,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,24.5,Under,kalshi,122,-9.16,0.4092,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,29.5,Over,kalshi,-122,-6.44,0.5142,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,29.5,Under,kalshi,-108,-6.44,0.4858,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,29.5,Under,hardrock,-110,-7.25,0.4858,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,29.5,Over,hardrock,-130,-9.03,0.5142,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,39.5,Over,hardrock,135,-4.66,0.4057,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,39.5,Under,hardrock,-190,-9.29,0.5943,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,39.5,Over,kalshi,122,-9.94,0.4057,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_reception_yds,Ryan Flournoy,39.5,Under,kalshi,-194,-9.94,0.5943,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_rush_yds,Javonte Williams,59.5,Under,hardrock,155,-1.72,0.3854,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_rush_yds,Javonte Williams,59.5,Over,kalshi,-203,-8.27,0.6146,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_rush_yds,Javonte Williams,59.5,Under,kalshi,138,-8.27,0.3854,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_rush_yds,Javonte Williams,59.5,Over,hardrock,-225,-11.23,0.6146,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_rush_yds,Javonte Williams,69.5,Under,hardrock,100,-1.85,0.4908,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_rush_yds,Javonte Williams,69.5,Over,kalshi,-127,-8.98,0.5092,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_rush_yds,Javonte Williams,69.5,Under,kalshi,-117,-8.98,0.4908,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_rush_yds,Javonte Williams,69.5,Over,hardrock,-135,-11.35,0.5092,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_rush_yds,Javonte Williams,79.5,Under,hardrock,-155,-6.32,0.5694,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_rush_yds,Javonte Williams,79.5,Over,kalshi,117,-6.56,0.4306,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_rush_yds,Javonte Williams,79.5,Under,kalshi,-156,-6.56,0.5694,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32688,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,player_rush_yds,Javonte Williams,79.5,Over,hardrock,115,-7.42,0.4306,kalshi,3,89.1
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,19.5,Under,hardrock,250,10.19,0.3148,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,19.5,Over,kalshi,-285,-7.44,0.6852,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,19.5,Under,kalshi,194,-7.44,0.3148,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,19.5,Over,hardrock,-400,-14.35,0.6852,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,24.5,Under,hardrock,165,11.54,0.4209,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,24.5,Over,kalshi,-163,-6.56,0.5791,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,24.5,Under,kalshi,122,-6.56,0.4209,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,24.5,Over,hardrock,-230,-16.91,0.5791,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Josh Allen,1.5,Over,kalshi,-108,-3.7,0.5,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Josh Allen,1.5,Under,kalshi,-108,-3.7,0.5,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Josh Allen,1.5,Over,fanduel,-110,-4.55,0.5,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Josh Allen,1.5,Under,draftkings,-112,-5.36,0.5,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Josh Allen,1.5,Over,draftkings,-114,-6.14,0.5,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Josh Allen,1.5,Over,hardrock,-115,-6.52,0.5,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Josh Allen,1.5,Under,hardrock,-115,-6.52,0.5,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Josh Allen,1.5,Under,fanduel,-120,-8.33,0.5,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Over,kalshi,-138,-4.7,0.5526,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Under,kalshi,113,-4.7,0.4474,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Over,draftkings,-139,-4.99,0.5526,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Over,fanduel,-140,-5.27,0.5526,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Over,hardrock,-140,-5.27,0.5526,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Under,hardrock,110,-6.04,0.4474,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Under,draftkings,109,-6.49,0.4474,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_pass_tds,Patrick Mahomes,1.5,Under,fanduel,106,-7.83,0.4474,kalshi,6,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,24.5,Under,hardrock,170,-0.56,0.3683,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,24.5,Over,kalshi,-203,-5.71,0.6317,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,24.5,Under,kalshi,156,-5.71,0.3683,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,24.5,Over,hardrock,-240,-10.51,0.6317,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,29.5,Under,hardrock,125,-5.3,0.4209,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,29.5,Over,kalshi,-163,-6.56,0.5791,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,29.5,Under,kalshi,122,-6.56,0.4209,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,29.5,Over,hardrock,-170,-8.02,0.5791,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,39.5,Under,hardrock,-140,-5.53,0.5511,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,39.5,Over,kalshi,108,-6.62,0.4489,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,39.5,Under,kalshi,-144,-6.62,0.5511,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,39.5,Over,hardrock,100,-10.21,0.4489,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,49.5,Under,hardrock,-225,-3.25,0.6698,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,49.5,Over,kalshi,178,-8.21,0.3302,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,49.5,Under,kalshi,-270,-8.21,0.6698,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Khalil Shakir,49.5,Over,hardrock,160,-14.15,0.3302,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Rashee Rice,39.5,Under,hardrock,145,-6.13,0.3831,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Rashee Rice,39.5,Over,kalshi,-194,-6.52,0.6169,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Rashee Rice,39.5,Under,kalshi,144,-6.52,0.3831,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Rashee Rice,39.5,Over,hardrock,-200,-7.47,0.6169,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Rashee Rice,49.5,Over,kalshi,-113,-4.74,0.5054,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Rashee Rice,49.5,Under,kalshi,-108,-4.74,0.4946,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Rashee Rice,49.5,Under,hardrock,-110,-5.57,0.4946,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Rashee Rice,49.5,Over,hardrock,-125,-9.03,0.5054,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Rashee Rice,59.5,Under,hardrock,-180,-4.04,0.6169,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Rashee Rice,59.5,Over,kalshi,144,-6.52,0.3831,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Rashee Rice,59.5,Under,kalshi,-194,-6.52,0.6169,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Rashee Rice,59.5,Over,hardrock,125,-13.8,0.3831,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,29.5,Over,kalshi,-285,-6.57,0.6916,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,29.5,Under,kalshi,203,-6.57,0.3084,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,39.5,Under,hardrock,125,-3.12,0.4306,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,39.5,Over,kalshi,-156,-6.56,0.5694,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,39.5,Under,kalshi,117,-6.56,0.4306,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,39.5,Over,hardrock,-175,-10.52,0.5694,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,49.5,Under,hardrock,-130,-3.28,0.5467,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,49.5,Over,kalshi,108,-5.71,0.4533,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,49.5,Under,kalshi,-138,-5.71,0.5467,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,49.5,Over,hardrock,-105,-11.5,0.4533,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,59.5,Under,hardrock,-210,-3.92,0.6508,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,59.5,Over,kalshi,170,-5.73,0.3492,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,59.5,Under,kalshi,-223,-5.73,0.6508,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Travis Kelce,59.5,Over,hardrock,150,-12.71,0.3492,kalshi,3,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,14.5,Under,hardrock,185,-5.04,0.3332,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,14.5,Over,kalshi,-257,-7.37,0.6668,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,14.5,Under,kalshi,178,-7.37,0.3332,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,14.5,Over,hardrock,-260,-7.67,0.6668,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,19.5,Over,kalshi,-163,-5.69,0.5845,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,19.5,Under,kalshi,127,-5.69,0.4155,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,19.5,Under,hardrock,125,-6.52,0.4155,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,19.5,Over,hardrock,-175,-8.15,0.5845,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,24.5,Over,kalshi,-113,-4.74,0.5054,kalshi,5,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,24.5,Under,kalshi,-108,-4.74,0.4946,kalshi,5,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,24.5,Over,fanduel,-114,-5.13,0.5054,kalshi,5,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,24.5,Under,hardrock,-110,-5.57,0.4946,kalshi,5,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,24.5,Under,fanduel,-114,-7.15,0.4946,kalshi,5,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,24.5,Over,hardrock,-125,-9.03,0.5054,kalshi,5,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,29.5,Under,hardrock,-150,-4.41,0.5735,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,29.5,Over,kalshi,117,-7.46,0.4265,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,29.5,Under,kalshi,-163,-7.46,0.5735,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_reception_yds,Xavier Worthy,29.5,Over,hardrock,115,-8.31,0.4265,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,29.5,Under,hardrock,110,-1.93,0.467,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,29.5,Over,kalshi,-127,-4.73,0.533,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,29.5,Under,kalshi,104,-4.73,0.467,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,29.5,Over,hardrock,-155,-12.31,0.533,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,39.5,Under,hardrock,-185,-3.54,0.6262,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,39.5,Over,kalshi,150,-6.54,0.3738,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,39.5,Under,kalshi,-203,-6.54,0.6262,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,39.5,Over,hardrock,130,-14.02,0.3738,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,9.5,Under,hardrock,125,-4.91,0.4226,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,9.5,Over,kalshi,-170,-8.3,0.5774,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,9.5,Under,kalshi,117,-8.3,0.4226,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,9.5,Over,hardrock,-180,-10.18,0.5774,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,14.5,Over,kalshi,127,-2.98,0.4274,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,14.5,Under,kalshi,-144,-2.98,0.5726,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,14.5,Under,hardrock,-145,-3.25,0.5726,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,14.5,Over,hardrock,105,-12.38,0.4274,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,19.5,Under,hardrock,-250,-5.78,0.673,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,19.5,Over,kalshi,178,-9.09,0.327,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,19.5,Under,kalshi,-285,-9.09,0.673,kalshi,4,92.9
+2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Patrick Mahomes,19.5,Over,hardrock,175,-10.07,0.327,kalshi,4,92.9
