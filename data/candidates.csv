@@ -7746,3 +7746,5 @@ ts,sport,event_id,commence_time,home,away,market,player,point,side,book,price,ev
 2026-11-23T04:23:49Z,football_nfl,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,player_reception_yds,Davis Allen,14.5,Under,hardrock,-170,3.11,0.6492,kalshi,4,68.6,True,ev +3.1 fair 0.649 kalshi 4b
 2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,19.5,Under,hardrock,250,10.19,0.3148,kalshi,4,92.9,True,ev +10.2 fair 0.315 kalshi 4b
 2026-11-23T04:23:49Z,football_nfl,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,player_rush_yds,Josh Allen,24.5,Under,hardrock,165,11.54,0.4209,kalshi,4,92.9,True,ev +11.5 fair 0.421 kalshi 4b
+2026-11-23T11:00:01Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_pass_completions,Joe Burrow,27.5,Under,fanatics,-105,3.17,0.5284,pinnacle,8,14.2,False,ev +3.2 fair 0.528 pinnacle 8b
+2026-11-23T11:00:01Z,football_nfl,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,player_receptions,Treylon Burks,2.5,Over,kalshi,156,4.04,0.4064,pinnacle,13,14.2,False,ev +4.0 fair 0.406 pinnacle 13b
