@@ -898,3 +898,4 @@ ts,snapshot_ts,board_date,week_key,event_id,commence_time,home,away,hours_to_kic
 2026-11-23T16:42:12Z,2026-11-23T16:41:20Z,2026-11-23,2026-11-23,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,8.55,fresh,788,3,0,3,12996,0,24,36,,fresh
 2026-11-23T22:49:06Z,2026-11-23T22:48:34Z,2026-11-23,2026-11-23,726376,2026-11-24T01:15:00Z,Washington Commanders,Cincinnati Bengals,2.43,fresh,888,4,0,5,12934,0,30,44,,fresh
 2026-11-24T16:38:27Z,2026-11-24T16:37:31Z,2026-11-24,2026-11-23,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,32.36,refreshed,856,4,0,6,5888,0,14,20,,fresh
+2026-11-25T01:43:07Z,2026-11-25T01:42:20Z,2026-11-24,2026-11-23,32694,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,23.28,fresh,860,4,0,6,6026,0,14,12,,fresh
