@@ -625,3 +625,4 @@ ts,phase,status,events,rows,api_calls,api_remaining,note
 2026-11-27T01:16:05Z,research,ok,0,0,4,4913,legacy_auto=True; sgp_obs=1
 2026-11-27T02:20:56Z,capture,ok,1,187,4,4812,hours_before=30.0; shadow=22; e1=0
 2026-11-27T02:21:01Z,research,ok,0,0,0,,legacy_auto=False; sgp_obs=1
+2026-11-27T15:45:35Z,capture,ok,12,10099,87,4733,hours_before=144; shadow=22; e1=21
