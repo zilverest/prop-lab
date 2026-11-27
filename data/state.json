@@ -3232,8 +3232,8 @@
   "fanduel|88481|88481/player_rush_reception_yds/Emmett Johnson/25.5/Over|88481/player_rush_yds/Patrick Mahomes/9.5/Under": "2026-11-12T22:58:54Z"
  },
  "sgp_roster_cache": {
-  "downloaded_at": "2026-11-26T01:18:44Z",
-  "rows": 3371,
+  "downloaded_at": "2026-11-27T02:20:59Z",
+  "rows": 3376,
   "season": 2026,
   "source": "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_2026.csv"
  },

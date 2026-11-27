@@ -917,3 +917,4 @@ ts,snapshot_ts,board_date,week_key,event_id,commence_time,home,away,hours_to_kic
 2026-11-26T19:13:20Z,2026-11-26T19:12:51Z,2026-11-26,2026-11-23,32696,2026-11-27T01:15:00Z,Buffalo Bills,Kansas City Chiefs,6.03,fresh,834,5,0,10,10244,0,32,34,,fresh
 2026-11-26T19:13:20Z,2026-11-26T19:12:51Z,2026-11-26,2026-11-23,32701,2026-11-27T20:01:00Z,Pittsburgh Steelers,Denver Broncos,24.79,fresh,826,4,0,6,12928,0,18,18,,fresh
 2026-11-27T01:15:58Z,2026-11-27T01:14:19Z,2026-11-26,2026-11-23,32701,2026-11-27T20:01:00Z,Pittsburgh Steelers,Denver Broncos,18.75,fresh,836,7,0,20,13700,0,18,10,,fresh
+2026-11-27T02:20:59Z,2026-11-27T02:20:34Z,2026-11-26,2026-11-23,32701,2026-11-27T20:01:00Z,Pittsburgh Steelers,Denver Broncos,17.67,refreshed,836,6,0,14,13700,0,18,10,,fresh
